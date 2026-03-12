@@ -1,0 +1,44 @@
+name: Generate Winnipeg Jets Player Rookie Cards Dataset
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - 'data/wpg_players.json'
+      - 'data/wpg_player_rookie_cards.json'
+      - 'scripts/generate_wpg_player_rookie_cards.py'
+      - '.github/workflows/generate-wpg-player-rookie-cards.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  generate-dataset:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v5
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+
+      - name: Generate rookie card dataset
+        run: python scripts/generate_wpg_player_rookie_cards.py
+
+      - name: Commit dataset changes
+        run: |
+          if git diff --quiet -- data/wpg_player_rookie_cards.json; then
+            echo "No dataset changes to commit."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/wpg_player_rookie_cards.json
+          git commit -m "chore: update Winnipeg Jets player rookie cards dataset"
+          git push

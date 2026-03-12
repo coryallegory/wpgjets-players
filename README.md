@@ -1,6 +1,6 @@
 # Winnipeg Jets Players Dataset
 
-This project maintains a source-controlled JSON dataset of **every player who has appeared in at least one game for the Winnipeg Jets (`WPG`)**, including both:
+This project maintains a source-controlled JSON dataset of **every player who has appeared in at least one game for Winnipeg Jets franchise records (`WPG` + `WIN`)**, including both:
 
 - skaters
 - goalies
@@ -45,7 +45,7 @@ The table is rendered in JavaScript (`app.js`) so the website does not duplicate
 
 The generator script:
 
-- gets all available Winnipeg seasons from `club-stats-season/WPG`
+- gets all available Winnipeg seasons from both `club-stats-season/WPG` (Jets 2.0) and `club-stats-season/WIN` (Jets 1.0)
 - fetches season stats for game types:
   - `2` (regular season)
   - `3` (playoffs)

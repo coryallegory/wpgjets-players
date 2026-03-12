@@ -1,5 +1,19 @@
 [
   {
+    "playerId": 8445725,
+    "playerName": "Aaron Broten",
+    "position": "C",
+    "seasons": [
+      {
+        "season": 19911992,
+        "gamesPlayedRegularSeason": 25,
+        "gamesPlayedPlayoffs": 7
+      }
+    ],
+    "gamesPlayedRegularSeason": 25,
+    "gamesPlayedPlayoffs": 7
+  },
+  {
     "playerId": 8471451,
     "playerName": "Aaron Gagnon",
     "position": "C",
@@ -126,6 +140,25 @@
     "gamesPlayedPlayoffs": 2
   },
   {
+    "playerId": 8445877,
+    "playerName": "Al Cameron",
+    "position": "D",
+    "seasons": [
+      {
+        "season": 19791980,
+        "gamesPlayedRegularSeason": 63,
+        "gamesPlayedPlayoffs": 0
+      },
+      {
+        "season": 19801981,
+        "gamesPlayedRegularSeason": 29,
+        "gamesPlayedPlayoffs": 0
+      }
+    ],
+    "gamesPlayedRegularSeason": 92,
+    "gamesPlayedPlayoffs": 0
+  },
+  {
     "playerId": 8471219,
     "playerName": "Al Montoya",
     "position": "G",
@@ -142,6 +175,34 @@
       }
     ],
     "gamesPlayedRegularSeason": 35,
+    "gamesPlayedPlayoffs": 0
+  },
+  {
+    "playerId": 8446052,
+    "playerName": "Alain Chevrier",
+    "position": "G",
+    "seasons": [
+      {
+        "season": 19881989,
+        "gamesPlayedRegularSeason": 22,
+        "gamesPlayedPlayoffs": 0
+      }
+    ],
+    "gamesPlayedRegularSeason": 22,
+    "gamesPlayedPlayoffs": 0
+  },
+  {
+    "playerId": 8448467,
+    "playerName": "Alan Kerr",
+    "position": "R",
+    "seasons": [
+      {
+        "season": 19921993,
+        "gamesPlayedRegularSeason": 7,
+        "gamesPlayedPlayoffs": 0
+      }
+    ],
+    "gamesPlayedRegularSeason": 7,
     "gamesPlayedPlayoffs": 0
   },
   {
@@ -209,6 +270,82 @@
       }
     ],
     "gamesPlayedRegularSeason": 12,
+    "gamesPlayedPlayoffs": 0
+  },
+  {
+    "playerId": 8458487,
+    "playerName": "Alexei Zhamnov",
+    "position": "C",
+    "seasons": [
+      {
+        "season": 19921993,
+        "gamesPlayedRegularSeason": 68,
+        "gamesPlayedPlayoffs": 6
+      },
+      {
+        "season": 19931994,
+        "gamesPlayedRegularSeason": 61,
+        "gamesPlayedPlayoffs": 0
+      },
+      {
+        "season": 19941995,
+        "gamesPlayedRegularSeason": 48,
+        "gamesPlayedPlayoffs": 0
+      },
+      {
+        "season": 19951996,
+        "gamesPlayedRegularSeason": 58,
+        "gamesPlayedPlayoffs": 6
+      }
+    ],
+    "gamesPlayedRegularSeason": 235,
+    "gamesPlayedPlayoffs": 12
+  },
+  {
+    "playerId": 8451981,
+    "playerName": "Alfie Turcotte",
+    "position": "C",
+    "seasons": [
+      {
+        "season": 19871988,
+        "gamesPlayedRegularSeason": 3,
+        "gamesPlayedPlayoffs": 0
+      },
+      {
+        "season": 19881989,
+        "gamesPlayedRegularSeason": 14,
+        "gamesPlayedPlayoffs": 0
+      }
+    ],
+    "gamesPlayedRegularSeason": 17,
+    "gamesPlayedPlayoffs": 0
+  },
+  {
+    "playerId": 8459359,
+    "playerName": "Anatoli Fedotov",
+    "position": "D",
+    "seasons": [
+      {
+        "season": 19921993,
+        "gamesPlayedRegularSeason": 1,
+        "gamesPlayedPlayoffs": 0
+      }
+    ],
+    "gamesPlayedRegularSeason": 1,
+    "gamesPlayedPlayoffs": 0
+  },
+  {
+    "playerId": 8451691,
+    "playerName": "Anders Steen",
+    "position": "C",
+    "seasons": [
+      {
+        "season": 19801981,
+        "gamesPlayedRegularSeason": 42,
+        "gamesPlayedPlayoffs": 0
+      }
+    ],
+    "gamesPlayedRegularSeason": 42,
     "gamesPlayedPlayoffs": 0
   },
   {
@@ -309,6 +446,78 @@
     "gamesPlayedPlayoffs": 4
   },
   {
+    "playerId": 8449326,
+    "playerName": "Andrew Mcbain",
+    "position": "R",
+    "seasons": [
+      {
+        "season": 19831984,
+        "gamesPlayedRegularSeason": 78,
+        "gamesPlayedPlayoffs": 3
+      },
+      {
+        "season": 19841985,
+        "gamesPlayedRegularSeason": 77,
+        "gamesPlayedPlayoffs": 7
+      },
+      {
+        "season": 19851986,
+        "gamesPlayedRegularSeason": 28,
+        "gamesPlayedPlayoffs": 0
+      },
+      {
+        "season": 19861987,
+        "gamesPlayedRegularSeason": 71,
+        "gamesPlayedPlayoffs": 9
+      },
+      {
+        "season": 19871988,
+        "gamesPlayedRegularSeason": 74,
+        "gamesPlayedPlayoffs": 5
+      },
+      {
+        "season": 19881989,
+        "gamesPlayedRegularSeason": 80,
+        "gamesPlayedPlayoffs": 0
+      }
+    ],
+    "gamesPlayedRegularSeason": 408,
+    "gamesPlayedPlayoffs": 24
+  },
+  {
+    "playerId": 8445683,
+    "playerName": "Andy Brickley",
+    "position": "L",
+    "seasons": [
+      {
+        "season": 19921993,
+        "gamesPlayedRegularSeason": 12,
+        "gamesPlayedPlayoffs": 1
+      },
+      {
+        "season": 19931994,
+        "gamesPlayedRegularSeason": 2,
+        "gamesPlayedPlayoffs": 0
+      }
+    ],
+    "gamesPlayedRegularSeason": 14,
+    "gamesPlayedPlayoffs": 1
+  },
+  {
+    "playerId": 8449540,
+    "playerName": "Anssi Melametsa",
+    "position": "R",
+    "seasons": [
+      {
+        "season": 19851986,
+        "gamesPlayedRegularSeason": 27,
+        "gamesPlayedPlayoffs": 0
+      }
+    ],
+    "gamesPlayedRegularSeason": 27,
+    "gamesPlayedPlayoffs": 0
+  },
+  {
     "playerId": 8475868,
     "playerName": "Anthony Bitetto",
     "position": "D",
@@ -320,6 +529,20 @@
       }
     ],
     "gamesPlayedRegularSeason": 51,
+    "gamesPlayedPlayoffs": 0
+  },
+  {
+    "playerId": 8448381,
+    "playerName": "Anthony Joseph",
+    "position": "R",
+    "seasons": [
+      {
+        "season": 19881989,
+        "gamesPlayedRegularSeason": 2,
+        "gamesPlayedPlayoffs": 0
+      }
+    ],
+    "gamesPlayedRegularSeason": 2,
     "gamesPlayedPlayoffs": 0
   },
   {
@@ -371,6 +594,25 @@
     "gamesPlayedPlayoffs": 0
   },
   {
+    "playerId": 8455629,
+    "playerName": "Arto Blomsten",
+    "position": "D",
+    "seasons": [
+      {
+        "season": 19931994,
+        "gamesPlayedRegularSeason": 18,
+        "gamesPlayedPlayoffs": 0
+      },
+      {
+        "season": 19941995,
+        "gamesPlayedRegularSeason": 1,
+        "gamesPlayedPlayoffs": 0
+      }
+    ],
+    "gamesPlayedRegularSeason": 19,
+    "gamesPlayedPlayoffs": 0
+  },
+  {
     "playerId": 8473459,
     "playerName": "Arturs Kulda",
     "position": "D",
@@ -416,6 +658,63 @@
     ],
     "gamesPlayedRegularSeason": 76,
     "gamesPlayedPlayoffs": 2
+  },
+  {
+    "playerId": 8448745,
+    "playerName": "Barry Legge",
+    "position": "D",
+    "seasons": [
+      {
+        "season": 19801981,
+        "gamesPlayedRegularSeason": 38,
+        "gamesPlayedPlayoffs": 0
+      },
+      {
+        "season": 19811982,
+        "gamesPlayedRegularSeason": 38,
+        "gamesPlayedPlayoffs": 0
+      }
+    ],
+    "gamesPlayedRegularSeason": 76,
+    "gamesPlayedPlayoffs": 0
+  },
+  {
+    "playerId": 8448876,
+    "playerName": "Barry Long",
+    "position": "D",
+    "seasons": [
+      {
+        "season": 19801981,
+        "gamesPlayedRegularSeason": 65,
+        "gamesPlayedPlayoffs": 0
+      },
+      {
+        "season": 19811982,
+        "gamesPlayedRegularSeason": 5,
+        "gamesPlayedPlayoffs": 0
+      }
+    ],
+    "gamesPlayedRegularSeason": 70,
+    "gamesPlayedPlayoffs": 0
+  },
+  {
+    "playerId": 8449555,
+    "playerName": "Barry Melrose",
+    "position": "D",
+    "seasons": [
+      {
+        "season": 19791980,
+        "gamesPlayedRegularSeason": 74,
+        "gamesPlayedPlayoffs": 0
+      },
+      {
+        "season": 19801981,
+        "gamesPlayedRegularSeason": 18,
+        "gamesPlayedPlayoffs": 0
+      }
+    ],
+    "gamesPlayedRegularSeason": 92,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 8475279,
@@ -468,6 +767,87 @@
       }
     ],
     "gamesPlayedRegularSeason": 9,
+    "gamesPlayedPlayoffs": 0
+  },
+  {
+    "playerId": 8448860,
+    "playerName": "Bengt Lundholm",
+    "position": "L",
+    "seasons": [
+      {
+        "season": 19811982,
+        "gamesPlayedRegularSeason": 66,
+        "gamesPlayedPlayoffs": 4
+      },
+      {
+        "season": 19821983,
+        "gamesPlayedRegularSeason": 58,
+        "gamesPlayedPlayoffs": 3
+      },
+      {
+        "season": 19831984,
+        "gamesPlayedRegularSeason": 57,
+        "gamesPlayedPlayoffs": 0
+      },
+      {
+        "season": 19841985,
+        "gamesPlayedRegularSeason": 78,
+        "gamesPlayedPlayoffs": 5
+      },
+      {
+        "season": 19851986,
+        "gamesPlayedRegularSeason": 16,
+        "gamesPlayedPlayoffs": 2
+      }
+    ],
+    "gamesPlayedRegularSeason": 275,
+    "gamesPlayedPlayoffs": 14
+  },
+  {
+    "playerId": 8446363,
+    "playerName": "Bill Derlago",
+    "position": "C",
+    "seasons": [
+      {
+        "season": 19851986,
+        "gamesPlayedRegularSeason": 27,
+        "gamesPlayedPlayoffs": 3
+      },
+      {
+        "season": 19861987,
+        "gamesPlayedRegularSeason": 30,
+        "gamesPlayedPlayoffs": 0
+      }
+    ],
+    "gamesPlayedRegularSeason": 57,
+    "gamesPlayedPlayoffs": 3
+  },
+  {
+    "playerId": 8448804,
+    "playerName": "Bill Lesuk",
+    "position": "R",
+    "seasons": [
+      {
+        "season": 19791980,
+        "gamesPlayedRegularSeason": 49,
+        "gamesPlayedPlayoffs": 0
+      }
+    ],
+    "gamesPlayedRegularSeason": 49,
+    "gamesPlayedPlayoffs": 0
+  },
+  {
+    "playerId": 8450843,
+    "playerName": "Bill Riley",
+    "position": "R",
+    "seasons": [
+      {
+        "season": 19791980,
+        "gamesPlayedRegularSeason": 14,
+        "gamesPlayedPlayoffs": 0
+      }
+    ],
+    "gamesPlayedRegularSeason": 14,
     "gamesPlayedPlayoffs": 0
   },
   {
@@ -538,6 +918,193 @@
     ],
     "gamesPlayedRegularSeason": 874,
     "gamesPlayedPlayoffs": 44
+  },
+  {
+    "playerId": 8446719,
+    "playerName": "Bob Essensa",
+    "position": "G",
+    "seasons": [
+      {
+        "season": 19881989,
+        "gamesPlayedRegularSeason": 20,
+        "gamesPlayedPlayoffs": 0
+      },
+      {
+        "season": 19891990,
+        "gamesPlayedRegularSeason": 36,
+        "gamesPlayedPlayoffs": 4
+      },
+      {
+        "season": 19901991,
+        "gamesPlayedRegularSeason": 55,
+        "gamesPlayedPlayoffs": 0
+      },
+      {
+        "season": 19911992,
+        "gamesPlayedRegularSeason": 47,
+        "gamesPlayedPlayoffs": 1
+      },
+      {
+        "season": 19921993,
+        "gamesPlayedRegularSeason": 67,
+        "gamesPlayedPlayoffs": 6
+      },
+      {
+        "season": 19931994,
+        "gamesPlayedRegularSeason": 56,
+        "gamesPlayedPlayoffs": 0
+      }
+    ],
+    "gamesPlayedRegularSeason": 281,
+    "gamesPlayedPlayoffs": 11
+  },
+  {
+    "playerId": 8448374,
+    "playerName": "Bob Joyce",
+    "position": "L",
+    "seasons": [
+      {
+        "season": 19911992,
+        "gamesPlayedRegularSeason": 1,
+        "gamesPlayedPlayoffs": 0
+      },
+      {
+        "season": 19921993,
+        "gamesPlayedRegularSeason": 1,
+        "gamesPlayedPlayoffs": 0
+      }
+    ],
+    "gamesPlayedRegularSeason": 2,
+    "gamesPlayedPlayoffs": 0
+  },
+  {
+    "playerId": 8446435,
+    "playerName": "Bobby Dollas",
+    "position": "D",
+    "seasons": [
+      {
+        "season": 19831984,
+        "gamesPlayedRegularSeason": 1,
+        "gamesPlayedPlayoffs": 0
+      },
+      {
+        "season": 19841985,
+        "gamesPlayedRegularSeason": 9,
+        "gamesPlayedPlayoffs": 0
+      },
+      {
+        "season": 19851986,
+        "gamesPlayedRegularSeason": 46,
+        "gamesPlayedPlayoffs": 3
+      }
+    ],
+    "gamesPlayedRegularSeason": 56,
+    "gamesPlayedPlayoffs": 3
+  },
+  {
+    "playerId": 8447419,
+    "playerName": "Bobby Guindon",
+    "position": "C",
+    "seasons": [
+      {
+        "season": 19791980,
+        "gamesPlayedRegularSeason": 6,
+        "gamesPlayedPlayoffs": 0
+      }
+    ],
+    "gamesPlayedRegularSeason": 6,
+    "gamesPlayedPlayoffs": 0
+  },
+  {
+    "playerId": 8448108,
+    "playerName": "Bobby Hull",
+    "position": "L",
+    "seasons": [
+      {
+        "season": 19791980,
+        "gamesPlayedRegularSeason": 18,
+        "gamesPlayedPlayoffs": 0
+      }
+    ],
+    "gamesPlayedRegularSeason": 18,
+    "gamesPlayedPlayoffs": 0
+  },
+  {
+    "playerId": 8458963,
+    "playerName": "Boris Mironov",
+    "position": "D",
+    "seasons": [
+      {
+        "season": 19931994,
+        "gamesPlayedRegularSeason": 65,
+        "gamesPlayedPlayoffs": 0
+      }
+    ],
+    "gamesPlayedRegularSeason": 65,
+    "gamesPlayedPlayoffs": 0
+  },
+  {
+    "playerId": 8445443,
+    "playerName": "Brad Berry",
+    "position": "D",
+    "seasons": [
+      {
+        "season": 19851986,
+        "gamesPlayedRegularSeason": 13,
+        "gamesPlayedPlayoffs": 3
+      },
+      {
+        "season": 19861987,
+        "gamesPlayedRegularSeason": 52,
+        "gamesPlayedPlayoffs": 7
+      },
+      {
+        "season": 19871988,
+        "gamesPlayedRegularSeason": 48,
+        "gamesPlayedPlayoffs": 0
+      },
+      {
+        "season": 19881989,
+        "gamesPlayedRegularSeason": 38,
+        "gamesPlayedPlayoffs": 0
+      },
+      {
+        "season": 19891990,
+        "gamesPlayedRegularSeason": 12,
+        "gamesPlayedPlayoffs": 1
+      }
+    ],
+    "gamesPlayedRegularSeason": 163,
+    "gamesPlayedPlayoffs": 11
+  },
+  {
+    "playerId": 8448366,
+    "playerName": "Brad Jones",
+    "position": "L",
+    "seasons": [
+      {
+        "season": 19861987,
+        "gamesPlayedRegularSeason": 4,
+        "gamesPlayedPlayoffs": 0
+      },
+      {
+        "season": 19871988,
+        "gamesPlayedRegularSeason": 19,
+        "gamesPlayedPlayoffs": 1
+      },
+      {
+        "season": 19881989,
+        "gamesPlayedRegularSeason": 22,
+        "gamesPlayedPlayoffs": 0
+      },
+      {
+        "season": 19891990,
+        "gamesPlayedRegularSeason": 2,
+        "gamesPlayedPlayoffs": 0
+      }
+    ],
+    "gamesPlayedRegularSeason": 47,
+    "gamesPlayedPlayoffs": 1
   },
   {
     "playerId": 8483471,
@@ -641,6 +1208,73 @@
     "gamesPlayedPlayoffs": 8
   },
   {
+    "playerId": 8445118,
+    "playerName": "Brent Ashton",
+    "position": "L",
+    "seasons": [
+      {
+        "season": 19881989,
+        "gamesPlayedRegularSeason": 75,
+        "gamesPlayedPlayoffs": 0
+      },
+      {
+        "season": 19891990,
+        "gamesPlayedRegularSeason": 79,
+        "gamesPlayedPlayoffs": 7
+      },
+      {
+        "season": 19901991,
+        "gamesPlayedRegularSeason": 61,
+        "gamesPlayedPlayoffs": 0
+      },
+      {
+        "season": 19911992,
+        "gamesPlayedRegularSeason": 7,
+        "gamesPlayedPlayoffs": 0
+      }
+    ],
+    "gamesPlayedRegularSeason": 222,
+    "gamesPlayedPlayoffs": 7
+  },
+  {
+    "playerId": 8448053,
+    "playerName": "Brent Hughes",
+    "position": "L",
+    "seasons": [
+      {
+        "season": 19881989,
+        "gamesPlayedRegularSeason": 28,
+        "gamesPlayedPlayoffs": 0
+      },
+      {
+        "season": 19891990,
+        "gamesPlayedRegularSeason": 11,
+        "gamesPlayedPlayoffs": 0
+      }
+    ],
+    "gamesPlayedRegularSeason": 39,
+    "gamesPlayedPlayoffs": 0
+  },
+  {
+    "playerId": 8458212,
+    "playerName": "Brent Thompson",
+    "position": "D",
+    "seasons": [
+      {
+        "season": 19941995,
+        "gamesPlayedRegularSeason": 29,
+        "gamesPlayedPlayoffs": 0
+      },
+      {
+        "season": 19951996,
+        "gamesPlayedRegularSeason": 10,
+        "gamesPlayedPlayoffs": 0
+      }
+    ],
+    "gamesPlayedRegularSeason": 39,
+    "gamesPlayedPlayoffs": 0
+  },
+  {
     "playerId": 8471978,
     "playerName": "Brett Festerling",
     "position": "D",
@@ -669,6 +1303,83 @@
     "gamesPlayedPlayoffs": 0
   },
   {
+    "playerId": 8447701,
+    "playerName": "Brian Hayward",
+    "position": "G",
+    "seasons": [
+      {
+        "season": 19821983,
+        "gamesPlayedRegularSeason": 24,
+        "gamesPlayedPlayoffs": 3
+      },
+      {
+        "season": 19831984,
+        "gamesPlayedRegularSeason": 28,
+        "gamesPlayedPlayoffs": 0
+      },
+      {
+        "season": 19841985,
+        "gamesPlayedRegularSeason": 61,
+        "gamesPlayedPlayoffs": 6
+      },
+      {
+        "season": 19851986,
+        "gamesPlayedRegularSeason": 52,
+        "gamesPlayedPlayoffs": 2
+      }
+    ],
+    "gamesPlayedRegularSeason": 165,
+    "gamesPlayedPlayoffs": 11
+  },
+  {
+    "playerId": 8449487,
+    "playerName": "Brian McReynolds",
+    "position": "C",
+    "seasons": [
+      {
+        "season": 19891990,
+        "gamesPlayedRegularSeason": 9,
+        "gamesPlayedPlayoffs": 0
+      }
+    ],
+    "gamesPlayedRegularSeason": 9,
+    "gamesPlayedPlayoffs": 0
+  },
+  {
+    "playerId": 8449742,
+    "playerName": "Brian Mullen",
+    "position": "R",
+    "seasons": [
+      {
+        "season": 19821983,
+        "gamesPlayedRegularSeason": 80,
+        "gamesPlayedPlayoffs": 3
+      },
+      {
+        "season": 19831984,
+        "gamesPlayedRegularSeason": 75,
+        "gamesPlayedPlayoffs": 3
+      },
+      {
+        "season": 19841985,
+        "gamesPlayedRegularSeason": 69,
+        "gamesPlayedPlayoffs": 8
+      },
+      {
+        "season": 19851986,
+        "gamesPlayedRegularSeason": 79,
+        "gamesPlayedPlayoffs": 3
+      },
+      {
+        "season": 19861987,
+        "gamesPlayedRegularSeason": 69,
+        "gamesPlayedPlayoffs": 9
+      }
+    ],
+    "gamesPlayedRegularSeason": 372,
+    "gamesPlayedPlayoffs": 26
+  },
+  {
     "playerId": 8473565,
     "playerName": "Brian Strait",
     "position": "D",
@@ -681,6 +1392,35 @@
     ],
     "gamesPlayedRegularSeason": 5,
     "gamesPlayedPlayoffs": 0
+  },
+  {
+    "playerId": 8446705,
+    "playerName": "Bryan Erickson",
+    "position": "C",
+    "seasons": [
+      {
+        "season": 19901991,
+        "gamesPlayedRegularSeason": 6,
+        "gamesPlayedPlayoffs": 0
+      },
+      {
+        "season": 19911992,
+        "gamesPlayedRegularSeason": 10,
+        "gamesPlayedPlayoffs": 0
+      },
+      {
+        "season": 19921993,
+        "gamesPlayedRegularSeason": 41,
+        "gamesPlayedPlayoffs": 3
+      },
+      {
+        "season": 19931994,
+        "gamesPlayedRegularSeason": 16,
+        "gamesPlayedPlayoffs": 0
+      }
+    ],
+    "gamesPlayedRegularSeason": 73,
+    "gamesPlayedPlayoffs": 3
   },
   {
     "playerId": 8473412,
@@ -735,6 +1475,54 @@
     ],
     "gamesPlayedRegularSeason": 561,
     "gamesPlayedPlayoffs": 27
+  },
+  {
+    "playerId": 8449137,
+    "playerName": "Bryan Marchment",
+    "position": "D",
+    "seasons": [
+      {
+        "season": 19881989,
+        "gamesPlayedRegularSeason": 2,
+        "gamesPlayedPlayoffs": 0
+      },
+      {
+        "season": 19891990,
+        "gamesPlayedRegularSeason": 7,
+        "gamesPlayedPlayoffs": 0
+      },
+      {
+        "season": 19901991,
+        "gamesPlayedRegularSeason": 28,
+        "gamesPlayedPlayoffs": 0
+      }
+    ],
+    "gamesPlayedRegularSeason": 37,
+    "gamesPlayedPlayoffs": 0
+  },
+  {
+    "playerId": 8449316,
+    "playerName": "Bryan Maxwell",
+    "position": "D",
+    "seasons": [
+      {
+        "season": 19811982,
+        "gamesPlayedRegularSeason": 45,
+        "gamesPlayedPlayoffs": 0
+      },
+      {
+        "season": 19821983,
+        "gamesPlayedRegularSeason": 54,
+        "gamesPlayedPlayoffs": 3
+      },
+      {
+        "season": 19831984,
+        "gamesPlayedRegularSeason": 3,
+        "gamesPlayedPlayoffs": 0
+      }
+    ],
+    "gamesPlayedRegularSeason": 102,
+    "gamesPlayedPlayoffs": 3
   },
   {
     "playerId": 8478058,
@@ -806,6 +1594,20 @@
     ],
     "gamesPlayedRegularSeason": 11,
     "gamesPlayedPlayoffs": 0
+  },
+  {
+    "playerId": 8462035,
+    "playerName": "Chad Kilger",
+    "position": "L",
+    "seasons": [
+      {
+        "season": 19951996,
+        "gamesPlayedRegularSeason": 29,
+        "gamesPlayedPlayoffs": 4
+      }
+    ],
+    "gamesPlayedRegularSeason": 29,
+    "gamesPlayedPlayoffs": 4
   },
   {
     "playerId": 8478029,
@@ -1025,6 +1827,301 @@
     "gamesPlayedPlayoffs": 58
   },
   {
+    "playerId": 8446508,
+    "playerName": "Craig Duncanson",
+    "position": "R",
+    "seasons": [
+      {
+        "season": 19901991,
+        "gamesPlayedRegularSeason": 7,
+        "gamesPlayedPlayoffs": 0
+      }
+    ],
+    "gamesPlayedRegularSeason": 7,
+    "gamesPlayedPlayoffs": 0
+  },
+  {
+    "playerId": 8446682,
+    "playerName": "Craig Endean",
+    "position": "L",
+    "seasons": [
+      {
+        "season": 19861987,
+        "gamesPlayedRegularSeason": 2,
+        "gamesPlayedPlayoffs": 0
+      }
+    ],
+    "gamesPlayedRegularSeason": 2,
+    "gamesPlayedPlayoffs": 0
+  },
+  {
+    "playerId": 8446832,
+    "playerName": "Craig Fisher",
+    "position": "C",
+    "seasons": [
+      {
+        "season": 19931994,
+        "gamesPlayedRegularSeason": 4,
+        "gamesPlayedPlayoffs": 0
+      }
+    ],
+    "gamesPlayedRegularSeason": 4,
+    "gamesPlayedPlayoffs": 0
+  },
+  {
+    "playerId": 8448222,
+    "playerName": "Craig Janney",
+    "position": "C",
+    "seasons": [
+      {
+        "season": 19951996,
+        "gamesPlayedRegularSeason": 13,
+        "gamesPlayedPlayoffs": 6
+      }
+    ],
+    "gamesPlayedRegularSeason": 13,
+    "gamesPlayedPlayoffs": 6
+  },
+  {
+    "playerId": 8448816,
+    "playerName": "Craig Levie",
+    "position": "D",
+    "seasons": [
+      {
+        "season": 19811982,
+        "gamesPlayedRegularSeason": 40,
+        "gamesPlayedPlayoffs": 0
+      },
+      {
+        "season": 19821983,
+        "gamesPlayedRegularSeason": 22,
+        "gamesPlayedPlayoffs": 0
+      }
+    ],
+    "gamesPlayedRegularSeason": 62,
+    "gamesPlayedPlayoffs": 0
+  },
+  {
+    "playerId": 8457228,
+    "playerName": "Craig Martin",
+    "position": "R",
+    "seasons": [
+      {
+        "season": 19941995,
+        "gamesPlayedRegularSeason": 20,
+        "gamesPlayedPlayoffs": 0
+      }
+    ],
+    "gamesPlayedRegularSeason": 20,
+    "gamesPlayedPlayoffs": 0
+  },
+  {
+    "playerId": 8460596,
+    "playerName": "Craig Mills",
+    "position": "R",
+    "seasons": [
+      {
+        "season": 19951996,
+        "gamesPlayedRegularSeason": 4,
+        "gamesPlayedPlayoffs": 1
+      }
+    ],
+    "gamesPlayedRegularSeason": 4,
+    "gamesPlayedPlayoffs": 1
+  },
+  {
+    "playerId": 8449749,
+    "playerName": "Craig Muni",
+    "position": "D",
+    "seasons": [
+      {
+        "season": 19951996,
+        "gamesPlayedRegularSeason": 25,
+        "gamesPlayedPlayoffs": 6
+      }
+    ],
+    "gamesPlayedRegularSeason": 25,
+    "gamesPlayedPlayoffs": 6
+  },
+  {
+    "playerId": 8449927,
+    "playerName": "Craig Norwich",
+    "position": "D",
+    "seasons": [
+      {
+        "season": 19791980,
+        "gamesPlayedRegularSeason": 70,
+        "gamesPlayedPlayoffs": 0
+      }
+    ],
+    "gamesPlayedRegularSeason": 70,
+    "gamesPlayedPlayoffs": 0
+  },
+  {
+    "playerId": 8447685,
+    "playerName": "Dale Hawerchuk",
+    "position": "C",
+    "seasons": [
+      {
+        "season": 19811982,
+        "gamesPlayedRegularSeason": 80,
+        "gamesPlayedPlayoffs": 4
+      },
+      {
+        "season": 19821983,
+        "gamesPlayedRegularSeason": 79,
+        "gamesPlayedPlayoffs": 3
+      },
+      {
+        "season": 19831984,
+        "gamesPlayedRegularSeason": 80,
+        "gamesPlayedPlayoffs": 3
+      },
+      {
+        "season": 19841985,
+        "gamesPlayedRegularSeason": 80,
+        "gamesPlayedPlayoffs": 3
+      },
+      {
+        "season": 19851986,
+        "gamesPlayedRegularSeason": 80,
+        "gamesPlayedPlayoffs": 3
+      },
+      {
+        "season": 19861987,
+        "gamesPlayedRegularSeason": 80,
+        "gamesPlayedPlayoffs": 10
+      },
+      {
+        "season": 19871988,
+        "gamesPlayedRegularSeason": 80,
+        "gamesPlayedPlayoffs": 5
+      },
+      {
+        "season": 19881989,
+        "gamesPlayedRegularSeason": 75,
+        "gamesPlayedPlayoffs": 0
+      },
+      {
+        "season": 19891990,
+        "gamesPlayedRegularSeason": 79,
+        "gamesPlayedPlayoffs": 7
+      }
+    ],
+    "gamesPlayedRegularSeason": 713,
+    "gamesPlayedPlayoffs": 38
+  },
+  {
+    "playerId": 8456106,
+    "playerName": "Dallas Drake",
+    "position": "R",
+    "seasons": [
+      {
+        "season": 19931994,
+        "gamesPlayedRegularSeason": 15,
+        "gamesPlayedPlayoffs": 0
+      },
+      {
+        "season": 19941995,
+        "gamesPlayedRegularSeason": 43,
+        "gamesPlayedPlayoffs": 0
+      },
+      {
+        "season": 19951996,
+        "gamesPlayedRegularSeason": 69,
+        "gamesPlayedPlayoffs": 3
+      }
+    ],
+    "gamesPlayedRegularSeason": 127,
+    "gamesPlayedPlayoffs": 3
+  },
+  {
+    "playerId": 8456153,
+    "playerName": "Dallas Eakins",
+    "position": "D",
+    "seasons": [
+      {
+        "season": 19921993,
+        "gamesPlayedRegularSeason": 14,
+        "gamesPlayedPlayoffs": 0
+      },
+      {
+        "season": 19951996,
+        "gamesPlayedRegularSeason": 2,
+        "gamesPlayedPlayoffs": 0
+      }
+    ],
+    "gamesPlayedRegularSeason": 16,
+    "gamesPlayedPlayoffs": 0
+  },
+  {
+    "playerId": 8445609,
+    "playerName": "Dan Bouchard",
+    "position": "G",
+    "seasons": [
+      {
+        "season": 19851986,
+        "gamesPlayedRegularSeason": 32,
+        "gamesPlayedPlayoffs": 1
+      }
+    ],
+    "gamesPlayedRegularSeason": 32,
+    "gamesPlayedPlayoffs": 1
+  },
+  {
+    "playerId": 8449458,
+    "playerName": "Dan Mcfall",
+    "position": "D",
+    "seasons": [
+      {
+        "season": 19841985,
+        "gamesPlayedRegularSeason": 2,
+        "gamesPlayedPlayoffs": 0
+      },
+      {
+        "season": 19851986,
+        "gamesPlayedRegularSeason": 7,
+        "gamesPlayedPlayoffs": 0
+      }
+    ],
+    "gamesPlayedRegularSeason": 9,
+    "gamesPlayedPlayoffs": 0
+  },
+  {
+    "playerId": 8445462,
+    "playerName": "Daniel Berthiaume",
+    "position": "G",
+    "seasons": [
+      {
+        "season": 19851986,
+        "gamesPlayedRegularSeason": 0,
+        "gamesPlayedPlayoffs": 1
+      },
+      {
+        "season": 19861987,
+        "gamesPlayedRegularSeason": 31,
+        "gamesPlayedPlayoffs": 8
+      },
+      {
+        "season": 19871988,
+        "gamesPlayedRegularSeason": 56,
+        "gamesPlayedPlayoffs": 5
+      },
+      {
+        "season": 19881989,
+        "gamesPlayedRegularSeason": 9,
+        "gamesPlayedPlayoffs": 0
+      },
+      {
+        "season": 19891990,
+        "gamesPlayedRegularSeason": 24,
+        "gamesPlayedPlayoffs": 0
+      }
+    ],
+    "gamesPlayedRegularSeason": 120,
+    "gamesPlayedPlayoffs": 14
+  },
+  {
     "playerId": 8483526,
     "playerName": "Danil Zhilkin",
     "position": "C",
@@ -1037,6 +2134,356 @@
     ],
     "gamesPlayedRegularSeason": 4,
     "gamesPlayedPlayoffs": 0
+  },
+  {
+    "playerId": 8447115,
+    "playerName": "Danny Geoffrion",
+    "position": "R",
+    "seasons": [
+      {
+        "season": 19801981,
+        "gamesPlayedRegularSeason": 78,
+        "gamesPlayedPlayoffs": 0
+      },
+      {
+        "season": 19811982,
+        "gamesPlayedRegularSeason": 1,
+        "gamesPlayedPlayoffs": 0
+      }
+    ],
+    "gamesPlayedRegularSeason": 79,
+    "gamesPlayedPlayoffs": 0
+  },
+  {
+    "playerId": 8446127,
+    "playerName": "Danton Cole",
+    "position": "R",
+    "seasons": [
+      {
+        "season": 19891990,
+        "gamesPlayedRegularSeason": 2,
+        "gamesPlayedPlayoffs": 0
+      },
+      {
+        "season": 19901991,
+        "gamesPlayedRegularSeason": 66,
+        "gamesPlayedPlayoffs": 0
+      },
+      {
+        "season": 19911992,
+        "gamesPlayedRegularSeason": 52,
+        "gamesPlayedPlayoffs": 0
+      }
+    ],
+    "gamesPlayedRegularSeason": 120,
+    "gamesPlayedPlayoffs": 0
+  },
+  {
+    "playerId": 8445654,
+    "playerName": "Darren Boyko",
+    "position": "C",
+    "seasons": [
+      {
+        "season": 19881989,
+        "gamesPlayedRegularSeason": 1,
+        "gamesPlayedPlayoffs": 0
+      }
+    ],
+    "gamesPlayedRegularSeason": 1,
+    "gamesPlayedPlayoffs": 0
+  },
+  {
+    "playerId": 8451994,
+    "playerName": "Darren Turcotte",
+    "position": "C",
+    "seasons": [
+      {
+        "season": 19951996,
+        "gamesPlayedRegularSeason": 59,
+        "gamesPlayedPlayoffs": 0
+      }
+    ],
+    "gamesPlayedRegularSeason": 59,
+    "gamesPlayedPlayoffs": 0
+  },
+  {
+    "playerId": 8451334,
+    "playerName": "Darrin Shannon",
+    "position": "L",
+    "seasons": [
+      {
+        "season": 19911992,
+        "gamesPlayedRegularSeason": 68,
+        "gamesPlayedPlayoffs": 7
+      },
+      {
+        "season": 19921993,
+        "gamesPlayedRegularSeason": 84,
+        "gamesPlayedPlayoffs": 6
+      },
+      {
+        "season": 19931994,
+        "gamesPlayedRegularSeason": 77,
+        "gamesPlayedPlayoffs": 0
+      },
+      {
+        "season": 19941995,
+        "gamesPlayedRegularSeason": 19,
+        "gamesPlayedPlayoffs": 0
+      },
+      {
+        "season": 19951996,
+        "gamesPlayedRegularSeason": 63,
+        "gamesPlayedPlayoffs": 6
+      }
+    ],
+    "gamesPlayedRegularSeason": 311,
+    "gamesPlayedPlayoffs": 19
+  },
+  {
+    "playerId": 8451333,
+    "playerName": "Darryl Shannon",
+    "position": "D",
+    "seasons": [
+      {
+        "season": 19931994,
+        "gamesPlayedRegularSeason": 20,
+        "gamesPlayedPlayoffs": 0
+      },
+      {
+        "season": 19941995,
+        "gamesPlayedRegularSeason": 40,
+        "gamesPlayedPlayoffs": 0
+      },
+      {
+        "season": 19951996,
+        "gamesPlayedRegularSeason": 48,
+        "gamesPlayedPlayoffs": 0
+      }
+    ],
+    "gamesPlayedRegularSeason": 108,
+    "gamesPlayedPlayoffs": 0
+  },
+  {
+    "playerId": 8445208,
+    "playerName": "Dave Babych",
+    "position": "D",
+    "seasons": [
+      {
+        "season": 19801981,
+        "gamesPlayedRegularSeason": 69,
+        "gamesPlayedPlayoffs": 0
+      },
+      {
+        "season": 19811982,
+        "gamesPlayedRegularSeason": 79,
+        "gamesPlayedPlayoffs": 4
+      },
+      {
+        "season": 19821983,
+        "gamesPlayedRegularSeason": 79,
+        "gamesPlayedPlayoffs": 3
+      },
+      {
+        "season": 19831984,
+        "gamesPlayedRegularSeason": 66,
+        "gamesPlayedPlayoffs": 3
+      },
+      {
+        "season": 19841985,
+        "gamesPlayedRegularSeason": 78,
+        "gamesPlayedPlayoffs": 8
+      },
+      {
+        "season": 19851986,
+        "gamesPlayedRegularSeason": 19,
+        "gamesPlayedPlayoffs": 0
+      }
+    ],
+    "gamesPlayedRegularSeason": 390,
+    "gamesPlayedPlayoffs": 18
+  },
+  {
+    "playerId": 8446048,
+    "playerName": "Dave Chartier",
+    "position": "C",
+    "seasons": [
+      {
+        "season": 19801981,
+        "gamesPlayedRegularSeason": 1,
+        "gamesPlayedPlayoffs": 0
+      }
+    ],
+    "gamesPlayedRegularSeason": 1,
+    "gamesPlayedPlayoffs": 0
+  },
+  {
+    "playerId": 8446079,
+    "playerName": "Dave Christian",
+    "position": "R",
+    "seasons": [
+      {
+        "season": 19791980,
+        "gamesPlayedRegularSeason": 15,
+        "gamesPlayedPlayoffs": 0
+      },
+      {
+        "season": 19801981,
+        "gamesPlayedRegularSeason": 80,
+        "gamesPlayedPlayoffs": 0
+      },
+      {
+        "season": 19811982,
+        "gamesPlayedRegularSeason": 80,
+        "gamesPlayedPlayoffs": 4
+      },
+      {
+        "season": 19821983,
+        "gamesPlayedRegularSeason": 55,
+        "gamesPlayedPlayoffs": 3
+      }
+    ],
+    "gamesPlayedRegularSeason": 230,
+    "gamesPlayedPlayoffs": 7
+  },
+  {
+    "playerId": 8446626,
+    "playerName": "Dave Ellett",
+    "position": "D",
+    "seasons": [
+      {
+        "season": 19841985,
+        "gamesPlayedRegularSeason": 80,
+        "gamesPlayedPlayoffs": 8
+      },
+      {
+        "season": 19851986,
+        "gamesPlayedRegularSeason": 80,
+        "gamesPlayedPlayoffs": 3
+      },
+      {
+        "season": 19861987,
+        "gamesPlayedRegularSeason": 78,
+        "gamesPlayedPlayoffs": 10
+      },
+      {
+        "season": 19871988,
+        "gamesPlayedRegularSeason": 68,
+        "gamesPlayedPlayoffs": 5
+      },
+      {
+        "season": 19881989,
+        "gamesPlayedRegularSeason": 75,
+        "gamesPlayedPlayoffs": 0
+      },
+      {
+        "season": 19891990,
+        "gamesPlayedRegularSeason": 77,
+        "gamesPlayedPlayoffs": 7
+      },
+      {
+        "season": 19901991,
+        "gamesPlayedRegularSeason": 17,
+        "gamesPlayedPlayoffs": 0
+      }
+    ],
+    "gamesPlayedRegularSeason": 475,
+    "gamesPlayedPlayoffs": 33
+  },
+  {
+    "playerId": 8448019,
+    "playerName": "Dave Hoyda",
+    "position": "L",
+    "seasons": [
+      {
+        "season": 19791980,
+        "gamesPlayedRegularSeason": 15,
+        "gamesPlayedPlayoffs": 0
+      },
+      {
+        "season": 19801981,
+        "gamesPlayedRegularSeason": 9,
+        "gamesPlayedPlayoffs": 0
+      }
+    ],
+    "gamesPlayedRegularSeason": 24,
+    "gamesPlayedPlayoffs": 0
+  },
+  {
+    "playerId": 8448116,
+    "playerName": "Dave Hunter",
+    "position": "L",
+    "seasons": [
+      {
+        "season": 19881989,
+        "gamesPlayedRegularSeason": 34,
+        "gamesPlayedPlayoffs": 0
+      }
+    ],
+    "gamesPlayedRegularSeason": 34,
+    "gamesPlayedPlayoffs": 0
+  },
+  {
+    "playerId": 8449123,
+    "playerName": "Dave Manson",
+    "position": "D",
+    "seasons": [
+      {
+        "season": 19931994,
+        "gamesPlayedRegularSeason": 13,
+        "gamesPlayedPlayoffs": 0
+      },
+      {
+        "season": 19941995,
+        "gamesPlayedRegularSeason": 44,
+        "gamesPlayedPlayoffs": 0
+      },
+      {
+        "season": 19951996,
+        "gamesPlayedRegularSeason": 82,
+        "gamesPlayedPlayoffs": 6
+      }
+    ],
+    "gamesPlayedRegularSeason": 139,
+    "gamesPlayedPlayoffs": 6
+  },
+  {
+    "playerId": 8449488,
+    "playerName": "Dave Mcllwain",
+    "position": "C",
+    "seasons": [
+      {
+        "season": 19891990,
+        "gamesPlayedRegularSeason": 80,
+        "gamesPlayedPlayoffs": 7
+      },
+      {
+        "season": 19901991,
+        "gamesPlayedRegularSeason": 60,
+        "gamesPlayedPlayoffs": 0
+      },
+      {
+        "season": 19911992,
+        "gamesPlayedRegularSeason": 3,
+        "gamesPlayedPlayoffs": 0
+      }
+    ],
+    "gamesPlayedRegularSeason": 143,
+    "gamesPlayedPlayoffs": 7
+  },
+  {
+    "playerId": 8451361,
+    "playerName": "Dave Silk",
+    "position": "R",
+    "seasons": [
+      {
+        "season": 19851986,
+        "gamesPlayedRegularSeason": 32,
+        "gamesPlayedPlayoffs": 1
+      }
+    ],
+    "gamesPlayedRegularSeason": 32,
+    "gamesPlayedPlayoffs": 1
   },
   {
     "playerId": 8481019,
@@ -1092,6 +2539,44 @@
     "gamesPlayedPlayoffs": 0
   },
   {
+    "playerId": 8458234,
+    "playerName": "David Tomlinson",
+    "position": "C",
+    "seasons": [
+      {
+        "season": 19931994,
+        "gamesPlayedRegularSeason": 31,
+        "gamesPlayedPlayoffs": 0
+      }
+    ],
+    "gamesPlayedRegularSeason": 31,
+    "gamesPlayedPlayoffs": 0
+  },
+  {
+    "playerId": 8448449,
+    "playerName": "Dean Kennedy",
+    "position": "D",
+    "seasons": [
+      {
+        "season": 19911992,
+        "gamesPlayedRegularSeason": 18,
+        "gamesPlayedPlayoffs": 2
+      },
+      {
+        "season": 19921993,
+        "gamesPlayedRegularSeason": 78,
+        "gamesPlayedPlayoffs": 6
+      },
+      {
+        "season": 19931994,
+        "gamesPlayedRegularSeason": 76,
+        "gamesPlayedPlayoffs": 0
+      }
+    ],
+    "gamesPlayedRegularSeason": 172,
+    "gamesPlayedPlayoffs": 8
+  },
+  {
     "playerId": 8480990,
     "playerName": "Declan Chisholm",
     "position": "D",
@@ -1108,6 +2593,20 @@
       }
     ],
     "gamesPlayedRegularSeason": 4,
+    "gamesPlayedPlayoffs": 0
+  },
+  {
+    "playerId": 8455850,
+    "playerName": "Denis Chasse",
+    "position": "R",
+    "seasons": [
+      {
+        "season": 19951996,
+        "gamesPlayedRegularSeason": 15,
+        "gamesPlayedPlayoffs": 0
+      }
+    ],
+    "gamesPlayedRegularSeason": 15,
     "gamesPlayedPlayoffs": 0
   },
   {
@@ -1141,6 +2640,20 @@
       }
     ],
     "gamesPlayedRegularSeason": 18,
+    "gamesPlayedPlayoffs": 0
+  },
+  {
+    "playerId": 8460521,
+    "playerName": "Deron Quint",
+    "position": "D",
+    "seasons": [
+      {
+        "season": 19951996,
+        "gamesPlayedRegularSeason": 51,
+        "gamesPlayedPlayoffs": 0
+      }
+    ],
+    "gamesPlayedRegularSeason": 51,
     "gamesPlayedPlayoffs": 0
   },
   {
@@ -1182,6 +2695,20 @@
     "gamesPlayedPlayoffs": 11
   },
   {
+    "playerId": 8457866,
+    "playerName": "Dominic Roussel",
+    "position": "G",
+    "seasons": [
+      {
+        "season": 19951996,
+        "gamesPlayedRegularSeason": 7,
+        "gamesPlayedPlayoffs": 0
+      }
+    ],
+    "gamesPlayedRegularSeason": 7,
+    "gamesPlayedPlayoffs": 0
+  },
+  {
     "playerId": 8476952,
     "playerName": "Dominic Toninato",
     "position": "C",
@@ -1214,6 +2741,194 @@
     ],
     "gamesPlayedRegularSeason": 104,
     "gamesPlayedPlayoffs": 5
+  },
+  {
+    "playerId": 8445253,
+    "playerName": "Don Barber",
+    "position": "L",
+    "seasons": [
+      {
+        "season": 19901991,
+        "gamesPlayedRegularSeason": 16,
+        "gamesPlayedPlayoffs": 0
+      },
+      {
+        "season": 19911992,
+        "gamesPlayedRegularSeason": 11,
+        "gamesPlayedPlayoffs": 0
+      }
+    ],
+    "gamesPlayedRegularSeason": 27,
+    "gamesPlayedPlayoffs": 0
+  },
+  {
+    "playerId": 8451621,
+    "playerName": "Don Spring",
+    "position": "D",
+    "seasons": [
+      {
+        "season": 19801981,
+        "gamesPlayedRegularSeason": 80,
+        "gamesPlayedPlayoffs": 0
+      },
+      {
+        "season": 19811982,
+        "gamesPlayedRegularSeason": 78,
+        "gamesPlayedPlayoffs": 4
+      },
+      {
+        "season": 19821983,
+        "gamesPlayedRegularSeason": 80,
+        "gamesPlayedPlayoffs": 2
+      },
+      {
+        "season": 19831984,
+        "gamesPlayedRegularSeason": 21,
+        "gamesPlayedPlayoffs": 0
+      }
+    ],
+    "gamesPlayedRegularSeason": 259,
+    "gamesPlayedPlayoffs": 6
+  },
+  {
+    "playerId": 8448959,
+    "playerName": "Donald MacIver",
+    "position": "D",
+    "seasons": [
+      {
+        "season": 19791980,
+        "gamesPlayedRegularSeason": 6,
+        "gamesPlayedPlayoffs": 0
+      }
+    ],
+    "gamesPlayedRegularSeason": 6,
+    "gamesPlayedPlayoffs": 0
+  },
+  {
+    "playerId": 8446735,
+    "playerName": "Doug Evans",
+    "position": "L",
+    "seasons": [
+      {
+        "season": 19891990,
+        "gamesPlayedRegularSeason": 27,
+        "gamesPlayedPlayoffs": 7
+      },
+      {
+        "season": 19901991,
+        "gamesPlayedRegularSeason": 70,
+        "gamesPlayedPlayoffs": 0
+      },
+      {
+        "season": 19911992,
+        "gamesPlayedRegularSeason": 30,
+        "gamesPlayedPlayoffs": 1
+      }
+    ],
+    "gamesPlayedRegularSeason": 127,
+    "gamesPlayedPlayoffs": 8
+  },
+  {
+    "playerId": 8448743,
+    "playerName": "Doug Lecuyer",
+    "position": "L",
+    "seasons": [
+      {
+        "season": 19801981,
+        "gamesPlayedRegularSeason": 45,
+        "gamesPlayedPlayoffs": 0
+      }
+    ],
+    "gamesPlayedRegularSeason": 45,
+    "gamesPlayedPlayoffs": 0
+  },
+  {
+    "playerId": 8451567,
+    "playerName": "Doug Smail",
+    "position": "L",
+    "seasons": [
+      {
+        "season": 19801981,
+        "gamesPlayedRegularSeason": 30,
+        "gamesPlayedPlayoffs": 0
+      },
+      {
+        "season": 19811982,
+        "gamesPlayedRegularSeason": 72,
+        "gamesPlayedPlayoffs": 4
+      },
+      {
+        "season": 19821983,
+        "gamesPlayedRegularSeason": 80,
+        "gamesPlayedPlayoffs": 3
+      },
+      {
+        "season": 19831984,
+        "gamesPlayedRegularSeason": 66,
+        "gamesPlayedPlayoffs": 3
+      },
+      {
+        "season": 19841985,
+        "gamesPlayedRegularSeason": 80,
+        "gamesPlayedPlayoffs": 8
+      },
+      {
+        "season": 19851986,
+        "gamesPlayedRegularSeason": 73,
+        "gamesPlayedPlayoffs": 3
+      },
+      {
+        "season": 19861987,
+        "gamesPlayedRegularSeason": 78,
+        "gamesPlayedPlayoffs": 10
+      },
+      {
+        "season": 19871988,
+        "gamesPlayedRegularSeason": 71,
+        "gamesPlayedPlayoffs": 5
+      },
+      {
+        "season": 19881989,
+        "gamesPlayedRegularSeason": 47,
+        "gamesPlayedPlayoffs": 0
+      },
+      {
+        "season": 19891990,
+        "gamesPlayedRegularSeason": 79,
+        "gamesPlayedPlayoffs": 5
+      },
+      {
+        "season": 19901991,
+        "gamesPlayedRegularSeason": 15,
+        "gamesPlayedPlayoffs": 0
+      }
+    ],
+    "gamesPlayedRegularSeason": 691,
+    "gamesPlayedPlayoffs": 41
+  },
+  {
+    "playerId": 8451595,
+    "playerName": "Doug Soetaert",
+    "position": "G",
+    "seasons": [
+      {
+        "season": 19811982,
+        "gamesPlayedRegularSeason": 39,
+        "gamesPlayedPlayoffs": 2
+      },
+      {
+        "season": 19821983,
+        "gamesPlayedRegularSeason": 44,
+        "gamesPlayedPlayoffs": 1
+      },
+      {
+        "season": 19831984,
+        "gamesPlayedRegularSeason": 47,
+        "gamesPlayedPlayoffs": 1
+      }
+    ],
+    "gamesPlayedRegularSeason": 130,
+    "gamesPlayedPlayoffs": 4
   },
   {
     "playerId": 8471226,
@@ -1287,6 +3002,20 @@
     ],
     "gamesPlayedRegularSeason": 528,
     "gamesPlayedPlayoffs": 27
+  },
+  {
+    "playerId": 8451239,
+    "playerName": "Dwight Schofield",
+    "position": "D",
+    "seasons": [
+      {
+        "season": 19871988,
+        "gamesPlayedRegularSeason": 18,
+        "gamesPlayedPlayoffs": 0
+      }
+    ],
+    "gamesPlayedRegularSeason": 18,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 8479639,
@@ -1379,6 +3108,102 @@
     ],
     "gamesPlayedRegularSeason": 263,
     "gamesPlayedPlayoffs": 23
+  },
+  {
+    "playerId": 8457849,
+    "playerName": "Ed Ronan",
+    "position": "R",
+    "seasons": [
+      {
+        "season": 19951996,
+        "gamesPlayedRegularSeason": 17,
+        "gamesPlayedPlayoffs": 0
+      }
+    ],
+    "gamesPlayedRegularSeason": 17,
+    "gamesPlayedPlayoffs": 0
+  },
+  {
+    "playerId": 8451655,
+    "playerName": "Ed Staniowski",
+    "position": "G",
+    "seasons": [
+      {
+        "season": 19811982,
+        "gamesPlayedRegularSeason": 45,
+        "gamesPlayedPlayoffs": 2
+      },
+      {
+        "season": 19821983,
+        "gamesPlayedRegularSeason": 17,
+        "gamesPlayedPlayoffs": 0
+      },
+      {
+        "season": 19831984,
+        "gamesPlayedRegularSeason": 1,
+        "gamesPlayedPlayoffs": 0
+      }
+    ],
+    "gamesPlayedRegularSeason": 63,
+    "gamesPlayedPlayoffs": 2
+  },
+  {
+    "playerId": 8449973,
+    "playerName": "Eddie Olczyk",
+    "position": "R",
+    "seasons": [
+      {
+        "season": 19901991,
+        "gamesPlayedRegularSeason": 61,
+        "gamesPlayedPlayoffs": 0
+      },
+      {
+        "season": 19911992,
+        "gamesPlayedRegularSeason": 64,
+        "gamesPlayedPlayoffs": 6
+      },
+      {
+        "season": 19921993,
+        "gamesPlayedRegularSeason": 25,
+        "gamesPlayedPlayoffs": 0
+      },
+      {
+        "season": 19941995,
+        "gamesPlayedRegularSeason": 13,
+        "gamesPlayedPlayoffs": 0
+      },
+      {
+        "season": 19951996,
+        "gamesPlayedRegularSeason": 51,
+        "gamesPlayedPlayoffs": 6
+      }
+    ],
+    "gamesPlayedRegularSeason": 214,
+    "gamesPlayedPlayoffs": 12
+  },
+  {
+    "playerId": 8450727,
+    "playerName": "Eldon Reddick",
+    "position": "G",
+    "seasons": [
+      {
+        "season": 19861987,
+        "gamesPlayedRegularSeason": 48,
+        "gamesPlayedPlayoffs": 3
+      },
+      {
+        "season": 19871988,
+        "gamesPlayedRegularSeason": 28,
+        "gamesPlayedPlayoffs": 0
+      },
+      {
+        "season": 19881989,
+        "gamesPlayedRegularSeason": 41,
+        "gamesPlayedPlayoffs": 0
+      }
+    ],
+    "gamesPlayedRegularSeason": 117,
+    "gamesPlayedPlayoffs": 3
   },
   {
     "playerId": 8483510,
@@ -1515,6 +3340,25 @@
     "gamesPlayedPlayoffs": 0
   },
   {
+    "playerId": 8456019,
+    "playerName": "Evgeny Davydov",
+    "position": "R",
+    "seasons": [
+      {
+        "season": 19911992,
+        "gamesPlayedRegularSeason": 12,
+        "gamesPlayedPlayoffs": 7
+      },
+      {
+        "season": 19921993,
+        "gamesPlayedRegularSeason": 79,
+        "gamesPlayedPlayoffs": 4
+      }
+    ],
+    "gamesPlayedRegularSeason": 91,
+    "gamesPlayedPlayoffs": 11
+  },
+  {
     "playerId": 8478431,
     "playerName": "Evgeny Svechnikov",
     "position": "L",
@@ -1527,6 +3371,55 @@
     ],
     "gamesPlayedRegularSeason": 72,
     "gamesPlayedPlayoffs": 0
+  },
+  {
+    "playerId": 8449971,
+    "playerName": "Fredrik Olausson",
+    "position": "D",
+    "seasons": [
+      {
+        "season": 19861987,
+        "gamesPlayedRegularSeason": 72,
+        "gamesPlayedPlayoffs": 10
+      },
+      {
+        "season": 19871988,
+        "gamesPlayedRegularSeason": 38,
+        "gamesPlayedPlayoffs": 5
+      },
+      {
+        "season": 19881989,
+        "gamesPlayedRegularSeason": 75,
+        "gamesPlayedPlayoffs": 0
+      },
+      {
+        "season": 19891990,
+        "gamesPlayedRegularSeason": 77,
+        "gamesPlayedPlayoffs": 7
+      },
+      {
+        "season": 19901991,
+        "gamesPlayedRegularSeason": 71,
+        "gamesPlayedPlayoffs": 0
+      },
+      {
+        "season": 19911992,
+        "gamesPlayedRegularSeason": 77,
+        "gamesPlayedPlayoffs": 7
+      },
+      {
+        "season": 19921993,
+        "gamesPlayedRegularSeason": 68,
+        "gamesPlayedPlayoffs": 6
+      },
+      {
+        "season": 19931994,
+        "gamesPlayedRegularSeason": 18,
+        "gamesPlayedPlayoffs": 0
+      }
+    ],
+    "gamesPlayedRegularSeason": 496,
+    "gamesPlayedPlayoffs": 35
   },
   {
     "playerId": 8475268,
@@ -1567,6 +3460,129 @@
     "gamesPlayedPlayoffs": 14
   },
   {
+    "playerId": 8451528,
+    "playerName": "Gary Smith",
+    "position": "G",
+    "seasons": [
+      {
+        "season": 19791980,
+        "gamesPlayedRegularSeason": 20,
+        "gamesPlayedPlayoffs": 0
+      }
+    ],
+    "gamesPlayedRegularSeason": 20,
+    "gamesPlayedPlayoffs": 0
+  },
+  {
+    "playerId": 8450849,
+    "playerName": "Gerry Rioux",
+    "position": "R",
+    "seasons": [
+      {
+        "season": 19791980,
+        "gamesPlayedRegularSeason": 8,
+        "gamesPlayedPlayoffs": 0
+      }
+    ],
+    "gamesPlayedRegularSeason": 8,
+    "gamesPlayedPlayoffs": 0
+  },
+  {
+    "playerId": 8447485,
+    "playerName": "Gilles Hamel",
+    "position": "L",
+    "seasons": [
+      {
+        "season": 19861987,
+        "gamesPlayedRegularSeason": 79,
+        "gamesPlayedPlayoffs": 8
+      },
+      {
+        "season": 19871988,
+        "gamesPlayedRegularSeason": 63,
+        "gamesPlayedPlayoffs": 1
+      },
+      {
+        "season": 19881989,
+        "gamesPlayedRegularSeason": 1,
+        "gamesPlayedPlayoffs": 0
+      }
+    ],
+    "gamesPlayedRegularSeason": 143,
+    "gamesPlayedPlayoffs": 9
+  },
+  {
+    "playerId": 8451920,
+    "playerName": "Glenn Tomalty",
+    "position": "C",
+    "seasons": [
+      {
+        "season": 19791980,
+        "gamesPlayedRegularSeason": 1,
+        "gamesPlayedPlayoffs": 0
+      }
+    ],
+    "gamesPlayedRegularSeason": 1,
+    "gamesPlayedPlayoffs": 0
+  },
+  {
+    "playerId": 8446437,
+    "playerName": "Gord Donnelly",
+    "position": "D",
+    "seasons": [
+      {
+        "season": 19881989,
+        "gamesPlayedRegularSeason": 57,
+        "gamesPlayedPlayoffs": 0
+      },
+      {
+        "season": 19891990,
+        "gamesPlayedRegularSeason": 55,
+        "gamesPlayedPlayoffs": 6
+      },
+      {
+        "season": 19901991,
+        "gamesPlayedRegularSeason": 57,
+        "gamesPlayedPlayoffs": 0
+      },
+      {
+        "season": 19911992,
+        "gamesPlayedRegularSeason": 4,
+        "gamesPlayedPlayoffs": 0
+      }
+    ],
+    "gamesPlayedRegularSeason": 173,
+    "gamesPlayedPlayoffs": 6
+  },
+  {
+    "playerId": 8447826,
+    "playerName": "Gord McTavish",
+    "position": "C",
+    "seasons": [
+      {
+        "season": 19791980,
+        "gamesPlayedRegularSeason": 10,
+        "gamesPlayedPlayoffs": 0
+      }
+    ],
+    "gamesPlayedRegularSeason": 10,
+    "gamesPlayedPlayoffs": 0
+  },
+  {
+    "playerId": 8451529,
+    "playerName": "Gord Smith",
+    "position": "D",
+    "seasons": [
+      {
+        "season": 19791980,
+        "gamesPlayedRegularSeason": 13,
+        "gamesPlayedPlayoffs": 0
+      }
+    ],
+    "gamesPlayedRegularSeason": 13,
+    "gamesPlayedPlayoffs": 0
+  },
+  {
     "playerId": 8471482,
     "playerName": "Grant Clitsome",
     "position": "D",
@@ -1596,6 +3612,39 @@
     "gamesPlayedPlayoffs": 0
   },
   {
+    "playerId": 8445655,
+    "playerName": "Greg Brown",
+    "position": "D",
+    "seasons": [
+      {
+        "season": 19941995,
+        "gamesPlayedRegularSeason": 9,
+        "gamesPlayedPlayoffs": 0
+      }
+    ],
+    "gamesPlayedRegularSeason": 9,
+    "gamesPlayedPlayoffs": 0
+  },
+  {
+    "playerId": 8450200,
+    "playerName": "Greg Paslawski",
+    "position": "R",
+    "seasons": [
+      {
+        "season": 19891990,
+        "gamesPlayedRegularSeason": 71,
+        "gamesPlayedPlayoffs": 7
+      },
+      {
+        "season": 19901991,
+        "gamesPlayedRegularSeason": 43,
+        "gamesPlayedPlayoffs": 0
+      }
+    ],
+    "gamesPlayedRegularSeason": 114,
+    "gamesPlayedPlayoffs": 7
+  },
+  {
     "playerId": 8474679,
     "playerName": "Gustav Nyquist",
     "position": "R",
@@ -1607,6 +3656,77 @@
       }
     ],
     "gamesPlayedRegularSeason": 42,
+    "gamesPlayedPlayoffs": 0
+  },
+  {
+    "playerId": 8447292,
+    "playerName": "Guy Gosselin",
+    "position": "D",
+    "seasons": [
+      {
+        "season": 19871988,
+        "gamesPlayedRegularSeason": 5,
+        "gamesPlayedPlayoffs": 0
+      }
+    ],
+    "gamesPlayedRegularSeason": 5,
+    "gamesPlayedPlayoffs": 0
+  },
+  {
+    "playerId": 8448678,
+    "playerName": "Guy Larose",
+    "position": "C",
+    "seasons": [
+      {
+        "season": 19881989,
+        "gamesPlayedRegularSeason": 3,
+        "gamesPlayedPlayoffs": 0
+      },
+      {
+        "season": 19901991,
+        "gamesPlayedRegularSeason": 7,
+        "gamesPlayedPlayoffs": 0
+      }
+    ],
+    "gamesPlayedRegularSeason": 10,
+    "gamesPlayedPlayoffs": 0
+  },
+  {
+    "playerId": 8448253,
+    "playerName": "Hannu Jarvenpaa",
+    "position": "R",
+    "seasons": [
+      {
+        "season": 19861987,
+        "gamesPlayedRegularSeason": 20,
+        "gamesPlayedPlayoffs": 0
+      },
+      {
+        "season": 19871988,
+        "gamesPlayedRegularSeason": 41,
+        "gamesPlayedPlayoffs": 0
+      },
+      {
+        "season": 19881989,
+        "gamesPlayedRegularSeason": 53,
+        "gamesPlayedPlayoffs": 0
+      }
+    ],
+    "gamesPlayedRegularSeason": 114,
+    "gamesPlayedPlayoffs": 0
+  },
+  {
+    "playerId": 8458321,
+    "playerName": "Harije Vitolinish",
+    "position": "C",
+    "seasons": [
+      {
+        "season": 19931994,
+        "gamesPlayedRegularSeason": 8,
+        "gamesPlayedPlayoffs": 0
+      }
+    ],
+    "gamesPlayedRegularSeason": 8,
     "gamesPlayedPlayoffs": 0
   },
   {
@@ -1627,6 +3747,111 @@
     ],
     "gamesPlayedRegularSeason": 61,
     "gamesPlayedPlayoffs": 8
+  },
+  {
+    "playerId": 8447365,
+    "playerName": "Hilliard Graves",
+    "position": "R",
+    "seasons": [
+      {
+        "season": 19791980,
+        "gamesPlayedRegularSeason": 35,
+        "gamesPlayedPlayoffs": 0
+      }
+    ],
+    "gamesPlayedRegularSeason": 35,
+    "gamesPlayedPlayoffs": 0
+  },
+  {
+    "playerId": 8446516,
+    "playerName": "Iain Duncan",
+    "position": "L",
+    "seasons": [
+      {
+        "season": 19861987,
+        "gamesPlayedRegularSeason": 6,
+        "gamesPlayedPlayoffs": 7
+      },
+      {
+        "season": 19871988,
+        "gamesPlayedRegularSeason": 62,
+        "gamesPlayedPlayoffs": 4
+      },
+      {
+        "season": 19881989,
+        "gamesPlayedRegularSeason": 57,
+        "gamesPlayedPlayoffs": 0
+      },
+      {
+        "season": 19901991,
+        "gamesPlayedRegularSeason": 2,
+        "gamesPlayedPlayoffs": 0
+      }
+    ],
+    "gamesPlayedRegularSeason": 127,
+    "gamesPlayedPlayoffs": 11
+  },
+  {
+    "playerId": 8456306,
+    "playerName": "Iain Fraser",
+    "position": "C",
+    "seasons": [
+      {
+        "season": 19951996,
+        "gamesPlayedRegularSeason": 12,
+        "gamesPlayedPlayoffs": 4
+      }
+    ],
+    "gamesPlayedRegularSeason": 12,
+    "gamesPlayedPlayoffs": 4
+  },
+  {
+    "playerId": 8458974,
+    "playerName": "Igor Korolev",
+    "position": "C",
+    "seasons": [
+      {
+        "season": 19941995,
+        "gamesPlayedRegularSeason": 45,
+        "gamesPlayedPlayoffs": 0
+      },
+      {
+        "season": 19951996,
+        "gamesPlayedRegularSeason": 73,
+        "gamesPlayedPlayoffs": 6
+      }
+    ],
+    "gamesPlayedRegularSeason": 118,
+    "gamesPlayedPlayoffs": 6
+  },
+  {
+    "playerId": 8458715,
+    "playerName": "Igor Ulanov",
+    "position": "D",
+    "seasons": [
+      {
+        "season": 19911992,
+        "gamesPlayedRegularSeason": 27,
+        "gamesPlayedPlayoffs": 7
+      },
+      {
+        "season": 19921993,
+        "gamesPlayedRegularSeason": 56,
+        "gamesPlayedPlayoffs": 4
+      },
+      {
+        "season": 19931994,
+        "gamesPlayedRegularSeason": 74,
+        "gamesPlayedPlayoffs": 0
+      },
+      {
+        "season": 19941995,
+        "gamesPlayedRegularSeason": 19,
+        "gamesPlayedPlayoffs": 0
+      }
+    ],
+    "gamesPlayedRegularSeason": 176,
+    "gamesPlayedPlayoffs": 11
   },
   {
     "playerId": 8482192,
@@ -1815,6 +4040,34 @@
     "gamesPlayedPlayoffs": 5
   },
   {
+    "playerId": 8455879,
+    "playerName": "Jason Cirone",
+    "position": "C",
+    "seasons": [
+      {
+        "season": 19911992,
+        "gamesPlayedRegularSeason": 3,
+        "gamesPlayedPlayoffs": 0
+      }
+    ],
+    "gamesPlayedRegularSeason": 3,
+    "gamesPlayedPlayoffs": 0
+  },
+  {
+    "playerId": 8462063,
+    "playerName": "Jason Doig",
+    "position": "D",
+    "seasons": [
+      {
+        "season": 19951996,
+        "gamesPlayedRegularSeason": 15,
+        "gamesPlayedPlayoffs": 0
+      }
+    ],
+    "gamesPlayedRegularSeason": 15,
+    "gamesPlayedPlayoffs": 0
+  },
+  {
     "playerId": 8468881,
     "playerName": "Jason Jaffray",
     "position": "L",
@@ -1843,6 +4096,20 @@
     "gamesPlayedPlayoffs": 0
   },
   {
+    "playerId": 8446826,
+    "playerName": "Jeff Finley",
+    "position": "D",
+    "seasons": [
+      {
+        "season": 19951996,
+        "gamesPlayedRegularSeason": 65,
+        "gamesPlayedPlayoffs": 6
+      }
+    ],
+    "gamesPlayedRegularSeason": 65,
+    "gamesPlayedPlayoffs": 6
+  },
+  {
     "playerId": 8482408,
     "playerName": "Jeff Malott",
     "position": "L",
@@ -1855,6 +4122,121 @@
     ],
     "gamesPlayedRegularSeason": 1,
     "gamesPlayedPlayoffs": 0
+  },
+  {
+    "playerId": 8445808,
+    "playerName": "Jerry Butler",
+    "position": "R",
+    "seasons": [
+      {
+        "season": 19821983,
+        "gamesPlayedRegularSeason": 42,
+        "gamesPlayedPlayoffs": 0
+      }
+    ],
+    "gamesPlayedRegularSeason": 42,
+    "gamesPlayedPlayoffs": 0
+  },
+  {
+    "playerId": 8448014,
+    "playerName": "Jim Hrivnak",
+    "position": "G",
+    "seasons": [
+      {
+        "season": 19921993,
+        "gamesPlayedRegularSeason": 3,
+        "gamesPlayedPlayoffs": 0
+      }
+    ],
+    "gamesPlayedRegularSeason": 3,
+    "gamesPlayedPlayoffs": 0
+  },
+  {
+    "playerId": 8448577,
+    "playerName": "Jim Kyte",
+    "position": "D",
+    "seasons": [
+      {
+        "season": 19821983,
+        "gamesPlayedRegularSeason": 2,
+        "gamesPlayedPlayoffs": 0
+      },
+      {
+        "season": 19831984,
+        "gamesPlayedRegularSeason": 58,
+        "gamesPlayedPlayoffs": 3
+      },
+      {
+        "season": 19841985,
+        "gamesPlayedRegularSeason": 71,
+        "gamesPlayedPlayoffs": 8
+      },
+      {
+        "season": 19851986,
+        "gamesPlayedRegularSeason": 71,
+        "gamesPlayedPlayoffs": 3
+      },
+      {
+        "season": 19861987,
+        "gamesPlayedRegularSeason": 72,
+        "gamesPlayedPlayoffs": 10
+      },
+      {
+        "season": 19871988,
+        "gamesPlayedRegularSeason": 51,
+        "gamesPlayedPlayoffs": 0
+      },
+      {
+        "season": 19881989,
+        "gamesPlayedRegularSeason": 74,
+        "gamesPlayedPlayoffs": 0
+      }
+    ],
+    "gamesPlayedRegularSeason": 399,
+    "gamesPlayedPlayoffs": 24
+  },
+  {
+    "playerId": 8449477,
+    "playerName": "Jim McKenzie",
+    "position": "L",
+    "seasons": [
+      {
+        "season": 19951996,
+        "gamesPlayedRegularSeason": 73,
+        "gamesPlayedPlayoffs": 1
+      }
+    ],
+    "gamesPlayedRegularSeason": 73,
+    "gamesPlayedPlayoffs": 1
+  },
+  {
+    "playerId": 8449884,
+    "playerName": "Jim Nill",
+    "position": "R",
+    "seasons": [
+      {
+        "season": 19841985,
+        "gamesPlayedRegularSeason": 20,
+        "gamesPlayedPlayoffs": 8
+      },
+      {
+        "season": 19851986,
+        "gamesPlayedRegularSeason": 61,
+        "gamesPlayedPlayoffs": 3
+      },
+      {
+        "season": 19861987,
+        "gamesPlayedRegularSeason": 36,
+        "gamesPlayedPlayoffs": 3
+      },
+      {
+        "season": 19871988,
+        "gamesPlayedRegularSeason": 24,
+        "gamesPlayedPlayoffs": 0
+      }
+    ],
+    "gamesPlayedRegularSeason": 141,
+    "gamesPlayedPlayoffs": 14
   },
   {
     "playerId": 8470289,
@@ -1884,6 +4266,40 @@
     ],
     "gamesPlayedRegularSeason": 213,
     "gamesPlayedPlayoffs": 4
+  },
+  {
+    "playerId": 8449119,
+    "playerName": "Jimmy Mann",
+    "position": "R",
+    "seasons": [
+      {
+        "season": 19791980,
+        "gamesPlayedRegularSeason": 72,
+        "gamesPlayedPlayoffs": 0
+      },
+      {
+        "season": 19801981,
+        "gamesPlayedRegularSeason": 37,
+        "gamesPlayedPlayoffs": 0
+      },
+      {
+        "season": 19811982,
+        "gamesPlayedRegularSeason": 37,
+        "gamesPlayedPlayoffs": 2
+      },
+      {
+        "season": 19821983,
+        "gamesPlayedRegularSeason": 40,
+        "gamesPlayedPlayoffs": 1
+      },
+      {
+        "season": 19831984,
+        "gamesPlayedRegularSeason": 16,
+        "gamesPlayedPlayoffs": 0
+      }
+    ],
+    "gamesPlayedRegularSeason": 202,
+    "gamesPlayedPlayoffs": 3
   },
   {
     "playerId": 8473482,
@@ -1943,6 +4359,25 @@
     "gamesPlayedPlayoffs": 13
   },
   {
+    "playerId": 8445223,
+    "playerName": "Joel Baillargeon",
+    "position": "L",
+    "seasons": [
+      {
+        "season": 19861987,
+        "gamesPlayedRegularSeason": 11,
+        "gamesPlayedPlayoffs": 0
+      },
+      {
+        "season": 19871988,
+        "gamesPlayedRegularSeason": 4,
+        "gamesPlayedPlayoffs": 0
+      }
+    ],
+    "gamesPlayedRegularSeason": 15,
+    "gamesPlayedPlayoffs": 0
+  },
+  {
     "playerId": 8474012,
     "playerName": "John Albert",
     "position": "C",
@@ -1954,6 +4389,96 @@
       }
     ],
     "gamesPlayedRegularSeason": 9,
+    "gamesPlayedPlayoffs": 0
+  },
+  {
+    "playerId": 8445454,
+    "playerName": "John Bethel",
+    "position": "L",
+    "seasons": [
+      {
+        "season": 19791980,
+        "gamesPlayedRegularSeason": 17,
+        "gamesPlayedPlayoffs": 0
+      }
+    ],
+    "gamesPlayedRegularSeason": 17,
+    "gamesPlayedPlayoffs": 0
+  },
+  {
+    "playerId": 8446487,
+    "playerName": "John Druce",
+    "position": "R",
+    "seasons": [
+      {
+        "season": 19921993,
+        "gamesPlayedRegularSeason": 50,
+        "gamesPlayedPlayoffs": 2
+      }
+    ],
+    "gamesPlayedRegularSeason": 50,
+    "gamesPlayedPlayoffs": 2
+  },
+  {
+    "playerId": 8447161,
+    "playerName": "John Gibson",
+    "position": "C",
+    "seasons": [
+      {
+        "season": 19831984,
+        "gamesPlayedRegularSeason": 11,
+        "gamesPlayedPlayoffs": 0
+      }
+    ],
+    "gamesPlayedRegularSeason": 11,
+    "gamesPlayedPlayoffs": 0
+  },
+  {
+    "playerId": 8448765,
+    "playerName": "John Leblanc",
+    "position": "R",
+    "seasons": [
+      {
+        "season": 19911992,
+        "gamesPlayedRegularSeason": 16,
+        "gamesPlayedPlayoffs": 0
+      },
+      {
+        "season": 19921993,
+        "gamesPlayedRegularSeason": 3,
+        "gamesPlayedPlayoffs": 0
+      },
+      {
+        "season": 19931994,
+        "gamesPlayedRegularSeason": 17,
+        "gamesPlayedPlayoffs": 0
+      },
+      {
+        "season": 19941995,
+        "gamesPlayedRegularSeason": 2,
+        "gamesPlayedPlayoffs": 0
+      }
+    ],
+    "gamesPlayedRegularSeason": 38,
+    "gamesPlayedPlayoffs": 0
+  },
+  {
+    "playerId": 8449164,
+    "playerName": "John Markell",
+    "position": "L",
+    "seasons": [
+      {
+        "season": 19791980,
+        "gamesPlayedRegularSeason": 38,
+        "gamesPlayedPlayoffs": 0
+      },
+      {
+        "season": 19801981,
+        "gamesPlayedRegularSeason": 14,
+        "gamesPlayedPlayoffs": 0
+      }
+    ],
+    "gamesPlayedRegularSeason": 52,
     "gamesPlayedPlayoffs": 0
   },
   {
@@ -2027,6 +4552,25 @@
     "gamesPlayedPlayoffs": 3
   },
   {
+    "playerId": 8446469,
+    "playerName": "Jordy Douglas",
+    "position": "L",
+    "seasons": [
+      {
+        "season": 19831984,
+        "gamesPlayedRegularSeason": 17,
+        "gamesPlayedPlayoffs": 1
+      },
+      {
+        "season": 19841985,
+        "gamesPlayedRegularSeason": 7,
+        "gamesPlayedPlayoffs": 0
+      }
+    ],
+    "gamesPlayedRegularSeason": 24,
+    "gamesPlayedPlayoffs": 1
+  },
+  {
     "playerId": 8477504,
     "playerName": "Josh Morrissey",
     "position": "D",
@@ -2091,6 +4635,25 @@
     "gamesPlayedPlayoffs": 54
   },
   {
+    "playerId": 8446482,
+    "playerName": "Jude Drouin",
+    "position": "C",
+    "seasons": [
+      {
+        "season": 19791980,
+        "gamesPlayedRegularSeason": 78,
+        "gamesPlayedPlayoffs": 0
+      },
+      {
+        "season": 19801981,
+        "gamesPlayedRegularSeason": 7,
+        "gamesPlayedPlayoffs": 0
+      }
+    ],
+    "gamesPlayedRegularSeason": 85,
+    "gamesPlayedPlayoffs": 0
+  },
+  {
     "playerId": 8475815,
     "playerName": "Julian Melchiori",
     "position": "D",
@@ -2129,6 +4692,20 @@
     "gamesPlayedPlayoffs": 0
   },
   {
+    "playerId": 8451257,
+    "playerName": "Jyrki Seppa",
+    "position": "D",
+    "seasons": [
+      {
+        "season": 19831984,
+        "gamesPlayedRegularSeason": 13,
+        "gamesPlayedPlayoffs": 0
+      }
+    ],
+    "gamesPlayedRegularSeason": 13,
+    "gamesPlayedPlayoffs": 0
+  },
+  {
     "playerId": 8480901,
     "playerName": "Karson Kuhlman",
     "position": "C",
@@ -2162,6 +4739,40 @@
     "gamesPlayedPlayoffs": 0
   },
   {
+    "playerId": 8458229,
+    "playerName": "Keith Tkachuk",
+    "position": "L",
+    "seasons": [
+      {
+        "season": 19911992,
+        "gamesPlayedRegularSeason": 17,
+        "gamesPlayedPlayoffs": 7
+      },
+      {
+        "season": 19921993,
+        "gamesPlayedRegularSeason": 83,
+        "gamesPlayedPlayoffs": 6
+      },
+      {
+        "season": 19931994,
+        "gamesPlayedRegularSeason": 84,
+        "gamesPlayedPlayoffs": 0
+      },
+      {
+        "season": 19941995,
+        "gamesPlayedRegularSeason": 48,
+        "gamesPlayedPlayoffs": 0
+      },
+      {
+        "season": 19951996,
+        "gamesPlayedRegularSeason": 76,
+        "gamesPlayedPlayoffs": 6
+      }
+    ],
+    "gamesPlayedRegularSeason": 308,
+    "gamesPlayedPlayoffs": 19
+  },
+  {
     "playerId": 8471694,
     "playerName": "Kenndal McArdle",
     "position": "L",
@@ -2173,6 +4784,20 @@
       }
     ],
     "gamesPlayedRegularSeason": 9,
+    "gamesPlayedPlayoffs": 0
+  },
+  {
+    "playerId": 8450260,
+    "playerName": "Kent Paynter",
+    "position": "D",
+    "seasons": [
+      {
+        "season": 19911992,
+        "gamesPlayedRegularSeason": 5,
+        "gamesPlayedPlayoffs": 0
+      }
+    ],
+    "gamesPlayedRegularSeason": 5,
     "gamesPlayedPlayoffs": 0
   },
   {
@@ -2190,6 +4815,20 @@
     "gamesPlayedPlayoffs": 6
   },
   {
+    "playerId": 8449354,
+    "playerName": "Kevin McClelland",
+    "position": "R",
+    "seasons": [
+      {
+        "season": 19931994,
+        "gamesPlayedRegularSeason": 6,
+        "gamesPlayedPlayoffs": 0
+      }
+    ],
+    "gamesPlayedRegularSeason": 6,
+    "gamesPlayedPlayoffs": 0
+  },
+  {
     "playerId": 8478831,
     "playerName": "Kevin Stenlund",
     "position": "C",
@@ -2202,6 +4841,78 @@
     ],
     "gamesPlayedRegularSeason": 54,
     "gamesPlayedPlayoffs": 5
+  },
+  {
+    "playerId": 8446485,
+    "playerName": "Kris Draper",
+    "position": "C",
+    "seasons": [
+      {
+        "season": 19901991,
+        "gamesPlayedRegularSeason": 3,
+        "gamesPlayedPlayoffs": 0
+      },
+      {
+        "season": 19911992,
+        "gamesPlayedRegularSeason": 10,
+        "gamesPlayedPlayoffs": 2
+      },
+      {
+        "season": 19921993,
+        "gamesPlayedRegularSeason": 7,
+        "gamesPlayedPlayoffs": 0
+      }
+    ],
+    "gamesPlayedRegularSeason": 20,
+    "gamesPlayedPlayoffs": 2
+  },
+  {
+    "playerId": 8448487,
+    "playerName": "Kris King",
+    "position": "L",
+    "seasons": [
+      {
+        "season": 19921993,
+        "gamesPlayedRegularSeason": 48,
+        "gamesPlayedPlayoffs": 6
+      },
+      {
+        "season": 19931994,
+        "gamesPlayedRegularSeason": 83,
+        "gamesPlayedPlayoffs": 0
+      },
+      {
+        "season": 19941995,
+        "gamesPlayedRegularSeason": 48,
+        "gamesPlayedPlayoffs": 0
+      },
+      {
+        "season": 19951996,
+        "gamesPlayedRegularSeason": 81,
+        "gamesPlayedPlayoffs": 5
+      }
+    ],
+    "gamesPlayedRegularSeason": 260,
+    "gamesPlayedPlayoffs": 11
+  },
+  {
+    "playerId": 8449109,
+    "playerName": "Kris Manery",
+    "position": "R",
+    "seasons": [
+      {
+        "season": 19791980,
+        "gamesPlayedRegularSeason": 16,
+        "gamesPlayedPlayoffs": 0
+      },
+      {
+        "season": 19801981,
+        "gamesPlayedRegularSeason": 47,
+        "gamesPlayedPlayoffs": 0
+      }
+    ],
+    "gamesPlayedRegularSeason": 63,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 8480443,
@@ -2339,6 +5050,44 @@
     "gamesPlayedPlayoffs": 0
   },
   {
+    "playerId": 8447950,
+    "playerName": "Larry Hopkins",
+    "position": "L",
+    "seasons": [
+      {
+        "season": 19791980,
+        "gamesPlayedRegularSeason": 5,
+        "gamesPlayedPlayoffs": 0
+      },
+      {
+        "season": 19811982,
+        "gamesPlayedRegularSeason": 41,
+        "gamesPlayedPlayoffs": 4
+      },
+      {
+        "season": 19821983,
+        "gamesPlayedRegularSeason": 12,
+        "gamesPlayedPlayoffs": 2
+      }
+    ],
+    "gamesPlayedRegularSeason": 58,
+    "gamesPlayedPlayoffs": 6
+  },
+  {
+    "playerId": 8451388,
+    "playerName": "Lars Sjoberg",
+    "position": "D",
+    "seasons": [
+      {
+        "season": 19791980,
+        "gamesPlayedRegularSeason": 79,
+        "gamesPlayedPlayoffs": 0
+      }
+    ],
+    "gamesPlayedRegularSeason": 79,
+    "gamesPlayedPlayoffs": 0
+  },
+  {
     "playerId": 8476316,
     "playerName": "Laurent Brossoit",
     "position": "G",
@@ -2368,6 +5117,55 @@
     "gamesPlayedPlayoffs": 1
   },
   {
+    "playerId": 8445603,
+    "playerName": "Laurie Boschman",
+    "position": "C",
+    "seasons": [
+      {
+        "season": 19821983,
+        "gamesPlayedRegularSeason": 12,
+        "gamesPlayedPlayoffs": 3
+      },
+      {
+        "season": 19831984,
+        "gamesPlayedRegularSeason": 61,
+        "gamesPlayedPlayoffs": 3
+      },
+      {
+        "season": 19841985,
+        "gamesPlayedRegularSeason": 80,
+        "gamesPlayedPlayoffs": 8
+      },
+      {
+        "season": 19851986,
+        "gamesPlayedRegularSeason": 77,
+        "gamesPlayedPlayoffs": 3
+      },
+      {
+        "season": 19861987,
+        "gamesPlayedRegularSeason": 80,
+        "gamesPlayedPlayoffs": 10
+      },
+      {
+        "season": 19871988,
+        "gamesPlayedRegularSeason": 80,
+        "gamesPlayedPlayoffs": 5
+      },
+      {
+        "season": 19881989,
+        "gamesPlayedRegularSeason": 70,
+        "gamesPlayedPlayoffs": 0
+      },
+      {
+        "season": 19891990,
+        "gamesPlayedRegularSeason": 66,
+        "gamesPlayedPlayoffs": 2
+      }
+    ],
+    "gamesPlayedRegularSeason": 526,
+    "gamesPlayedPlayoffs": 34
+  },
+  {
     "playerId": 8470740,
     "playerName": "Lee Stempniak",
     "position": "R",
@@ -2380,6 +5178,25 @@
     ],
     "gamesPlayedRegularSeason": 18,
     "gamesPlayedPlayoffs": 4
+  },
+  {
+    "playerId": 8449588,
+    "playerName": "Lindsay Middlebrook",
+    "position": "G",
+    "seasons": [
+      {
+        "season": 19791980,
+        "gamesPlayedRegularSeason": 10,
+        "gamesPlayedPlayoffs": 0
+      },
+      {
+        "season": 19801981,
+        "gamesPlayedRegularSeason": 14,
+        "gamesPlayedPlayoffs": 0
+      }
+    ],
+    "gamesPlayedRegularSeason": 24,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 8476400,
@@ -2430,6 +5247,20 @@
     "gamesPlayedPlayoffs": 17
   },
   {
+    "playerId": 8451629,
+    "playerName": "Lorne Stamler",
+    "position": "L",
+    "seasons": [
+      {
+        "season": 19791980,
+        "gamesPlayedRegularSeason": 62,
+        "gamesPlayedPlayoffs": 0
+      }
+    ],
+    "gamesPlayedRegularSeason": 62,
+    "gamesPlayedPlayoffs": 0
+  },
+  {
     "playerId": 8474579,
     "playerName": "Luca Sbisa",
     "position": "D",
@@ -2442,6 +5273,69 @@
     ],
     "gamesPlayedRegularSeason": 44,
     "gamesPlayedPlayoffs": 0
+  },
+  {
+    "playerId": 8455659,
+    "playerName": "Luciano Borsato",
+    "position": "C",
+    "seasons": [
+      {
+        "season": 19901991,
+        "gamesPlayedRegularSeason": 1,
+        "gamesPlayedPlayoffs": 0
+      },
+      {
+        "season": 19911992,
+        "gamesPlayedRegularSeason": 56,
+        "gamesPlayedPlayoffs": 1
+      },
+      {
+        "season": 19921993,
+        "gamesPlayedRegularSeason": 67,
+        "gamesPlayedPlayoffs": 6
+      },
+      {
+        "season": 19931994,
+        "gamesPlayedRegularSeason": 75,
+        "gamesPlayedPlayoffs": 0
+      },
+      {
+        "season": 19941995,
+        "gamesPlayedRegularSeason": 4,
+        "gamesPlayedPlayoffs": 0
+      }
+    ],
+    "gamesPlayedRegularSeason": 203,
+    "gamesPlayedPlayoffs": 7
+  },
+  {
+    "playerId": 8446353,
+    "playerName": "Lucien DeBlois",
+    "position": "C",
+    "seasons": [
+      {
+        "season": 19811982,
+        "gamesPlayedRegularSeason": 65,
+        "gamesPlayedPlayoffs": 4
+      },
+      {
+        "season": 19821983,
+        "gamesPlayedRegularSeason": 79,
+        "gamesPlayedPlayoffs": 3
+      },
+      {
+        "season": 19831984,
+        "gamesPlayedRegularSeason": 80,
+        "gamesPlayedPlayoffs": 3
+      },
+      {
+        "season": 19911992,
+        "gamesPlayedRegularSeason": 11,
+        "gamesPlayedPlayoffs": 5
+      }
+    ],
+    "gamesPlayedRegularSeason": 235,
+    "gamesPlayedPlayoffs": 15
   },
   {
     "playerId": 8474568,
@@ -2458,6 +5352,78 @@
     "gamesPlayedPlayoffs": 11
   },
   {
+    "playerId": 8449650,
+    "playerName": "Lyle Moffatt",
+    "position": "L",
+    "seasons": [
+      {
+        "season": 19791980,
+        "gamesPlayedRegularSeason": 74,
+        "gamesPlayedPlayoffs": 0
+      }
+    ],
+    "gamesPlayedRegularSeason": 74,
+    "gamesPlayedPlayoffs": 0
+  },
+  {
+    "playerId": 8445457,
+    "playerName": "Marc Behrend",
+    "position": "G",
+    "seasons": [
+      {
+        "season": 19831984,
+        "gamesPlayedRegularSeason": 6,
+        "gamesPlayedPlayoffs": 2
+      },
+      {
+        "season": 19841985,
+        "gamesPlayedRegularSeason": 24,
+        "gamesPlayedPlayoffs": 4
+      },
+      {
+        "season": 19851986,
+        "gamesPlayedRegularSeason": 9,
+        "gamesPlayedPlayoffs": 1
+      }
+    ],
+    "gamesPlayedRegularSeason": 39,
+    "gamesPlayedPlayoffs": 7
+  },
+  {
+    "playerId": 8449171,
+    "playerName": "Mario Marois",
+    "position": "D",
+    "seasons": [
+      {
+        "season": 19851986,
+        "gamesPlayedRegularSeason": 57,
+        "gamesPlayedPlayoffs": 3
+      },
+      {
+        "season": 19861987,
+        "gamesPlayedRegularSeason": 79,
+        "gamesPlayedPlayoffs": 10
+      },
+      {
+        "season": 19871988,
+        "gamesPlayedRegularSeason": 79,
+        "gamesPlayedPlayoffs": 5
+      },
+      {
+        "season": 19881989,
+        "gamesPlayedRegularSeason": 7,
+        "gamesPlayedPlayoffs": 0
+      },
+      {
+        "season": 19911992,
+        "gamesPlayedRegularSeason": 34,
+        "gamesPlayedPlayoffs": 0
+      }
+    ],
+    "gamesPlayedRegularSeason": 256,
+    "gamesPlayedPlayoffs": 18
+  },
+  {
     "playerId": 8470780,
     "playerName": "Mark Flood",
     "position": "D",
@@ -2472,6 +5438,44 @@
     "gamesPlayedPlayoffs": 0
   },
   {
+    "playerId": 8447940,
+    "playerName": "Mark Holden",
+    "position": "G",
+    "seasons": [
+      {
+        "season": 19841985,
+        "gamesPlayedRegularSeason": 4,
+        "gamesPlayedPlayoffs": 0
+      }
+    ],
+    "gamesPlayedRegularSeason": 4,
+    "gamesPlayedPlayoffs": 0
+  },
+  {
+    "playerId": 8448563,
+    "playerName": "Mark Kumpel",
+    "position": "R",
+    "seasons": [
+      {
+        "season": 19871988,
+        "gamesPlayedRegularSeason": 32,
+        "gamesPlayedPlayoffs": 4
+      },
+      {
+        "season": 19891990,
+        "gamesPlayedRegularSeason": 56,
+        "gamesPlayedPlayoffs": 7
+      },
+      {
+        "season": 19901991,
+        "gamesPlayedRegularSeason": 53,
+        "gamesPlayedPlayoffs": 0
+      }
+    ],
+    "gamesPlayedRegularSeason": 141,
+    "gamesPlayedPlayoffs": 11
+  },
+  {
     "playerId": 8473914,
     "playerName": "Mark Letestu",
     "position": "C",
@@ -2483,6 +5487,53 @@
       }
     ],
     "gamesPlayedRegularSeason": 7,
+    "gamesPlayedPlayoffs": 0
+  },
+  {
+    "playerId": 8450073,
+    "playerName": "Mark Osborne",
+    "position": "L",
+    "seasons": [
+      {
+        "season": 19901991,
+        "gamesPlayedRegularSeason": 37,
+        "gamesPlayedPlayoffs": 0
+      },
+      {
+        "season": 19911992,
+        "gamesPlayedRegularSeason": 43,
+        "gamesPlayedPlayoffs": 0
+      }
+    ],
+    "gamesPlayedRegularSeason": 80,
+    "gamesPlayedPlayoffs": 0
+  },
+  {
+    "playerId": 8457589,
+    "playerName": "Mark Osiecki",
+    "position": "D",
+    "seasons": [
+      {
+        "season": 19921993,
+        "gamesPlayedRegularSeason": 4,
+        "gamesPlayedPlayoffs": 0
+      }
+    ],
+    "gamesPlayedRegularSeason": 4,
+    "gamesPlayedPlayoffs": 0
+  },
+  {
+    "playerId": 8450465,
+    "playerName": "Mark Plantery",
+    "position": "D",
+    "seasons": [
+      {
+        "season": 19801981,
+        "gamesPlayedRegularSeason": 25,
+        "gamesPlayedPlayoffs": 0
+      }
+    ],
+    "gamesPlayedRegularSeason": 25,
     "gamesPlayedPlayoffs": 0
   },
   {
@@ -2609,6 +5660,34 @@
     "gamesPlayedPlayoffs": 4
   },
   {
+    "playerId": 8459020,
+    "playerName": "Mark Visheau",
+    "position": "D",
+    "seasons": [
+      {
+        "season": 19931994,
+        "gamesPlayedRegularSeason": 1,
+        "gamesPlayedPlayoffs": 0
+      }
+    ],
+    "gamesPlayedRegularSeason": 1,
+    "gamesPlayedPlayoffs": 0
+  },
+  {
+    "playerId": 8448551,
+    "playerName": "Markku Kyllonen",
+    "position": "R",
+    "seasons": [
+      {
+        "season": 19881989,
+        "gamesPlayedRegularSeason": 9,
+        "gamesPlayedPlayoffs": 0
+      }
+    ],
+    "gamesPlayedRegularSeason": 9,
+    "gamesPlayedPlayoffs": 0
+  },
+  {
     "playerId": 8477448,
     "playerName": "Marko Dano",
     "position": "C",
@@ -2630,6 +5709,25 @@
       }
     ],
     "gamesPlayedRegularSeason": 82,
+    "gamesPlayedPlayoffs": 0
+  },
+  {
+    "playerId": 8449291,
+    "playerName": "Markus Mattsson",
+    "position": "G",
+    "seasons": [
+      {
+        "season": 19791980,
+        "gamesPlayedRegularSeason": 21,
+        "gamesPlayedPlayoffs": 0
+      },
+      {
+        "season": 19801981,
+        "gamesPlayedRegularSeason": 31,
+        "gamesPlayedPlayoffs": 0
+      }
+    ],
+    "gamesPlayedRegularSeason": 52,
     "gamesPlayedPlayoffs": 0
   },
   {
@@ -2764,6 +5862,20 @@
     "gamesPlayedPlayoffs": 5
   },
   {
+    "playerId": 8447756,
+    "playerName": "Matthew Block",
+    "position": "D",
+    "seasons": [
+      {
+        "season": 19881989,
+        "gamesPlayedRegularSeason": 2,
+        "gamesPlayedPlayoffs": 0
+      }
+    ],
+    "gamesPlayedRegularSeason": 2,
+    "gamesPlayedPlayoffs": 0
+  },
+  {
     "playerId": 8479591,
     "playerName": "Michael Eyssimont",
     "position": "C",
@@ -2836,6 +5948,182 @@
     "gamesPlayedPlayoffs": 0
   },
   {
+    "playerId": 8457559,
+    "playerName": "Michael O'Neill",
+    "position": "G",
+    "seasons": [
+      {
+        "season": 19911992,
+        "gamesPlayedRegularSeason": 1,
+        "gamesPlayedPlayoffs": 0
+      },
+      {
+        "season": 19921993,
+        "gamesPlayedRegularSeason": 2,
+        "gamesPlayedPlayoffs": 0
+      },
+      {
+        "season": 19931994,
+        "gamesPlayedRegularSeason": 17,
+        "gamesPlayedPlayoffs": 0
+      }
+    ],
+    "gamesPlayedRegularSeason": 20,
+    "gamesPlayedPlayoffs": 0
+  },
+  {
+    "playerId": 8459568,
+    "playerName": "Michal Grosek",
+    "position": "L",
+    "seasons": [
+      {
+        "season": 19931994,
+        "gamesPlayedRegularSeason": 3,
+        "gamesPlayedPlayoffs": 0
+      },
+      {
+        "season": 19941995,
+        "gamesPlayedRegularSeason": 24,
+        "gamesPlayedPlayoffs": 0
+      },
+      {
+        "season": 19951996,
+        "gamesPlayedRegularSeason": 1,
+        "gamesPlayedPlayoffs": 0
+      }
+    ],
+    "gamesPlayedRegularSeason": 28,
+    "gamesPlayedPlayoffs": 0
+  },
+  {
+    "playerId": 8446429,
+    "playerName": "Michel Dion",
+    "position": "G",
+    "seasons": [
+      {
+        "season": 19801981,
+        "gamesPlayedRegularSeason": 14,
+        "gamesPlayedPlayoffs": 0
+      }
+    ],
+    "gamesPlayedRegularSeason": 14,
+    "gamesPlayedPlayoffs": 0
+  },
+  {
+    "playerId": 8444923,
+    "playerName": "Mike Amodeo",
+    "position": "D",
+    "seasons": [
+      {
+        "season": 19791980,
+        "gamesPlayedRegularSeason": 19,
+        "gamesPlayedPlayoffs": 0
+      }
+    ],
+    "gamesPlayedRegularSeason": 19,
+    "gamesPlayedPlayoffs": 0
+  },
+  {
+    "playerId": 8446551,
+    "playerName": "Mike Eagles",
+    "position": "L",
+    "seasons": [
+      {
+        "season": 19901991,
+        "gamesPlayedRegularSeason": 44,
+        "gamesPlayedPlayoffs": 0
+      },
+      {
+        "season": 19911992,
+        "gamesPlayedRegularSeason": 65,
+        "gamesPlayedPlayoffs": 7
+      },
+      {
+        "season": 19921993,
+        "gamesPlayedRegularSeason": 84,
+        "gamesPlayedPlayoffs": 5
+      },
+      {
+        "season": 19931994,
+        "gamesPlayedRegularSeason": 73,
+        "gamesPlayedPlayoffs": 0
+      },
+      {
+        "season": 19941995,
+        "gamesPlayedRegularSeason": 27,
+        "gamesPlayedPlayoffs": 0
+      }
+    ],
+    "gamesPlayedRegularSeason": 293,
+    "gamesPlayedPlayoffs": 12
+  },
+  {
+    "playerId": 8456156,
+    "playerName": "Mike Eastwood",
+    "position": "C",
+    "seasons": [
+      {
+        "season": 19941995,
+        "gamesPlayedRegularSeason": 13,
+        "gamesPlayedPlayoffs": 0
+      },
+      {
+        "season": 19951996,
+        "gamesPlayedRegularSeason": 80,
+        "gamesPlayedPlayoffs": 6
+      }
+    ],
+    "gamesPlayedRegularSeason": 93,
+    "gamesPlayedPlayoffs": 6
+  },
+  {
+    "playerId": 8447673,
+    "playerName": "Mike Hartman",
+    "position": "L",
+    "seasons": [
+      {
+        "season": 19911992,
+        "gamesPlayedRegularSeason": 75,
+        "gamesPlayedPlayoffs": 2
+      }
+    ],
+    "gamesPlayedRegularSeason": 75,
+    "gamesPlayedPlayoffs": 2
+  },
+  {
+    "playerId": 8448633,
+    "playerName": "Mike Lalor",
+    "position": "D",
+    "seasons": [
+      {
+        "season": 19911992,
+        "gamesPlayedRegularSeason": 15,
+        "gamesPlayedPlayoffs": 7
+      },
+      {
+        "season": 19921993,
+        "gamesPlayedRegularSeason": 64,
+        "gamesPlayedPlayoffs": 4
+      }
+    ],
+    "gamesPlayedRegularSeason": 79,
+    "gamesPlayedPlayoffs": 11
+  },
+  {
+    "playerId": 8448688,
+    "playerName": "Mike Lauen",
+    "position": "R",
+    "seasons": [
+      {
+        "season": 19831984,
+        "gamesPlayedRegularSeason": 4,
+        "gamesPlayedPlayoffs": 0
+      }
+    ],
+    "gamesPlayedRegularSeason": 4,
+    "gamesPlayedPlayoffs": 0
+  },
+  {
     "playerId": 8471390,
     "playerName": "Mike Santorelli",
     "position": "C",
@@ -2848,6 +6136,92 @@
     ],
     "gamesPlayedRegularSeason": 10,
     "gamesPlayedPlayoffs": 0
+  },
+  {
+    "playerId": 8451673,
+    "playerName": "Mike Stapleton",
+    "position": "C",
+    "seasons": [
+      {
+        "season": 19951996,
+        "gamesPlayedRegularSeason": 58,
+        "gamesPlayedPlayoffs": 6
+      }
+    ],
+    "gamesPlayedRegularSeason": 58,
+    "gamesPlayedPlayoffs": 6
+  },
+  {
+    "playerId": 8452205,
+    "playerName": "Mike Veisor",
+    "position": "G",
+    "seasons": [
+      {
+        "season": 19831984,
+        "gamesPlayedRegularSeason": 8,
+        "gamesPlayedPlayoffs": 1
+      }
+    ],
+    "gamesPlayedRegularSeason": 8,
+    "gamesPlayedPlayoffs": 1
+  },
+  {
+    "playerId": 8448758,
+    "playerName": "Moe Lemay",
+    "position": "L",
+    "seasons": [
+      {
+        "season": 19881989,
+        "gamesPlayedRegularSeason": 10,
+        "gamesPlayedPlayoffs": 0
+      }
+    ],
+    "gamesPlayedRegularSeason": 10,
+    "gamesPlayedPlayoffs": 0
+  },
+  {
+    "playerId": 8449122,
+    "playerName": "Moe Mantha",
+    "position": "D",
+    "seasons": [
+      {
+        "season": 19801981,
+        "gamesPlayedRegularSeason": 58,
+        "gamesPlayedPlayoffs": 0
+      },
+      {
+        "season": 19811982,
+        "gamesPlayedRegularSeason": 25,
+        "gamesPlayedPlayoffs": 4
+      },
+      {
+        "season": 19821983,
+        "gamesPlayedRegularSeason": 21,
+        "gamesPlayedPlayoffs": 2
+      },
+      {
+        "season": 19831984,
+        "gamesPlayedRegularSeason": 72,
+        "gamesPlayedPlayoffs": 3
+      },
+      {
+        "season": 19891990,
+        "gamesPlayedRegularSeason": 73,
+        "gamesPlayedPlayoffs": 7
+      },
+      {
+        "season": 19901991,
+        "gamesPlayedRegularSeason": 57,
+        "gamesPlayedPlayoffs": 0
+      },
+      {
+        "season": 19911992,
+        "gamesPlayedRegularSeason": 12,
+        "gamesPlayedPlayoffs": 0
+      }
+    ],
+    "gamesPlayedRegularSeason": 318,
+    "gamesPlayedPlayoffs": 16
   },
   {
     "playerId": 8480289,
@@ -2882,6 +6256,84 @@
     ],
     "gamesPlayedRegularSeason": 292,
     "gamesPlayedPlayoffs": 18
+  },
+  {
+    "playerId": 8448912,
+    "playerName": "Morris Lukowich",
+    "position": "L",
+    "seasons": [
+      {
+        "season": 19791980,
+        "gamesPlayedRegularSeason": 78,
+        "gamesPlayedPlayoffs": 0
+      },
+      {
+        "season": 19801981,
+        "gamesPlayedRegularSeason": 80,
+        "gamesPlayedPlayoffs": 0
+      },
+      {
+        "season": 19811982,
+        "gamesPlayedRegularSeason": 77,
+        "gamesPlayedPlayoffs": 4
+      },
+      {
+        "season": 19821983,
+        "gamesPlayedRegularSeason": 69,
+        "gamesPlayedPlayoffs": 0
+      },
+      {
+        "season": 19831984,
+        "gamesPlayedRegularSeason": 80,
+        "gamesPlayedPlayoffs": 3
+      },
+      {
+        "season": 19841985,
+        "gamesPlayedRegularSeason": 47,
+        "gamesPlayedPlayoffs": 0
+      }
+    ],
+    "gamesPlayedRegularSeason": 431,
+    "gamesPlayedPlayoffs": 7
+  },
+  {
+    "playerId": 8446544,
+    "playerName": "Murray Eaves",
+    "position": "C",
+    "seasons": [
+      {
+        "season": 19801981,
+        "gamesPlayedRegularSeason": 12,
+        "gamesPlayedPlayoffs": 0
+      },
+      {
+        "season": 19811982,
+        "gamesPlayedRegularSeason": 2,
+        "gamesPlayedPlayoffs": 0
+      },
+      {
+        "season": 19821983,
+        "gamesPlayedRegularSeason": 26,
+        "gamesPlayedPlayoffs": 0
+      },
+      {
+        "season": 19831984,
+        "gamesPlayedRegularSeason": 2,
+        "gamesPlayedPlayoffs": 2
+      },
+      {
+        "season": 19841985,
+        "gamesPlayedRegularSeason": 3,
+        "gamesPlayedPlayoffs": 2
+      },
+      {
+        "season": 19851986,
+        "gamesPlayedRegularSeason": 4,
+        "gamesPlayedPlayoffs": 0
+      }
+    ],
+    "gamesPlayedRegularSeason": 49,
+    "gamesPlayedPlayoffs": 4
   },
   {
     "playerId": 8477220,
@@ -2995,6 +6447,44 @@
     "gamesPlayedPlayoffs": 35
   },
   {
+    "playerId": 8452503,
+    "playerName": "Neil Wilkinson",
+    "position": "D",
+    "seasons": [
+      {
+        "season": 19941995,
+        "gamesPlayedRegularSeason": 40,
+        "gamesPlayedPlayoffs": 0
+      },
+      {
+        "season": 19951996,
+        "gamesPlayedRegularSeason": 21,
+        "gamesPlayedPlayoffs": 0
+      }
+    ],
+    "gamesPlayedRegularSeason": 61,
+    "gamesPlayedPlayoffs": 0
+  },
+  {
+    "playerId": 8446675,
+    "playerName": "Nelson Emerson",
+    "position": "R",
+    "seasons": [
+      {
+        "season": 19931994,
+        "gamesPlayedRegularSeason": 83,
+        "gamesPlayedPlayoffs": 0
+      },
+      {
+        "season": 19941995,
+        "gamesPlayedRegularSeason": 48,
+        "gamesPlayedPlayoffs": 0
+      }
+    ],
+    "gamesPlayedRegularSeason": 131,
+    "gamesPlayedPlayoffs": 0
+  },
+  {
     "playerId": 8478031,
     "playerName": "Nelson Nogier",
     "position": "D",
@@ -3100,6 +6590,25 @@
     "gamesPlayedPlayoffs": 0
   },
   {
+    "playerId": 8459140,
+    "playerName": "Nikolai Khabibulin",
+    "position": "G",
+    "seasons": [
+      {
+        "season": 19941995,
+        "gamesPlayedRegularSeason": 26,
+        "gamesPlayedPlayoffs": 0
+      },
+      {
+        "season": 19951996,
+        "gamesPlayedRegularSeason": 53,
+        "gamesPlayedPlayoffs": 6
+      }
+    ],
+    "gamesPlayedRegularSeason": 79,
+    "gamesPlayedPlayoffs": 6
+  },
+  {
     "playerId": 8477940,
     "playerName": "Nikolaj Ehlers",
     "position": "L",
@@ -3186,6 +6695,77 @@
     ],
     "gamesPlayedRegularSeason": 236,
     "gamesPlayedPlayoffs": 23
+  },
+  {
+    "playerId": 8446535,
+    "playerName": "Norm Dupont",
+    "position": "L",
+    "seasons": [
+      {
+        "season": 19801981,
+        "gamesPlayedRegularSeason": 80,
+        "gamesPlayedPlayoffs": 0
+      },
+      {
+        "season": 19811982,
+        "gamesPlayedRegularSeason": 62,
+        "gamesPlayedPlayoffs": 4
+      },
+      {
+        "season": 19821983,
+        "gamesPlayedRegularSeason": 39,
+        "gamesPlayedPlayoffs": 1
+      }
+    ],
+    "gamesPlayedRegularSeason": 181,
+    "gamesPlayedPlayoffs": 5
+  },
+  {
+    "playerId": 8448961,
+    "playerName": "Norm MacIver",
+    "position": "D",
+    "seasons": [
+      {
+        "season": 19951996,
+        "gamesPlayedRegularSeason": 39,
+        "gamesPlayedPlayoffs": 6
+      }
+    ],
+    "gamesPlayedRegularSeason": 39,
+    "gamesPlayedPlayoffs": 6
+  },
+  {
+    "playerId": 8458919,
+    "playerName": "Oleg Mikulchik",
+    "position": "D",
+    "seasons": [
+      {
+        "season": 19931994,
+        "gamesPlayedRegularSeason": 4,
+        "gamesPlayedPlayoffs": 0
+      },
+      {
+        "season": 19941995,
+        "gamesPlayedRegularSeason": 25,
+        "gamesPlayedPlayoffs": 0
+      }
+    ],
+    "gamesPlayedRegularSeason": 29,
+    "gamesPlayedPlayoffs": 0
+  },
+  {
+    "playerId": 8460493,
+    "playerName": "Oleg Tverdovsky",
+    "position": "D",
+    "seasons": [
+      {
+        "season": 19951996,
+        "gamesPlayedRegularSeason": 31,
+        "gamesPlayedPlayoffs": 6
+      }
+    ],
+    "gamesPlayedRegularSeason": 31,
+    "gamesPlayedPlayoffs": 6
   },
   {
     "playerId": 8466140,
@@ -3279,6 +6859,59 @@
     "gamesPlayedPlayoffs": 0
   },
   {
+    "playerId": 8446293,
+    "playerName": "Pat Daley",
+    "position": "L",
+    "seasons": [
+      {
+        "season": 19791980,
+        "gamesPlayedRegularSeason": 5,
+        "gamesPlayedPlayoffs": 0
+      },
+      {
+        "season": 19801981,
+        "gamesPlayedRegularSeason": 7,
+        "gamesPlayedPlayoffs": 0
+      }
+    ],
+    "gamesPlayedRegularSeason": 12,
+    "gamesPlayedPlayoffs": 0
+  },
+  {
+    "playerId": 8446676,
+    "playerName": "Pat Elynuik",
+    "position": "R",
+    "seasons": [
+      {
+        "season": 19871988,
+        "gamesPlayedRegularSeason": 13,
+        "gamesPlayedPlayoffs": 0
+      },
+      {
+        "season": 19881989,
+        "gamesPlayedRegularSeason": 56,
+        "gamesPlayedPlayoffs": 0
+      },
+      {
+        "season": 19891990,
+        "gamesPlayedRegularSeason": 80,
+        "gamesPlayedPlayoffs": 7
+      },
+      {
+        "season": 19901991,
+        "gamesPlayedRegularSeason": 80,
+        "gamesPlayedPlayoffs": 0
+      },
+      {
+        "season": 19911992,
+        "gamesPlayedRegularSeason": 60,
+        "gamesPlayedPlayoffs": 7
+      }
+    ],
+    "gamesPlayedRegularSeason": 289,
+    "gamesPlayedPlayoffs": 14
+  },
+  {
     "playerId": 8474616,
     "playerName": "Patrice Cormier",
     "position": "C",
@@ -3347,6 +6980,136 @@
     "gamesPlayedPlayoffs": 24
   },
   {
+    "playerId": 8445625,
+    "playerName": "Paul Boutilier",
+    "position": "D",
+    "seasons": [
+      {
+        "season": 19871988,
+        "gamesPlayedRegularSeason": 6,
+        "gamesPlayedPlayoffs": 5
+      },
+      {
+        "season": 19881989,
+        "gamesPlayedRegularSeason": 3,
+        "gamesPlayedPlayoffs": 0
+      }
+    ],
+    "gamesPlayedRegularSeason": 9,
+    "gamesPlayedPlayoffs": 5
+  },
+  {
+    "playerId": 8446797,
+    "playerName": "Paul Fenton",
+    "position": "L",
+    "seasons": [
+      {
+        "season": 19881989,
+        "gamesPlayedRegularSeason": 59,
+        "gamesPlayedPlayoffs": 0
+      },
+      {
+        "season": 19891990,
+        "gamesPlayedRegularSeason": 80,
+        "gamesPlayedPlayoffs": 7
+      },
+      {
+        "season": 19901991,
+        "gamesPlayedRegularSeason": 17,
+        "gamesPlayedPlayoffs": 0
+      }
+    ],
+    "gamesPlayedRegularSeason": 156,
+    "gamesPlayedPlayoffs": 7
+  },
+  {
+    "playerId": 8448981,
+    "playerName": "Paul MacLean",
+    "position": "R",
+    "seasons": [
+      {
+        "season": 19811982,
+        "gamesPlayedRegularSeason": 74,
+        "gamesPlayedPlayoffs": 4
+      },
+      {
+        "season": 19821983,
+        "gamesPlayedRegularSeason": 80,
+        "gamesPlayedPlayoffs": 3
+      },
+      {
+        "season": 19831984,
+        "gamesPlayedRegularSeason": 76,
+        "gamesPlayedPlayoffs": 3
+      },
+      {
+        "season": 19841985,
+        "gamesPlayedRegularSeason": 79,
+        "gamesPlayedPlayoffs": 8
+      },
+      {
+        "season": 19851986,
+        "gamesPlayedRegularSeason": 69,
+        "gamesPlayedPlayoffs": 2
+      },
+      {
+        "season": 19861987,
+        "gamesPlayedRegularSeason": 72,
+        "gamesPlayedPlayoffs": 10
+      },
+      {
+        "season": 19871988,
+        "gamesPlayedRegularSeason": 77,
+        "gamesPlayedPlayoffs": 5
+      }
+    ],
+    "gamesPlayedRegularSeason": 527,
+    "gamesPlayedPlayoffs": 35
+  },
+  {
+    "playerId": 8448919,
+    "playerName": "Paul Macdermid",
+    "position": "R",
+    "seasons": [
+      {
+        "season": 19891990,
+        "gamesPlayedRegularSeason": 44,
+        "gamesPlayedPlayoffs": 7
+      },
+      {
+        "season": 19901991,
+        "gamesPlayedRegularSeason": 69,
+        "gamesPlayedPlayoffs": 0
+      },
+      {
+        "season": 19911992,
+        "gamesPlayedRegularSeason": 59,
+        "gamesPlayedPlayoffs": 0
+      }
+    ],
+    "gamesPlayedRegularSeason": 172,
+    "gamesPlayedPlayoffs": 7
+  },
+  {
+    "playerId": 8450497,
+    "playerName": "Paul Pooley",
+    "position": "C",
+    "seasons": [
+      {
+        "season": 19841985,
+        "gamesPlayedRegularSeason": 12,
+        "gamesPlayedPlayoffs": 0
+      },
+      {
+        "season": 19851986,
+        "gamesPlayedRegularSeason": 3,
+        "gamesPlayedPlayoffs": 0
+      }
+    ],
+    "gamesPlayedRegularSeason": 15,
+    "gamesPlayedPlayoffs": 0
+  },
+  {
     "playerId": 8474074,
     "playerName": "Paul Postma",
     "position": "D",
@@ -3410,6 +7173,68 @@
     "gamesPlayedPlayoffs": 23
   },
   {
+    "playerId": 8452571,
+    "playerName": "Paul Ysebaert",
+    "position": "L",
+    "seasons": [
+      {
+        "season": 19931994,
+        "gamesPlayedRegularSeason": 60,
+        "gamesPlayedPlayoffs": 0
+      }
+    ],
+    "gamesPlayedRegularSeason": 60,
+    "gamesPlayedPlayoffs": 0
+  },
+  {
+    "playerId": 8451992,
+    "playerName": "Perry Turnbull",
+    "position": "C",
+    "seasons": [
+      {
+        "season": 19841985,
+        "gamesPlayedRegularSeason": 66,
+        "gamesPlayedPlayoffs": 8
+      },
+      {
+        "season": 19851986,
+        "gamesPlayedRegularSeason": 80,
+        "gamesPlayedPlayoffs": 3
+      },
+      {
+        "season": 19861987,
+        "gamesPlayedRegularSeason": 26,
+        "gamesPlayedPlayoffs": 1
+      }
+    ],
+    "gamesPlayedRegularSeason": 172,
+    "gamesPlayedPlayoffs": 12
+  },
+  {
+    "playerId": 8446468,
+    "playerName": "Peter Douris",
+    "position": "R",
+    "seasons": [
+      {
+        "season": 19851986,
+        "gamesPlayedRegularSeason": 11,
+        "gamesPlayedPlayoffs": 0
+      },
+      {
+        "season": 19861987,
+        "gamesPlayedRegularSeason": 6,
+        "gamesPlayedPlayoffs": 0
+      },
+      {
+        "season": 19871988,
+        "gamesPlayedRegularSeason": 4,
+        "gamesPlayedPlayoffs": 1
+      }
+    ],
+    "gamesPlayedRegularSeason": 21,
+    "gamesPlayedPlayoffs": 1
+  },
+  {
     "playerId": 8474771,
     "playerName": "Peter Mannino",
     "position": "G",
@@ -3421,6 +7246,164 @@
       }
     ],
     "gamesPlayedRegularSeason": 1,
+    "gamesPlayedPlayoffs": 0
+  },
+  {
+    "playerId": 8449190,
+    "playerName": "Peter Marsh",
+    "position": "R",
+    "seasons": [
+      {
+        "season": 19791980,
+        "gamesPlayedRegularSeason": 57,
+        "gamesPlayedPlayoffs": 0
+      },
+      {
+        "season": 19801981,
+        "gamesPlayedRegularSeason": 24,
+        "gamesPlayedPlayoffs": 0
+      }
+    ],
+    "gamesPlayedRegularSeason": 81,
+    "gamesPlayedPlayoffs": 0
+  },
+  {
+    "playerId": 8451781,
+    "playerName": "Peter Sullivan",
+    "position": "C",
+    "seasons": [
+      {
+        "season": 19791980,
+        "gamesPlayedRegularSeason": 79,
+        "gamesPlayedPlayoffs": 0
+      },
+      {
+        "season": 19801981,
+        "gamesPlayedRegularSeason": 47,
+        "gamesPlayedPlayoffs": 0
+      }
+    ],
+    "gamesPlayedRegularSeason": 126,
+    "gamesPlayedPlayoffs": 0
+  },
+  {
+    "playerId": 8451836,
+    "playerName": "Peter Taglianetti",
+    "position": "D",
+    "seasons": [
+      {
+        "season": 19841985,
+        "gamesPlayedRegularSeason": 1,
+        "gamesPlayedPlayoffs": 1
+      },
+      {
+        "season": 19851986,
+        "gamesPlayedRegularSeason": 18,
+        "gamesPlayedPlayoffs": 3
+      },
+      {
+        "season": 19861987,
+        "gamesPlayedRegularSeason": 3,
+        "gamesPlayedPlayoffs": 0
+      },
+      {
+        "season": 19871988,
+        "gamesPlayedRegularSeason": 70,
+        "gamesPlayedPlayoffs": 5
+      },
+      {
+        "season": 19881989,
+        "gamesPlayedRegularSeason": 66,
+        "gamesPlayedPlayoffs": 0
+      },
+      {
+        "season": 19891990,
+        "gamesPlayedRegularSeason": 49,
+        "gamesPlayedPlayoffs": 5
+      }
+    ],
+    "gamesPlayedRegularSeason": 207,
+    "gamesPlayedPlayoffs": 14
+  },
+  {
+    "playerId": 8451429,
+    "playerName": "Petri Skriko",
+    "position": "L",
+    "seasons": [
+      {
+        "season": 19911992,
+        "gamesPlayedRegularSeason": 15,
+        "gamesPlayedPlayoffs": 0
+      }
+    ],
+    "gamesPlayedRegularSeason": 15,
+    "gamesPlayedPlayoffs": 0
+  },
+  {
+    "playerId": 8447989,
+    "playerName": "Phil Housley",
+    "position": "D",
+    "seasons": [
+      {
+        "season": 19901991,
+        "gamesPlayedRegularSeason": 78,
+        "gamesPlayedPlayoffs": 0
+      },
+      {
+        "season": 19911992,
+        "gamesPlayedRegularSeason": 74,
+        "gamesPlayedPlayoffs": 7
+      },
+      {
+        "season": 19921993,
+        "gamesPlayedRegularSeason": 80,
+        "gamesPlayedPlayoffs": 6
+      }
+    ],
+    "gamesPlayedRegularSeason": 232,
+    "gamesPlayedPlayoffs": 13
+  },
+  {
+    "playerId": 8451828,
+    "playerName": "Phil Sykes",
+    "position": "L",
+    "seasons": [
+      {
+        "season": 19891990,
+        "gamesPlayedRegularSeason": 48,
+        "gamesPlayedPlayoffs": 4
+      },
+      {
+        "season": 19901991,
+        "gamesPlayedRegularSeason": 70,
+        "gamesPlayedPlayoffs": 0
+      },
+      {
+        "season": 19911992,
+        "gamesPlayedRegularSeason": 52,
+        "gamesPlayedPlayoffs": 7
+      }
+    ],
+    "gamesPlayedRegularSeason": 170,
+    "gamesPlayedPlayoffs": 11
+  },
+  {
+    "playerId": 8447483,
+    "playerName": "Pierre Hamel",
+    "position": "G",
+    "seasons": [
+      {
+        "season": 19791980,
+        "gamesPlayedRegularSeason": 35,
+        "gamesPlayedPlayoffs": 0
+      },
+      {
+        "season": 19801981,
+        "gamesPlayedRegularSeason": 29,
+        "gamesPlayedPlayoffs": 0
+      }
+    ],
+    "gamesPlayedRegularSeason": 64,
     "gamesPlayedPlayoffs": 0
   },
   {
@@ -3462,6 +7445,118 @@
     "gamesPlayedPlayoffs": 0
   },
   {
+    "playerId": 8445938,
+    "playerName": "Randy Carlyle",
+    "position": "D",
+    "seasons": [
+      {
+        "season": 19831984,
+        "gamesPlayedRegularSeason": 5,
+        "gamesPlayedPlayoffs": 3
+      },
+      {
+        "season": 19841985,
+        "gamesPlayedRegularSeason": 71,
+        "gamesPlayedPlayoffs": 8
+      },
+      {
+        "season": 19851986,
+        "gamesPlayedRegularSeason": 68,
+        "gamesPlayedPlayoffs": 0
+      },
+      {
+        "season": 19861987,
+        "gamesPlayedRegularSeason": 71,
+        "gamesPlayedPlayoffs": 10
+      },
+      {
+        "season": 19871988,
+        "gamesPlayedRegularSeason": 78,
+        "gamesPlayedPlayoffs": 5
+      },
+      {
+        "season": 19881989,
+        "gamesPlayedRegularSeason": 78,
+        "gamesPlayedPlayoffs": 0
+      },
+      {
+        "season": 19891990,
+        "gamesPlayedRegularSeason": 53,
+        "gamesPlayedPlayoffs": 0
+      },
+      {
+        "season": 19901991,
+        "gamesPlayedRegularSeason": 52,
+        "gamesPlayedPlayoffs": 0
+      },
+      {
+        "season": 19911992,
+        "gamesPlayedRegularSeason": 66,
+        "gamesPlayedPlayoffs": 5
+      },
+      {
+        "season": 19921993,
+        "gamesPlayedRegularSeason": 22,
+        "gamesPlayedPlayoffs": 0
+      }
+    ],
+    "gamesPlayedRegularSeason": 564,
+    "gamesPlayedPlayoffs": 31
+  },
+  {
+    "playerId": 8446261,
+    "playerName": "Randy Cunneyworth",
+    "position": "L",
+    "seasons": [
+      {
+        "season": 19891990,
+        "gamesPlayedRegularSeason": 28,
+        "gamesPlayedPlayoffs": 0
+      }
+    ],
+    "gamesPlayedRegularSeason": 28,
+    "gamesPlayedPlayoffs": 0
+  },
+  {
+    "playerId": 8447180,
+    "playerName": "Randy Gilhen",
+    "position": "C",
+    "seasons": [
+      {
+        "season": 19861987,
+        "gamesPlayedRegularSeason": 2,
+        "gamesPlayedPlayoffs": 0
+      },
+      {
+        "season": 19871988,
+        "gamesPlayedRegularSeason": 13,
+        "gamesPlayedPlayoffs": 4
+      },
+      {
+        "season": 19881989,
+        "gamesPlayedRegularSeason": 64,
+        "gamesPlayedPlayoffs": 0
+      },
+      {
+        "season": 19931994,
+        "gamesPlayedRegularSeason": 40,
+        "gamesPlayedPlayoffs": 0
+      },
+      {
+        "season": 19941995,
+        "gamesPlayedRegularSeason": 44,
+        "gamesPlayedPlayoffs": 0
+      },
+      {
+        "season": 19951996,
+        "gamesPlayedRegularSeason": 22,
+        "gamesPlayedPlayoffs": 0
+      }
+    ],
+    "gamesPlayedRegularSeason": 185,
+    "gamesPlayedPlayoffs": 4
+  },
+  {
     "playerId": 8470905,
     "playerName": "Randy Jones",
     "position": "D",
@@ -3495,6 +7590,120 @@
     "gamesPlayedPlayoffs": 0
   },
   {
+    "playerId": 8459518,
+    "playerName": "Ravil Gusmanov",
+    "position": "R",
+    "seasons": [
+      {
+        "season": 19951996,
+        "gamesPlayedRegularSeason": 4,
+        "gamesPlayedPlayoffs": 0
+      }
+    ],
+    "gamesPlayedRegularSeason": 4,
+    "gamesPlayedPlayoffs": 0
+  },
+  {
+    "playerId": 8449860,
+    "playerName": "Ray Neufeld",
+    "position": "R",
+    "seasons": [
+      {
+        "season": 19851986,
+        "gamesPlayedRegularSeason": 60,
+        "gamesPlayedPlayoffs": 3
+      },
+      {
+        "season": 19861987,
+        "gamesPlayedRegularSeason": 80,
+        "gamesPlayedPlayoffs": 8
+      },
+      {
+        "season": 19871988,
+        "gamesPlayedRegularSeason": 78,
+        "gamesPlayedPlayoffs": 5
+      },
+      {
+        "season": 19881989,
+        "gamesPlayedRegularSeason": 31,
+        "gamesPlayedPlayoffs": 0
+      }
+    ],
+    "gamesPlayedRegularSeason": 249,
+    "gamesPlayedPlayoffs": 16
+  },
+  {
+    "playerId": 8449731,
+    "playerName": "Richard Mulhern",
+    "position": "D",
+    "seasons": [
+      {
+        "season": 19801981,
+        "gamesPlayedRegularSeason": 19,
+        "gamesPlayedPlayoffs": 0
+      }
+    ],
+    "gamesPlayedRegularSeason": 19,
+    "gamesPlayedPlayoffs": 0
+  },
+  {
+    "playerId": 8445643,
+    "playerName": "Rick Bowness",
+    "position": "R",
+    "seasons": [
+      {
+        "season": 19801981,
+        "gamesPlayedRegularSeason": 45,
+        "gamesPlayedPlayoffs": 0
+      },
+      {
+        "season": 19811982,
+        "gamesPlayedRegularSeason": 0,
+        "gamesPlayedPlayoffs": 1
+      }
+    ],
+    "gamesPlayedRegularSeason": 45,
+    "gamesPlayedPlayoffs": 1
+  },
+  {
+    "playerId": 8446498,
+    "playerName": "Rick Dudley",
+    "position": "L",
+    "seasons": [
+      {
+        "season": 19801981,
+        "gamesPlayedRegularSeason": 30,
+        "gamesPlayedPlayoffs": 0
+      }
+    ],
+    "gamesPlayedRegularSeason": 30,
+    "gamesPlayedPlayoffs": 0
+  },
+  {
+    "playerId": 8451834,
+    "playerName": "Rick Tabaracci",
+    "position": "G",
+    "seasons": [
+      {
+        "season": 19901991,
+        "gamesPlayedRegularSeason": 24,
+        "gamesPlayedPlayoffs": 0
+      },
+      {
+        "season": 19911992,
+        "gamesPlayedRegularSeason": 18,
+        "gamesPlayedPlayoffs": 7
+      },
+      {
+        "season": 19921993,
+        "gamesPlayedRegularSeason": 19,
+        "gamesPlayedPlayoffs": 0
+      }
+    ],
+    "gamesPlayedRegularSeason": 61,
+    "gamesPlayedPlayoffs": 7
+  },
+  {
     "playerId": 8474062,
     "playerName": "Riley Nash",
     "position": "C",
@@ -3507,6 +7716,64 @@
     ],
     "gamesPlayedRegularSeason": 15,
     "gamesPlayedPlayoffs": 0
+  },
+  {
+    "playerId": 8449761,
+    "playerName": "Rob Murray",
+    "position": "C",
+    "seasons": [
+      {
+        "season": 19911992,
+        "gamesPlayedRegularSeason": 9,
+        "gamesPlayedPlayoffs": 0
+      },
+      {
+        "season": 19921993,
+        "gamesPlayedRegularSeason": 10,
+        "gamesPlayedPlayoffs": 0
+      },
+      {
+        "season": 19931994,
+        "gamesPlayedRegularSeason": 6,
+        "gamesPlayedPlayoffs": 0
+      },
+      {
+        "season": 19941995,
+        "gamesPlayedRegularSeason": 10,
+        "gamesPlayedPlayoffs": 0
+      },
+      {
+        "season": 19951996,
+        "gamesPlayedRegularSeason": 1,
+        "gamesPlayedPlayoffs": 0
+      }
+    ],
+    "gamesPlayedRegularSeason": 36,
+    "gamesPlayedPlayoffs": 0
+  },
+  {
+    "playerId": 8450359,
+    "playerName": "Robert Picard",
+    "position": "D",
+    "seasons": [
+      {
+        "season": 19831984,
+        "gamesPlayedRegularSeason": 62,
+        "gamesPlayedPlayoffs": 3
+      },
+      {
+        "season": 19841985,
+        "gamesPlayedRegularSeason": 78,
+        "gamesPlayedPlayoffs": 8
+      },
+      {
+        "season": 19851986,
+        "gamesPlayedRegularSeason": 20,
+        "gamesPlayedPlayoffs": 0
+      }
+    ],
+    "gamesPlayedRegularSeason": 160,
+    "gamesPlayedPlayoffs": 11
   },
   {
     "playerId": 8468493,
@@ -3525,6 +7792,155 @@
       }
     ],
     "gamesPlayedRegularSeason": 103,
+    "gamesPlayedPlayoffs": 0
+  },
+  {
+    "playerId": 8452495,
+    "playerName": "Ron Wilson",
+    "position": "C",
+    "seasons": [
+      {
+        "season": 19791980,
+        "gamesPlayedRegularSeason": 79,
+        "gamesPlayedPlayoffs": 0
+      },
+      {
+        "season": 19801981,
+        "gamesPlayedRegularSeason": 77,
+        "gamesPlayedPlayoffs": 0
+      },
+      {
+        "season": 19811982,
+        "gamesPlayedRegularSeason": 39,
+        "gamesPlayedPlayoffs": 0
+      },
+      {
+        "season": 19821983,
+        "gamesPlayedRegularSeason": 12,
+        "gamesPlayedPlayoffs": 3
+      },
+      {
+        "season": 19831984,
+        "gamesPlayedRegularSeason": 51,
+        "gamesPlayedPlayoffs": 0
+      },
+      {
+        "season": 19841985,
+        "gamesPlayedRegularSeason": 74,
+        "gamesPlayedPlayoffs": 8
+      },
+      {
+        "season": 19851986,
+        "gamesPlayedRegularSeason": 54,
+        "gamesPlayedPlayoffs": 1
+      },
+      {
+        "season": 19861987,
+        "gamesPlayedRegularSeason": 80,
+        "gamesPlayedPlayoffs": 10
+      },
+      {
+        "season": 19871988,
+        "gamesPlayedRegularSeason": 69,
+        "gamesPlayedPlayoffs": 1
+      }
+    ],
+    "gamesPlayedRegularSeason": 535,
+    "gamesPlayedPlayoffs": 23
+  },
+  {
+    "playerId": 8448861,
+    "playerName": "Ronald Loustel",
+    "position": "G",
+    "seasons": [
+      {
+        "season": 19801981,
+        "gamesPlayedRegularSeason": 1,
+        "gamesPlayedPlayoffs": 0
+      }
+    ],
+    "gamesPlayedRegularSeason": 1,
+    "gamesPlayedPlayoffs": 0
+  },
+  {
+    "playerId": 8446168,
+    "playerName": "Ross Cory",
+    "position": "D",
+    "seasons": [
+      {
+        "season": 19791980,
+        "gamesPlayedRegularSeason": 46,
+        "gamesPlayedPlayoffs": 0
+      },
+      {
+        "season": 19801981,
+        "gamesPlayedRegularSeason": 5,
+        "gamesPlayedPlayoffs": 0
+      }
+    ],
+    "gamesPlayedRegularSeason": 51,
+    "gamesPlayedPlayoffs": 0
+  },
+  {
+    "playerId": 8450486,
+    "playerName": "Rudy Poeschek",
+    "position": "D",
+    "seasons": [
+      {
+        "season": 19901991,
+        "gamesPlayedRegularSeason": 1,
+        "gamesPlayedPlayoffs": 0
+      },
+      {
+        "season": 19911992,
+        "gamesPlayedRegularSeason": 4,
+        "gamesPlayedPlayoffs": 0
+      }
+    ],
+    "gamesPlayedRegularSeason": 5,
+    "gamesPlayedPlayoffs": 0
+  },
+  {
+    "playerId": 8457847,
+    "playerName": "Russ Romaniuk",
+    "position": "L",
+    "seasons": [
+      {
+        "season": 19911992,
+        "gamesPlayedRegularSeason": 27,
+        "gamesPlayedPlayoffs": 0
+      },
+      {
+        "season": 19921993,
+        "gamesPlayedRegularSeason": 28,
+        "gamesPlayedPlayoffs": 1
+      },
+      {
+        "season": 19931994,
+        "gamesPlayedRegularSeason": 24,
+        "gamesPlayedPlayoffs": 0
+      },
+      {
+        "season": 19941995,
+        "gamesPlayedRegularSeason": 6,
+        "gamesPlayedPlayoffs": 0
+      }
+    ],
+    "gamesPlayedRegularSeason": 85,
+    "gamesPlayedPlayoffs": 1
+  },
+  {
+    "playerId": 8451729,
+    "playerName": "Ryan Stewart",
+    "position": "C",
+    "seasons": [
+      {
+        "season": 19851986,
+        "gamesPlayedRegularSeason": 3,
+        "gamesPlayedPlayoffs": 0
+      }
+    ],
+    "gamesPlayedRegularSeason": 3,
     "gamesPlayedPlayoffs": 0
   },
   {
@@ -3585,6 +8001,78 @@
     "gamesPlayedPlayoffs": 0
   },
   {
+    "playerId": 8445353,
+    "playerName": "Sandy Beadle",
+    "position": "L",
+    "seasons": [
+      {
+        "season": 19801981,
+        "gamesPlayedRegularSeason": 6,
+        "gamesPlayedPlayoffs": 0
+      }
+    ],
+    "gamesPlayedRegularSeason": 6,
+    "gamesPlayedPlayoffs": 0
+  },
+  {
+    "playerId": 8445088,
+    "playerName": "Scott Arniel",
+    "position": "L",
+    "seasons": [
+      {
+        "season": 19811982,
+        "gamesPlayedRegularSeason": 17,
+        "gamesPlayedPlayoffs": 3
+      },
+      {
+        "season": 19821983,
+        "gamesPlayedRegularSeason": 75,
+        "gamesPlayedPlayoffs": 2
+      },
+      {
+        "season": 19831984,
+        "gamesPlayedRegularSeason": 80,
+        "gamesPlayedPlayoffs": 2
+      },
+      {
+        "season": 19841985,
+        "gamesPlayedRegularSeason": 79,
+        "gamesPlayedPlayoffs": 8
+      },
+      {
+        "season": 19851986,
+        "gamesPlayedRegularSeason": 80,
+        "gamesPlayedPlayoffs": 3
+      },
+      {
+        "season": 19901991,
+        "gamesPlayedRegularSeason": 75,
+        "gamesPlayedPlayoffs": 0
+      }
+    ],
+    "gamesPlayedRegularSeason": 406,
+    "gamesPlayedPlayoffs": 18
+  },
+  {
+    "playerId": 8445900,
+    "playerName": "Scott Campbell",
+    "position": "D",
+    "seasons": [
+      {
+        "season": 19791980,
+        "gamesPlayedRegularSeason": 63,
+        "gamesPlayedPlayoffs": 0
+      },
+      {
+        "season": 19801981,
+        "gamesPlayedRegularSeason": 14,
+        "gamesPlayedPlayoffs": 0
+      }
+    ],
+    "gamesPlayedRegularSeason": 77,
+    "gamesPlayedPlayoffs": 0
+  },
+  {
     "playerId": 8476910,
     "playerName": "Scott Kosmachuk",
     "position": "R",
@@ -3596,6 +8084,34 @@
       }
     ],
     "gamesPlayedRegularSeason": 8,
+    "gamesPlayedPlayoffs": 0
+  },
+  {
+    "playerId": 8459453,
+    "playerName": "Scott Langkow",
+    "position": "G",
+    "seasons": [
+      {
+        "season": 19951996,
+        "gamesPlayedRegularSeason": 1,
+        "gamesPlayedPlayoffs": 0
+      }
+    ],
+    "gamesPlayedRegularSeason": 1,
+    "gamesPlayedPlayoffs": 0
+  },
+  {
+    "playerId": 8457061,
+    "playerName": "Scott Levins",
+    "position": "R",
+    "seasons": [
+      {
+        "season": 19921993,
+        "gamesPlayedRegularSeason": 9,
+        "gamesPlayedPlayoffs": 0
+      }
+    ],
+    "gamesPlayedRegularSeason": 9,
     "gamesPlayedPlayoffs": 0
   },
   {
@@ -3611,6 +8127,96 @@
     ],
     "gamesPlayedRegularSeason": 34,
     "gamesPlayedPlayoffs": 5
+  },
+  {
+    "playerId": 8451150,
+    "playerName": "Serge Savard",
+    "position": "D",
+    "seasons": [
+      {
+        "season": 19811982,
+        "gamesPlayedRegularSeason": 47,
+        "gamesPlayedPlayoffs": 4
+      },
+      {
+        "season": 19821983,
+        "gamesPlayedRegularSeason": 76,
+        "gamesPlayedPlayoffs": 3
+      }
+    ],
+    "gamesPlayedRegularSeason": 123,
+    "gamesPlayedPlayoffs": 7
+  },
+  {
+    "playerId": 8458953,
+    "playerName": "Sergei Bautin",
+    "position": "D",
+    "seasons": [
+      {
+        "season": 19921993,
+        "gamesPlayedRegularSeason": 71,
+        "gamesPlayedPlayoffs": 6
+      },
+      {
+        "season": 19931994,
+        "gamesPlayedRegularSeason": 59,
+        "gamesPlayedPlayoffs": 0
+      }
+    ],
+    "gamesPlayedRegularSeason": 130,
+    "gamesPlayedPlayoffs": 6
+  },
+  {
+    "playerId": 8448481,
+    "playerName": "Sergei Kharin",
+    "position": "R",
+    "seasons": [
+      {
+        "season": 19901991,
+        "gamesPlayedRegularSeason": 7,
+        "gamesPlayedPlayoffs": 0
+      }
+    ],
+    "gamesPlayedRegularSeason": 7,
+    "gamesPlayedPlayoffs": 0
+  },
+  {
+    "playerId": 8462038,
+    "playerName": "Shane Doan",
+    "position": "R",
+    "seasons": [
+      {
+        "season": 19951996,
+        "gamesPlayedRegularSeason": 74,
+        "gamesPlayedPlayoffs": 6
+      }
+    ],
+    "gamesPlayedRegularSeason": 74,
+    "gamesPlayedPlayoffs": 6
+  },
+  {
+    "playerId": 8446243,
+    "playerName": "Shawn Cronin",
+    "position": "D",
+    "seasons": [
+      {
+        "season": 19891990,
+        "gamesPlayedRegularSeason": 61,
+        "gamesPlayedPlayoffs": 5
+      },
+      {
+        "season": 19901991,
+        "gamesPlayedRegularSeason": 67,
+        "gamesPlayedPlayoffs": 0
+      },
+      {
+        "season": 19911992,
+        "gamesPlayedRegularSeason": 65,
+        "gamesPlayedPlayoffs": 4
+      }
+    ],
+    "gamesPlayedRegularSeason": 193,
+    "gamesPlayedPlayoffs": 9
   },
   {
     "playerId": 8473574,
@@ -3632,6 +8238,20 @@
     "gamesPlayedPlayoffs": 0
   },
   {
+    "playerId": 8452377,
+    "playerName": "Simon Wheeldon",
+    "position": "C",
+    "seasons": [
+      {
+        "season": 19901991,
+        "gamesPlayedRegularSeason": 4,
+        "gamesPlayedPlayoffs": 0
+      }
+    ],
+    "gamesPlayedRegularSeason": 4,
+    "gamesPlayedPlayoffs": 0
+  },
+  {
     "playerId": 8474146,
     "playerName": "Spencer Machacek",
     "position": "R",
@@ -3643,6 +8263,54 @@
       }
     ],
     "gamesPlayedRegularSeason": 13,
+    "gamesPlayedPlayoffs": 0
+  },
+  {
+    "playerId": 8445382,
+    "playerName": "Stephane Beauregard",
+    "position": "G",
+    "seasons": [
+      {
+        "season": 19891990,
+        "gamesPlayedRegularSeason": 19,
+        "gamesPlayedPlayoffs": 4
+      },
+      {
+        "season": 19901991,
+        "gamesPlayedRegularSeason": 16,
+        "gamesPlayedPlayoffs": 0
+      },
+      {
+        "season": 19911992,
+        "gamesPlayedRegularSeason": 26,
+        "gamesPlayedPlayoffs": 0
+      },
+      {
+        "season": 19931994,
+        "gamesPlayedRegularSeason": 13,
+        "gamesPlayedPlayoffs": 0
+      }
+    ],
+    "gamesPlayedRegularSeason": 74,
+    "gamesPlayedPlayoffs": 4
+  },
+  {
+    "playerId": 8450620,
+    "playerName": "Stephane Quintal",
+    "position": "D",
+    "seasons": [
+      {
+        "season": 19931994,
+        "gamesPlayedRegularSeason": 81,
+        "gamesPlayedPlayoffs": 0
+      },
+      {
+        "season": 19941995,
+        "gamesPlayedRegularSeason": 43,
+        "gamesPlayedPlayoffs": 0
+      }
+    ],
+    "gamesPlayedRegularSeason": 124,
     "gamesPlayedPlayoffs": 0
   },
   {
@@ -3658,6 +8326,110 @@
     ],
     "gamesPlayedRegularSeason": 13,
     "gamesPlayedPlayoffs": 1
+  },
+  {
+    "playerId": 8450311,
+    "playerName": "Steve Penney",
+    "position": "G",
+    "seasons": [
+      {
+        "season": 19861987,
+        "gamesPlayedRegularSeason": 7,
+        "gamesPlayedPlayoffs": 0
+      },
+      {
+        "season": 19871988,
+        "gamesPlayedRegularSeason": 8,
+        "gamesPlayedPlayoffs": 0
+      }
+    ],
+    "gamesPlayedRegularSeason": 15,
+    "gamesPlayedPlayoffs": 0
+  },
+  {
+    "playerId": 8451008,
+    "playerName": "Steve Rooney",
+    "position": "C",
+    "seasons": [
+      {
+        "season": 19861987,
+        "gamesPlayedRegularSeason": 30,
+        "gamesPlayedPlayoffs": 8
+      },
+      {
+        "season": 19871988,
+        "gamesPlayedRegularSeason": 56,
+        "gamesPlayedPlayoffs": 5
+      }
+    ],
+    "gamesPlayedRegularSeason": 86,
+    "gamesPlayedPlayoffs": 13
+  },
+  {
+    "playerId": 8446852,
+    "playerName": "Steven Fletcher",
+    "position": "D",
+    "seasons": [
+      {
+        "season": 19881989,
+        "gamesPlayedRegularSeason": 3,
+        "gamesPlayedPlayoffs": 0
+      }
+    ],
+    "gamesPlayedRegularSeason": 3,
+    "gamesPlayedPlayoffs": 0
+  },
+  {
+    "playerId": 8457193,
+    "playerName": "Stewart Malgunas",
+    "position": "D",
+    "seasons": [
+      {
+        "season": 19951996,
+        "gamesPlayedRegularSeason": 29,
+        "gamesPlayedPlayoffs": 0
+      }
+    ],
+    "gamesPlayedRegularSeason": 29,
+    "gamesPlayedPlayoffs": 0
+  },
+  {
+    "playerId": 8455521,
+    "playerName": "Stu Barnes",
+    "position": "C",
+    "seasons": [
+      {
+        "season": 19911992,
+        "gamesPlayedRegularSeason": 46,
+        "gamesPlayedPlayoffs": 0
+      },
+      {
+        "season": 19921993,
+        "gamesPlayedRegularSeason": 38,
+        "gamesPlayedPlayoffs": 6
+      },
+      {
+        "season": 19931994,
+        "gamesPlayedRegularSeason": 18,
+        "gamesPlayedPlayoffs": 0
+      }
+    ],
+    "gamesPlayedRegularSeason": 102,
+    "gamesPlayedPlayoffs": 6
+  },
+  {
+    "playerId": 8448567,
+    "playerName": "Stu Kulak",
+    "position": "R",
+    "seasons": [
+      {
+        "season": 19881989,
+        "gamesPlayedRegularSeason": 18,
+        "gamesPlayedPlayoffs": 0
+      }
+    ],
+    "gamesPlayedRegularSeason": 18,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 8474001,
@@ -3688,6 +8460,98 @@
     "gamesPlayedPlayoffs": 0
   },
   {
+    "playerId": 8460550,
+    "playerName": "Tavis Hansen",
+    "position": "R",
+    "seasons": [
+      {
+        "season": 19941995,
+        "gamesPlayedRegularSeason": 1,
+        "gamesPlayedPlayoffs": 0
+      }
+    ],
+    "gamesPlayedRegularSeason": 1,
+    "gamesPlayedPlayoffs": 0
+  },
+  {
+    "playerId": 8457981,
+    "playerName": "Teemu Selanne",
+    "position": "R",
+    "seasons": [
+      {
+        "season": 19921993,
+        "gamesPlayedRegularSeason": 84,
+        "gamesPlayedPlayoffs": 6
+      },
+      {
+        "season": 19931994,
+        "gamesPlayedRegularSeason": 51,
+        "gamesPlayedPlayoffs": 0
+      },
+      {
+        "season": 19941995,
+        "gamesPlayedRegularSeason": 45,
+        "gamesPlayedPlayoffs": 0
+      },
+      {
+        "season": 19951996,
+        "gamesPlayedRegularSeason": 51,
+        "gamesPlayedPlayoffs": 0
+      }
+    ],
+    "gamesPlayedRegularSeason": 231,
+    "gamesPlayedPlayoffs": 6
+  },
+  {
+    "playerId": 8449924,
+    "playerName": "Teppo Numminen",
+    "position": "D",
+    "seasons": [
+      {
+        "season": 19881989,
+        "gamesPlayedRegularSeason": 69,
+        "gamesPlayedPlayoffs": 0
+      },
+      {
+        "season": 19891990,
+        "gamesPlayedRegularSeason": 79,
+        "gamesPlayedPlayoffs": 7
+      },
+      {
+        "season": 19901991,
+        "gamesPlayedRegularSeason": 80,
+        "gamesPlayedPlayoffs": 0
+      },
+      {
+        "season": 19911992,
+        "gamesPlayedRegularSeason": 80,
+        "gamesPlayedPlayoffs": 7
+      },
+      {
+        "season": 19921993,
+        "gamesPlayedRegularSeason": 66,
+        "gamesPlayedPlayoffs": 6
+      },
+      {
+        "season": 19931994,
+        "gamesPlayedRegularSeason": 57,
+        "gamesPlayedPlayoffs": 0
+      },
+      {
+        "season": 19941995,
+        "gamesPlayedRegularSeason": 42,
+        "gamesPlayedPlayoffs": 0
+      },
+      {
+        "season": 19951996,
+        "gamesPlayedRegularSeason": 74,
+        "gamesPlayedPlayoffs": 6
+      }
+    ],
+    "gamesPlayedRegularSeason": 547,
+    "gamesPlayedPlayoffs": 26
+  },
+  {
     "playerId": 8483114,
     "playerName": "Thomas Milic",
     "position": "G",
@@ -3699,6 +8563,133 @@
       }
     ],
     "gamesPlayedRegularSeason": 3,
+    "gamesPlayedPlayoffs": 0
+  },
+  {
+    "playerId": 8451697,
+    "playerName": "Thomas Steen",
+    "position": "C",
+    "seasons": [
+      {
+        "season": 19811982,
+        "gamesPlayedRegularSeason": 73,
+        "gamesPlayedPlayoffs": 4
+      },
+      {
+        "season": 19821983,
+        "gamesPlayedRegularSeason": 75,
+        "gamesPlayedPlayoffs": 3
+      },
+      {
+        "season": 19831984,
+        "gamesPlayedRegularSeason": 78,
+        "gamesPlayedPlayoffs": 3
+      },
+      {
+        "season": 19841985,
+        "gamesPlayedRegularSeason": 79,
+        "gamesPlayedPlayoffs": 8
+      },
+      {
+        "season": 19851986,
+        "gamesPlayedRegularSeason": 78,
+        "gamesPlayedPlayoffs": 3
+      },
+      {
+        "season": 19861987,
+        "gamesPlayedRegularSeason": 75,
+        "gamesPlayedPlayoffs": 10
+      },
+      {
+        "season": 19871988,
+        "gamesPlayedRegularSeason": 76,
+        "gamesPlayedPlayoffs": 5
+      },
+      {
+        "season": 19881989,
+        "gamesPlayedRegularSeason": 80,
+        "gamesPlayedPlayoffs": 0
+      },
+      {
+        "season": 19891990,
+        "gamesPlayedRegularSeason": 53,
+        "gamesPlayedPlayoffs": 7
+      },
+      {
+        "season": 19901991,
+        "gamesPlayedRegularSeason": 58,
+        "gamesPlayedPlayoffs": 0
+      },
+      {
+        "season": 19911992,
+        "gamesPlayedRegularSeason": 38,
+        "gamesPlayedPlayoffs": 7
+      },
+      {
+        "season": 19921993,
+        "gamesPlayedRegularSeason": 80,
+        "gamesPlayedPlayoffs": 6
+      },
+      {
+        "season": 19931994,
+        "gamesPlayedRegularSeason": 76,
+        "gamesPlayedPlayoffs": 0
+      },
+      {
+        "season": 19941995,
+        "gamesPlayedRegularSeason": 31,
+        "gamesPlayedPlayoffs": 0
+      }
+    ],
+    "gamesPlayedRegularSeason": 950,
+    "gamesPlayedPlayoffs": 56
+  },
+  {
+    "playerId": 8446454,
+    "playerName": "Tie Domi",
+    "position": "R",
+    "seasons": [
+      {
+        "season": 19921993,
+        "gamesPlayedRegularSeason": 49,
+        "gamesPlayedPlayoffs": 6
+      },
+      {
+        "season": 19931994,
+        "gamesPlayedRegularSeason": 81,
+        "gamesPlayedPlayoffs": 0
+      },
+      {
+        "season": 19941995,
+        "gamesPlayedRegularSeason": 31,
+        "gamesPlayedPlayoffs": 0
+      }
+    ],
+    "gamesPlayedRegularSeason": 161,
+    "gamesPlayedPlayoffs": 6
+  },
+  {
+    "playerId": 8446082,
+    "playerName": "Tim Cheveldae",
+    "position": "G",
+    "seasons": [
+      {
+        "season": 19931994,
+        "gamesPlayedRegularSeason": 14,
+        "gamesPlayedPlayoffs": 0
+      },
+      {
+        "season": 19941995,
+        "gamesPlayedRegularSeason": 30,
+        "gamesPlayedPlayoffs": 0
+      },
+      {
+        "season": 19951996,
+        "gamesPlayedRegularSeason": 30,
+        "gamesPlayedPlayoffs": 0
+      }
+    ],
+    "gamesPlayedRegularSeason": 74,
     "gamesPlayedPlayoffs": 0
   },
   {
@@ -3714,6 +8705,93 @@
     ],
     "gamesPlayedRegularSeason": 63,
     "gamesPlayedPlayoffs": 0
+  },
+  {
+    "playerId": 8451957,
+    "playerName": "Tim Trimper",
+    "position": "L",
+    "seasons": [
+      {
+        "season": 19801981,
+        "gamesPlayedRegularSeason": 56,
+        "gamesPlayedPlayoffs": 0
+      },
+      {
+        "season": 19811982,
+        "gamesPlayedRegularSeason": 74,
+        "gamesPlayedPlayoffs": 1
+      },
+      {
+        "season": 19821983,
+        "gamesPlayedRegularSeason": 5,
+        "gamesPlayedPlayoffs": 0
+      },
+      {
+        "season": 19831984,
+        "gamesPlayedRegularSeason": 5,
+        "gamesPlayedPlayoffs": 0
+      }
+    ],
+    "gamesPlayedRegularSeason": 140,
+    "gamesPlayedPlayoffs": 1
+  },
+  {
+    "playerId": 8452347,
+    "playerName": "Tim Watters",
+    "position": "D",
+    "seasons": [
+      {
+        "season": 19811982,
+        "gamesPlayedRegularSeason": 69,
+        "gamesPlayedPlayoffs": 4
+      },
+      {
+        "season": 19821983,
+        "gamesPlayedRegularSeason": 77,
+        "gamesPlayedPlayoffs": 3
+      },
+      {
+        "season": 19831984,
+        "gamesPlayedRegularSeason": 74,
+        "gamesPlayedPlayoffs": 3
+      },
+      {
+        "season": 19841985,
+        "gamesPlayedRegularSeason": 63,
+        "gamesPlayedPlayoffs": 8
+      },
+      {
+        "season": 19851986,
+        "gamesPlayedRegularSeason": 56,
+        "gamesPlayedPlayoffs": 0
+      },
+      {
+        "season": 19861987,
+        "gamesPlayedRegularSeason": 63,
+        "gamesPlayedPlayoffs": 10
+      },
+      {
+        "season": 19871988,
+        "gamesPlayedRegularSeason": 36,
+        "gamesPlayedPlayoffs": 4
+      }
+    ],
+    "gamesPlayedRegularSeason": 438,
+    "gamesPlayedPlayoffs": 32
+  },
+  {
+    "playerId": 8452574,
+    "playerName": "Tim Young",
+    "position": "C",
+    "seasons": [
+      {
+        "season": 19831984,
+        "gamesPlayedRegularSeason": 44,
+        "gamesPlayedPlayoffs": 1
+      }
+    ],
+    "gamesPlayedRegularSeason": 44,
+    "gamesPlayedPlayoffs": 1
   },
   {
     "playerId": 8470828,
@@ -3760,6 +8838,92 @@
     "gamesPlayedPlayoffs": 15
   },
   {
+    "playerId": 8446867,
+    "playerName": "Todd Flichel",
+    "position": "D",
+    "seasons": [
+      {
+        "season": 19871988,
+        "gamesPlayedRegularSeason": 2,
+        "gamesPlayedPlayoffs": 0
+      },
+      {
+        "season": 19881989,
+        "gamesPlayedRegularSeason": 1,
+        "gamesPlayedPlayoffs": 0
+      },
+      {
+        "season": 19891990,
+        "gamesPlayedRegularSeason": 3,
+        "gamesPlayedPlayoffs": 0
+      }
+    ],
+    "gamesPlayedRegularSeason": 6,
+    "gamesPlayedPlayoffs": 0
+  },
+  {
+    "playerId": 8445520,
+    "playerName": "Tom Bladon",
+    "position": "D",
+    "seasons": [
+      {
+        "season": 19801981,
+        "gamesPlayedRegularSeason": 9,
+        "gamesPlayedPlayoffs": 0
+      }
+    ],
+    "gamesPlayedRegularSeason": 9,
+    "gamesPlayedPlayoffs": 0
+  },
+  {
+    "playerId": 8446480,
+    "playerName": "Tom Draper",
+    "position": "G",
+    "seasons": [
+      {
+        "season": 19881989,
+        "gamesPlayedRegularSeason": 2,
+        "gamesPlayedPlayoffs": 0
+      },
+      {
+        "season": 19891990,
+        "gamesPlayedRegularSeason": 6,
+        "gamesPlayedPlayoffs": 0
+      },
+      {
+        "season": 19951996,
+        "gamesPlayedRegularSeason": 1,
+        "gamesPlayedPlayoffs": 0
+      }
+    ],
+    "gamesPlayedRegularSeason": 9,
+    "gamesPlayedPlayoffs": 0
+  },
+  {
+    "playerId": 8449280,
+    "playerName": "Tom Martin",
+    "position": "L",
+    "seasons": [
+      {
+        "season": 19841985,
+        "gamesPlayedRegularSeason": 8,
+        "gamesPlayedPlayoffs": 3
+      },
+      {
+        "season": 19851986,
+        "gamesPlayedRegularSeason": 5,
+        "gamesPlayedPlayoffs": 0
+      },
+      {
+        "season": 19861987,
+        "gamesPlayedRegularSeason": 11,
+        "gamesPlayedPlayoffs": 0
+      }
+    ],
+    "gamesPlayedRegularSeason": 24,
+    "gamesPlayedPlayoffs": 3
+  },
+  {
     "playerId": 8473453,
     "playerName": "Trevor Lewis",
     "position": "C",
@@ -3772,6 +8936,25 @@
     ],
     "gamesPlayedRegularSeason": 56,
     "gamesPlayedPlayoffs": 8
+  },
+  {
+    "playerId": 8449773,
+    "playerName": "Troy Murray",
+    "position": "C",
+    "seasons": [
+      {
+        "season": 19911992,
+        "gamesPlayedRegularSeason": 74,
+        "gamesPlayedPlayoffs": 7
+      },
+      {
+        "season": 19921993,
+        "gamesPlayedRegularSeason": 29,
+        "gamesPlayedPlayoffs": 0
+      }
+    ],
+    "gamesPlayedRegularSeason": 103,
+    "gamesPlayedPlayoffs": 7
   },
   {
     "playerId": 8477359,
@@ -3914,6 +9097,35 @@
     "gamesPlayedPlayoffs": 22
   },
   {
+    "playerId": 8445901,
+    "playerName": "Wade Campbell",
+    "position": "D",
+    "seasons": [
+      {
+        "season": 19821983,
+        "gamesPlayedRegularSeason": 42,
+        "gamesPlayedPlayoffs": 0
+      },
+      {
+        "season": 19831984,
+        "gamesPlayedRegularSeason": 79,
+        "gamesPlayedPlayoffs": 3
+      },
+      {
+        "season": 19841985,
+        "gamesPlayedRegularSeason": 40,
+        "gamesPlayedPlayoffs": 3
+      },
+      {
+        "season": 19851986,
+        "gamesPlayedRegularSeason": 24,
+        "gamesPlayedPlayoffs": 0
+      }
+    ],
+    "gamesPlayedRegularSeason": 185,
+    "gamesPlayedPlayoffs": 6
+  },
+  {
     "playerId": 8482652,
     "playerName": "Walker Duehr",
     "position": "R",
@@ -3925,6 +9137,91 @@
       }
     ],
     "gamesPlayedRegularSeason": 3,
+    "gamesPlayedPlayoffs": 0
+  },
+  {
+    "playerId": 8446420,
+    "playerName": "Wayne Dillon",
+    "position": "C",
+    "seasons": [
+      {
+        "season": 19791980,
+        "gamesPlayedRegularSeason": 13,
+        "gamesPlayedPlayoffs": 0
+      }
+    ],
+    "gamesPlayedRegularSeason": 13,
+    "gamesPlayedPlayoffs": 0
+  },
+  {
+    "playerId": 8449328,
+    "playerName": "Wayne Mcbean",
+    "position": "D",
+    "seasons": [
+      {
+        "season": 19931994,
+        "gamesPlayedRegularSeason": 31,
+        "gamesPlayedPlayoffs": 0
+      }
+    ],
+    "gamesPlayedRegularSeason": 31,
+    "gamesPlayedPlayoffs": 0
+  },
+  {
+    "playerId": 8452419,
+    "playerName": "William Whelton",
+    "position": "D",
+    "seasons": [
+      {
+        "season": 19801981,
+        "gamesPlayedRegularSeason": 2,
+        "gamesPlayedPlayoffs": 0
+      }
+    ],
+    "gamesPlayedRegularSeason": 2,
+    "gamesPlayedPlayoffs": 0
+  },
+  {
+    "playerId": 8448858,
+    "playerName": "Willy Lindstrom",
+    "position": "R",
+    "seasons": [
+      {
+        "season": 19791980,
+        "gamesPlayedRegularSeason": 79,
+        "gamesPlayedPlayoffs": 0
+      },
+      {
+        "season": 19801981,
+        "gamesPlayedRegularSeason": 72,
+        "gamesPlayedPlayoffs": 0
+      },
+      {
+        "season": 19811982,
+        "gamesPlayedRegularSeason": 74,
+        "gamesPlayedPlayoffs": 4
+      },
+      {
+        "season": 19821983,
+        "gamesPlayedRegularSeason": 63,
+        "gamesPlayedPlayoffs": 0
+      }
+    ],
+    "gamesPlayedRegularSeason": 288,
+    "gamesPlayedPlayoffs": 4
+  },
+  {
+    "playerId": 8458613,
+    "playerName": "Yan Kaminsky",
+    "position": "L",
+    "seasons": [
+      {
+        "season": 19931994,
+        "gamesPlayedRegularSeason": 1,
+        "gamesPlayedPlayoffs": 0
+      }
+    ],
+    "gamesPlayedRegularSeason": 1,
     "gamesPlayedPlayoffs": 0
   },
   {

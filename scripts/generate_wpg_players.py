@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Generate a dataset of all players with at least one GP for Winnipeg Jets (WPG)."""
+"""Generate a dataset of all players with at least one GP for Winnipeg Jets history."""
 
 from __future__ import annotations
 
@@ -9,7 +9,7 @@ from dataclasses import dataclass, field
 from pathlib import Path
 
 API_BASE = "https://api-web.nhle.com/v1"
-TEAM_ABBREVIATION = "WPG"
+TEAM_ABBREVIATIONS = ("WPG", "WIN")
 GAME_TYPE_REGULAR = 2
 GAME_TYPE_PLAYOFF = 3
 OUTPUT_PATH = Path("data/wpg_players.json")
@@ -30,7 +30,19 @@ class PlayerRecord:
 
 
 def fetch_json(url: str):
-    request = urllib.request.Request(url, headers={"User-Agent": "wpgjets-players-dataset/1.0"})
+    request = urllib.request.Request(
+        url,
+        headers={
+            "User-Agent": (
+                "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 "
+                "(KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+            ),
+            "Accept": "application/json,text/plain,*/*",
+            "Accept-Language": "en-US,en;q=0.9",
+            "Origin": "https://www.nhl.com",
+            "Referer": "https://www.nhl.com/",
+        },
+    )
     with urllib.request.urlopen(request) as response:
         return json.loads(response.read().decode("utf-8"))
 
@@ -86,24 +98,26 @@ def upsert_player(
 
 
 def build_dataset() -> list[dict]:
-    seasons_payload = fetch_team_seasons(TEAM_ABBREVIATION)
     players: dict[int, PlayerRecord] = {}
 
-    for season_entry in seasons_payload:
-        season = int(season_entry["season"])
-        game_types = set(season_entry.get("gameTypes", []))
+    for team_abbreviation in TEAM_ABBREVIATIONS:
+        seasons_payload = fetch_team_seasons(team_abbreviation)
 
-        for game_type in (GAME_TYPE_REGULAR, GAME_TYPE_PLAYOFF):
-            if game_type not in game_types:
-                continue
+        for season_entry in seasons_payload:
+            season = int(season_entry["season"])
+            game_types = set(season_entry.get("gameTypes", []))
 
-            season_stats_payload = fetch_club_stats(TEAM_ABBREVIATION, season, game_type)
+            for game_type in (GAME_TYPE_REGULAR, GAME_TYPE_PLAYOFF):
+                if game_type not in game_types:
+                    continue
 
-            for skater in season_stats_payload.get("skaters", []):
-                upsert_player(players, skater, season, game_type, position_fallback="SKATER")
+                season_stats_payload = fetch_club_stats(team_abbreviation, season, game_type)
 
-            for goalie in season_stats_payload.get("goalies", []):
-                upsert_player(players, goalie, season, game_type, position_fallback="G")
+                for skater in season_stats_payload.get("skaters", []):
+                    upsert_player(players, skater, season, game_type, position_fallback="SKATER")
+
+                for goalie in season_stats_payload.get("goalies", []):
+                    upsert_player(players, goalie, season, game_type, position_fallback="G")
 
     results: list[dict] = []
     for player in players.values():

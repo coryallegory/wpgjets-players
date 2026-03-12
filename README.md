@@ -1,5 +1,7 @@
 # Winnipeg Jets Players Dataset
 
+GitHub Pages site: https://coryallegory.github.io/wpgjets-players/
+
 This project maintains a source-controlled JSON dataset of **every player who has appeared in at least one game for Winnipeg Jets franchise records (`WPG` + `WIN`)**, including both:
 
 - skaters

@@ -79,9 +79,21 @@ h1 {
 }
 
 table {
-  width: 100%;
+  width: max-content;
   border-collapse: collapse;
-  min-width: 720px;
+  min-width: var(--table-min-width, 720px);
+}
+
+#players-table.hide-stats {
+  --table-min-width: 420px;
+}
+
+#players-table.hide-card {
+  --table-min-width: 520px;
+}
+
+#players-table.hide-stats.hide-card {
+  --table-min-width: 200px;
 }
 
 th,

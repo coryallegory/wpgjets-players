@@ -12,6 +12,10 @@ function compareValues(a, b, key) {
     return aValue - bValue;
   }
 
+  if (typeof aValue === 'boolean' && typeof bValue === 'boolean') {
+    return Number(aValue) - Number(bValue);
+  }
+
   return String(aValue).localeCompare(String(bValue));
 }
 
@@ -34,6 +38,9 @@ function renderTable() {
       <td>${player.gamesPlayedPlayoffs}</td>
       <td>${player.firstSeasonLabel}</td>
       <td>${player.totalSeasons}</td>
+      <td>${player.isYoungGuns ? 'Yes' : 'No'}</td>
+      <td>${player.rookieCardSet}</td>
+      <td>${player.rookieCardNumber}</td>
     `;
     tableBody.appendChild(row);
   });
@@ -79,21 +86,40 @@ function findFirstSeason(seasons) {
 }
 
 async function loadPlayers() {
-  const response = await fetch('data/wpg_players.json');
+  const [playersResponse, rookieCardsResponse] = await Promise.all([
+    fetch('data/wpg_players.json'),
+    fetch('data/wpg_player_rookie_cards.json'),
+  ]);
 
-  if (!response.ok) {
-    throw new Error(`Failed to load player data: ${response.status}`);
+  if (!playersResponse.ok) {
+    throw new Error(`Failed to load player data: ${playersResponse.status}`);
   }
 
-  const data = await response.json();
-  players = data.map((player) => {
+  if (!rookieCardsResponse.ok) {
+    throw new Error(`Failed to load rookie card data: ${rookieCardsResponse.status}`);
+  }
+
+  const [playersData, rookieCardsData] = await Promise.all([
+    playersResponse.json(),
+    rookieCardsResponse.json(),
+  ]);
+
+  const rookieCardsByPlayerId = new Map(
+    rookieCardsData.map((card) => [card.playerId, card]),
+  );
+
+  players = playersData.map((player) => {
     const firstSeason = findFirstSeason(player.seasons);
+    const rookieCard = rookieCardsByPlayerId.get(player.playerId);
 
     return {
       ...player,
       firstSeason,
       firstSeasonLabel: formatSeasonLabel(firstSeason),
       totalSeasons: player.seasons.length,
+      isYoungGuns: rookieCard?.isYG ?? false,
+      rookieCardSet: rookieCard?.set ?? '',
+      rookieCardNumber: rookieCard?.cardNumber ?? '',
     };
   });
 
@@ -102,5 +128,5 @@ async function loadPlayers() {
 }
 
 loadPlayers().catch((error) => {
-  tableBody.innerHTML = `<tr><td colspan="6">${error.message}</td></tr>`;
+  tableBody.innerHTML = `<tr><td colspan="9">${error.message}</td></tr>`;
 });

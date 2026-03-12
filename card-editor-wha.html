@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WHA Jets Card Data Editor</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="editor.css" />
+  </head>
+  <body>
+    <main
+      class="page"
+      data-editor-file-path="data/wha_winnipeg_jets_player_rookie_cards.json"
+      data-download-filename="wha_winnipeg_jets_player_rookie_cards.edited.json"
+    >
+      <h1>WHA Jets Rookie Card Data Editor</h1>
+      <p class="subtitle">
+        Local-only editor for <code>data/wha_winnipeg_jets_player_rookie_cards.json</code>. Open a local JSON
+        file, edit rows, then save back to disk.
+      </p>
+
+      <div class="editor-controls">
+        <button id="open-file" type="button">Open local JSON file</button>
+        <button id="load-repo-data" type="button">Load repo data (read-only source)</button>
+        <button id="save-file" type="button" disabled>Save to opened file</button>
+        <button id="download-file" type="button" disabled>Download JSON copy</button>
+      </div>
+
+      <p id="status" class="status">Choose a file to begin editing.</p>
+
+      <div class="table-wrapper">
+        <table id="cards-table">
+          <thead>
+            <tr>
+              <th>Player ID</th>
+              <th>Player Name</th>
+              <th>isYG</th>
+              <th>Set</th>
+              <th>Card #</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </main>
+
+    <script src="card-editor.js" defer></script>
+  </body>
+</html>

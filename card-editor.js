@@ -1,3 +1,4 @@
+const pageElement = document.querySelector('main.page');
 const openFileButton = document.querySelector('#open-file');
 const loadRepoDataButton = document.querySelector('#load-repo-data');
 const saveFileButton = document.querySelector('#save-file');
@@ -7,6 +8,9 @@ const tableBody = document.querySelector('#cards-table tbody');
 
 let fileHandle = null;
 let cards = [];
+
+const repoDataPath = pageElement?.dataset.editorFilePath || 'data/wpg_player_rookie_cards.json';
+const downloadFilename = pageElement?.dataset.downloadFilename || 'wpg_player_rookie_cards.edited.json';
 
 function setStatus(message, type = '') {
   statusElement.textContent = message;
@@ -86,7 +90,7 @@ async function openLocalFile() {
 }
 
 async function loadRepoData() {
-  const response = await fetch('data/wpg_player_rookie_cards.json');
+  const response = await fetch(repoDataPath);
   if (!response.ok) {
     throw new Error(`Failed to load repo data: ${response.status}`);
   }
@@ -114,7 +118,7 @@ function downloadJsonCopy() {
   const url = URL.createObjectURL(blob);
   const anchor = document.createElement('a');
   anchor.href = url;
-  anchor.download = 'wpg_player_rookie_cards.edited.json';
+  anchor.download = downloadFilename;
   anchor.click();
   URL.revokeObjectURL(url);
   setStatus('Downloaded edited JSON copy.', 'success');

@@ -29,6 +29,18 @@ Each player object includes:
 
 A player is included if they have at least one game played in either regular season or playoffs with the Jets.
 
+## Web page
+
+A static HTML page is included at the repository root:
+
+- `index.html`
+
+It loads player data dynamically from:
+
+- `data/wpg_players.json`
+
+The table is rendered in JavaScript (`app.js`) so the website does not duplicate the dataset in markup.
+
 ## How generation works
 
 The generator script:
@@ -50,16 +62,27 @@ Run locally:
 python scripts/generate_wpg_players.py
 ```
 
-## GitHub Actions workflow
+## GitHub Actions workflows
 
-Workflow file:
+### Dataset update workflow
+
+File:
 
 - `.github/workflows/generate-wpg-players.yml`
 
-The workflow:
+This workflow:
 
 - can be run manually via **workflow_dispatch**
 - regenerates `data/wpg_players.json`
 - commits and pushes updates automatically when the dataset changes
 
-This setup is intended to keep an always-up-to-date canonical list of all Winnipeg Jets players in source control.
+### GitHub Pages deploy workflow
+
+File:
+
+- `.github/workflows/deploy-pages.yml`
+
+This workflow:
+
+- deploys the static site to GitHub Pages on pushes to `main`
+- can also be run manually via **workflow_dispatch**

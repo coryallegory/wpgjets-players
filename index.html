@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Winnipeg Jets Players</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="page">
+      <h1>Winnipeg Jets Players</h1>
+      <p class="subtitle">
+        All players who appeared in at least one Winnipeg Jets game. Click a column heading to sort.
+      </p>
+
+      <div class="table-wrapper">
+        <table id="players-table">
+          <thead>
+            <tr>
+              <th><button type="button" data-key="playerName">Player</button></th>
+              <th><button type="button" data-key="position">Position</button></th>
+              <th><button type="button" data-key="gamesPlayedRegularSeason">Regular Season GP</button></th>
+              <th><button type="button" data-key="gamesPlayedPlayoffs">Playoff GP</button></th>
+              <th><button type="button" data-key="totalSeasons">Seasons</button></th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </main>
+
+    <script src="app.js" defer></script>
+  </body>
+</html>

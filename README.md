@@ -14,6 +14,7 @@ The dataset is generated from the NHL web API host:
 Generated file:
 
 - `data/wpg_players.json`
+- `data/wpg_player_rookie_cards.json`
 
 Each player object includes:
 
@@ -28,6 +29,20 @@ Each player object includes:
 - `gamesPlayedPlayoffs` (career total with WPG)
 
 A player is included if they have at least one game played in either regular season or playoffs with the Jets.
+
+Each rookie card object includes:
+
+- `playerId`
+- `playerName`
+- `isYG`
+- `set`
+- `cardNumber`
+
+The rookie card dataset is always kept aligned with `data/wpg_players.json`. When new players appear, entries are auto-added with default unknown values:
+
+- `isYG: false`
+- `set: ""`
+- `cardNumber: ""`
 
 ## Web page
 
@@ -52,14 +67,16 @@ The generator script:
 - merges skaters and goalies by player ID
 - computes per-season and total GP values
 
-Script location:
+Script locations:
 
 - `scripts/generate_wpg_players.py`
+- `scripts/generate_wpg_player_rookie_cards.py`
 
 Run locally:
 
 ```bash
 python scripts/generate_wpg_players.py
+python scripts/generate_wpg_player_rookie_cards.py
 ```
 
 ## GitHub Actions workflows
@@ -75,6 +92,20 @@ This workflow:
 - can be run manually via **workflow_dispatch**
 - regenerates `data/wpg_players.json`
 - commits and pushes updates automatically when the dataset changes
+
+### Rookie card dataset update workflow
+
+File:
+
+- `.github/workflows/generate-wpg-player-rookie-cards.yml`
+
+This workflow:
+
+- can be run manually via **workflow_dispatch**
+- also runs on pushes to `main` when player/rookie-card dataset files or rookie-card generator workflow/script change
+- regenerates `data/wpg_player_rookie_cards.json` from `data/wpg_players.json`
+- preserves existing rookie card fields while auto-adding missing players with default blank/false values
+- commits and pushes updates automatically when the rookie card dataset changes
 
 ### GitHub Pages deploy workflow
 

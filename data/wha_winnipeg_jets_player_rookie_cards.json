@@ -1,0 +1,618 @@
+[
+  {
+    "playerId": 100000,
+    "playerName": "Ab McDonald",
+    "isYG": false,
+    "set": "",
+    "cardNumber": ""
+  },
+  {
+    "playerId": 100001,
+    "playerName": "Alain Beaule",
+    "isYG": false,
+    "set": "",
+    "cardNumber": ""
+  },
+  {
+    "playerId": 100002,
+    "playerName": "Anders Hedberg",
+    "isYG": false,
+    "set": "",
+    "cardNumber": ""
+  },
+  {
+    "playerId": 100003,
+    "playerName": "Barry Long",
+    "isYG": false,
+    "set": "",
+    "cardNumber": ""
+  },
+  {
+    "playerId": 100004,
+    "playerName": "Bill Davis",
+    "isYG": false,
+    "set": "",
+    "cardNumber": ""
+  },
+  {
+    "playerId": 100005,
+    "playerName": "Bill Holden",
+    "isYG": false,
+    "set": "",
+    "cardNumber": ""
+  },
+  {
+    "playerId": 100006,
+    "playerName": "Bill Lesuk",
+    "isYG": false,
+    "set": "",
+    "cardNumber": ""
+  },
+  {
+    "playerId": 100007,
+    "playerName": "Bill Sutherland",
+    "isYG": false,
+    "set": "",
+    "cardNumber": ""
+  },
+  {
+    "playerId": 100008,
+    "playerName": "Bob Ash",
+    "isYG": false,
+    "set": "",
+    "cardNumber": ""
+  },
+  {
+    "playerId": 100009,
+    "playerName": "Bob Guindon",
+    "isYG": false,
+    "set": "",
+    "cardNumber": ""
+  },
+  {
+    "playerId": 100010,
+    "playerName": "Bob Woytowich",
+    "isYG": false,
+    "set": "",
+    "cardNumber": ""
+  },
+  {
+    "playerId": 100011,
+    "playerName": "Bobby Hull",
+    "isYG": false,
+    "set": "",
+    "cardNumber": ""
+  },
+  {
+    "playerId": 100012,
+    "playerName": "Brian Cadle",
+    "isYG": false,
+    "set": "",
+    "cardNumber": ""
+  },
+  {
+    "playerId": 100013,
+    "playerName": "Cal Swenson",
+    "isYG": false,
+    "set": "",
+    "cardNumber": ""
+  },
+  {
+    "playerId": 100014,
+    "playerName": "Chris Bordeleau",
+    "isYG": false,
+    "set": "",
+    "cardNumber": ""
+  },
+  {
+    "playerId": 100015,
+    "playerName": "Curt Larsson",
+    "isYG": false,
+    "set": "",
+    "cardNumber": ""
+  },
+  {
+    "playerId": 100016,
+    "playerName": "Dale Yakiwchuk",
+    "isYG": false,
+    "set": "",
+    "cardNumber": ""
+  },
+  {
+    "playerId": 100017,
+    "playerName": "Dan Johnson",
+    "isYG": false,
+    "set": "",
+    "cardNumber": ""
+  },
+  {
+    "playerId": 100018,
+    "playerName": "Dan Labraaten",
+    "isYG": false,
+    "set": "",
+    "cardNumber": ""
+  },
+  {
+    "playerId": 100019,
+    "playerName": "Dan Spring",
+    "isYG": false,
+    "set": "",
+    "cardNumber": ""
+  },
+  {
+    "playerId": 100020,
+    "playerName": "Danny Gruen",
+    "isYG": false,
+    "set": "",
+    "cardNumber": ""
+  },
+  {
+    "playerId": 100021,
+    "playerName": "Danny Lawson",
+    "isYG": false,
+    "set": "",
+    "cardNumber": ""
+  },
+  {
+    "playerId": 100022,
+    "playerName": "Dave Dunn",
+    "isYG": false,
+    "set": "",
+    "cardNumber": ""
+  },
+  {
+    "playerId": 100023,
+    "playerName": "Dave Kryskow",
+    "isYG": false,
+    "set": "",
+    "cardNumber": ""
+  },
+  {
+    "playerId": 100024,
+    "playerName": "Dunc Rousseau",
+    "isYG": false,
+    "set": "",
+    "cardNumber": ""
+  },
+  {
+    "playerId": 100025,
+    "playerName": "Ernie Wakely",
+    "isYG": false,
+    "set": "",
+    "cardNumber": ""
+  },
+  {
+    "playerId": 100026,
+    "playerName": "Fran Huck",
+    "isYG": false,
+    "set": "",
+    "cardNumber": ""
+  },
+  {
+    "playerId": 100027,
+    "playerName": "Frank Blum",
+    "isYG": false,
+    "set": "",
+    "cardNumber": ""
+  },
+  {
+    "playerId": 100028,
+    "playerName": "Freeman \"Duke\" Asmundson",
+    "isYG": false,
+    "set": "",
+    "cardNumber": ""
+  },
+  {
+    "playerId": 100029,
+    "playerName": "Garth Rizzuto",
+    "isYG": false,
+    "set": "",
+    "cardNumber": ""
+  },
+  {
+    "playerId": 100030,
+    "playerName": "Gary Bromley",
+    "isYG": false,
+    "set": "",
+    "cardNumber": ""
+  },
+  {
+    "playerId": 100031,
+    "playerName": "Gary Smith",
+    "isYG": false,
+    "set": "",
+    "cardNumber": ""
+  },
+  {
+    "playerId": 100032,
+    "playerName": "Gerry Odrowski",
+    "isYG": false,
+    "set": "",
+    "cardNumber": ""
+  },
+  {
+    "playerId": 100033,
+    "playerName": "Glenn Hicks",
+    "isYG": false,
+    "set": "",
+    "cardNumber": ""
+  },
+  {
+    "playerId": 100034,
+    "playerName": "Gordon Tumilson",
+    "isYG": false,
+    "set": "",
+    "cardNumber": ""
+  },
+  {
+    "playerId": 100035,
+    "playerName": "Heikki Riihiranta",
+    "isYG": false,
+    "set": "",
+    "cardNumber": ""
+  },
+  {
+    "playerId": 100036,
+    "playerName": "Howie Young",
+    "isYG": false,
+    "set": "",
+    "cardNumber": ""
+  },
+  {
+    "playerId": 100037,
+    "playerName": "Jean-Guy Gratton",
+    "isYG": false,
+    "set": "",
+    "cardNumber": ""
+  },
+  {
+    "playerId": 100038,
+    "playerName": "Jim Cole",
+    "isYG": false,
+    "set": "",
+    "cardNumber": ""
+  },
+  {
+    "playerId": 100039,
+    "playerName": "Jim Hargreaves",
+    "isYG": false,
+    "set": "",
+    "cardNumber": ""
+  },
+  {
+    "playerId": 100040,
+    "playerName": "Joe Daley",
+    "isYG": false,
+    "set": "",
+    "cardNumber": ""
+  },
+  {
+    "playerId": 100041,
+    "playerName": "Joe Zanussi",
+    "isYG": false,
+    "set": "",
+    "cardNumber": ""
+  },
+  {
+    "playerId": 100042,
+    "playerName": "John Gibson",
+    "isYG": false,
+    "set": "",
+    "cardNumber": ""
+  },
+  {
+    "playerId": 100043,
+    "playerName": "John Gray",
+    "isYG": false,
+    "set": "",
+    "cardNumber": ""
+  },
+  {
+    "playerId": 100044,
+    "playerName": "John Shmyr",
+    "isYG": false,
+    "set": "",
+    "cardNumber": ""
+  },
+  {
+    "playerId": 100045,
+    "playerName": "Kelly Pratt",
+    "isYG": false,
+    "set": "",
+    "cardNumber": ""
+  },
+  {
+    "playerId": 100046,
+    "playerName": "Ken Baird",
+    "isYG": false,
+    "set": "",
+    "cardNumber": ""
+  },
+  {
+    "playerId": 100047,
+    "playerName": "Ken Stephanson",
+    "isYG": false,
+    "set": "",
+    "cardNumber": ""
+  },
+  {
+    "playerId": 100048,
+    "playerName": "Kent Nilsson",
+    "isYG": false,
+    "set": "",
+    "cardNumber": ""
+  },
+  {
+    "playerId": 100049,
+    "playerName": "Kent Ruhnke",
+    "isYG": false,
+    "set": "",
+    "cardNumber": ""
+  },
+  {
+    "playerId": 100050,
+    "playerName": "Kim Clackson",
+    "isYG": false,
+    "set": "",
+    "cardNumber": ""
+  },
+  {
+    "playerId": 100051,
+    "playerName": "Larry Hillman",
+    "isYG": false,
+    "set": "",
+    "cardNumber": ""
+  },
+  {
+    "playerId": 100052,
+    "playerName": "Larry Hornung",
+    "isYG": false,
+    "set": "",
+    "cardNumber": ""
+  },
+  {
+    "playerId": 100053,
+    "playerName": "Lars-Erik Sjoberg",
+    "isYG": false,
+    "set": "",
+    "cardNumber": ""
+  },
+  {
+    "playerId": 100054,
+    "playerName": "Lyle Moffat",
+    "isYG": false,
+    "set": "",
+    "cardNumber": ""
+  },
+  {
+    "playerId": 100055,
+    "playerName": "Lynn Powis",
+    "isYG": false,
+    "set": "",
+    "cardNumber": ""
+  },
+  {
+    "playerId": 100056,
+    "playerName": "Markus Mattsson",
+    "isYG": false,
+    "set": "",
+    "cardNumber": ""
+  },
+  {
+    "playerId": 100057,
+    "playerName": "Mats Lindh",
+    "isYG": false,
+    "set": "",
+    "cardNumber": ""
+  },
+  {
+    "playerId": 100058,
+    "playerName": "Mike Amodeo",
+    "isYG": false,
+    "set": "",
+    "cardNumber": ""
+  },
+  {
+    "playerId": 100059,
+    "playerName": "Mike Ford",
+    "isYG": false,
+    "set": "",
+    "cardNumber": ""
+  },
+  {
+    "playerId": 100060,
+    "playerName": "Milt Black",
+    "isYG": false,
+    "set": "",
+    "cardNumber": ""
+  },
+  {
+    "playerId": 100061,
+    "playerName": "Morris Lukowich",
+    "isYG": false,
+    "set": "",
+    "cardNumber": ""
+  },
+  {
+    "playerId": 100062,
+    "playerName": "Morris Mott",
+    "isYG": false,
+    "set": "",
+    "cardNumber": ""
+  },
+  {
+    "playerId": 100063,
+    "playerName": "Norm Beaudin",
+    "isYG": false,
+    "set": "",
+    "cardNumber": ""
+  },
+  {
+    "playerId": 100064,
+    "playerName": "Paul MacKinnon",
+    "isYG": false,
+    "set": "",
+    "cardNumber": ""
+  },
+  {
+    "playerId": 100065,
+    "playerName": "Paul Terbenche",
+    "isYG": false,
+    "set": "",
+    "cardNumber": ""
+  },
+  {
+    "playerId": 100066,
+    "playerName": "Perry Miller",
+    "isYG": false,
+    "set": "",
+    "cardNumber": ""
+  },
+  {
+    "playerId": 100067,
+    "playerName": "Peter Sullivan",
+    "isYG": false,
+    "set": "",
+    "cardNumber": ""
+  },
+  {
+    "playerId": 100068,
+    "playerName": "Randy Andreachuk",
+    "isYG": false,
+    "set": "",
+    "cardNumber": ""
+  },
+  {
+    "playerId": 100069,
+    "playerName": "Randy Legge",
+    "isYG": false,
+    "set": "",
+    "cardNumber": ""
+  },
+  {
+    "playerId": 100070,
+    "playerName": "Rich Gosselin",
+    "isYG": false,
+    "set": "",
+    "cardNumber": ""
+  },
+  {
+    "playerId": 100071,
+    "playerName": "Rich Preston",
+    "isYG": false,
+    "set": "",
+    "cardNumber": ""
+  },
+  {
+    "playerId": 100072,
+    "playerName": "Robbie Neale",
+    "isYG": false,
+    "set": "",
+    "cardNumber": ""
+  },
+  {
+    "playerId": 100073,
+    "playerName": "Roland Eriksson",
+    "isYG": false,
+    "set": "",
+    "cardNumber": ""
+  },
+  {
+    "playerId": 100074,
+    "playerName": "Ron Ashton",
+    "isYG": false,
+    "set": "",
+    "cardNumber": ""
+  },
+  {
+    "playerId": 100075,
+    "playerName": "Ron Snell",
+    "isYG": false,
+    "set": "",
+    "cardNumber": ""
+  },
+  {
+    "playerId": 100076,
+    "playerName": "Ron Ward",
+    "isYG": false,
+    "set": "",
+    "cardNumber": ""
+  },
+  {
+    "playerId": 100077,
+    "playerName": "Scott Campbell",
+    "isYG": false,
+    "set": "",
+    "cardNumber": ""
+  },
+  {
+    "playerId": 100078,
+    "playerName": "Steve Cuddie",
+    "isYG": false,
+    "set": "",
+    "cardNumber": ""
+  },
+  {
+    "playerId": 100079,
+    "playerName": "Steve West",
+    "isYG": false,
+    "set": "",
+    "cardNumber": ""
+  },
+  {
+    "playerId": 100080,
+    "playerName": "Ted Green",
+    "isYG": false,
+    "set": "",
+    "cardNumber": ""
+  },
+  {
+    "playerId": 100081,
+    "playerName": "Ted Hargreaves",
+    "isYG": false,
+    "set": "",
+    "cardNumber": ""
+  },
+  {
+    "playerId": 100082,
+    "playerName": "Terry Ruskowski",
+    "isYG": false,
+    "set": "",
+    "cardNumber": ""
+  },
+  {
+    "playerId": 100083,
+    "playerName": "Thommie Bergman",
+    "isYG": false,
+    "set": "",
+    "cardNumber": ""
+  },
+  {
+    "playerId": 100084,
+    "playerName": "Ulf Nilsson",
+    "isYG": false,
+    "set": "",
+    "cardNumber": ""
+  },
+  {
+    "playerId": 100085,
+    "playerName": "Veli-Pekka Ketola",
+    "isYG": false,
+    "set": "",
+    "cardNumber": ""
+  },
+  {
+    "playerId": 100086,
+    "playerName": "Wally Boyer",
+    "isYG": false,
+    "set": "",
+    "cardNumber": ""
+  },
+  {
+    "playerId": 100087,
+    "playerName": "Willy Lindstrom",
+    "isYG": false,
+    "set": "",
+    "cardNumber": ""
+  }
+]

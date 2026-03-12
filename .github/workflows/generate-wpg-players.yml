@@ -1,0 +1,36 @@
+name: Generate Winnipeg Jets Player Dataset
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  generate-dataset:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Generate dataset
+        run: python scripts/generate_wpg_players.py
+
+      - name: Commit dataset changes
+        run: |
+          if git diff --quiet -- data/wpg_players.json; then
+            echo "No dataset changes to commit."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/wpg_players.json
+          git commit -m "chore: update Winnipeg Jets players dataset"
+          git push

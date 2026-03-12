@@ -32,6 +32,7 @@ function renderTable() {
       <td>${player.position}</td>
       <td>${player.gamesPlayedRegularSeason}</td>
       <td>${player.gamesPlayedPlayoffs}</td>
+      <td>${player.firstSeasonLabel}</td>
       <td>${player.totalSeasons}</td>
     `;
     tableBody.appendChild(row);
@@ -63,6 +64,20 @@ sortButtons.forEach((button) => {
   });
 });
 
+function formatSeasonLabel(season) {
+  const startYear = Math.floor(season / 10000);
+  const endYear = startYear + 1;
+  return `${startYear}-${String(endYear).slice(-2)}`;
+}
+
+function findFirstSeason(seasons) {
+  return seasons.reduce(
+    (earliestSeason, currentSeason) =>
+      currentSeason.season < earliestSeason ? currentSeason.season : earliestSeason,
+    seasons[0].season,
+  );
+}
+
 async function loadPlayers() {
   const response = await fetch('data/wpg_players.json');
 
@@ -71,15 +86,21 @@ async function loadPlayers() {
   }
 
   const data = await response.json();
-  players = data.map((player) => ({
-    ...player,
-    totalSeasons: player.seasons.length,
-  }));
+  players = data.map((player) => {
+    const firstSeason = findFirstSeason(player.seasons);
+
+    return {
+      ...player,
+      firstSeason,
+      firstSeasonLabel: formatSeasonLabel(firstSeason),
+      totalSeasons: player.seasons.length,
+    };
+  });
 
   updateSortIndicators();
   renderTable();
 }
 
 loadPlayers().catch((error) => {
-  tableBody.innerHTML = `<tr><td colspan="5">${error.message}</td></tr>`;
+  tableBody.innerHTML = `<tr><td colspan="6">${error.message}</td></tr>`;
 });

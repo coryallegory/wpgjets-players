@@ -71,6 +71,7 @@ h1 {
 }
 
 .table-wrapper {
+  width: min(100%, max-content);
   overflow-x: auto;
   background: var(--surface);
   border: 1px solid var(--border);

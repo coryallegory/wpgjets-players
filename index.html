@@ -16,19 +16,34 @@
         Need to edit rookie card data locally? Open <a href="card-editor.html">card-editor.html</a>.
       </p>
 
+      <section class="controls" aria-label="Column groups">
+        <p class="controls__label">Column groups:</p>
+        <button type="button" class="group-toggle" data-target-group="stats" aria-pressed="true">
+          Hide playing stats
+        </button>
+        <button type="button" class="group-toggle" data-target-group="card" aria-pressed="true">
+          Hide card info
+        </button>
+      </section>
+
       <div class="table-wrapper">
         <table id="players-table">
           <thead>
+            <tr class="group-row">
+              <th class="group-header group-player" colspan="1">Player Name</th>
+              <th class="group-header group-stats" colspan="5">Playing Stats</th>
+              <th class="group-header group-card" colspan="3">Card Info</th>
+            </tr>
             <tr>
-              <th><button type="button" data-key="playerName">Player</button></th>
-              <th><button type="button" data-key="position">Position</button></th>
-              <th><button type="button" data-key="gamesPlayedRegularSeason">Regular Season GP</button></th>
-              <th><button type="button" data-key="gamesPlayedPlayoffs">Playoff GP</button></th>
-              <th><button type="button" data-key="firstSeason">First Season</button></th>
-              <th><button type="button" data-key="totalSeasons">Seasons</button></th>
-              <th><button type="button" data-key="isYoungGuns">Is Young Guns</button></th>
-              <th><button type="button" data-key="rookieCardSet">Set</button></th>
-              <th><button type="button" data-key="rookieCardNumber">Number</button></th>
+              <th class="col-player"><button type="button" data-key="playerName">Player</button></th>
+              <th class="col-stats"><button type="button" data-key="position">Pos</button></th>
+              <th class="col-stats"><button type="button" data-key="gamesPlayedRegularSeason">Reg GP</button></th>
+              <th class="col-stats"><button type="button" data-key="gamesPlayedPlayoffs">Ply GP</button></th>
+              <th class="col-stats"><button type="button" data-key="firstSeason">1st</button></th>
+              <th class="col-stats"><button type="button" data-key="totalSeasons">Seasons</button></th>
+              <th class="col-card"><button type="button" data-key="isYoungGuns">YG</button></th>
+              <th class="col-card"><button type="button" data-key="rookieCardSet">Set</button></th>
+              <th class="col-card"><button type="button" data-key="rookieCardNumber">#</button></th>
             </tr>
           </thead>
           <tbody></tbody>
@@ -36,6 +51,6 @@
       </div>
     </main>
 
-    <script src="app.js" defer></script>
+    <script type="module" src="js/main.js"></script>
   </body>
 </html>

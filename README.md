@@ -38,6 +38,21 @@ Each rookie card object includes:
 - `set`
 - `cardNumber`
 
+## Rookie card selection criteria
+
+When populating `data/wpg_player_rookie_cards.json`, use this priority order for the player's primary rookie card:
+
+1. **Modern era:** use the player's **base-set Upper Deck Young Guns** card when one exists.
+2. **Vintage era (OPC years):** use the player's **base O-Pee-Chee** rookie card.
+3. **Pre-OPC seasons:** use the player's **base Topps** rookie card.
+4. **No Young Guns / ambiguous modern cases:** choose the most widely accepted mainstream rookie from the player's rookie season and keep choices consistent across the dataset.
+
+Store only:
+
+- whether it is a Young Guns (`isYG`)
+- set name in `set`
+- card number in `cardNumber`
+
 The rookie card dataset is always kept aligned with `data/wpg_players.json`. When new players appear, entries are auto-added with default unknown values:
 
 - `isYG: false`

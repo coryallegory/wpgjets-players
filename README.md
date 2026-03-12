@@ -56,6 +56,33 @@ It loads player data dynamically from:
 
 The table is rendered in JavaScript (`app.js`) so the website does not duplicate the dataset in markup.
 
+## Local rookie card editor
+
+A local-only editor page is included at:
+
+- `card-editor.html`
+
+What it does:
+
+- displays `data/wpg_player_rookie_cards.json` in an editable table
+- allows in-browser editing of `isYG`, `set`, and `cardNumber`
+- can save back to a local JSON file using the browser File System Access API (Chrome/Edge and other Chromium-based browsers)
+- can always export a downloaded JSON copy as a fallback
+
+Important limitations:
+
+- this direct file-save flow does **not** work on GitHub Pages as an automatic repository write-back mechanism
+- browser JavaScript cannot silently write to repository files on disk or in GitHub without explicit user interaction and additional backend/API plumbing
+- for local editing, run a local static server and open `card-editor.html` in a compatible browser
+
+Example local server:
+
+```bash
+python -m http.server 8000
+```
+
+Then open `http://localhost:8000/card-editor.html`.
+
 ## How generation works
 
 The generator script:

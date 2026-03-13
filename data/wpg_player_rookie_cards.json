@@ -14,6 +14,13 @@
     "cardNumber": "459"
   },
   {
+    "playerId": 100000,
+    "playerName": "Ab McDonald",
+    "isYG": false,
+    "set": "",
+    "cardNumber": ""
+  },
+  {
     "playerId": 8478996,
     "playerName": "Adam Brooks",
     "isYG": false,
@@ -47,6 +54,13 @@
     "isYG": true,
     "set": "2005-06 Upper Deck",
     "cardNumber": "455"
+  },
+  {
+    "playerId": 100001,
+    "playerName": "Alain Beaule",
+    "isYG": false,
+    "set": "",
+    "cardNumber": ""
   },
   {
     "playerId": 8446052,
@@ -100,6 +114,13 @@
   {
     "playerId": 8459359,
     "playerName": "Anatoli Fedotov",
+    "isYG": false,
+    "set": "",
+    "cardNumber": ""
+  },
+  {
+    "playerId": 100002,
+    "playerName": "Anders Hedberg",
     "isYG": false,
     "set": "",
     "cardNumber": ""
@@ -217,6 +238,13 @@
     "cardNumber": ""
   },
   {
+    "playerId": 100003,
+    "playerName": "Barry Long",
+    "isYG": false,
+    "set": "",
+    "cardNumber": ""
+  },
+  {
     "playerId": 8448876,
     "playerName": "Barry Long",
     "isYG": false,
@@ -252,8 +280,29 @@
     "cardNumber": ""
   },
   {
+    "playerId": 100004,
+    "playerName": "Bill Davis",
+    "isYG": false,
+    "set": "",
+    "cardNumber": ""
+  },
+  {
     "playerId": 8446363,
     "playerName": "Bill Derlago",
+    "isYG": false,
+    "set": "",
+    "cardNumber": ""
+  },
+  {
+    "playerId": 100005,
+    "playerName": "Bill Holden",
+    "isYG": false,
+    "set": "",
+    "cardNumber": ""
+  },
+  {
+    "playerId": 100006,
+    "playerName": "Bill Lesuk",
     "isYG": false,
     "set": "",
     "cardNumber": ""
@@ -273,11 +322,25 @@
     "cardNumber": ""
   },
   {
+    "playerId": 100007,
+    "playerName": "Bill Sutherland",
+    "isYG": false,
+    "set": "",
+    "cardNumber": ""
+  },
+  {
     "playerId": 8471218,
     "playerName": "Blake Wheeler",
     "isYG": true,
     "set": "2008-09 Upper Deck",
     "cardNumber": "202"
+  },
+  {
+    "playerId": 100008,
+    "playerName": "Bob Ash",
+    "isYG": false,
+    "set": "",
+    "cardNumber": ""
   },
   {
     "playerId": 8446719,
@@ -287,8 +350,22 @@
     "cardNumber": ""
   },
   {
+    "playerId": 100009,
+    "playerName": "Bob Guindon",
+    "isYG": false,
+    "set": "",
+    "cardNumber": ""
+  },
+  {
     "playerId": 8448374,
     "playerName": "Bob Joyce",
+    "isYG": false,
+    "set": "",
+    "cardNumber": ""
+  },
+  {
+    "playerId": 100010,
+    "playerName": "Bob Woytowich",
     "isYG": false,
     "set": "",
     "cardNumber": ""
@@ -303,6 +380,13 @@
   {
     "playerId": 8447419,
     "playerName": "Bobby Guindon",
+    "isYG": false,
+    "set": "",
+    "cardNumber": ""
+  },
+  {
+    "playerId": 100011,
+    "playerName": "Bobby Hull",
     "isYG": false,
     "set": "",
     "cardNumber": ""
@@ -399,6 +483,13 @@
     "cardNumber": ""
   },
   {
+    "playerId": 100012,
+    "playerName": "Brian Cadle",
+    "isYG": false,
+    "set": "",
+    "cardNumber": ""
+  },
+  {
     "playerId": 8447701,
     "playerName": "Brian Hayward",
     "isYG": false,
@@ -462,6 +553,13 @@
     "cardNumber": ""
   },
   {
+    "playerId": 100013,
+    "playerName": "Cal Swenson",
+    "isYG": false,
+    "set": "",
+    "cardNumber": ""
+  },
+  {
     "playerId": 8476799,
     "playerName": "Cameron Schilling",
     "isYG": false,
@@ -495,6 +593,13 @@
     "isYG": true,
     "set": "2016-17 Upper Deck",
     "cardNumber": "485"
+  },
+  {
+    "playerId": 100014,
+    "playerName": "Chris Bordeleau",
+    "isYG": false,
+    "set": "",
+    "cardNumber": ""
   },
   {
     "playerId": 8462152,
@@ -609,11 +714,25 @@
     "cardNumber": ""
   },
   {
+    "playerId": 100015,
+    "playerName": "Curt Larsson",
+    "isYG": false,
+    "set": "",
+    "cardNumber": ""
+  },
+  {
     "playerId": 8447685,
     "playerName": "Dale Hawerchuk",
     "isYG": false,
     "set": "1982-83 O-Pee-Chee",
     "cardNumber": "105"
+  },
+  {
+    "playerId": 100016,
+    "playerName": "Dale Yakiwchuk",
+    "isYG": false,
+    "set": "",
+    "cardNumber": ""
   },
   {
     "playerId": 8456106,
@@ -637,8 +756,29 @@
     "cardNumber": ""
   },
   {
+    "playerId": 100017,
+    "playerName": "Dan Johnson",
+    "isYG": false,
+    "set": "",
+    "cardNumber": ""
+  },
+  {
+    "playerId": 100018,
+    "playerName": "Dan Labraaten",
+    "isYG": false,
+    "set": "",
+    "cardNumber": ""
+  },
+  {
     "playerId": 8449458,
     "playerName": "Dan Mcfall",
+    "isYG": false,
+    "set": "",
+    "cardNumber": ""
+  },
+  {
+    "playerId": 100019,
+    "playerName": "Dan Spring",
     "isYG": false,
     "set": "",
     "cardNumber": ""
@@ -660,6 +800,20 @@
   {
     "playerId": 8447115,
     "playerName": "Danny Geoffrion",
+    "isYG": false,
+    "set": "",
+    "cardNumber": ""
+  },
+  {
+    "playerId": 100020,
+    "playerName": "Danny Gruen",
+    "isYG": false,
+    "set": "",
+    "cardNumber": ""
+  },
+  {
+    "playerId": 100021,
+    "playerName": "Danny Lawson",
     "isYG": false,
     "set": "",
     "cardNumber": ""
@@ -721,6 +875,13 @@
     "cardNumber": ""
   },
   {
+    "playerId": 100022,
+    "playerName": "Dave Dunn",
+    "isYG": false,
+    "set": "",
+    "cardNumber": ""
+  },
+  {
     "playerId": 8446626,
     "playerName": "Dave Ellett",
     "isYG": false,
@@ -737,6 +898,13 @@
   {
     "playerId": 8448116,
     "playerName": "Dave Hunter",
+    "isYG": false,
+    "set": "",
+    "cardNumber": ""
+  },
+  {
+    "playerId": 100023,
+    "playerName": "Dave Kryskow",
     "isYG": false,
     "set": "",
     "cardNumber": ""
@@ -910,6 +1078,13 @@
     "cardNumber": "456"
   },
   {
+    "playerId": 100024,
+    "playerName": "Dunc Rousseau",
+    "isYG": false,
+    "set": "",
+    "cardNumber": ""
+  },
+  {
     "playerId": 8470834,
     "playerName": "Dustin Byfuglien",
     "isYG": true,
@@ -1008,6 +1183,13 @@
     "cardNumber": "241"
   },
   {
+    "playerId": 100025,
+    "playerName": "Ernie Wakely",
+    "isYG": false,
+    "set": "",
+    "cardNumber": ""
+  },
+  {
     "playerId": 8475169,
     "playerName": "Evander Kane",
     "isYG": true,
@@ -1029,8 +1211,29 @@
     "cardNumber": "224"
   },
   {
+    "playerId": 100026,
+    "playerName": "Fran Huck",
+    "isYG": false,
+    "set": "",
+    "cardNumber": ""
+  },
+  {
+    "playerId": 100027,
+    "playerName": "Frank Blum",
+    "isYG": false,
+    "set": "",
+    "cardNumber": ""
+  },
+  {
     "playerId": 8449971,
     "playerName": "Fredrik Olausson",
+    "isYG": false,
+    "set": "",
+    "cardNumber": ""
+  },
+  {
+    "playerId": 100028,
+    "playerName": "Freeman \"Duke\" Asmundson",
     "isYG": false,
     "set": "",
     "cardNumber": ""
@@ -1050,8 +1253,36 @@
     "cardNumber": "215"
   },
   {
+    "playerId": 100029,
+    "playerName": "Garth Rizzuto",
+    "isYG": false,
+    "set": "",
+    "cardNumber": ""
+  },
+  {
+    "playerId": 100030,
+    "playerName": "Gary Bromley",
+    "isYG": false,
+    "set": "",
+    "cardNumber": ""
+  },
+  {
+    "playerId": 100031,
+    "playerName": "Gary Smith",
+    "isYG": false,
+    "set": "",
+    "cardNumber": ""
+  },
+  {
     "playerId": 8451528,
     "playerName": "Gary Smith",
+    "isYG": false,
+    "set": "",
+    "cardNumber": ""
+  },
+  {
+    "playerId": 100032,
+    "playerName": "Gerry Odrowski",
     "isYG": false,
     "set": "",
     "cardNumber": ""
@@ -1066,6 +1297,13 @@
   {
     "playerId": 8447485,
     "playerName": "Gilles Hamel",
+    "isYG": false,
+    "set": "",
+    "cardNumber": ""
+  },
+  {
+    "playerId": 100033,
+    "playerName": "Glenn Hicks",
     "isYG": false,
     "set": "",
     "cardNumber": ""
@@ -1094,6 +1332,13 @@
   {
     "playerId": 8451529,
     "playerName": "Gord Smith",
+    "isYG": false,
+    "set": "",
+    "cardNumber": ""
+  },
+  {
+    "playerId": 100034,
+    "playerName": "Gordon Tumilson",
     "isYG": false,
     "set": "",
     "cardNumber": ""
@@ -1162,8 +1407,22 @@
     "cardNumber": "236"
   },
   {
+    "playerId": 100035,
+    "playerName": "Heikki Riihiranta",
+    "isYG": false,
+    "set": "",
+    "cardNumber": ""
+  },
+  {
     "playerId": 8447365,
     "playerName": "Hilliard Graves",
+    "isYG": false,
+    "set": "",
+    "cardNumber": ""
+  },
+  {
+    "playerId": 100036,
+    "playerName": "Howie Young",
     "isYG": false,
     "set": "",
     "cardNumber": ""
@@ -1288,6 +1547,13 @@
     "cardNumber": ""
   },
   {
+    "playerId": 100037,
+    "playerName": "Jean-Guy Gratton",
+    "isYG": false,
+    "set": "",
+    "cardNumber": ""
+  },
+  {
     "playerId": 8446826,
     "playerName": "Jeff Finley",
     "isYG": false,
@@ -1304,6 +1570,20 @@
   {
     "playerId": 8445808,
     "playerName": "Jerry Butler",
+    "isYG": false,
+    "set": "",
+    "cardNumber": ""
+  },
+  {
+    "playerId": 100038,
+    "playerName": "Jim Cole",
+    "isYG": false,
+    "set": "",
+    "cardNumber": ""
+  },
+  {
+    "playerId": 100039,
+    "playerName": "Jim Hargreaves",
     "isYG": false,
     "set": "",
     "cardNumber": ""
@@ -1358,11 +1638,25 @@
     "cardNumber": "497"
   },
   {
+    "playerId": 100040,
+    "playerName": "Joe Daley",
+    "isYG": false,
+    "set": "",
+    "cardNumber": ""
+  },
+  {
     "playerId": 8476476,
     "playerName": "Joe Morrow",
     "isYG": true,
     "set": "2014-15 Upper Deck",
     "cardNumber": "451"
+  },
+  {
+    "playerId": 100041,
+    "playerName": "Joe Zanussi",
+    "isYG": false,
+    "set": "",
+    "cardNumber": ""
   },
   {
     "playerId": 8476469,
@@ -1400,8 +1694,22 @@
     "cardNumber": ""
   },
   {
+    "playerId": 100042,
+    "playerName": "John Gibson",
+    "isYG": false,
+    "set": "",
+    "cardNumber": ""
+  },
+  {
     "playerId": 8447161,
     "playerName": "John Gibson",
+    "isYG": false,
+    "set": "",
+    "cardNumber": ""
+  },
+  {
+    "playerId": 100043,
+    "playerName": "John Gray",
     "isYG": false,
     "set": "",
     "cardNumber": ""
@@ -1416,6 +1724,13 @@
   {
     "playerId": 8449164,
     "playerName": "John Markell",
+    "isYG": false,
+    "set": "",
+    "cardNumber": ""
+  },
+  {
+    "playerId": 100044,
+    "playerName": "John Shmyr",
     "isYG": false,
     "set": "",
     "cardNumber": ""
@@ -1519,6 +1834,27 @@
     "cardNumber": ""
   },
   {
+    "playerId": 100045,
+    "playerName": "Kelly Pratt",
+    "isYG": false,
+    "set": "",
+    "cardNumber": ""
+  },
+  {
+    "playerId": 100046,
+    "playerName": "Ken Baird",
+    "isYG": false,
+    "set": "",
+    "cardNumber": ""
+  },
+  {
+    "playerId": 100047,
+    "playerName": "Ken Stephanson",
+    "isYG": false,
+    "set": "",
+    "cardNumber": ""
+  },
+  {
     "playerId": 8471694,
     "playerName": "Kenndal McArdle",
     "isYG": true,
@@ -1526,8 +1862,22 @@
     "cardNumber": "484"
   },
   {
+    "playerId": 100048,
+    "playerName": "Kent Nilsson",
+    "isYG": false,
+    "set": "",
+    "cardNumber": ""
+  },
+  {
     "playerId": 8450260,
     "playerName": "Kent Paynter",
+    "isYG": false,
+    "set": "",
+    "cardNumber": ""
+  },
+  {
+    "playerId": 100049,
+    "playerName": "Kent Ruhnke",
     "isYG": false,
     "set": "",
     "cardNumber": ""
@@ -1552,6 +1902,13 @@
     "isYG": true,
     "set": "2019-20 Upper Deck",
     "cardNumber": "211"
+  },
+  {
+    "playerId": 100050,
+    "playerName": "Kim Clackson",
+    "isYG": false,
+    "set": "",
+    "cardNumber": ""
   },
   {
     "playerId": 8446485,
@@ -1610,6 +1967,13 @@
     "cardNumber": ""
   },
   {
+    "playerId": 100051,
+    "playerName": "Larry Hillman",
+    "isYG": false,
+    "set": "",
+    "cardNumber": ""
+  },
+  {
     "playerId": 8447950,
     "playerName": "Larry Hopkins",
     "isYG": false,
@@ -1617,8 +1981,22 @@
     "cardNumber": ""
   },
   {
+    "playerId": 100052,
+    "playerName": "Larry Hornung",
+    "isYG": false,
+    "set": "",
+    "cardNumber": ""
+  },
+  {
     "playerId": 8451388,
     "playerName": "Lars Sjoberg",
+    "isYG": false,
+    "set": "",
+    "cardNumber": ""
+  },
+  {
+    "playerId": 100053,
+    "playerName": "Lars-Erik Sjoberg",
     "isYG": false,
     "set": "",
     "cardNumber": ""
@@ -1701,8 +2079,22 @@
     "cardNumber": "248"
   },
   {
+    "playerId": 100054,
+    "playerName": "Lyle Moffat",
+    "isYG": false,
+    "set": "",
+    "cardNumber": ""
+  },
+  {
     "playerId": 8449650,
     "playerName": "Lyle Moffatt",
+    "isYG": false,
+    "set": "",
+    "cardNumber": ""
+  },
+  {
+    "playerId": 100055,
+    "playerName": "Lynn Powis",
     "isYG": false,
     "set": "",
     "cardNumber": ""
@@ -1806,6 +2198,13 @@
     "cardNumber": "452"
   },
   {
+    "playerId": 100056,
+    "playerName": "Markus Mattsson",
+    "isYG": false,
+    "set": "",
+    "cardNumber": ""
+  },
+  {
     "playerId": 8449291,
     "playerName": "Markus Mattsson",
     "isYG": false,
@@ -1825,6 +2224,13 @@
     "isYG": true,
     "set": "2009-10 Upper Deck",
     "cardNumber": "498"
+  },
+  {
+    "playerId": 100057,
+    "playerName": "Mats Lindh",
+    "isYG": false,
+    "set": "",
+    "cardNumber": ""
   },
   {
     "playerId": 8474094,
@@ -1890,6 +2296,13 @@
     "cardNumber": ""
   },
   {
+    "playerId": 100058,
+    "playerName": "Mike Amodeo",
+    "isYG": false,
+    "set": "",
+    "cardNumber": ""
+  },
+  {
     "playerId": 8444923,
     "playerName": "Mike Amodeo",
     "isYG": false,
@@ -1906,6 +2319,13 @@
   {
     "playerId": 8456156,
     "playerName": "Mike Eastwood",
+    "isYG": false,
+    "set": "",
+    "cardNumber": ""
+  },
+  {
+    "playerId": 100059,
+    "playerName": "Mike Ford",
     "isYG": false,
     "set": "",
     "cardNumber": ""
@@ -1953,6 +2373,13 @@
     "cardNumber": ""
   },
   {
+    "playerId": 100060,
+    "playerName": "Milt Black",
+    "isYG": false,
+    "set": "",
+    "cardNumber": ""
+  },
+  {
     "playerId": 8448758,
     "playerName": "Moe Lemay",
     "isYG": false,
@@ -1974,8 +2401,22 @@
     "cardNumber": "215"
   },
   {
+    "playerId": 100061,
+    "playerName": "Morris Lukowich",
+    "isYG": false,
+    "set": "",
+    "cardNumber": ""
+  },
+  {
     "playerId": 8448912,
     "playerName": "Morris Lukowich",
+    "isYG": false,
+    "set": "",
+    "cardNumber": ""
+  },
+  {
+    "playerId": 100062,
+    "playerName": "Morris Mott",
     "isYG": false,
     "set": "",
     "cardNumber": ""
@@ -2086,6 +2527,13 @@
     "cardNumber": "482"
   },
   {
+    "playerId": 100063,
+    "playerName": "Norm Beaudin",
+    "isYG": false,
+    "set": "",
+    "cardNumber": ""
+  },
+  {
     "playerId": 8446535,
     "playerName": "Norm Dupont",
     "isYG": false,
@@ -2184,6 +2632,13 @@
     "cardNumber": ""
   },
   {
+    "playerId": 100064,
+    "playerName": "Paul MacKinnon",
+    "isYG": false,
+    "set": "",
+    "cardNumber": ""
+  },
+  {
     "playerId": 8448981,
     "playerName": "Paul MacLean",
     "isYG": false,
@@ -2219,8 +2674,22 @@
     "cardNumber": "207"
   },
   {
+    "playerId": 100065,
+    "playerName": "Paul Terbenche",
+    "isYG": false,
+    "set": "",
+    "cardNumber": ""
+  },
+  {
     "playerId": 8452571,
     "playerName": "Paul Ysebaert",
+    "isYG": false,
+    "set": "",
+    "cardNumber": ""
+  },
+  {
+    "playerId": 100066,
+    "playerName": "Perry Miller",
     "isYG": false,
     "set": "",
     "cardNumber": ""
@@ -2249,6 +2718,13 @@
   {
     "playerId": 8449190,
     "playerName": "Peter Marsh",
+    "isYG": false,
+    "set": "",
+    "cardNumber": ""
+  },
+  {
+    "playerId": 100067,
+    "playerName": "Peter Sullivan",
     "isYG": false,
     "set": "",
     "cardNumber": ""
@@ -2310,6 +2786,13 @@
     "cardNumber": ""
   },
   {
+    "playerId": 100068,
+    "playerName": "Randy Andreachuk",
+    "isYG": false,
+    "set": "",
+    "cardNumber": ""
+  },
+  {
     "playerId": 8445938,
     "playerName": "Randy Carlyle",
     "isYG": false,
@@ -2338,6 +2821,13 @@
     "cardNumber": ""
   },
   {
+    "playerId": 100069,
+    "playerName": "Randy Legge",
+    "isYG": false,
+    "set": "",
+    "cardNumber": ""
+  },
+  {
     "playerId": 8480845,
     "playerName": "Rasmus Kupari",
     "isYG": true,
@@ -2354,6 +2844,20 @@
   {
     "playerId": 8449860,
     "playerName": "Ray Neufeld",
+    "isYG": false,
+    "set": "",
+    "cardNumber": ""
+  },
+  {
+    "playerId": 100070,
+    "playerName": "Rich Gosselin",
+    "isYG": false,
+    "set": "",
+    "cardNumber": ""
+  },
+  {
+    "playerId": 100071,
+    "playerName": "Rich Preston",
     "isYG": false,
     "set": "",
     "cardNumber": ""
@@ -2401,8 +2905,29 @@
     "cardNumber": ""
   },
   {
+    "playerId": 100072,
+    "playerName": "Robbie Neale",
+    "isYG": false,
+    "set": "",
+    "cardNumber": ""
+  },
+  {
     "playerId": 8450359,
     "playerName": "Robert Picard",
+    "isYG": false,
+    "set": "",
+    "cardNumber": ""
+  },
+  {
+    "playerId": 100073,
+    "playerName": "Roland Eriksson",
+    "isYG": false,
+    "set": "",
+    "cardNumber": ""
+  },
+  {
+    "playerId": 100074,
+    "playerName": "Ron Ashton",
     "isYG": false,
     "set": "",
     "cardNumber": ""
@@ -2413,6 +2938,20 @@
     "isYG": true,
     "set": "2002-03 Upper Deck",
     "cardNumber": "240"
+  },
+  {
+    "playerId": 100075,
+    "playerName": "Ron Snell",
+    "isYG": false,
+    "set": "",
+    "cardNumber": ""
+  },
+  {
+    "playerId": 100076,
+    "playerName": "Ron Ward",
+    "isYG": false,
+    "set": "",
+    "cardNumber": ""
   },
   {
     "playerId": 8452495,
@@ -2487,6 +3026,13 @@
   {
     "playerId": 8445088,
     "playerName": "Scott Arniel",
+    "isYG": false,
+    "set": "",
+    "cardNumber": ""
+  },
+  {
+    "playerId": 100077,
+    "playerName": "Scott Campbell",
     "isYG": false,
     "set": "",
     "cardNumber": ""
@@ -2597,6 +3143,13 @@
     "cardNumber": ""
   },
   {
+    "playerId": 100078,
+    "playerName": "Steve Cuddie",
+    "isYG": false,
+    "set": "",
+    "cardNumber": ""
+  },
+  {
     "playerId": 8473461,
     "playerName": "Steve Mason",
     "isYG": true,
@@ -2613,6 +3166,13 @@
   {
     "playerId": 8451008,
     "playerName": "Steve Rooney",
+    "isYG": false,
+    "set": "",
+    "cardNumber": ""
+  },
+  {
+    "playerId": 100079,
+    "playerName": "Steve West",
     "isYG": false,
     "set": "",
     "cardNumber": ""
@@ -2674,6 +3234,20 @@
     "cardNumber": ""
   },
   {
+    "playerId": 100080,
+    "playerName": "Ted Green",
+    "isYG": false,
+    "set": "",
+    "cardNumber": ""
+  },
+  {
+    "playerId": 100081,
+    "playerName": "Ted Hargreaves",
+    "isYG": false,
+    "set": "",
+    "cardNumber": ""
+  },
+  {
     "playerId": 8457981,
     "playerName": "Teemu Selanne",
     "isYG": true,
@@ -2688,6 +3262,13 @@
     "cardNumber": ""
   },
   {
+    "playerId": 100082,
+    "playerName": "Terry Ruskowski",
+    "isYG": false,
+    "set": "",
+    "cardNumber": ""
+  },
+  {
     "playerId": 8483114,
     "playerName": "Thomas Milic",
     "isYG": false,
@@ -2697,6 +3278,13 @@
   {
     "playerId": 8451697,
     "playerName": "Thomas Steen",
+    "isYG": false,
+    "set": "",
+    "cardNumber": ""
+  },
+  {
+    "playerId": 100083,
+    "playerName": "Thommie Bergman",
     "isYG": false,
     "set": "",
     "cardNumber": ""
@@ -2814,6 +3402,20 @@
     "cardNumber": "246"
   },
   {
+    "playerId": 100084,
+    "playerName": "Ulf Nilsson",
+    "isYG": false,
+    "set": "",
+    "cardNumber": ""
+  },
+  {
+    "playerId": 100085,
+    "playerName": "Veli-Pekka Ketola",
+    "isYG": false,
+    "set": "",
+    "cardNumber": ""
+  },
+  {
     "playerId": 8481572,
     "playerName": "Ville Heinola",
     "isYG": true,
@@ -2842,6 +3444,13 @@
     "cardNumber": "475"
   },
   {
+    "playerId": 100086,
+    "playerName": "Wally Boyer",
+    "isYG": false,
+    "set": "",
+    "cardNumber": ""
+  },
+  {
     "playerId": 8446420,
     "playerName": "Wayne Dillon",
     "isYG": false,
@@ -2858,6 +3467,13 @@
   {
     "playerId": 8452419,
     "playerName": "William Whelton",
+    "isYG": false,
+    "set": "",
+    "cardNumber": ""
+  },
+  {
+    "playerId": 100087,
+    "playerName": "Willy Lindstrom",
     "isYG": false,
     "set": "",
     "cardNumber": ""

@@ -9,10 +9,12 @@ from dataclasses import dataclass, field
 from pathlib import Path
 
 API_BASE = "https://api-web.nhle.com/v1"
+STATS_API_BASE = "https://api.nhle.com/stats/rest/en"
 TEAM_ABBREVIATIONS = ("WPG", "WIN")
 GAME_TYPE_REGULAR = 2
 GAME_TYPE_PLAYOFF = 3
 OUTPUT_PATH = Path("data/wpg_players.json")
+STATS_PAGE_SIZE = 100
 
 
 @dataclass
@@ -57,7 +59,61 @@ def fetch_club_stats(team_abbrev: str, season: int, game_type: int) -> dict:
     return fetch_json(url)
 
 
+def fetch_stats_summary(
+    endpoint: str,
+    *,
+    team_abbrev: str,
+    season: int,
+    game_type: int,
+    start: int,
+    limit: int,
+) -> dict:
+    url = (
+        f"{STATS_API_BASE}/{endpoint}/summary"
+        f"?isAggregate=false"
+        f"&isGame=false"
+        f"&start={start}"
+        f"&limit={limit}"
+        f"&sort=%5B%7B%22property%22%3A%22playerId%22%2C%22direction%22%3A%22ASC%22%7D%5D"
+        f"&cayenneExp=seasonId%3D{season}%20and%20gameTypeId%3D{game_type}%20and%20teamAbbrevs%3D%22{team_abbrev}%22"
+    )
+    return fetch_json(url)
+
+
+def fetch_all_stats_rows(endpoint: str, *, team_abbrev: str, season: int, game_type: int) -> list[dict]:
+    rows: list[dict] = []
+    start = 0
+
+    while True:
+        payload = fetch_stats_summary(
+            endpoint,
+            team_abbrev=team_abbrev,
+            season=season,
+            game_type=game_type,
+            start=start,
+            limit=STATS_PAGE_SIZE,
+        )
+
+        page_rows = payload.get("data", [])
+        if not page_rows:
+            break
+
+        rows.extend(page_rows)
+        if len(page_rows) < STATS_PAGE_SIZE:
+            break
+
+        start += STATS_PAGE_SIZE
+
+    return rows
+
+
 def normalize_name(player_obj: dict) -> str:
+    if "skaterFullName" in player_obj:
+        return str(player_obj.get("skaterFullName") or "").strip()
+
+    if "goalieFullName" in player_obj:
+        return str(player_obj.get("goalieFullName") or "").strip()
+
     first = player_obj.get("firstName", {}).get("default", "").strip()
     last = player_obj.get("lastName", {}).get("default", "").strip()
     return f"{first} {last}".strip()
@@ -111,12 +167,23 @@ def build_dataset() -> list[dict]:
                 if game_type not in game_types:
                     continue
 
-                season_stats_payload = fetch_club_stats(team_abbreviation, season, game_type)
+                skaters = fetch_all_stats_rows(
+                    "skater",
+                    team_abbrev=team_abbreviation,
+                    season=season,
+                    game_type=game_type,
+                )
+                goalies = fetch_all_stats_rows(
+                    "goalie",
+                    team_abbrev=team_abbreviation,
+                    season=season,
+                    game_type=game_type,
+                )
 
-                for skater in season_stats_payload.get("skaters", []):
+                for skater in skaters:
                     upsert_player(players, skater, season, game_type, position_fallback="SKATER")
 
-                for goalie in season_stats_payload.get("goalies", []):
+                for goalie in goalies:
                     upsert_player(players, goalie, season, game_type, position_fallback="G")
 
     results: list[dict] = []

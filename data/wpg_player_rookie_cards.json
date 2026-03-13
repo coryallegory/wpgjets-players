@@ -604,8 +604,8 @@
     "playerName": "CJ Suess",
     "isYG": false,
     "isOwned": false,
-    "set": "",
-    "cardNumber": ""
+    "set": "2019-20 SP Authentic",
+    "cardNumber": "231"
   },
   {
     "playerId": 100013,
@@ -1052,8 +1052,8 @@
     "playerName": "David Rittich",
     "isYG": false,
     "isOwned": false,
-    "set": "",
-    "cardNumber": ""
+    "set": "2017-18 Upper Deck Compendium",
+    "cardNumber": "857"
   },
   {
     "playerId": 8458234,
@@ -1108,8 +1108,8 @@
     "playerName": "Deron Quint",
     "isYG": false,
     "isOwned": false,
-    "set": "",
-    "cardNumber": ""
+    "set": "1995-96 Fleer Ultra",
+    "cardNumber": "352"
   },
   {
     "playerId": 8471682,
@@ -1132,8 +1132,8 @@
     "playerName": "Dominic Roussel",
     "isYG": false,
     "isOwned": false,
-    "set": "",
-    "cardNumber": ""
+    "set": "1991-92 Pinnacle",
+    "cardNumber": "343"
   },
   {
     "playerId": 8476952,
@@ -1348,8 +1348,8 @@
     "playerName": "Evgeny Davydov",
     "isYG": false,
     "isOwned": false,
-    "set": "",
-    "cardNumber": ""
+    "set": "1992-93 Upper Deck",
+    "cardNumber": "420"
   },
   {
     "playerId": 8478431,
@@ -1508,8 +1508,8 @@
     "playerName": "Grant Clitsome",
     "isYG": false,
     "isOwned": false,
-    "set": "",
-    "cardNumber": ""
+    "set": "2010-11 Upper Deck Victory",
+    "cardNumber": "211"
   },
   {
     "playerId": 8445655,
@@ -1618,10 +1618,10 @@
   {
     "playerId": 8458974,
     "playerName": "Igor Korolev",
-    "isYG": false,
+    "isYG": true,
     "isOwned": false,
-    "set": "",
-    "cardNumber": ""
+    "set": "1992-93 Upper Deck",
+    "cardNumber": "581"
   },
   {
     "playerId": 8458715,
@@ -1642,18 +1642,18 @@
   {
     "playerId": 8482765,
     "playerName": "Isak Rosen",
-    "isYG": false,
+    "isYG": true,
     "isOwned": false,
-    "set": "",
-    "cardNumber": ""
+    "set": "2023-24 Upper Deck Extended Series",
+    "cardNumber": "704"
   },
   {
     "playerId": 8477076,
     "playerName": "JC Lipon",
     "isYG": false,
     "isOwned": false,
-    "set": "",
-    "cardNumber": ""
+    "set": "2016-17 O-Pee-Chee",
+    "cardNumber": "553"
   },
   {
     "playerId": 8478458,
@@ -1666,10 +1666,10 @@
   {
     "playerId": 8480196,
     "playerName": "Jacob Bryson",
-    "isYG": false,
+    "isYG": true,
     "isOwned": false,
-    "set": "",
-    "cardNumber": ""
+    "set": "2021-22 Upper Deck Series 1",
+    "cardNumber": "248"
   },
   {
     "playerId": 8476885,
@@ -1732,8 +1732,8 @@
     "playerName": "Jay Harrison",
     "isYG": false,
     "isOwned": false,
-    "set": "",
-    "cardNumber": ""
+    "set": "2005-06 Parkhurst",
+    "cardNumber": "666"
   },
   {
     "playerId": 100037,
@@ -1906,10 +1906,10 @@
   {
     "playerId": 8447161,
     "playerName": "John Gibson",
-    "isYG": false,
+    "isYG": true,
     "isOwned": false,
-    "set": "",
-    "cardNumber": ""
+    "set": "2013-14 Upper Deck",
+    "cardNumber": "486"
   },
   {
     "playerId": 100043,
@@ -1954,10 +1954,10 @@
   {
     "playerId": 8469665,
     "playerName": "Johnny Oduya",
-    "isYG": false,
+    "isYG": true,
     "isOwned": false,
-    "set": "",
-    "cardNumber": ""
+    "set": "2006-07 Upper Deck",
+    "cardNumber": "226"
   },
   {
     "playerId": 8473604,
@@ -2012,8 +2012,8 @@
     "playerName": "Julian Melchiori",
     "isYG": false,
     "isOwned": false,
-    "set": "",
-    "cardNumber": ""
+    "set": "2013-14 Panini Rookie Anthology",
+    "cardNumber": "381"
   },
   {
     "playerId": 8475567,
@@ -2044,8 +2044,8 @@
     "playerName": "Keaton Ellerby",
     "isYG": false,
     "isOwned": false,
-    "set": "",
-    "cardNumber": ""
+    "set": "2009-10 Upper Deck The Cup",
+    "cardNumber": "155"
   },
   {
     "playerId": 8458229,
@@ -2148,8 +2148,8 @@
     "playerName": "Kris Draper",
     "isYG": false,
     "isOwned": false,
-    "set": "",
-    "cardNumber": ""
+    "set": "2005-06 Upper Deck Rookie Update",
+    "cardNumber": "197"
   },
   {
     "playerId": 8448487,
@@ -2172,8 +2172,8 @@
     "playerName": "Kristian Reichel",
     "isYG": false,
     "isOwned": false,
-    "set": "",
-    "cardNumber": ""
+    "set": "2017-18 Upper Deck CHL",
+    "cardNumber": "366"
   },
   {
     "playerId": 8480005,
@@ -2204,8 +2204,8 @@
     "playerName": "Kyle Wellwood",
     "isYG": false,
     "isOwned": false,
-    "set": "",
-    "cardNumber": ""
+    "set": "2003-04 Upper Deck Bee Hive",
+    "cardNumber": "215"
   },
   {
     "playerId": 100051,
@@ -2260,16 +2260,16 @@
     "playerName": "Laurie Boschman",
     "isYG": false,
     "isOwned": false,
-    "set": "",
-    "cardNumber": ""
+    "set": "2002-03 Topps Maple Leafs Platinum Collection",
+    "cardNumber": "82"
   },
   {
     "playerId": 8470740,
     "playerName": "Lee Stempniak",
     "isYG": false,
     "isOwned": false,
-    "set": "",
-    "cardNumber": ""
+    "set": "2005-06 Fleer Ultra",
+    "cardNumber": "245"
   },
   {
     "playerId": 8449588,
@@ -2380,8 +2380,8 @@
     "playerName": "Mark Flood",
     "isYG": false,
     "isOwned": false,
-    "set": "",
-    "cardNumber": ""
+    "set": "2010-11 Panini Luxury Suite",
+    "cardNumber": "208"
   },
   {
     "playerId": 8447940,
@@ -2634,10 +2634,10 @@
   {
     "playerId": 8471390,
     "playerName": "Mike Santorelli",
-    "isYG": false,
+    "isYG": true,
     "isOwned": false,
-    "set": "",
-    "cardNumber": ""
+    "set": "2009-10 Upper Deck",
+    "cardNumber": "248"
   },
   {
     "playerId": 8451673,
@@ -2716,8 +2716,8 @@
     "playerName": "Nate Schmidt",
     "isYG": false,
     "isOwned": false,
-    "set": "",
-    "cardNumber": ""
+    "set": "2013-14 Panini Playoff Contenders",
+    "cardNumber": "149"
   },
   {
     "playerId": 8470775,
@@ -2764,8 +2764,8 @@
     "playerName": "Nelson Nogier",
     "isYG": false,
     "isOwned": false,
-    "set": "",
-    "cardNumber": ""
+    "set": "2017-18 SP Game Used",
+    "cardNumber": "112"
   },
   {
     "playerId": 8477464,
@@ -2916,8 +2916,8 @@
     "playerName": "Patrice Cormier",
     "isYG": false,
     "isOwned": false,
-    "set": "",
-    "cardNumber": ""
+    "set": "2010-11 Panini Luxury Suite",
+    "cardNumber": "177"
   },
   {
     "playerId": 8479339,
@@ -3108,8 +3108,8 @@
     "playerName": "Quinton Howden",
     "isYG": false,
     "isOwned": false,
-    "set": "",
-    "cardNumber": ""
+    "set": "2013-14 Upper Deck Trilogy",
+    "cardNumber": "152"
   },
   {
     "playerId": 100068,
@@ -3228,16 +3228,16 @@
     "playerName": "Rick Tabaracci",
     "isYG": false,
     "isOwned": false,
-    "set": "",
-    "cardNumber": ""
+    "set": "1992-93 Upper Deck",
+    "cardNumber": "358"
   },
   {
     "playerId": 8474062,
     "playerName": "Riley Nash",
-    "isYG": false,
+    "isYG": true,
     "isOwned": false,
-    "set": "",
-    "cardNumber": ""
+    "set": "2011-12 Upper Deck",
+    "cardNumber": "460"
   },
   {
     "playerId": 8449761,
@@ -3356,8 +3356,8 @@
     "playerName": "Saku Maenalanen",
     "isYG": false,
     "isOwned": false,
-    "set": "",
-    "cardNumber": ""
+    "set": "2018-19 Upper Deck Compendium",
+    "cardNumber": "818"
   },
   {
     "playerId": 8474040,
@@ -3404,8 +3404,8 @@
     "playerName": "Scott Kosmachuk",
     "isYG": false,
     "isOwned": false,
-    "set": "",
-    "cardNumber": ""
+    "set": "2016-17 O-Pee-Chee",
+    "cardNumber": "589"
   },
   {
     "playerId": 8459453,
@@ -3602,10 +3602,10 @@
   {
     "playerId": 8476871,
     "playerName": "Tanner Pearson",
-    "isYG": false,
+    "isYG": true,
     "isOwned": false,
-    "set": "",
-    "cardNumber": ""
+    "set": "2013-14 Upper Deck",
+    "cardNumber": "498"
   },
   {
     "playerId": 8460550,
@@ -3700,8 +3700,8 @@
     "playerName": "Tim Stapleton",
     "isYG": false,
     "isOwned": false,
-    "set": "",
-    "cardNumber": ""
+    "set": "2009-10 Upper Deck MVP",
+    "cardNumber": "311"
   },
   {
     "playerId": 8451957,
@@ -3756,8 +3756,8 @@
     "playerName": "Tom Draper",
     "isYG": false,
     "isOwned": false,
-    "set": "",
-    "cardNumber": ""
+    "set": "1991-92 Pinnacle",
+    "cardNumber": "341"
   },
   {
     "playerId": 8449280,
@@ -3772,8 +3772,8 @@
     "playerName": "Trevor Lewis",
     "isYG": false,
     "isOwned": false,
-    "set": "",
-    "cardNumber": ""
+    "set": "2008-09 Upper Deck Champ's",
+    "cardNumber": "153"
   },
   {
     "playerId": 8449773,
@@ -3788,8 +3788,8 @@
     "playerName": "Tucker Poolman",
     "isYG": false,
     "isOwned": false,
-    "set": "",
-    "cardNumber": ""
+    "set": "2017-18 Upper Deck Portraits",
+    "cardNumber": "P-71"
   },
   {
     "playerId": 8474574,

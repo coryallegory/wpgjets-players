@@ -3,22 +3,20 @@
     "playerId": 8445725,
     "playerName": "Aaron Broten",
     "position": "C",
-    "gamesPlayedRegularSeason": 25,
-    "gamesPlayedPlayoffs": 7,
     "seasons": [
       {
         "season": 19911992,
         "gamesPlayedRegularSeason": 25,
         "gamesPlayedPlayoffs": 7
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 25,
+    "gamesPlayedPlayoffs": 7
   },
   {
     "playerId": 8471451,
     "playerName": "Aaron Gagnon",
     "position": "C",
-    "gamesPlayedRegularSeason": 17,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 20112012,
@@ -30,14 +28,14 @@
         "gamesPlayedRegularSeason": 10,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 17,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 100000,
     "playerName": "Ab McDonald",
     "position": "L",
-    "gamesPlayedRegularSeason": 147,
-    "gamesPlayedPlayoffs": 18,
     "seasons": [
       {
         "season": 19721973,
@@ -49,28 +47,28 @@
         "gamesPlayedRegularSeason": 70,
         "gamesPlayedPlayoffs": 4
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 147,
+    "gamesPlayedPlayoffs": 18
   },
   {
     "playerId": 8478996,
     "playerName": "Adam Brooks",
     "position": "C",
-    "gamesPlayedRegularSeason": 14,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 20212022,
         "gamesPlayedRegularSeason": 14,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 14,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 8476392,
     "playerName": "Adam Lowry",
     "position": "C",
-    "gamesPlayedRegularSeason": 826,
-    "gamesPlayedPlayoffs": 62,
     "seasons": [
       {
         "season": 20142015,
@@ -132,14 +130,14 @@
         "gamesPlayedRegularSeason": 51,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 826,
+    "gamesPlayedPlayoffs": 62
   },
   {
     "playerId": 8471385,
     "playerName": "Adam Pardy",
     "position": "D",
-    "gamesPlayedRegularSeason": 129,
-    "gamesPlayedPlayoffs": 2,
     "seasons": [
       {
         "season": 20132014,
@@ -156,14 +154,14 @@
         "gamesPlayedRegularSeason": 14,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 129,
+    "gamesPlayedPlayoffs": 2
   },
   {
     "playerId": 8445877,
     "playerName": "Al Cameron",
     "position": "D",
-    "gamesPlayedRegularSeason": 92,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 19791980,
@@ -175,14 +173,14 @@
         "gamesPlayedRegularSeason": 29,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 92,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 8471219,
     "playerName": "Al Montoya",
     "position": "G",
-    "gamesPlayedRegularSeason": 35,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 20122013,
@@ -194,56 +192,56 @@
         "gamesPlayedRegularSeason": 28,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 35,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 100001,
     "playerName": "Alain Beaule",
     "position": "D",
-    "gamesPlayedRegularSeason": 54,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 19741975,
         "gamesPlayedRegularSeason": 54,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 54,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 8446052,
     "playerName": "Alain Chevrier",
     "position": "G",
-    "gamesPlayedRegularSeason": 22,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 19881989,
         "gamesPlayedRegularSeason": 22,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 22,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 8448467,
     "playerName": "Alan Kerr",
     "position": "R",
-    "gamesPlayedRegularSeason": 7,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 19921993,
         "gamesPlayedRegularSeason": 7,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 7,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 8480113,
     "playerName": "Alex Iafallo",
     "position": "L",
-    "gamesPlayedRegularSeason": 227,
-    "gamesPlayedPlayoffs": 18,
     "seasons": [
       {
         "season": 20232024,
@@ -260,14 +258,14 @@
         "gamesPlayedRegularSeason": 63,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 227,
+    "gamesPlayedPlayoffs": 18
   },
   {
     "playerId": 8475788,
     "playerName": "Alexander Burmistrov",
     "position": "C",
-    "gamesPlayedRegularSeason": 224,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 20112012,
@@ -289,28 +287,28 @@
         "gamesPlayedRegularSeason": 23,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 224,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 8467412,
     "playerName": "Alexei Ponikarovsky",
     "position": "L",
-    "gamesPlayedRegularSeason": 12,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 20122013,
         "gamesPlayedRegularSeason": 12,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 12,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 8458487,
     "playerName": "Alexei Zhamnov",
     "position": "C",
-    "gamesPlayedRegularSeason": 235,
-    "gamesPlayedPlayoffs": 12,
     "seasons": [
       {
         "season": 19921993,
@@ -332,14 +330,14 @@
         "gamesPlayedRegularSeason": 58,
         "gamesPlayedPlayoffs": 6
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 235,
+    "gamesPlayedPlayoffs": 12
   },
   {
     "playerId": 8451981,
     "playerName": "Alfie Turcotte",
     "position": "C",
-    "gamesPlayedRegularSeason": 17,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 19871988,
@@ -351,28 +349,28 @@
         "gamesPlayedRegularSeason": 14,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 17,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 8459359,
     "playerName": "Anatoli Fedotov",
     "position": "D",
-    "gamesPlayedRegularSeason": 1,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 19921993,
         "gamesPlayedRegularSeason": 1,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 1,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 100002,
     "playerName": "Anders Hedberg",
     "position": "R",
-    "gamesPlayedRegularSeason": 286,
-    "gamesPlayedPlayoffs": 42,
     "seasons": [
       {
         "season": 19741975,
@@ -394,42 +392,42 @@
         "gamesPlayedRegularSeason": 77,
         "gamesPlayedPlayoffs": 9
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 286,
+    "gamesPlayedPlayoffs": 42
   },
   {
     "playerId": 8451691,
     "playerName": "Anders Steen",
     "position": "C",
-    "gamesPlayedRegularSeason": 42,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 19801981,
         "gamesPlayedRegularSeason": 42,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 42,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 8481642,
     "playerName": "Andrei Chibisov",
     "position": "R",
-    "gamesPlayedRegularSeason": 2,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 20192020,
         "gamesPlayedRegularSeason": 2,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 2,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 8477429,
     "playerName": "Andrew Copp",
     "position": "C",
-    "gamesPlayedRegularSeason": 467,
-    "gamesPlayedPlayoffs": 34,
     "seasons": [
       {
         "season": 20142015,
@@ -471,14 +469,14 @@
         "gamesPlayedRegularSeason": 56,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 467,
+    "gamesPlayedPlayoffs": 34
   },
   {
     "playerId": 8471217,
     "playerName": "Andrew Ladd",
     "position": "L",
-    "gamesPlayedRegularSeason": 348,
-    "gamesPlayedPlayoffs": 4,
     "seasons": [
       {
         "season": 20112012,
@@ -505,14 +503,14 @@
         "gamesPlayedRegularSeason": 59,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 348,
+    "gamesPlayedPlayoffs": 4
   },
   {
     "playerId": 8449326,
     "playerName": "Andrew Mcbain",
     "position": "R",
-    "gamesPlayedRegularSeason": 408,
-    "gamesPlayedPlayoffs": 24,
     "seasons": [
       {
         "season": 19831984,
@@ -544,14 +542,14 @@
         "gamesPlayedRegularSeason": 80,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 408,
+    "gamesPlayedPlayoffs": 24
   },
   {
     "playerId": 8445683,
     "playerName": "Andy Brickley",
     "position": "L",
-    "gamesPlayedRegularSeason": 14,
-    "gamesPlayedPlayoffs": 1,
     "seasons": [
       {
         "season": 19921993,
@@ -563,56 +561,56 @@
         "gamesPlayedRegularSeason": 2,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 14,
+    "gamesPlayedPlayoffs": 1
   },
   {
     "playerId": 8449540,
     "playerName": "Anssi Melametsa",
     "position": "R",
-    "gamesPlayedRegularSeason": 27,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 19851986,
         "gamesPlayedRegularSeason": 27,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 27,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 8475868,
     "playerName": "Anthony Bitetto",
     "position": "D",
-    "gamesPlayedRegularSeason": 51,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 20192020,
         "gamesPlayedRegularSeason": 51,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 51,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 8448381,
     "playerName": "Anthony Joseph",
     "position": "R",
-    "gamesPlayedRegularSeason": 2,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 19881989,
         "gamesPlayedRegularSeason": 2,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 2,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 8474061,
     "playerName": "Anthony Peluso",
     "position": "R",
-    "gamesPlayedRegularSeason": 142,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 20122013,
@@ -634,14 +632,14 @@
         "gamesPlayedRegularSeason": 35,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 142,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 8468704,
     "playerName": "Antti Miettinen",
     "position": "R",
-    "gamesPlayedRegularSeason": 67,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 20112012,
@@ -653,14 +651,14 @@
         "gamesPlayedRegularSeason": 22,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 67,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 8455629,
     "playerName": "Arto Blomsten",
     "position": "D",
-    "gamesPlayedRegularSeason": 19,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 19931994,
@@ -672,42 +670,42 @@
         "gamesPlayedRegularSeason": 1,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 19,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 8473459,
     "playerName": "Arturs Kulda",
     "position": "D",
-    "gamesPlayedRegularSeason": 9,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 20112012,
         "gamesPlayedRegularSeason": 9,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 9,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 8478040,
     "playerName": "Austin Poganski",
     "position": "R",
-    "gamesPlayedRegularSeason": 16,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 20212022,
         "gamesPlayedRegularSeason": 16,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 16,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 8479536,
     "playerName": "Axel Jonsson-Fjallby",
     "position": "L",
-    "gamesPlayedRegularSeason": 76,
-    "gamesPlayedPlayoffs": 2,
     "seasons": [
       {
         "season": 20222023,
@@ -719,14 +717,14 @@
         "gamesPlayedRegularSeason": 26,
         "gamesPlayedPlayoffs": 1
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 76,
+    "gamesPlayedPlayoffs": 2
   },
   {
     "playerId": 8448745,
     "playerName": "Barry Legge",
     "position": "D",
-    "gamesPlayedRegularSeason": 76,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 19801981,
@@ -738,14 +736,14 @@
         "gamesPlayedRegularSeason": 38,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 76,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 8448876,
     "playerName": "Barry Long",
     "position": "D",
-    "gamesPlayedRegularSeason": 299,
-    "gamesPlayedPlayoffs": 39,
     "seasons": [
       {
         "season": 19761977,
@@ -772,14 +770,14 @@
         "gamesPlayedRegularSeason": 5,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 299,
+    "gamesPlayedPlayoffs": 39
   },
   {
     "playerId": 8449555,
     "playerName": "Barry Melrose",
     "position": "D",
-    "gamesPlayedRegularSeason": 92,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 19791980,
@@ -791,14 +789,14 @@
         "gamesPlayedRegularSeason": 18,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 92,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 8475279,
     "playerName": "Ben Chiarot",
     "position": "D",
-    "gamesPlayedRegularSeason": 305,
-    "gamesPlayedPlayoffs": 24,
     "seasons": [
       {
         "season": 20132014,
@@ -830,28 +828,28 @@
         "gamesPlayedRegularSeason": 78,
         "gamesPlayedPlayoffs": 6
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 305,
+    "gamesPlayedPlayoffs": 24
   },
   {
     "playerId": 8473493,
     "playerName": "Ben Maxwell",
     "position": "C",
-    "gamesPlayedRegularSeason": 5,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 20112012,
         "gamesPlayedRegularSeason": 5,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 5,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 8448860,
     "playerName": "Bengt Lundholm",
     "position": "L",
-    "gamesPlayedRegularSeason": 275,
-    "gamesPlayedPlayoffs": 14,
     "seasons": [
       {
         "season": 19811982,
@@ -878,14 +876,14 @@
         "gamesPlayedRegularSeason": 16,
         "gamesPlayedPlayoffs": 2
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 275,
+    "gamesPlayedPlayoffs": 14
   },
   {
     "playerId": 100004,
     "playerName": "Bill Davis",
     "position": "D",
-    "gamesPlayedRegularSeason": 17,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 19771978,
@@ -897,14 +895,14 @@
         "gamesPlayedRegularSeason": 5,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 17,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 8446363,
     "playerName": "Bill Derlago",
     "position": "C",
-    "gamesPlayedRegularSeason": 57,
-    "gamesPlayedPlayoffs": 3,
     "seasons": [
       {
         "season": 19851986,
@@ -916,28 +914,28 @@
         "gamesPlayedRegularSeason": 30,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 57,
+    "gamesPlayedPlayoffs": 3
   },
   {
     "playerId": 100005,
     "playerName": "Bill Holden",
     "position": "G",
-    "gamesPlayedRegularSeason": 1,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 19731974,
         "gamesPlayedRegularSeason": 1,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 1,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 8448804,
     "playerName": "Bill Lesuk",
     "position": "R",
-    "gamesPlayedRegularSeason": 367,
-    "gamesPlayedPlayoffs": 50,
     "seasons": [
       {
         "season": 19751976,
@@ -964,28 +962,28 @@
         "gamesPlayedRegularSeason": 49,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 367,
+    "gamesPlayedPlayoffs": 50
   },
   {
     "playerId": 8450843,
     "playerName": "Bill Riley",
     "position": "R",
-    "gamesPlayedRegularSeason": 14,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 19791980,
         "gamesPlayedRegularSeason": 14,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 14,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 100007,
     "playerName": "Bill Sutherland",
     "position": "C",
-    "gamesPlayedRegularSeason": 60,
-    "gamesPlayedPlayoffs": 18,
     "seasons": [
       {
         "season": 19721973,
@@ -997,14 +995,14 @@
         "gamesPlayedRegularSeason": 12,
         "gamesPlayedPlayoffs": 4
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 60,
+    "gamesPlayedPlayoffs": 18
   },
   {
     "playerId": 8471218,
     "playerName": "Blake Wheeler",
     "position": "R",
-    "gamesPlayedRegularSeason": 874,
-    "gamesPlayedPlayoffs": 44,
     "seasons": [
       {
         "season": 20112012,
@@ -1066,14 +1064,14 @@
         "gamesPlayedRegularSeason": 72,
         "gamesPlayedPlayoffs": 5
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 874,
+    "gamesPlayedPlayoffs": 44
   },
   {
     "playerId": 100008,
     "playerName": "Bob Ash",
     "position": "D",
-    "gamesPlayedRegularSeason": 136,
-    "gamesPlayedPlayoffs": 17,
     "seasons": [
       {
         "season": 19721973,
@@ -1085,14 +1083,14 @@
         "gamesPlayedRegularSeason": 60,
         "gamesPlayedPlayoffs": 4
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 136,
+    "gamesPlayedPlayoffs": 17
   },
   {
     "playerId": 8446719,
     "playerName": "Bob Essensa",
     "position": "G",
-    "gamesPlayedRegularSeason": 281,
-    "gamesPlayedPlayoffs": 11,
     "seasons": [
       {
         "season": 19881989,
@@ -1124,14 +1122,14 @@
         "gamesPlayedRegularSeason": 56,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 281,
+    "gamesPlayedPlayoffs": 11
   },
   {
     "playerId": 100009,
     "playerName": "Bob Guindon",
     "position": "L",
-    "gamesPlayedRegularSeason": 246,
-    "gamesPlayedPlayoffs": 49,
     "seasons": [
       {
         "season": 19751976,
@@ -1153,14 +1151,14 @@
         "gamesPlayedRegularSeason": 71,
         "gamesPlayedPlayoffs": 7
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 246,
+    "gamesPlayedPlayoffs": 49
   },
   {
     "playerId": 8448374,
     "playerName": "Bob Joyce",
     "position": "L",
-    "gamesPlayedRegularSeason": 2,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 19911992,
@@ -1172,14 +1170,14 @@
         "gamesPlayedRegularSeason": 1,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 2,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 100010,
     "playerName": "Bob Woytowich",
     "position": "D",
-    "gamesPlayedRegularSeason": 158,
-    "gamesPlayedPlayoffs": 18,
     "seasons": [
       {
         "season": 19721973,
@@ -1196,14 +1194,14 @@
         "gamesPlayedRegularSeason": 24,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 158,
+    "gamesPlayedPlayoffs": 18
   },
   {
     "playerId": 8446435,
     "playerName": "Bobby Dollas",
     "position": "D",
-    "gamesPlayedRegularSeason": 56,
-    "gamesPlayedPlayoffs": 3,
     "seasons": [
       {
         "season": 19831984,
@@ -1220,28 +1218,28 @@
         "gamesPlayedRegularSeason": 46,
         "gamesPlayedPlayoffs": 3
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 56,
+    "gamesPlayedPlayoffs": 3
   },
   {
     "playerId": 8447419,
     "playerName": "Bobby Guindon",
     "position": "C",
-    "gamesPlayedRegularSeason": 6,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 19791980,
         "gamesPlayedRegularSeason": 6,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 6,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 8448108,
     "playerName": "Bobby Hull",
     "position": "L",
-    "gamesPlayedRegularSeason": 429,
-    "gamesPlayedPlayoffs": 60,
     "seasons": [
       {
         "season": 19721973,
@@ -1283,28 +1281,28 @@
         "gamesPlayedRegularSeason": 18,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 429,
+    "gamesPlayedPlayoffs": 60
   },
   {
     "playerId": 8458963,
     "playerName": "Boris Mironov",
     "position": "D",
-    "gamesPlayedRegularSeason": 65,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 19931994,
         "gamesPlayedRegularSeason": 65,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 65,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 8445443,
     "playerName": "Brad Berry",
     "position": "D",
-    "gamesPlayedRegularSeason": 163,
-    "gamesPlayedPlayoffs": 11,
     "seasons": [
       {
         "season": 19851986,
@@ -1331,14 +1329,14 @@
         "gamesPlayedRegularSeason": 12,
         "gamesPlayedPlayoffs": 1
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 163,
+    "gamesPlayedPlayoffs": 11
   },
   {
     "playerId": 8448366,
     "playerName": "Brad Jones",
     "position": "L",
-    "gamesPlayedRegularSeason": 47,
-    "gamesPlayedPlayoffs": 1,
     "seasons": [
       {
         "season": 19861987,
@@ -1360,14 +1358,14 @@
         "gamesPlayedRegularSeason": 2,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 47,
+    "gamesPlayedPlayoffs": 1
   },
   {
     "playerId": 8483471,
     "playerName": "Brad Lambert",
     "position": "C",
-    "gamesPlayedRegularSeason": 12,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 20232024,
@@ -1384,14 +1382,14 @@
         "gamesPlayedRegularSeason": 6,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 12,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 8479293,
     "playerName": "Brandon Tanev",
     "position": "L",
-    "gamesPlayedRegularSeason": 214,
-    "gamesPlayedPlayoffs": 35,
     "seasons": [
       {
         "season": 20152016,
@@ -1418,14 +1416,14 @@
         "gamesPlayedRegularSeason": 19,
         "gamesPlayedPlayoffs": 13
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 214,
+    "gamesPlayedPlayoffs": 35
   },
   {
     "playerId": 8477962,
     "playerName": "Brendan Lemieux",
     "position": "L",
-    "gamesPlayedRegularSeason": 53,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 20172018,
@@ -1437,14 +1435,14 @@
         "gamesPlayedRegularSeason": 44,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 53,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 8475455,
     "playerName": "Brenden Dillon",
     "position": "D",
-    "gamesPlayedRegularSeason": 238,
-    "gamesPlayedPlayoffs": 8,
     "seasons": [
       {
         "season": 20212022,
@@ -1461,14 +1459,14 @@
         "gamesPlayedRegularSeason": 77,
         "gamesPlayedPlayoffs": 3
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 238,
+    "gamesPlayedPlayoffs": 8
   },
   {
     "playerId": 8445118,
     "playerName": "Brent Ashton",
     "position": "L",
-    "gamesPlayedRegularSeason": 222,
-    "gamesPlayedPlayoffs": 7,
     "seasons": [
       {
         "season": 19881989,
@@ -1490,14 +1488,14 @@
         "gamesPlayedRegularSeason": 7,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 222,
+    "gamesPlayedPlayoffs": 7
   },
   {
     "playerId": 8448053,
     "playerName": "Brent Hughes",
     "position": "L",
-    "gamesPlayedRegularSeason": 39,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 19881989,
@@ -1509,14 +1507,14 @@
         "gamesPlayedRegularSeason": 11,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 39,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 8458212,
     "playerName": "Brent Thompson",
     "position": "D",
-    "gamesPlayedRegularSeason": 39,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 19941995,
@@ -1528,56 +1526,56 @@
         "gamesPlayedRegularSeason": 10,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 39,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 8471978,
     "playerName": "Brett Festerling",
     "position": "D",
-    "gamesPlayedRegularSeason": 5,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 20112012,
         "gamesPlayedRegularSeason": 5,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 5,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 8474050,
     "playerName": "Brett MacLean",
     "position": "L",
-    "gamesPlayedRegularSeason": 5,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 20112012,
         "gamesPlayedRegularSeason": 5,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 5,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 100012,
     "playerName": "Brian Cadle",
     "position": "L",
-    "gamesPlayedRegularSeason": 56,
-    "gamesPlayedPlayoffs": 3,
     "seasons": [
       {
         "season": 19721973,
         "gamesPlayedRegularSeason": 56,
         "gamesPlayedPlayoffs": 3
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 56,
+    "gamesPlayedPlayoffs": 3
   },
   {
     "playerId": 8447701,
     "playerName": "Brian Hayward",
     "position": "G",
-    "gamesPlayedRegularSeason": 165,
-    "gamesPlayedPlayoffs": 11,
     "seasons": [
       {
         "season": 19821983,
@@ -1599,28 +1597,28 @@
         "gamesPlayedRegularSeason": 52,
         "gamesPlayedPlayoffs": 2
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 165,
+    "gamesPlayedPlayoffs": 11
   },
   {
     "playerId": 8449487,
     "playerName": "Brian McReynolds",
     "position": "C",
-    "gamesPlayedRegularSeason": 9,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 19891990,
         "gamesPlayedRegularSeason": 9,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 9,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 8449742,
     "playerName": "Brian Mullen",
     "position": "R",
-    "gamesPlayedRegularSeason": 372,
-    "gamesPlayedPlayoffs": 26,
     "seasons": [
       {
         "season": 19821983,
@@ -1647,28 +1645,28 @@
         "gamesPlayedRegularSeason": 69,
         "gamesPlayedPlayoffs": 9
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 372,
+    "gamesPlayedPlayoffs": 26
   },
   {
     "playerId": 8473565,
     "playerName": "Brian Strait",
     "position": "D",
-    "gamesPlayedRegularSeason": 5,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 20162017,
         "gamesPlayedRegularSeason": 5,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 5,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 8446705,
     "playerName": "Bryan Erickson",
     "position": "C",
-    "gamesPlayedRegularSeason": 73,
-    "gamesPlayedPlayoffs": 3,
     "seasons": [
       {
         "season": 19901991,
@@ -1690,14 +1688,14 @@
         "gamesPlayedRegularSeason": 16,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 73,
+    "gamesPlayedPlayoffs": 3
   },
   {
     "playerId": 8473412,
     "playerName": "Bryan Little",
     "position": "C",
-    "gamesPlayedRegularSeason": 561,
-    "gamesPlayedPlayoffs": 27,
     "seasons": [
       {
         "season": 20112012,
@@ -1744,14 +1742,14 @@
         "gamesPlayedRegularSeason": 7,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 561,
+    "gamesPlayedPlayoffs": 27
   },
   {
     "playerId": 8449137,
     "playerName": "Bryan Marchment",
     "position": "D",
-    "gamesPlayedRegularSeason": 37,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 19881989,
@@ -1768,14 +1766,14 @@
         "gamesPlayedRegularSeason": 28,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 37,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 8449316,
     "playerName": "Bryan Maxwell",
     "position": "D",
-    "gamesPlayedRegularSeason": 102,
-    "gamesPlayedPlayoffs": 3,
     "seasons": [
       {
         "season": 19811982,
@@ -1792,14 +1790,14 @@
         "gamesPlayedRegularSeason": 3,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 102,
+    "gamesPlayedPlayoffs": 3
   },
   {
     "playerId": 8478058,
     "playerName": "CJ Suess",
     "position": "L",
-    "gamesPlayedRegularSeason": 4,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 20192020,
@@ -1811,14 +1809,14 @@
         "gamesPlayedRegularSeason": 3,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 4,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 100013,
     "playerName": "Cal Swenson",
     "position": "L",
-    "gamesPlayedRegularSeason": 102,
-    "gamesPlayedPlayoffs": 15,
     "seasons": [
       {
         "season": 19721973,
@@ -1830,42 +1828,42 @@
         "gamesPlayedRegularSeason": 25,
         "gamesPlayedPlayoffs": 1
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 102,
+    "gamesPlayedPlayoffs": 15
   },
   {
     "playerId": 8476799,
     "playerName": "Cameron Schilling",
     "position": "D",
-    "gamesPlayedRegularSeason": 4,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 20182019,
         "gamesPlayedRegularSeason": 4,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 4,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 8477472,
     "playerName": "Carl Dahlstrom",
     "position": "D",
-    "gamesPlayedRegularSeason": 15,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 20192020,
         "gamesPlayedRegularSeason": 15,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 15,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 8475159,
     "playerName": "Carl Klingberg",
     "position": "L",
-    "gamesPlayedRegularSeason": 11,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 20112012,
@@ -1882,42 +1880,42 @@
         "gamesPlayedRegularSeason": 2,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 11,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 8462035,
     "playerName": "Chad Kilger",
     "position": "L",
-    "gamesPlayedRegularSeason": 29,
-    "gamesPlayedPlayoffs": 4,
     "seasons": [
       {
         "season": 19951996,
         "gamesPlayedRegularSeason": 29,
         "gamesPlayedPlayoffs": 4
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 29,
+    "gamesPlayedPlayoffs": 4
   },
   {
     "playerId": 8478029,
     "playerName": "Chase De Leo",
     "position": "L",
-    "gamesPlayedRegularSeason": 2,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 20152016,
         "gamesPlayedRegularSeason": 2,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 2,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 100014,
     "playerName": "Chris Bordeleau",
     "position": "C",
-    "gamesPlayedRegularSeason": 171,
-    "gamesPlayedPlayoffs": 15,
     "seasons": [
       {
         "season": 19721973,
@@ -1934,28 +1932,28 @@
         "gamesPlayedRegularSeason": 18,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 171,
+    "gamesPlayedPlayoffs": 15
   },
   {
     "playerId": 8462152,
     "playerName": "Chris Mason",
     "position": "G",
-    "gamesPlayedRegularSeason": 20,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 20112012,
         "gamesPlayedRegularSeason": 20,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 20,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 8469501,
     "playerName": "Chris Thorburn",
     "position": "R",
-    "gamesPlayedRegularSeason": 396,
-    "gamesPlayedPlayoffs": 4,
     "seasons": [
       {
         "season": 20112012,
@@ -1987,42 +1985,42 @@
         "gamesPlayedRegularSeason": 64,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 396,
+    "gamesPlayedPlayoffs": 4
   },
   {
     "playerId": 8475236,
     "playerName": "Cody Eakin",
     "position": "C",
-    "gamesPlayedRegularSeason": 8,
-    "gamesPlayedPlayoffs": 4,
     "seasons": [
       {
         "season": 20192020,
         "gamesPlayedRegularSeason": 8,
         "gamesPlayedPlayoffs": 4
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 8,
+    "gamesPlayedPlayoffs": 4
   },
   {
     "playerId": 8481043,
     "playerName": "Cole Koepke",
     "position": "L",
-    "gamesPlayedRegularSeason": 47,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 20252026,
         "gamesPlayedRegularSeason": 47,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 47,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 8482149,
     "playerName": "Cole Perfetti",
     "position": "C",
-    "gamesPlayedRegularSeason": 271,
-    "gamesPlayedPlayoffs": 14,
     "seasons": [
       {
         "season": 20212022,
@@ -2049,14 +2047,14 @@
         "gamesPlayedRegularSeason": 49,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 271,
+    "gamesPlayedPlayoffs": 14
   },
   {
     "playerId": 8476525,
     "playerName": "Colin Miller",
     "position": "D",
-    "gamesPlayedRegularSeason": 80,
-    "gamesPlayedPlayoffs": 5,
     "seasons": [
       {
         "season": 20232024,
@@ -2073,14 +2071,14 @@
         "gamesPlayedRegularSeason": 15,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 80,
+    "gamesPlayedPlayoffs": 5
   },
   {
     "playerId": 8476945,
     "playerName": "Connor Hellebuyck",
     "position": "G",
-    "gamesPlayedRegularSeason": 610,
-    "gamesPlayedPlayoffs": 58,
     "seasons": [
       {
         "season": 20152016,
@@ -2137,70 +2135,70 @@
         "gamesPlayedRegularSeason": 42,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 610,
+    "gamesPlayedPlayoffs": 58
   },
   {
     "playerId": 8446508,
     "playerName": "Craig Duncanson",
     "position": "R",
-    "gamesPlayedRegularSeason": 7,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 19901991,
         "gamesPlayedRegularSeason": 7,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 7,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 8446682,
     "playerName": "Craig Endean",
     "position": "L",
-    "gamesPlayedRegularSeason": 2,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 19861987,
         "gamesPlayedRegularSeason": 2,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 2,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 8446832,
     "playerName": "Craig Fisher",
     "position": "C",
-    "gamesPlayedRegularSeason": 4,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 19931994,
         "gamesPlayedRegularSeason": 4,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 4,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 8448222,
     "playerName": "Craig Janney",
     "position": "C",
-    "gamesPlayedRegularSeason": 13,
-    "gamesPlayedPlayoffs": 6,
     "seasons": [
       {
         "season": 19951996,
         "gamesPlayedRegularSeason": 13,
         "gamesPlayedPlayoffs": 6
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 13,
+    "gamesPlayedPlayoffs": 6
   },
   {
     "playerId": 8448816,
     "playerName": "Craig Levie",
     "position": "D",
-    "gamesPlayedRegularSeason": 62,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 19811982,
@@ -2212,70 +2210,70 @@
         "gamesPlayedRegularSeason": 22,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 62,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 8457228,
     "playerName": "Craig Martin",
     "position": "R",
-    "gamesPlayedRegularSeason": 20,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 19941995,
         "gamesPlayedRegularSeason": 20,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 20,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 8460596,
     "playerName": "Craig Mills",
     "position": "R",
-    "gamesPlayedRegularSeason": 4,
-    "gamesPlayedPlayoffs": 1,
     "seasons": [
       {
         "season": 19951996,
         "gamesPlayedRegularSeason": 4,
         "gamesPlayedPlayoffs": 1
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 4,
+    "gamesPlayedPlayoffs": 1
   },
   {
     "playerId": 8449749,
     "playerName": "Craig Muni",
     "position": "D",
-    "gamesPlayedRegularSeason": 25,
-    "gamesPlayedPlayoffs": 6,
     "seasons": [
       {
         "season": 19951996,
         "gamesPlayedRegularSeason": 25,
         "gamesPlayedPlayoffs": 6
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 25,
+    "gamesPlayedPlayoffs": 6
   },
   {
     "playerId": 8449927,
     "playerName": "Craig Norwich",
     "position": "D",
-    "gamesPlayedRegularSeason": 70,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 19791980,
         "gamesPlayedRegularSeason": 70,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 70,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 100015,
     "playerName": "Curt Larsson",
     "position": "G",
-    "gamesPlayedRegularSeason": 68,
-    "gamesPlayedPlayoffs": 3,
     "seasons": [
       {
         "season": 19741975,
@@ -2292,14 +2290,14 @@
         "gamesPlayedRegularSeason": 19,
         "gamesPlayedPlayoffs": 1
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 68,
+    "gamesPlayedPlayoffs": 3
   },
   {
     "playerId": 8447685,
     "playerName": "Dale Hawerchuk",
     "position": "C",
-    "gamesPlayedRegularSeason": 713,
-    "gamesPlayedPlayoffs": 38,
     "seasons": [
       {
         "season": 19811982,
@@ -2346,28 +2344,28 @@
         "gamesPlayedRegularSeason": 79,
         "gamesPlayedPlayoffs": 7
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 713,
+    "gamesPlayedPlayoffs": 38
   },
   {
     "playerId": 100016,
     "playerName": "Dale Yakiwchuk",
     "position": "F",
-    "gamesPlayedRegularSeason": 4,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 19781979,
         "gamesPlayedRegularSeason": 4,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 4,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 8456106,
     "playerName": "Dallas Drake",
     "position": "R",
-    "gamesPlayedRegularSeason": 127,
-    "gamesPlayedPlayoffs": 3,
     "seasons": [
       {
         "season": 19931994,
@@ -2384,14 +2382,14 @@
         "gamesPlayedRegularSeason": 69,
         "gamesPlayedPlayoffs": 3
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 127,
+    "gamesPlayedPlayoffs": 3
   },
   {
     "playerId": 8456153,
     "playerName": "Dallas Eakins",
     "position": "D",
-    "gamesPlayedRegularSeason": 16,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 19921993,
@@ -2403,28 +2401,28 @@
         "gamesPlayedRegularSeason": 2,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 16,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 8445609,
     "playerName": "Dan Bouchard",
     "position": "G",
-    "gamesPlayedRegularSeason": 32,
-    "gamesPlayedPlayoffs": 1,
     "seasons": [
       {
         "season": 19851986,
         "gamesPlayedRegularSeason": 32,
         "gamesPlayedPlayoffs": 1
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 32,
+    "gamesPlayedPlayoffs": 1
   },
   {
     "playerId": 100017,
     "playerName": "Dan Johnson",
     "position": "C",
-    "gamesPlayedRegularSeason": 232,
-    "gamesPlayedPlayoffs": 18,
     "seasons": [
       {
         "season": 19721973,
@@ -2441,14 +2439,14 @@
         "gamesPlayedRegularSeason": 78,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 232,
+    "gamesPlayedPlayoffs": 18
   },
   {
     "playerId": 100018,
     "playerName": "Dan Labraaten",
     "position": "L",
-    "gamesPlayedRegularSeason": 111,
-    "gamesPlayedPlayoffs": 24,
     "seasons": [
       {
         "season": 19761977,
@@ -2460,14 +2458,14 @@
         "gamesPlayedRegularSeason": 47,
         "gamesPlayedPlayoffs": 4
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 111,
+    "gamesPlayedPlayoffs": 24
   },
   {
     "playerId": 8449458,
     "playerName": "Dan Mcfall",
     "position": "D",
-    "gamesPlayedRegularSeason": 9,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 19841985,
@@ -2479,14 +2477,14 @@
         "gamesPlayedRegularSeason": 7,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 9,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 100019,
     "playerName": "Dan Spring",
     "position": "F",
-    "gamesPlayedRegularSeason": 126,
-    "gamesPlayedPlayoffs": 4,
     "seasons": [
       {
         "season": 19731974,
@@ -2498,14 +2496,14 @@
         "gamesPlayedRegularSeason": 60,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 126,
+    "gamesPlayedPlayoffs": 4
   },
   {
     "playerId": 8445462,
     "playerName": "Daniel Berthiaume",
     "position": "G",
-    "gamesPlayedRegularSeason": 120,
-    "gamesPlayedPlayoffs": 14,
     "seasons": [
       {
         "season": 19851986,
@@ -2532,28 +2530,28 @@
         "gamesPlayedRegularSeason": 24,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 120,
+    "gamesPlayedPlayoffs": 14
   },
   {
     "playerId": 8483526,
     "playerName": "Danil Zhilkin",
     "position": "C",
-    "gamesPlayedRegularSeason": 4,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 20252026,
         "gamesPlayedRegularSeason": 4,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 4,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 8447115,
     "playerName": "Danny Geoffrion",
     "position": "R",
-    "gamesPlayedRegularSeason": 79,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 19801981,
@@ -2565,42 +2563,42 @@
         "gamesPlayedRegularSeason": 1,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 79,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 100020,
     "playerName": "Danny Gruen",
     "position": "L",
-    "gamesPlayedRegularSeason": 32,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 19741975,
         "gamesPlayedRegularSeason": 32,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 32,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 100021,
     "playerName": "Danny Lawson",
     "position": "R",
-    "gamesPlayedRegularSeason": 14,
-    "gamesPlayedPlayoffs": 13,
     "seasons": [
       {
         "season": 19761977,
         "gamesPlayedRegularSeason": 14,
         "gamesPlayedPlayoffs": 13
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 14,
+    "gamesPlayedPlayoffs": 13
   },
   {
     "playerId": 8446127,
     "playerName": "Danton Cole",
     "position": "R",
-    "gamesPlayedRegularSeason": 120,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 19891990,
@@ -2617,42 +2615,42 @@
         "gamesPlayedRegularSeason": 52,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 120,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 8445654,
     "playerName": "Darren Boyko",
     "position": "C",
-    "gamesPlayedRegularSeason": 1,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 19881989,
         "gamesPlayedRegularSeason": 1,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 1,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 8451994,
     "playerName": "Darren Turcotte",
     "position": "C",
-    "gamesPlayedRegularSeason": 59,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 19951996,
         "gamesPlayedRegularSeason": 59,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 59,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 8451334,
     "playerName": "Darrin Shannon",
     "position": "L",
-    "gamesPlayedRegularSeason": 311,
-    "gamesPlayedPlayoffs": 19,
     "seasons": [
       {
         "season": 19911992,
@@ -2679,14 +2677,14 @@
         "gamesPlayedRegularSeason": 63,
         "gamesPlayedPlayoffs": 6
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 311,
+    "gamesPlayedPlayoffs": 19
   },
   {
     "playerId": 8451333,
     "playerName": "Darryl Shannon",
     "position": "D",
-    "gamesPlayedRegularSeason": 108,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 19931994,
@@ -2703,14 +2701,14 @@
         "gamesPlayedRegularSeason": 48,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 108,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 8445208,
     "playerName": "Dave Babych",
     "position": "D",
-    "gamesPlayedRegularSeason": 390,
-    "gamesPlayedPlayoffs": 18,
     "seasons": [
       {
         "season": 19801981,
@@ -2742,28 +2740,28 @@
         "gamesPlayedRegularSeason": 19,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 390,
+    "gamesPlayedPlayoffs": 18
   },
   {
     "playerId": 8446048,
     "playerName": "Dave Chartier",
     "position": "C",
-    "gamesPlayedRegularSeason": 1,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 19801981,
         "gamesPlayedRegularSeason": 1,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 1,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 8446079,
     "playerName": "Dave Christian",
     "position": "R",
-    "gamesPlayedRegularSeason": 230,
-    "gamesPlayedPlayoffs": 7,
     "seasons": [
       {
         "season": 19791980,
@@ -2785,14 +2783,14 @@
         "gamesPlayedRegularSeason": 55,
         "gamesPlayedPlayoffs": 3
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 230,
+    "gamesPlayedPlayoffs": 7
   },
   {
     "playerId": 100022,
     "playerName": "Dave Dunn",
     "position": "D",
-    "gamesPlayedRegularSeason": 106,
-    "gamesPlayedPlayoffs": 29,
     "seasons": [
       {
         "season": 19761977,
@@ -2804,14 +2802,14 @@
         "gamesPlayedRegularSeason": 66,
         "gamesPlayedPlayoffs": 9
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 106,
+    "gamesPlayedPlayoffs": 29
   },
   {
     "playerId": 8446626,
     "playerName": "Dave Ellett",
     "position": "D",
-    "gamesPlayedRegularSeason": 475,
-    "gamesPlayedPlayoffs": 33,
     "seasons": [
       {
         "season": 19841985,
@@ -2848,14 +2846,14 @@
         "gamesPlayedRegularSeason": 17,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 475,
+    "gamesPlayedPlayoffs": 33
   },
   {
     "playerId": 8448019,
     "playerName": "Dave Hoyda",
     "position": "L",
-    "gamesPlayedRegularSeason": 24,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 19791980,
@@ -2867,42 +2865,42 @@
         "gamesPlayedRegularSeason": 9,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 24,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 8448116,
     "playerName": "Dave Hunter",
     "position": "L",
-    "gamesPlayedRegularSeason": 34,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 19881989,
         "gamesPlayedRegularSeason": 34,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 34,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 100023,
     "playerName": "Dave Kryskow",
     "position": "F",
-    "gamesPlayedRegularSeason": 71,
-    "gamesPlayedPlayoffs": 9,
     "seasons": [
       {
         "season": 19771978,
         "gamesPlayedRegularSeason": 71,
         "gamesPlayedPlayoffs": 9
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 71,
+    "gamesPlayedPlayoffs": 9
   },
   {
     "playerId": 8449123,
     "playerName": "Dave Manson",
     "position": "D",
-    "gamesPlayedRegularSeason": 139,
-    "gamesPlayedPlayoffs": 6,
     "seasons": [
       {
         "season": 19931994,
@@ -2919,14 +2917,14 @@
         "gamesPlayedRegularSeason": 82,
         "gamesPlayedPlayoffs": 6
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 139,
+    "gamesPlayedPlayoffs": 6
   },
   {
     "playerId": 8449488,
     "playerName": "Dave Mcllwain",
     "position": "C",
-    "gamesPlayedRegularSeason": 143,
-    "gamesPlayedPlayoffs": 7,
     "seasons": [
       {
         "season": 19891990,
@@ -2943,28 +2941,28 @@
         "gamesPlayedRegularSeason": 3,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 143,
+    "gamesPlayedPlayoffs": 7
   },
   {
     "playerId": 8451361,
     "playerName": "Dave Silk",
     "position": "R",
-    "gamesPlayedRegularSeason": 32,
-    "gamesPlayedPlayoffs": 1,
     "seasons": [
       {
         "season": 19851986,
         "gamesPlayedRegularSeason": 32,
         "gamesPlayedPlayoffs": 1
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 32,
+    "gamesPlayedPlayoffs": 1
   },
   {
     "playerId": 8481019,
     "playerName": "David Gustafsson",
     "position": "C",
-    "gamesPlayedRegularSeason": 149,
-    "gamesPlayedPlayoffs": 11,
     "seasons": [
       {
         "season": 20192020,
@@ -2996,42 +2994,42 @@
         "gamesPlayedRegularSeason": 36,
         "gamesPlayedPlayoffs": 4
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 149,
+    "gamesPlayedPlayoffs": 11
   },
   {
     "playerId": 8479496,
     "playerName": "David Rittich",
     "position": "G",
-    "gamesPlayedRegularSeason": 21,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 20222023,
         "gamesPlayedRegularSeason": 21,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 21,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 8458234,
     "playerName": "David Tomlinson",
     "position": "C",
-    "gamesPlayedRegularSeason": 31,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 19931994,
         "gamesPlayedRegularSeason": 31,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 31,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 8448449,
     "playerName": "Dean Kennedy",
     "position": "D",
-    "gamesPlayedRegularSeason": 172,
-    "gamesPlayedPlayoffs": 8,
     "seasons": [
       {
         "season": 19911992,
@@ -3048,14 +3046,14 @@
         "gamesPlayedRegularSeason": 76,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 172,
+    "gamesPlayedPlayoffs": 8
   },
   {
     "playerId": 8480990,
     "playerName": "Declan Chisholm",
     "position": "D",
-    "gamesPlayedRegularSeason": 4,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 20212022,
@@ -3067,42 +3065,42 @@
         "gamesPlayedRegularSeason": 2,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 4,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 8455850,
     "playerName": "Denis Chasse",
     "position": "R",
-    "gamesPlayedRegularSeason": 15,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 19951996,
         "gamesPlayedRegularSeason": 15,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 15,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 8475762,
     "playerName": "Derek Forbort",
     "position": "D",
-    "gamesPlayedRegularSeason": 56,
-    "gamesPlayedPlayoffs": 8,
     "seasons": [
       {
         "season": 20202021,
         "gamesPlayedRegularSeason": 56,
         "gamesPlayedPlayoffs": 8
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 56,
+    "gamesPlayedPlayoffs": 8
   },
   {
     "playerId": 8470061,
     "playerName": "Derek Meech",
     "position": "D",
-    "gamesPlayedRegularSeason": 18,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 20112012,
@@ -3114,42 +3112,42 @@
         "gamesPlayedRegularSeason": 16,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 18,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 8460521,
     "playerName": "Deron Quint",
     "position": "D",
-    "gamesPlayedRegularSeason": 51,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 19951996,
         "gamesPlayedRegularSeason": 51,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 51,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 8471682,
     "playerName": "Devin Setoguchi",
     "position": "R",
-    "gamesPlayedRegularSeason": 75,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 20132014,
         "gamesPlayedRegularSeason": 75,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 75,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 8475179,
     "playerName": "Dmitry Kulikov",
     "position": "D",
-    "gamesPlayedRegularSeason": 170,
-    "gamesPlayedPlayoffs": 11,
     "seasons": [
       {
         "season": 20172018,
@@ -3166,28 +3164,28 @@
         "gamesPlayedRegularSeason": 51,
         "gamesPlayedPlayoffs": 4
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 170,
+    "gamesPlayedPlayoffs": 11
   },
   {
     "playerId": 8457866,
     "playerName": "Dominic Roussel",
     "position": "G",
-    "gamesPlayedRegularSeason": 7,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 19951996,
         "gamesPlayedRegularSeason": 7,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 7,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 8476952,
     "playerName": "Dominic Toninato",
     "position": "C",
-    "gamesPlayedRegularSeason": 104,
-    "gamesPlayedPlayoffs": 5,
     "seasons": [
       {
         "season": 20202021,
@@ -3214,14 +3212,14 @@
         "gamesPlayedRegularSeason": 5,
         "gamesPlayedPlayoffs": 2
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 104,
+    "gamesPlayedPlayoffs": 5
   },
   {
     "playerId": 8445253,
     "playerName": "Don Barber",
     "position": "L",
-    "gamesPlayedRegularSeason": 27,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 19901991,
@@ -3233,14 +3231,14 @@
         "gamesPlayedRegularSeason": 11,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 27,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 8451621,
     "playerName": "Don Spring",
     "position": "D",
-    "gamesPlayedRegularSeason": 259,
-    "gamesPlayedPlayoffs": 6,
     "seasons": [
       {
         "season": 19801981,
@@ -3262,28 +3260,28 @@
         "gamesPlayedRegularSeason": 21,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 259,
+    "gamesPlayedPlayoffs": 6
   },
   {
     "playerId": 8448959,
     "playerName": "Donald MacIver",
     "position": "D",
-    "gamesPlayedRegularSeason": 6,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 19791980,
         "gamesPlayedRegularSeason": 6,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 6,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 8446735,
     "playerName": "Doug Evans",
     "position": "L",
-    "gamesPlayedRegularSeason": 127,
-    "gamesPlayedPlayoffs": 8,
     "seasons": [
       {
         "season": 19891990,
@@ -3300,28 +3298,28 @@
         "gamesPlayedRegularSeason": 30,
         "gamesPlayedPlayoffs": 1
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 127,
+    "gamesPlayedPlayoffs": 8
   },
   {
     "playerId": 8448743,
     "playerName": "Doug Lecuyer",
     "position": "L",
-    "gamesPlayedRegularSeason": 45,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 19801981,
         "gamesPlayedRegularSeason": 45,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 45,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 8451567,
     "playerName": "Doug Smail",
     "position": "L",
-    "gamesPlayedRegularSeason": 691,
-    "gamesPlayedPlayoffs": 41,
     "seasons": [
       {
         "season": 19801981,
@@ -3378,14 +3376,14 @@
         "gamesPlayedRegularSeason": 15,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 691,
+    "gamesPlayedPlayoffs": 41
   },
   {
     "playerId": 8451595,
     "playerName": "Doug Soetaert",
     "position": "G",
-    "gamesPlayedRegularSeason": 130,
-    "gamesPlayedPlayoffs": 4,
     "seasons": [
       {
         "season": 19811982,
@@ -3402,14 +3400,14 @@
         "gamesPlayedRegularSeason": 47,
         "gamesPlayedPlayoffs": 1
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 130,
+    "gamesPlayedPlayoffs": 4
   },
   {
     "playerId": 8471226,
     "playerName": "Drew Stafford",
     "position": "R",
-    "gamesPlayedRegularSeason": 144,
-    "gamesPlayedPlayoffs": 4,
     "seasons": [
       {
         "season": 20142015,
@@ -3426,14 +3424,14 @@
         "gamesPlayedRegularSeason": 40,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 144,
+    "gamesPlayedPlayoffs": 4
   },
   {
     "playerId": 100024,
     "playerName": "Dunc Rousseau",
     "position": "L",
-    "gamesPlayedRegularSeason": 135,
-    "gamesPlayedPlayoffs": 18,
     "seasons": [
       {
         "season": 19721973,
@@ -3445,14 +3443,14 @@
         "gamesPlayedRegularSeason": 60,
         "gamesPlayedPlayoffs": 4
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 135,
+    "gamesPlayedPlayoffs": 18
   },
   {
     "playerId": 8470834,
     "playerName": "Dustin Byfuglien",
     "position": "D",
-    "gamesPlayedRegularSeason": 528,
-    "gamesPlayedPlayoffs": 27,
     "seasons": [
       {
         "season": 20112012,
@@ -3494,42 +3492,42 @@
         "gamesPlayedRegularSeason": 42,
         "gamesPlayedPlayoffs": 6
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 528,
+    "gamesPlayedPlayoffs": 27
   },
   {
     "playerId": 8451239,
     "playerName": "Dwight Schofield",
     "position": "D",
-    "gamesPlayedRegularSeason": 18,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 19871988,
         "gamesPlayedRegularSeason": 18,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 18,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 8479639,
     "playerName": "Dylan Coghlan",
     "position": "D",
-    "gamesPlayedRegularSeason": 6,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 20242025,
         "gamesPlayedRegularSeason": 6,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 6,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 8476331,
     "playerName": "Dylan DeMelo",
     "position": "D",
-    "gamesPlayedRegularSeason": 440,
-    "gamesPlayedPlayoffs": 31,
     "seasons": [
       {
         "season": 20192020,
@@ -3566,14 +3564,14 @@
         "gamesPlayedRegularSeason": 63,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 440,
+    "gamesPlayedPlayoffs": 31
   },
   {
     "playerId": 8480049,
     "playerName": "Dylan Samberg",
     "position": "D",
-    "gamesPlayedRegularSeason": 263,
-    "gamesPlayedPlayoffs": 23,
     "seasons": [
       {
         "season": 20212022,
@@ -3600,28 +3598,28 @@
         "gamesPlayedRegularSeason": 47,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 263,
+    "gamesPlayedPlayoffs": 23
   },
   {
     "playerId": 8457849,
     "playerName": "Ed Ronan",
     "position": "R",
-    "gamesPlayedRegularSeason": 17,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 19951996,
         "gamesPlayedRegularSeason": 17,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 17,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 8451655,
     "playerName": "Ed Staniowski",
     "position": "G",
-    "gamesPlayedRegularSeason": 63,
-    "gamesPlayedPlayoffs": 2,
     "seasons": [
       {
         "season": 19811982,
@@ -3638,14 +3636,14 @@
         "gamesPlayedRegularSeason": 1,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 63,
+    "gamesPlayedPlayoffs": 2
   },
   {
     "playerId": 8449973,
     "playerName": "Eddie Olczyk",
     "position": "R",
-    "gamesPlayedRegularSeason": 214,
-    "gamesPlayedPlayoffs": 12,
     "seasons": [
       {
         "season": 19901991,
@@ -3672,14 +3670,14 @@
         "gamesPlayedRegularSeason": 51,
         "gamesPlayedPlayoffs": 6
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 214,
+    "gamesPlayedPlayoffs": 12
   },
   {
     "playerId": 8450727,
     "playerName": "Eldon Reddick",
     "position": "G",
-    "gamesPlayedRegularSeason": 117,
-    "gamesPlayedPlayoffs": 3,
     "seasons": [
       {
         "season": 19861987,
@@ -3696,28 +3694,28 @@
         "gamesPlayedRegularSeason": 41,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 117,
+    "gamesPlayedPlayoffs": 3
   },
   {
     "playerId": 8483510,
     "playerName": "Elias Salomonsson",
     "position": "D",
-    "gamesPlayedRegularSeason": 20,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 20252026,
         "gamesPlayedRegularSeason": 20,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 20,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 8477480,
     "playerName": "Eric Comrie",
     "position": "G",
-    "gamesPlayedRegularSeason": 64,
-    "gamesPlayedPlayoffs": 3,
     "seasons": [
       {
         "season": 20162017,
@@ -3749,28 +3747,28 @@
         "gamesPlayedRegularSeason": 20,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 64,
+    "gamesPlayedPlayoffs": 3
   },
   {
     "playerId": 8470611,
     "playerName": "Eric Fehr",
     "position": "C",
-    "gamesPlayedRegularSeason": 35,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 20112012,
         "gamesPlayedRegularSeason": 35,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 35,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 8474603,
     "playerName": "Eric O'Dell",
     "position": "C",
-    "gamesPlayedRegularSeason": 41,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 20132014,
@@ -3782,14 +3780,14 @@
         "gamesPlayedRegularSeason": 11,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 41,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 8474025,
     "playerName": "Eric Tangradi",
     "position": "L",
-    "gamesPlayedRegularSeason": 91,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 20122013,
@@ -3801,14 +3799,14 @@
         "gamesPlayedRegularSeason": 55,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 91,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 100025,
     "playerName": "Ernie Wakely",
     "position": "G",
-    "gamesPlayedRegularSeason": 92,
-    "gamesPlayedPlayoffs": 7,
     "seasons": [
       {
         "season": 19721973,
@@ -3825,14 +3823,14 @@
         "gamesPlayedRegularSeason": 6,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 92,
+    "gamesPlayedPlayoffs": 7
   },
   {
     "playerId": 8475169,
     "playerName": "Evander Kane",
     "position": "L",
-    "gamesPlayedRegularSeason": 222,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 20112012,
@@ -3854,14 +3852,14 @@
         "gamesPlayedRegularSeason": 37,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 222,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 8456019,
     "playerName": "Evgeny Davydov",
     "position": "R",
-    "gamesPlayedRegularSeason": 91,
-    "gamesPlayedPlayoffs": 11,
     "seasons": [
       {
         "season": 19911992,
@@ -3873,28 +3871,28 @@
         "gamesPlayedRegularSeason": 79,
         "gamesPlayedPlayoffs": 4
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 91,
+    "gamesPlayedPlayoffs": 11
   },
   {
     "playerId": 8478431,
     "playerName": "Evgeny Svechnikov",
     "position": "L",
-    "gamesPlayedRegularSeason": 72,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 20212022,
         "gamesPlayedRegularSeason": 72,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 72,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 100026,
     "playerName": "Fran Huck",
     "position": "C",
-    "gamesPlayedRegularSeason": 91,
-    "gamesPlayedPlayoffs": 11,
     "seasons": [
       {
         "season": 19731974,
@@ -3911,28 +3909,28 @@
         "gamesPlayedRegularSeason": 5,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 91,
+    "gamesPlayedPlayoffs": 11
   },
   {
     "playerId": 100027,
     "playerName": "Frank Blum",
     "position": "G",
-    "gamesPlayedRegularSeason": 0,
-    "gamesPlayedPlayoffs": 2,
     "seasons": [
       {
         "season": 19731974,
         "gamesPlayedRegularSeason": 0,
         "gamesPlayedPlayoffs": 2
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 0,
+    "gamesPlayedPlayoffs": 2
   },
   {
     "playerId": 8449971,
     "playerName": "Fredrik Olausson",
     "position": "D",
-    "gamesPlayedRegularSeason": 496,
-    "gamesPlayedPlayoffs": 35,
     "seasons": [
       {
         "season": 19861987,
@@ -3974,14 +3972,14 @@
         "gamesPlayedRegularSeason": 18,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 496,
+    "gamesPlayedPlayoffs": 35
   },
   {
     "playerId": 100028,
     "playerName": "Freeman \"Duke\" Asmundson",
     "position": "R",
-    "gamesPlayedRegularSeason": 258,
-    "gamesPlayedPlayoffs": 29,
     "seasons": [
       {
         "season": 19721973,
@@ -4003,28 +4001,28 @@
         "gamesPlayedRegularSeason": 72,
         "gamesPlayedPlayoffs": 13
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 258,
+    "gamesPlayedPlayoffs": 29
   },
   {
     "playerId": 8475268,
     "playerName": "Gabriel Bourque",
     "position": "L",
-    "gamesPlayedRegularSeason": 52,
-    "gamesPlayedPlayoffs": 3,
     "seasons": [
       {
         "season": 20192020,
         "gamesPlayedRegularSeason": 52,
         "gamesPlayedPlayoffs": 3
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 52,
+    "gamesPlayedPlayoffs": 3
   },
   {
     "playerId": 8480014,
     "playerName": "Gabriel Vilardi",
     "position": "C",
-    "gamesPlayedRegularSeason": 181,
-    "gamesPlayedPlayoffs": 14,
     "seasons": [
       {
         "season": 20232024,
@@ -4041,14 +4039,14 @@
         "gamesPlayedRegularSeason": 63,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 181,
+    "gamesPlayedPlayoffs": 14
   },
   {
     "playerId": 100029,
     "playerName": "Garth Rizzuto",
     "position": "C",
-    "gamesPlayedRegularSeason": 102,
-    "gamesPlayedPlayoffs": 14,
     "seasons": [
       {
         "season": 19721973,
@@ -4060,28 +4058,28 @@
         "gamesPlayedRegularSeason": 41,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 102,
+    "gamesPlayedPlayoffs": 14
   },
   {
     "playerId": 100030,
     "playerName": "Gary Bromley",
     "position": "G",
-    "gamesPlayedRegularSeason": 39,
-    "gamesPlayedPlayoffs": 5,
     "seasons": [
       {
         "season": 19771978,
         "gamesPlayedRegularSeason": 39,
         "gamesPlayedPlayoffs": 5
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 39,
+    "gamesPlayedPlayoffs": 5
   },
   {
     "playerId": 8451528,
     "playerName": "Gary Smith",
     "position": "G",
-    "gamesPlayedRegularSeason": 31,
-    "gamesPlayedPlayoffs": 10,
     "seasons": [
       {
         "season": 19781979,
@@ -4093,42 +4091,42 @@
         "gamesPlayedRegularSeason": 20,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 31,
+    "gamesPlayedPlayoffs": 10
   },
   {
     "playerId": 100032,
     "playerName": "Gerry Odrowski",
     "position": "D",
-    "gamesPlayedRegularSeason": 13,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 19751976,
         "gamesPlayedRegularSeason": 13,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 13,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 8450849,
     "playerName": "Gerry Rioux",
     "position": "R",
-    "gamesPlayedRegularSeason": 8,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 19791980,
         "gamesPlayedRegularSeason": 8,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 8,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 8447485,
     "playerName": "Gilles Hamel",
     "position": "L",
-    "gamesPlayedRegularSeason": 143,
-    "gamesPlayedPlayoffs": 9,
     "seasons": [
       {
         "season": 19861987,
@@ -4145,42 +4143,42 @@
         "gamesPlayedRegularSeason": 1,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 143,
+    "gamesPlayedPlayoffs": 9
   },
   {
     "playerId": 100033,
     "playerName": "Glenn Hicks",
     "position": "L",
-    "gamesPlayedRegularSeason": 69,
-    "gamesPlayedPlayoffs": 7,
     "seasons": [
       {
         "season": 19781979,
         "gamesPlayedRegularSeason": 69,
         "gamesPlayedPlayoffs": 7
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 69,
+    "gamesPlayedPlayoffs": 7
   },
   {
     "playerId": 8451920,
     "playerName": "Glenn Tomalty",
     "position": "C",
-    "gamesPlayedRegularSeason": 1,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 19791980,
         "gamesPlayedRegularSeason": 1,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 1,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 8446437,
     "playerName": "Gord Donnelly",
     "position": "D",
-    "gamesPlayedRegularSeason": 173,
-    "gamesPlayedPlayoffs": 6,
     "seasons": [
       {
         "season": 19881989,
@@ -4202,56 +4200,56 @@
         "gamesPlayedRegularSeason": 4,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 173,
+    "gamesPlayedPlayoffs": 6
   },
   {
     "playerId": 8447826,
     "playerName": "Gord McTavish",
     "position": "C",
-    "gamesPlayedRegularSeason": 10,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 19791980,
         "gamesPlayedRegularSeason": 10,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 10,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 8451529,
     "playerName": "Gord Smith",
     "position": "D",
-    "gamesPlayedRegularSeason": 13,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 19791980,
         "gamesPlayedRegularSeason": 13,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 13,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 100034,
     "playerName": "Gordon Tumilson",
     "position": "G",
-    "gamesPlayedRegularSeason": 3,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 19721973,
         "gamesPlayedRegularSeason": 3,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 3,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 8471482,
     "playerName": "Grant Clitsome",
     "position": "D",
-    "gamesPlayedRegularSeason": 112,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 20112012,
@@ -4273,28 +4271,28 @@
         "gamesPlayedRegularSeason": 24,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 112,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 8445655,
     "playerName": "Greg Brown",
     "position": "D",
-    "gamesPlayedRegularSeason": 9,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 19941995,
         "gamesPlayedRegularSeason": 9,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 9,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 8450200,
     "playerName": "Greg Paslawski",
     "position": "R",
-    "gamesPlayedRegularSeason": 114,
-    "gamesPlayedPlayoffs": 7,
     "seasons": [
       {
         "season": 19891990,
@@ -4306,42 +4304,42 @@
         "gamesPlayedRegularSeason": 43,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 114,
+    "gamesPlayedPlayoffs": 7
   },
   {
     "playerId": 8474679,
     "playerName": "Gustav Nyquist",
     "position": "R",
-    "gamesPlayedRegularSeason": 42,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 20252026,
         "gamesPlayedRegularSeason": 42,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 42,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 8447292,
     "playerName": "Guy Gosselin",
     "position": "D",
-    "gamesPlayedRegularSeason": 5,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 19871988,
         "gamesPlayedRegularSeason": 5,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 5,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 8448678,
     "playerName": "Guy Larose",
     "position": "C",
-    "gamesPlayedRegularSeason": 10,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 19881989,
@@ -4353,14 +4351,14 @@
         "gamesPlayedRegularSeason": 7,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 10,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 8448253,
     "playerName": "Hannu Jarvenpaa",
     "position": "R",
-    "gamesPlayedRegularSeason": 114,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 19861987,
@@ -4377,28 +4375,28 @@
         "gamesPlayedRegularSeason": 53,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 114,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 8458321,
     "playerName": "Harije Vitolinish",
     "position": "C",
-    "gamesPlayedRegularSeason": 8,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 19931994,
         "gamesPlayedRegularSeason": 8,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 8,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 8477938,
     "playerName": "Haydn Fleury",
     "position": "D",
-    "gamesPlayedRegularSeason": 61,
-    "gamesPlayedPlayoffs": 8,
     "seasons": [
       {
         "season": 20242025,
@@ -4410,14 +4408,14 @@
         "gamesPlayedRegularSeason": 22,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 61,
+    "gamesPlayedPlayoffs": 8
   },
   {
     "playerId": 100035,
     "playerName": "Heikki Riihiranta",
     "position": "D",
-    "gamesPlayedRegularSeason": 187,
-    "gamesPlayedPlayoffs": 4,
     "seasons": [
       {
         "season": 19741975,
@@ -4434,42 +4432,42 @@
         "gamesPlayedRegularSeason": 53,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 187,
+    "gamesPlayedPlayoffs": 4
   },
   {
     "playerId": 8447365,
     "playerName": "Hilliard Graves",
     "position": "R",
-    "gamesPlayedRegularSeason": 35,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 19791980,
         "gamesPlayedRegularSeason": 35,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 35,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 100036,
     "playerName": "Howie Young",
     "position": "D",
-    "gamesPlayedRegularSeason": 42,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 19741975,
         "gamesPlayedRegularSeason": 42,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 42,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 8446516,
     "playerName": "Iain Duncan",
     "position": "L",
-    "gamesPlayedRegularSeason": 127,
-    "gamesPlayedPlayoffs": 11,
     "seasons": [
       {
         "season": 19861987,
@@ -4491,28 +4489,28 @@
         "gamesPlayedRegularSeason": 2,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 127,
+    "gamesPlayedPlayoffs": 11
   },
   {
     "playerId": 8456306,
     "playerName": "Iain Fraser",
     "position": "C",
-    "gamesPlayedRegularSeason": 12,
-    "gamesPlayedPlayoffs": 4,
     "seasons": [
       {
         "season": 19951996,
         "gamesPlayedRegularSeason": 12,
         "gamesPlayedPlayoffs": 4
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 12,
+    "gamesPlayedPlayoffs": 4
   },
   {
     "playerId": 8458974,
     "playerName": "Igor Korolev",
     "position": "C",
-    "gamesPlayedRegularSeason": 118,
-    "gamesPlayedPlayoffs": 6,
     "seasons": [
       {
         "season": 19941995,
@@ -4524,14 +4522,14 @@
         "gamesPlayedRegularSeason": 73,
         "gamesPlayedPlayoffs": 6
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 118,
+    "gamesPlayedPlayoffs": 6
   },
   {
     "playerId": 8458715,
     "playerName": "Igor Ulanov",
     "position": "D",
-    "gamesPlayedRegularSeason": 176,
-    "gamesPlayedPlayoffs": 11,
     "seasons": [
       {
         "season": 19911992,
@@ -4553,56 +4551,56 @@
         "gamesPlayedRegularSeason": 19,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 176,
+    "gamesPlayedPlayoffs": 11
   },
   {
     "playerId": 8482192,
     "playerName": "Isaak Phillips",
     "position": "D",
-    "gamesPlayedRegularSeason": 3,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 20252026,
         "gamesPlayedRegularSeason": 3,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 3,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 8482765,
     "playerName": "Isak Rosen",
     "position": "R",
-    "gamesPlayedRegularSeason": 18,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 20252026,
         "gamesPlayedRegularSeason": 18,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 18,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 8477076,
     "playerName": "JC Lipon",
     "position": "R",
-    "gamesPlayedRegularSeason": 9,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 20152016,
         "gamesPlayedRegularSeason": 9,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 9,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 8478458,
     "playerName": "Jack Roslovic",
     "position": "C",
-    "gamesPlayedRegularSeason": 180,
-    "gamesPlayedPlayoffs": 20,
     "seasons": [
       {
         "season": 20162017,
@@ -4624,28 +4622,28 @@
         "gamesPlayedRegularSeason": 71,
         "gamesPlayedPlayoffs": 4
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 180,
+    "gamesPlayedPlayoffs": 20
   },
   {
     "playerId": 8480196,
     "playerName": "Jacob Bryson",
     "position": "D",
-    "gamesPlayedRegularSeason": 37,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 20252026,
         "gamesPlayedRegularSeason": 37,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 37,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 8476885,
     "playerName": "Jacob Trouba",
     "position": "D",
-    "gamesPlayedRegularSeason": 408,
-    "gamesPlayedPlayoffs": 27,
     "seasons": [
       {
         "season": 20132014,
@@ -4677,14 +4675,14 @@
         "gamesPlayedRegularSeason": 82,
         "gamesPlayedPlayoffs": 6
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 408,
+    "gamesPlayedPlayoffs": 27
   },
   {
     "playerId": 8474674,
     "playerName": "James Wright",
     "position": "C",
-    "gamesPlayedRegularSeason": 97,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 20122013,
@@ -4696,14 +4694,14 @@
         "gamesPlayedRegularSeason": 59,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 97,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 8478424,
     "playerName": "Jansen Harkins",
     "position": "C",
-    "gamesPlayedRegularSeason": 154,
-    "gamesPlayedPlayoffs": 4,
     "seasons": [
       {
         "season": 20192020,
@@ -4725,84 +4723,84 @@
         "gamesPlayedRegularSeason": 22,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 154,
+    "gamesPlayedPlayoffs": 4
   },
   {
     "playerId": 8479994,
     "playerName": "Jaret Anderson-Dolan",
     "position": "C",
-    "gamesPlayedRegularSeason": 7,
-    "gamesPlayedPlayoffs": 5,
     "seasons": [
       {
         "season": 20242025,
         "gamesPlayedRegularSeason": 7,
         "gamesPlayedPlayoffs": 5
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 7,
+    "gamesPlayedPlayoffs": 5
   },
   {
     "playerId": 8455879,
     "playerName": "Jason Cirone",
     "position": "C",
-    "gamesPlayedRegularSeason": 3,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 19911992,
         "gamesPlayedRegularSeason": 3,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 3,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 8462063,
     "playerName": "Jason Doig",
     "position": "D",
-    "gamesPlayedRegularSeason": 15,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 19951996,
         "gamesPlayedRegularSeason": 15,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 15,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 8468881,
     "playerName": "Jason Jaffray",
     "position": "L",
-    "gamesPlayedRegularSeason": 13,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 20112012,
         "gamesPlayedRegularSeason": 13,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 13,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 8469531,
     "playerName": "Jay Harrison",
     "position": "D",
-    "gamesPlayedRegularSeason": 35,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 20142015,
         "gamesPlayedRegularSeason": 35,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 35,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 100037,
     "playerName": "Jean-Guy Gratton",
     "position": "R",
-    "gamesPlayedRegularSeason": 188,
-    "gamesPlayedPlayoffs": 14,
     "seasons": [
       {
         "season": 19721973,
@@ -4819,98 +4817,98 @@
         "gamesPlayedRegularSeason": 49,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 188,
+    "gamesPlayedPlayoffs": 14
   },
   {
     "playerId": 8446826,
     "playerName": "Jeff Finley",
     "position": "D",
-    "gamesPlayedRegularSeason": 65,
-    "gamesPlayedPlayoffs": 6,
     "seasons": [
       {
         "season": 19951996,
         "gamesPlayedRegularSeason": 65,
         "gamesPlayedPlayoffs": 6
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 65,
+    "gamesPlayedPlayoffs": 6
   },
   {
     "playerId": 8482408,
     "playerName": "Jeff Malott",
     "position": "L",
-    "gamesPlayedRegularSeason": 1,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 20212022,
         "gamesPlayedRegularSeason": 1,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 1,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 8445808,
     "playerName": "Jerry Butler",
     "position": "R",
-    "gamesPlayedRegularSeason": 42,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 19821983,
         "gamesPlayedRegularSeason": 42,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 42,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 100038,
     "playerName": "Jim Cole",
     "position": "F",
-    "gamesPlayedRegularSeason": 2,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 19761977,
         "gamesPlayedRegularSeason": 2,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 2,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 100039,
     "playerName": "Jim Hargreaves",
     "position": "D",
-    "gamesPlayedRegularSeason": 53,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 19731974,
         "gamesPlayedRegularSeason": 53,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 53,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 8448014,
     "playerName": "Jim Hrivnak",
     "position": "G",
-    "gamesPlayedRegularSeason": 3,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 19921993,
         "gamesPlayedRegularSeason": 3,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 3,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 8448577,
     "playerName": "Jim Kyte",
     "position": "D",
-    "gamesPlayedRegularSeason": 399,
-    "gamesPlayedPlayoffs": 24,
     "seasons": [
       {
         "season": 19821983,
@@ -4947,28 +4945,28 @@
         "gamesPlayedRegularSeason": 74,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 399,
+    "gamesPlayedPlayoffs": 24
   },
   {
     "playerId": 8449477,
     "playerName": "Jim McKenzie",
     "position": "L",
-    "gamesPlayedRegularSeason": 73,
-    "gamesPlayedPlayoffs": 1,
     "seasons": [
       {
         "season": 19951996,
         "gamesPlayedRegularSeason": 73,
         "gamesPlayedPlayoffs": 1
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 73,
+    "gamesPlayedPlayoffs": 1
   },
   {
     "playerId": 8449884,
     "playerName": "Jim Nill",
     "position": "R",
-    "gamesPlayedRegularSeason": 141,
-    "gamesPlayedPlayoffs": 14,
     "seasons": [
       {
         "season": 19841985,
@@ -4990,14 +4988,14 @@
         "gamesPlayedRegularSeason": 24,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 141,
+    "gamesPlayedPlayoffs": 14
   },
   {
     "playerId": 8470289,
     "playerName": "Jim Slater",
     "position": "C",
-    "gamesPlayedRegularSeason": 213,
-    "gamesPlayedPlayoffs": 4,
     "seasons": [
       {
         "season": 20112012,
@@ -5019,14 +5017,14 @@
         "gamesPlayedRegularSeason": 82,
         "gamesPlayedPlayoffs": 4
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 213,
+    "gamesPlayedPlayoffs": 4
   },
   {
     "playerId": 8449119,
     "playerName": "Jimmy Mann",
     "position": "R",
-    "gamesPlayedRegularSeason": 202,
-    "gamesPlayedPlayoffs": 3,
     "seasons": [
       {
         "season": 19791980,
@@ -5053,28 +5051,28 @@
         "gamesPlayedRegularSeason": 16,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 202,
+    "gamesPlayedPlayoffs": 3
   },
   {
     "playerId": 8473482,
     "playerName": "Jiri Tlusty",
     "position": "L",
-    "gamesPlayedRegularSeason": 20,
-    "gamesPlayedPlayoffs": 4,
     "seasons": [
       {
         "season": 20142015,
         "gamesPlayedRegularSeason": 20,
         "gamesPlayedPlayoffs": 4
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 20,
+    "gamesPlayedPlayoffs": 4
   },
   {
     "playerId": 100040,
     "playerName": "Joe Daley",
     "position": "G",
-    "gamesPlayedRegularSeason": 308,
-    "gamesPlayedPlayoffs": 49,
     "seasons": [
       {
         "season": 19721973,
@@ -5111,14 +5109,14 @@
         "gamesPlayedRegularSeason": 23,
         "gamesPlayedPlayoffs": 3
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 308,
+    "gamesPlayedPlayoffs": 49
   },
   {
     "playerId": 8476476,
     "playerName": "Joe Morrow",
     "position": "D",
-    "gamesPlayedRegularSeason": 59,
-    "gamesPlayedPlayoffs": 6,
     "seasons": [
       {
         "season": 20172018,
@@ -5130,14 +5128,14 @@
         "gamesPlayedRegularSeason": 41,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 59,
+    "gamesPlayedPlayoffs": 6
   },
   {
     "playerId": 100041,
     "playerName": "Joe Zanussi",
     "position": "D",
-    "gamesPlayedRegularSeason": 149,
-    "gamesPlayedPlayoffs": 18,
     "seasons": [
       {
         "season": 19721973,
@@ -5149,14 +5147,14 @@
         "gamesPlayedRegularSeason": 76,
         "gamesPlayedPlayoffs": 4
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 149,
+    "gamesPlayedPlayoffs": 18
   },
   {
     "playerId": 8476469,
     "playerName": "Joel Armia",
     "position": "R",
-    "gamesPlayedRegularSeason": 179,
-    "gamesPlayedPlayoffs": 13,
     "seasons": [
       {
         "season": 20152016,
@@ -5173,14 +5171,14 @@
         "gamesPlayedRegularSeason": 79,
         "gamesPlayedPlayoffs": 13
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 179,
+    "gamesPlayedPlayoffs": 13
   },
   {
     "playerId": 8445223,
     "playerName": "Joel Baillargeon",
     "position": "L",
-    "gamesPlayedRegularSeason": 15,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 19861987,
@@ -5192,56 +5190,56 @@
         "gamesPlayedRegularSeason": 4,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 15,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 8474012,
     "playerName": "John Albert",
     "position": "C",
-    "gamesPlayedRegularSeason": 9,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 20132014,
         "gamesPlayedRegularSeason": 9,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 9,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 8445454,
     "playerName": "John Bethel",
     "position": "L",
-    "gamesPlayedRegularSeason": 17,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 19791980,
         "gamesPlayedRegularSeason": 17,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 17,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 8446487,
     "playerName": "John Druce",
     "position": "R",
-    "gamesPlayedRegularSeason": 50,
-    "gamesPlayedPlayoffs": 2,
     "seasons": [
       {
         "season": 19921993,
         "gamesPlayedRegularSeason": 50,
         "gamesPlayedPlayoffs": 2
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 50,
+    "gamesPlayedPlayoffs": 2
   },
   {
     "playerId": 8447161,
     "playerName": "John Gibson",
     "position": "C",
-    "gamesPlayedRegularSeason": 20,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 19781979,
@@ -5253,28 +5251,28 @@
         "gamesPlayedRegularSeason": 11,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 20,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 100043,
     "playerName": "John Gray",
     "position": "L",
-    "gamesPlayedRegularSeason": 57,
-    "gamesPlayedPlayoffs": 1,
     "seasons": [
       {
         "season": 19781979,
         "gamesPlayedRegularSeason": 57,
         "gamesPlayedPlayoffs": 1
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 57,
+    "gamesPlayedPlayoffs": 1
   },
   {
     "playerId": 8448765,
     "playerName": "John Leblanc",
     "position": "R",
-    "gamesPlayedRegularSeason": 38,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 19911992,
@@ -5296,14 +5294,14 @@
         "gamesPlayedRegularSeason": 2,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 38,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 8449164,
     "playerName": "John Markell",
     "position": "L",
-    "gamesPlayedRegularSeason": 52,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 19791980,
@@ -5315,98 +5313,98 @@
         "gamesPlayedRegularSeason": 14,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 52,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 100044,
     "playerName": "John Shmyr",
     "position": "D",
-    "gamesPlayedRegularSeason": 7,
-    "gamesPlayedPlayoffs": 3,
     "seasons": [
       {
         "season": 19721973,
         "gamesPlayedRegularSeason": 7,
         "gamesPlayedPlayoffs": 3
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 7,
+    "gamesPlayedPlayoffs": 3
   },
   {
     "playerId": 8480192,
     "playerName": "Johnathan Kovacevic",
     "position": "D",
-    "gamesPlayedRegularSeason": 4,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 20212022,
         "gamesPlayedRegularSeason": 4,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 4,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 8469665,
     "playerName": "Johnny Oduya",
     "position": "D",
-    "gamesPlayedRegularSeason": 63,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 20112012,
         "gamesPlayedRegularSeason": 63,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 63,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 8473604,
     "playerName": "Jonathan Toews",
     "position": "C",
-    "gamesPlayedRegularSeason": 63,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 20252026,
         "gamesPlayedRegularSeason": 63,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 63,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 8481649,
     "playerName": "Joona Luoto",
     "position": "L",
-    "gamesPlayedRegularSeason": 16,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 20192020,
         "gamesPlayedRegularSeason": 16,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 16,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 8474818,
     "playerName": "Jordie Benn",
     "position": "D",
-    "gamesPlayedRegularSeason": 8,
-    "gamesPlayedPlayoffs": 3,
     "seasons": [
       {
         "season": 20202021,
         "gamesPlayedRegularSeason": 8,
         "gamesPlayedPlayoffs": 3
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 8,
+    "gamesPlayedPlayoffs": 3
   },
   {
     "playerId": 8446469,
     "playerName": "Jordy Douglas",
     "position": "L",
-    "gamesPlayedRegularSeason": 24,
-    "gamesPlayedPlayoffs": 1,
     "seasons": [
       {
         "season": 19831984,
@@ -5418,14 +5416,14 @@
         "gamesPlayedRegularSeason": 7,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 24,
+    "gamesPlayedPlayoffs": 1
   },
   {
     "playerId": 8477504,
     "playerName": "Josh Morrissey",
     "position": "D",
-    "gamesPlayedRegularSeason": 720,
-    "gamesPlayedPlayoffs": 54,
     "seasons": [
       {
         "season": 20152016,
@@ -5482,14 +5480,14 @@
         "gamesPlayedRegularSeason": 58,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 720,
+    "gamesPlayedPlayoffs": 54
   },
   {
     "playerId": 8446482,
     "playerName": "Jude Drouin",
     "position": "C",
-    "gamesPlayedRegularSeason": 85,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 19791980,
@@ -5501,14 +5499,14 @@
         "gamesPlayedRegularSeason": 7,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 85,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 8475815,
     "playerName": "Julian Melchiori",
     "position": "D",
-    "gamesPlayedRegularSeason": 30,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 20132014,
@@ -5525,56 +5523,56 @@
         "gamesPlayedRegularSeason": 18,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 30,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 8475567,
     "playerName": "Julien Brouillette",
     "position": "D",
-    "gamesPlayedRegularSeason": 1,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 20142015,
         "gamesPlayedRegularSeason": 1,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 1,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 8451257,
     "playerName": "Jyrki Seppa",
     "position": "D",
-    "gamesPlayedRegularSeason": 13,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 19831984,
         "gamesPlayedRegularSeason": 13,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 13,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 8480901,
     "playerName": "Karson Kuhlman",
     "position": "C",
-    "gamesPlayedRegularSeason": 33,
-    "gamesPlayedPlayoffs": 1,
     "seasons": [
       {
         "season": 20222023,
         "gamesPlayedRegularSeason": 33,
         "gamesPlayedPlayoffs": 1
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 33,
+    "gamesPlayedPlayoffs": 1
   },
   {
     "playerId": 8474184,
     "playerName": "Keaton Ellerby",
     "position": "D",
-    "gamesPlayedRegularSeason": 52,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 20132014,
@@ -5586,14 +5584,14 @@
         "gamesPlayedRegularSeason": 1,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 52,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 8458229,
     "playerName": "Keith Tkachuk",
     "position": "L",
-    "gamesPlayedRegularSeason": 308,
-    "gamesPlayedPlayoffs": 19,
     "seasons": [
       {
         "season": 19911992,
@@ -5620,70 +5618,70 @@
         "gamesPlayedRegularSeason": 76,
         "gamesPlayedPlayoffs": 6
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 308,
+    "gamesPlayedPlayoffs": 19
   },
   {
     "playerId": 100045,
     "playerName": "Kelly Pratt",
     "position": "R",
-    "gamesPlayedRegularSeason": 46,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 19731974,
         "gamesPlayedRegularSeason": 46,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 46,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 100046,
     "playerName": "Ken Baird",
     "position": "D",
-    "gamesPlayedRegularSeason": 49,
-    "gamesPlayedPlayoffs": 7,
     "seasons": [
       {
         "season": 19771978,
         "gamesPlayedRegularSeason": 49,
         "gamesPlayedPlayoffs": 7
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 49,
+    "gamesPlayedPlayoffs": 7
   },
   {
     "playerId": 100047,
     "playerName": "Ken Stephanson",
     "position": "D",
-    "gamesPlayedRegularSeason": 29,
-    "gamesPlayedPlayoffs": 3,
     "seasons": [
       {
         "season": 19731974,
         "gamesPlayedRegularSeason": 29,
         "gamesPlayedPlayoffs": 3
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 29,
+    "gamesPlayedPlayoffs": 3
   },
   {
     "playerId": 8471694,
     "playerName": "Kenndal McArdle",
     "position": "L",
-    "gamesPlayedRegularSeason": 9,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 20112012,
         "gamesPlayedRegularSeason": 9,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 9,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 100048,
     "playerName": "Kent Nilsson",
     "position": "F",
-    "gamesPlayedRegularSeason": 158,
-    "gamesPlayedPlayoffs": 19,
     "seasons": [
       {
         "season": 19771978,
@@ -5695,28 +5693,28 @@
         "gamesPlayedRegularSeason": 78,
         "gamesPlayedPlayoffs": 10
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 158,
+    "gamesPlayedPlayoffs": 19
   },
   {
     "playerId": 8450260,
     "playerName": "Kent Paynter",
     "position": "D",
-    "gamesPlayedRegularSeason": 5,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 19911992,
         "gamesPlayedRegularSeason": 5,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 5,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 100049,
     "playerName": "Kent Ruhnke",
     "position": "R",
-    "gamesPlayedRegularSeason": 72,
-    "gamesPlayedPlayoffs": 5,
     "seasons": [
       {
         "season": 19761977,
@@ -5728,56 +5726,56 @@
         "gamesPlayedRegularSeason": 21,
         "gamesPlayedPlayoffs": 5
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 72,
+    "gamesPlayedPlayoffs": 5
   },
   {
     "playerId": 8475763,
     "playerName": "Kevin Hayes",
     "position": "R",
-    "gamesPlayedRegularSeason": 20,
-    "gamesPlayedPlayoffs": 6,
     "seasons": [
       {
         "season": 20182019,
         "gamesPlayedRegularSeason": 20,
         "gamesPlayedPlayoffs": 6
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 20,
+    "gamesPlayedPlayoffs": 6
   },
   {
     "playerId": 8449354,
     "playerName": "Kevin McClelland",
     "position": "R",
-    "gamesPlayedRegularSeason": 6,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 19931994,
         "gamesPlayedRegularSeason": 6,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 6,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 8478831,
     "playerName": "Kevin Stenlund",
     "position": "C",
-    "gamesPlayedRegularSeason": 54,
-    "gamesPlayedPlayoffs": 5,
     "seasons": [
       {
         "season": 20222023,
         "gamesPlayedRegularSeason": 54,
         "gamesPlayedPlayoffs": 5
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 54,
+    "gamesPlayedPlayoffs": 5
   },
   {
     "playerId": 100050,
     "playerName": "Kim Clackson",
     "position": "D",
-    "gamesPlayedRegularSeason": 123,
-    "gamesPlayedPlayoffs": 18,
     "seasons": [
       {
         "season": 19771978,
@@ -5789,14 +5787,14 @@
         "gamesPlayedRegularSeason": 71,
         "gamesPlayedPlayoffs": 9
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 123,
+    "gamesPlayedPlayoffs": 18
   },
   {
     "playerId": 8446485,
     "playerName": "Kris Draper",
     "position": "C",
-    "gamesPlayedRegularSeason": 20,
-    "gamesPlayedPlayoffs": 2,
     "seasons": [
       {
         "season": 19901991,
@@ -5813,14 +5811,14 @@
         "gamesPlayedRegularSeason": 7,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 20,
+    "gamesPlayedPlayoffs": 2
   },
   {
     "playerId": 8448487,
     "playerName": "Kris King",
     "position": "L",
-    "gamesPlayedRegularSeason": 260,
-    "gamesPlayedPlayoffs": 11,
     "seasons": [
       {
         "season": 19921993,
@@ -5842,14 +5840,14 @@
         "gamesPlayedRegularSeason": 81,
         "gamesPlayedPlayoffs": 5
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 260,
+    "gamesPlayedPlayoffs": 11
   },
   {
     "playerId": 8449109,
     "playerName": "Kris Manery",
     "position": "R",
-    "gamesPlayedRegularSeason": 63,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 19791980,
@@ -5861,14 +5859,14 @@
         "gamesPlayedRegularSeason": 47,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 63,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 8480443,
     "playerName": "Kristian Reichel",
     "position": "C",
-    "gamesPlayedRegularSeason": 15,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 20212022,
@@ -5880,14 +5878,14 @@
         "gamesPlayedRegularSeason": 2,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 15,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 8480005,
     "playerName": "Kristian Vesalainen",
     "position": "L",
-    "gamesPlayedRegularSeason": 70,
-    "gamesPlayedPlayoffs": 4,
     "seasons": [
       {
         "season": 20182019,
@@ -5904,28 +5902,28 @@
         "gamesPlayedRegularSeason": 53,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 70,
+    "gamesPlayedPlayoffs": 4
   },
   {
     "playerId": 8478476,
     "playerName": "Kyle Capobianco",
     "position": "D",
-    "gamesPlayedRegularSeason": 14,
-    "gamesPlayedPlayoffs": 1,
     "seasons": [
       {
         "season": 20222023,
         "gamesPlayedRegularSeason": 14,
         "gamesPlayedPlayoffs": 1
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 14,
+    "gamesPlayedPlayoffs": 1
   },
   {
     "playerId": 8478398,
     "playerName": "Kyle Connor",
     "position": "L",
-    "gamesPlayedRegularSeason": 676,
-    "gamesPlayedPlayoffs": 58,
     "seasons": [
       {
         "season": 20162017,
@@ -5977,14 +5975,14 @@
         "gamesPlayedRegularSeason": 63,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 676,
+    "gamesPlayedPlayoffs": 58
   },
   {
     "playerId": 8469581,
     "playerName": "Kyle Wellwood",
     "position": "C",
-    "gamesPlayedRegularSeason": 116,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 20112012,
@@ -5996,28 +5994,28 @@
         "gamesPlayedRegularSeason": 39,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 116,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 100051,
     "playerName": "Larry Hillman",
     "position": "D",
-    "gamesPlayedRegularSeason": 71,
-    "gamesPlayedPlayoffs": 12,
     "seasons": [
       {
         "season": 19751976,
         "gamesPlayedRegularSeason": 71,
         "gamesPlayedPlayoffs": 12
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 71,
+    "gamesPlayedPlayoffs": 12
   },
   {
     "playerId": 8447950,
     "playerName": "Larry Hopkins",
     "position": "L",
-    "gamesPlayedRegularSeason": 58,
-    "gamesPlayedPlayoffs": 6,
     "seasons": [
       {
         "season": 19791980,
@@ -6034,14 +6032,14 @@
         "gamesPlayedRegularSeason": 12,
         "gamesPlayedPlayoffs": 2
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 58,
+    "gamesPlayedPlayoffs": 6
   },
   {
     "playerId": 100052,
     "playerName": "Larry Hornung",
     "position": "D",
-    "gamesPlayedRegularSeason": 292,
-    "gamesPlayedPlayoffs": 31,
     "seasons": [
       {
         "season": 19721973,
@@ -6068,28 +6066,28 @@
         "gamesPlayedRegularSeason": 19,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 292,
+    "gamesPlayedPlayoffs": 31
   },
   {
     "playerId": 8451388,
     "playerName": "Lars Sjoberg",
     "position": "D",
-    "gamesPlayedRegularSeason": 79,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 19791980,
         "gamesPlayedRegularSeason": 79,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 79,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 100053,
     "playerName": "Lars-Erik Sjoberg",
     "position": "D",
-    "gamesPlayedRegularSeason": 295,
-    "gamesPlayedPlayoffs": 52,
     "seasons": [
       {
         "season": 19741975,
@@ -6116,14 +6114,14 @@
         "gamesPlayedRegularSeason": 9,
         "gamesPlayedPlayoffs": 10
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 295,
+    "gamesPlayedPlayoffs": 52
   },
   {
     "playerId": 8476316,
     "playerName": "Laurent Brossoit",
     "position": "G",
-    "gamesPlayedRegularSeason": 77,
-    "gamesPlayedPlayoffs": 1,
     "seasons": [
       {
         "season": 20182019,
@@ -6145,14 +6143,14 @@
         "gamesPlayedRegularSeason": 23,
         "gamesPlayedPlayoffs": 1
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 77,
+    "gamesPlayedPlayoffs": 1
   },
   {
     "playerId": 8445603,
     "playerName": "Laurie Boschman",
     "position": "C",
-    "gamesPlayedRegularSeason": 526,
-    "gamesPlayedPlayoffs": 34,
     "seasons": [
       {
         "season": 19821983,
@@ -6194,28 +6192,28 @@
         "gamesPlayedRegularSeason": 66,
         "gamesPlayedPlayoffs": 2
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 526,
+    "gamesPlayedPlayoffs": 34
   },
   {
     "playerId": 8470740,
     "playerName": "Lee Stempniak",
     "position": "R",
-    "gamesPlayedRegularSeason": 18,
-    "gamesPlayedPlayoffs": 4,
     "seasons": [
       {
         "season": 20142015,
         "gamesPlayedRegularSeason": 18,
         "gamesPlayedPlayoffs": 4
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 18,
+    "gamesPlayedPlayoffs": 4
   },
   {
     "playerId": 8449588,
     "playerName": "Lindsay Middlebrook",
     "position": "G",
-    "gamesPlayedRegularSeason": 24,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 19791980,
@@ -6227,28 +6225,28 @@
         "gamesPlayedRegularSeason": 14,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 24,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 8476400,
     "playerName": "Logan Shaw",
     "position": "R",
-    "gamesPlayedRegularSeason": 35,
-    "gamesPlayedPlayoffs": 3,
     "seasons": [
       {
         "season": 20192020,
         "gamesPlayedRegularSeason": 35,
         "gamesPlayedPlayoffs": 3
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 35,
+    "gamesPlayedPlayoffs": 3
   },
   {
     "playerId": 8479378,
     "playerName": "Logan Stanley",
     "position": "D",
-    "gamesPlayedRegularSeason": 202,
-    "gamesPlayedPlayoffs": 17,
     "seasons": [
       {
         "season": 20202021,
@@ -6275,42 +6273,42 @@
         "gamesPlayedRegularSeason": 63,
         "gamesPlayedPlayoffs": 5
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 202,
+    "gamesPlayedPlayoffs": 17
   },
   {
     "playerId": 8451629,
     "playerName": "Lorne Stamler",
     "position": "L",
-    "gamesPlayedRegularSeason": 62,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 19791980,
         "gamesPlayedRegularSeason": 62,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 62,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 8474579,
     "playerName": "Luca Sbisa",
     "position": "D",
-    "gamesPlayedRegularSeason": 44,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 20192020,
         "gamesPlayedRegularSeason": 44,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 44,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 8455659,
     "playerName": "Luciano Borsato",
     "position": "C",
-    "gamesPlayedRegularSeason": 203,
-    "gamesPlayedPlayoffs": 7,
     "seasons": [
       {
         "season": 19901991,
@@ -6337,14 +6335,14 @@
         "gamesPlayedRegularSeason": 4,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 203,
+    "gamesPlayedPlayoffs": 7
   },
   {
     "playerId": 8446353,
     "playerName": "Lucien DeBlois",
     "position": "C",
-    "gamesPlayedRegularSeason": 235,
-    "gamesPlayedPlayoffs": 15,
     "seasons": [
       {
         "season": 19811982,
@@ -6366,14 +6364,14 @@
         "gamesPlayedRegularSeason": 11,
         "gamesPlayedPlayoffs": 5
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 235,
+    "gamesPlayedPlayoffs": 15
   },
   {
     "playerId": 8474568,
     "playerName": "Luke Schenn",
     "position": "D",
-    "gamesPlayedRegularSeason": 61,
-    "gamesPlayedPlayoffs": 11,
     "seasons": [
       {
         "season": 20242025,
@@ -6385,14 +6383,14 @@
         "gamesPlayedRegularSeason": 46,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 61,
+    "gamesPlayedPlayoffs": 11
   },
   {
     "playerId": 100054,
     "playerName": "Lyle Moffat",
     "position": "L",
-    "gamesPlayedRegularSeason": 243,
-    "gamesPlayedPlayoffs": 49,
     "seasons": [
       {
         "season": 19751976,
@@ -6414,42 +6412,42 @@
         "gamesPlayedRegularSeason": 70,
         "gamesPlayedPlayoffs": 10
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 243,
+    "gamesPlayedPlayoffs": 49
   },
   {
     "playerId": 8449650,
     "playerName": "Lyle Moffatt",
     "position": "L",
-    "gamesPlayedRegularSeason": 74,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 19791980,
         "gamesPlayedRegularSeason": 74,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 74,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 100055,
     "playerName": "Lynn Powis",
     "position": "C",
-    "gamesPlayedRegularSeason": 55,
-    "gamesPlayedPlayoffs": 3,
     "seasons": [
       {
         "season": 19771978,
         "gamesPlayedRegularSeason": 55,
         "gamesPlayedPlayoffs": 3
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 55,
+    "gamesPlayedPlayoffs": 3
   },
   {
     "playerId": 8445457,
     "playerName": "Marc Behrend",
     "position": "G",
-    "gamesPlayedRegularSeason": 39,
-    "gamesPlayedPlayoffs": 7,
     "seasons": [
       {
         "season": 19831984,
@@ -6466,14 +6464,14 @@
         "gamesPlayedRegularSeason": 9,
         "gamesPlayedPlayoffs": 1
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 39,
+    "gamesPlayedPlayoffs": 7
   },
   {
     "playerId": 8449171,
     "playerName": "Mario Marois",
     "position": "D",
-    "gamesPlayedRegularSeason": 256,
-    "gamesPlayedPlayoffs": 18,
     "seasons": [
       {
         "season": 19851986,
@@ -6500,42 +6498,42 @@
         "gamesPlayedRegularSeason": 34,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 256,
+    "gamesPlayedPlayoffs": 18
   },
   {
     "playerId": 8470780,
     "playerName": "Mark Flood",
     "position": "D",
-    "gamesPlayedRegularSeason": 33,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 20112012,
         "gamesPlayedRegularSeason": 33,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 33,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 8447940,
     "playerName": "Mark Holden",
     "position": "G",
-    "gamesPlayedRegularSeason": 4,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 19841985,
         "gamesPlayedRegularSeason": 4,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 4,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 8448563,
     "playerName": "Mark Kumpel",
     "position": "R",
-    "gamesPlayedRegularSeason": 141,
-    "gamesPlayedPlayoffs": 11,
     "seasons": [
       {
         "season": 19871988,
@@ -6552,28 +6550,28 @@
         "gamesPlayedRegularSeason": 53,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 141,
+    "gamesPlayedPlayoffs": 11
   },
   {
     "playerId": 8473914,
     "playerName": "Mark Letestu",
     "position": "C",
-    "gamesPlayedRegularSeason": 7,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 20192020,
         "gamesPlayedRegularSeason": 7,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 7,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 8450073,
     "playerName": "Mark Osborne",
     "position": "L",
-    "gamesPlayedRegularSeason": 80,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 19901991,
@@ -6585,42 +6583,42 @@
         "gamesPlayedRegularSeason": 43,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 80,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 8457589,
     "playerName": "Mark Osiecki",
     "position": "D",
-    "gamesPlayedRegularSeason": 4,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 19921993,
         "gamesPlayedRegularSeason": 4,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 4,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 8450465,
     "playerName": "Mark Plantery",
     "position": "D",
-    "gamesPlayedRegularSeason": 25,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 19801981,
         "gamesPlayedRegularSeason": 25,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 25,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 8476460,
     "playerName": "Mark Scheifele",
     "position": "C",
-    "gamesPlayedRegularSeason": 942,
-    "gamesPlayedPlayoffs": 53,
     "seasons": [
       {
         "season": 20112012,
@@ -6697,14 +6695,14 @@
         "gamesPlayedRegularSeason": 63,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 942,
+    "gamesPlayedPlayoffs": 53
   },
   {
     "playerId": 8470614,
     "playerName": "Mark Stuart",
     "position": "D",
-    "gamesPlayedRegularSeason": 367,
-    "gamesPlayedPlayoffs": 4,
     "seasons": [
       {
         "season": 20112012,
@@ -6736,42 +6734,42 @@
         "gamesPlayedRegularSeason": 42,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 367,
+    "gamesPlayedPlayoffs": 4
   },
   {
     "playerId": 8459020,
     "playerName": "Mark Visheau",
     "position": "D",
-    "gamesPlayedRegularSeason": 1,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 19931994,
         "gamesPlayedRegularSeason": 1,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 1,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 8448551,
     "playerName": "Markku Kyllonen",
     "position": "R",
-    "gamesPlayedRegularSeason": 9,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 19881989,
         "gamesPlayedRegularSeason": 9,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 9,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 8477448,
     "playerName": "Marko Dano",
     "position": "C",
-    "gamesPlayedRegularSeason": 82,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 20152016,
@@ -6788,14 +6786,14 @@
         "gamesPlayedRegularSeason": 23,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 82,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 8449291,
     "playerName": "Markus Mattsson",
     "position": "G",
-    "gamesPlayedRegularSeason": 114,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 19771978,
@@ -6817,14 +6815,14 @@
         "gamesPlayedRegularSeason": 31,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 114,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 8478891,
     "playerName": "Mason Appleton",
     "position": "C",
-    "gamesPlayedRegularSeason": 351,
-    "gamesPlayedPlayoffs": 32,
     "seasons": [
       {
         "season": 20182019,
@@ -6861,14 +6859,14 @@
         "gamesPlayedRegularSeason": 71,
         "gamesPlayedPlayoffs": 13
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 351,
+    "gamesPlayedPlayoffs": 32
   },
   {
     "playerId": 8473618,
     "playerName": "Mathieu Perreault",
     "position": "C",
-    "gamesPlayedRegularSeason": 455,
-    "gamesPlayedPlayoffs": 29,
     "seasons": [
       {
         "season": 20142015,
@@ -6905,14 +6903,14 @@
         "gamesPlayedRegularSeason": 56,
         "gamesPlayedPlayoffs": 8
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 455,
+    "gamesPlayedPlayoffs": 29
   },
   {
     "playerId": 100057,
     "playerName": "Mats Lindh",
     "position": "C",
-    "gamesPlayedRegularSeason": 138,
-    "gamesPlayedPlayoffs": 33,
     "seasons": [
       {
         "season": 19751976,
@@ -6924,14 +6922,14 @@
         "gamesPlayedRegularSeason": 73,
         "gamesPlayedPlayoffs": 20
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 138,
+    "gamesPlayedPlayoffs": 33
   },
   {
     "playerId": 8474094,
     "playerName": "Matt Halischuk",
     "position": "R",
-    "gamesPlayedRegularSeason": 123,
-    "gamesPlayedPlayoffs": 1,
     "seasons": [
       {
         "season": 20132014,
@@ -6948,14 +6946,14 @@
         "gamesPlayedRegularSeason": 30,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 123,
+    "gamesPlayedPlayoffs": 1
   },
   {
     "playerId": 8468611,
     "playerName": "Matt Hendricks",
     "position": "C",
-    "gamesPlayedRegularSeason": 64,
-    "gamesPlayedPlayoffs": 5,
     "seasons": [
       {
         "season": 20172018,
@@ -6967,28 +6965,28 @@
         "gamesPlayedRegularSeason": 4,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 64,
+    "gamesPlayedPlayoffs": 5
   },
   {
     "playerId": 8447756,
     "playerName": "Matthew Block",
     "position": "D",
-    "gamesPlayedRegularSeason": 2,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 19881989,
         "gamesPlayedRegularSeason": 2,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 2,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 8479591,
     "playerName": "Michael Eyssimont",
     "position": "C",
-    "gamesPlayedRegularSeason": 20,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 20212022,
@@ -7000,14 +6998,14 @@
         "gamesPlayedRegularSeason": 19,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 20,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 8473564,
     "playerName": "Michael Frolik",
     "position": "R",
-    "gamesPlayedRegularSeason": 163,
-    "gamesPlayedPlayoffs": 4,
     "seasons": [
       {
         "season": 20132014,
@@ -7019,14 +7017,14 @@
         "gamesPlayedRegularSeason": 82,
         "gamesPlayedPlayoffs": 4
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 163,
+    "gamesPlayedPlayoffs": 4
   },
   {
     "playerId": 8474636,
     "playerName": "Michael Hutchinson",
     "position": "G",
-    "gamesPlayedRegularSeason": 102,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 20132014,
@@ -7053,14 +7051,14 @@
         "gamesPlayedRegularSeason": 3,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 102,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 8457559,
     "playerName": "Michael O'Neill",
     "position": "G",
-    "gamesPlayedRegularSeason": 20,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 19911992,
@@ -7077,14 +7075,14 @@
         "gamesPlayedRegularSeason": 17,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 20,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 8459568,
     "playerName": "Michal Grosek",
     "position": "L",
-    "gamesPlayedRegularSeason": 28,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 19931994,
@@ -7101,28 +7099,28 @@
         "gamesPlayedRegularSeason": 1,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 28,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 8446429,
     "playerName": "Michel Dion",
     "position": "G",
-    "gamesPlayedRegularSeason": 14,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 19801981,
         "gamesPlayedRegularSeason": 14,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 14,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 8444923,
     "playerName": "Mike Amodeo",
     "position": "D",
-    "gamesPlayedRegularSeason": 86,
-    "gamesPlayedPlayoffs": 7,
     "seasons": [
       {
         "season": 19771978,
@@ -7139,14 +7137,14 @@
         "gamesPlayedRegularSeason": 19,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 86,
+    "gamesPlayedPlayoffs": 7
   },
   {
     "playerId": 8446551,
     "playerName": "Mike Eagles",
     "position": "L",
-    "gamesPlayedRegularSeason": 293,
-    "gamesPlayedPlayoffs": 12,
     "seasons": [
       {
         "season": 19901991,
@@ -7173,14 +7171,14 @@
         "gamesPlayedRegularSeason": 27,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 293,
+    "gamesPlayedPlayoffs": 12
   },
   {
     "playerId": 8456156,
     "playerName": "Mike Eastwood",
     "position": "C",
-    "gamesPlayedRegularSeason": 93,
-    "gamesPlayedPlayoffs": 6,
     "seasons": [
       {
         "season": 19941995,
@@ -7192,14 +7190,14 @@
         "gamesPlayedRegularSeason": 80,
         "gamesPlayedPlayoffs": 6
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 93,
+    "gamesPlayedPlayoffs": 6
   },
   {
     "playerId": 100059,
     "playerName": "Mike Ford",
     "position": "D",
-    "gamesPlayedRegularSeason": 179,
-    "gamesPlayedPlayoffs": 34,
     "seasons": [
       {
         "season": 19741975,
@@ -7221,28 +7219,28 @@
         "gamesPlayedRegularSeason": 3,
         "gamesPlayedPlayoffs": 2
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 179,
+    "gamesPlayedPlayoffs": 34
   },
   {
     "playerId": 8447673,
     "playerName": "Mike Hartman",
     "position": "L",
-    "gamesPlayedRegularSeason": 75,
-    "gamesPlayedPlayoffs": 2,
     "seasons": [
       {
         "season": 19911992,
         "gamesPlayedRegularSeason": 75,
         "gamesPlayedPlayoffs": 2
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 75,
+    "gamesPlayedPlayoffs": 2
   },
   {
     "playerId": 8448633,
     "playerName": "Mike Lalor",
     "position": "D",
-    "gamesPlayedRegularSeason": 79,
-    "gamesPlayedPlayoffs": 11,
     "seasons": [
       {
         "season": 19911992,
@@ -7254,70 +7252,70 @@
         "gamesPlayedRegularSeason": 64,
         "gamesPlayedPlayoffs": 4
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 79,
+    "gamesPlayedPlayoffs": 11
   },
   {
     "playerId": 8448688,
     "playerName": "Mike Lauen",
     "position": "R",
-    "gamesPlayedRegularSeason": 4,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 19831984,
         "gamesPlayedRegularSeason": 4,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 4,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 8471390,
     "playerName": "Mike Santorelli",
     "position": "C",
-    "gamesPlayedRegularSeason": 10,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 20122013,
         "gamesPlayedRegularSeason": 10,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 10,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 8451673,
     "playerName": "Mike Stapleton",
     "position": "C",
-    "gamesPlayedRegularSeason": 58,
-    "gamesPlayedPlayoffs": 6,
     "seasons": [
       {
         "season": 19951996,
         "gamesPlayedRegularSeason": 58,
         "gamesPlayedPlayoffs": 6
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 58,
+    "gamesPlayedPlayoffs": 6
   },
   {
     "playerId": 8452205,
     "playerName": "Mike Veisor",
     "position": "G",
-    "gamesPlayedRegularSeason": 8,
-    "gamesPlayedPlayoffs": 1,
     "seasons": [
       {
         "season": 19831984,
         "gamesPlayedRegularSeason": 8,
         "gamesPlayedPlayoffs": 1
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 8,
+    "gamesPlayedPlayoffs": 1
   },
   {
     "playerId": 100060,
     "playerName": "Milt Black",
     "position": "R",
-    "gamesPlayedRegularSeason": 186,
-    "gamesPlayedPlayoffs": 18,
     "seasons": [
       {
         "season": 19721973,
@@ -7334,28 +7332,28 @@
         "gamesPlayedRegularSeason": 64,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 186,
+    "gamesPlayedPlayoffs": 18
   },
   {
     "playerId": 8448758,
     "playerName": "Moe Lemay",
     "position": "L",
-    "gamesPlayedRegularSeason": 10,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 19881989,
         "gamesPlayedRegularSeason": 10,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 10,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 8449122,
     "playerName": "Moe Mantha",
     "position": "D",
-    "gamesPlayedRegularSeason": 318,
-    "gamesPlayedPlayoffs": 16,
     "seasons": [
       {
         "season": 19801981,
@@ -7392,14 +7390,14 @@
         "gamesPlayedRegularSeason": 12,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 318,
+    "gamesPlayedPlayoffs": 16
   },
   {
     "playerId": 8480289,
     "playerName": "Morgan Barron",
     "position": "C",
-    "gamesPlayedRegularSeason": 292,
-    "gamesPlayedPlayoffs": 18,
     "seasons": [
       {
         "season": 20212022,
@@ -7426,14 +7424,14 @@
         "gamesPlayedRegularSeason": 54,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 292,
+    "gamesPlayedPlayoffs": 18
   },
   {
     "playerId": 8448912,
     "playerName": "Morris Lukowich",
     "position": "L",
-    "gamesPlayedRegularSeason": 511,
-    "gamesPlayedPlayoffs": 17,
     "seasons": [
       {
         "season": 19781979,
@@ -7470,28 +7468,28 @@
         "gamesPlayedRegularSeason": 47,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 511,
+    "gamesPlayedPlayoffs": 17
   },
   {
     "playerId": 100062,
     "playerName": "Morris Mott",
     "position": "C",
-    "gamesPlayedRegularSeason": 2,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 19761977,
         "gamesPlayedRegularSeason": 2,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 2,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 8446544,
     "playerName": "Murray Eaves",
     "position": "C",
-    "gamesPlayedRegularSeason": 49,
-    "gamesPlayedPlayoffs": 4,
     "seasons": [
       {
         "season": 19801981,
@@ -7523,14 +7521,14 @@
         "gamesPlayedRegularSeason": 4,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 49,
+    "gamesPlayedPlayoffs": 4
   },
   {
     "playerId": 8477220,
     "playerName": "Nate Schmidt",
     "position": "D",
-    "gamesPlayedRegularSeason": 211,
-    "gamesPlayedPlayoffs": 8,
     "seasons": [
       {
         "season": 20212022,
@@ -7547,28 +7545,28 @@
         "gamesPlayedRegularSeason": 63,
         "gamesPlayedPlayoffs": 3
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 211,
+    "gamesPlayedPlayoffs": 8
   },
   {
     "playerId": 8470775,
     "playerName": "Nate Thompson",
     "position": "C",
-    "gamesPlayedRegularSeason": 44,
-    "gamesPlayedPlayoffs": 8,
     "seasons": [
       {
         "season": 20202021,
         "gamesPlayedRegularSeason": 44,
         "gamesPlayedPlayoffs": 8
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 44,
+    "gamesPlayedPlayoffs": 8
   },
   {
     "playerId": 8476470,
     "playerName": "Nathan Beaulieu",
     "position": "D",
-    "gamesPlayedRegularSeason": 105,
-    "gamesPlayedPlayoffs": 4,
     "seasons": [
       {
         "season": 20182019,
@@ -7590,14 +7588,14 @@
         "gamesPlayedRegularSeason": 24,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 105,
+    "gamesPlayedPlayoffs": 4
   },
   {
     "playerId": 8480145,
     "playerName": "Neal Pionk",
     "position": "D",
-    "gamesPlayedRegularSeason": 475,
-    "gamesPlayedPlayoffs": 35,
     "seasons": [
       {
         "season": 20192020,
@@ -7634,14 +7632,14 @@
         "gamesPlayedRegularSeason": 40,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 475,
+    "gamesPlayedPlayoffs": 35
   },
   {
     "playerId": 8452503,
     "playerName": "Neil Wilkinson",
     "position": "D",
-    "gamesPlayedRegularSeason": 61,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 19941995,
@@ -7653,14 +7651,14 @@
         "gamesPlayedRegularSeason": 21,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 61,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 8446675,
     "playerName": "Nelson Emerson",
     "position": "R",
-    "gamesPlayedRegularSeason": 131,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 19931994,
@@ -7672,14 +7670,14 @@
         "gamesPlayedRegularSeason": 48,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 131,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 8478031,
     "playerName": "Nelson Nogier",
     "position": "D",
-    "gamesPlayedRegularSeason": 11,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 20162017,
@@ -7691,14 +7689,14 @@
         "gamesPlayedRegularSeason": 1,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 11,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 8477464,
     "playerName": "Nic Petan",
     "position": "C",
-    "gamesPlayedRegularSeason": 108,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 20152016,
@@ -7720,28 +7718,28 @@
         "gamesPlayedRegularSeason": 13,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 108,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 8476406,
     "playerName": "Nicholas Shore",
     "position": "C",
-    "gamesPlayedRegularSeason": 42,
-    "gamesPlayedPlayoffs": 4,
     "seasons": [
       {
         "season": 20192020,
         "gamesPlayedRegularSeason": 42,
         "gamesPlayedPlayoffs": 4
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 42,
+    "gamesPlayedPlayoffs": 4
   },
   {
     "playerId": 8467353,
     "playerName": "Nik Antropov",
     "position": "C",
-    "gamesPlayedRegularSeason": 109,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 20112012,
@@ -7753,14 +7751,14 @@
         "gamesPlayedRegularSeason": 40,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 109,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 8482787,
     "playerName": "Nikita Chibrikov",
     "position": "R",
-    "gamesPlayedRegularSeason": 13,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 20232024,
@@ -7777,14 +7775,14 @@
         "gamesPlayedRegularSeason": 8,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 13,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 8459140,
     "playerName": "Nikolai Khabibulin",
     "position": "G",
-    "gamesPlayedRegularSeason": 79,
-    "gamesPlayedPlayoffs": 6,
     "seasons": [
       {
         "season": 19941995,
@@ -7796,14 +7794,14 @@
         "gamesPlayedRegularSeason": 53,
         "gamesPlayedPlayoffs": 6
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 79,
+    "gamesPlayedPlayoffs": 6
   },
   {
     "playerId": 8477940,
     "playerName": "Nikolaj Ehlers",
     "position": "L",
-    "gamesPlayedRegularSeason": 674,
-    "gamesPlayedPlayoffs": 45,
     "seasons": [
       {
         "season": 20152016,
@@ -7855,14 +7853,14 @@
         "gamesPlayedRegularSeason": 69,
         "gamesPlayedPlayoffs": 8
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 674,
+    "gamesPlayedPlayoffs": 45
   },
   {
     "playerId": 8475799,
     "playerName": "Nino Niederreiter",
     "position": "R",
-    "gamesPlayedRegularSeason": 236,
-    "gamesPlayedPlayoffs": 23,
     "seasons": [
       {
         "season": 20222023,
@@ -7884,14 +7882,14 @@
         "gamesPlayedRegularSeason": 55,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 236,
+    "gamesPlayedPlayoffs": 23
   },
   {
     "playerId": 100063,
     "playerName": "Norm Beaudin",
     "position": "R",
-    "gamesPlayedRegularSeason": 309,
-    "gamesPlayedPlayoffs": 31,
     "seasons": [
       {
         "season": 19721973,
@@ -7913,14 +7911,14 @@
         "gamesPlayedRegularSeason": 80,
         "gamesPlayedPlayoffs": 13
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 309,
+    "gamesPlayedPlayoffs": 31
   },
   {
     "playerId": 8446535,
     "playerName": "Norm Dupont",
     "position": "L",
-    "gamesPlayedRegularSeason": 181,
-    "gamesPlayedPlayoffs": 5,
     "seasons": [
       {
         "season": 19801981,
@@ -7937,28 +7935,28 @@
         "gamesPlayedRegularSeason": 39,
         "gamesPlayedPlayoffs": 1
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 181,
+    "gamesPlayedPlayoffs": 5
   },
   {
     "playerId": 8448961,
     "playerName": "Norm MacIver",
     "position": "D",
-    "gamesPlayedRegularSeason": 39,
-    "gamesPlayedPlayoffs": 6,
     "seasons": [
       {
         "season": 19951996,
         "gamesPlayedRegularSeason": 39,
         "gamesPlayedPlayoffs": 6
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 39,
+    "gamesPlayedPlayoffs": 6
   },
   {
     "playerId": 8458919,
     "playerName": "Oleg Mikulchik",
     "position": "D",
-    "gamesPlayedRegularSeason": 29,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 19931994,
@@ -7970,28 +7968,28 @@
         "gamesPlayedRegularSeason": 25,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 29,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 8460493,
     "playerName": "Oleg Tverdovsky",
     "position": "D",
-    "gamesPlayedRegularSeason": 31,
-    "gamesPlayedPlayoffs": 6,
     "seasons": [
       {
         "season": 19951996,
         "gamesPlayedRegularSeason": 31,
         "gamesPlayedPlayoffs": 6
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 31,
+    "gamesPlayedPlayoffs": 6
   },
   {
     "playerId": 8466140,
     "playerName": "Olli Jokinen",
     "position": "C",
-    "gamesPlayedRegularSeason": 127,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 20122013,
@@ -8003,14 +8001,14 @@
         "gamesPlayedRegularSeason": 82,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 127,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 8471715,
     "playerName": "Ondrej Pavelec",
     "position": "G",
-    "gamesPlayedRegularSeason": 260,
-    "gamesPlayedPlayoffs": 4,
     "seasons": [
       {
         "season": 20112012,
@@ -8042,28 +8040,28 @@
         "gamesPlayedRegularSeason": 8,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 260,
+    "gamesPlayedPlayoffs": 4
   },
   {
     "playerId": 8480944,
     "playerName": "Par Lindholm",
     "position": "C",
-    "gamesPlayedRegularSeason": 4,
-    "gamesPlayedPlayoffs": 2,
     "seasons": [
       {
         "season": 20182019,
         "gamesPlayedRegularSeason": 4,
         "gamesPlayedPlayoffs": 2
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 4,
+    "gamesPlayedPlayoffs": 2
   },
   {
     "playerId": 8484135,
     "playerName": "Parker Ford",
     "position": "C",
-    "gamesPlayedRegularSeason": 14,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 20242025,
@@ -8075,14 +8073,14 @@
         "gamesPlayedRegularSeason": 11,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 14,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 8446293,
     "playerName": "Pat Daley",
     "position": "L",
-    "gamesPlayedRegularSeason": 12,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 19791980,
@@ -8094,14 +8092,14 @@
         "gamesPlayedRegularSeason": 7,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 12,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 8446676,
     "playerName": "Pat Elynuik",
     "position": "R",
-    "gamesPlayedRegularSeason": 289,
-    "gamesPlayedPlayoffs": 14,
     "seasons": [
       {
         "season": 19871988,
@@ -8128,14 +8126,14 @@
         "gamesPlayedRegularSeason": 60,
         "gamesPlayedPlayoffs": 7
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 289,
+    "gamesPlayedPlayoffs": 14
   },
   {
     "playerId": 8474616,
     "playerName": "Patrice Cormier",
     "position": "C",
-    "gamesPlayedRegularSeason": 31,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 20112012,
@@ -8162,14 +8160,14 @@
         "gamesPlayedRegularSeason": 2,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 31,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 8479339,
     "playerName": "Patrik Laine",
     "position": "L",
-    "gamesPlayedRegularSeason": 306,
-    "gamesPlayedPlayoffs": 24,
     "seasons": [
       {
         "season": 20162017,
@@ -8196,14 +8194,14 @@
         "gamesPlayedRegularSeason": 1,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 306,
+    "gamesPlayedPlayoffs": 24
   },
   {
     "playerId": 8445625,
     "playerName": "Paul Boutilier",
     "position": "D",
-    "gamesPlayedRegularSeason": 9,
-    "gamesPlayedPlayoffs": 5,
     "seasons": [
       {
         "season": 19871988,
@@ -8215,14 +8213,14 @@
         "gamesPlayedRegularSeason": 3,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 9,
+    "gamesPlayedPlayoffs": 5
   },
   {
     "playerId": 8446797,
     "playerName": "Paul Fenton",
     "position": "L",
-    "gamesPlayedRegularSeason": 156,
-    "gamesPlayedPlayoffs": 7,
     "seasons": [
       {
         "season": 19881989,
@@ -8239,28 +8237,28 @@
         "gamesPlayedRegularSeason": 17,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 156,
+    "gamesPlayedPlayoffs": 7
   },
   {
     "playerId": 100064,
     "playerName": "Paul MacKinnon",
     "position": "D",
-    "gamesPlayedRegularSeason": 73,
-    "gamesPlayedPlayoffs": 10,
     "seasons": [
       {
         "season": 19781979,
         "gamesPlayedRegularSeason": 73,
         "gamesPlayedPlayoffs": 10
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 73,
+    "gamesPlayedPlayoffs": 10
   },
   {
     "playerId": 8448981,
     "playerName": "Paul MacLean",
     "position": "R",
-    "gamesPlayedRegularSeason": 527,
-    "gamesPlayedPlayoffs": 35,
     "seasons": [
       {
         "season": 19811982,
@@ -8297,14 +8295,14 @@
         "gamesPlayedRegularSeason": 77,
         "gamesPlayedPlayoffs": 5
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 527,
+    "gamesPlayedPlayoffs": 35
   },
   {
     "playerId": 8448919,
     "playerName": "Paul Macdermid",
     "position": "R",
-    "gamesPlayedRegularSeason": 172,
-    "gamesPlayedPlayoffs": 7,
     "seasons": [
       {
         "season": 19891990,
@@ -8321,14 +8319,14 @@
         "gamesPlayedRegularSeason": 59,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 172,
+    "gamesPlayedPlayoffs": 7
   },
   {
     "playerId": 8450497,
     "playerName": "Paul Pooley",
     "position": "C",
-    "gamesPlayedRegularSeason": 15,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 19841985,
@@ -8340,14 +8338,14 @@
         "gamesPlayedRegularSeason": 3,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 15,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 8474074,
     "playerName": "Paul Postma",
     "position": "D",
-    "gamesPlayedRegularSeason": 190,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 20112012,
@@ -8379,14 +8377,14 @@
         "gamesPlayedRegularSeason": 65,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 190,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 8471669,
     "playerName": "Paul Stastny",
     "position": "C",
-    "gamesPlayedRegularSeason": 146,
-    "gamesPlayedPlayoffs": 23,
     "seasons": [
       {
         "season": 20172018,
@@ -8403,42 +8401,42 @@
         "gamesPlayedRegularSeason": 71,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 146,
+    "gamesPlayedPlayoffs": 23
   },
   {
     "playerId": 100065,
     "playerName": "Paul Terbenche",
     "position": "D",
-    "gamesPlayedRegularSeason": 68,
-    "gamesPlayedPlayoffs": 10,
     "seasons": [
       {
         "season": 19781979,
         "gamesPlayedRegularSeason": 68,
         "gamesPlayedPlayoffs": 10
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 68,
+    "gamesPlayedPlayoffs": 10
   },
   {
     "playerId": 8452571,
     "playerName": "Paul Ysebaert",
     "position": "L",
-    "gamesPlayedRegularSeason": 60,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 19931994,
         "gamesPlayedRegularSeason": 60,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 60,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 100066,
     "playerName": "Perry Miller",
     "position": "D",
-    "gamesPlayedRegularSeason": 188,
-    "gamesPlayedPlayoffs": 20,
     "seasons": [
       {
         "season": 19741975,
@@ -8455,14 +8453,14 @@
         "gamesPlayedRegularSeason": 74,
         "gamesPlayedPlayoffs": 20
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 188,
+    "gamesPlayedPlayoffs": 20
   },
   {
     "playerId": 8451992,
     "playerName": "Perry Turnbull",
     "position": "C",
-    "gamesPlayedRegularSeason": 172,
-    "gamesPlayedPlayoffs": 12,
     "seasons": [
       {
         "season": 19841985,
@@ -8479,14 +8477,14 @@
         "gamesPlayedRegularSeason": 26,
         "gamesPlayedPlayoffs": 1
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 172,
+    "gamesPlayedPlayoffs": 12
   },
   {
     "playerId": 8446468,
     "playerName": "Peter Douris",
     "position": "R",
-    "gamesPlayedRegularSeason": 21,
-    "gamesPlayedPlayoffs": 1,
     "seasons": [
       {
         "season": 19851986,
@@ -8503,28 +8501,28 @@
         "gamesPlayedRegularSeason": 4,
         "gamesPlayedPlayoffs": 1
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 21,
+    "gamesPlayedPlayoffs": 1
   },
   {
     "playerId": 8474771,
     "playerName": "Peter Mannino",
     "position": "G",
-    "gamesPlayedRegularSeason": 1,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 20112012,
         "gamesPlayedRegularSeason": 1,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 1,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 8449190,
     "playerName": "Peter Marsh",
     "position": "R",
-    "gamesPlayedRegularSeason": 81,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 19791980,
@@ -8536,14 +8534,14 @@
         "gamesPlayedRegularSeason": 24,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 81,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 8451781,
     "playerName": "Peter Sullivan",
     "position": "C",
-    "gamesPlayedRegularSeason": 439,
-    "gamesPlayedPlayoffs": 52,
     "seasons": [
       {
         "season": 19751976,
@@ -8575,14 +8573,14 @@
         "gamesPlayedRegularSeason": 47,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 439,
+    "gamesPlayedPlayoffs": 52
   },
   {
     "playerId": 8451836,
     "playerName": "Peter Taglianetti",
     "position": "D",
-    "gamesPlayedRegularSeason": 207,
-    "gamesPlayedPlayoffs": 14,
     "seasons": [
       {
         "season": 19841985,
@@ -8614,28 +8612,28 @@
         "gamesPlayedRegularSeason": 49,
         "gamesPlayedPlayoffs": 5
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 207,
+    "gamesPlayedPlayoffs": 14
   },
   {
     "playerId": 8451429,
     "playerName": "Petri Skriko",
     "position": "L",
-    "gamesPlayedRegularSeason": 15,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 19911992,
         "gamesPlayedRegularSeason": 15,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 15,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 8447989,
     "playerName": "Phil Housley",
     "position": "D",
-    "gamesPlayedRegularSeason": 232,
-    "gamesPlayedPlayoffs": 13,
     "seasons": [
       {
         "season": 19901991,
@@ -8652,14 +8650,14 @@
         "gamesPlayedRegularSeason": 80,
         "gamesPlayedPlayoffs": 6
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 232,
+    "gamesPlayedPlayoffs": 13
   },
   {
     "playerId": 8451828,
     "playerName": "Phil Sykes",
     "position": "L",
-    "gamesPlayedRegularSeason": 170,
-    "gamesPlayedPlayoffs": 11,
     "seasons": [
       {
         "season": 19891990,
@@ -8676,14 +8674,14 @@
         "gamesPlayedRegularSeason": 52,
         "gamesPlayedPlayoffs": 7
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 170,
+    "gamesPlayedPlayoffs": 11
   },
   {
     "playerId": 8447483,
     "playerName": "Pierre Hamel",
     "position": "G",
-    "gamesPlayedRegularSeason": 64,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 19791980,
@@ -8695,14 +8693,14 @@
         "gamesPlayedRegularSeason": 29,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 64,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 8479400,
     "playerName": "Pierre-Luc Dubois",
     "position": "C",
-    "gamesPlayedRegularSeason": 195,
-    "gamesPlayedPlayoffs": 12,
     "seasons": [
       {
         "season": 20202021,
@@ -8719,42 +8717,42 @@
         "gamesPlayedRegularSeason": 73,
         "gamesPlayedPlayoffs": 5
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 195,
+    "gamesPlayedPlayoffs": 12
   },
   {
     "playerId": 8475769,
     "playerName": "Quinton Howden",
     "position": "C",
-    "gamesPlayedRegularSeason": 5,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 20162017,
         "gamesPlayedRegularSeason": 5,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 5,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 100068,
     "playerName": "Randy Andreachuk",
     "position": "C",
-    "gamesPlayedRegularSeason": 2,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 19741975,
         "gamesPlayedRegularSeason": 2,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 2,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 8445938,
     "playerName": "Randy Carlyle",
     "position": "D",
-    "gamesPlayedRegularSeason": 564,
-    "gamesPlayedPlayoffs": 31,
     "seasons": [
       {
         "season": 19831984,
@@ -8806,28 +8804,28 @@
         "gamesPlayedRegularSeason": 22,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 564,
+    "gamesPlayedPlayoffs": 31
   },
   {
     "playerId": 8446261,
     "playerName": "Randy Cunneyworth",
     "position": "L",
-    "gamesPlayedRegularSeason": 28,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 19891990,
         "gamesPlayedRegularSeason": 28,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 28,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 8447180,
     "playerName": "Randy Gilhen",
     "position": "C",
-    "gamesPlayedRegularSeason": 185,
-    "gamesPlayedPlayoffs": 4,
     "seasons": [
       {
         "season": 19861987,
@@ -8859,42 +8857,42 @@
         "gamesPlayedRegularSeason": 22,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 185,
+    "gamesPlayedPlayoffs": 4
   },
   {
     "playerId": 8470905,
     "playerName": "Randy Jones",
     "position": "D",
-    "gamesPlayedRegularSeason": 39,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 20112012,
         "gamesPlayedRegularSeason": 39,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 39,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 100069,
     "playerName": "Randy Legge",
     "position": "D",
-    "gamesPlayedRegularSeason": 1,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 19751976,
         "gamesPlayedRegularSeason": 1,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 1,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 8480845,
     "playerName": "Rasmus Kupari",
     "position": "C",
-    "gamesPlayedRegularSeason": 87,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 20232024,
@@ -8906,28 +8904,28 @@
         "gamesPlayedRegularSeason": 59,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 87,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 8459518,
     "playerName": "Ravil Gusmanov",
     "position": "R",
-    "gamesPlayedRegularSeason": 4,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 19951996,
         "gamesPlayedRegularSeason": 4,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 4,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 8449860,
     "playerName": "Ray Neufeld",
     "position": "R",
-    "gamesPlayedRegularSeason": 249,
-    "gamesPlayedPlayoffs": 16,
     "seasons": [
       {
         "season": 19851986,
@@ -8949,56 +8947,56 @@
         "gamesPlayedRegularSeason": 31,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 249,
+    "gamesPlayedPlayoffs": 16
   },
   {
     "playerId": 100070,
     "playerName": "Rich Gosselin",
     "position": "C",
-    "gamesPlayedRegularSeason": 3,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 19781979,
         "gamesPlayedRegularSeason": 3,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 3,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 100071,
     "playerName": "Rich Preston",
     "position": "R",
-    "gamesPlayedRegularSeason": 80,
-    "gamesPlayedPlayoffs": 10,
     "seasons": [
       {
         "season": 19781979,
         "gamesPlayedRegularSeason": 80,
         "gamesPlayedPlayoffs": 10
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 80,
+    "gamesPlayedPlayoffs": 10
   },
   {
     "playerId": 8449731,
     "playerName": "Richard Mulhern",
     "position": "D",
-    "gamesPlayedRegularSeason": 19,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 19801981,
         "gamesPlayedRegularSeason": 19,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 19,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 8445643,
     "playerName": "Rick Bowness",
     "position": "R",
-    "gamesPlayedRegularSeason": 45,
-    "gamesPlayedPlayoffs": 1,
     "seasons": [
       {
         "season": 19801981,
@@ -9010,28 +9008,28 @@
         "gamesPlayedRegularSeason": 0,
         "gamesPlayedPlayoffs": 1
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 45,
+    "gamesPlayedPlayoffs": 1
   },
   {
     "playerId": 8446498,
     "playerName": "Rick Dudley",
     "position": "L",
-    "gamesPlayedRegularSeason": 30,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 19801981,
         "gamesPlayedRegularSeason": 30,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 30,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 8451834,
     "playerName": "Rick Tabaracci",
     "position": "G",
-    "gamesPlayedRegularSeason": 61,
-    "gamesPlayedPlayoffs": 7,
     "seasons": [
       {
         "season": 19901991,
@@ -9048,28 +9046,28 @@
         "gamesPlayedRegularSeason": 19,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 61,
+    "gamesPlayedPlayoffs": 7
   },
   {
     "playerId": 8474062,
     "playerName": "Riley Nash",
     "position": "C",
-    "gamesPlayedRegularSeason": 15,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 20212022,
         "gamesPlayedRegularSeason": 15,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 15,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 8449761,
     "playerName": "Rob Murray",
     "position": "C",
-    "gamesPlayedRegularSeason": 36,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 19911992,
@@ -9096,28 +9094,28 @@
         "gamesPlayedRegularSeason": 1,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 36,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 100072,
     "playerName": "Robbie Neale",
     "position": "F",
-    "gamesPlayedRegularSeason": 7,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 19741975,
         "gamesPlayedRegularSeason": 7,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 7,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 8450359,
     "playerName": "Robert Picard",
     "position": "D",
-    "gamesPlayedRegularSeason": 160,
-    "gamesPlayedPlayoffs": 11,
     "seasons": [
       {
         "season": 19831984,
@@ -9134,42 +9132,42 @@
         "gamesPlayedRegularSeason": 20,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 160,
+    "gamesPlayedPlayoffs": 11
   },
   {
     "playerId": 100073,
     "playerName": "Roland Eriksson",
     "position": "C",
-    "gamesPlayedRegularSeason": 33,
-    "gamesPlayedPlayoffs": 10,
     "seasons": [
       {
         "season": 19781979,
         "gamesPlayedRegularSeason": 33,
         "gamesPlayedPlayoffs": 10
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 33,
+    "gamesPlayedPlayoffs": 10
   },
   {
     "playerId": 100074,
     "playerName": "Ron Ashton",
     "position": "L",
-    "gamesPlayedRegularSeason": 36,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 19741975,
         "gamesPlayedRegularSeason": 36,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 36,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 8468493,
     "playerName": "Ron Hainsey",
     "position": "D",
-    "gamesPlayedRegularSeason": 103,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 20112012,
@@ -9181,14 +9179,14 @@
         "gamesPlayedRegularSeason": 47,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 103,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 100075,
     "playerName": "Ron Snell",
     "position": "R",
-    "gamesPlayedRegularSeason": 90,
-    "gamesPlayedPlayoffs": 4,
     "seasons": [
       {
         "season": 19731974,
@@ -9200,28 +9198,28 @@
         "gamesPlayedRegularSeason": 20,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 90,
+    "gamesPlayedPlayoffs": 4
   },
   {
     "playerId": 100076,
     "playerName": "Ron Ward",
     "position": "D",
-    "gamesPlayedRegularSeason": 14,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 19761977,
         "gamesPlayedRegularSeason": 14,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 14,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 8452495,
     "playerName": "Ron Wilson",
     "position": "C",
-    "gamesPlayedRegularSeason": 535,
-    "gamesPlayedPlayoffs": 23,
     "seasons": [
       {
         "season": 19791980,
@@ -9268,28 +9266,28 @@
         "gamesPlayedRegularSeason": 69,
         "gamesPlayedPlayoffs": 1
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 535,
+    "gamesPlayedPlayoffs": 23
   },
   {
     "playerId": 8448861,
     "playerName": "Ronald Loustel",
     "position": "G",
-    "gamesPlayedRegularSeason": 1,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 19801981,
         "gamesPlayedRegularSeason": 1,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 1,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 8446168,
     "playerName": "Ross Cory",
     "position": "D",
-    "gamesPlayedRegularSeason": 51,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 19791980,
@@ -9301,14 +9299,14 @@
         "gamesPlayedRegularSeason": 5,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 51,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 8450486,
     "playerName": "Rudy Poeschek",
     "position": "D",
-    "gamesPlayedRegularSeason": 5,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 19901991,
@@ -9320,14 +9318,14 @@
         "gamesPlayedRegularSeason": 4,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 5,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 8457847,
     "playerName": "Russ Romaniuk",
     "position": "L",
-    "gamesPlayedRegularSeason": 85,
-    "gamesPlayedPlayoffs": 1,
     "seasons": [
       {
         "season": 19911992,
@@ -9349,56 +9347,56 @@
         "gamesPlayedRegularSeason": 6,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 85,
+    "gamesPlayedPlayoffs": 1
   },
   {
     "playerId": 8451729,
     "playerName": "Ryan Stewart",
     "position": "C",
-    "gamesPlayedRegularSeason": 3,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 19851986,
         "gamesPlayedRegularSeason": 3,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 3,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 8477357,
     "playerName": "Saku Maenalanen",
     "position": "R",
-    "gamesPlayedRegularSeason": 64,
-    "gamesPlayedPlayoffs": 5,
     "seasons": [
       {
         "season": 20222023,
         "gamesPlayedRegularSeason": 64,
         "gamesPlayedPlayoffs": 5
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 64,
+    "gamesPlayedPlayoffs": 5
   },
   {
     "playerId": 8474040,
     "playerName": "Sam Gagner",
     "position": "C",
-    "gamesPlayedRegularSeason": 48,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 20222023,
         "gamesPlayedRegularSeason": 48,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 48,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 8478915,
     "playerName": "Sami Niku",
     "position": "D",
-    "gamesPlayedRegularSeason": 54,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 20172018,
@@ -9420,28 +9418,28 @@
         "gamesPlayedRegularSeason": 6,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 54,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 8445353,
     "playerName": "Sandy Beadle",
     "position": "L",
-    "gamesPlayedRegularSeason": 6,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 19801981,
         "gamesPlayedRegularSeason": 6,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 6,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 8445088,
     "playerName": "Scott Arniel",
     "position": "L",
-    "gamesPlayedRegularSeason": 406,
-    "gamesPlayedPlayoffs": 18,
     "seasons": [
       {
         "season": 19811982,
@@ -9473,14 +9471,14 @@
         "gamesPlayedRegularSeason": 75,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 406,
+    "gamesPlayedPlayoffs": 18
   },
   {
     "playerId": 8445900,
     "playerName": "Scott Campbell",
     "position": "D",
-    "gamesPlayedRegularSeason": 151,
-    "gamesPlayedPlayoffs": 10,
     "seasons": [
       {
         "season": 19781979,
@@ -9497,70 +9495,70 @@
         "gamesPlayedRegularSeason": 14,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 151,
+    "gamesPlayedPlayoffs": 10
   },
   {
     "playerId": 8476910,
     "playerName": "Scott Kosmachuk",
     "position": "R",
-    "gamesPlayedRegularSeason": 8,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 20152016,
         "gamesPlayedRegularSeason": 8,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 8,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 8459453,
     "playerName": "Scott Langkow",
     "position": "G",
-    "gamesPlayedRegularSeason": 1,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 19951996,
         "gamesPlayedRegularSeason": 1,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 1,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 8457061,
     "playerName": "Scott Levins",
     "position": "R",
-    "gamesPlayedRegularSeason": 9,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 19921993,
         "gamesPlayedRegularSeason": 9,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 9,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 8477497,
     "playerName": "Sean Monahan",
     "position": "C",
-    "gamesPlayedRegularSeason": 34,
-    "gamesPlayedPlayoffs": 5,
     "seasons": [
       {
         "season": 20232024,
         "gamesPlayedRegularSeason": 34,
         "gamesPlayedPlayoffs": 5
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 34,
+    "gamesPlayedPlayoffs": 5
   },
   {
     "playerId": 8451150,
     "playerName": "Serge Savard",
     "position": "D",
-    "gamesPlayedRegularSeason": 123,
-    "gamesPlayedPlayoffs": 7,
     "seasons": [
       {
         "season": 19811982,
@@ -9572,14 +9570,14 @@
         "gamesPlayedRegularSeason": 76,
         "gamesPlayedPlayoffs": 3
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 123,
+    "gamesPlayedPlayoffs": 7
   },
   {
     "playerId": 8458953,
     "playerName": "Sergei Bautin",
     "position": "D",
-    "gamesPlayedRegularSeason": 130,
-    "gamesPlayedPlayoffs": 6,
     "seasons": [
       {
         "season": 19921993,
@@ -9591,42 +9589,42 @@
         "gamesPlayedRegularSeason": 59,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 130,
+    "gamesPlayedPlayoffs": 6
   },
   {
     "playerId": 8448481,
     "playerName": "Sergei Kharin",
     "position": "R",
-    "gamesPlayedRegularSeason": 7,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 19901991,
         "gamesPlayedRegularSeason": 7,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 7,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 8462038,
     "playerName": "Shane Doan",
     "position": "R",
-    "gamesPlayedRegularSeason": 74,
-    "gamesPlayedPlayoffs": 6,
     "seasons": [
       {
         "season": 19951996,
         "gamesPlayedRegularSeason": 74,
         "gamesPlayedPlayoffs": 6
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 74,
+    "gamesPlayedPlayoffs": 6
   },
   {
     "playerId": 8446243,
     "playerName": "Shawn Cronin",
     "position": "D",
-    "gamesPlayedRegularSeason": 193,
-    "gamesPlayedPlayoffs": 9,
     "seasons": [
       {
         "season": 19891990,
@@ -9643,14 +9641,14 @@
         "gamesPlayedRegularSeason": 65,
         "gamesPlayedPlayoffs": 4
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 193,
+    "gamesPlayedPlayoffs": 9
   },
   {
     "playerId": 8473574,
     "playerName": "Shawn Matthias",
     "position": "L",
-    "gamesPlayedRegularSeason": 72,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 20162017,
@@ -9662,42 +9660,42 @@
         "gamesPlayedRegularSeason": 27,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 72,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 8452377,
     "playerName": "Simon Wheeldon",
     "position": "C",
-    "gamesPlayedRegularSeason": 4,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 19901991,
         "gamesPlayedRegularSeason": 4,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 4,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 8474146,
     "playerName": "Spencer Machacek",
     "position": "R",
-    "gamesPlayedRegularSeason": 13,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 20112012,
         "gamesPlayedRegularSeason": 13,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 13,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 8445382,
     "playerName": "Stephane Beauregard",
     "position": "G",
-    "gamesPlayedRegularSeason": 74,
-    "gamesPlayedPlayoffs": 4,
     "seasons": [
       {
         "season": 19891990,
@@ -9719,14 +9717,14 @@
         "gamesPlayedRegularSeason": 13,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 74,
+    "gamesPlayedPlayoffs": 4
   },
   {
     "playerId": 8450620,
     "playerName": "Stephane Quintal",
     "position": "D",
-    "gamesPlayedRegularSeason": 124,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 19931994,
@@ -9738,42 +9736,42 @@
         "gamesPlayedRegularSeason": 43,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 124,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 100078,
     "playerName": "Steve Cuddie",
     "position": "D",
-    "gamesPlayedRegularSeason": 77,
-    "gamesPlayedPlayoffs": 12,
     "seasons": [
       {
         "season": 19721973,
         "gamesPlayedRegularSeason": 77,
         "gamesPlayedPlayoffs": 12
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 77,
+    "gamesPlayedPlayoffs": 12
   },
   {
     "playerId": 8473461,
     "playerName": "Steve Mason",
     "position": "G",
-    "gamesPlayedRegularSeason": 13,
-    "gamesPlayedPlayoffs": 1,
     "seasons": [
       {
         "season": 20172018,
         "gamesPlayedRegularSeason": 13,
         "gamesPlayedPlayoffs": 1
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 13,
+    "gamesPlayedPlayoffs": 1
   },
   {
     "playerId": 8450311,
     "playerName": "Steve Penney",
     "position": "G",
-    "gamesPlayedRegularSeason": 15,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 19861987,
@@ -9785,14 +9783,14 @@
         "gamesPlayedRegularSeason": 8,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 15,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 8451008,
     "playerName": "Steve Rooney",
     "position": "C",
-    "gamesPlayedRegularSeason": 86,
-    "gamesPlayedPlayoffs": 13,
     "seasons": [
       {
         "season": 19861987,
@@ -9804,56 +9802,56 @@
         "gamesPlayedRegularSeason": 56,
         "gamesPlayedPlayoffs": 5
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 86,
+    "gamesPlayedPlayoffs": 13
   },
   {
     "playerId": 100079,
     "playerName": "Steve West",
     "position": "C",
-    "gamesPlayedRegularSeason": 18,
-    "gamesPlayedPlayoffs": 6,
     "seasons": [
       {
         "season": 19781979,
         "gamesPlayedRegularSeason": 18,
         "gamesPlayedPlayoffs": 6
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 18,
+    "gamesPlayedPlayoffs": 6
   },
   {
     "playerId": 8446852,
     "playerName": "Steven Fletcher",
     "position": "D",
-    "gamesPlayedRegularSeason": 3,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 19881989,
         "gamesPlayedRegularSeason": 3,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 3,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 8457193,
     "playerName": "Stewart Malgunas",
     "position": "D",
-    "gamesPlayedRegularSeason": 29,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 19951996,
         "gamesPlayedRegularSeason": 29,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 29,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 8455521,
     "playerName": "Stu Barnes",
     "position": "C",
-    "gamesPlayedRegularSeason": 102,
-    "gamesPlayedPlayoffs": 6,
     "seasons": [
       {
         "season": 19911992,
@@ -9870,84 +9868,84 @@
         "gamesPlayedRegularSeason": 18,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 102,
+    "gamesPlayedPlayoffs": 6
   },
   {
     "playerId": 8448567,
     "playerName": "Stu Kulak",
     "position": "R",
-    "gamesPlayedRegularSeason": 18,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 19881989,
         "gamesPlayedRegularSeason": 18,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 18,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 8474001,
     "playerName": "TJ Galiardi",
     "position": "L",
-    "gamesPlayedRegularSeason": 38,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 20142015,
         "gamesPlayedRegularSeason": 38,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 38,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 8470854,
     "playerName": "Tanner Glass",
     "position": "L",
-    "gamesPlayedRegularSeason": 78,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 20112012,
         "gamesPlayedRegularSeason": 78,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 78,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 8476871,
     "playerName": "Tanner Pearson",
     "position": "L",
-    "gamesPlayedRegularSeason": 52,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 20252026,
         "gamesPlayedRegularSeason": 52,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 52,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 8460550,
     "playerName": "Tavis Hansen",
     "position": "R",
-    "gamesPlayedRegularSeason": 1,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 19941995,
         "gamesPlayedRegularSeason": 1,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 1,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 100080,
     "playerName": "Ted Green",
     "position": "D",
-    "gamesPlayedRegularSeason": 242,
-    "gamesPlayedPlayoffs": 39,
     "seasons": [
       {
         "season": 19751976,
@@ -9969,28 +9967,28 @@
         "gamesPlayedRegularSeason": 20,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 242,
+    "gamesPlayedPlayoffs": 39
   },
   {
     "playerId": 100081,
     "playerName": "Ted Hargreaves",
     "position": "C",
-    "gamesPlayedRegularSeason": 74,
-    "gamesPlayedPlayoffs": 4,
     "seasons": [
       {
         "season": 19731974,
         "gamesPlayedRegularSeason": 74,
         "gamesPlayedPlayoffs": 4
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 74,
+    "gamesPlayedPlayoffs": 4
   },
   {
     "playerId": 8457981,
     "playerName": "Teemu Selanne",
     "position": "R",
-    "gamesPlayedRegularSeason": 231,
-    "gamesPlayedPlayoffs": 6,
     "seasons": [
       {
         "season": 19921993,
@@ -10012,14 +10010,14 @@
         "gamesPlayedRegularSeason": 51,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 231,
+    "gamesPlayedPlayoffs": 6
   },
   {
     "playerId": 8449924,
     "playerName": "Teppo Numminen",
     "position": "D",
-    "gamesPlayedRegularSeason": 547,
-    "gamesPlayedPlayoffs": 26,
     "seasons": [
       {
         "season": 19881989,
@@ -10061,42 +10059,42 @@
         "gamesPlayedRegularSeason": 74,
         "gamesPlayedPlayoffs": 6
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 547,
+    "gamesPlayedPlayoffs": 26
   },
   {
     "playerId": 100082,
     "playerName": "Terry Ruskowski",
     "position": "C",
-    "gamesPlayedRegularSeason": 75,
-    "gamesPlayedPlayoffs": 8,
     "seasons": [
       {
         "season": 19781979,
         "gamesPlayedRegularSeason": 75,
         "gamesPlayedPlayoffs": 8
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 75,
+    "gamesPlayedPlayoffs": 8
   },
   {
     "playerId": 8483114,
     "playerName": "Thomas Milic",
     "position": "G",
-    "gamesPlayedRegularSeason": 3,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 20252026,
         "gamesPlayedRegularSeason": 3,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 3,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 8451697,
     "playerName": "Thomas Steen",
     "position": "C",
-    "gamesPlayedRegularSeason": 950,
-    "gamesPlayedPlayoffs": 56,
     "seasons": [
       {
         "season": 19811982,
@@ -10168,14 +10166,14 @@
         "gamesPlayedRegularSeason": 31,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 950,
+    "gamesPlayedPlayoffs": 56
   },
   {
     "playerId": 100083,
     "playerName": "Thommie Bergman",
     "position": "D",
-    "gamesPlayedRegularSeason": 234,
-    "gamesPlayedPlayoffs": 13,
     "seasons": [
       {
         "season": 19741975,
@@ -10197,14 +10195,14 @@
         "gamesPlayedRegularSeason": 62,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 234,
+    "gamesPlayedPlayoffs": 13
   },
   {
     "playerId": 8446454,
     "playerName": "Tie Domi",
     "position": "R",
-    "gamesPlayedRegularSeason": 161,
-    "gamesPlayedPlayoffs": 6,
     "seasons": [
       {
         "season": 19921993,
@@ -10221,14 +10219,14 @@
         "gamesPlayedRegularSeason": 31,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 161,
+    "gamesPlayedPlayoffs": 6
   },
   {
     "playerId": 8446082,
     "playerName": "Tim Cheveldae",
     "position": "G",
-    "gamesPlayedRegularSeason": 74,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 19931994,
@@ -10245,28 +10243,28 @@
         "gamesPlayedRegularSeason": 30,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 74,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 8472379,
     "playerName": "Tim Stapleton",
     "position": "C",
-    "gamesPlayedRegularSeason": 63,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 20112012,
         "gamesPlayedRegularSeason": 63,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 63,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 8451957,
     "playerName": "Tim Trimper",
     "position": "L",
-    "gamesPlayedRegularSeason": 140,
-    "gamesPlayedPlayoffs": 1,
     "seasons": [
       {
         "season": 19801981,
@@ -10288,14 +10286,14 @@
         "gamesPlayedRegularSeason": 5,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 140,
+    "gamesPlayedPlayoffs": 1
   },
   {
     "playerId": 8452347,
     "playerName": "Tim Watters",
     "position": "D",
-    "gamesPlayedRegularSeason": 438,
-    "gamesPlayedPlayoffs": 32,
     "seasons": [
       {
         "season": 19811982,
@@ -10332,28 +10330,28 @@
         "gamesPlayedRegularSeason": 36,
         "gamesPlayedPlayoffs": 4
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 438,
+    "gamesPlayedPlayoffs": 32
   },
   {
     "playerId": 8452574,
     "playerName": "Tim Young",
     "position": "C",
-    "gamesPlayedRegularSeason": 44,
-    "gamesPlayedPlayoffs": 1,
     "seasons": [
       {
         "season": 19831984,
         "gamesPlayedRegularSeason": 44,
         "gamesPlayedPlayoffs": 1
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 44,
+    "gamesPlayedPlayoffs": 1
   },
   {
     "playerId": 8470828,
     "playerName": "Toby Enstrom",
     "position": "D",
-    "gamesPlayedRegularSeason": 401,
-    "gamesPlayedPlayoffs": 15,
     "seasons": [
       {
         "season": 20112012,
@@ -10390,14 +10388,14 @@
         "gamesPlayedRegularSeason": 43,
         "gamesPlayedPlayoffs": 11
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 401,
+    "gamesPlayedPlayoffs": 15
   },
   {
     "playerId": 8446867,
     "playerName": "Todd Flichel",
     "position": "D",
-    "gamesPlayedRegularSeason": 6,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 19871988,
@@ -10414,28 +10412,28 @@
         "gamesPlayedRegularSeason": 3,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 6,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 8445520,
     "playerName": "Tom Bladon",
     "position": "D",
-    "gamesPlayedRegularSeason": 9,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 19801981,
         "gamesPlayedRegularSeason": 9,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 9,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 8446480,
     "playerName": "Tom Draper",
     "position": "G",
-    "gamesPlayedRegularSeason": 9,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 19881989,
@@ -10452,14 +10450,14 @@
         "gamesPlayedRegularSeason": 1,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 9,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 8449280,
     "playerName": "Tom Martin",
     "position": "L",
-    "gamesPlayedRegularSeason": 24,
-    "gamesPlayedPlayoffs": 3,
     "seasons": [
       {
         "season": 19841985,
@@ -10476,28 +10474,28 @@
         "gamesPlayedRegularSeason": 11,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 24,
+    "gamesPlayedPlayoffs": 3
   },
   {
     "playerId": 8473453,
     "playerName": "Trevor Lewis",
     "position": "C",
-    "gamesPlayedRegularSeason": 56,
-    "gamesPlayedPlayoffs": 8,
     "seasons": [
       {
         "season": 20202021,
         "gamesPlayedRegularSeason": 56,
         "gamesPlayedPlayoffs": 8
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 56,
+    "gamesPlayedPlayoffs": 8
   },
   {
     "playerId": 8449773,
     "playerName": "Troy Murray",
     "position": "C",
-    "gamesPlayedRegularSeason": 103,
-    "gamesPlayedPlayoffs": 7,
     "seasons": [
       {
         "season": 19911992,
@@ -10509,14 +10507,14 @@
         "gamesPlayedRegularSeason": 29,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 103,
+    "gamesPlayedPlayoffs": 7
   },
   {
     "playerId": 8477359,
     "playerName": "Tucker Poolman",
     "position": "D",
-    "gamesPlayedRegularSeason": 120,
-    "gamesPlayedPlayoffs": 14,
     "seasons": [
       {
         "season": 20172018,
@@ -10533,14 +10531,14 @@
         "gamesPlayedRegularSeason": 39,
         "gamesPlayedPlayoffs": 8
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 120,
+    "gamesPlayedPlayoffs": 14
   },
   {
     "playerId": 8474574,
     "playerName": "Tyler Myers",
     "position": "D",
-    "gamesPlayedRegularSeason": 270,
-    "gamesPlayedPlayoffs": 26,
     "seasons": [
       {
         "season": 20142015,
@@ -10567,28 +10565,28 @@
         "gamesPlayedRegularSeason": 80,
         "gamesPlayedPlayoffs": 6
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 270,
+    "gamesPlayedPlayoffs": 26
   },
   {
     "playerId": 8475726,
     "playerName": "Tyler Toffoli",
     "position": "C",
-    "gamesPlayedRegularSeason": 18,
-    "gamesPlayedPlayoffs": 5,
     "seasons": [
       {
         "season": 20232024,
         "gamesPlayedRegularSeason": 18,
         "gamesPlayedPlayoffs": 5
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 18,
+    "gamesPlayedPlayoffs": 5
   },
   {
     "playerId": 100084,
     "playerName": "Ulf Nilsson",
     "position": "C",
-    "gamesPlayedRegularSeason": 300,
-    "gamesPlayedPlayoffs": 42,
     "seasons": [
       {
         "season": 19741975,
@@ -10610,14 +10608,14 @@
         "gamesPlayedRegularSeason": 73,
         "gamesPlayedPlayoffs": 9
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 300,
+    "gamesPlayedPlayoffs": 42
   },
   {
     "playerId": 100085,
     "playerName": "Veli-Pekka Ketola",
     "position": "C",
-    "gamesPlayedRegularSeason": 218,
-    "gamesPlayedPlayoffs": 13,
     "seasons": [
       {
         "season": 19741975,
@@ -10634,14 +10632,14 @@
         "gamesPlayedRegularSeason": 64,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 218,
+    "gamesPlayedPlayoffs": 13
   },
   {
     "playerId": 8481572,
     "playerName": "Ville Heinola",
     "position": "D",
-    "gamesPlayedRegularSeason": 56,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 20192020,
@@ -10673,14 +10671,14 @@
         "gamesPlayedRegularSeason": 3,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 56,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 8476480,
     "playerName": "Vladislav Namestnikov",
     "position": "C",
-    "gamesPlayedRegularSeason": 233,
-    "gamesPlayedPlayoffs": 22,
     "seasons": [
       {
         "season": 20222023,
@@ -10702,14 +10700,14 @@
         "gamesPlayedRegularSeason": 57,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 233,
+    "gamesPlayedPlayoffs": 22
   },
   {
     "playerId": 8445901,
     "playerName": "Wade Campbell",
     "position": "D",
-    "gamesPlayedRegularSeason": 185,
-    "gamesPlayedPlayoffs": 6,
     "seasons": [
       {
         "season": 19821983,
@@ -10731,84 +10729,84 @@
         "gamesPlayedRegularSeason": 24,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 185,
+    "gamesPlayedPlayoffs": 6
   },
   {
     "playerId": 8482652,
     "playerName": "Walker Duehr",
     "position": "R",
-    "gamesPlayedRegularSeason": 3,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 20252026,
         "gamesPlayedRegularSeason": 3,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 3,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 100086,
     "playerName": "Wally Boyer",
     "position": "C",
-    "gamesPlayedRegularSeason": 69,
-    "gamesPlayedPlayoffs": 14,
     "seasons": [
       {
         "season": 19721973,
         "gamesPlayedRegularSeason": 69,
         "gamesPlayedPlayoffs": 14
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 69,
+    "gamesPlayedPlayoffs": 14
   },
   {
     "playerId": 8446420,
     "playerName": "Wayne Dillon",
     "position": "C",
-    "gamesPlayedRegularSeason": 13,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 19791980,
         "gamesPlayedRegularSeason": 13,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 13,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 8449328,
     "playerName": "Wayne Mcbean",
     "position": "D",
-    "gamesPlayedRegularSeason": 31,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 19931994,
         "gamesPlayedRegularSeason": 31,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 31,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 8452419,
     "playerName": "William Whelton",
     "position": "D",
-    "gamesPlayedRegularSeason": 2,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 19801981,
         "gamesPlayedRegularSeason": 2,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 2,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 8448858,
     "playerName": "Willy Lindstrom",
     "position": "R",
-    "gamesPlayedRegularSeason": 604,
-    "gamesPlayedPlayoffs": 55,
     "seasons": [
       {
         "season": 19751976,
@@ -10850,28 +10848,28 @@
         "gamesPlayedRegularSeason": 63,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 604,
+    "gamesPlayedPlayoffs": 55
   },
   {
     "playerId": 8458613,
     "playerName": "Yan Kaminsky",
     "position": "L",
-    "gamesPlayedRegularSeason": 1,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 19931994,
         "gamesPlayedRegularSeason": 1,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 1,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 8474567,
     "playerName": "Zach Bogosian",
     "position": "D",
-    "gamesPlayedRegularSeason": 194,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 20112012,
@@ -10893,14 +10891,14 @@
         "gamesPlayedRegularSeason": 41,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 194,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 8474743,
     "playerName": "Zach Redmond",
     "position": "D",
-    "gamesPlayedRegularSeason": 18,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 20122013,
@@ -10912,20 +10910,22 @@
         "gamesPlayedRegularSeason": 10,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 18,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 8477482,
     "playerName": "Zachary Sanford",
     "position": "L",
-    "gamesPlayedRegularSeason": 18,
-    "gamesPlayedPlayoffs": 0,
     "seasons": [
       {
         "season": 20212022,
         "gamesPlayedRegularSeason": 18,
         "gamesPlayedPlayoffs": 0
       }
-    ]
+    ],
+    "gamesPlayedRegularSeason": 18,
+    "gamesPlayedPlayoffs": 0
   }
 ]

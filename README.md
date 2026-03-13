@@ -46,7 +46,7 @@ When populating `data/wpg_player_rookie_cards.json`, use this priority order for
 
 1. **Modern era:** use the player's **base-set Upper Deck Young Guns** card when one exists.
 2. **Vintage era (OPC years):** use the player's **base O-Pee-Chee** rookie card.
-3. **Pre-OPC seasons:** use the player's **base Topps** rookie card.
+3. **Pre-OPC seasons:** use the player's most widely accepted **base Topps, Parkhurst, or other mainstream issue** rookie card for that season.
 4. **No Young Guns / ambiguous modern cases:** choose the most widely accepted mainstream rookie from the player's rookie season and keep choices consistent across the dataset.
 
 Store only:

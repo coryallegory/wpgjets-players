@@ -72,43 +72,29 @@ function mergePlayersById(players) {
 }
 
 export async function loadPlayers() {
-  const [playersResponse, whaPlayersResponse, rookieCardsResponse, whaRookieCardsResponse] =
-    await Promise.all([
-      fetch('data/wpg_players.json'),
-      fetch('data/wha_winnipeg_jets_players.json'),
-      fetch('data/wpg_player_rookie_cards.json'),
-      fetch('data/wha_winnipeg_jets_player_rookie_cards.json'),
-    ]);
+  const [playersResponse, rookieCardsResponse] = await Promise.all([
+    fetch('data/wpg_players.json'),
+    fetch('data/wpg_player_rookie_cards.json'),
+  ]);
 
   if (!playersResponse.ok) {
     throw new Error(`Failed to load player data: ${playersResponse.status}`);
   }
 
-  if (!whaPlayersResponse.ok) {
-    throw new Error(`Failed to load WHA player data: ${whaPlayersResponse.status}`);
-  }
 
   if (!rookieCardsResponse.ok) {
     throw new Error(`Failed to load rookie card data: ${rookieCardsResponse.status}`);
   }
 
-  if (!whaRookieCardsResponse.ok) {
-    throw new Error(`Failed to load WHA rookie card data: ${whaRookieCardsResponse.status}`);
-  }
 
-  const [playersData, whaPlayersData, rookieCardsData, whaRookieCardsData] = await Promise.all([
+  const [playersData, rookieCardsData] = await Promise.all([
     playersResponse.json(),
-    whaPlayersResponse.json(),
     rookieCardsResponse.json(),
-    whaRookieCardsResponse.json(),
   ]);
 
-  const mergedPlayers = mergePlayersById([...playersData, ...whaPlayersData]);
-  const mergedRookieCards = [...rookieCardsData, ...whaRookieCardsData];
+  const rookieCardsByPlayerId = new Map(rookieCardsData.map((card) => [card.playerId, card]));
 
-  const rookieCardsByPlayerId = new Map(mergedRookieCards.map((card) => [card.playerId, card]));
-
-  return mergedPlayers.map((player) => {
+  return playersData.map((player) => {
     const firstSeason = findFirstSeason(player.seasons);
     const rookieCard = rookieCardsByPlayerId.get(player.playerId);
 

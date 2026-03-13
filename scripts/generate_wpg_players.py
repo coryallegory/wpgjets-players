@@ -119,6 +119,34 @@ def normalize_name(player_obj: dict) -> str:
     return f"{first} {last}".strip()
 
 
+def merge_source_rows(*source_groups: list[tuple[dict, str]]) -> list[tuple[dict, str]]:
+    merged: dict[int, tuple[dict, str]] = {}
+
+    for source_group in source_groups:
+        for player_obj, fallback_position in source_group:
+            player_id = int(player_obj["playerId"])
+            existing = merged.get(player_id)
+            if existing is None:
+                merged[player_id] = (player_obj, fallback_position)
+                continue
+
+            existing_obj, existing_fallback = existing
+            existing_gp = int(existing_obj.get("gamesPlayed") or 0)
+            candidate_gp = int(player_obj.get("gamesPlayed") or 0)
+
+            if candidate_gp > existing_gp:
+                winner_obj = player_obj
+            elif candidate_gp < existing_gp:
+                winner_obj = existing_obj
+            else:
+                winner_obj = existing_obj if normalize_name(existing_obj) else player_obj
+
+            winner_fallback = "G" if (existing_fallback == "G" or fallback_position == "G") else "SKATER"
+            merged[player_id] = (winner_obj, winner_fallback)
+
+    return list(merged.values())
+
+
 def upsert_player(
     players: dict[int, PlayerRecord],
     player_obj: dict,
@@ -167,24 +195,33 @@ def build_dataset() -> list[dict]:
                 if game_type not in game_types:
                     continue
 
-                skaters = fetch_all_stats_rows(
-                    "skater",
-                    team_abbrev=team_abbreviation,
-                    season=season,
-                    game_type=game_type,
-                )
-                goalies = fetch_all_stats_rows(
-                    "goalie",
-                    team_abbrev=team_abbreviation,
-                    season=season,
-                    game_type=game_type,
-                )
+                season_stats_payload = fetch_club_stats(team_abbreviation, season, game_type)
+                club_rows = [
+                    (skater, "SKATER") for skater in season_stats_payload.get("skaters", [])
+                ] + [
+                    (goalie, "G") for goalie in season_stats_payload.get("goalies", [])
+                ]
 
-                for skater in skaters:
-                    upsert_player(players, skater, season, game_type, position_fallback="SKATER")
+                stats_rows = [
+                    (skater, "SKATER")
+                    for skater in fetch_all_stats_rows(
+                        "skater",
+                        team_abbrev=team_abbreviation,
+                        season=season,
+                        game_type=game_type,
+                    )
+                ] + [
+                    (goalie, "G")
+                    for goalie in fetch_all_stats_rows(
+                        "goalie",
+                        team_abbrev=team_abbreviation,
+                        season=season,
+                        game_type=game_type,
+                    )
+                ]
 
-                for goalie in goalies:
-                    upsert_player(players, goalie, season, game_type, position_fallback="G")
+                for player_obj, position_fallback in merge_source_rows(club_rows, stats_rows):
+                    upsert_player(players, player_obj, season, game_type, position_fallback=position_fallback)
 
     results: list[dict] = []
     for player in players.values():

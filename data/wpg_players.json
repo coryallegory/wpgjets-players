@@ -684,6 +684,20 @@
     "gamesPlayedPlayoffs": 24
   },
   {
+    "playerId": 8473493,
+    "playerName": "Ben Maxwell",
+    "position": "C",
+    "seasons": [
+      {
+        "season": 20112012,
+        "gamesPlayedRegularSeason": 5,
+        "gamesPlayedPlayoffs": 0
+      }
+    ],
+    "gamesPlayedRegularSeason": 5,
+    "gamesPlayedPlayoffs": 0
+  },
+  {
     "playerId": 8448860,
     "playerName": "Bengt Lundholm",
     "position": "L",
@@ -4925,7 +4939,7 @@
         "gamesPlayedPlayoffs": 0
       }
     ],
-    "gamesPlayedRegularSeason": 46,
+    "gamesPlayedRegularSeason": 61,
     "gamesPlayedPlayoffs": 11
   },
   {

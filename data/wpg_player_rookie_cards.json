@@ -1199,16 +1199,16 @@
   {
     "playerId": 8482192,
     "playerName": "Isaak Phillips",
-    "isYG": false,
-    "set": "",
-    "cardNumber": ""
+    "isYG": true,
+    "set": "2021-22 Upper Deck Extended",
+    "cardNumber": "731"
   },
   {
     "playerId": 8482765,
     "playerName": "Isak Rosen",
-    "isYG": false,
-    "set": "",
-    "cardNumber": ""
+    "isYG": true,
+    "set": "2023-24 Upper Deck Extended",
+    "cardNumber": "704"
   },
   {
     "playerId": 8477076,
@@ -1227,9 +1227,9 @@
   {
     "playerId": 8480196,
     "playerName": "Jacob Bryson",
-    "isYG": false,
-    "set": "",
-    "cardNumber": ""
+    "isYG": true,
+    "set": "2021-22 Upper Deck Series 1",
+    "cardNumber": "248"
   },
   {
     "playerId": 8476885,
@@ -2830,9 +2830,9 @@
   {
     "playerId": 8482652,
     "playerName": "Walker Duehr",
-    "isYG": false,
-    "set": "",
-    "cardNumber": ""
+    "isYG": true,
+    "set": "2023-24 Upper Deck",
+    "cardNumber": "475"
   },
   {
     "playerId": 8446420,

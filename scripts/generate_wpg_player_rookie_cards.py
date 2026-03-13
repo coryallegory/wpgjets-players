@@ -39,35 +39,27 @@ def normalize_existing(existing_rows: list[dict]) -> dict[int, dict]:
 
 def build_rookie_card_dataset(players: list[dict], existing_rows: list[dict]) -> list[dict]:
     existing_by_player_id = normalize_existing(existing_rows)
-    results: list[dict] = []
+    merged_by_player_id: dict[int, dict] = existing_by_player_id.copy()
 
     for player in players:
         player_id = int(player["playerId"])
         player_name = str(player.get("playerName") or "")
-        existing = existing_by_player_id.get(player_id)
+        existing = merged_by_player_id.get(player_id)
 
         if existing is None:
-            results.append(
-                {
-                    "playerId": player_id,
-                    "playerName": player_name,
-                    "isYG": False,
-                    "set": "",
-                    "cardNumber": "",
-                }
-            )
-            continue
-
-        results.append(
-            {
+            merged_by_player_id[player_id] = {
                 "playerId": player_id,
                 "playerName": player_name,
-                "isYG": bool(existing.get("isYG", False)),
-                "set": str(existing.get("set") or ""),
-                "cardNumber": str(existing.get("cardNumber") or ""),
+                "isYG": False,
+                "set": "",
+                "cardNumber": "",
             }
-        )
+            continue
 
+        if player_name:
+            existing["playerName"] = player_name
+
+    results = list(merged_by_player_id.values())
     results.sort(key=lambda row: (row["playerName"], row["playerId"]))
     return results
 

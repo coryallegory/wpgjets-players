@@ -31,6 +31,51 @@ class PlayerRecord:
     seasons: dict[int, PlayerSeason] = field(default_factory=dict)
 
 
+def load_existing_dataset(path: Path) -> list[dict]:
+    if not path.exists():
+        return []
+    return json.loads(path.read_text(encoding="utf-8"))
+
+
+def load_existing_players(path: Path) -> dict[int, PlayerRecord]:
+    rows = load_existing_dataset(path)
+    players: dict[int, PlayerRecord] = {}
+
+    for row in rows:
+        player_id_raw = row.get("playerId")
+        if player_id_raw is None:
+            continue
+
+        try:
+            player_id = int(player_id_raw)
+        except (TypeError, ValueError):
+            continue
+
+        record = PlayerRecord(
+            player_id=player_id,
+            player_name=str(row.get("playerName") or ""),
+            position=str(row.get("position") or ""),
+        )
+
+        for season_row in row.get("seasons", []):
+            season_raw = season_row.get("season")
+            if season_raw is None:
+                continue
+            try:
+                season = int(season_raw)
+            except (TypeError, ValueError):
+                continue
+
+            record.seasons[season] = PlayerSeason(
+                regular_gp=max(0, int(season_row.get("gamesPlayedRegularSeason") or 0)),
+                playoff_gp=max(0, int(season_row.get("gamesPlayedPlayoffs") or 0)),
+            )
+
+        players[player_id] = record
+
+    return players
+
+
 def fetch_json(url: str):
     request = urllib.request.Request(
         url,
@@ -181,6 +226,38 @@ def upsert_player(
         season_stats.playoff_gp += games_played
 
 
+def merge_generated_players(
+    existing_players: dict[int, PlayerRecord],
+    generated_players: dict[int, PlayerRecord],
+) -> dict[int, PlayerRecord]:
+    merged = existing_players.copy()
+
+    for player_id, generated in generated_players.items():
+        existing = merged.get(player_id)
+
+        if existing is None:
+            merged[player_id] = generated
+            continue
+
+        if generated.player_name:
+            existing.player_name = generated.player_name
+        if existing.position != "G" and generated.position == "G":
+            existing.position = "G"
+        elif not existing.position and generated.position:
+            existing.position = generated.position
+
+        for season, generated_season in generated.seasons.items():
+            existing_season = existing.seasons.get(season)
+            if existing_season is None:
+                existing.seasons[season] = generated_season
+                continue
+
+            existing_season.regular_gp = max(existing_season.regular_gp, generated_season.regular_gp)
+            existing_season.playoff_gp = max(existing_season.playoff_gp, generated_season.playoff_gp)
+
+    return merged
+
+
 def build_dataset() -> list[dict]:
     players: dict[int, PlayerRecord] = {}
 
@@ -223,8 +300,10 @@ def build_dataset() -> list[dict]:
                 for player_obj, position_fallback in merge_source_rows(club_rows, stats_rows):
                     upsert_player(players, player_obj, season, game_type, position_fallback=position_fallback)
 
+    merged_players = merge_generated_players(load_existing_players(OUTPUT_PATH), players)
+
     results: list[dict] = []
-    for player in players.values():
+    for player in merged_players.values():
         season_rows = []
         total_regular = 0
         total_playoff = 0

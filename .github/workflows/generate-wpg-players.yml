@@ -2,6 +2,8 @@ name: Generate Winnipeg Jets Player Dataset
 
 on:
   workflow_dispatch:
+  schedule:
+    - cron: "23 6 * * 1"
 
 permissions:
   contents: write

@@ -762,11 +762,11 @@
     "seasons": [
       {
         "season": 20112012,
-        "gamesPlayedRegularSeason": 9,
+        "gamesPlayedRegularSeason": 5,
         "gamesPlayedPlayoffs": 0
       }
     ],
-    "gamesPlayedRegularSeason": 9,
+    "gamesPlayedRegularSeason": 5,
     "gamesPlayedPlayoffs": 0
   },
   {
@@ -5346,9 +5346,14 @@
         "season": 20242025,
         "gamesPlayedRegularSeason": 15,
         "gamesPlayedPlayoffs": 11
+      },
+      {
+        "season": 20252026,
+        "gamesPlayedRegularSeason": 46,
+        "gamesPlayedPlayoffs": 0
       }
     ],
-    "gamesPlayedRegularSeason": 15,
+    "gamesPlayedRegularSeason": 61,
     "gamesPlayedPlayoffs": 11
   },
   {
@@ -8457,6 +8462,20 @@
       }
     ],
     "gamesPlayedRegularSeason": 78,
+    "gamesPlayedPlayoffs": 0
+  },
+  {
+    "playerId": 8476871,
+    "playerName": "Tanner Pearson",
+    "position": "L",
+    "seasons": [
+      {
+        "season": 20252026,
+        "gamesPlayedRegularSeason": 52,
+        "gamesPlayedPlayoffs": 0
+      }
+    ],
+    "gamesPlayedRegularSeason": 52,
     "gamesPlayedPlayoffs": 0
   },
   {

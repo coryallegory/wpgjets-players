@@ -301,32 +301,25 @@
     "cardNumber": ""
   },
   {
-    "playerId": 100006,
-    "playerName": "Bill Lesuk",
-    "isYG": false,
-    "set": "",
-    "cardNumber": ""
-  },
-  {
     "playerId": 8448804,
     "playerName": "Bill Lesuk",
     "isYG": false,
-    "set": "",
-    "cardNumber": ""
+    "set": "1972-73 O-Pee-Chee",
+    "cardNumber": "245"
   },
   {
     "playerId": 8450843,
     "playerName": "Bill Riley",
     "isYG": false,
-    "set": "",
-    "cardNumber": ""
+    "set": "1977-78 O-Pee-Chee",
+    "cardNumber": "360"
   },
   {
     "playerId": 100007,
     "playerName": "Bill Sutherland",
     "isYG": false,
-    "set": "",
-    "cardNumber": ""
+    "set": "1968-69 O-Pee-Chee",
+    "cardNumber": "196"
   },
   {
     "playerId": 8471218,
@@ -339,50 +332,43 @@
     "playerId": 100008,
     "playerName": "Bob Ash",
     "isYG": false,
-    "set": "",
-    "cardNumber": ""
+    "set": "1972-73 Winnipeg Jets (WHA)",
+    "cardNumber": "NNO"
   },
   {
     "playerId": 8446719,
     "playerName": "Bob Essensa",
     "isYG": false,
-    "set": "",
-    "cardNumber": ""
-  },
-  {
-    "playerId": 100009,
-    "playerName": "Bob Guindon",
-    "isYG": false,
-    "set": "",
-    "cardNumber": ""
+    "set": "1990-91 O-Pee-Chee",
+    "cardNumber": "119"
   },
   {
     "playerId": 8448374,
     "playerName": "Bob Joyce",
     "isYG": false,
-    "set": "",
-    "cardNumber": ""
+    "set": "1988-89 O-Pee-Chee",
+    "cardNumber": "2"
   },
   {
     "playerId": 100010,
     "playerName": "Bob Woytowich",
     "isYG": false,
-    "set": "",
-    "cardNumber": ""
+    "set": "1965-66 Topps",
+    "cardNumber": "100"
   },
   {
     "playerId": 8446435,
     "playerName": "Bobby Dollas",
     "isYG": false,
-    "set": "",
-    "cardNumber": ""
+    "set": "1993-94 O-Pee-Chee Premier",
+    "cardNumber": "491"
   },
   {
     "playerId": 8447419,
     "playerName": "Bobby Guindon",
     "isYG": false,
-    "set": "",
-    "cardNumber": ""
+    "set": "1974-75 O-Pee-Chee - WHA",
+    "cardNumber": "26"
   },
   {
     "playerId": 8448108,
@@ -3496,14 +3482,14 @@
     "playerId": 8474743,
     "playerName": "Zach Redmond",
     "isYG": false,
-    "set": "",
-    "cardNumber": ""
+    "set": "2013-14 Select",
+    "cardNumber": "239"
   },
   {
     "playerId": 8477482,
     "playerName": "Zachary Sanford",
-    "isYG": false,
-    "set": "",
-    "cardNumber": ""
+    "isYG": true,
+    "set": "2016-17 Upper Deck Series 1",
+    "cardNumber": "215"
   }
 ]

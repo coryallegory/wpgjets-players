@@ -181,6 +181,7 @@ async function loadPlayers() {
       isYoungGuns: rookieCard?.isYG ?? false,
       rookieCardSet: rookieCard?.set ?? '',
       rookieCardNumber: rookieCard?.cardNumber ?? '',
+      rookieCardIsOwned: rookieCard?.isOwned ?? false,
     };
   });
 

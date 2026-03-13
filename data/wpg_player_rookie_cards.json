@@ -3,6 +3,7 @@
     "playerId": 8445725,
     "playerName": "Aaron Broten",
     "isYG": false,
+    "isOwned": false,
     "set": "1982-83 O-Pee-Chee",
     "cardNumber": "136"
   },
@@ -10,6 +11,7 @@
     "playerId": 8471451,
     "playerName": "Aaron Gagnon",
     "isYG": true,
+    "isOwned": false,
     "set": "2009-10 Upper Deck",
     "cardNumber": "459"
   },
@@ -17,6 +19,7 @@
     "playerId": 100000,
     "playerName": "Ab McDonald",
     "isYG": false,
+    "isOwned": false,
     "set": "1958-59 Parkhurst",
     "cardNumber": "30"
   },
@@ -24,6 +27,7 @@
     "playerId": 8478996,
     "playerName": "Adam Brooks",
     "isYG": true,
+    "isOwned": false,
     "set": "2019-20 Upper Deck",
     "cardNumber": "526"
   },
@@ -31,6 +35,7 @@
     "playerId": 8476392,
     "playerName": "Adam Lowry",
     "isYG": true,
+    "isOwned": false,
     "set": "2014-15 Upper Deck",
     "cardNumber": "249"
   },
@@ -38,6 +43,7 @@
     "playerId": 8471385,
     "playerName": "Adam Pardy",
     "isYG": true,
+    "isOwned": false,
     "set": "2008-09 Upper Deck",
     "cardNumber": "203"
   },
@@ -45,6 +51,7 @@
     "playerId": 8445877,
     "playerName": "Al Cameron",
     "isYG": false,
+    "isOwned": false,
     "set": "1977-78 O-Pee-Chee",
     "cardNumber": "48"
   },
@@ -52,6 +59,7 @@
     "playerId": 8471219,
     "playerName": "Al Montoya",
     "isYG": true,
+    "isOwned": false,
     "set": "2005-06 Upper Deck",
     "cardNumber": "455"
   },
@@ -59,6 +67,7 @@
     "playerId": 100001,
     "playerName": "Alain Beaule",
     "isYG": false,
+    "isOwned": false,
     "set": "1973-74 Quebec Nordiques - Postcards (WHA)",
     "cardNumber": "2"
   },
@@ -66,6 +75,7 @@
     "playerId": 8446052,
     "playerName": "Alain Chevrier",
     "isYG": false,
+    "isOwned": false,
     "set": "1986-87 O-Pee-Chee",
     "cardNumber": "225"
   },
@@ -73,6 +83,7 @@
     "playerId": 8448467,
     "playerName": "Alan Kerr",
     "isYG": false,
+    "isOwned": false,
     "set": "1988-89 O-Pee-Chee",
     "cardNumber": "63"
   },
@@ -80,6 +91,7 @@
     "playerId": 8480113,
     "playerName": "Alex Iafallo",
     "isYG": true,
+    "isOwned": false,
     "set": "2017-18 Upper Deck",
     "cardNumber": "458"
   },
@@ -87,6 +99,7 @@
     "playerId": 8475788,
     "playerName": "Alexander Burmistrov",
     "isYG": true,
+    "isOwned": false,
     "set": "2010-11 Upper Deck",
     "cardNumber": "203"
   },
@@ -94,6 +107,7 @@
     "playerId": 8467412,
     "playerName": "Alexei Ponikarovsky",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -101,6 +115,7 @@
     "playerId": 8458487,
     "playerName": "Alexei Zhamnov",
     "isYG": true,
+    "isOwned": false,
     "set": "1992-93 Upper Deck",
     "cardNumber": "578"
   },
@@ -108,6 +123,7 @@
     "playerId": 8451981,
     "playerName": "Alfie Turcotte",
     "isYG": false,
+    "isOwned": false,
     "set": "1990-91 ProCards AHL",
     "cardNumber": "200"
   },
@@ -115,6 +131,7 @@
     "playerId": 8459359,
     "playerName": "Anatoli Fedotov",
     "isYG": false,
+    "isOwned": false,
     "set": "1993-94 Upper Deck",
     "cardNumber": "38"
   },
@@ -122,6 +139,7 @@
     "playerId": 100002,
     "playerName": "Anders Hedberg",
     "isYG": false,
+    "isOwned": false,
     "set": "1974-75 O-Pee-Chee - WHA",
     "cardNumber": "17"
   },
@@ -129,6 +147,7 @@
     "playerId": 8451691,
     "playerName": "Anders Steen",
     "isYG": false,
+    "isOwned": false,
     "set": "1983-84 Swedish Semic Elitserien",
     "cardNumber": "118"
   },
@@ -136,6 +155,7 @@
     "playerId": 8481642,
     "playerName": "Andrei Chibisov",
     "isYG": false,
+    "isOwned": false,
     "set": "2020-21 O-Pee-Chee",
     "cardNumber": "515"
   },
@@ -143,6 +163,7 @@
     "playerId": 8477429,
     "playerName": "Andrew Copp",
     "isYG": true,
+    "isOwned": false,
     "set": "2015-16 Upper Deck",
     "cardNumber": "205"
   },
@@ -150,6 +171,7 @@
     "playerId": 8471217,
     "playerName": "Andrew Ladd",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -157,6 +179,7 @@
     "playerId": 8449326,
     "playerName": "Andrew Mcbain",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -164,6 +187,7 @@
     "playerId": 8445683,
     "playerName": "Andy Brickley",
     "isYG": false,
+    "isOwned": false,
     "set": "1989-90 O-Pee-Chee",
     "cardNumber": "29"
   },
@@ -171,6 +195,7 @@
     "playerId": 8449540,
     "playerName": "Anssi Melametsa",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -178,6 +203,7 @@
     "playerId": 8475868,
     "playerName": "Anthony Bitetto",
     "isYG": false,
+    "isOwned": false,
     "set": "2015-16 O-Pee-Chee",
     "cardNumber": "510"
   },
@@ -185,6 +211,7 @@
     "playerId": 8448381,
     "playerName": "Anthony Joseph",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -192,6 +219,7 @@
     "playerId": 8474061,
     "playerName": "Anthony Peluso",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -199,6 +227,7 @@
     "playerId": 8468704,
     "playerName": "Antti Miettinen",
     "isYG": true,
+    "isOwned": false,
     "set": "2003-04 Upper Deck",
     "cardNumber": "215"
   },
@@ -206,6 +235,7 @@
     "playerId": 8455629,
     "playerName": "Arto Blomsten",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -213,6 +243,7 @@
     "playerId": 8473459,
     "playerName": "Arturs Kulda",
     "isYG": true,
+    "isOwned": false,
     "set": "2010-11 Upper Deck",
     "cardNumber": "204"
   },
@@ -220,6 +251,7 @@
     "playerId": 8478040,
     "playerName": "Austin Poganski",
     "isYG": true,
+    "isOwned": false,
     "set": "2020-21 Upper Deck",
     "cardNumber": "460"
   },
@@ -227,6 +259,7 @@
     "playerId": 8479536,
     "playerName": "Axel Jonsson-Fjallby",
     "isYG": true,
+    "isOwned": false,
     "set": "2021-22 Upper Deck",
     "cardNumber": "734"
   },
@@ -234,6 +267,7 @@
     "playerId": 8448745,
     "playerName": "Barry Legge",
     "isYG": false,
+    "isOwned": false,
     "set": "1980-81 Pepsi-Cola Caps",
     "cardNumber": "129"
   },
@@ -241,6 +275,7 @@
     "playerId": 8448876,
     "playerName": "Barry Long",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -248,6 +283,7 @@
     "playerId": 8449555,
     "playerName": "Barry Melrose",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -255,6 +291,7 @@
     "playerId": 8475279,
     "playerName": "Ben Chiarot",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -262,6 +299,7 @@
     "playerId": 8473493,
     "playerName": "Ben Maxwell",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -269,6 +307,7 @@
     "playerId": 8448860,
     "playerName": "Bengt Lundholm",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -276,6 +315,7 @@
     "playerId": 100004,
     "playerName": "Bill Davis",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -283,6 +323,7 @@
     "playerId": 8446363,
     "playerName": "Bill Derlago",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -290,6 +331,7 @@
     "playerId": 100005,
     "playerName": "Bill Holden",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -297,6 +339,7 @@
     "playerId": 8448804,
     "playerName": "Bill Lesuk",
     "isYG": false,
+    "isOwned": false,
     "set": "1972-73 O-Pee-Chee",
     "cardNumber": "245"
   },
@@ -304,6 +347,7 @@
     "playerId": 8450843,
     "playerName": "Bill Riley",
     "isYG": false,
+    "isOwned": false,
     "set": "1977-78 O-Pee-Chee",
     "cardNumber": "360"
   },
@@ -311,6 +355,7 @@
     "playerId": 100007,
     "playerName": "Bill Sutherland",
     "isYG": false,
+    "isOwned": false,
     "set": "1968-69 O-Pee-Chee",
     "cardNumber": "196"
   },
@@ -318,6 +363,7 @@
     "playerId": 8471218,
     "playerName": "Blake Wheeler",
     "isYG": true,
+    "isOwned": false,
     "set": "2008-09 Upper Deck",
     "cardNumber": "202"
   },
@@ -325,6 +371,7 @@
     "playerId": 100008,
     "playerName": "Bob Ash",
     "isYG": false,
+    "isOwned": false,
     "set": "1972-73 Winnipeg Jets (WHA)",
     "cardNumber": "NNO"
   },
@@ -332,13 +379,23 @@
     "playerId": 8446719,
     "playerName": "Bob Essensa",
     "isYG": false,
+    "isOwned": false,
     "set": "1990-91 O-Pee-Chee",
     "cardNumber": "119"
+  },
+  {
+    "playerId": 100009,
+    "playerName": "Bob Guindon",
+    "isYG": false,
+    "isOwned": false,
+    "set": "",
+    "cardNumber": ""
   },
   {
     "playerId": 8448374,
     "playerName": "Bob Joyce",
     "isYG": false,
+    "isOwned": false,
     "set": "1988-89 O-Pee-Chee",
     "cardNumber": "2"
   },
@@ -346,6 +403,7 @@
     "playerId": 100010,
     "playerName": "Bob Woytowich",
     "isYG": false,
+    "isOwned": false,
     "set": "1965-66 Topps",
     "cardNumber": "100"
   },
@@ -353,6 +411,7 @@
     "playerId": 8446435,
     "playerName": "Bobby Dollas",
     "isYG": false,
+    "isOwned": false,
     "set": "1993-94 O-Pee-Chee Premier",
     "cardNumber": "491"
   },
@@ -360,6 +419,7 @@
     "playerId": 8447419,
     "playerName": "Bobby Guindon",
     "isYG": false,
+    "isOwned": false,
     "set": "1974-75 O-Pee-Chee - WHA",
     "cardNumber": "26"
   },
@@ -367,6 +427,7 @@
     "playerId": 8448108,
     "playerName": "Bobby Hull",
     "isYG": false,
+    "isOwned": false,
     "set": "1958-59 Topps",
     "cardNumber": "66"
   },
@@ -374,6 +435,7 @@
     "playerId": 8458963,
     "playerName": "Boris Mironov",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -381,6 +443,7 @@
     "playerId": 8445443,
     "playerName": "Brad Berry",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -388,6 +451,7 @@
     "playerId": 8448366,
     "playerName": "Brad Jones",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -395,6 +459,7 @@
     "playerId": 8483471,
     "playerName": "Brad Lambert",
     "isYG": true,
+    "isOwned": false,
     "set": "2024-25 Upper Deck",
     "cardNumber": "228"
   },
@@ -402,6 +467,7 @@
     "playerId": 8479293,
     "playerName": "Brandon Tanev",
     "isYG": true,
+    "isOwned": false,
     "set": "2016-17 Upper Deck",
     "cardNumber": "467"
   },
@@ -409,6 +475,7 @@
     "playerId": 8477962,
     "playerName": "Brendan Lemieux",
     "isYG": true,
+    "isOwned": false,
     "set": "2017-18 Upper Deck",
     "cardNumber": "487"
   },
@@ -416,6 +483,7 @@
     "playerId": 8475455,
     "playerName": "Brenden Dillon",
     "isYG": true,
+    "isOwned": false,
     "set": "2012-13 Upper Deck",
     "cardNumber": "220"
   },
@@ -423,6 +491,7 @@
     "playerId": 8445118,
     "playerName": "Brent Ashton",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -430,6 +499,7 @@
     "playerId": 8448053,
     "playerName": "Brent Hughes",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -437,6 +507,7 @@
     "playerId": 8458212,
     "playerName": "Brent Thompson",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -444,6 +515,7 @@
     "playerId": 8471978,
     "playerName": "Brett Festerling",
     "isYG": true,
+    "isOwned": false,
     "set": "2008-09 Upper Deck",
     "cardNumber": "452"
   },
@@ -451,6 +523,7 @@
     "playerId": 8474050,
     "playerName": "Brett MacLean",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -458,6 +531,7 @@
     "playerId": 100012,
     "playerName": "Brian Cadle",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -465,6 +539,7 @@
     "playerId": 8447701,
     "playerName": "Brian Hayward",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -472,6 +547,7 @@
     "playerId": 8449487,
     "playerName": "Brian McReynolds",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -479,6 +555,7 @@
     "playerId": 8449742,
     "playerName": "Brian Mullen",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -486,6 +563,7 @@
     "playerId": 8473565,
     "playerName": "Brian Strait",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -493,6 +571,7 @@
     "playerId": 8446705,
     "playerName": "Bryan Erickson",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -500,6 +579,7 @@
     "playerId": 8473412,
     "playerName": "Bryan Little",
     "isYG": true,
+    "isOwned": false,
     "set": "2007-08 Upper Deck",
     "cardNumber": "205"
   },
@@ -507,6 +587,7 @@
     "playerId": 8449137,
     "playerName": "Bryan Marchment",
     "isYG": false,
+    "isOwned": false,
     "set": "1991-92 O-Pee-Chee",
     "cardNumber": "116"
   },
@@ -514,6 +595,7 @@
     "playerId": 8449316,
     "playerName": "Bryan Maxwell",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -521,6 +603,7 @@
     "playerId": 8478058,
     "playerName": "CJ Suess",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -528,6 +611,7 @@
     "playerId": 100013,
     "playerName": "Cal Swenson",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -535,6 +619,7 @@
     "playerId": 8476799,
     "playerName": "Cameron Schilling",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -542,6 +627,7 @@
     "playerId": 8477472,
     "playerName": "Carl Dahlstrom",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -549,6 +635,7 @@
     "playerId": 8475159,
     "playerName": "Carl Klingberg",
     "isYG": true,
+    "isOwned": false,
     "set": "2011-12 Upper Deck",
     "cardNumber": "247"
   },
@@ -556,6 +643,7 @@
     "playerId": 8462035,
     "playerName": "Chad Kilger",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -563,6 +651,7 @@
     "playerId": 8478029,
     "playerName": "Chase De Leo",
     "isYG": true,
+    "isOwned": false,
     "set": "2016-17 Upper Deck",
     "cardNumber": "485"
   },
@@ -570,6 +659,7 @@
     "playerId": 100014,
     "playerName": "Chris Bordeleau",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -577,6 +667,7 @@
     "playerId": 8462152,
     "playerName": "Chris Mason",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -584,6 +675,7 @@
     "playerId": 8469501,
     "playerName": "Chris Thorburn",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -591,6 +683,7 @@
     "playerId": 8475236,
     "playerName": "Cody Eakin",
     "isYG": true,
+    "isOwned": false,
     "set": "2011-12 Upper Deck",
     "cardNumber": "499"
   },
@@ -598,6 +691,7 @@
     "playerId": 8481043,
     "playerName": "Cole Koepke",
     "isYG": true,
+    "isOwned": false,
     "set": "2022-23 Upper Deck",
     "cardNumber": "484"
   },
@@ -605,6 +699,7 @@
     "playerId": 8482149,
     "playerName": "Cole Perfetti",
     "isYG": true,
+    "isOwned": false,
     "set": "2021-22 Upper Deck",
     "cardNumber": "466"
   },
@@ -612,6 +707,7 @@
     "playerId": 8476525,
     "playerName": "Colin Miller",
     "isYG": true,
+    "isOwned": false,
     "set": "2015-16 Upper Deck",
     "cardNumber": "247"
   },
@@ -619,6 +715,7 @@
     "playerId": 8476945,
     "playerName": "Connor Hellebuyck",
     "isYG": true,
+    "isOwned": false,
     "set": "2015-16 Upper Deck",
     "cardNumber": "214"
   },
@@ -626,6 +723,7 @@
     "playerId": 8446508,
     "playerName": "Craig Duncanson",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -633,6 +731,7 @@
     "playerId": 8446682,
     "playerName": "Craig Endean",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -640,6 +739,7 @@
     "playerId": 8446832,
     "playerName": "Craig Fisher",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -647,6 +747,7 @@
     "playerId": 8448222,
     "playerName": "Craig Janney",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -654,6 +755,7 @@
     "playerId": 8448816,
     "playerName": "Craig Levie",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -661,6 +763,7 @@
     "playerId": 8457228,
     "playerName": "Craig Martin",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -668,6 +771,7 @@
     "playerId": 8460596,
     "playerName": "Craig Mills",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -675,6 +779,7 @@
     "playerId": 8449749,
     "playerName": "Craig Muni",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -682,6 +787,7 @@
     "playerId": 8449927,
     "playerName": "Craig Norwich",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -689,6 +795,7 @@
     "playerId": 100015,
     "playerName": "Curt Larsson",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -696,6 +803,7 @@
     "playerId": 8447685,
     "playerName": "Dale Hawerchuk",
     "isYG": false,
+    "isOwned": false,
     "set": "1982-83 O-Pee-Chee",
     "cardNumber": "380"
   },
@@ -703,6 +811,7 @@
     "playerId": 100016,
     "playerName": "Dale Yakiwchuk",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -710,6 +819,7 @@
     "playerId": 8456106,
     "playerName": "Dallas Drake",
     "isYG": false,
+    "isOwned": false,
     "set": "1993-94 Upper Deck",
     "cardNumber": "50"
   },
@@ -717,6 +827,7 @@
     "playerId": 8456153,
     "playerName": "Dallas Eakins",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -724,6 +835,7 @@
     "playerId": 8445609,
     "playerName": "Dan Bouchard",
     "isYG": false,
+    "isOwned": false,
     "set": "1972-73 O-Pee-Chee",
     "cardNumber": "203"
   },
@@ -731,6 +843,7 @@
     "playerId": 100017,
     "playerName": "Dan Johnson",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -738,6 +851,7 @@
     "playerId": 100018,
     "playerName": "Dan Labraaten",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -745,6 +859,7 @@
     "playerId": 8449458,
     "playerName": "Dan Mcfall",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -752,6 +867,7 @@
     "playerId": 100019,
     "playerName": "Dan Spring",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -759,6 +875,7 @@
     "playerId": 8445462,
     "playerName": "Daniel Berthiaume",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -766,6 +883,7 @@
     "playerId": 8483526,
     "playerName": "Danil Zhilkin",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -773,6 +891,7 @@
     "playerId": 8447115,
     "playerName": "Danny Geoffrion",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -780,6 +899,7 @@
     "playerId": 100020,
     "playerName": "Danny Gruen",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -787,6 +907,7 @@
     "playerId": 100021,
     "playerName": "Danny Lawson",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -794,6 +915,7 @@
     "playerId": 8446127,
     "playerName": "Danton Cole",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -801,6 +923,7 @@
     "playerId": 8445654,
     "playerName": "Darren Boyko",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -808,6 +931,7 @@
     "playerId": 8451994,
     "playerName": "Darren Turcotte",
     "isYG": false,
+    "isOwned": false,
     "set": "1990-91 O-Pee-Chee",
     "cardNumber": "48"
   },
@@ -815,6 +939,7 @@
     "playerId": 8451334,
     "playerName": "Darrin Shannon",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -822,6 +947,7 @@
     "playerId": 8451333,
     "playerName": "Darryl Shannon",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -829,6 +955,7 @@
     "playerId": 8445208,
     "playerName": "Dave Babych",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -836,6 +963,7 @@
     "playerId": 8446048,
     "playerName": "Dave Chartier",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -843,6 +971,7 @@
     "playerId": 8446079,
     "playerName": "Dave Christian",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -850,6 +979,7 @@
     "playerId": 100022,
     "playerName": "Dave Dunn",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -857,6 +987,7 @@
     "playerId": 8446626,
     "playerName": "Dave Ellett",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -864,6 +995,7 @@
     "playerId": 8448019,
     "playerName": "Dave Hoyda",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -871,6 +1003,7 @@
     "playerId": 8448116,
     "playerName": "Dave Hunter",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -878,6 +1011,7 @@
     "playerId": 100023,
     "playerName": "Dave Kryskow",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -885,6 +1019,7 @@
     "playerId": 8449123,
     "playerName": "Dave Manson",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -892,6 +1027,7 @@
     "playerId": 8449488,
     "playerName": "Dave Mcllwain",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -899,6 +1035,7 @@
     "playerId": 8451361,
     "playerName": "Dave Silk",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -906,6 +1043,7 @@
     "playerId": 8481019,
     "playerName": "David Gustafsson",
     "isYG": true,
+    "isOwned": false,
     "set": "2019-20 Upper Deck",
     "cardNumber": "461"
   },
@@ -913,6 +1051,7 @@
     "playerId": 8479496,
     "playerName": "David Rittich",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -920,6 +1059,7 @@
     "playerId": 8458234,
     "playerName": "David Tomlinson",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -927,6 +1067,7 @@
     "playerId": 8448449,
     "playerName": "Dean Kennedy",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -934,6 +1075,7 @@
     "playerId": 8480990,
     "playerName": "Declan Chisholm",
     "isYG": true,
+    "isOwned": false,
     "set": "2022-23 Upper Deck",
     "cardNumber": "486"
   },
@@ -941,6 +1083,7 @@
     "playerId": 8455850,
     "playerName": "Denis Chasse",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -948,6 +1091,7 @@
     "playerId": 8475762,
     "playerName": "Derek Forbort",
     "isYG": true,
+    "isOwned": false,
     "set": "2015-16 Upper Deck",
     "cardNumber": "473"
   },
@@ -955,6 +1099,7 @@
     "playerId": 8470061,
     "playerName": "Derek Meech",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -962,6 +1107,7 @@
     "playerId": 8460521,
     "playerName": "Deron Quint",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -969,6 +1115,7 @@
     "playerId": 8471682,
     "playerName": "Devin Setoguchi",
     "isYG": true,
+    "isOwned": false,
     "set": "2007-08 Upper Deck",
     "cardNumber": "493"
   },
@@ -976,6 +1123,7 @@
     "playerId": 8475179,
     "playerName": "Dmitry Kulikov",
     "isYG": true,
+    "isOwned": false,
     "set": "2009-10 Upper Deck",
     "cardNumber": "211"
   },
@@ -983,6 +1131,7 @@
     "playerId": 8457866,
     "playerName": "Dominic Roussel",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -990,6 +1139,7 @@
     "playerId": 8476952,
     "playerName": "Dominic Toninato",
     "isYG": true,
+    "isOwned": false,
     "set": "2017-18 Upper Deck",
     "cardNumber": "511"
   },
@@ -997,6 +1147,7 @@
     "playerId": 8445253,
     "playerName": "Don Barber",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -1004,6 +1155,7 @@
     "playerId": 8451621,
     "playerName": "Don Spring",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -1011,6 +1163,7 @@
     "playerId": 8448959,
     "playerName": "Donald MacIver",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -1018,6 +1171,7 @@
     "playerId": 8446735,
     "playerName": "Doug Evans",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -1025,6 +1179,7 @@
     "playerId": 8448743,
     "playerName": "Doug Lecuyer",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -1032,6 +1187,7 @@
     "playerId": 8451567,
     "playerName": "Doug Smail",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -1039,6 +1195,7 @@
     "playerId": 8451595,
     "playerName": "Doug Soetaert",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -1046,6 +1203,7 @@
     "playerId": 8471226,
     "playerName": "Drew Stafford",
     "isYG": true,
+    "isOwned": false,
     "set": "2006-07 Upper Deck",
     "cardNumber": "456"
   },
@@ -1053,6 +1211,7 @@
     "playerId": 100024,
     "playerName": "Dunc Rousseau",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -1060,6 +1219,7 @@
     "playerId": 8470834,
     "playerName": "Dustin Byfuglien",
     "isYG": true,
+    "isOwned": false,
     "set": "2006-07 Upper Deck",
     "cardNumber": "206"
   },
@@ -1067,6 +1227,7 @@
     "playerId": 8451239,
     "playerName": "Dwight Schofield",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -1074,6 +1235,7 @@
     "playerId": 8479639,
     "playerName": "Dylan Coghlan",
     "isYG": true,
+    "isOwned": false,
     "set": "2020-21 Upper Deck",
     "cardNumber": "214"
   },
@@ -1081,6 +1243,7 @@
     "playerId": 8476331,
     "playerName": "Dylan DeMelo",
     "isYG": true,
+    "isOwned": false,
     "set": "2015-16 Upper Deck",
     "cardNumber": "467"
   },
@@ -1088,6 +1251,7 @@
     "playerId": 8480049,
     "playerName": "Dylan Samberg",
     "isYG": true,
+    "isOwned": false,
     "set": "2022-23 Upper Deck",
     "cardNumber": "233"
   },
@@ -1095,6 +1259,7 @@
     "playerId": 8457849,
     "playerName": "Ed Ronan",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -1102,6 +1267,7 @@
     "playerId": 8451655,
     "playerName": "Ed Staniowski",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -1109,6 +1275,7 @@
     "playerId": 8449973,
     "playerName": "Eddie Olczyk",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -1116,6 +1283,7 @@
     "playerId": 8450727,
     "playerName": "Eldon Reddick",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -1123,6 +1291,7 @@
     "playerId": 8483510,
     "playerName": "Elias Salomonsson",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -1130,6 +1299,7 @@
     "playerId": 8477480,
     "playerName": "Eric Comrie",
     "isYG": true,
+    "isOwned": false,
     "set": "2017-18 Upper Deck",
     "cardNumber": "476"
   },
@@ -1137,6 +1307,7 @@
     "playerId": 8470611,
     "playerName": "Eric Fehr",
     "isYG": true,
+    "isOwned": false,
     "set": "2006-07 Upper Deck",
     "cardNumber": "249"
   },
@@ -1144,6 +1315,7 @@
     "playerId": 8474603,
     "playerName": "Eric O'Dell",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -1151,6 +1323,7 @@
     "playerId": 8474025,
     "playerName": "Eric Tangradi",
     "isYG": true,
+    "isOwned": false,
     "set": "2010-11 Upper Deck",
     "cardNumber": "241"
   },
@@ -1158,6 +1331,7 @@
     "playerId": 100025,
     "playerName": "Ernie Wakely",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -1165,6 +1339,7 @@
     "playerId": 8475169,
     "playerName": "Evander Kane",
     "isYG": true,
+    "isOwned": false,
     "set": "2009-10 Upper Deck",
     "cardNumber": "205"
   },
@@ -1172,6 +1347,7 @@
     "playerId": 8456019,
     "playerName": "Evgeny Davydov",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -1179,6 +1355,7 @@
     "playerId": 8478431,
     "playerName": "Evgeny Svechnikov",
     "isYG": true,
+    "isOwned": false,
     "set": "2017-18 Upper Deck",
     "cardNumber": "224"
   },
@@ -1186,6 +1363,7 @@
     "playerId": 100026,
     "playerName": "Fran Huck",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -1193,6 +1371,7 @@
     "playerId": 100027,
     "playerName": "Frank Blum",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -1200,6 +1379,7 @@
     "playerId": 8449971,
     "playerName": "Fredrik Olausson",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -1207,6 +1387,7 @@
     "playerId": 100028,
     "playerName": "Freeman \"Duke\" Asmundson",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -1214,6 +1395,7 @@
     "playerId": 8475268,
     "playerName": "Gabriel Bourque",
     "isYG": true,
+    "isOwned": false,
     "set": "2011-12 Upper Deck",
     "cardNumber": "477"
   },
@@ -1221,6 +1403,7 @@
     "playerId": 8480014,
     "playerName": "Gabriel Vilardi",
     "isYG": true,
+    "isOwned": false,
     "set": "2020-21 Upper Deck",
     "cardNumber": "215"
   },
@@ -1228,6 +1411,7 @@
     "playerId": 100029,
     "playerName": "Garth Rizzuto",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -1235,6 +1419,7 @@
     "playerId": 100030,
     "playerName": "Gary Bromley",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -1242,6 +1427,7 @@
     "playerId": 8451528,
     "playerName": "Gary Smith",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -1249,6 +1435,7 @@
     "playerId": 100032,
     "playerName": "Gerry Odrowski",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -1256,6 +1443,7 @@
     "playerId": 8450849,
     "playerName": "Gerry Rioux",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -1263,6 +1451,7 @@
     "playerId": 8447485,
     "playerName": "Gilles Hamel",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -1270,6 +1459,7 @@
     "playerId": 100033,
     "playerName": "Glenn Hicks",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -1277,6 +1467,7 @@
     "playerId": 8451920,
     "playerName": "Glenn Tomalty",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -1284,6 +1475,7 @@
     "playerId": 8446437,
     "playerName": "Gord Donnelly",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -1291,6 +1483,7 @@
     "playerId": 8447826,
     "playerName": "Gord McTavish",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -1298,6 +1491,7 @@
     "playerId": 8451529,
     "playerName": "Gord Smith",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -1305,6 +1499,7 @@
     "playerId": 100034,
     "playerName": "Gordon Tumilson",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -1312,6 +1507,7 @@
     "playerId": 8471482,
     "playerName": "Grant Clitsome",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -1319,6 +1515,7 @@
     "playerId": 8445655,
     "playerName": "Greg Brown",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -1326,6 +1523,7 @@
     "playerId": 8450200,
     "playerName": "Greg Paslawski",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -1333,6 +1531,7 @@
     "playerId": 8474679,
     "playerName": "Gustav Nyquist",
     "isYG": true,
+    "isOwned": false,
     "set": "2011-12 Upper Deck",
     "cardNumber": "468"
   },
@@ -1340,6 +1539,7 @@
     "playerId": 8447292,
     "playerName": "Guy Gosselin",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -1347,6 +1547,7 @@
     "playerId": 8448678,
     "playerName": "Guy Larose",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -1354,6 +1555,7 @@
     "playerId": 8448253,
     "playerName": "Hannu Jarvenpaa",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -1361,6 +1563,7 @@
     "playerId": 8458321,
     "playerName": "Harije Vitolinish",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -1368,6 +1571,7 @@
     "playerId": 8477938,
     "playerName": "Haydn Fleury",
     "isYG": true,
+    "isOwned": false,
     "set": "2017-18 Upper Deck",
     "cardNumber": "236"
   },
@@ -1375,6 +1579,7 @@
     "playerId": 100035,
     "playerName": "Heikki Riihiranta",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -1382,6 +1587,7 @@
     "playerId": 8447365,
     "playerName": "Hilliard Graves",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -1389,6 +1595,7 @@
     "playerId": 100036,
     "playerName": "Howie Young",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -1396,6 +1603,7 @@
     "playerId": 8446516,
     "playerName": "Iain Duncan",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -1403,6 +1611,7 @@
     "playerId": 8456306,
     "playerName": "Iain Fraser",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -1410,6 +1619,7 @@
     "playerId": 8458974,
     "playerName": "Igor Korolev",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -1417,6 +1627,7 @@
     "playerId": 8458715,
     "playerName": "Igor Ulanov",
     "isYG": true,
+    "isOwned": false,
     "set": "1991-92 Upper Deck",
     "cardNumber": "590"
   },
@@ -1424,6 +1635,7 @@
     "playerId": 8482192,
     "playerName": "Isaak Phillips",
     "isYG": true,
+    "isOwned": false,
     "set": "2021-22 Upper Deck Extended",
     "cardNumber": "731"
   },
@@ -1431,6 +1643,7 @@
     "playerId": 8482765,
     "playerName": "Isak Rosen",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -1438,6 +1651,7 @@
     "playerId": 8477076,
     "playerName": "JC Lipon",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -1445,6 +1659,7 @@
     "playerId": 8478458,
     "playerName": "Jack Roslovic",
     "isYG": true,
+    "isOwned": false,
     "set": "2017-18 Upper Deck",
     "cardNumber": "240"
   },
@@ -1452,6 +1667,7 @@
     "playerId": 8480196,
     "playerName": "Jacob Bryson",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -1459,6 +1675,7 @@
     "playerId": 8476885,
     "playerName": "Jacob Trouba",
     "isYG": true,
+    "isOwned": false,
     "set": "2013-14 Upper Deck",
     "cardNumber": "237"
   },
@@ -1466,6 +1683,7 @@
     "playerId": 8474674,
     "playerName": "James Wright",
     "isYG": true,
+    "isOwned": false,
     "set": "2009-10 Upper Deck",
     "cardNumber": "243"
   },
@@ -1473,6 +1691,7 @@
     "playerId": 8478424,
     "playerName": "Jansen Harkins",
     "isYG": true,
+    "isOwned": false,
     "set": "2020-21 Upper Deck",
     "cardNumber": "229"
   },
@@ -1480,6 +1699,7 @@
     "playerId": 8479994,
     "playerName": "Jaret Anderson-Dolan",
     "isYG": true,
+    "isOwned": false,
     "set": "2018-19 Upper Deck",
     "cardNumber": "454"
   },
@@ -1487,6 +1707,7 @@
     "playerId": 8455879,
     "playerName": "Jason Cirone",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -1494,6 +1715,7 @@
     "playerId": 8462063,
     "playerName": "Jason Doig",
     "isYG": true,
+    "isOwned": false,
     "set": "1995-96 Collector's Choice",
     "cardNumber": "407"
   },
@@ -1501,6 +1723,7 @@
     "playerId": 8468881,
     "playerName": "Jason Jaffray",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -1508,6 +1731,7 @@
     "playerId": 8469531,
     "playerName": "Jay Harrison",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -1515,6 +1739,7 @@
     "playerId": 100037,
     "playerName": "Jean-Guy Gratton",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -1522,6 +1747,7 @@
     "playerId": 8446826,
     "playerName": "Jeff Finley",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -1529,6 +1755,7 @@
     "playerId": 8482408,
     "playerName": "Jeff Malott",
     "isYG": true,
+    "isOwned": false,
     "set": "2022-23 Upper Deck",
     "cardNumber": "247"
   },
@@ -1536,6 +1763,7 @@
     "playerId": 8445808,
     "playerName": "Jerry Butler",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -1543,6 +1771,7 @@
     "playerId": 100038,
     "playerName": "Jim Cole",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -1550,6 +1779,7 @@
     "playerId": 100039,
     "playerName": "Jim Hargreaves",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -1557,6 +1787,7 @@
     "playerId": 8448014,
     "playerName": "Jim Hrivnak",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -1564,6 +1795,7 @@
     "playerId": 8448577,
     "playerName": "Jim Kyte",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -1571,6 +1803,7 @@
     "playerId": 8449477,
     "playerName": "Jim McKenzie",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -1578,6 +1811,7 @@
     "playerId": 8449884,
     "playerName": "Jim Nill",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -1585,6 +1819,7 @@
     "playerId": 8470289,
     "playerName": "Jim Slater",
     "isYG": true,
+    "isOwned": false,
     "set": "2005-06 Upper Deck",
     "cardNumber": "222"
   },
@@ -1592,6 +1827,7 @@
     "playerId": 8449119,
     "playerName": "Jimmy Mann",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -1599,6 +1835,7 @@
     "playerId": 8473482,
     "playerName": "Jiri Tlusty",
     "isYG": true,
+    "isOwned": false,
     "set": "2007-08 Upper Deck",
     "cardNumber": "497"
   },
@@ -1606,6 +1843,7 @@
     "playerId": 100040,
     "playerName": "Joe Daley",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -1613,6 +1851,7 @@
     "playerId": 8476476,
     "playerName": "Joe Morrow",
     "isYG": true,
+    "isOwned": false,
     "set": "2014-15 Upper Deck",
     "cardNumber": "451"
   },
@@ -1620,6 +1859,7 @@
     "playerId": 100041,
     "playerName": "Joe Zanussi",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -1627,6 +1867,7 @@
     "playerId": 8476469,
     "playerName": "Joel Armia",
     "isYG": true,
+    "isOwned": false,
     "set": "2014-15 Upper Deck",
     "cardNumber": "460"
   },
@@ -1634,6 +1875,7 @@
     "playerId": 8445223,
     "playerName": "Joel Baillargeon",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -1641,6 +1883,7 @@
     "playerId": 8474012,
     "playerName": "John Albert",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -1648,6 +1891,7 @@
     "playerId": 8445454,
     "playerName": "John Bethel",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -1655,6 +1899,7 @@
     "playerId": 8446487,
     "playerName": "John Druce",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -1662,6 +1907,7 @@
     "playerId": 8447161,
     "playerName": "John Gibson",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -1669,6 +1915,7 @@
     "playerId": 100043,
     "playerName": "John Gray",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -1676,6 +1923,7 @@
     "playerId": 8448765,
     "playerName": "John Leblanc",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -1683,6 +1931,7 @@
     "playerId": 8449164,
     "playerName": "John Markell",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -1690,6 +1939,7 @@
     "playerId": 100044,
     "playerName": "John Shmyr",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -1697,6 +1947,7 @@
     "playerId": 8480192,
     "playerName": "Johnathan Kovacevic",
     "isYG": true,
+    "isOwned": false,
     "set": "2022-23 Upper Deck",
     "cardNumber": "223"
   },
@@ -1704,6 +1955,7 @@
     "playerId": 8469665,
     "playerName": "Johnny Oduya",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -1711,6 +1963,7 @@
     "playerId": 8473604,
     "playerName": "Jonathan Toews",
     "isYG": true,
+    "isOwned": false,
     "set": "2007-08 Upper Deck",
     "cardNumber": "462"
   },
@@ -1718,6 +1971,7 @@
     "playerId": 8481649,
     "playerName": "Joona Luoto",
     "isYG": true,
+    "isOwned": false,
     "set": "2019-20 Upper Deck",
     "cardNumber": "487"
   },
@@ -1725,6 +1979,7 @@
     "playerId": 8474818,
     "playerName": "Jordie Benn",
     "isYG": true,
+    "isOwned": false,
     "set": "2011-12 Upper Deck",
     "cardNumber": "466"
   },
@@ -1732,6 +1987,7 @@
     "playerId": 8446469,
     "playerName": "Jordy Douglas",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -1739,6 +1995,7 @@
     "playerId": 8477504,
     "playerName": "Josh Morrissey",
     "isYG": true,
+    "isOwned": false,
     "set": "2016-17 Upper Deck",
     "cardNumber": "226"
   },
@@ -1746,6 +2003,7 @@
     "playerId": 8446482,
     "playerName": "Jude Drouin",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -1753,6 +2011,7 @@
     "playerId": 8475815,
     "playerName": "Julian Melchiori",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -1760,6 +2019,7 @@
     "playerId": 8475567,
     "playerName": "Julien Brouillette",
     "isYG": true,
+    "isOwned": false,
     "set": "2014-15 Upper Deck",
     "cardNumber": "522"
   },
@@ -1767,6 +2027,7 @@
     "playerId": 8451257,
     "playerName": "Jyrki Seppa",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -1774,6 +2035,7 @@
     "playerId": 8480901,
     "playerName": "Karson Kuhlman",
     "isYG": true,
+    "isOwned": false,
     "set": "2019-20 Upper Deck",
     "cardNumber": "248"
   },
@@ -1781,6 +2043,7 @@
     "playerId": 8474184,
     "playerName": "Keaton Ellerby",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -1788,6 +2051,7 @@
     "playerId": 8458229,
     "playerName": "Keith Tkachuk",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -1795,6 +2059,7 @@
     "playerId": 100045,
     "playerName": "Kelly Pratt",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -1802,6 +2067,7 @@
     "playerId": 100046,
     "playerName": "Ken Baird",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -1809,6 +2075,7 @@
     "playerId": 100047,
     "playerName": "Ken Stephanson",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -1816,6 +2083,7 @@
     "playerId": 8471694,
     "playerName": "Kenndal McArdle",
     "isYG": true,
+    "isOwned": false,
     "set": "2008-09 Upper Deck",
     "cardNumber": "484"
   },
@@ -1823,6 +2091,7 @@
     "playerId": 100048,
     "playerName": "Kent Nilsson",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -1830,6 +2099,7 @@
     "playerId": 8450260,
     "playerName": "Kent Paynter",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -1837,6 +2107,7 @@
     "playerId": 100049,
     "playerName": "Kent Ruhnke",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -1844,6 +2115,7 @@
     "playerId": 8475763,
     "playerName": "Kevin Hayes",
     "isYG": true,
+    "isOwned": false,
     "set": "2014-15 Upper Deck",
     "cardNumber": "490"
   },
@@ -1851,6 +2123,7 @@
     "playerId": 8449354,
     "playerName": "Kevin McClelland",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -1858,6 +2131,7 @@
     "playerId": 8478831,
     "playerName": "Kevin Stenlund",
     "isYG": true,
+    "isOwned": false,
     "set": "2019-20 Upper Deck",
     "cardNumber": "211"
   },
@@ -1865,6 +2139,7 @@
     "playerId": 100050,
     "playerName": "Kim Clackson",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -1872,6 +2147,7 @@
     "playerId": 8446485,
     "playerName": "Kris Draper",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -1879,6 +2155,7 @@
     "playerId": 8448487,
     "playerName": "Kris King",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -1886,6 +2163,7 @@
     "playerId": 8449109,
     "playerName": "Kris Manery",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -1893,6 +2171,7 @@
     "playerId": 8480443,
     "playerName": "Kristian Reichel",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -1900,6 +2179,7 @@
     "playerId": 8480005,
     "playerName": "Kristian Vesalainen",
     "isYG": true,
+    "isOwned": false,
     "set": "2018-19 Upper Deck",
     "cardNumber": "244"
   },
@@ -1907,6 +2187,7 @@
     "playerId": 8478476,
     "playerName": "Kyle Capobianco",
     "isYG": true,
+    "isOwned": false,
     "set": "2017-18 Upper Deck",
     "cardNumber": "495"
   },
@@ -1914,6 +2195,7 @@
     "playerId": 8478398,
     "playerName": "Kyle Connor",
     "isYG": true,
+    "isOwned": false,
     "set": "2016-17 Upper Deck",
     "cardNumber": "212"
   },
@@ -1921,6 +2203,7 @@
     "playerId": 8469581,
     "playerName": "Kyle Wellwood",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -1928,6 +2211,7 @@
     "playerId": 100051,
     "playerName": "Larry Hillman",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -1935,6 +2219,7 @@
     "playerId": 8447950,
     "playerName": "Larry Hopkins",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -1942,6 +2227,7 @@
     "playerId": 100052,
     "playerName": "Larry Hornung",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -1949,6 +2235,7 @@
     "playerId": 8451388,
     "playerName": "Lars Sjoberg",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -1956,6 +2243,7 @@
     "playerId": 100053,
     "playerName": "Lars-Erik Sjoberg",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -1963,6 +2251,7 @@
     "playerId": 8476316,
     "playerName": "Laurent Brossoit",
     "isYG": true,
+    "isOwned": false,
     "set": "2014-15 Upper Deck",
     "cardNumber": "458"
   },
@@ -1970,6 +2259,7 @@
     "playerId": 8445603,
     "playerName": "Laurie Boschman",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -1977,6 +2267,7 @@
     "playerId": 8470740,
     "playerName": "Lee Stempniak",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -1984,6 +2275,7 @@
     "playerId": 8449588,
     "playerName": "Lindsay Middlebrook",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -1991,6 +2283,7 @@
     "playerId": 8476400,
     "playerName": "Logan Shaw",
     "isYG": true,
+    "isOwned": false,
     "set": "2015-16 Upper Deck",
     "cardNumber": "454"
   },
@@ -1998,6 +2291,7 @@
     "playerId": 8479378,
     "playerName": "Logan Stanley",
     "isYG": true,
+    "isOwned": false,
     "set": "2020-21 Upper Deck",
     "cardNumber": "703"
   },
@@ -2005,6 +2299,7 @@
     "playerId": 8451629,
     "playerName": "Lorne Stamler",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -2012,6 +2307,7 @@
     "playerId": 8474579,
     "playerName": "Luca Sbisa",
     "isYG": true,
+    "isOwned": false,
     "set": "2008-09 Upper Deck",
     "cardNumber": "234"
   },
@@ -2019,6 +2315,7 @@
     "playerId": 8455659,
     "playerName": "Luciano Borsato",
     "isYG": true,
+    "isOwned": false,
     "set": "1991-92 Upper Deck",
     "cardNumber": "599"
   },
@@ -2026,6 +2323,7 @@
     "playerId": 8446353,
     "playerName": "Lucien DeBlois",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -2033,6 +2331,7 @@
     "playerId": 8474568,
     "playerName": "Luke Schenn",
     "isYG": true,
+    "isOwned": false,
     "set": "2008-09 Upper Deck",
     "cardNumber": "248"
   },
@@ -2040,6 +2339,7 @@
     "playerId": 100054,
     "playerName": "Lyle Moffat",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -2047,6 +2347,7 @@
     "playerId": 8449650,
     "playerName": "Lyle Moffatt",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -2054,6 +2355,7 @@
     "playerId": 100055,
     "playerName": "Lynn Powis",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -2061,6 +2363,7 @@
     "playerId": 8445457,
     "playerName": "Marc Behrend",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -2068,6 +2371,7 @@
     "playerId": 8449171,
     "playerName": "Mario Marois",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -2075,6 +2379,7 @@
     "playerId": 8470780,
     "playerName": "Mark Flood",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -2082,6 +2387,7 @@
     "playerId": 8447940,
     "playerName": "Mark Holden",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -2089,6 +2395,7 @@
     "playerId": 8448563,
     "playerName": "Mark Kumpel",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -2096,6 +2403,7 @@
     "playerId": 8473914,
     "playerName": "Mark Letestu",
     "isYG": true,
+    "isOwned": false,
     "set": "2009-10 Upper Deck",
     "cardNumber": "486"
   },
@@ -2103,6 +2411,7 @@
     "playerId": 8450073,
     "playerName": "Mark Osborne",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -2110,6 +2419,7 @@
     "playerId": 8457589,
     "playerName": "Mark Osiecki",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -2117,6 +2427,7 @@
     "playerId": 8450465,
     "playerName": "Mark Plantery",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -2124,6 +2435,7 @@
     "playerId": 8476460,
     "playerName": "Mark Scheifele",
     "isYG": true,
+    "isOwned": false,
     "set": "2011-12 Upper Deck",
     "cardNumber": "248"
   },
@@ -2131,6 +2443,7 @@
     "playerId": 8470614,
     "playerName": "Mark Stuart",
     "isYG": true,
+    "isOwned": false,
     "set": "2006-07 Upper Deck",
     "cardNumber": "452"
   },
@@ -2138,6 +2451,7 @@
     "playerId": 8459020,
     "playerName": "Mark Visheau",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -2145,6 +2459,7 @@
     "playerId": 8448551,
     "playerName": "Markku Kyllonen",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -2152,6 +2467,7 @@
     "playerId": 8477448,
     "playerName": "Marko Dano",
     "isYG": true,
+    "isOwned": false,
     "set": "2014-15 Upper Deck",
     "cardNumber": "452"
   },
@@ -2159,6 +2475,7 @@
     "playerId": 8449291,
     "playerName": "Markus Mattsson",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -2166,6 +2483,7 @@
     "playerId": 8478891,
     "playerName": "Mason Appleton",
     "isYG": true,
+    "isOwned": false,
     "set": "2018-19 Upper Deck",
     "cardNumber": "516"
   },
@@ -2173,6 +2491,7 @@
     "playerId": 8473618,
     "playerName": "Mathieu Perreault",
     "isYG": true,
+    "isOwned": false,
     "set": "2009-10 Upper Deck",
     "cardNumber": "498"
   },
@@ -2180,6 +2499,7 @@
     "playerId": 100057,
     "playerName": "Mats Lindh",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -2187,6 +2507,7 @@
     "playerId": 8474094,
     "playerName": "Matt Halischuk",
     "isYG": true,
+    "isOwned": false,
     "set": "2008-09 Upper Deck",
     "cardNumber": "475"
   },
@@ -2194,6 +2515,7 @@
     "playerId": 8468611,
     "playerName": "Matt Hendricks",
     "isYG": true,
+    "isOwned": false,
     "set": "2009-10 Upper Deck",
     "cardNumber": "247"
   },
@@ -2201,6 +2523,7 @@
     "playerId": 8447756,
     "playerName": "Matthew Block",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -2208,6 +2531,7 @@
     "playerId": 8479591,
     "playerName": "Michael Eyssimont",
     "isYG": true,
+    "isOwned": false,
     "set": "2022-23 Upper Deck",
     "cardNumber": "457"
   },
@@ -2215,6 +2539,7 @@
     "playerId": 8473564,
     "playerName": "Michael Frolik",
     "isYG": true,
+    "isOwned": false,
     "set": "2008-09 Upper Deck",
     "cardNumber": "217"
   },
@@ -2222,6 +2547,7 @@
     "playerId": 8474636,
     "playerName": "Michael Hutchinson",
     "isYG": true,
+    "isOwned": false,
     "set": "2012-13 Upper Deck",
     "cardNumber": "206"
   },
@@ -2229,6 +2555,7 @@
     "playerId": 8457559,
     "playerName": "Michael O'Neill",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -2236,6 +2563,7 @@
     "playerId": 8459568,
     "playerName": "Michal Grosek",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -2243,6 +2571,7 @@
     "playerId": 8446429,
     "playerName": "Michel Dion",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -2250,6 +2579,7 @@
     "playerId": 8444923,
     "playerName": "Mike Amodeo",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -2257,6 +2587,7 @@
     "playerId": 8446551,
     "playerName": "Mike Eagles",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -2264,6 +2595,7 @@
     "playerId": 8456156,
     "playerName": "Mike Eastwood",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -2271,6 +2603,7 @@
     "playerId": 100059,
     "playerName": "Mike Ford",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -2278,6 +2611,7 @@
     "playerId": 8447673,
     "playerName": "Mike Hartman",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -2285,6 +2619,7 @@
     "playerId": 8448633,
     "playerName": "Mike Lalor",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -2292,6 +2627,7 @@
     "playerId": 8448688,
     "playerName": "Mike Lauen",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -2299,6 +2635,7 @@
     "playerId": 8471390,
     "playerName": "Mike Santorelli",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -2306,6 +2643,7 @@
     "playerId": 8451673,
     "playerName": "Mike Stapleton",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -2313,6 +2651,7 @@
     "playerId": 8452205,
     "playerName": "Mike Veisor",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -2320,6 +2659,7 @@
     "playerId": 100060,
     "playerName": "Milt Black",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -2327,6 +2667,7 @@
     "playerId": 8448758,
     "playerName": "Moe Lemay",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -2334,6 +2675,7 @@
     "playerId": 8449122,
     "playerName": "Moe Mantha",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -2341,6 +2683,7 @@
     "playerId": 8480289,
     "playerName": "Morgan Barron",
     "isYG": true,
+    "isOwned": false,
     "set": "2021-22 Upper Deck",
     "cardNumber": "215"
   },
@@ -2348,6 +2691,7 @@
     "playerId": 8448912,
     "playerName": "Morris Lukowich",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -2355,6 +2699,7 @@
     "playerId": 100062,
     "playerName": "Morris Mott",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -2362,6 +2707,7 @@
     "playerId": 8446544,
     "playerName": "Murray Eaves",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -2369,6 +2715,7 @@
     "playerId": 8477220,
     "playerName": "Nate Schmidt",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -2376,6 +2723,7 @@
     "playerId": 8470775,
     "playerName": "Nate Thompson",
     "isYG": true,
+    "isOwned": false,
     "set": "2006-07 Upper Deck",
     "cardNumber": "455"
   },
@@ -2383,6 +2731,7 @@
     "playerId": 8476470,
     "playerName": "Nathan Beaulieu",
     "isYG": true,
+    "isOwned": false,
     "set": "2013-14 Upper Deck",
     "cardNumber": "207"
   },
@@ -2390,6 +2739,7 @@
     "playerId": 8480145,
     "playerName": "Neal Pionk",
     "isYG": true,
+    "isOwned": false,
     "set": "2018-19 Upper Deck",
     "cardNumber": "212"
   },
@@ -2397,6 +2747,7 @@
     "playerId": 8452503,
     "playerName": "Neil Wilkinson",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -2404,6 +2755,7 @@
     "playerId": 8446675,
     "playerName": "Nelson Emerson",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -2411,6 +2763,7 @@
     "playerId": 8478031,
     "playerName": "Nelson Nogier",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -2418,6 +2771,7 @@
     "playerId": 8477464,
     "playerName": "Nic Petan",
     "isYG": true,
+    "isOwned": false,
     "set": "2015-16 Upper Deck",
     "cardNumber": "227"
   },
@@ -2425,6 +2779,7 @@
     "playerId": 8476406,
     "playerName": "Nicholas Shore",
     "isYG": true,
+    "isOwned": false,
     "set": "2015-16 Upper Deck",
     "cardNumber": "216"
   },
@@ -2432,6 +2787,7 @@
     "playerId": 8467353,
     "playerName": "Nik Antropov",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -2439,6 +2795,7 @@
     "playerId": 8482787,
     "playerName": "Nikita Chibrikov",
     "isYG": true,
+    "isOwned": false,
     "set": "2024-25 Upper Deck",
     "cardNumber": "245"
   },
@@ -2446,6 +2803,7 @@
     "playerId": 8459140,
     "playerName": "Nikolai Khabibulin",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -2453,6 +2811,7 @@
     "playerId": 8477940,
     "playerName": "Nikolaj Ehlers",
     "isYG": true,
+    "isOwned": false,
     "set": "2015-16 Upper Deck",
     "cardNumber": "223"
   },
@@ -2460,6 +2819,7 @@
     "playerId": 8475799,
     "playerName": "Nino Niederreiter",
     "isYG": true,
+    "isOwned": false,
     "set": "2010-11 Upper Deck",
     "cardNumber": "482"
   },
@@ -2467,6 +2827,7 @@
     "playerId": 100063,
     "playerName": "Norm Beaudin",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -2474,6 +2835,7 @@
     "playerId": 8446535,
     "playerName": "Norm Dupont",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -2481,6 +2843,7 @@
     "playerId": 8448961,
     "playerName": "Norm MacIver",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -2488,6 +2851,7 @@
     "playerId": 8458919,
     "playerName": "Oleg Mikulchik",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -2495,6 +2859,7 @@
     "playerId": 8460493,
     "playerName": "Oleg Tverdovsky",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -2502,6 +2867,7 @@
     "playerId": 8466140,
     "playerName": "Olli Jokinen",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -2509,6 +2875,7 @@
     "playerId": 8471715,
     "playerName": "Ondrej Pavelec",
     "isYG": true,
+    "isOwned": false,
     "set": "2007-08 Upper Deck",
     "cardNumber": "453"
   },
@@ -2516,6 +2883,7 @@
     "playerId": 8480944,
     "playerName": "Par Lindholm",
     "isYG": true,
+    "isOwned": false,
     "set": "2018-19 Upper Deck",
     "cardNumber": "243"
   },
@@ -2523,6 +2891,7 @@
     "playerId": 8484135,
     "playerName": "Parker Ford",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -2530,6 +2899,7 @@
     "playerId": 8446293,
     "playerName": "Pat Daley",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -2537,6 +2907,7 @@
     "playerId": 8446676,
     "playerName": "Pat Elynuik",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -2544,6 +2915,7 @@
     "playerId": 8474616,
     "playerName": "Patrice Cormier",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -2551,6 +2923,7 @@
     "playerId": 8479339,
     "playerName": "Patrik Laine",
     "isYG": true,
+    "isOwned": false,
     "set": "2016-17 Upper Deck",
     "cardNumber": "451"
   },
@@ -2558,6 +2931,7 @@
     "playerId": 8445625,
     "playerName": "Paul Boutilier",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -2565,6 +2939,7 @@
     "playerId": 8446797,
     "playerName": "Paul Fenton",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -2572,6 +2947,7 @@
     "playerId": 100064,
     "playerName": "Paul MacKinnon",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -2579,6 +2955,7 @@
     "playerId": 8448981,
     "playerName": "Paul MacLean",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -2586,6 +2963,7 @@
     "playerId": 8448919,
     "playerName": "Paul Macdermid",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -2593,6 +2971,7 @@
     "playerId": 8450497,
     "playerName": "Paul Pooley",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -2600,6 +2979,7 @@
     "playerId": 8474074,
     "playerName": "Paul Postma",
     "isYG": true,
+    "isOwned": false,
     "set": "2011-12 Upper Deck",
     "cardNumber": "249"
   },
@@ -2607,6 +2987,7 @@
     "playerId": 8471669,
     "playerName": "Paul Stastny",
     "isYG": true,
+    "isOwned": false,
     "set": "2006-07 Upper Deck",
     "cardNumber": "207"
   },
@@ -2614,6 +2995,7 @@
     "playerId": 100065,
     "playerName": "Paul Terbenche",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -2621,6 +3003,7 @@
     "playerId": 8452571,
     "playerName": "Paul Ysebaert",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -2628,6 +3011,7 @@
     "playerId": 100066,
     "playerName": "Perry Miller",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -2635,6 +3019,7 @@
     "playerId": 8451992,
     "playerName": "Perry Turnbull",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -2642,6 +3027,7 @@
     "playerId": 8446468,
     "playerName": "Peter Douris",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -2649,6 +3035,7 @@
     "playerId": 8474771,
     "playerName": "Peter Mannino",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -2656,6 +3043,7 @@
     "playerId": 8449190,
     "playerName": "Peter Marsh",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -2663,6 +3051,7 @@
     "playerId": 8451781,
     "playerName": "Peter Sullivan",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -2670,6 +3059,7 @@
     "playerId": 8451836,
     "playerName": "Peter Taglianetti",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -2677,6 +3067,7 @@
     "playerId": 8451429,
     "playerName": "Petri Skriko",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -2684,6 +3075,7 @@
     "playerId": 8447989,
     "playerName": "Phil Housley",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -2691,6 +3083,7 @@
     "playerId": 8451828,
     "playerName": "Phil Sykes",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -2698,6 +3091,7 @@
     "playerId": 8447483,
     "playerName": "Pierre Hamel",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -2705,6 +3099,7 @@
     "playerId": 8479400,
     "playerName": "Pierre-Luc Dubois",
     "isYG": true,
+    "isOwned": false,
     "set": "2017-18 Upper Deck",
     "cardNumber": "204"
   },
@@ -2712,6 +3107,7 @@
     "playerId": 8475769,
     "playerName": "Quinton Howden",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -2719,6 +3115,7 @@
     "playerId": 100068,
     "playerName": "Randy Andreachuk",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -2726,6 +3123,7 @@
     "playerId": 8445938,
     "playerName": "Randy Carlyle",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -2733,6 +3131,7 @@
     "playerId": 8446261,
     "playerName": "Randy Cunneyworth",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -2740,6 +3139,7 @@
     "playerId": 8447180,
     "playerName": "Randy Gilhen",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -2747,6 +3147,7 @@
     "playerId": 8470905,
     "playerName": "Randy Jones",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -2754,6 +3155,7 @@
     "playerId": 100069,
     "playerName": "Randy Legge",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -2761,6 +3163,7 @@
     "playerId": 8480845,
     "playerName": "Rasmus Kupari",
     "isYG": true,
+    "isOwned": false,
     "set": "2021-22 Upper Deck",
     "cardNumber": "242"
   },
@@ -2768,6 +3171,7 @@
     "playerId": 8459518,
     "playerName": "Ravil Gusmanov",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -2775,6 +3179,7 @@
     "playerId": 8449860,
     "playerName": "Ray Neufeld",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -2782,6 +3187,7 @@
     "playerId": 100070,
     "playerName": "Rich Gosselin",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -2789,6 +3195,7 @@
     "playerId": 100071,
     "playerName": "Rich Preston",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -2796,6 +3203,7 @@
     "playerId": 8449731,
     "playerName": "Richard Mulhern",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -2803,6 +3211,7 @@
     "playerId": 8445643,
     "playerName": "Rick Bowness",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -2810,6 +3219,7 @@
     "playerId": 8446498,
     "playerName": "Rick Dudley",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -2817,6 +3227,7 @@
     "playerId": 8451834,
     "playerName": "Rick Tabaracci",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -2824,6 +3235,7 @@
     "playerId": 8474062,
     "playerName": "Riley Nash",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -2831,6 +3243,7 @@
     "playerId": 8449761,
     "playerName": "Rob Murray",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -2838,6 +3251,7 @@
     "playerId": 100072,
     "playerName": "Robbie Neale",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -2845,6 +3259,7 @@
     "playerId": 8450359,
     "playerName": "Robert Picard",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -2852,6 +3267,7 @@
     "playerId": 100073,
     "playerName": "Roland Eriksson",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -2859,6 +3275,7 @@
     "playerId": 100074,
     "playerName": "Ron Ashton",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -2866,6 +3283,7 @@
     "playerId": 8468493,
     "playerName": "Ron Hainsey",
     "isYG": true,
+    "isOwned": false,
     "set": "2002-03 Upper Deck",
     "cardNumber": "240"
   },
@@ -2873,6 +3291,7 @@
     "playerId": 100075,
     "playerName": "Ron Snell",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -2880,6 +3299,7 @@
     "playerId": 100076,
     "playerName": "Ron Ward",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -2887,6 +3307,7 @@
     "playerId": 8452495,
     "playerName": "Ron Wilson",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -2894,6 +3315,7 @@
     "playerId": 8448861,
     "playerName": "Ronald Loustel",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -2901,6 +3323,7 @@
     "playerId": 8446168,
     "playerName": "Ross Cory",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -2908,6 +3331,7 @@
     "playerId": 8450486,
     "playerName": "Rudy Poeschek",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -2915,6 +3339,7 @@
     "playerId": 8457847,
     "playerName": "Russ Romaniuk",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -2922,6 +3347,7 @@
     "playerId": 8451729,
     "playerName": "Ryan Stewart",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -2929,6 +3355,7 @@
     "playerId": 8477357,
     "playerName": "Saku Maenalanen",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -2936,6 +3363,7 @@
     "playerId": 8474040,
     "playerName": "Sam Gagner",
     "isYG": true,
+    "isOwned": false,
     "set": "2007-08 Upper Deck",
     "cardNumber": "218"
   },
@@ -2943,6 +3371,7 @@
     "playerId": 8478915,
     "playerName": "Sami Niku",
     "isYG": true,
+    "isOwned": false,
     "set": "2018-19 Upper Deck",
     "cardNumber": "474"
   },
@@ -2950,6 +3379,7 @@
     "playerId": 8445353,
     "playerName": "Sandy Beadle",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -2957,6 +3387,7 @@
     "playerId": 8445088,
     "playerName": "Scott Arniel",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -2964,6 +3395,7 @@
     "playerId": 8445900,
     "playerName": "Scott Campbell",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -2971,6 +3403,7 @@
     "playerId": 8476910,
     "playerName": "Scott Kosmachuk",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -2978,6 +3411,7 @@
     "playerId": 8459453,
     "playerName": "Scott Langkow",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -2985,6 +3419,7 @@
     "playerId": 8457061,
     "playerName": "Scott Levins",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -2992,6 +3427,7 @@
     "playerId": 8477497,
     "playerName": "Sean Monahan",
     "isYG": true,
+    "isOwned": false,
     "set": "2013-14 Upper Deck",
     "cardNumber": "242"
   },
@@ -2999,6 +3435,7 @@
     "playerId": 8451150,
     "playerName": "Serge Savard",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -3006,6 +3443,7 @@
     "playerId": 8458953,
     "playerName": "Sergei Bautin",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -3013,6 +3451,7 @@
     "playerId": 8448481,
     "playerName": "Sergei Kharin",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -3020,6 +3459,7 @@
     "playerId": 8462038,
     "playerName": "Shane Doan",
     "isYG": true,
+    "isOwned": false,
     "set": "1995-96 Collector's Choice",
     "cardNumber": "403"
   },
@@ -3027,6 +3467,7 @@
     "playerId": 8446243,
     "playerName": "Shawn Cronin",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -3034,6 +3475,7 @@
     "playerId": 8473574,
     "playerName": "Shawn Matthias",
     "isYG": true,
+    "isOwned": false,
     "set": "2008-09 Upper Deck",
     "cardNumber": "219"
   },
@@ -3041,6 +3483,7 @@
     "playerId": 8452377,
     "playerName": "Simon Wheeldon",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -3048,6 +3491,7 @@
     "playerId": 8474146,
     "playerName": "Spencer Machacek",
     "isYG": true,
+    "isOwned": false,
     "set": "2009-10 Upper Deck",
     "cardNumber": "219"
   },
@@ -3055,6 +3499,7 @@
     "playerId": 8445382,
     "playerName": "Stephane Beauregard",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -3062,6 +3507,7 @@
     "playerId": 8450620,
     "playerName": "Stephane Quintal",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -3069,6 +3515,7 @@
     "playerId": 100078,
     "playerName": "Steve Cuddie",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -3076,6 +3523,7 @@
     "playerId": 8473461,
     "playerName": "Steve Mason",
     "isYG": true,
+    "isOwned": false,
     "set": "2008-09 Upper Deck",
     "cardNumber": "208"
   },
@@ -3083,6 +3531,7 @@
     "playerId": 8450311,
     "playerName": "Steve Penney",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -3090,6 +3539,7 @@
     "playerId": 8451008,
     "playerName": "Steve Rooney",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -3097,6 +3547,7 @@
     "playerId": 100079,
     "playerName": "Steve West",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -3104,6 +3555,7 @@
     "playerId": 8446852,
     "playerName": "Steven Fletcher",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -3111,6 +3563,7 @@
     "playerId": 8457193,
     "playerName": "Stewart Malgunas",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -3118,6 +3571,7 @@
     "playerId": 8455521,
     "playerName": "Stu Barnes",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -3125,6 +3579,7 @@
     "playerId": 8448567,
     "playerName": "Stu Kulak",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -3132,6 +3587,7 @@
     "playerId": 8474001,
     "playerName": "TJ Galiardi",
     "isYG": true,
+    "isOwned": false,
     "set": "2009-10 Upper Deck",
     "cardNumber": "241"
   },
@@ -3139,6 +3595,7 @@
     "playerId": 8470854,
     "playerName": "Tanner Glass",
     "isYG": true,
+    "isOwned": false,
     "set": "2007-08 Upper Deck",
     "cardNumber": "475"
   },
@@ -3146,6 +3603,7 @@
     "playerId": 8476871,
     "playerName": "Tanner Pearson",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -3153,6 +3611,7 @@
     "playerId": 8460550,
     "playerName": "Tavis Hansen",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -3160,6 +3619,7 @@
     "playerId": 100080,
     "playerName": "Ted Green",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -3167,6 +3627,7 @@
     "playerId": 100081,
     "playerName": "Ted Hargreaves",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -3174,6 +3635,7 @@
     "playerId": 8457981,
     "playerName": "Teemu Selanne",
     "isYG": true,
+    "isOwned": false,
     "set": "1992-93 Upper Deck",
     "cardNumber": "574"
   },
@@ -3181,6 +3643,7 @@
     "playerId": 8449924,
     "playerName": "Teppo Numminen",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -3188,6 +3651,7 @@
     "playerId": 100082,
     "playerName": "Terry Ruskowski",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -3195,6 +3659,7 @@
     "playerId": 8483114,
     "playerName": "Thomas Milic",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -3202,6 +3667,7 @@
     "playerId": 8451697,
     "playerName": "Thomas Steen",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -3209,6 +3675,7 @@
     "playerId": 100083,
     "playerName": "Thommie Bergman",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -3216,6 +3683,7 @@
     "playerId": 8446454,
     "playerName": "Tie Domi",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -3223,6 +3691,7 @@
     "playerId": 8446082,
     "playerName": "Tim Cheveldae",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -3230,6 +3699,7 @@
     "playerId": 8472379,
     "playerName": "Tim Stapleton",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -3237,6 +3707,7 @@
     "playerId": 8451957,
     "playerName": "Tim Trimper",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -3244,6 +3715,7 @@
     "playerId": 8452347,
     "playerName": "Tim Watters",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -3251,6 +3723,7 @@
     "playerId": 8452574,
     "playerName": "Tim Young",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -3258,6 +3731,7 @@
     "playerId": 8470828,
     "playerName": "Toby Enstrom",
     "isYG": true,
+    "isOwned": false,
     "set": "2007-08 Upper Deck",
     "cardNumber": "206"
   },
@@ -3265,6 +3739,7 @@
     "playerId": 8446867,
     "playerName": "Todd Flichel",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -3272,6 +3747,7 @@
     "playerId": 8445520,
     "playerName": "Tom Bladon",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -3279,6 +3755,7 @@
     "playerId": 8446480,
     "playerName": "Tom Draper",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -3286,6 +3763,7 @@
     "playerId": 8449280,
     "playerName": "Tom Martin",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -3293,6 +3771,7 @@
     "playerId": 8473453,
     "playerName": "Trevor Lewis",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -3300,6 +3779,7 @@
     "playerId": 8449773,
     "playerName": "Troy Murray",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -3307,6 +3787,7 @@
     "playerId": 8477359,
     "playerName": "Tucker Poolman",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -3314,6 +3795,7 @@
     "playerId": 8474574,
     "playerName": "Tyler Myers",
     "isYG": true,
+    "isOwned": false,
     "set": "2009-10 Upper Deck",
     "cardNumber": "214"
   },
@@ -3321,6 +3803,7 @@
     "playerId": 8475726,
     "playerName": "Tyler Toffoli",
     "isYG": true,
+    "isOwned": false,
     "set": "2013-14 Upper Deck",
     "cardNumber": "246"
   },
@@ -3328,6 +3811,7 @@
     "playerId": 100084,
     "playerName": "Ulf Nilsson",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -3335,6 +3819,7 @@
     "playerId": 100085,
     "playerName": "Veli-Pekka Ketola",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -3342,6 +3827,7 @@
     "playerId": 8481572,
     "playerName": "Ville Heinola",
     "isYG": true,
+    "isOwned": false,
     "set": "2019-20 Upper Deck",
     "cardNumber": "204"
   },
@@ -3349,6 +3835,7 @@
     "playerId": 8476480,
     "playerName": "Vladislav Namestnikov",
     "isYG": true,
+    "isOwned": false,
     "set": "2014-15 Upper Deck",
     "cardNumber": "243"
   },
@@ -3356,6 +3843,7 @@
     "playerId": 8445901,
     "playerName": "Wade Campbell",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -3363,6 +3851,7 @@
     "playerId": 8482652,
     "playerName": "Walker Duehr",
     "isYG": true,
+    "isOwned": false,
     "set": "2023-24 Upper Deck",
     "cardNumber": "475"
   },
@@ -3370,6 +3859,7 @@
     "playerId": 100086,
     "playerName": "Wally Boyer",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -3377,6 +3867,7 @@
     "playerId": 8446420,
     "playerName": "Wayne Dillon",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -3384,6 +3875,7 @@
     "playerId": 8449328,
     "playerName": "Wayne Mcbean",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -3391,6 +3883,7 @@
     "playerId": 8452419,
     "playerName": "William Whelton",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -3398,6 +3891,7 @@
     "playerId": 8448858,
     "playerName": "Willy Lindstrom",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -3405,6 +3899,7 @@
     "playerId": 8458613,
     "playerName": "Yan Kaminsky",
     "isYG": false,
+    "isOwned": false,
     "set": "",
     "cardNumber": ""
   },
@@ -3412,6 +3907,7 @@
     "playerId": 8474567,
     "playerName": "Zach Bogosian",
     "isYG": true,
+    "isOwned": false,
     "set": "2008-09 Upper Deck",
     "cardNumber": "201"
   },
@@ -3419,6 +3915,7 @@
     "playerId": 8474743,
     "playerName": "Zach Redmond",
     "isYG": false,
+    "isOwned": false,
     "set": "2013-14 Select",
     "cardNumber": "239"
   },
@@ -3426,6 +3923,7 @@
     "playerId": 8477482,
     "playerName": "Zachary Sanford",
     "isYG": true,
+    "isOwned": false,
     "set": "2016-17 Upper Deck Series 1",
     "cardNumber": "215"
   }

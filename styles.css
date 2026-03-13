@@ -71,7 +71,9 @@ h1 {
 }
 
 .table-wrapper {
-  width: min(100%, max-content);
+  display: inline-block;
+  width: fit-content;
+  max-width: 100%;
   overflow-x: auto;
   background: var(--surface);
   border: 1px solid var(--border);
@@ -82,19 +84,6 @@ h1 {
 table {
   width: max-content;
   border-collapse: collapse;
-  min-width: var(--table-min-width, 720px);
-}
-
-#players-table.hide-stats {
-  --table-min-width: 420px;
-}
-
-#players-table.hide-card {
-  --table-min-width: 520px;
-}
-
-#players-table.hide-stats.hide-card {
-  --table-min-width: 200px;
 }
 
 th,

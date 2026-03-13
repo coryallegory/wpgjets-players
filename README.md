@@ -37,6 +37,7 @@ Each rookie card object includes:
 - `playerId`
 - `playerName`
 - `isYG`
+- `isOwned`
 - `set`
 - `cardNumber`
 
@@ -52,12 +53,14 @@ When populating `data/wpg_player_rookie_cards.json`, use this priority order for
 Store only:
 
 - whether it is a Young Guns (`isYG`)
+- whether the card is owned (`isOwned`)
 - set name in `set`
 - card number in `cardNumber`
 
 The rookie card dataset is always kept aligned with `data/wpg_players.json`. When new players appear, entries are auto-added with default unknown values:
 
 - `isYG: false`
+- `isOwned: false`
 - `set: ""`
 - `cardNumber: ""`
 
@@ -82,7 +85,7 @@ A local-only editor page is included at:
 What it does:
 
 - displays `data/wpg_player_rookie_cards.json` in an editable table
-- allows in-browser editing of `isYG`, `set`, and `cardNumber`
+- allows in-browser editing of `isYG`, `isOwned`, `set`, and `cardNumber`
 - can save back to a local JSON file using the browser File System Access API (Chrome/Edge and other Chromium-based browsers)
 - can always export a downloaded JSON copy as a fallback
 

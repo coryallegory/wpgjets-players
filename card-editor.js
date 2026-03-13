@@ -26,6 +26,7 @@ function parseCardData(data) {
     playerId: Number(row.playerId) || 0,
     playerName: String(row.playerName || ''),
     isYG: Boolean(row.isYG),
+    isOwned: Boolean(row.isOwned),
     set: String(row.set || ''),
     cardNumber: String(row.cardNumber || ''),
   }));
@@ -45,6 +46,12 @@ function renderTable() {
           <option value="true" ${card.isYG ? 'selected' : ''}>true</option>
         </select>
       </td>
+      <td>
+        <select data-index="${index}" data-key="isOwned">
+          <option value="false" ${card.isOwned ? '' : 'selected'}>false</option>
+          <option value="true" ${card.isOwned ? 'selected' : ''}>true</option>
+        </select>
+      </td>
       <td><input data-index="${index}" data-key="set" value="${card.set}" /></td>
       <td><input data-index="${index}" data-key="cardNumber" value="${card.cardNumber}" /></td>
     `;
@@ -57,7 +64,7 @@ function renderTable() {
       const element = event.target;
       const index = Number(element.dataset.index);
       const key = element.dataset.key;
-      const value = key === 'isYG' ? element.value === 'true' : element.value;
+      const value = ['isYG', 'isOwned'].includes(key) ? element.value === 'true' : element.value;
       cards[index][key] = value;
       setStatus('Unsaved changes.', '');
     });

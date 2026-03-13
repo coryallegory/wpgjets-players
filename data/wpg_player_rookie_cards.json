@@ -238,13 +238,6 @@
     "cardNumber": ""
   },
   {
-    "playerId": 100003,
-    "playerName": "Barry Long",
-    "isYG": false,
-    "set": "",
-    "cardNumber": ""
-  },
-  {
     "playerId": 8448876,
     "playerName": "Barry Long",
     "isYG": false,
@@ -1246,13 +1239,6 @@
     "cardNumber": ""
   },
   {
-    "playerId": 100031,
-    "playerName": "Gary Smith",
-    "isYG": false,
-    "set": "",
-    "cardNumber": ""
-  },
-  {
     "playerId": 8451528,
     "playerName": "Gary Smith",
     "isYG": false,
@@ -1668,13 +1654,6 @@
   {
     "playerId": 8446487,
     "playerName": "John Druce",
-    "isYG": false,
-    "set": "",
-    "cardNumber": ""
-  },
-  {
-    "playerId": 100042,
-    "playerName": "John Gibson",
     "isYG": false,
     "set": "",
     "cardNumber": ""
@@ -2177,13 +2156,6 @@
     "cardNumber": "452"
   },
   {
-    "playerId": 100056,
-    "playerName": "Markus Mattsson",
-    "isYG": false,
-    "set": "",
-    "cardNumber": ""
-  },
-  {
     "playerId": 8449291,
     "playerName": "Markus Mattsson",
     "isYG": false,
@@ -2270,13 +2242,6 @@
   {
     "playerId": 8446429,
     "playerName": "Michel Dion",
-    "isYG": false,
-    "set": "",
-    "cardNumber": ""
-  },
-  {
-    "playerId": 100058,
-    "playerName": "Mike Amodeo",
     "isYG": false,
     "set": "",
     "cardNumber": ""
@@ -2378,13 +2343,6 @@
     "isYG": true,
     "set": "2021-22 Upper Deck",
     "cardNumber": "215"
-  },
-  {
-    "playerId": 100061,
-    "playerName": "Morris Lukowich",
-    "isYG": false,
-    "set": "",
-    "cardNumber": ""
   },
   {
     "playerId": 8448912,
@@ -2702,13 +2660,6 @@
     "cardNumber": ""
   },
   {
-    "playerId": 100067,
-    "playerName": "Peter Sullivan",
-    "isYG": false,
-    "set": "",
-    "cardNumber": ""
-  },
-  {
     "playerId": 8451781,
     "playerName": "Peter Sullivan",
     "isYG": false,
@@ -3005,13 +2956,6 @@
   {
     "playerId": 8445088,
     "playerName": "Scott Arniel",
-    "isYG": false,
-    "set": "",
-    "cardNumber": ""
-  },
-  {
-    "playerId": 100077,
-    "playerName": "Scott Campbell",
     "isYG": false,
     "set": "",
     "cardNumber": ""
@@ -3446,13 +3390,6 @@
   {
     "playerId": 8452419,
     "playerName": "William Whelton",
-    "isYG": false,
-    "set": "",
-    "cardNumber": ""
-  },
-  {
-    "playerId": 100087,
-    "playerName": "Willy Lindstrom",
     "isYG": false,
     "set": "",
     "cardNumber": ""

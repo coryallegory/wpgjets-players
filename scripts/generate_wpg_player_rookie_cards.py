@@ -34,6 +34,7 @@ def normalize_existing(existing_rows: list[dict]) -> dict[int, dict]:
             "isOwned": bool(row.get("isOwned", False)),
             "set": str(row.get("set") or ""),
             "cardNumber": str(row.get("cardNumber") or ""),
+            "comc_url": str(row.get("comc_url") or ""),
         }
     return by_player_id
 
@@ -55,6 +56,7 @@ def build_rookie_card_dataset(players: list[dict], existing_rows: list[dict]) ->
                 "isOwned": False,
                 "set": "",
                 "cardNumber": "",
+                "comc_url": "",
             }
             continue
 

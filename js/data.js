@@ -54,6 +54,7 @@ export async function loadPlayers() {
       isYoungGuns: rookieCard?.isYG ?? false,
       rookieCardSet: rookieCard?.set ?? '',
       rookieCardNumber: rookieCard?.cardNumber ?? '',
+      rookieCardComcUrl: rookieCard?.comcUrl ?? '',
       rookieCardIsOwned: rookieCard?.isOwned ?? false,
     };
   });

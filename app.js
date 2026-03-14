@@ -4,6 +4,31 @@ const sortButtons = document.querySelectorAll('#players-table thead button');
 let players = [];
 let sortState = { key: 'playerName', direction: 'asc' };
 
+
+function escapeHtml(value) {
+  return String(value)
+    .replaceAll('&', '&amp;')
+    .replaceAll('<', '&lt;')
+    .replaceAll('>', '&gt;')
+    .replaceAll('"', '&quot;')
+    .replaceAll("'", '&#39;');
+}
+
+function renderRookieCardNumberCell(player) {
+  const cardNumber = player.rookieCardNumber ?? '';
+  const comcUrl = player.rookieCardComcUrl ?? '';
+
+  if (!cardNumber) {
+    return '';
+  }
+
+  if (!comcUrl) {
+    return escapeHtml(cardNumber);
+  }
+
+  return `<a href="${escapeHtml(comcUrl)}" target="_blank" rel="noopener noreferrer">${escapeHtml(cardNumber)}</a>`;
+}
+
 function compareValues(a, b, key) {
   const aValue = a[key];
   const bValue = b[key];
@@ -40,7 +65,7 @@ function renderTable() {
       <td>${player.totalSeasons}</td>
       <td>${player.isYoungGuns ? 'Yes' : 'No'}</td>
       <td>${player.rookieCardSet}</td>
-      <td>${player.rookieCardNumber}</td>
+      <td>${renderRookieCardNumberCell(player)}</td>
     `;
     tableBody.appendChild(row);
   });
@@ -181,6 +206,7 @@ async function loadPlayers() {
       isYoungGuns: rookieCard?.isYG ?? false,
       rookieCardSet: rookieCard?.set ?? '',
       rookieCardNumber: rookieCard?.cardNumber ?? '',
+      rookieCardComcUrl: rookieCard?.comcUrl ?? '',
       rookieCardIsOwned: rookieCard?.isOwned ?? false,
     };
   });

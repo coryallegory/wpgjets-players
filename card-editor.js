@@ -144,3 +144,16 @@ saveFileButton.addEventListener('click', () => {
 });
 
 downloadFileButton.addEventListener('click', downloadJsonCopy);
+
+function autoLoadDefaultData() {
+  if (window.location.protocol === 'file:') {
+    setStatus('Auto-load is unavailable from file:// URLs. Start a local server or click Open local JSON file.', '');
+    return;
+  }
+
+  loadRepoData().catch((error) => {
+    setStatus(`Auto-load failed: ${error.message}`, 'error');
+  });
+}
+
+autoLoadDefaultData();

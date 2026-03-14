@@ -40,7 +40,7 @@ Each rookie card object includes:
 - `isOwned`
 - `set`
 - `cardNumber`
-- `comc_url`
+- `comcUrl`
 
 ## Rookie card selection criteria
 
@@ -57,7 +57,7 @@ Store only:
 - whether the card is owned (`isOwned`)
 - set name in `set`
 - card number in `cardNumber`
-- source URL in `comc_url` (leave blank when no source is available)
+- source URL in `comcUrl` (leave blank when no source is available)
 
 The rookie card dataset is always kept aligned with `data/wpg_players.json`. When new players appear, entries are auto-added with default unknown values:
 
@@ -65,7 +65,7 @@ The rookie card dataset is always kept aligned with `data/wpg_players.json`. Whe
 - `isOwned: false`
 - `set: ""`
 - `cardNumber: ""`
-- `comc_url: ""`
+- `comcUrl: ""`
 
 ## Web page
 
@@ -88,7 +88,7 @@ A local-only editor page is included at:
 What it does:
 
 - displays `data/wpg_player_rookie_cards.json` in an editable table
-- allows in-browser editing of `isYG`, `isOwned`, `set`, and `cardNumber`
+- allows in-browser editing of `isYG`, `isOwned`, `set`, `cardNumber`, and `comcUrl`
 - can save back to a local JSON file using the browser File System Access API (Chrome/Edge and other Chromium-based browsers)
 - can always export a downloaded JSON copy as a fallback
 

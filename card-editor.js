@@ -29,6 +29,7 @@ function parseCardData(data) {
     isOwned: Boolean(row.isOwned),
     set: String(row.set || ''),
     cardNumber: String(row.cardNumber || ''),
+    comcUrl: String(row.comcUrl || row.comc_url || ''),
   }));
 }
 
@@ -54,6 +55,7 @@ function renderTable() {
       </td>
       <td><input data-index="${index}" data-key="set" value="${card.set}" /></td>
       <td><input data-index="${index}" data-key="cardNumber" value="${card.cardNumber}" /></td>
+      <td><input data-index="${index}" data-key="comcUrl" value="${card.comcUrl}" /></td>
     `;
     tableBody.appendChild(row);
   });

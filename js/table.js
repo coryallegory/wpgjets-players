@@ -1,3 +1,28 @@
+
+function escapeHtml(value) {
+  return String(value)
+    .replaceAll('&', '&amp;')
+    .replaceAll('<', '&lt;')
+    .replaceAll('>', '&gt;')
+    .replaceAll('"', '&quot;')
+    .replaceAll("'", '&#39;');
+}
+
+function renderRookieCardNumberCell(player) {
+  const cardNumber = player.rookieCardNumber ?? '';
+  const comcUrl = player.rookieCardComcUrl ?? '';
+
+  if (!cardNumber) {
+    return '';
+  }
+
+  if (!comcUrl) {
+    return escapeHtml(cardNumber);
+  }
+
+  return `<a href="${escapeHtml(comcUrl)}" target="_blank" rel="noopener noreferrer">${escapeHtml(cardNumber)}</a>`;
+}
+
 function compareValues(a, b, key) {
   const aValue = a[key];
   const bValue = b[key];
@@ -95,7 +120,7 @@ export class PlayersTable {
         <td class="col-stats">${player.totalSeasons}</td>
         <td class="col-card">${player.isYoungGuns ? 'Yes' : 'No'}</td>
         <td class="col-card">${player.rookieCardSet}</td>
-        <td class="col-card">${player.rookieCardNumber}</td>
+        <td class="col-card">${renderRookieCardNumberCell(player)}</td>
         <td class="col-card" aria-label="${player.rookieCardIsOwned ? 'Owned' : 'Not owned'}">${player.rookieCardIsOwned ? '✅' : '❌'}</td>
       `;
       this.tableBody.appendChild(row);

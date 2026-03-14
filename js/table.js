@@ -96,7 +96,7 @@ export class PlayersTable {
         <td class="col-card">${player.isYoungGuns ? 'Yes' : 'No'}</td>
         <td class="col-card">${player.rookieCardSet}</td>
         <td class="col-card">${player.rookieCardNumber}</td>
-        <td class="col-card">${player.rookieCardIsOwned ? 'Yes' : 'No'}</td>
+        <td class="col-card" aria-label="${player.rookieCardIsOwned ? 'Owned' : 'Not owned'}">${player.rookieCardIsOwned ? '✅' : '❌'}</td>
       `;
       this.tableBody.appendChild(row);
     });

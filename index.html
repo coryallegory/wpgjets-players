@@ -16,7 +16,7 @@
         Need to edit rookie card data locally? Open <a href="card-editor.html">card-editor.html</a>.
       </p>
 
-      <section class="controls" aria-label="Column groups">
+      <section class="controls" aria-label="Table controls">
         <p class="controls__label">Column groups:</p>
         <button type="button" class="group-toggle" data-target-group="stats" aria-pressed="true">
           Hide playing stats
@@ -24,6 +24,13 @@
         <button type="button" class="group-toggle" data-target-group="card" aria-pressed="true">
           Hide card info
         </button>
+
+        <label class="controls__label" for="owned-filter">Owned filter:</label>
+        <select id="owned-filter" class="filter-select">
+          <option value="all">Show all</option>
+          <option value="owned">Owned only</option>
+          <option value="unowned">Unowned only</option>
+        </select>
       </section>
 
       <div class="table-wrapper">

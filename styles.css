@@ -70,6 +70,16 @@ h1 {
   border-color: #1c3650;
 }
 
+.filter-select {
+  border: 1px solid #afc1d3;
+  background: #fff;
+  color: #1c3650;
+  border-radius: 8px;
+  font-size: 0.78rem;
+  font-weight: 600;
+  padding: 0.3rem 0.5rem;
+}
+
 .table-wrapper {
   display: inline-block;
   width: fit-content;
@@ -187,5 +197,9 @@ tbody tr:hover .col-card {
   .group-toggle {
     font-size: 0.72rem;
     padding: 0.3rem 0.55rem;
+  }
+
+  .filter-select {
+    font-size: 0.72rem;
   }
 }

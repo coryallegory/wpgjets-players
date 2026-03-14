@@ -20,6 +20,7 @@ export class PlayersTable {
     this.sortButtons = tableElement.querySelectorAll('thead button[data-key]');
     this.players = [];
     this.sortState = { key: 'playerName', direction: 'asc' };
+    this.ownedFilter = 'all';
   }
 
   setPlayers(players) {
@@ -28,11 +29,29 @@ export class PlayersTable {
     this.render();
   }
 
-  sortedPlayers() {
-    return [...this.players].sort((a, b) => {
-      const result = compareValues(a, b, this.sortState.key);
-      return this.sortState.direction === 'asc' ? result : -result;
-    });
+  setOwnedFilter(filter) {
+    const nextFilter = ['all', 'owned', 'unowned'].includes(filter) ? filter : 'all';
+    this.ownedFilter = nextFilter;
+    this.render();
+  }
+
+  filteredAndSortedPlayers() {
+    return this.players
+      .filter((player) => {
+        if (this.ownedFilter === 'owned') {
+          return player.rookieCardIsOwned;
+        }
+
+        if (this.ownedFilter === 'unowned') {
+          return !player.rookieCardIsOwned;
+        }
+
+        return true;
+      })
+      .sort((a, b) => {
+        const result = compareValues(a, b, this.sortState.key);
+        return this.sortState.direction === 'asc' ? result : -result;
+      });
   }
 
   updateSortIndicators() {
@@ -65,7 +84,7 @@ export class PlayersTable {
   render() {
     this.tableBody.innerHTML = '';
 
-    this.sortedPlayers().forEach((player) => {
+    this.filteredAndSortedPlayers().forEach((player) => {
       const row = document.createElement('tr');
       row.innerHTML = `
         <td class="col-player">${player.playerName}</td>

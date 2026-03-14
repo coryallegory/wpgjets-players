@@ -77,12 +77,13 @@ export class PlayersTable {
         <td class="col-card">${player.isYoungGuns ? 'Yes' : 'No'}</td>
         <td class="col-card">${player.rookieCardSet}</td>
         <td class="col-card">${player.rookieCardNumber}</td>
+        <td class="col-card">${player.rookieCardIsOwned ? 'Yes' : 'No'}</td>
       `;
       this.tableBody.appendChild(row);
     });
   }
 
   renderError(message) {
-    this.tableBody.innerHTML = `<tr><td class="col-player" colspan="9">${message}</td></tr>`;
+    this.tableBody.innerHTML = `<tr><td class="col-player" colspan="10">${message}</td></tr>`;
   }
 }

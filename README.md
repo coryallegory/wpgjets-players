@@ -40,6 +40,7 @@ Each rookie card object includes:
 - `isOwned`
 - `set`
 - `cardNumber`
+- `comc_url`
 
 ## Rookie card selection criteria
 
@@ -56,6 +57,7 @@ Store only:
 - whether the card is owned (`isOwned`)
 - set name in `set`
 - card number in `cardNumber`
+- source URL in `comc_url` (leave blank when no source is available)
 
 The rookie card dataset is always kept aligned with `data/wpg_players.json`. When new players appear, entries are auto-added with default unknown values:
 
@@ -63,6 +65,7 @@ The rookie card dataset is always kept aligned with `data/wpg_players.json`. Whe
 - `isOwned: false`
 - `set: ""`
 - `cardNumber: ""`
+- `comc_url: ""`
 
 ## Web page
 

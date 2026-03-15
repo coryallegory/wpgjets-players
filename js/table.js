@@ -46,6 +46,7 @@ export class PlayersTable {
     this.players = [];
     this.sortState = { key: 'playerName', direction: 'asc' };
     this.ownedFilter = 'all';
+    this.youngGunsFilter = 'all';
   }
 
   setPlayers(players) {
@@ -60,18 +61,30 @@ export class PlayersTable {
     this.render();
   }
 
+  setYoungGunsFilter(filter) {
+    const nextFilter = ['all', 'young-guns', 'non-young-guns'].includes(filter) ? filter : 'all';
+    this.youngGunsFilter = nextFilter;
+    this.render();
+  }
+
   filteredAndSortedPlayers() {
     return this.players
       .filter((player) => {
-        if (this.ownedFilter === 'owned') {
-          return player.rookieCardIsOwned;
-        }
+        const matchesOwnedFilter =
+          this.ownedFilter === 'owned'
+            ? player.rookieCardIsOwned
+            : this.ownedFilter === 'unowned'
+              ? !player.rookieCardIsOwned
+              : true;
 
-        if (this.ownedFilter === 'unowned') {
-          return !player.rookieCardIsOwned;
-        }
+        const matchesYoungGunsFilter =
+          this.youngGunsFilter === 'young-guns'
+            ? player.isYoungGuns
+            : this.youngGunsFilter === 'non-young-guns'
+              ? !player.isYoungGuns
+              : true;
 
-        return true;
+        return matchesOwnedFilter && matchesYoungGunsFilter;
       })
       .sort((a, b) => {
         const result = compareValues(a, b, this.sortState.key);

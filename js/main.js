@@ -4,11 +4,18 @@ import { bindColumnGroupToggles } from './column-groups.js';
 
 const tableElement = document.querySelector('#players-table');
 const ownedFilterElement = document.querySelector('#owned-filter');
+const youngGunsFilterElement = document.querySelector('#young-guns-filter');
 const playersTable = new PlayersTable(tableElement);
 
 if (ownedFilterElement) {
   ownedFilterElement.addEventListener('change', () => {
     playersTable.setOwnedFilter(ownedFilterElement.value);
+  });
+}
+
+if (youngGunsFilterElement) {
+  youngGunsFilterElement.addEventListener('change', () => {
+    playersTable.setYoungGunsFilter(youngGunsFilterElement.value);
   });
 }
 
@@ -21,6 +28,10 @@ loadPlayers()
 
     if (ownedFilterElement) {
       playersTable.setOwnedFilter(ownedFilterElement.value);
+    }
+
+    if (youngGunsFilterElement) {
+      playersTable.setYoungGunsFilter(youngGunsFilterElement.value);
     }
   })
   .catch((error) => {

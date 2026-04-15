@@ -531,6 +531,15 @@
     "comcUrl": "https://www.comc.com/Cards/Hockey,=Brandon+Tanev+2016-17+Upper+Deck+467"
   },
   {
+    "playerId": 8484242,
+    "playerName": "Brayden Yager",
+    "isYG": false,
+    "isOwned": false,
+    "set": "",
+    "cardNumber": "",
+    "comcUrl": ""
+  },
+  {
     "playerId": 8477962,
     "playerName": "Brendan Lemieux",
     "isYG": true,

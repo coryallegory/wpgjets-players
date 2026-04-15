@@ -127,11 +127,11 @@
       },
       {
         "season": 20252026,
-        "gamesPlayedRegularSeason": 67,
+        "gamesPlayedRegularSeason": 68,
         "gamesPlayedPlayoffs": 0
       }
     ],
-    "gamesPlayedRegularSeason": 842,
+    "gamesPlayedRegularSeason": 843,
     "gamesPlayedPlayoffs": 62
   },
   {
@@ -1379,11 +1379,11 @@
       },
       {
         "season": 20252026,
-        "gamesPlayedRegularSeason": 22,
+        "gamesPlayedRegularSeason": 23,
         "gamesPlayedPlayoffs": 0
       }
     ],
-    "gamesPlayedRegularSeason": 28,
+    "gamesPlayedRegularSeason": 29,
     "gamesPlayedPlayoffs": 0
   },
   {
@@ -1419,6 +1419,20 @@
     ],
     "gamesPlayedRegularSeason": 214,
     "gamesPlayedPlayoffs": 35
+  },
+  {
+    "playerId": 8484242,
+    "playerName": "Brayden Yager",
+    "position": "C",
+    "seasons": [
+      {
+        "season": 20252026,
+        "gamesPlayedRegularSeason": 1,
+        "gamesPlayedPlayoffs": 0
+      }
+    ],
+    "gamesPlayedRegularSeason": 1,
+    "gamesPlayedPlayoffs": 0
   },
   {
     "playerId": 8477962,
@@ -2010,11 +2024,11 @@
     "seasons": [
       {
         "season": 20252026,
-        "gamesPlayedRegularSeason": 63,
+        "gamesPlayedRegularSeason": 64,
         "gamesPlayedPlayoffs": 0
       }
     ],
-    "gamesPlayedRegularSeason": 63,
+    "gamesPlayedRegularSeason": 64,
     "gamesPlayedPlayoffs": 0
   },
   {
@@ -2044,11 +2058,11 @@
       },
       {
         "season": 20252026,
-        "gamesPlayedRegularSeason": 65,
+        "gamesPlayedRegularSeason": 66,
         "gamesPlayedPlayoffs": 0
       }
     ],
-    "gamesPlayedRegularSeason": 287,
+    "gamesPlayedRegularSeason": 288,
     "gamesPlayedPlayoffs": 14
   },
   {
@@ -2068,11 +2082,11 @@
       },
       {
         "season": 20252026,
-        "gamesPlayedRegularSeason": 15,
+        "gamesPlayedRegularSeason": 16,
         "gamesPlayedPlayoffs": 0
       }
     ],
-    "gamesPlayedRegularSeason": 80,
+    "gamesPlayedRegularSeason": 81,
     "gamesPlayedPlayoffs": 5
   },
   {
@@ -2132,11 +2146,11 @@
       },
       {
         "season": 20252026,
-        "gamesPlayedRegularSeason": 56,
+        "gamesPlayedRegularSeason": 57,
         "gamesPlayedPlayoffs": 0
       }
     ],
-    "gamesPlayedRegularSeason": 624,
+    "gamesPlayedRegularSeason": 625,
     "gamesPlayedPlayoffs": 58
   },
   {
@@ -3561,11 +3575,11 @@
       },
       {
         "season": 20252026,
-        "gamesPlayedRegularSeason": 79,
+        "gamesPlayedRegularSeason": 80,
         "gamesPlayedPlayoffs": 0
       }
     ],
-    "gamesPlayedRegularSeason": 456,
+    "gamesPlayedRegularSeason": 457,
     "gamesPlayedPlayoffs": 31
   },
   {
@@ -3595,11 +3609,11 @@
       },
       {
         "season": 20252026,
-        "gamesPlayedRegularSeason": 63,
+        "gamesPlayedRegularSeason": 64,
         "gamesPlayedPlayoffs": 0
       }
     ],
-    "gamesPlayedRegularSeason": 279,
+    "gamesPlayedRegularSeason": 280,
     "gamesPlayedPlayoffs": 23
   },
   {
@@ -4036,11 +4050,11 @@
       },
       {
         "season": 20252026,
-        "gamesPlayedRegularSeason": 79,
+        "gamesPlayedRegularSeason": 80,
         "gamesPlayedPlayoffs": 0
       }
     ],
-    "gamesPlayedRegularSeason": 197,
+    "gamesPlayedRegularSeason": 198,
     "gamesPlayedPlayoffs": 14
   },
   {
@@ -4405,11 +4419,11 @@
       },
       {
         "season": 20252026,
-        "gamesPlayedRegularSeason": 36,
+        "gamesPlayedRegularSeason": 37,
         "gamesPlayedPlayoffs": 0
       }
     ],
-    "gamesPlayedRegularSeason": 75,
+    "gamesPlayedRegularSeason": 76,
     "gamesPlayedPlayoffs": 8
   },
   {
@@ -4576,11 +4590,11 @@
     "seasons": [
       {
         "season": 20252026,
-        "gamesPlayedRegularSeason": 34,
+        "gamesPlayedRegularSeason": 35,
         "gamesPlayedPlayoffs": 0
       }
     ],
-    "gamesPlayedRegularSeason": 34,
+    "gamesPlayedRegularSeason": 35,
     "gamesPlayedPlayoffs": 0
   },
   {
@@ -4633,11 +4647,11 @@
     "seasons": [
       {
         "season": 20252026,
-        "gamesPlayedRegularSeason": 48,
+        "gamesPlayedRegularSeason": 49,
         "gamesPlayedPlayoffs": 0
       }
     ],
-    "gamesPlayedRegularSeason": 48,
+    "gamesPlayedRegularSeason": 49,
     "gamesPlayedPlayoffs": 0
   },
   {
@@ -5366,11 +5380,11 @@
     "seasons": [
       {
         "season": 20252026,
-        "gamesPlayedRegularSeason": 79,
+        "gamesPlayedRegularSeason": 80,
         "gamesPlayedPlayoffs": 0
       }
     ],
-    "gamesPlayedRegularSeason": 79,
+    "gamesPlayedRegularSeason": 80,
     "gamesPlayedPlayoffs": 0
   },
   {
@@ -5477,11 +5491,11 @@
       },
       {
         "season": 20252026,
-        "gamesPlayedRegularSeason": 74,
+        "gamesPlayedRegularSeason": 75,
         "gamesPlayedPlayoffs": 0
       }
     ],
-    "gamesPlayedRegularSeason": 736,
+    "gamesPlayedRegularSeason": 737,
     "gamesPlayedPlayoffs": 54
   },
   {
@@ -5972,11 +5986,11 @@
       },
       {
         "season": 20252026,
-        "gamesPlayedRegularSeason": 79,
+        "gamesPlayedRegularSeason": 80,
         "gamesPlayedPlayoffs": 0
       }
     ],
-    "gamesPlayedRegularSeason": 692,
+    "gamesPlayedRegularSeason": 693,
     "gamesPlayedPlayoffs": 58
   },
   {
@@ -6692,11 +6706,11 @@
       },
       {
         "season": 20252026,
-        "gamesPlayedRegularSeason": 79,
+        "gamesPlayedRegularSeason": 80,
         "gamesPlayedPlayoffs": 0
       }
     ],
-    "gamesPlayedRegularSeason": 958,
+    "gamesPlayedRegularSeason": 959,
     "gamesPlayedPlayoffs": 53
   },
   {
@@ -7772,11 +7786,11 @@
       },
       {
         "season": 20252026,
-        "gamesPlayedRegularSeason": 8,
+        "gamesPlayedRegularSeason": 9,
         "gamesPlayedPlayoffs": 0
       }
     ],
-    "gamesPlayedRegularSeason": 13,
+    "gamesPlayedRegularSeason": 14,
     "gamesPlayedPlayoffs": 0
   },
   {
@@ -7879,11 +7893,11 @@
       },
       {
         "season": 20252026,
-        "gamesPlayedRegularSeason": 58,
+        "gamesPlayedRegularSeason": 59,
         "gamesPlayedPlayoffs": 0
       }
     ],
-    "gamesPlayedRegularSeason": 239,
+    "gamesPlayedRegularSeason": 240,
     "gamesPlayedPlayoffs": 23
   },
   {

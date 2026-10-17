@@ -118,21 +118,21 @@ Only a **single rookie card per player** is in scope.
 Phase 1 (player list) is done: 676 players (602 from NHL data, 74 WHA-only). The site is a sortable
 table of `players.json`. All WHA review items are resolved (alternate birth dates are kept in `notes`).
 
-- `npm run get:nhl` – `scripts/get-nhldata-jets.mjs` -> `temp/reference/nhl-jets.json`
-- `npm run get:hr-wha`, `npm run get:hockeydb-wha` – WHA pulls (cached in `temp/cache/`)
-- `npm run get:nhl-wha` – looks WHA-only players up in NHL data by name + birth date
+- `npm run get:nhl` â€“ `scripts/get-nhldata-jets.mjs` -> `temp/reference/nhl-jets.json`
+- `npm run get:hr-wha`, `npm run get:hockeydb-wha` â€“ WHA pulls (cached in `temp/cache/`)
+- `npm run get:nhl-wha` â€“ looks WHA-only players up in NHL data by name + birth date
   (`temp/reference/nhl-wha-lookup.json`, cached in `temp/cache/nhl/`). Workflow:
   get:nhl-wha -> reconcile:wha -> merge:wha
-- `npm run reconcile:wha` – matches WHA data against the NHL layer; writes
+- `npm run reconcile:wha` â€“ matches WHA data against the NHL layer; writes
   `temp/reference/wha-reconcile.json` and `wha-review.md`. Owner resolutions live in
   `data/decisions/wha-decisions.json`; reserved WHA ids in `data/decisions/wha-ids.json`
-- `npm run merge:wha` – merges WHA data into `players.json` (idempotent; refuses while review
+- `npm run merge:wha` â€“ merges WHA data into `players.json` (idempotent; refuses while review
   items are open unless `--allow-open`; `--dry-run` available)
-- `npm run init:players` – one-time NHL seed of `players.json`; refuses to overwrite (`--force`
+- `npm run init:players` â€“ one-time NHL seed of `players.json`; refuses to overwrite (`--force`
   only for deliberate regeneration; it would drop WHA data, so re-run merge afterwards)
-- `npm run validate` – schema/integrity checks (`scripts/validate.mjs`)
-- `npm test` – node:test suites in `tests/`
-- `npm run serve` – local preview at http://localhost:8000
+- `npm run validate` â€“ schema/integrity checks (`scripts/validate.mjs`)
+- `npm test` â€“ node:test suites in `tests/`
+- `npm run serve` â€“ local preview at http://localhost:8000
 
 Curated player fields (schema v2): `playerId`, `firstName`, `lastName`, `name` ("Last, First",
 derived from separate fields, never parsed), `country`, `birthDate`, `positions`, `rookieSeason`

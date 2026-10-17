@@ -1,27 +1,68 @@
 # AGENTS.md
 
-Guidance for AI coding agents working in this repository. Humans: see the same rules here.
+Guidance for AI coding agents working in this repository.
 
 ## Goal
 
-A **personal Winnipeg Jets rookie card collection tracker**. The user (sole audience) tracks which
-Jets players' rookie cards they own or want. Player data (every player to appear in a Winnipeg Jets
-game, NHL and WHA) is supporting context, not the product.
+A **personal Winnipeg Jets rookie card collection tracker** (sole audience: the repo owner). It
+tracks every player tied to a Winnipeg Jets franchise and the single rookie card the owner wants
+for each, whether it is collected, and its market price.
 
-Status: **restarting from scratch.** Requirements, data model and stack are not yet decided. Do not
-assume them; discuss with the user before building.
+Qualifying players (a player needs only one):
+
+- **Dressed/played:** at least one regular season or playoff game (GP ≥ 1) for any of:
+  - WHA Winnipeg Jets (1972-79)
+  - NHL Jets 1.0 (1979-96, API code `WIN`)
+  - NHL Jets 2.0 (2011-present, API code `WPG`)
+- **Drafted:** selected by a Winnipeg Jets franchise (the team that held the pick) in an NHL draft,
+  even if they never played for the Jets. WHA drafts are out of scope.
+
+## Phases
+
+1. **Player list** – assemble qualifying players. Primary source: official NHL stats
+   (https://www.nhl.com/stats/, backed by `https://api-web.nhle.com/v1/`). Per player: full name,
+   seasons played with the Jets, position, and draft info (year, team, overall pick/order).
+2. **Target rookie card** – one per player: the de facto flagship rookie card, not the rarest.
+   Precedence:
+   1. Modern era: base-set Upper Deck Young Guns.
+   2. Otherwise the set/brand generally regarded as the standard for that era: O-Pee-Chee in the
+      1990s and earlier; Parkhurst or Topps before OPC existed. OPC is always preferred over Topps
+      when both exist (OPC has the higher pedigree head to head).
+   3. If nothing fits, pick the closest defensible option and record why.
+   Record the card **set** (year + manufacturer/brand), **card number**, and whether it is
+   **serial numbered** (e.g. /100). Where the choice is unclear, store a **ranked list of
+   candidates** and mark which is chosen. If no rookie card exists, record that explicitly
+   (null card / "no card exists"); do not leave it blank.
+3. **Collection status** – whether the owner has the card or is still looking for one.
+4. **Market price** – raw (ungraded) prices, ultimately from eBay recent sold listings, possibly via
+   aggregators such as sportscardspro.com.
+
+Only a **single rookie card per player** is in scope.
+
+## Technical decisions
+
+- **Static website**: plain HTML/CSS/JS, no build step, no server required. It must work when
+  hosted statically (GitHub Pages) and ideally opened locally.
+- **Data is produced by local scripts** and committed to git alongside the site assets. The site
+  only reads and displays committed data.
+- **Scripts are Node.js (JavaScript)**, no third-party dependencies where practical (Node 22 has
+  `fetch` and `node:test`).
+- **Collection status is edited as JSON and committed** (by hand or by a local script).
+- Default branch is **`main`**.
+
+## Not yet decided
+
+Directory layout, data file schemas, how hand-curated fields are kept separate from generated
+ones, WHA data source (NHL stats may not cover it), and the price-collection method. Discuss with
+the owner before building these.
 
 ## Legacy reference
 
-The previous implementation lives in `legacy/` (static table site, card editor, NHL API generators,
-JSON data). It is **reference material only**: read it for ideas and data, but do not build on it or
-edit it unless asked. Notable contents:
-
-- `legacy/data/` – player GP data (NHL API + WHA) and rookie card mappings (`isYG`, `set`, `cardNumber`).
-- `legacy/scripts/` – Python generators for the NHL data.
-- `legacy/README.md` – description of the old project and its rookie-card selection rules.
+The previous implementation lives in `legacy/` (old table site, card editor, Python NHL API
+generators, JSON data). It is **reference only**: read it for ideas and data (e.g. hand-entered
+card info in `legacy/data/`), but do not build on or edit it unless asked.
 
 ## Working agreements
 
-- Discuss plans with the user before implementing large changes.
-- Keep this file current as decisions are made (goal, stack, data model, commands).
+- Discuss plans with the owner before implementing large changes.
+- Keep this file current as decisions are made (stack, schemas, commands).

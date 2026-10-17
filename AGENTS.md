@@ -81,6 +81,23 @@ Only a **single rookie card per player** is in scope.
 - **Local preview**: the site uses JavaScript, so provide a tiny dependency-free Node static server
   (e.g. `npm run serve`) to test it locally.
 
+## WHA decisions
+
+- A WHA player qualifies with >=1 regular-season or playoff game for the WHA Winnipeg Jets
+  (1972-73 to 1978-79). Playoff-only players count. **Preseason games are never counted.**
+  WHA drafts are out of scope.
+- Single `players.json` for all eras (many players span WHA and NHL). WHA-derived facts carry a
+  `source` that is not definitive.
+- Sources: Hockey-Reference (primary) and hockeydb (cross-check) via `scripts/get-hockeyreference-wha.mjs`
+  and `scripts/get-hockeydb-wha.mjs` (one-time, cached, polite scrapes; owner approved for personal
+  offline use). Eliteprospects blocks scripts. Both write 88 players to `temp/reference/`.
+- `birthDate` (ISO) is a required profile field and the key for matching people across sources;
+  never match on names alone (shared surnames, Rob/Robert, Doug/Douglas).
+- WHA-only players get IDs from a reserved range (900000+). Players also in the NHL data keep
+  their NHL `playerId`.
+- Ambiguous matches or source disagreements go to a review list for the owner; they are never
+  resolved silently.
+
 ## Current state and commands
 
 Phase 1 (player list) is done for NHL data; the site is a sortable table of `players.json`.

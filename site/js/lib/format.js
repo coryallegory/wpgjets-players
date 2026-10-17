@@ -27,6 +27,7 @@ export function toRow(player) {
     rookieSeason: player.rookieSeason ?? null,
     position: player.positions.length ? player.positions.join('/') : null,
     country: player.country ?? null,
+    birthDate: player.birthDate ?? null,
     seasonCount: seasons.length,
     firstSeason: seasons[0] ?? null,
     yearsLabel: yearsLabel(seasons[0], seasons[seasons.length - 1]),

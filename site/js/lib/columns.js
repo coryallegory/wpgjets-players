@@ -5,6 +5,8 @@ export const COLUMNS = [
   { id: 'rookieSeason', label: 'Rookie Season', field: 'rookieSeason', sortKey: 'rookieSeason', type: 'text' },
   { id: 'position', label: 'Pos', field: 'position', sortKey: 'position', type: 'text' },
   { id: 'country', label: 'Country', field: 'country', sortKey: 'country', type: 'text' },
+  // ISO "YYYY-MM-DD" is zero-padded, so it sorts chronologically as text.
+  { id: 'birthDate', label: 'Birth Date', field: 'birthDate', sortKey: 'birthDate', type: 'text' },
   { id: 'seasonCount', label: 'Jets Seasons', field: 'seasonCount', sortKey: 'seasonCount', type: 'number' },
   // Season labels like "1981-82" sort correctly as text, so the span sorts by its first season.
   { id: 'years', label: 'Jets Years', field: 'yearsLabel', sortKey: 'firstSeason', type: 'text' },

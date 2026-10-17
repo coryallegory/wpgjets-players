@@ -57,6 +57,31 @@ test('toRow builds the view model', () => {
   assert.equal(r.amateur, 'Cornwall (QMJHL)');
 });
 
+test('toRow passes birthDate through and nulls it when absent', () => {
+  assert.equal(toRow(curated({ birthDate: '1960-02-07' })).birthDate, '1960-02-07');
+  assert.equal(toRow(curated()).birthDate, null);
+});
+
+test('Birth Date column sits after Country and displays ISO dates or the missing marker', () => {
+  const ids = COLUMNS.map((c) => c.id);
+  assert.equal(ids[ids.indexOf('country') + 1], 'birthDate');
+  assert.equal(column('birthDate').label, 'Birth Date');
+  assert.equal(display(toRow(curated({ birthDate: '1960-02-07' })).birthDate), '1960-02-07');
+  assert.equal(display(toRow(curated()).birthDate), MISSING);
+});
+
+test('Birth Date sorts chronologically ascending and descending, missing last', () => {
+  const rows = [
+    row(1, 'A', { birthDate: '1999-12-31' }),
+    row(2, 'B', { birthDate: null }),
+    row(3, 'C', { birthDate: '1989-01-19' }),
+    row(4, 'D', { birthDate: '2000-01-01' }),
+    row(5, 'E', { birthDate: '1989-01-02' }),
+  ];
+  assert.deepEqual(ids(sortRows(rows, column('birthDate'), 'asc')), [5, 3, 1, 4, 2]);
+  assert.deepEqual(ids(sortRows(rows, column('birthDate'), 'desc')), [4, 1, 3, 5, 2]);
+});
+
 test('toRow handles drafted-only and undrafted players', () => {
   const drafted = toRow(curated({ rookieSeason: null, jets: { regularGP: 0, playoffGP: 0, seasons: [] } }));
   assert.equal(drafted.seasonCount, 0);
@@ -139,6 +164,12 @@ test('search matches either name order, ignoring case and accents', () => {
   assert.deepEqual(search('hawerchuk, d'), [1]);
   assert.deepEqual(search(''), [1, 2]);
   assert.deepEqual(search('zzz'), []);
+});
+
+test('search does not match birth dates', () => {
+  const rows = [toRow(curated({ birthDate: '1960-02-07' }))];
+  assert.deepEqual(ids(filterRows(rows, { played: true, drafted: true, query: '1960' })), []);
+  assert.deepEqual(ids(filterRows(rows, { played: true, drafted: true, query: '02-07' })), []);
 });
 
 test('search combines with toggles', () => {

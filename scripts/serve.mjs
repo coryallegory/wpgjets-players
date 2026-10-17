@@ -46,7 +46,7 @@ const server = createServer(async (req, res) => {
   }
 
   try {
-    const { pathname } = new URL(req.url, 'http://localhost');
+    const pathname = req.url.split('?')[0].split('#')[0];
     let filePath = resolveRequestPath(pathname);
     if (!filePath) return sendText(res, 403, 'Forbidden');
 

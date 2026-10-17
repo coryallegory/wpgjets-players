@@ -16,18 +16,18 @@
 // players with >= 1 NHL game get status "matched"; an exact NHL record without NHL games keeps the
 // reserved id ("nhl-record-no-nhl-games"). Same-surname candidates with a near birth date (same
 // year, <= 60 days apart, or day/month swapped), several exact candidates, or an exact birth date
-// with an incompatible first name become REVIEW candidates; scripts/reconcile-wha.mjs turns them
+// with an incompatible first name become REVIEW candidates; scripts/wha/reconcile-wha.mjs turns them
 // into decision items `nhlid:{key}:{nhlPlayerId}` (resolve in data/decisions/wha-decisions.json).
 //
 // Usage: npm run get:nhl-wha [-- --refresh]
 import { mkdir, readFile, writeFile } from 'node:fs/promises';
 import { dirname, resolve } from 'node:path';
 import { fileURLToPath, pathToFileURL } from 'node:url';
-import { WEB, SEARCH, getJson, mapLimit, rookieSeason, firstLeagueSeason } from './get-nhldata-jets.mjs';
+import { WEB, SEARCH, getJson, mapLimit, rookieSeason, firstLeagueSeason } from '../get-nhldata-jets.mjs';
 import { normName, namesCompatible, indexDecisions } from './reconcile-wha.mjs';
 import { parseCareerSeasons, firstCareerSeason } from './get-hockeyreference-wha.mjs';
 
-const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), '..');
+const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), '..', '..');
 const PATHS = {
   ids: resolve(ROOT, 'data', 'decisions', 'wha-ids.json'),
   decisions: resolve(ROOT, 'data', 'decisions', 'wha-decisions.json'),

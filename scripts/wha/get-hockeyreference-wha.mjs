@@ -3,14 +3,14 @@
 // WHA Winnipeg Jets (1972-73..1978-79) from Hockey-Reference (team code WNJ).
 // Preseason is never counted. WHA draft picks are out of scope.
 // Output: temp/reference/hockeyreference-wha-jets.json (reference data, never hand-edit).
-// Usage: node scripts/get-hockeyreference-wha.mjs [--refresh] [--no-players]
+// Usage: node scripts/wha/get-hockeyreference-wha.mjs [--refresh] [--no-players]
 // Politeness: descriptive UA, sequential requests >=3.2s apart, every page cached in
 // temp/cache/hockeyreference/ (reused unless --refresh), STOP on 403.
 import { mkdir, readFile, writeFile } from 'node:fs/promises';
 import { dirname, resolve } from 'node:path';
 import { fileURLToPath, pathToFileURL } from 'node:url';
 
-const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), '..');
+const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), '..', '..');
 const CACHE_DIR = resolve(ROOT, 'temp', 'cache', 'hockeyreference');
 const OUT = resolve(ROOT, 'temp', 'reference', 'hockeyreference-wha-jets.json');
 const BASE = 'https://www.hockey-reference.com';

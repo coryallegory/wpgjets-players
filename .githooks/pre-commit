@@ -1,0 +1,9 @@
+#!/bin/sh
+# Validate curated/decision data before committing. Enable once with: npm run setup:hooks
+if git diff --cached --name-only | grep -qE '^(site/data/curated/|data/decisions/)'; then
+  if ! npm run --silent validate; then
+    echo "pre-commit: data validation failed; commit aborted. Fix the errors above (bypass only deliberately with --no-verify)." >&2
+    exit 1
+  fi
+fi
+exit 0

@@ -1,5 +1,5 @@
 {
-  "description": "Reserved playerIds (900001+) for WHA-only players, keyed by WHA source key (hr:{Hockey-Reference id} or db:{hockeydb id}). Append-only: never renumber or reuse. When the player turns out to have an NHL career, the entry gets retiredFor { nhlPlayerId, basis, evidence, verified }: the player then uses the real NHL id and the reserved id stays retired forever. Written by scripts/reconcile-wha.mjs.",
+  "description": "Reserved playerIds (900001+) for WHA-only players, keyed by WHA source key (hr:{Hockey-Reference id} or db:{hockeydb id}). Append-only: never renumber or reuse. When the player turns out to have an NHL career, the entry gets retiredFor { nhlPlayerId, basis, evidence, verified }: the player then uses the real NHL id and the reserved id stays retired forever. Written by scripts/wha/reconcile-wha.mjs.",
   "assignments": [
     {
       "key": "hr:andrera01",

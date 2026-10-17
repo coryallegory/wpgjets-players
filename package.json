@@ -7,13 +7,14 @@
     "validate": "node scripts/validate.mjs",
     "test": "node --test tests/*.test.mjs",
     "get:nhl": "node scripts/get-nhldata-jets.mjs",
-    "get:nhl-wha": "node scripts/get-nhldata-wha-players.mjs",
-    "get:hockeydb-wha": "node scripts/get-hockeydb-wha.mjs",
-    "get:hr-wha": "node scripts/get-hockeyreference-wha.mjs",
+    "get:nhl-wha": "node scripts/wha/get-nhldata-wha-players.mjs",
+    "get:hockeydb-wha": "node scripts/wha/get-hockeydb-wha.mjs",
+    "get:hr-wha": "node scripts/wha/get-hockeyreference-wha.mjs",
     "init:players": "node scripts/init-curated-players.mjs",
-    "reconcile:wha": "node scripts/reconcile-wha.mjs",
-    "merge:wha": "node scripts/merge-wha-into-players.mjs",
-    "sync:nhl": "node scripts/sync-nhl-players.mjs"
+    "reconcile:wha": "node scripts/wha/reconcile-wha.mjs",
+    "merge:wha": "node scripts/wha/merge-wha-into-players.mjs",
+    "sync:nhl": "node scripts/sync-nhl-players.mjs",
+    "setup:hooks": "git config core.hooksPath .githooks"
   },
   "engines": {
     "node": ">=22"

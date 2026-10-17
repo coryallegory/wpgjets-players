@@ -3,7 +3,7 @@ import assert from 'node:assert/strict';
 import {
   decodeEntities, extractTable, parseRows, playerRows, phaseGames, parseBirthDate,
   countryFromFlag, positionNhlStyle, splitName, parsePlayerPage, parseTeamSeason, seasonLabel,
-} from '../scripts/get-hockeyreference-wha.mjs';
+} from '../scripts/wha/get-hockeyreference-wha.mjs';
 
 const skaters = `<table id="player_stats"><tr class="over_header"><th data-stat="x">x</th></tr>
 <tr><th scope="col" data-stat="name_display">Player</th></tr>

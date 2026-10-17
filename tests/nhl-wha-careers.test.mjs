@@ -2,13 +2,13 @@
 // the major-league rookieSeason, and the pure helpers behind them.
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { reconcile, whaRookieSeason, validateIdsFile, nhlLayer } from '../scripts/reconcile-wha.mjs';
-import { mergeWha, summarize } from '../scripts/merge-wha-into-players.mjs';
+import { reconcile, whaRookieSeason, validateIdsFile, nhlLayer } from '../scripts/wha/reconcile-wha.mjs';
+import { mergeWha, summarize } from '../scripts/wha/merge-wha-into-players.mjs';
 import { validatePlayers, validateIdMap } from '../scripts/validate.mjs';
 import { rookieSeason, firstLeagueSeason } from '../scripts/get-nhldata-jets.mjs';
-import { birthRelation, classifyCandidate, decide, draftFrom, decisionAlternates, nhlGames } from '../scripts/get-nhldata-wha-players.mjs';
-import { parseCareerSeasons, firstCareerSeason } from '../scripts/get-hockeyreference-wha.mjs';
-import { indexDecisions } from '../scripts/reconcile-wha.mjs';
+import { birthRelation, classifyCandidate, decide, draftFrom, decisionAlternates, nhlGames } from '../scripts/wha/get-nhldata-wha-players.mjs';
+import { parseCareerSeasons, firstCareerSeason } from '../scripts/wha/get-hockeyreference-wha.mjs';
+import { indexDecisions } from '../scripts/wha/reconcile-wha.mjs';
 
 // ---------------------------------------------------------------- fixtures
 

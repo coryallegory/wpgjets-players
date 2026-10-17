@@ -34,9 +34,9 @@ import { readFile, writeFile } from 'node:fs/promises';
 import { dirname, resolve } from 'node:path';
 import { fileURLToPath, pathToFileURL } from 'node:url';
 import { reconcile, loadReconcileInputs, isWhaReservedId, NEEDS_REVIEW_FIELD, REGENERATED_NOTE_PREFIXES } from './reconcile-wha.mjs';
-import { validatePlayers } from './validate.mjs';
+import { validatePlayers } from '../validate.mjs';
 
-const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), '..');
+const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), '..', '..');
 const PLAYERS_FILE = resolve(ROOT, 'site', 'data', 'curated', 'players.json');
 const NHL_REFERENCE = resolve(ROOT, 'temp', 'reference', 'nhl-jets.json');
 

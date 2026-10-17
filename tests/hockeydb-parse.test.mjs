@@ -9,7 +9,7 @@ import {
   countryFromBirthplace,
   nhlStylePosition,
   seasonLabel,
-} from '../scripts/get-hockeydb-wha.mjs';
+} from '../scripts/wha/get-hockeydb-wha.mjs';
 
 const LIST = `<table class="sortable"><thead><tr class="c_sort_head">
 <th class="l d_nm">Player Name</th><th>GP</th><th>G</th><th>A.</th><th>Pts</th><th>PIM</th><th>Seasons</th><th>Yrs.</th><th>Pos.</th><th>Birthdate</th><th class="l d_bp">Birthplace</th><th>Highest Level</th></tr></thead>

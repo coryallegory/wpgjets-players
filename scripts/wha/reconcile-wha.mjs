@@ -26,7 +26,7 @@ import { mkdir, readFile, writeFile } from 'node:fs/promises';
 import { dirname, resolve } from 'node:path';
 import { fileURLToPath, pathToFileURL } from 'node:url';
 
-const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), '..');
+const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), '..', '..');
 const PATHS = {
   hr: resolve(ROOT, 'temp', 'reference', 'hockeyreference-wha-jets.json'),
   db: resolve(ROOT, 'temp', 'reference', 'hockeydb-wha-jets.json'),
@@ -838,7 +838,7 @@ export const IDS_DESCRIPTION =
   'Reserved playerIds (900001+) for WHA-only players, keyed by WHA source key (hr:{Hockey-Reference id} or db:{hockeydb id}). ' +
   'Append-only: never renumber or reuse. When the player turns out to have an NHL career, the entry gets ' +
   'retiredFor { nhlPlayerId, basis, evidence, verified }: the player then uses the real NHL id and the reserved id stays ' +
-  'retired forever. Written by scripts/reconcile-wha.mjs.';
+  'retired forever. Written by scripts/wha/reconcile-wha.mjs.';
 
 /** ISO dates mentioned in the note of the owner's resolved birthdate decision for an entity key. */
 function decisionDates(decisions, key) {
@@ -1179,7 +1179,7 @@ async function loadHrCareers(ids) {
 }
 
 /**
- * Reads every reconcile input from disk (shared with scripts/merge-wha-into-players.mjs).
+ * Reads every reconcile input from disk (shared with scripts/wha/merge-wha-into-players.mjs).
  * nhl.com birth dates come from temp/reference/nhl-jets.json when present (see nhlLayer).
  * @param {{ players?: object[] }} [opts] pass an already-loaded players.json array to reuse it
  */

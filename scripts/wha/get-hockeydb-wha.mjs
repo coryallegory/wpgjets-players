@@ -8,7 +8,7 @@ import { mkdir, readFile, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath, pathToFileURL } from 'node:url';
 
-const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
+const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..', '..');
 const CACHE_DIR = path.join(ROOT, 'temp', 'cache', 'hockeydb');
 const OUT_FILE = path.join(ROOT, 'temp', 'reference', 'hockeydb-wha-jets.json');
 const BASE = 'https://www.hockeydb.com/ihdb/stats';

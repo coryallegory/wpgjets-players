@@ -3,7 +3,7 @@ import assert from 'node:assert/strict';
 import { syncNhl, runSync, recentSeasons, referenceAgeProblem, normaliseName, indexDecisions, formatReport } from '../scripts/sync-nhl-players.mjs';
 import { curatedPlayer } from '../scripts/init-curated-players.mjs';
 import { validatePlayers } from '../scripts/validate.mjs';
-import { comparePlayers } from '../scripts/merge-wha-into-players.mjs';
+import { comparePlayers } from '../scripts/wha/merge-wha-into-players.mjs';
 
 // ---------------------------------------------------------------- fixtures
 

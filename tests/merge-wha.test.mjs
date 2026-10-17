@@ -1,7 +1,7 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { reconcile } from '../scripts/reconcile-wha.mjs';
-import { mergeWha, summarize } from '../scripts/merge-wha-into-players.mjs';
+import { reconcile } from '../scripts/wha/reconcile-wha.mjs';
+import { mergeWha, summarize } from '../scripts/wha/merge-wha-into-players.mjs';
 import { validatePlayers } from '../scripts/validate.mjs';
 
 // ---------------------------------------------------------------- fixtures

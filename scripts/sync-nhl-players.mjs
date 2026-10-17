@@ -35,7 +35,7 @@ import { dirname, resolve } from 'node:path';
 import { fileURLToPath, pathToFileURL } from 'node:url';
 import { curatedPlayer } from './init-curated-players.mjs';
 import { validatePlayers, validateIdMap, sortableName } from './validate.mjs';
-import { comparePlayers } from './merge-wha-into-players.mjs';
+import { comparePlayers } from './wha/merge-wha-into-players.mjs';
 
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 export const PATHS = {

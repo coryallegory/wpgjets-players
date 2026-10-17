@@ -2,7 +2,7 @@
 // One-time seeding of site/data/curated/players.json from temp/reference/nhl-jets.json.
 // Refuses to overwrite an existing file unless --force is given.
 // Writes schema v2 records (NHL Jets games in `nhl`; see scripts/validate.mjs). WHA Jets players and
-// `wha` blocks are added afterwards by scripts/merge-wha-into-players.mjs (npm run merge:wha).
+// `wha` blocks are added afterwards by scripts/wha/merge-wha-into-players.mjs (npm run merge:wha).
 // Usage: npm run init:players [-- --force]
 import { mkdir, readFile, writeFile, access } from 'node:fs/promises';
 import { dirname, resolve } from 'node:path';

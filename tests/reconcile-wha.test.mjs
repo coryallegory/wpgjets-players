@@ -4,7 +4,7 @@ import {
   normName, firstNamesCompatible, namesCompatible, compareBirthDates, gpKey, proposeBirthDate,
   nhlTier, matchSources, pairDisagreements, assignWhaIds, indexDecisions, resolveItem,
   staleDecisionWarnings, reconcile, renderReview, WHA_ID_START, nhlLayer, isWhaReservedId,
-} from '../scripts/reconcile-wha.mjs';
+} from '../scripts/wha/reconcile-wha.mjs';
 
 // ---------------------------------------------------------------- fixtures
 

@@ -4,10 +4,10 @@
 // Output: temp/reference/nhl-jets.json (reference data, never hand-edit).
 import { mkdir, writeFile } from 'node:fs/promises';
 import { dirname, resolve } from 'node:path';
-import { fileURLToPath } from 'node:url';
+import { fileURLToPath, pathToFileURL } from 'node:url';
 
-const WEB = 'https://api-web.nhle.com/v1';
-const SEARCH = 'https://search.d3.nhle.com/api/v1/search/player';
+export const WEB = 'https://api-web.nhle.com/v1';
+export const SEARCH = 'https://search.d3.nhle.com/api/v1/search/player';
 const JETS_TEAMS = ['WIN', 'WPG'];
 const GAME_TYPES = { 2: 'regularGP', 3: 'playoffGP' };
 const FIRST_DRAFT_YEAR = 1979;
@@ -15,12 +15,12 @@ const CONCURRENCY = 5;
 const RETRIES = 4;
 const TIMEOUT_MS = 20000;
 // The NHL edge returns 429 to fetch's default user agent.
-const USER_AGENT = 'wpgjets-players-tracker/1.0 (personal project)';
+export const USER_AGENT = 'wpgjets-players-tracker/1.0 (personal project)';
 const OUT = resolve(dirname(fileURLToPath(import.meta.url)), '..', 'temp', 'reference', 'nhl-jets.json');
 
 const log = (msg) => console.log(msg);
 
-async function getJson(url) {
+export async function getJson(url) {
   let lastError;
   for (let attempt = 1; attempt <= RETRIES; attempt++) {
     try {
@@ -39,7 +39,7 @@ async function getJson(url) {
 }
 
 // Runs fn over items with bounded concurrency, preserving order.
-async function mapLimit(items, fn) {
+export async function mapLimit(items, fn) {
   const results = new Array(items.length);
   let next = 0;
   const worker = async () => {
@@ -52,8 +52,8 @@ async function mapLimit(items, fn) {
   return results;
 }
 
-const seasonLabel = (n) => `${String(n).slice(0, 4)}-${String(n).slice(6)}`;
-const fullName = (o) => `${o.firstName.default} ${o.lastName.default}`.trim();
+export const seasonLabel = (n) => `${String(n).slice(0, 4)}-${String(n).slice(6)}`;
+export const fullName = (o) => `${o.firstName.default} ${o.lastName.default}`.trim();
 
 // --- Played: club-stats per team/season/game type ---------------------------
 
@@ -148,11 +148,26 @@ async function resolveDraftedId(pick, used) {
   return null;
 }
 
-// First NHL regular season (any team), as a label like "1981-82"; null if never played.
-function rookieSeason(landing) {
-  const nhl = (landing.seasonTotals ?? []).filter((t) => t.leagueAbbrev === 'NHL' && t.gameTypeId === 2);
-  if (!nhl.length) return null;
-  return seasonLabel(Math.min(...nhl.map((t) => t.season)));
+/** Major leagues for rookieSeason: the owner counts a WHA rookie season as the big-league rookie season. */
+export const MAJOR_LEAGUES = ['NHL', 'WHA'];
+
+/**
+ * First major-league regular season (NHL or WHA, any team) as a label like "1981-82"; null if the
+ * player has neither. NHL landing seasonTotals carry WHA rows (leagueAbbrev "WHA") for most WHA
+ * players; rows with 0 GP are ignored.
+ */
+export function rookieSeason(landing) {
+  const rows = (landing.seasonTotals ?? []).filter(
+    (t) => MAJOR_LEAGUES.includes(t.leagueAbbrev) && t.gameTypeId === 2 && !(t.gamesPlayed === 0),
+  );
+  if (!rows.length) return null;
+  return seasonLabel(Math.min(...rows.map((t) => t.season)));
+}
+
+/** First regular season (label) in one league from landing seasonTotals, or null. */
+export function firstLeagueSeason(landing, league) {
+  const rows = (landing.seasonTotals ?? []).filter((t) => t.leagueAbbrev === league && t.gameTypeId === 2 && !(t.gamesPlayed === 0));
+  return rows.length ? seasonLabel(Math.min(...rows.map((t) => t.season))) : null;
 }
 
 // --- Assembly ---------------------------------------------------------------
@@ -220,7 +235,8 @@ async function main() {
     sourceNotes:
       'Official NHL APIs only. Played: api-web club-stats (WIN 1979-96, WPG 2011-), GP>=1 in regular season or playoffs. ' +
       'Drafted: api-web draft picks where the pick-holding team is WIN or WPG (Atlanta excluded); player IDs for ' +
-      'never-played picks resolved via NHL player search and verified against landing draftDetails. WHA excluded.',
+      'never-played picks resolved via NHL player search and verified against landing draftDetails. WHA Jets excluded ' +
+      '(rookieSeason = first NHL or WHA regular season on any team, from landing seasonTotals).',
     players,
   };
   await mkdir(dirname(OUT), { recursive: true });
@@ -228,7 +244,9 @@ async function main() {
   log(`Wrote ${players.length} players to ${OUT}`);
 }
 
-main().catch((err) => {
-  console.error(`ERROR: ${err.message}`);
-  process.exit(1);
-});
+if (process.argv[1] && import.meta.url === pathToFileURL(resolve(process.argv[1])).href) {
+  main().catch((err) => {
+    console.error(`ERROR: ${err.message}`);
+    process.exit(1);
+  });
+}

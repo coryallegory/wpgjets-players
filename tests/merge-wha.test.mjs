@@ -62,6 +62,7 @@ const rec = (players, decisions = [LONG_DECISION], ids = IDS) =>
   reconcile({ hr: structuredClone(HR), db: structuredClone(DB), nhl: players, decisions: { decisions }, ids, nhlBirthDates: NHL_COM_BIRTHDATES });
 const merge = (players, opts = { allowOpen: true }, decisions) => mergeWha(players, rec(players, decisions), opts);
 const byName = (players, last) => players.find((p) => p.lastName === last);
+const ROOKIE_NOTE_7273 = 'rookieSeason 1972-73: first WHA Jets regular season (no Hockey-Reference career table available) (no NHL career)';
 
 // ---------------------------------------------------------------- tests
 
@@ -97,7 +98,7 @@ test('--allow-open: migrates jets -> nhl, extends matched players, adds WHA-only
   assert.ok(gratton.playerId >= 900001);
   assert.equal(gratton.birthDate, '1947-03-08');
   assert.deepEqual(gratton.needsReview, ['birthDate']);
-  assert.equal(gratton.rookieSeason, null);
+  assert.equal(gratton.rookieSeason, '1972-73'); // first WHA Jets regular season (no HR career table in the fixture)
   assert.deepEqual(gratton.positions, ['R']);
   assert.equal(byName(players, 'Akerblom').wha, undefined);
 });
@@ -126,7 +127,7 @@ test('keeps hand edits; resolving a review item later updates birthDate and clea
   assert.equal(g2.birthDate, '1949-03-08');
   assert.equal(g2.needsReview, undefined);
   assert.equal(g2.country, 'XXX');
-  assert.deepEqual(g2.notes, ['owner: card checked', 'birthDate 1949-03-08 by owner decision birthdate:hr:grattje01: obituary']);
+  assert.deepEqual(g2.notes, ['owner: card checked', ROOKIE_NOTE_7273, 'birthDate 1949-03-08 by owner decision birthdate:hr:grattje01: obituary']);
   assert.deepEqual(byName(players, 'Lesuk').notes, ['owner note', 'WHA position per Hockey-Reference L (LW); NHL positions R kept']);
   assert.deepEqual(byName(players, 'Holden').positions, ['G', 'D']);
 });

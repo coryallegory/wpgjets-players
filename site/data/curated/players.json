@@ -138,7 +138,7 @@
     "positions": [
       "D"
     ],
-    "rookieSeason": "1979-80",
+    "rookieSeason": "1972-73",
     "nhl": {
       "regularGP": 19,
       "playoffGP": 0,
@@ -305,7 +305,7 @@
     "positions": [
       "C"
     ],
-    "rookieSeason": null,
+    "rookieSeason": "1974-75",
     "nhl": {
       "regularGP": 0,
       "playoffGP": 0,
@@ -341,7 +341,10 @@
       "definitive": false,
       "crossCheck": "hockeydb.com",
       "retrieved": "2026-10-17"
-    }
+    },
+    "notes": [
+      "rookieSeason 1974-75: first WHA regular season on any team per Hockey-Reference career table (no NHL career)"
+    ]
   },
   {
     "playerId": 8460547,
@@ -655,7 +658,7 @@
     "positions": [
       "D"
     ],
-    "rookieSeason": null,
+    "rookieSeason": "1972-73",
     "nhl": {
       "regularGP": 0,
       "playoffGP": 0,
@@ -698,7 +701,8 @@
       "retrieved": "2026-10-17"
     },
     "notes": [
-      "Name variants: \"Squeaky\"; Robert John Ash"
+      "Name variants: \"Squeaky\"; Robert John Ash",
+      "rookieSeason 1972-73: first WHA regular season on any team per Hockey-Reference career table (no NHL career)"
     ]
   },
   {
@@ -768,7 +772,7 @@
     "positions": [
       "L"
     ],
-    "rookieSeason": null,
+    "rookieSeason": "1974-75",
     "nhl": {
       "regularGP": 0,
       "playoffGP": 0,
@@ -806,7 +810,8 @@
       "retrieved": "2026-10-17"
     },
     "notes": [
-      "Name variants: Ronald Ashton"
+      "Name variants: Ronald Ashton",
+      "rookieSeason 1974-75: first WHA regular season on any team per Hockey-Reference career table (no NHL career)"
     ]
   },
   {
@@ -819,7 +824,7 @@
     "positions": [
       "D"
     ],
-    "rookieSeason": null,
+    "rookieSeason": "1972-73",
     "nhl": {
       "regularGP": 0,
       "playoffGP": 0,
@@ -873,7 +878,8 @@
     },
     "notes": [
       "position per Hockey-Reference D; hockeydb has R",
-      "Name variants: \"Duke\"; Duke Asmundson"
+      "Name variants: \"Duke\"; Duke Asmundson",
+      "rookieSeason 1972-73: first WHA regular season on any team per Hockey-Reference career table (no NHL career)"
     ]
   },
   {
@@ -993,7 +999,7 @@
     }
   },
   {
-    "playerId": 900005,
+    "playerId": 8445002,
     "firstName": "Ken",
     "lastName": "Baird",
     "name": "Baird, Ken",
@@ -1002,7 +1008,7 @@
     "positions": [
       "L"
     ],
-    "rookieSeason": null,
+    "rookieSeason": "1971-72",
     "nhl": {
       "regularGP": 0,
       "playoffGP": 0,
@@ -1029,7 +1035,13 @@
         "hockeydbId": "175"
       }
     },
-    "draft": null,
+    "draft": {
+      "year": 1971,
+      "team": "CGS",
+      "round": 2,
+      "overall": 15,
+      "amateur": "Flin Flon Bombers (WCHL)"
+    },
     "qualifiedBy": [
       "played"
     ],
@@ -1041,7 +1053,8 @@
     },
     "notes": [
       "position per Hockey-Reference L (LW); hockeydb has D",
-      "Name variants: Kenneth Stewart Baird"
+      "Name variants: Kenneth Stewart Baird",
+      "playerId 8445002 is the nhl.com player id (https://api-web.nhle.com/v1/player/8445002/landing); reserved WHA-only id 900005 retired (nhl-wha-lookup birthDate+lastName+firstName)"
     ]
   },
   {
@@ -1427,7 +1440,7 @@
     }
   },
   {
-    "playerId": 900006,
+    "playerId": 8445038,
     "firstName": "Norm",
     "lastName": "Beaudin",
     "name": "Beaudin, Norm",
@@ -1436,7 +1449,7 @@
     "positions": [
       "R"
     ],
-    "rookieSeason": null,
+    "rookieSeason": "1967-68",
     "nhl": {
       "regularGP": 0,
       "playoffGP": 0,
@@ -1489,7 +1502,8 @@
       "retrieved": "2026-10-17"
     },
     "notes": [
-      "Name variants: Norman Joseph Andrew Beaudin"
+      "Name variants: Norman Joseph Andrew Beaudin",
+      "playerId 8445038 is the nhl.com player id (https://api-web.nhle.com/v1/player/8445038/landing); reserved WHA-only id 900006 retired (nhl-wha-lookup birthDate+lastName+firstName)"
     ]
   },
   {
@@ -1502,7 +1516,7 @@
     "positions": [
       "D"
     ],
-    "rookieSeason": null,
+    "rookieSeason": "1973-74",
     "nhl": {
       "regularGP": 0,
       "playoffGP": 0,
@@ -1540,7 +1554,8 @@
       "retrieved": "2026-10-17"
     },
     "notes": [
-      "Name variants: Alain Pierre Beaule"
+      "Name variants: Alain Pierre Beaule",
+      "rookieSeason 1973-74: first WHA regular season on any team per Hockey-Reference career table (no NHL career)"
     ]
   },
   {
@@ -1774,7 +1789,7 @@
     }
   },
   {
-    "playerId": 900008,
+    "playerId": 8445445,
     "firstName": "Thommie",
     "lastName": "Bergman",
     "name": "Bergman, Thommie",
@@ -1783,7 +1798,7 @@
     "positions": [
       "D"
     ],
-    "rookieSeason": null,
+    "rookieSeason": "1972-73",
     "nhl": {
       "regularGP": 0,
       "playoffGP": 0,
@@ -1836,7 +1851,8 @@
       "retrieved": "2026-10-17"
     },
     "notes": [
-      "Name variants: Thommie Lars Rudolf Bergman"
+      "Name variants: Thommie Lars Rudolf Bergman",
+      "playerId 8445445 is the nhl.com player id (https://api-web.nhle.com/v1/player/8445445/landing); reserved WHA-only id 900008 retired (nhl-wha-lookup birthDate+lastName+firstName)"
     ]
   },
   {
@@ -2095,7 +2111,7 @@
     "positions": [
       "R"
     ],
-    "rookieSeason": null,
+    "rookieSeason": "1972-73",
     "nhl": {
       "regularGP": 0,
       "playoffGP": 0,
@@ -2143,7 +2159,8 @@
       "retrieved": "2026-10-17"
     },
     "notes": [
-      "Name variants: Milton James Black"
+      "Name variants: Milton James Black",
+      "rookieSeason 1972-73: first WHA regular season on any team per Hockey-Reference career table (no NHL career)"
     ]
   },
   {
@@ -2334,7 +2351,7 @@
     "positions": [
       "G"
     ],
-    "rookieSeason": null,
+    "rookieSeason": "1972-73",
     "nhl": {
       "regularGP": 0,
       "playoffGP": 0,
@@ -2370,7 +2387,10 @@
       "definitive": false,
       "crossCheck": "hockeydb.com",
       "retrieved": "2026-10-17"
-    }
+    },
+    "notes": [
+      "rookieSeason 1972-73: first WHA regular season on any team per Hockey-Reference career table (no NHL career)"
+    ]
   },
   {
     "playerId": 8474567,
@@ -2430,7 +2450,7 @@
     }
   },
   {
-    "playerId": 900011,
+    "playerId": 8445126,
     "firstName": "Christian",
     "lastName": "Bordeleau",
     "name": "Bordeleau, Christian",
@@ -2439,7 +2459,7 @@
     "positions": [
       "C"
     ],
-    "rookieSeason": null,
+    "rookieSeason": "1968-69",
     "nhl": {
       "regularGP": 0,
       "playoffGP": 0,
@@ -2487,7 +2507,8 @@
       "retrieved": "2026-10-17"
     },
     "notes": [
-      "Name variants: \"Pepe\"; Chris Bordeleau; Christian Gerard Bordeleau"
+      "Name variants: \"Pepe\"; Chris Bordeleau; Christian Gerard Bordeleau",
+      "playerId 8445126 is the nhl.com player id (https://api-web.nhle.com/v1/player/8445126/landing); reserved WHA-only id 900011 retired (nhl-wha-lookup birthDate+lastName+firstName)"
     ]
   },
   {
@@ -2864,7 +2885,7 @@
     }
   },
   {
-    "playerId": 900012,
+    "playerId": 8445151,
     "firstName": "Wally",
     "lastName": "Boyer",
     "name": "Boyer, Wally",
@@ -2873,7 +2894,7 @@
     "positions": [
       "C"
     ],
-    "rookieSeason": null,
+    "rookieSeason": "1965-66",
     "nhl": {
       "regularGP": 0,
       "playoffGP": 0,
@@ -2911,7 +2932,8 @@
       "retrieved": "2026-10-17"
     },
     "notes": [
-      "Name variants: Walter Boyer"
+      "Name variants: Walter Boyer",
+      "playerId 8445151 is the nhl.com player id (https://api-web.nhle.com/v1/player/8445151/landing); reserved WHA-only id 900012 retired (nhl-wha-lookup birthDate+lastName+firstName)"
     ]
   },
   {
@@ -3023,7 +3045,7 @@
     }
   },
   {
-    "playerId": 900013,
+    "playerId": 8445695,
     "firstName": "Gary",
     "lastName": "Bromley",
     "name": "Bromley, Gary",
@@ -3032,7 +3054,7 @@
     "positions": [
       "G"
     ],
-    "rookieSeason": null,
+    "rookieSeason": "1973-74",
     "nhl": {
       "regularGP": 0,
       "playoffGP": 0,
@@ -3070,7 +3092,8 @@
       "retrieved": "2026-10-17"
     },
     "notes": [
-      "Name variants: \"Bones\"; Gary Bert Bromley"
+      "Name variants: \"Bones\"; Gary Bert Bromley",
+      "playerId 8445695 is the nhl.com player id (https://api-web.nhle.com/v1/player/8445695/landing); reserved WHA-only id 900013 retired (nhl-wha-lookup birthDate+lastName+firstName)"
     ]
   },
   {
@@ -3626,7 +3649,7 @@
     "positions": [
       "L"
     ],
-    "rookieSeason": null,
+    "rookieSeason": "1972-73",
     "nhl": {
       "regularGP": 0,
       "playoffGP": 0,
@@ -3662,7 +3685,10 @@
       "definitive": false,
       "crossCheck": "hockeydb.com",
       "retrieved": "2026-10-17"
-    }
+    },
+    "notes": [
+      "rookieSeason 1972-73: first WHA regular season on any team per Hockey-Reference career table (no NHL career)"
+    ]
   },
   {
     "playerId": 8445877,
@@ -3719,7 +3745,7 @@
     "positions": [
       "D"
     ],
-    "rookieSeason": "1979-80",
+    "rookieSeason": "1977-78",
     "nhl": {
       "regularGP": 77,
       "playoffGP": 0,
@@ -4537,7 +4563,7 @@
     }
   },
   {
-    "playerId": 900015,
+    "playerId": 8446077,
     "firstName": "Kim",
     "lastName": "Clackson",
     "name": "Clackson, Kim",
@@ -4546,7 +4572,7 @@
     "positions": [
       "D"
     ],
-    "rookieSeason": null,
+    "rookieSeason": "1975-76",
     "nhl": {
       "regularGP": 0,
       "playoffGP": 0,
@@ -4578,7 +4604,13 @@
         "hockeydbId": "1010"
       }
     },
-    "draft": null,
+    "draft": {
+      "year": 1975,
+      "team": "PIT",
+      "round": 5,
+      "overall": 85,
+      "amateur": "Victoria Cougars (WCHL)"
+    },
     "qualifiedBy": [
       "played"
     ],
@@ -4589,7 +4621,8 @@
       "retrieved": "2026-10-17"
     },
     "notes": [
-      "Name variants: Kimble Gerald Clackson"
+      "Name variants: Kimble Gerald Clackson",
+      "playerId 8446077 is the nhl.com player id (https://api-web.nhle.com/v1/player/8446077/landing); reserved WHA-only id 900015 retired (nhl-wha-lookup birthDate+lastName+firstName)"
     ]
   },
   {
@@ -4804,7 +4837,7 @@
     "positions": [
       "L"
     ],
-    "rookieSeason": null,
+    "rookieSeason": "1976-77",
     "nhl": {
       "regularGP": 0,
       "playoffGP": 0,
@@ -4843,7 +4876,8 @@
     },
     "notes": [
       "birthDate 1951-08-13 per Hockey-Reference only; hockeydb has none",
-      "Name variants: James Cole"
+      "Name variants: James Cole",
+      "rookieSeason 1976-77: first WHA regular season on any team per Hockey-Reference career table (no NHL career)"
     ]
   },
   {
@@ -5315,7 +5349,7 @@
     "positions": [
       "D"
     ],
-    "rookieSeason": null,
+    "rookieSeason": "1972-73",
     "nhl": {
       "regularGP": 0,
       "playoffGP": 0,
@@ -5353,7 +5387,8 @@
       "retrieved": "2026-10-17"
     },
     "notes": [
-      "Name variants: Steven Ross Cuddie"
+      "Name variants: Steven Ross Cuddie",
+      "rookieSeason 1972-73: first WHA regular season on any team per Hockey-Reference career table (no NHL career)"
     ]
   },
   {
@@ -5465,7 +5500,7 @@
     }
   },
   {
-    "playerId": 900018,
+    "playerId": 8446290,
     "firstName": "Joe",
     "lastName": "Daley",
     "name": "Daley, Joe",
@@ -5474,7 +5509,7 @@
     "positions": [
       "G"
     ],
-    "rookieSeason": null,
+    "rookieSeason": "1968-69",
     "nhl": {
       "regularGP": 0,
       "playoffGP": 0,
@@ -5542,7 +5577,8 @@
       "retrieved": "2026-10-17"
     },
     "notes": [
-      "Name variants: \"The Holy Goalie\"; Thomas Joseph Daley"
+      "Name variants: \"The Holy Goalie\"; Thomas Joseph Daley",
+      "playerId 8446290 is the nhl.com player id (https://api-web.nhle.com/v1/player/8446290/landing); reserved WHA-only id 900018 retired (nhl-wha-lookup birthDate+lastName+firstName)"
     ]
   },
   {
@@ -5652,7 +5688,7 @@
     "positions": [
       "D"
     ],
-    "rookieSeason": null,
+    "rookieSeason": "1977-78",
     "nhl": {
       "regularGP": 0,
       "playoffGP": 0,
@@ -5696,7 +5732,8 @@
     },
     "notes": [
       "birthDate 1954-08-22 per Hockey-Reference only; hockeydb has none",
-      "Name variants: William Lloyd Davis"
+      "Name variants: William Lloyd Davis",
+      "rookieSeason 1977-78: first WHA regular season on any team per Hockey-Reference career table (no NHL career)"
     ]
   },
   {
@@ -6083,7 +6120,7 @@
     "positions": [
       "C"
     ],
-    "rookieSeason": "1975-76",
+    "rookieSeason": "1973-74",
     "nhl": {
       "regularGP": 13,
       "playoffGP": 0,
@@ -6122,7 +6159,7 @@
     "positions": [
       "G"
     ],
-    "rookieSeason": "1979-80",
+    "rookieSeason": "1974-75",
     "nhl": {
       "regularGP": 14,
       "playoffGP": 0,
@@ -6425,7 +6462,7 @@
     "positions": [
       "L"
     ],
-    "rookieSeason": "1979-80",
+    "rookieSeason": "1978-79",
     "nhl": {
       "regularGP": 24,
       "playoffGP": 1,
@@ -6966,7 +7003,7 @@
     }
   },
   {
-    "playerId": 900020,
+    "playerId": 8446525,
     "firstName": "Dave",
     "lastName": "Dunn",
     "name": "Dunn, Dave",
@@ -6975,7 +7012,7 @@
     "positions": [
       "D"
     ],
-    "rookieSeason": null,
+    "rookieSeason": "1973-74",
     "nhl": {
       "regularGP": 0,
       "playoffGP": 0,
@@ -7018,7 +7055,8 @@
       "retrieved": "2026-10-17"
     },
     "notes": [
-      "Name variants: \"Red\"; David George Dunn"
+      "Name variants: \"Red\"; David George Dunn",
+      "playerId 8446525 is the nhl.com player id (https://api-web.nhle.com/v1/player/8446525/landing); reserved WHA-only id 900020 retired (nhl-wha-lookup birthDate+lastName+firstName)"
     ]
   },
   {
@@ -7975,7 +8013,7 @@
     }
   },
   {
-    "playerId": 900021,
+    "playerId": 8446710,
     "firstName": "Roland",
     "lastName": "Eriksson",
     "name": "Eriksson, Roland",
@@ -7984,7 +8022,7 @@
     "positions": [
       "C"
     ],
-    "rookieSeason": null,
+    "rookieSeason": "1976-77",
     "nhl": {
       "regularGP": 0,
       "playoffGP": 0,
@@ -8011,7 +8049,13 @@
         "hockeydbId": "1579"
       }
     },
-    "draft": null,
+    "draft": {
+      "year": 1974,
+      "team": "MNS",
+      "round": 8,
+      "overall": 131,
+      "amateur": "Tunabro (Sweden)"
+    },
     "qualifiedBy": [
       "played"
     ],
@@ -8022,7 +8066,8 @@
       "retrieved": "2026-10-17"
     },
     "notes": [
-      "Name variants: Roland Bengt Eriksson"
+      "Name variants: Roland Bengt Eriksson",
+      "playerId 8446710 is the nhl.com player id (https://api-web.nhle.com/v1/player/8446710/landing); reserved WHA-only id 900021 retired (nhl-wha-lookup birthDate+lastName+firstName)"
     ]
   },
   {
@@ -8838,7 +8883,7 @@
     "positions": [
       "D"
     ],
-    "rookieSeason": null,
+    "rookieSeason": "1974-75",
     "nhl": {
       "regularGP": 0,
       "playoffGP": 0,
@@ -8891,7 +8936,8 @@
       "retrieved": "2026-10-17"
     },
     "notes": [
-      "Name variants: Michael Alfred Ford"
+      "Name variants: Michael Alfred Ford",
+      "rookieSeason 1974-75: first WHA regular season on any team per Hockey-Reference career table (no NHL career)"
     ]
   },
   {
@@ -9450,7 +9496,7 @@
     "positions": [
       "R"
     ],
-    "rookieSeason": "1979-80",
+    "rookieSeason": "1978-79",
     "nhl": {
       "regularGP": 79,
       "playoffGP": 0,
@@ -9525,7 +9571,7 @@
     "positions": [
       "C"
     ],
-    "rookieSeason": "1980-81",
+    "rookieSeason": "1978-79",
     "nhl": {
       "regularGP": 11,
       "playoffGP": 0,
@@ -9799,7 +9845,7 @@
     "positions": [
       "C"
     ],
-    "rookieSeason": null,
+    "rookieSeason": "1978-79",
     "nhl": {
       "regularGP": 0,
       "playoffGP": 0,
@@ -9837,7 +9883,8 @@
       "retrieved": "2026-10-17"
     },
     "notes": [
-      "Name variants: Richmond Gosselin"
+      "Name variants: Richmond Gosselin",
+      "rookieSeason 1978-79: first WHA regular season on any team per Hockey-Reference career table (no NHL career)"
     ]
   },
   {
@@ -9850,7 +9897,7 @@
     "positions": [
       "R"
     ],
-    "rookieSeason": null,
+    "rookieSeason": "1972-73",
     "nhl": {
       "regularGP": 0,
       "playoffGP": 0,
@@ -9899,7 +9946,8 @@
     },
     "notes": [
       "birthDate 1949-03-08 by owner decision birthdate:hr:grattje01: 1949-03-08, born Sainte-Anne-des-Plaines, Quebec. Wikipedia (en.wikipedia.org/wiki/Jean-Guy_Gratton) and WHA Hall of Fame (wha-hof.com/playerdetail.php?id=105) agree with hockeydb; Hockey-Reference 1947-03-08 is wrong.",
-      "Name variants: Jean Guy Lionel Gratton"
+      "Name variants: Jean Guy Lionel Gratton",
+      "rookieSeason 1972-73: first WHA regular season on any team per Hockey-Reference career table (no NHL career)"
     ]
   },
   {
@@ -9945,7 +9993,7 @@
     "positions": [
       "R"
     ],
-    "rookieSeason": null,
+    "rookieSeason": "1974-75",
     "nhl": {
       "regularGP": 0,
       "playoffGP": 0,
@@ -9984,7 +10032,8 @@
     },
     "notes": [
       "position per Hockey-Reference R (RW); hockeydb has L",
-      "Name variants: John Gordon Gray"
+      "Name variants: John Gordon Gray",
+      "rookieSeason 1974-75: first WHA regular season on any team per Hockey-Reference career table (no NHL career)"
     ]
   },
   {
@@ -10048,7 +10097,7 @@
     }
   },
   {
-    "playerId": 900026,
+    "playerId": 8447406,
     "firstName": "Ted",
     "lastName": "Green",
     "name": "Green, Ted",
@@ -10057,7 +10106,7 @@
     "positions": [
       "D"
     ],
-    "rookieSeason": null,
+    "rookieSeason": "1960-61",
     "nhl": {
       "regularGP": 0,
       "playoffGP": 0,
@@ -10110,7 +10159,8 @@
       "retrieved": "2026-10-17"
     },
     "notes": [
-      "Name variants: \"Terrible Ted\"; Edward Joseph Green"
+      "Name variants: \"Terrible Ted\"; Edward Joseph Green",
+      "playerId 8447406 is the nhl.com player id (https://api-web.nhle.com/v1/player/8447406/landing); reserved WHA-only id 900026 retired (nhl-wha-lookup birthDate+lastName+firstName)"
     ]
   },
   {
@@ -10166,7 +10216,7 @@
     }
   },
   {
-    "playerId": 900027,
+    "playerId": 8446653,
     "firstName": "Danny",
     "lastName": "Gruen",
     "name": "Gruen, Danny",
@@ -10175,7 +10225,7 @@
     "positions": [
       "L"
     ],
-    "rookieSeason": null,
+    "rookieSeason": "1972-73",
     "nhl": {
       "regularGP": 0,
       "playoffGP": 0,
@@ -10202,7 +10252,13 @@
         "hockeydbId": "2052"
       }
     },
-    "draft": null,
+    "draft": {
+      "year": 1972,
+      "team": "DET",
+      "round": 4,
+      "overall": 58,
+      "amateur": "Thunder Bay Vulcans"
+    },
     "qualifiedBy": [
       "played"
     ],
@@ -10213,7 +10269,8 @@
       "retrieved": "2026-10-17"
     },
     "notes": [
-      "Name variants: \"Bert\"; Daniel Patrick Gruen"
+      "Name variants: \"Bert\"; Daniel Patrick Gruen",
+      "playerId 8446653 is the nhl.com player id (https://api-web.nhle.com/v1/player/8446653/landing); reserved WHA-only id 900027 retired (nhl-wha-lookup birthDate+lastName+firstName)"
     ]
   },
   {
@@ -10226,7 +10283,7 @@
     "positions": [
       "C"
     ],
-    "rookieSeason": "1979-80",
+    "rookieSeason": "1972-73",
     "nhl": {
       "regularGP": 6,
       "playoffGP": 0,
@@ -10662,7 +10719,7 @@
     }
   },
   {
-    "playerId": 900028,
+    "playerId": 8446698,
     "firstName": "Jim",
     "lastName": "Hargreaves",
     "name": "Hargreaves, Jim",
@@ -10671,7 +10728,7 @@
     "positions": [
       "D"
     ],
-    "rookieSeason": null,
+    "rookieSeason": "1970-71",
     "nhl": {
       "regularGP": 0,
       "playoffGP": 0,
@@ -10698,7 +10755,13 @@
         "hockeydbId": "10536"
       }
     },
-    "draft": null,
+    "draft": {
+      "year": 1970,
+      "team": "VAN",
+      "round": 2,
+      "overall": 16,
+      "amateur": "Winnipeg Jets (WCHL)"
+    },
     "qualifiedBy": [
       "played"
     ],
@@ -10709,7 +10772,8 @@
       "retrieved": "2026-10-17"
     },
     "notes": [
-      "Name variants: \"Cement Head\"; James Albert Hargreaves"
+      "Name variants: \"Cement Head\"; James Albert Hargreaves",
+      "playerId 8446698 is the nhl.com player id (https://api-web.nhle.com/v1/player/8446698/landing); reserved WHA-only id 900028 retired (nhl-wha-lookup birthDate+lastName+firstName)"
     ]
   },
   {
@@ -10722,7 +10786,7 @@
     "positions": [
       "L"
     ],
-    "rookieSeason": null,
+    "rookieSeason": "1973-74",
     "nhl": {
       "regularGP": 0,
       "playoffGP": 0,
@@ -10761,7 +10825,8 @@
     },
     "notes": [
       "position per Hockey-Reference L (LW); hockeydb has C",
-      "Name variants: Edward Norman Hargreaves"
+      "Name variants: Edward Norman Hargreaves",
+      "rookieSeason 1973-74: first WHA regular season on any team per Hockey-Reference career table (no NHL career)"
     ]
   },
   {
@@ -11199,7 +11264,7 @@
     }
   },
   {
-    "playerId": 900030,
+    "playerId": 8447714,
     "firstName": "Anders",
     "lastName": "Hedberg",
     "name": "Hedberg, Anders",
@@ -11208,7 +11273,7 @@
     "positions": [
       "R"
     ],
-    "rookieSeason": null,
+    "rookieSeason": "1974-75",
     "nhl": {
       "regularGP": 0,
       "playoffGP": 0,
@@ -11261,7 +11326,8 @@
       "retrieved": "2026-10-17"
     },
     "notes": [
-      "Name variants: \"The Swedish Express\"; Anders Hugo Hedberg"
+      "Name variants: \"The Swedish Express\"; Anders Hugo Hedberg",
+      "playerId 8447714 is the nhl.com player id (https://api-web.nhle.com/v1/player/8447714/landing); reserved WHA-only id 900030 retired (nhl-wha-lookup birthDate+lastName+firstName)"
     ]
   },
   {
@@ -11570,7 +11636,7 @@
     }
   },
   {
-    "playerId": 900031,
+    "playerId": 8447800,
     "firstName": "Glenn",
     "lastName": "Hicks",
     "name": "Hicks, Glenn",
@@ -11579,7 +11645,7 @@
     "positions": [
       "L"
     ],
-    "rookieSeason": null,
+    "rookieSeason": "1978-79",
     "nhl": {
       "regularGP": 0,
       "playoffGP": 0,
@@ -11606,7 +11672,13 @@
         "hockeydbId": "2270"
       }
     },
-    "draft": null,
+    "draft": {
+      "year": 1978,
+      "team": "DET",
+      "round": 2,
+      "overall": 28,
+      "amateur": "Flin Flon Bombers (WCHL)"
+    },
     "qualifiedBy": [
       "played"
     ],
@@ -11617,11 +11689,12 @@
       "retrieved": "2026-10-17"
     },
     "notes": [
-      "birthDate 1958-08-28 by owner decision birthdate:hr:hicksgl01: 1958-08-28. Wikipedia (en.wikipedia.org/wiki/Glenn_Hicks) agrees with Hockey-Reference; hockeydb 1958-08-29 is off by a day."
+      "birthDate 1958-08-28 by owner decision birthdate:hr:hicksgl01: 1958-08-28. Wikipedia (en.wikipedia.org/wiki/Glenn_Hicks) agrees with Hockey-Reference; hockeydb 1958-08-29 is off by a day.",
+      "playerId 8447800 is the nhl.com player id (https://api-web.nhle.com/v1/player/8447800/landing); reserved WHA-only id 900031 retired (nhl-wha-lookup birthDate+lastName+firstName)"
     ]
   },
   {
-    "playerId": 900032,
+    "playerId": 8446864,
     "firstName": "Larry",
     "lastName": "Hillman",
     "name": "Hillman, Larry",
@@ -11630,7 +11703,7 @@
     "positions": [
       "D"
     ],
-    "rookieSeason": null,
+    "rookieSeason": "1954-55",
     "nhl": {
       "regularGP": 0,
       "playoffGP": 0,
@@ -11668,7 +11741,8 @@
       "retrieved": "2026-10-17"
     },
     "notes": [
-      "Name variants: Lawrence Morley Hillman"
+      "Name variants: Lawrence Morley Hillman",
+      "playerId 8446864 is the nhl.com player id (https://api-web.nhle.com/v1/player/8446864/landing); reserved WHA-only id 900032 retired (nhl-wha-lookup birthDate+lastName+firstName)"
     ]
   },
   {
@@ -11681,7 +11755,7 @@
     "positions": [
       "G"
     ],
-    "rookieSeason": null,
+    "rookieSeason": "1973-74",
     "nhl": {
       "regularGP": 0,
       "playoffGP": 0,
@@ -11720,7 +11794,8 @@
     },
     "notes": [
       "birthDate 1949-07-23 per Hockey-Reference only; hockeydb has none",
-      "Name variants: William Holden"
+      "Name variants: William Holden",
+      "rookieSeason 1973-74: first WHA regular season on any team per Hockey-Reference career table (no NHL career)"
     ]
   },
   {
@@ -11844,7 +11919,7 @@
     }
   },
   {
-    "playerId": 900034,
+    "playerId": 8446916,
     "firstName": "Larry",
     "lastName": "Hornung",
     "name": "Hornung, Larry",
@@ -11853,7 +11928,7 @@
     "positions": [
       "D"
     ],
-    "rookieSeason": null,
+    "rookieSeason": "1970-71",
     "nhl": {
       "regularGP": 0,
       "playoffGP": 0,
@@ -11911,7 +11986,8 @@
       "retrieved": "2026-10-17"
     },
     "notes": [
-      "Name variants: Larry John Hornung"
+      "Name variants: Larry John Hornung",
+      "playerId 8446916 is the nhl.com player id (https://api-web.nhle.com/v1/player/8446916/landing); reserved WHA-only id 900034 retired (nhl-wha-lookup birthDate+lastName+firstName)"
     ]
   },
   {
@@ -12119,7 +12195,7 @@
     }
   },
   {
-    "playerId": 900035,
+    "playerId": 8446933,
     "firstName": "Fran",
     "lastName": "Huck",
     "name": "Huck, Fran",
@@ -12128,7 +12204,7 @@
     "positions": [
       "C"
     ],
-    "rookieSeason": null,
+    "rookieSeason": "1969-70",
     "nhl": {
       "regularGP": 0,
       "playoffGP": 0,
@@ -12176,7 +12252,8 @@
       "retrieved": "2026-10-17"
     },
     "notes": [
-      "Name variants: \"Golden Hawk\"; \"Sky\"; Anthony Francis Huck"
+      "Name variants: \"Golden Hawk\"; \"Sky\"; Anthony Francis Huck",
+      "playerId 8446933 is the nhl.com player id (https://api-web.nhle.com/v1/player/8446933/landing); reserved WHA-only id 900035 retired (nhl-wha-lookup birthDate+lastName+firstName)"
     ]
   },
   {
@@ -12345,7 +12422,7 @@
     "positions": [
       "L"
     ],
-    "rookieSeason": "1979-80",
+    "rookieSeason": "1978-79",
     "nhl": {
       "regularGP": 34,
       "playoffGP": 0,
@@ -12793,7 +12870,7 @@
     }
   },
   {
-    "playerId": 900036,
+    "playerId": 8447094,
     "firstName": "Danny",
     "lastName": "Johnson",
     "name": "Johnson, Danny",
@@ -12802,7 +12879,7 @@
     "positions": [
       "C"
     ],
-    "rookieSeason": null,
+    "rookieSeason": "1969-70",
     "nhl": {
       "regularGP": 0,
       "playoffGP": 0,
@@ -12850,7 +12927,8 @@
       "retrieved": "2026-10-17"
     },
     "notes": [
-      "Name variants: Dan Johnson; Daniel Douglas Johnson"
+      "Name variants: Dan Johnson; Daniel Douglas Johnson",
+      "playerId 8447094 is the nhl.com player id (https://api-web.nhle.com/v1/player/8447094/landing); reserved WHA-only id 900036 retired (nhl-wha-lookup birthDate+lastName+firstName)"
     ]
   },
   {
@@ -13517,7 +13595,7 @@
     }
   },
   {
-    "playerId": 900037,
+    "playerId": 8448474,
     "firstName": "Veli-Pekka",
     "lastName": "Ketola",
     "name": "Ketola, Veli-Pekka",
@@ -13526,7 +13604,7 @@
     "positions": [
       "C"
     ],
-    "rookieSeason": null,
+    "rookieSeason": "1974-75",
     "nhl": {
       "regularGP": 0,
       "playoffGP": 0,
@@ -13574,7 +13652,8 @@
       "retrieved": "2026-10-17"
     },
     "notes": [
-      "Name variants: Veli Pekka Ketola"
+      "Name variants: Veli Pekka Ketola",
+      "playerId 8448474 is the nhl.com player id (https://api-web.nhle.com/v1/player/8448474/landing); reserved WHA-only id 900037 retired (nhl-wha-lookup birthDate+lastName+firstName)"
     ]
   },
   {
@@ -14191,7 +14270,7 @@
     }
   },
   {
-    "playerId": 900038,
+    "playerId": 8447240,
     "firstName": "Dave",
     "lastName": "Kryskow",
     "name": "Kryskow, Dave",
@@ -14200,7 +14279,7 @@
     "positions": [
       "L"
     ],
-    "rookieSeason": null,
+    "rookieSeason": "1972-73",
     "nhl": {
       "regularGP": 0,
       "playoffGP": 0,
@@ -14227,7 +14306,13 @@
         "hockeydbId": "2841"
       }
     },
-    "draft": null,
+    "draft": {
+      "year": 1971,
+      "team": "CHI",
+      "round": 2,
+      "overall": 26,
+      "amateur": "Edmonton Oil Kings (WCHL)"
+    },
     "qualifiedBy": [
       "played"
     ],
@@ -14238,7 +14323,8 @@
       "retrieved": "2026-10-17"
     },
     "notes": [
-      "Name variants: David Roy Kryskow"
+      "Name variants: David Roy Kryskow",
+      "playerId 8447240 is the nhl.com player id (https://api-web.nhle.com/v1/player/8447240/landing); reserved WHA-only id 900038 retired (nhl-wha-lookup birthDate+lastName+firstName)"
     ]
   },
   {
@@ -14676,7 +14762,7 @@
     }
   },
   {
-    "playerId": 900039,
+    "playerId": 8448599,
     "firstName": "Dan",
     "lastName": "Labraaten",
     "name": "Labraaten, Dan",
@@ -14685,7 +14771,7 @@
     "positions": [
       "L"
     ],
-    "rookieSeason": null,
+    "rookieSeason": "1976-77",
     "nhl": {
       "regularGP": 0,
       "playoffGP": 0,
@@ -14729,7 +14815,9 @@
     },
     "notes": [
       "birthDate 1951-06-09 by owner decision birthdate:hr:labrada01: Owner chose 1951-06-09: printed on his 1977-78 OPC #57, 1979-80 Topps #92, 1980-81 OPC #217 and 1981-82 OPC #42 cards, and matches Hockey-Reference. ALTERNATE 1951-09-05 (NHL.com bio, Wikipedia, hockeydb) kept here in case it matters; birth year 1951 agrees everywhere.",
-      "Name variants: \"Rusty\"; Daniel Labraaten"
+      "Name variants: \"Rusty\"; Daniel Labraaten",
+      "playerId 8448599 is the nhl.com player id (https://api-web.nhle.com/v1/player/8448599/landing); reserved WHA-only id 900039 retired (nhl-wha-lookup decisionAlternateBirthDate+lastName+firstName)",
+      "nhl.com birthDate 1951-09-05 differs; 1951-06-09 kept (alternate recorded in owner decision birthdate:hr:labrada01)"
     ]
   },
   {
@@ -15081,7 +15169,7 @@
     "positions": [
       "G"
     ],
-    "rookieSeason": null,
+    "rookieSeason": "1974-75",
     "nhl": {
       "regularGP": 0,
       "playoffGP": 0,
@@ -15127,7 +15215,10 @@
       "definitive": false,
       "crossCheck": "hockeydb.com",
       "retrieved": "2026-10-17"
-    }
+    },
+    "notes": [
+      "rookieSeason 1974-75: first WHA regular season on any team per Hockey-Reference career table (no NHL career)"
+    ]
   },
   {
     "playerId": 8448688,
@@ -15170,7 +15261,7 @@
     }
   },
   {
-    "playerId": 900041,
+    "playerId": 8448730,
     "firstName": "Danny",
     "lastName": "Lawson",
     "name": "Lawson, Danny",
@@ -15179,7 +15270,7 @@
     "positions": [
       "R"
     ],
-    "rookieSeason": null,
+    "rookieSeason": "1967-68",
     "nhl": {
       "regularGP": 0,
       "playoffGP": 0,
@@ -15217,7 +15308,8 @@
       "retrieved": "2026-10-17"
     },
     "notes": [
-      "Name variants: Daniel Michael Lawson"
+      "Name variants: Daniel Michael Lawson",
+      "playerId 8448730 is the nhl.com player id (https://api-web.nhle.com/v1/player/8448730/landing); reserved WHA-only id 900041 retired (nhl-wha-lookup birthDate+lastName+firstName)"
     ]
   },
   {
@@ -15350,7 +15442,7 @@
     "positions": [
       "D"
     ],
-    "rookieSeason": "1979-80",
+    "rookieSeason": "1974-75",
     "nhl": {
       "regularGP": 76,
       "playoffGP": 0,
@@ -15386,7 +15478,7 @@
     }
   },
   {
-    "playerId": 900042,
+    "playerId": 8447375,
     "firstName": "Randy",
     "lastName": "Legge",
     "name": "Legge, Randy",
@@ -15395,7 +15487,7 @@
     "positions": [
       "D"
     ],
-    "rookieSeason": null,
+    "rookieSeason": "1972-73",
     "nhl": {
       "regularGP": 0,
       "playoffGP": 0,
@@ -15433,7 +15525,8 @@
       "retrieved": "2026-10-17"
     },
     "notes": [
-      "Name variants: Randall Norman Legge"
+      "Name variants: Randall Norman Legge",
+      "playerId 8447375 is the nhl.com player id (https://api-web.nhle.com/v1/player/8447375/landing); reserved WHA-only id 900042 retired (nhl-wha-lookup birthDate+lastName+firstName)"
     ]
   },
   {
@@ -15850,7 +15943,7 @@
     "positions": [
       "C"
     ],
-    "rookieSeason": null,
+    "rookieSeason": "1975-76",
     "nhl": {
       "regularGP": 0,
       "playoffGP": 0,
@@ -15891,7 +15984,10 @@
       "definitive": false,
       "crossCheck": "hockeydb.com",
       "retrieved": "2026-10-17"
-    }
+    },
+    "notes": [
+      "rookieSeason 1975-76: first WHA regular season on any team per Hockey-Reference career table (no NHL career)"
+    ]
   },
   {
     "playerId": 8480944,
@@ -15936,7 +16032,7 @@
     "positions": [
       "R"
     ],
-    "rookieSeason": "1979-80",
+    "rookieSeason": "1975-76",
     "nhl": {
       "regularGP": 288,
       "playoffGP": 4,
@@ -16530,7 +16626,7 @@
     "positions": [
       "L"
     ],
-    "rookieSeason": "1979-80",
+    "rookieSeason": "1976-77",
     "nhl": {
       "regularGP": 431,
       "playoffGP": 7,
@@ -16890,7 +16986,7 @@
     }
   },
   {
-    "playerId": 900044,
+    "playerId": 8448975,
     "firstName": "Paul",
     "lastName": "MacKinnon",
     "name": "MacKinnon, Paul",
@@ -16899,7 +16995,7 @@
     "positions": [
       "D"
     ],
-    "rookieSeason": null,
+    "rookieSeason": "1978-79",
     "nhl": {
       "regularGP": 0,
       "playoffGP": 0,
@@ -16926,7 +17022,13 @@
         "hockeydbId": "6500"
       }
     },
-    "draft": null,
+    "draft": {
+      "year": 1978,
+      "team": "WSH",
+      "round": 2,
+      "overall": 23,
+      "amateur": "Peterborough Petes (OHA)"
+    },
     "qualifiedBy": [
       "played"
     ],
@@ -16937,7 +17039,8 @@
       "retrieved": "2026-10-17"
     },
     "notes": [
-      "Name variants: Paul Gregory MacKinnon"
+      "Name variants: Paul Gregory MacKinnon",
+      "playerId 8448975 is the nhl.com player id (https://api-web.nhle.com/v1/player/8448975/landing); reserved WHA-only id 900044 retired (nhl-wha-lookup birthDate+lastName+firstName)"
     ]
   },
   {
@@ -17622,7 +17725,7 @@
     "positions": [
       "R"
     ],
-    "rookieSeason": "1979-80",
+    "rookieSeason": "1976-77",
     "nhl": {
       "regularGP": 81,
       "playoffGP": 0,
@@ -17942,7 +18045,7 @@
     "positions": [
       "G"
     ],
-    "rookieSeason": "1979-80",
+    "rookieSeason": "1977-78",
     "nhl": {
       "regularGP": 52,
       "playoffGP": 0,
@@ -18055,7 +18158,7 @@
     "positions": [
       "D"
     ],
-    "rookieSeason": "1977-78",
+    "rookieSeason": "1975-76",
     "nhl": {
       "regularGP": 102,
       "playoffGP": 3,
@@ -18314,7 +18417,7 @@
     }
   },
   {
-    "playerId": 900045,
+    "playerId": 8447744,
     "firstName": "Ab",
     "lastName": "McDonald",
     "name": "McDonald, Ab",
@@ -18323,7 +18426,7 @@
     "positions": [
       "L"
     ],
-    "rookieSeason": null,
+    "rookieSeason": "1958-59",
     "nhl": {
       "regularGP": 0,
       "playoffGP": 0,
@@ -18366,7 +18469,8 @@
       "retrieved": "2026-10-17"
     },
     "notes": [
-      "Name variants: Alvin Brian McDonald"
+      "Name variants: Alvin Brian McDonald",
+      "playerId 8447744 is the nhl.com player id (https://api-web.nhle.com/v1/player/8447744/landing); reserved WHA-only id 900045 retired (nhl-wha-lookup birthDate+lastName+firstName)"
     ]
   },
   {
@@ -18819,7 +18923,7 @@
     "positions": [
       "D"
     ],
-    "rookieSeason": "1979-80",
+    "rookieSeason": "1976-77",
     "nhl": {
       "regularGP": 92,
       "playoffGP": 0,
@@ -19099,7 +19203,7 @@
     }
   },
   {
-    "playerId": 900046,
+    "playerId": 8449626,
     "firstName": "Perry",
     "lastName": "Miller",
     "name": "Miller, Perry",
@@ -19108,7 +19212,7 @@
     "positions": [
       "D"
     ],
-    "rookieSeason": null,
+    "rookieSeason": "1974-75",
     "nhl": {
       "regularGP": 0,
       "playoffGP": 0,
@@ -19156,7 +19260,8 @@
       "retrieved": "2026-10-17"
     },
     "notes": [
-      "Name variants: Paul Elvin Miller"
+      "Name variants: Paul Elvin Miller",
+      "playerId 8449626 is the nhl.com player id (https://api-web.nhle.com/v1/player/8449626/landing); reserved WHA-only id 900046 retired (nhl-wha-lookup birthDate+lastName+firstName)"
     ]
   },
   {
@@ -19667,7 +19772,7 @@
     }
   },
   {
-    "playerId": 900047,
+    "playerId": 8447903,
     "firstName": "Morris",
     "lastName": "Mott",
     "name": "Mott, Morris",
@@ -19676,7 +19781,7 @@
     "positions": [
       "R"
     ],
-    "rookieSeason": null,
+    "rookieSeason": "1972-73",
     "nhl": {
       "regularGP": 0,
       "playoffGP": 0,
@@ -19715,7 +19820,8 @@
     },
     "notes": [
       "position per Hockey-Reference R (RW); hockeydb has C",
-      "Name variants: \"Apple Juice\"; Morris Kenneth Mott"
+      "Name variants: \"Apple Juice\"; Morris Kenneth Mott",
+      "playerId 8447903 is the nhl.com player id (https://api-web.nhle.com/v1/player/8447903/landing); reserved WHA-only id 900047 retired (nhl-wha-lookup birthDate+lastName+firstName)"
     ]
   },
   {
@@ -20233,7 +20339,7 @@
     "positions": [
       "C"
     ],
-    "rookieSeason": null,
+    "rookieSeason": "1973-74",
     "nhl": {
       "regularGP": 0,
       "playoffGP": 0,
@@ -20271,7 +20377,8 @@
       "retrieved": "2026-10-17"
     },
     "notes": [
-      "Name variants: Robert Alfred Neale"
+      "Name variants: Robert Alfred Neale",
+      "rookieSeason 1973-74: first WHA regular season on any team per Hockey-Reference career table (no NHL career)"
     ]
   },
   {
@@ -20600,7 +20707,7 @@
     }
   },
   {
-    "playerId": 900049,
+    "playerId": 8449887,
     "firstName": "Kent",
     "lastName": "Nilsson",
     "name": "Nilsson, Kent",
@@ -20609,7 +20716,7 @@
     "positions": [
       "C"
     ],
-    "rookieSeason": null,
+    "rookieSeason": "1977-78",
     "nhl": {
       "regularGP": 0,
       "playoffGP": 0,
@@ -20641,7 +20748,13 @@
         "hockeydbId": "3977"
       }
     },
-    "draft": null,
+    "draft": {
+      "year": 1976,
+      "team": "AFM",
+      "round": 4,
+      "overall": 64,
+      "amateur": "Djurgardens IF Stockholm (SEL)"
+    },
     "qualifiedBy": [
       "played"
     ],
@@ -20652,7 +20765,8 @@
       "retrieved": "2026-10-17"
     },
     "notes": [
-      "Name variants: \"Kenta\"; \"The Magic Man\""
+      "Name variants: \"Kenta\"; \"The Magic Man\"",
+      "playerId 8449887 is the nhl.com player id (https://api-web.nhle.com/v1/player/8449887/landing); reserved WHA-only id 900049 retired (nhl-wha-lookup birthDate+lastName+firstName)"
     ]
   },
   {
@@ -20686,7 +20800,7 @@
     }
   },
   {
-    "playerId": 900050,
+    "playerId": 8449886,
     "firstName": "Ulf",
     "lastName": "Nilsson",
     "name": "Nilsson, Ulf",
@@ -20695,7 +20809,7 @@
     "positions": [
       "C"
     ],
-    "rookieSeason": null,
+    "rookieSeason": "1974-75",
     "nhl": {
       "regularGP": 0,
       "playoffGP": 0,
@@ -20748,7 +20862,8 @@
       "retrieved": "2026-10-17"
     },
     "notes": [
-      "Name variants: \"Lill-Pröjsarn\"; Ulf Gosta Nilsson"
+      "Name variants: \"Lill-Pröjsarn\"; Ulf Gosta Nilsson",
+      "playerId 8449886 is the nhl.com player id (https://api-web.nhle.com/v1/player/8449886/landing); reserved WHA-only id 900050 retired (nhl-wha-lookup birthDate+lastName+firstName)"
     ]
   },
   {
@@ -20837,7 +20952,7 @@
     "positions": [
       "D"
     ],
-    "rookieSeason": "1979-80",
+    "rookieSeason": "1977-78",
     "nhl": {
       "regularGP": 70,
       "playoffGP": 0,
@@ -21168,7 +21283,7 @@
     }
   },
   {
-    "playerId": 900051,
+    "playerId": 8448049,
     "firstName": "Gerry",
     "lastName": "Odrowski",
     "name": "Odrowski, Gerry",
@@ -21177,7 +21292,7 @@
     "positions": [
       "D"
     ],
-    "rookieSeason": null,
+    "rookieSeason": "1960-61",
     "nhl": {
       "regularGP": 0,
       "playoffGP": 0,
@@ -21215,7 +21330,8 @@
       "retrieved": "2026-10-17"
     },
     "notes": [
-      "Name variants: \"Snowy\"; \"The Hook\"; Gerald Bernard Odrowski"
+      "Name variants: \"Snowy\"; \"The Hook\"; Gerald Bernard Odrowski",
+      "playerId 8448049 is the nhl.com player id (https://api-web.nhle.com/v1/player/8448049/landing); reserved WHA-only id 900051 retired (nhl-wha-lookup birthDate+lastName+firstName)"
     ]
   },
   {
@@ -22840,7 +22956,7 @@
     }
   },
   {
-    "playerId": 900052,
+    "playerId": 8448186,
     "firstName": "Lynn",
     "lastName": "Powis",
     "name": "Powis, Lynn",
@@ -22849,7 +22965,7 @@
     "positions": [
       "C"
     ],
-    "rookieSeason": null,
+    "rookieSeason": "1973-74",
     "nhl": {
       "regularGP": 0,
       "playoffGP": 0,
@@ -22876,7 +22992,13 @@
         "hockeydbId": "4370"
       }
     },
-    "draft": null,
+    "draft": {
+      "year": 1969,
+      "team": "MTL",
+      "round": 6,
+      "overall": 68,
+      "amateur": "U. of Denver (NCAA)"
+    },
     "qualifiedBy": [
       "played"
     ],
@@ -22888,11 +23010,12 @@
     },
     "notes": [
       "birthDate 1949-07-07 by owner decision birthdate:hr:powisly01: Owner chose 1949-07-07 (matches NHL.com, Wikipedia, Hockey-Reference, and 1973-74 OPC #209 and 1974-75 OPC #227 cards) with low confidence. ALTERNATE 1949-04-19 (hockeydb, WHA Hall of Fame site, 1976-77 OPC #86 card) kept here in case it matters. WHA Hall of Fame lists his full name as Trevor Lynn Powis; Hockey-Reference has Lynn Trevor Powis.",
-      "Name variants: \"Daffy\"; Lynn Trevor Powis"
+      "Name variants: \"Daffy\"; Lynn Trevor Powis",
+      "playerId 8448186 is the nhl.com player id (https://api-web.nhle.com/v1/player/8448186/landing); reserved WHA-only id 900052 retired (nhl-wha-lookup birthDate+lastName+firstName)"
     ]
   },
   {
-    "playerId": 900053,
+    "playerId": 8448189,
     "firstName": "Kelly",
     "lastName": "Pratt",
     "name": "Pratt, Kelly",
@@ -22901,7 +23024,7 @@
     "positions": [
       "R"
     ],
-    "rookieSeason": null,
+    "rookieSeason": "1973-74",
     "nhl": {
       "regularGP": 0,
       "playoffGP": 0,
@@ -22939,11 +23062,12 @@
       "retrieved": "2026-10-17"
     },
     "notes": [
-      "Name variants: Kelly Edward Pratt"
+      "Name variants: Kelly Edward Pratt",
+      "playerId 8448189 is the nhl.com player id (https://api-web.nhle.com/v1/player/8448189/landing); reserved WHA-only id 900053 retired (nhl-wha-lookup birthDate+lastName+firstName)"
     ]
   },
   {
-    "playerId": 900054,
+    "playerId": 8450539,
     "firstName": "Rich",
     "lastName": "Preston",
     "name": "Preston, Rich",
@@ -22952,7 +23076,7 @@
     "positions": [
       "R"
     ],
-    "rookieSeason": null,
+    "rookieSeason": "1974-75",
     "nhl": {
       "regularGP": 0,
       "playoffGP": 0,
@@ -22990,7 +23114,8 @@
       "retrieved": "2026-10-17"
     },
     "notes": [
-      "Name variants: \"Cool Hand Luke\"; Richard John Preston"
+      "Name variants: \"Cool Hand Luke\"; Richard John Preston",
+      "playerId 8450539 is the nhl.com player id (https://api-web.nhle.com/v1/player/8450539/landing); reserved WHA-only id 900054 retired (nhl-wha-lookup birthDate+lastName+firstName)"
     ]
   },
   {
@@ -23427,7 +23552,7 @@
     "positions": [
       "D"
     ],
-    "rookieSeason": null,
+    "rookieSeason": "1974-75",
     "nhl": {
       "regularGP": 0,
       "playoffGP": 0,
@@ -23475,7 +23600,8 @@
       "retrieved": "2026-10-17"
     },
     "notes": [
-      "Name variants: \"Hexi\""
+      "Name variants: \"Hexi\"",
+      "rookieSeason 1974-75: first WHA regular season on any team per Hockey-Reference career table (no NHL career)"
     ]
   },
   {
@@ -23578,7 +23704,7 @@
     }
   },
   {
-    "playerId": 900056,
+    "playerId": 8448348,
     "firstName": "Garth",
     "lastName": "Rizzuto",
     "name": "Rizzuto, Garth",
@@ -23587,7 +23713,7 @@
     "positions": [
       "C"
     ],
-    "rookieSeason": null,
+    "rookieSeason": "1970-71",
     "nhl": {
       "regularGP": 0,
       "playoffGP": 0,
@@ -23630,7 +23756,8 @@
       "retrieved": "2026-10-17"
     },
     "notes": [
-      "Name variants: Garth Alexander Rizzuto"
+      "Name variants: Garth Alexander Rizzuto",
+      "playerId 8448348 is the nhl.com player id (https://api-web.nhle.com/v1/player/8448348/landing); reserved WHA-only id 900056 retired (nhl-wha-lookup birthDate+lastName+firstName)"
     ]
   },
   {
@@ -23918,7 +24045,7 @@
     "positions": [
       "L"
     ],
-    "rookieSeason": null,
+    "rookieSeason": "1972-73",
     "nhl": {
       "regularGP": 0,
       "playoffGP": 0,
@@ -23961,7 +24088,8 @@
       "retrieved": "2026-10-17"
     },
     "notes": [
-      "Name variants: Duncan Franklin Rousseau"
+      "Name variants: Duncan Franklin Rousseau",
+      "rookieSeason 1972-73: first WHA regular season on any team per Hockey-Reference career table (no NHL career)"
     ]
   },
   {
@@ -24034,7 +24162,7 @@
     }
   },
   {
-    "playerId": 900058,
+    "playerId": 8448604,
     "firstName": "Kent",
     "lastName": "Ruhnke",
     "name": "Ruhnke, Kent",
@@ -24043,7 +24171,7 @@
     "positions": [
       "R"
     ],
-    "rookieSeason": null,
+    "rookieSeason": "1975-76",
     "nhl": {
       "regularGP": 0,
       "playoffGP": 0,
@@ -24086,11 +24214,12 @@
       "retrieved": "2026-10-17"
     },
     "notes": [
-      "Name variants: Kent Stuart Ruhnke"
+      "Name variants: Kent Stuart Ruhnke",
+      "playerId 8448604 is the nhl.com player id (https://api-web.nhle.com/v1/player/8448604/landing); reserved WHA-only id 900058 retired (nhl-wha-lookup birthDate+lastName+firstName)"
     ]
   },
   {
-    "playerId": 900059,
+    "playerId": 8451065,
     "firstName": "Terry",
     "lastName": "Ruskowski",
     "name": "Ruskowski, Terry",
@@ -24099,7 +24228,7 @@
     "positions": [
       "C"
     ],
-    "rookieSeason": null,
+    "rookieSeason": "1974-75",
     "nhl": {
       "regularGP": 0,
       "playoffGP": 0,
@@ -24126,7 +24255,13 @@
         "hockeydbId": "4707"
       }
     },
-    "draft": null,
+    "draft": {
+      "year": 1974,
+      "team": "CHI",
+      "round": 4,
+      "overall": 70,
+      "amateur": "Swift Current Broncos (WCHL)"
+    },
     "qualifiedBy": [
       "played"
     ],
@@ -24137,7 +24272,8 @@
       "retrieved": "2026-10-17"
     },
     "notes": [
-      "Name variants: \"Roscoe\"; Terry Wallace Ruskowski"
+      "Name variants: \"Roscoe\"; Terry Wallace Ruskowski",
+      "playerId 8451065 is the nhl.com player id (https://api-web.nhle.com/v1/player/8451065/landing); reserved WHA-only id 900059 retired (nhl-wha-lookup birthDate+lastName+firstName)"
     ]
   },
   {
@@ -25238,7 +25374,7 @@
     "positions": [
       "D"
     ],
-    "rookieSeason": null,
+    "rookieSeason": "1972-73",
     "nhl": {
       "regularGP": 0,
       "playoffGP": 0,
@@ -25274,7 +25410,10 @@
       "definitive": false,
       "crossCheck": "hockeydb.com",
       "retrieved": "2026-10-17"
-    }
+    },
+    "notes": [
+      "rookieSeason 1972-73: first WHA regular season on any team per Hockey-Reference career table (no NHL career)"
+    ]
   },
   {
     "playerId": 8476406,
@@ -25364,7 +25503,7 @@
     "positions": [
       "D"
     ],
-    "rookieSeason": "1979-80",
+    "rookieSeason": "1974-75",
     "nhl": {
       "regularGP": 79,
       "playoffGP": 0,
@@ -25846,7 +25985,7 @@
     }
   },
   {
-    "playerId": 900061,
+    "playerId": 8449092,
     "firstName": "Ron",
     "lastName": "Snell",
     "name": "Snell, Ron",
@@ -25855,7 +25994,7 @@
     "positions": [
       "R"
     ],
-    "rookieSeason": null,
+    "rookieSeason": "1968-69",
     "nhl": {
       "regularGP": 0,
       "playoffGP": 0,
@@ -25887,7 +26026,13 @@
         "hockeydbId": "8753"
       }
     },
-    "draft": null,
+    "draft": {
+      "year": 1968,
+      "team": "PIT",
+      "round": 2,
+      "overall": 14,
+      "amateur": "Regina Pats (WCHL)"
+    },
     "qualifiedBy": [
       "played"
     ],
@@ -25898,7 +26043,8 @@
       "retrieved": "2026-10-17"
     },
     "notes": [
-      "Name variants: Ronald Wayne Snell"
+      "Name variants: Ronald Wayne Snell",
+      "playerId 8449092 is the nhl.com player id (https://api-web.nhle.com/v1/player/8449092/landing); reserved WHA-only id 900061 retired (nhl-wha-lookup birthDate+lastName+firstName)"
     ]
   },
   {
@@ -26052,7 +26198,7 @@
     "positions": [
       "C"
     ],
-    "rookieSeason": null,
+    "rookieSeason": "1973-74",
     "nhl": {
       "regularGP": 0,
       "playoffGP": 0,
@@ -26095,7 +26241,8 @@
       "retrieved": "2026-10-17"
     },
     "notes": [
-      "Name variants: Daniel Joseph Spring"
+      "Name variants: Daniel Joseph Spring",
+      "rookieSeason 1973-74: first WHA regular season on any team per Hockey-Reference career table (no NHL career)"
     ]
   },
   {
@@ -26821,7 +26968,7 @@
     "positions": [
       "D"
     ],
-    "rookieSeason": null,
+    "rookieSeason": "1972-73",
     "nhl": {
       "regularGP": 0,
       "playoffGP": 0,
@@ -26859,7 +27006,8 @@
       "retrieved": "2026-10-17"
     },
     "notes": [
-      "Name variants: Kenneth Wayne Stephanson"
+      "Name variants: Kenneth Wayne Stephanson",
+      "rookieSeason 1972-73: first WHA regular season on any team per Hockey-Reference career table (no NHL career)"
     ]
   },
   {
@@ -27099,7 +27247,7 @@
     "positions": [
       "C"
     ],
-    "rookieSeason": "1979-80",
+    "rookieSeason": "1975-76",
     "nhl": {
       "regularGP": 126,
       "playoffGP": 0,
@@ -27175,7 +27323,7 @@
     ]
   },
   {
-    "playerId": 900064,
+    "playerId": 8449207,
     "firstName": "Bill",
     "lastName": "Sutherland",
     "name": "Sutherland, Bill",
@@ -27184,7 +27332,7 @@
     "positions": [
       "C"
     ],
-    "rookieSeason": null,
+    "rookieSeason": "1967-68",
     "nhl": {
       "regularGP": 0,
       "playoffGP": 0,
@@ -27227,7 +27375,8 @@
       "retrieved": "2026-10-17"
     },
     "notes": [
-      "Name variants: William Fraser Sutherland"
+      "Name variants: William Fraser Sutherland",
+      "playerId 8449207 is the nhl.com player id (https://api-web.nhle.com/v1/player/8449207/landing); reserved WHA-only id 900064 retired (nhl-wha-lookup birthDate+lastName+firstName)"
     ]
   },
   {
@@ -27279,7 +27428,7 @@
     "positions": [
       "C"
     ],
-    "rookieSeason": null,
+    "rookieSeason": "1972-73",
     "nhl": {
       "regularGP": 0,
       "playoffGP": 0,
@@ -27323,7 +27472,8 @@
     },
     "notes": [
       "position per Hockey-Reference C; hockeydb has L",
-      "Name variants: Calvin Berle Swenson"
+      "Name variants: Calvin Berle Swenson",
+      "rookieSeason 1972-73: first WHA regular season on any team per Hockey-Reference career table (no NHL career)"
     ]
   },
   {
@@ -27655,7 +27805,7 @@
     }
   },
   {
-    "playerId": 900066,
+    "playerId": 8451880,
     "firstName": "Paul",
     "lastName": "Terbenche",
     "name": "Terbenche, Paul",
@@ -27664,7 +27814,7 @@
     "positions": [
       "D"
     ],
-    "rookieSeason": null,
+    "rookieSeason": "1967-68",
     "nhl": {
       "regularGP": 0,
       "playoffGP": 0,
@@ -27702,7 +27852,8 @@
       "retrieved": "2026-10-17"
     },
     "notes": [
-      "Name variants: Paul Frederick Terbenche"
+      "Name variants: Paul Frederick Terbenche",
+      "playerId 8451880 is the nhl.com player id (https://api-web.nhle.com/v1/player/8451880/landing); reserved WHA-only id 900066 retired (nhl-wha-lookup birthDate+lastName+firstName)"
     ]
   },
   {
@@ -28365,7 +28516,7 @@
     "positions": [
       "G"
     ],
-    "rookieSeason": null,
+    "rookieSeason": "1972-73",
     "nhl": {
       "regularGP": 0,
       "playoffGP": 0,
@@ -28401,7 +28552,10 @@
       "definitive": false,
       "crossCheck": "hockeydb.com",
       "retrieved": "2026-10-17"
-    }
+    },
+    "notes": [
+      "rookieSeason 1972-73: first WHA regular season on any team per Hockey-Reference career table (no NHL career)"
+    ]
   },
   {
     "playerId": 8451981,
@@ -29044,7 +29198,7 @@
     }
   },
   {
-    "playerId": 900068,
+    "playerId": 8452247,
     "firstName": "Ernie",
     "lastName": "Wakely",
     "name": "Wakely, Ernie",
@@ -29053,7 +29207,7 @@
     "positions": [
       "G"
     ],
-    "rookieSeason": null,
+    "rookieSeason": "1962-63",
     "nhl": {
       "regularGP": 0,
       "playoffGP": 0,
@@ -29101,7 +29255,8 @@
       "retrieved": "2026-10-17"
     },
     "notes": [
-      "Name variants: Ernest Alfred Linton Wakely"
+      "Name variants: Ernest Alfred Linton Wakely",
+      "playerId 8452247 is the nhl.com player id (https://api-web.nhle.com/v1/player/8452247/landing); reserved WHA-only id 900068 retired (nhl-wha-lookup birthDate+lastName+firstName)"
     ]
   },
   {
@@ -29165,7 +29320,7 @@
     }
   },
   {
-    "playerId": 900069,
+    "playerId": 8449357,
     "firstName": "Ron",
     "lastName": "Ward",
     "name": "Ward, Ron",
@@ -29174,7 +29329,7 @@
     "positions": [
       "C"
     ],
-    "rookieSeason": null,
+    "rookieSeason": "1969-70",
     "nhl": {
       "regularGP": 0,
       "playoffGP": 0,
@@ -29213,7 +29368,8 @@
     },
     "notes": [
       "position per Hockey-Reference C; hockeydb has D",
-      "Name variants: \"Magic\"; Ronald Leon Ward"
+      "Name variants: \"Magic\"; Ronald Leon Ward",
+      "playerId 8449357 is the nhl.com player id (https://api-web.nhle.com/v1/player/8449357/landing); reserved WHA-only id 900069 retired (nhl-wha-lookup birthDate+lastName+firstName)"
     ]
   },
   {
@@ -29407,7 +29563,7 @@
     "positions": [
       "C"
     ],
-    "rookieSeason": null,
+    "rookieSeason": "1974-75",
     "nhl": {
       "regularGP": 0,
       "playoffGP": 0,
@@ -29445,7 +29601,8 @@
       "retrieved": "2026-10-17"
     },
     "notes": [
-      "Name variants: Steven Carter West"
+      "Name variants: Steven Carter West",
+      "rookieSeason 1974-75: first WHA regular season on any team per Hockey-Reference career table (no NHL career)"
     ]
   },
   {
@@ -29885,7 +30042,7 @@
     }
   },
   {
-    "playerId": 900071,
+    "playerId": 8449603,
     "firstName": "Bob",
     "lastName": "Woytowich",
     "name": "Woytowich, Bob",
@@ -29894,7 +30051,7 @@
     "positions": [
       "D"
     ],
-    "rookieSeason": null,
+    "rookieSeason": "1964-65",
     "nhl": {
       "regularGP": 0,
       "playoffGP": 0,
@@ -29942,7 +30099,8 @@
       "retrieved": "2026-10-17"
     },
     "notes": [
-      "Name variants: \"Augie\"; Robert Ivan Woytowich"
+      "Name variants: \"Augie\"; Robert Ivan Woytowich",
+      "playerId 8449603 is the nhl.com player id (https://api-web.nhle.com/v1/player/8449603/landing); reserved WHA-only id 900071 retired (nhl-wha-lookup birthDate+lastName+firstName)"
     ]
   },
   {
@@ -30069,7 +30227,7 @@
     "positions": [
       "L"
     ],
-    "rookieSeason": null,
+    "rookieSeason": "1978-79",
     "nhl": {
       "regularGP": 0,
       "playoffGP": 0,
@@ -30107,7 +30265,8 @@
       "retrieved": "2026-10-17"
     },
     "notes": [
-      "Name variants: Dale Alexander Yakiwchuk"
+      "Name variants: Dale Alexander Yakiwchuk",
+      "rookieSeason 1978-79: first WHA regular season on any team per Hockey-Reference career table (no NHL career)"
     ]
   },
   {
@@ -30141,7 +30300,7 @@
     }
   },
   {
-    "playerId": 900073,
+    "playerId": 8449667,
     "firstName": "Howie",
     "lastName": "Young",
     "name": "Young, Howie",
@@ -30150,7 +30309,7 @@
     "positions": [
       "D"
     ],
-    "rookieSeason": null,
+    "rookieSeason": "1960-61",
     "nhl": {
       "regularGP": 0,
       "playoffGP": 0,
@@ -30188,7 +30347,8 @@
       "retrieved": "2026-10-17"
     },
     "notes": [
-      "Name variants: \"Wild Thing\"; Howard John Edward Young"
+      "Name variants: \"Wild Thing\"; Howard John Edward Young",
+      "playerId 8449667 is the nhl.com player id (https://api-web.nhle.com/v1/player/8449667/landing); reserved WHA-only id 900073 retired (nhl-wha-lookup birthDate+lastName+firstName)"
     ]
   },
   {
@@ -30300,7 +30460,7 @@
     }
   },
   {
-    "playerId": 900074,
+    "playerId": 8449672,
     "firstName": "Joe",
     "lastName": "Zanussi",
     "name": "Zanussi, Joe",
@@ -30309,7 +30469,7 @@
     "positions": [
       "D"
     ],
-    "rookieSeason": null,
+    "rookieSeason": "1972-73",
     "nhl": {
       "regularGP": 0,
       "playoffGP": 0,
@@ -30352,7 +30512,8 @@
       "retrieved": "2026-10-17"
     },
     "notes": [
-      "Name variants: Joseph Lawrence Zanussi"
+      "Name variants: Joseph Lawrence Zanussi",
+      "playerId 8449672 is the nhl.com player id (https://api-web.nhle.com/v1/player/8449672/landing); reserved WHA-only id 900074 retired (nhl-wha-lookup birthDate+lastName+firstName)"
     ]
   },
   {

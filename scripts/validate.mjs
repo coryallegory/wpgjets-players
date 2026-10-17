@@ -2,13 +2,16 @@
 // Usage: npm run validate
 //
 // Schema v2 player: playerId, firstName, lastName, name ("Last, First"), country, birthDate,
-// positions, rookieSeason (first NHL season on any team; null without an NHL career),
+// positions, rookieSeason (first major-league regular season: NHL or WHA, any team; null only for
+// players with neither, i.e. drafted-only; never null with nhl/wha GP),
 // nhl { regularGP, playoffGP, seasons[{ season, team WIN|WPG, regularGP, playoffGP }] } (NHL Jets,
 // always present), wha? { regularGP, playoffGP, seasons[{ season, regularGP, playoffGP }],
 // source { sites[], definitive, retrieved } } (WHA Jets 1972-73..1978-79, only if played), draft,
 // qualifiedBy ("played" = NHL or WHA Jets GP >= 1; "drafted" = NHL draft by a Jets franchise),
 // source { site, definitive, ... }, notes? [string], needsReview? [field name].
-// WHA-only players use playerIds 900001+.
+// playerIds are unique. Reserved ids 900000-999999 (issued from 900001) are WHA Jets players who never
+// played in the NHL; WHA players with an NHL career use their real NHL id (see data/decisions/wha-ids.json,
+// whose retired reserved ids must not be in use; checked by `npm run validate`).
 
 import { readFile } from 'node:fs/promises';
 import path from 'node:path';
@@ -136,20 +139,53 @@ function checkNotes(player, add) {
   for (const f of r) if (!(f in player) || f === 'needsReview') add(`needsReview names ${JSON.stringify(f)}, which is not a field of this player`);
 }
 
-/** WHA-only players: reserved id range, no NHL Jets games; and every reserved id is WHA-only. */
+/**
+ * Reserved ids (900000-999999) belong to WHA Jets players who never played in the NHL: they need a
+ * wha block and no NHL Jets games. A player with a wha block and a real NHL id is fine anywhere.
+ */
 function checkWhaOnly(player, add) {
   const id = player.playerId;
-  const reserved = isWhaReservedId(id);
+  if (!isWhaReservedId(id)) return;
   const nhlEmpty = isPlainObject(player.nhl) && Array.isArray(player.nhl.seasons) && player.nhl.seasons.length === 0;
-  const looksWhaOnly = player.wha !== undefined && nhlEmpty && player.draft === null && player.rookieSeason === null;
-  if (reserved) {
-    if (id < WHA_ID_MIN) add(`playerId ${id} is reserved and never issued (WHA-only ids start at ${WHA_ID_MIN})`);
-    if (player.wha === undefined) add('WHA-only playerId (900001+) requires a wha block');
-    if (!nhlEmpty) add('WHA-only playerId (900001+) must have empty nhl.seasons');
-    if (player.rookieSeason !== null) add('WHA-only playerId (900001+) must have rookieSeason null (no NHL career)');
-  } else if (looksWhaOnly) {
-    add('WHA-only player (wha block, no NHL Jets games, no draft, no NHL career) must have a playerId in the 900001+ range');
+  if (id < WHA_ID_MIN) add(`playerId ${id} is reserved and never issued (WHA-only ids start at ${WHA_ID_MIN})`);
+  if (player.wha === undefined) add('WHA-only playerId (900001+) requires a wha block');
+  if (!nhlEmpty) add('WHA-only playerId (900001+) must have empty nhl.seasons');
+}
+
+const blockSeasons = (block, regularOnly) =>
+  isPlainObject(block) && Array.isArray(block.seasons)
+    ? block.seasons.filter((s) => isPlainObject(s) && typeof s.season === 'string' && (regularOnly ? s.regularGP > 0 : s.regularGP + s.playoffGP > 0)).map((s) => s.season)
+    : [];
+
+/**
+ * rookieSeason = first major-league (NHL or WHA) regular season on any team. It must be set when the
+ * player has any GP in the nhl or wha blocks, and cannot be later than the first Jets season with
+ * regular-season games.
+ */
+function checkRookieSeason(player, add) {
+  const r = player.rookieSeason;
+  const any = [...blockSeasons(player.nhl, false), ...blockSeasons(player.wha, false)];
+  if (any.length && r === null) add('rookieSeason must not be null: the player has NHL or WHA Jets games');
+  const firstRegular = [...blockSeasons(player.nhl, true), ...blockSeasons(player.wha, true)].sort()[0];
+  if (typeof r === 'string' && isValidSeason(r) && firstRegular && r > firstRegular) {
+    add(`rookieSeason ${r} is later than the first Jets regular season ${firstRegular}`);
   }
+}
+
+/**
+ * Cross-checks players.json against data/decisions/wha-ids.json: a reserved id that was retired for
+ * an NHL id must not be in use, and a retired entry's NHL id must be present.
+ */
+export function validateIdMap(players, idsJson) {
+  const errors = [];
+  if (!Array.isArray(players) || !Array.isArray(idsJson?.assignments)) return errors;
+  const ids = new Set(players.map((p) => p?.playerId));
+  for (const a of idsJson.assignments) {
+    if (!a.retiredFor) continue;
+    if (ids.has(a.playerId)) errors.push(`wha-ids.json: reserved id ${a.playerId} (${a.key}) was retired for NHL id ${a.retiredFor.nhlPlayerId} but is still used in players.json`);
+    if (!ids.has(a.retiredFor.nhlPlayerId)) errors.push(`wha-ids.json: ${a.key} was retired for NHL id ${a.retiredFor.nhlPlayerId}, which is not in players.json (run npm run merge:wha)`);
+  }
+  return errors;
 }
 
 function checkDraft(draft, add) {
@@ -242,6 +278,7 @@ export function validatePlayers(players) {
     checkDraft(player.draft === undefined ? 'missing' : player.draft, add);
     checkQualifiedBy(player, add);
     checkWhaOnly(player, add);
+    checkRookieSeason(player, add);
     checkNotes(player, add);
 
     if (!isPlainObject(player.source)) {
@@ -278,6 +315,12 @@ async function main() {
   }
 
   const errors = validatePlayers(players);
+  try {
+    const ids = JSON.parse(await readFile(path.join(ROOT, 'data', 'decisions', 'wha-ids.json'), 'utf8'));
+    errors.push(...validateIdMap(players, ids));
+  } catch (err) {
+    if (err.code !== 'ENOENT') errors.push(`data/decisions/wha-ids.json: ${err.message}`);
+  }
   if (errors.length > 0) {
     for (const error of errors) console.error(error);
     console.error(`${errors.length} problem(s) found in ${displayPath}.`);

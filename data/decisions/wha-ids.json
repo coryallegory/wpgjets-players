@@ -1,5 +1,5 @@
 {
-  "description": "Reserved playerIds (900001+) for WHA-only players. Append-only: never renumber or reuse. Written by scripts/reconcile-wha.mjs.",
+  "description": "Reserved playerIds (900001+) for WHA-only players, keyed by WHA source key (hr:{Hockey-Reference id} or db:{hockeydb id}). Append-only: never renumber or reuse. When the player turns out to have an NHL career, the entry gets retiredFor { nhlPlayerId, basis, evidence, verified }: the player then uses the real NHL id and the reserved id stays retired forever. Written by scripts/reconcile-wha.mjs.",
   "assignments": [
     {
       "key": "hr:andrera01",
@@ -29,13 +29,25 @@
       "key": "hr:bairdke01",
       "playerId": 900005,
       "name": "Baird, Ken",
-      "birthDate": "1951-02-01"
+      "birthDate": "1951-02-01",
+      "retiredFor": {
+        "nhlPlayerId": 8445002,
+        "basis": "nhl-wha-lookup birthDate+lastName+firstName",
+        "evidence": "https://api-web.nhle.com/v1/player/8445002/landing",
+        "verified": "2026-10-17"
+      }
     },
     {
       "key": "hr:beaudno01",
       "playerId": 900006,
       "name": "Beaudin, Norm",
-      "birthDate": "1941-11-28"
+      "birthDate": "1941-11-28",
+      "retiredFor": {
+        "nhlPlayerId": 8445038,
+        "basis": "nhl-wha-lookup birthDate+lastName+firstName",
+        "evidence": "https://api-web.nhle.com/v1/player/8445038/landing",
+        "verified": "2026-10-17"
+      }
     },
     {
       "key": "hr:beaulal01",
@@ -47,7 +59,13 @@
       "key": "hr:bergmth01",
       "playerId": 900008,
       "name": "Bergman, Thommie",
-      "birthDate": "1947-12-10"
+      "birthDate": "1947-12-10",
+      "retiredFor": {
+        "nhlPlayerId": 8445445,
+        "basis": "nhl-wha-lookup birthDate+lastName+firstName",
+        "evidence": "https://api-web.nhle.com/v1/player/8445445/landing",
+        "verified": "2026-10-17"
+      }
     },
     {
       "key": "hr:blackmi01",
@@ -65,19 +83,37 @@
       "key": "hr:bordech01",
       "playerId": 900011,
       "name": "Bordeleau, Christian",
-      "birthDate": "1947-09-23"
+      "birthDate": "1947-09-23",
+      "retiredFor": {
+        "nhlPlayerId": 8445126,
+        "basis": "nhl-wha-lookup birthDate+lastName+firstName",
+        "evidence": "https://api-web.nhle.com/v1/player/8445126/landing",
+        "verified": "2026-10-17"
+      }
     },
     {
       "key": "hr:boyerwa01",
       "playerId": 900012,
       "name": "Boyer, Wally",
-      "birthDate": "1937-09-27"
+      "birthDate": "1937-09-27",
+      "retiredFor": {
+        "nhlPlayerId": 8445151,
+        "basis": "nhl-wha-lookup birthDate+lastName+firstName",
+        "evidence": "https://api-web.nhle.com/v1/player/8445151/landing",
+        "verified": "2026-10-17"
+      }
     },
     {
       "key": "hr:bromlga01",
       "playerId": 900013,
       "name": "Bromley, Gary",
-      "birthDate": "1950-01-19"
+      "birthDate": "1950-01-19",
+      "retiredFor": {
+        "nhlPlayerId": 8445695,
+        "basis": "nhl-wha-lookup birthDate+lastName+firstName",
+        "evidence": "https://api-web.nhle.com/v1/player/8445695/landing",
+        "verified": "2026-10-17"
+      }
     },
     {
       "key": "hr:cadlebr01",
@@ -89,7 +125,13 @@
       "key": "hr:clackki01",
       "playerId": 900015,
       "name": "Clackson, Kim",
-      "birthDate": "1955-02-13"
+      "birthDate": "1955-02-13",
+      "retiredFor": {
+        "nhlPlayerId": 8446077,
+        "basis": "nhl-wha-lookup birthDate+lastName+firstName",
+        "evidence": "https://api-web.nhle.com/v1/player/8446077/landing",
+        "verified": "2026-10-17"
+      }
     },
     {
       "key": "hr:coleji01",
@@ -107,7 +149,13 @@
       "key": "hr:daleyjo01",
       "playerId": 900018,
       "name": "Daley, Joe",
-      "birthDate": "1943-02-20"
+      "birthDate": "1943-02-20",
+      "retiredFor": {
+        "nhlPlayerId": 8446290,
+        "basis": "nhl-wha-lookup birthDate+lastName+firstName",
+        "evidence": "https://api-web.nhle.com/v1/player/8446290/landing",
+        "verified": "2026-10-17"
+      }
     },
     {
       "key": "hr:davisbi01",
@@ -119,13 +167,25 @@
       "key": "hr:dunnda01",
       "playerId": 900020,
       "name": "Dunn, Dave",
-      "birthDate": "1948-08-19"
+      "birthDate": "1948-08-19",
+      "retiredFor": {
+        "nhlPlayerId": 8446525,
+        "basis": "nhl-wha-lookup birthDate+lastName+firstName",
+        "evidence": "https://api-web.nhle.com/v1/player/8446525/landing",
+        "verified": "2026-10-17"
+      }
     },
     {
       "key": "hr:eriksro01",
       "playerId": 900021,
       "name": "Eriksson, Roland",
-      "birthDate": "1954-03-01"
+      "birthDate": "1954-03-01",
+      "retiredFor": {
+        "nhlPlayerId": 8446710,
+        "basis": "nhl-wha-lookup birthDate+lastName+firstName",
+        "evidence": "https://api-web.nhle.com/v1/player/8446710/landing",
+        "verified": "2026-10-17"
+      }
     },
     {
       "key": "hr:fordmi01",
@@ -155,19 +215,37 @@
       "key": "hr:greente01",
       "playerId": 900026,
       "name": "Green, Ted",
-      "birthDate": "1940-03-23"
+      "birthDate": "1940-03-23",
+      "retiredFor": {
+        "nhlPlayerId": 8447406,
+        "basis": "nhl-wha-lookup birthDate+lastName+firstName",
+        "evidence": "https://api-web.nhle.com/v1/player/8447406/landing",
+        "verified": "2026-10-17"
+      }
     },
     {
       "key": "hr:gruenda01",
       "playerId": 900027,
       "name": "Gruen, Danny",
-      "birthDate": "1952-06-26"
+      "birthDate": "1952-06-26",
+      "retiredFor": {
+        "nhlPlayerId": 8446653,
+        "basis": "nhl-wha-lookup birthDate+lastName+firstName",
+        "evidence": "https://api-web.nhle.com/v1/player/8446653/landing",
+        "verified": "2026-10-17"
+      }
     },
     {
       "key": "hr:hargrji01",
       "playerId": 900028,
       "name": "Hargreaves, Jim",
-      "birthDate": "1950-05-02"
+      "birthDate": "1950-05-02",
+      "retiredFor": {
+        "nhlPlayerId": 8446698,
+        "basis": "nhl-wha-lookup birthDate+lastName+firstName",
+        "evidence": "https://api-web.nhle.com/v1/player/8446698/landing",
+        "verified": "2026-10-17"
+      }
     },
     {
       "key": "hr:hargrte01",
@@ -179,19 +257,37 @@
       "key": "hr:hedbean01",
       "playerId": 900030,
       "name": "Hedberg, Anders",
-      "birthDate": "1951-02-25"
+      "birthDate": "1951-02-25",
+      "retiredFor": {
+        "nhlPlayerId": 8447714,
+        "basis": "nhl-wha-lookup birthDate+lastName+firstName",
+        "evidence": "https://api-web.nhle.com/v1/player/8447714/landing",
+        "verified": "2026-10-17"
+      }
     },
     {
       "key": "hr:hicksgl01",
       "playerId": 900031,
       "name": "Hicks, Glenn",
-      "birthDate": "1958-08-28"
+      "birthDate": "1958-08-28",
+      "retiredFor": {
+        "nhlPlayerId": 8447800,
+        "basis": "nhl-wha-lookup birthDate+lastName+firstName",
+        "evidence": "https://api-web.nhle.com/v1/player/8447800/landing",
+        "verified": "2026-10-17"
+      }
     },
     {
       "key": "hr:hillmla01",
       "playerId": 900032,
       "name": "Hillman, Larry",
-      "birthDate": "1937-02-05"
+      "birthDate": "1937-02-05",
+      "retiredFor": {
+        "nhlPlayerId": 8446864,
+        "basis": "nhl-wha-lookup birthDate+lastName+firstName",
+        "evidence": "https://api-web.nhle.com/v1/player/8446864/landing",
+        "verified": "2026-10-17"
+      }
     },
     {
       "key": "hr:holdebi01",
@@ -203,37 +299,73 @@
       "key": "hr:hornula01",
       "playerId": 900034,
       "name": "Hornung, Larry",
-      "birthDate": "1945-11-10"
+      "birthDate": "1945-11-10",
+      "retiredFor": {
+        "nhlPlayerId": 8446916,
+        "basis": "nhl-wha-lookup birthDate+lastName+firstName",
+        "evidence": "https://api-web.nhle.com/v1/player/8446916/landing",
+        "verified": "2026-10-17"
+      }
     },
     {
       "key": "hr:huckfr01",
       "playerId": 900035,
       "name": "Huck, Fran",
-      "birthDate": "1945-12-04"
+      "birthDate": "1945-12-04",
+      "retiredFor": {
+        "nhlPlayerId": 8446933,
+        "basis": "nhl-wha-lookup birthDate+lastName+firstName",
+        "evidence": "https://api-web.nhle.com/v1/player/8446933/landing",
+        "verified": "2026-10-17"
+      }
     },
     {
       "key": "hr:johnsda01",
       "playerId": 900036,
       "name": "Johnson, Danny",
-      "birthDate": "1944-10-01"
+      "birthDate": "1944-10-01",
+      "retiredFor": {
+        "nhlPlayerId": 8447094,
+        "basis": "nhl-wha-lookup birthDate+lastName+firstName",
+        "evidence": "https://api-web.nhle.com/v1/player/8447094/landing",
+        "verified": "2026-10-17"
+      }
     },
     {
       "key": "hr:ketolve01",
       "playerId": 900037,
       "name": "Ketola, Veli-Pekka",
-      "birthDate": "1948-03-28"
+      "birthDate": "1948-03-28",
+      "retiredFor": {
+        "nhlPlayerId": 8448474,
+        "basis": "nhl-wha-lookup birthDate+lastName+firstName",
+        "evidence": "https://api-web.nhle.com/v1/player/8448474/landing",
+        "verified": "2026-10-17"
+      }
     },
     {
       "key": "hr:kryskda01",
       "playerId": 900038,
       "name": "Kryskow, Dave",
-      "birthDate": "1951-12-25"
+      "birthDate": "1951-12-25",
+      "retiredFor": {
+        "nhlPlayerId": 8447240,
+        "basis": "nhl-wha-lookup birthDate+lastName+firstName",
+        "evidence": "https://api-web.nhle.com/v1/player/8447240/landing",
+        "verified": "2026-10-17"
+      }
     },
     {
       "key": "hr:labrada01",
       "playerId": 900039,
       "name": "Labraaten, Dan",
-      "birthDate": "1951-06-09"
+      "birthDate": "1951-06-09",
+      "retiredFor": {
+        "nhlPlayerId": 8448599,
+        "basis": "nhl-wha-lookup decisionAlternateBirthDate+lastName+firstName",
+        "evidence": "https://api-web.nhle.com/v1/player/8448599/landing",
+        "verified": "2026-10-17"
+      }
     },
     {
       "key": "hr:larsscu01",
@@ -245,13 +377,25 @@
       "key": "hr:lawsoda01",
       "playerId": 900041,
       "name": "Lawson, Danny",
-      "birthDate": "1947-10-30"
+      "birthDate": "1947-10-30",
+      "retiredFor": {
+        "nhlPlayerId": 8448730,
+        "basis": "nhl-wha-lookup birthDate+lastName+firstName",
+        "evidence": "https://api-web.nhle.com/v1/player/8448730/landing",
+        "verified": "2026-10-17"
+      }
     },
     {
       "key": "hr:leggera01",
       "playerId": 900042,
       "name": "Legge, Randy",
-      "birthDate": "1945-12-16"
+      "birthDate": "1945-12-16",
+      "retiredFor": {
+        "nhlPlayerId": 8447375,
+        "basis": "nhl-wha-lookup birthDate+lastName+firstName",
+        "evidence": "https://api-web.nhle.com/v1/player/8447375/landing",
+        "verified": "2026-10-17"
+      }
     },
     {
       "key": "hr:lindhma01",
@@ -263,25 +407,49 @@
       "key": "hr:mackipa01",
       "playerId": 900044,
       "name": "MacKinnon, Paul",
-      "birthDate": "1958-11-06"
+      "birthDate": "1958-11-06",
+      "retiredFor": {
+        "nhlPlayerId": 8448975,
+        "basis": "nhl-wha-lookup birthDate+lastName+firstName",
+        "evidence": "https://api-web.nhle.com/v1/player/8448975/landing",
+        "verified": "2026-10-17"
+      }
     },
     {
       "key": "hr:mcdonab01",
       "playerId": 900045,
       "name": "McDonald, Ab",
-      "birthDate": "1936-02-18"
+      "birthDate": "1936-02-18",
+      "retiredFor": {
+        "nhlPlayerId": 8447744,
+        "basis": "nhl-wha-lookup birthDate+lastName+firstName",
+        "evidence": "https://api-web.nhle.com/v1/player/8447744/landing",
+        "verified": "2026-10-17"
+      }
     },
     {
       "key": "hr:millepe01",
       "playerId": 900046,
       "name": "Miller, Perry",
-      "birthDate": "1952-06-24"
+      "birthDate": "1952-06-24",
+      "retiredFor": {
+        "nhlPlayerId": 8449626,
+        "basis": "nhl-wha-lookup birthDate+lastName+firstName",
+        "evidence": "https://api-web.nhle.com/v1/player/8449626/landing",
+        "verified": "2026-10-17"
+      }
     },
     {
       "key": "hr:mottmo01",
       "playerId": 900047,
       "name": "Mott, Morris",
-      "birthDate": "1946-05-25"
+      "birthDate": "1946-05-25",
+      "retiredFor": {
+        "nhlPlayerId": 8447903,
+        "basis": "nhl-wha-lookup birthDate+lastName+firstName",
+        "evidence": "https://api-web.nhle.com/v1/player/8447903/landing",
+        "verified": "2026-10-17"
+      }
     },
     {
       "key": "hr:nealero01",
@@ -293,37 +461,73 @@
       "key": "hr:nilsske01",
       "playerId": 900049,
       "name": "Nilsson, Kent",
-      "birthDate": "1956-08-31"
+      "birthDate": "1956-08-31",
+      "retiredFor": {
+        "nhlPlayerId": 8449887,
+        "basis": "nhl-wha-lookup birthDate+lastName+firstName",
+        "evidence": "https://api-web.nhle.com/v1/player/8449887/landing",
+        "verified": "2026-10-17"
+      }
     },
     {
       "key": "hr:nilssul01",
       "playerId": 900050,
       "name": "Nilsson, Ulf",
-      "birthDate": "1950-05-11"
+      "birthDate": "1950-05-11",
+      "retiredFor": {
+        "nhlPlayerId": 8449886,
+        "basis": "nhl-wha-lookup birthDate+lastName+firstName",
+        "evidence": "https://api-web.nhle.com/v1/player/8449886/landing",
+        "verified": "2026-10-17"
+      }
     },
     {
       "key": "hr:odrowge01",
       "playerId": 900051,
       "name": "Odrowski, Gerry",
-      "birthDate": "1938-10-04"
+      "birthDate": "1938-10-04",
+      "retiredFor": {
+        "nhlPlayerId": 8448049,
+        "basis": "nhl-wha-lookup birthDate+lastName+firstName",
+        "evidence": "https://api-web.nhle.com/v1/player/8448049/landing",
+        "verified": "2026-10-17"
+      }
     },
     {
       "key": "hr:powisly01",
       "playerId": 900052,
       "name": "Powis, Lynn",
-      "birthDate": "1949-07-07"
+      "birthDate": "1949-07-07",
+      "retiredFor": {
+        "nhlPlayerId": 8448186,
+        "basis": "nhl-wha-lookup birthDate+lastName+firstName",
+        "evidence": "https://api-web.nhle.com/v1/player/8448186/landing",
+        "verified": "2026-10-17"
+      }
     },
     {
       "key": "hr:prattke01",
       "playerId": 900053,
       "name": "Pratt, Kelly",
-      "birthDate": "1953-02-08"
+      "birthDate": "1953-02-08",
+      "retiredFor": {
+        "nhlPlayerId": 8448189,
+        "basis": "nhl-wha-lookup birthDate+lastName+firstName",
+        "evidence": "https://api-web.nhle.com/v1/player/8448189/landing",
+        "verified": "2026-10-17"
+      }
     },
     {
       "key": "hr:prestri01",
       "playerId": 900054,
       "name": "Preston, Rich",
-      "birthDate": "1952-05-22"
+      "birthDate": "1952-05-22",
+      "retiredFor": {
+        "nhlPlayerId": 8450539,
+        "basis": "nhl-wha-lookup birthDate+lastName+firstName",
+        "evidence": "https://api-web.nhle.com/v1/player/8450539/landing",
+        "verified": "2026-10-17"
+      }
     },
     {
       "key": "hr:riihihe01",
@@ -335,7 +539,13 @@
       "key": "hr:rizzuga01",
       "playerId": 900056,
       "name": "Rizzuto, Garth",
-      "birthDate": "1947-09-11"
+      "birthDate": "1947-09-11",
+      "retiredFor": {
+        "nhlPlayerId": 8448348,
+        "basis": "nhl-wha-lookup birthDate+lastName+firstName",
+        "evidence": "https://api-web.nhle.com/v1/player/8448348/landing",
+        "verified": "2026-10-17"
+      }
     },
     {
       "key": "hr:roussdu01",
@@ -347,13 +557,25 @@
       "key": "hr:ruhnkke01",
       "playerId": 900058,
       "name": "Ruhnke, Kent",
-      "birthDate": "1952-09-18"
+      "birthDate": "1952-09-18",
+      "retiredFor": {
+        "nhlPlayerId": 8448604,
+        "basis": "nhl-wha-lookup birthDate+lastName+firstName",
+        "evidence": "https://api-web.nhle.com/v1/player/8448604/landing",
+        "verified": "2026-10-17"
+      }
     },
     {
       "key": "hr:ruskote01",
       "playerId": 900059,
       "name": "Ruskowski, Terry",
-      "birthDate": "1954-12-31"
+      "birthDate": "1954-12-31",
+      "retiredFor": {
+        "nhlPlayerId": 8451065,
+        "basis": "nhl-wha-lookup birthDate+lastName+firstName",
+        "evidence": "https://api-web.nhle.com/v1/player/8451065/landing",
+        "verified": "2026-10-17"
+      }
     },
     {
       "key": "hr:shmyrjo01",
@@ -365,7 +587,13 @@
       "key": "hr:snellro01",
       "playerId": 900061,
       "name": "Snell, Ron",
-      "birthDate": "1948-08-11"
+      "birthDate": "1948-08-11",
+      "retiredFor": {
+        "nhlPlayerId": 8449092,
+        "basis": "nhl-wha-lookup birthDate+lastName+firstName",
+        "evidence": "https://api-web.nhle.com/v1/player/8449092/landing",
+        "verified": "2026-10-17"
+      }
     },
     {
       "key": "hr:sprinda01",
@@ -383,7 +611,13 @@
       "key": "hr:suthebi01",
       "playerId": 900064,
       "name": "Sutherland, Bill",
-      "birthDate": "1934-11-10"
+      "birthDate": "1934-11-10",
+      "retiredFor": {
+        "nhlPlayerId": 8449207,
+        "basis": "nhl-wha-lookup birthDate+lastName+firstName",
+        "evidence": "https://api-web.nhle.com/v1/player/8449207/landing",
+        "verified": "2026-10-17"
+      }
     },
     {
       "key": "hr:swensca01",
@@ -395,7 +629,13 @@
       "key": "hr:terbepa01",
       "playerId": 900066,
       "name": "Terbenche, Paul",
-      "birthDate": "1945-09-16"
+      "birthDate": "1945-09-16",
+      "retiredFor": {
+        "nhlPlayerId": 8451880,
+        "basis": "nhl-wha-lookup birthDate+lastName+firstName",
+        "evidence": "https://api-web.nhle.com/v1/player/8451880/landing",
+        "verified": "2026-10-17"
+      }
     },
     {
       "key": "hr:tumilgo01",
@@ -407,13 +647,25 @@
       "key": "hr:wakeler01",
       "playerId": 900068,
       "name": "Wakely, Ernie",
-      "birthDate": "1940-11-27"
+      "birthDate": "1940-11-27",
+      "retiredFor": {
+        "nhlPlayerId": 8452247,
+        "basis": "nhl-wha-lookup birthDate+lastName+firstName",
+        "evidence": "https://api-web.nhle.com/v1/player/8452247/landing",
+        "verified": "2026-10-17"
+      }
     },
     {
       "key": "hr:wardro01",
       "playerId": 900069,
       "name": "Ward, Ron",
-      "birthDate": "1944-09-12"
+      "birthDate": "1944-09-12",
+      "retiredFor": {
+        "nhlPlayerId": 8449357,
+        "basis": "nhl-wha-lookup birthDate+lastName+firstName",
+        "evidence": "https://api-web.nhle.com/v1/player/8449357/landing",
+        "verified": "2026-10-17"
+      }
     },
     {
       "key": "hr:westst01",
@@ -425,7 +677,13 @@
       "key": "hr:woytobo01",
       "playerId": 900071,
       "name": "Woytowich, Bob",
-      "birthDate": "1941-08-18"
+      "birthDate": "1941-08-18",
+      "retiredFor": {
+        "nhlPlayerId": 8449603,
+        "basis": "nhl-wha-lookup birthDate+lastName+firstName",
+        "evidence": "https://api-web.nhle.com/v1/player/8449603/landing",
+        "verified": "2026-10-17"
+      }
     },
     {
       "key": "hr:yakiwda01",
@@ -437,13 +695,25 @@
       "key": "hr:youngho01",
       "playerId": 900073,
       "name": "Young, Howie",
-      "birthDate": "1937-08-02"
+      "birthDate": "1937-08-02",
+      "retiredFor": {
+        "nhlPlayerId": 8449667,
+        "basis": "nhl-wha-lookup birthDate+lastName+firstName",
+        "evidence": "https://api-web.nhle.com/v1/player/8449667/landing",
+        "verified": "2026-10-17"
+      }
     },
     {
       "key": "hr:zanusjo01",
       "playerId": 900074,
       "name": "Zanussi, Joe",
-      "birthDate": "1947-09-25"
+      "birthDate": "1947-09-25",
+      "retiredFor": {
+        "nhlPlayerId": 8449672,
+        "basis": "nhl-wha-lookup birthDate+lastName+firstName",
+        "evidence": "https://api-web.nhle.com/v1/player/8449672/landing",
+        "verified": "2026-10-17"
+      }
     }
   ]
 }

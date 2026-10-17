@@ -1,7 +1,7 @@
 {
   "description": "Extra name forms (from cross-checks, e.g. Wikipedia) recorded in each player's 'Name variants:' note by scripts/merge-wha-into-players.mjs. Useful when searching for rookie cards. Never changes firstName/lastName/name.",
   "variants": [
-    { "playerId": 900011, "variants": ["Chris Bordeleau"], "source": "wikipedia" },
+    { "playerId": 8445126, "variants": ["Chris Bordeleau"], "source": "wikipedia" },
     { "playerId": 8447419, "variants": ["Bob Guindon"], "source": "wikipedia" },
     { "playerId": 8451388, "variants": ["Lars-Erik Sjoberg"], "source": "wikipedia" },
     { "playerId": 8448858, "variants": ["Willy Lindström"], "source": "wikipedia" }

@@ -295,7 +295,9 @@ test('merge preview uses schema v2 records, notes and needsReview', () => {
   assert.equal(holden.source.site, 'hockey-reference.com');
   assert.equal(holden.source.crossCheck, 'hockeydb.com');
   assert.deepEqual(holden.positions, ['G']);
-  assert.deepEqual(holden.notes, ['birthDate 1949-07-23 per Hockey-Reference only; hockeydb has none', 'position per Hockey-Reference G; hockeydb has D']);
+  assert.deepEqual(holden.notes, ['birthDate 1949-07-23 per Hockey-Reference only; hockeydb has none', 'position per Hockey-Reference G; hockeydb has D',
+    'rookieSeason 1972-73: first WHA Jets regular season (no Hockey-Reference career table available) (no NHL career)']);
+  assert.equal(holden.rookieSeason, '1972-73');
   // Open birth-date item -> provisional note + needsReview
   assert.deepEqual(m['hr:grattje01'].record.needsReview, ['birthDate']);
   assert.match(m['hr:grattje01'].record.notes[0], /^birthDate provisional \(birthdate:hr:grattje01\): Hockey-Reference 1947-03-08, hockeydb 1949-03-08/);

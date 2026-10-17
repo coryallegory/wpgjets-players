@@ -233,6 +233,43 @@ export function parseTeamSeason(html) {
 
 export const seasonLabel = (endYear) => `${endYear - 1}-${String(endYear).slice(2)}`;
 
+/**
+ * Whole-career season rows from a cached player page (skater and goalie tables, regular season and
+ * playoffs): [{ season, league, team, regularGP, playoffGP }] per season/league/team, sorted.
+ * Summary rows ("WHA (2 Yrs)", "Career", team totals) and multi-team "TOT" rows are skipped.
+ */
+export function parseCareerSeasons(html) {
+  const rows = new Map();
+  const tables = [['goalie_stats', 'goalie_games', 'regularGP'], ['goalie_stats_post', 'goalie_games', 'playoffGP'],
+    ['player_stats', 'games', 'regularGP'], ['player_stats_post', 'games', 'playoffGP']];
+  const goalie = { regularGP: false, playoffGP: false };
+  for (const [id, stat, phase] of tables) {
+    const t = extractTable(html, id);
+    if (!t) continue;
+    // A goalie's games come from the goalie table only (goalies can also appear among skaters).
+    if (id.startsWith('player_') && goalie[phase]) continue;
+    if (id.startsWith('goalie_')) goalie[phase] = true;
+    for (const r of parseRows(t)) {
+      const season = r.year_id?.text ?? '';
+      const team = r.team_name_abbr?.text ?? '';
+      const league = r.comp_name_abbr?.text || r.lg_id?.text || '';
+      if (!/^\d{4}-\d{2}$/.test(season) || !team || team === 'TOT' || !league) continue;
+      const gp = parseInt(String(r[stat]?.text ?? '').replace(/[^\d]/g, ''), 10) || 0;
+      const key = `${season}|${league}|${team}`;
+      const row = rows.get(key) ?? { season, league, team, regularGP: 0, playoffGP: 0 };
+      row[phase] += gp;
+      rows.set(key, row);
+    }
+  }
+  return [...rows.values()].sort((a, b) => (a.season < b.season ? -1 : a.season > b.season ? 1 : a.league.localeCompare(b.league) || a.team.localeCompare(b.team)));
+}
+
+/** First regular season (label) with GP >= 1 in one of `leagues` from parseCareerSeasons rows, or null. */
+export function firstCareerSeason(rows, leagues = ['NHL', 'WHA']) {
+  const s = rows.filter((r) => leagues.includes(r.league) && r.regularGP > 0).map((r) => r.season).sort();
+  return s[0] ?? null;
+}
+
 // ---------------------------------------------------------------- fetching
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));

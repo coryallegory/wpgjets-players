@@ -1,6 +1,6 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { validatePlayers, sortableName } from '../scripts/validate.mjs';
+import { validatePlayers, sortableName, validateIdMap } from '../scripts/validate.mjs';
 
 const player = (overrides = {}) => ({
   playerId: 1,
@@ -35,7 +35,7 @@ const expectOne = (errors, pattern) => {
 };
 
 test('valid players produce no errors', () => {
-  const noDraft = player({ playerId: 3, birthDate: null, draft: null, qualifiedBy: ['played'], rookieSeason: null });
+  const noDraft = player({ playerId: 3, birthDate: null, draft: null, qualifiedBy: ['played'], rookieSeason: '1988-89' });
   assert.deepEqual(validatePlayers([player(), draftedOnly({ playerId: 2, birthDate: '1971-02-02' }), noDraft]), []);
 });
 
@@ -64,10 +64,23 @@ test('empty name and bad positions are reported', () => {
 });
 
 test('rookieSeason must be null or a valid consecutive season', () => {
-  assert.deepEqual(errorsFor({ rookieSeason: null }), []);
+  assert.deepEqual(validatePlayers([draftedOnly({ rookieSeason: null })]), []);
+  assert.deepEqual(validatePlayers([draftedOnly({ rookieSeason: '1992-93' })]), []); // NHL career elsewhere
   expectOne(errorsFor({ rookieSeason: '1990-95' }), /invalid rookieSeason/);
   expectOne(errorsFor({ rookieSeason: '1990/91' }), /invalid rookieSeason/);
   expectOne(errorsFor({ rookieSeason: undefined }), /invalid rookieSeason/);
+});
+
+test('rookieSeason (first NHL or WHA regular season) is required with Jets GP and not after the first Jets regular season', () => {
+  expectOne(errorsFor({ rookieSeason: null }), /rookieSeason must not be null/);
+  expectOne(validatePlayers([whaOnly({ rookieSeason: null })]), /rookieSeason must not be null/);
+  assert.deepEqual(errorsFor({ rookieSeason: '1985-86' }), []); // earlier career elsewhere is fine
+  expectOne(errorsFor({ rookieSeason: '1991-92' }), /rookieSeason 1991-92 is later than the first Jets regular season 1990-91/);
+  // WHA Jets seasons count too
+  expectOne(errorsFor({ rookieSeason: '1990-91', wha: whaBlock() }), /later than the first Jets regular season 1975-76/);
+  // playoff-only seasons do not bound the (regular-season) rookie season
+  const playoffOnly = whaBlock({ regularGP: 0, playoffGP: 2, seasons: [{ season: '1978-79', regularGP: 0, playoffGP: 2 }] });
+  assert.deepEqual(validatePlayers([whaOnly({ wha: playoffOnly, rookieSeason: '1979-80' })]), []);
 });
 
 test('nhl season rows are checked', () => {
@@ -149,7 +162,7 @@ const whaBlock = (overrides = {}) => ({
 
 const whaOnly = (overrides = {}) => player({
   playerId: 900001,
-  rookieSeason: null,
+  rookieSeason: '1974-75',
   nhl: { regularGP: 0, playoffGP: 0, seasons: [] },
   wha: whaBlock(),
   draft: null,
@@ -159,49 +172,63 @@ const whaOnly = (overrides = {}) => player({
 });
 
 test('valid wha blocks: NHL player with WHA games and a WHA-only player', () => {
-  assert.deepEqual(validatePlayers([player({ wha: whaBlock() }), whaOnly({ birthDate: '1950-01-01' })]), []);
+  assert.deepEqual(validatePlayers([player({ rookieSeason: '1975-76', wha: whaBlock() }), whaOnly({ birthDate: '1950-01-01' })]), []);
   // playoff-only WHA player qualifies as played
   const playoffOnly = whaBlock({ regularGP: 0, playoffGP: 2, seasons: [{ season: '1978-79', regularGP: 0, playoffGP: 2 }] });
   assert.deepEqual(validatePlayers([whaOnly({ wha: playoffOnly })]), []);
 });
 
 test('wha totals, season labels, range and duplicates are checked', () => {
-  expectOne(errorsFor({ wha: whaBlock({ regularGP: 80 }) }), /wha.regularGP 80 does not equal season sum 81/);
-  expectOne(errorsFor({ wha: whaBlock({ playoffGP: 12 }) }), /wha.playoffGP 12 does not equal season sum 13/);
+  expectOne(errorsFor({ rookieSeason: '1970-71', wha: whaBlock({ regularGP: 80 }) }), /wha.regularGP 80 does not equal season sum 81/);
+  expectOne(errorsFor({ rookieSeason: '1970-71', wha: whaBlock({ playoffGP: 12 }) }), /wha.playoffGP 12 does not equal season sum 13/);
   const one = (row) => whaBlock({ regularGP: row.regularGP, playoffGP: row.playoffGP, seasons: [row] });
-  expectOne(errorsFor({ wha: one({ season: '1979-80', regularGP: 5, playoffGP: 0 }) }), /wha: season 1979-80 is outside 1972-73..1978-79/);
-  expectOne(errorsFor({ wha: one({ season: '1971-72', regularGP: 5, playoffGP: 0 }) }), /outside/);
-  expectOne(errorsFor({ wha: one({ season: '1975-77', regularGP: 5, playoffGP: 0 }) }), /wha: invalid season "1975-77"/);
-  expectOne(errorsFor({ wha: one({ season: '1975-76', team: 'WIN', regularGP: 5, playoffGP: 0 }) }), /no team field/);
+  expectOne(errorsFor({ rookieSeason: '1970-71', wha: one({ season: '1979-80', regularGP: 5, playoffGP: 0 }) }), /wha: season 1979-80 is outside 1972-73..1978-79/);
+  expectOne(errorsFor({ rookieSeason: '1970-71', wha: one({ season: '1971-72', regularGP: 5, playoffGP: 0 }) }), /outside/);
+  expectOne(errorsFor({ rookieSeason: '1970-71', wha: one({ season: '1975-77', regularGP: 5, playoffGP: 0 }) }), /wha: invalid season "1975-77"/);
+  expectOne(errorsFor({ rookieSeason: '1970-71', wha: one({ season: '1975-76', team: 'WIN', regularGP: 5, playoffGP: 0 }) }), /no team field/);
   const dup = whaBlock({ regularGP: 10, playoffGP: 0, seasons: [{ season: '1975-76', regularGP: 5, playoffGP: 0 }, { season: '1975-76', regularGP: 5, playoffGP: 0 }] });
-  expectOne(errorsFor({ wha: dup }), /wha: duplicate season row 1975-76/);
-  expectOne(errorsFor({ wha: whaBlock({ regularGP: 0, playoffGP: 0, seasons: [] }) }), /wha.seasons must not be empty/);
-  expectOne(errorsFor({ wha: [] }), /wha must be an object/);
+  expectOne(errorsFor({ rookieSeason: '1970-71', wha: dup }), /wha: duplicate season row 1975-76/);
+  expectOne(errorsFor({ rookieSeason: '1970-71', wha: whaBlock({ regularGP: 0, playoffGP: 0, seasons: [] }) }), /wha.seasons must not be empty/);
+  expectOne(errorsFor({ rookieSeason: '1970-71', wha: [] }), /wha must be an object/);
 });
 
 test('wha.source needs sites, definitive and a retrieved date', () => {
   const src = (s) => whaBlock({ source: { sites: ['hockey-reference.com'], definitive: false, retrieved: '2026-10-17', ...s } });
-  expectOne(errorsFor({ wha: whaBlock({ source: undefined }) }), /wha.source must be an object/);
-  expectOne(errorsFor({ wha: src({ sites: [] }) }), /wha.source.sites/);
-  expectOne(errorsFor({ wha: src({ definitive: 'no' }) }), /wha.source.definitive/);
-  expectOne(errorsFor({ wha: src({ retrieved: '2026-13-01' }) }), /wha.source.retrieved/);
+  expectOne(errorsFor({ rookieSeason: '1970-71', wha: whaBlock({ source: undefined }) }), /wha.source must be an object/);
+  expectOne(errorsFor({ rookieSeason: '1970-71', wha: src({ sites: [] }) }), /wha.source.sites/);
+  expectOne(errorsFor({ rookieSeason: '1970-71', wha: src({ definitive: 'no' }) }), /wha.source.definitive/);
+  expectOne(errorsFor({ rookieSeason: '1970-71', wha: src({ retrieved: '2026-13-01' }) }), /wha.source.retrieved/);
 });
 
 test('qualifiedBy "played" counts NHL or WHA Jets games', () => {
   // WHA games only -> must be played
   expectOne(validatePlayers([whaOnly({ qualifiedBy: [] })]), /qualifiedBy must be a non-empty array/);
-  const draftedWha = draftedOnly({ wha: whaBlock(), qualifiedBy: ['drafted'] });
+  const draftedWha = draftedOnly({ rookieSeason: '1975-76', wha: whaBlock(), qualifiedBy: ['drafted'] });
   expectOne(validatePlayers([draftedWha]), /has Jets GP \(NHL or WHA\) but qualifiedBy lacks "played"/);
-  assert.deepEqual(validatePlayers([draftedOnly({ wha: whaBlock(), qualifiedBy: ['played', 'drafted'] })]), []);
+  assert.deepEqual(validatePlayers([draftedOnly({ rookieSeason: '1975-76', wha: whaBlock(), qualifiedBy: ['played', 'drafted'] })]), []);
 });
 
-test('WHA-only players use the reserved id range and have no NHL Jets games', () => {
-  expectOne(validatePlayers([whaOnly({ playerId: 8000001 })]), /must have a playerId in the 900001\+ range/);
+test('reserved ids are for WHA Jets players never in the NHL; WHA players with an NHL id are fine anywhere', () => {
+  // WHA Jets player with an NHL career elsewhere: real NHL id, no NHL Jets games, NHL draft
+  const draft = { year: 1976, team: 'AFM', round: 4, overall: 64, amateur: 'Djurgardens IF Stockholm (SEL)' };
+  assert.deepEqual(validatePlayers([whaOnly({ playerId: 8449887, draft })]), []);
   expectOne(validatePlayers([whaOnly({ playerId: 900000 })]), /reserved and never issued/);
   expectOne(validatePlayers([whaOnly({ wha: undefined, qualifiedBy: ['drafted'], draft: player().draft })]), /requires a wha block/);
   const withNhl = whaOnly({ nhl: player().nhl, qualifiedBy: ['played'] });
   expectOne(validatePlayers([withNhl]), /must have empty nhl.seasons/);
-  expectOne(validatePlayers([whaOnly({ rookieSeason: '1979-80' })]), /rookieSeason null/);
+  assert.deepEqual(validatePlayers([whaOnly({ rookieSeason: '1972-73' })]), []); // earlier WHA season elsewhere
+});
+
+test('validateIdMap: retired reserved ids must not be used and their NHL id must be present', () => {
+  const ids = { assignments: [
+    { key: 'hr:a', playerId: 900001 },
+    { key: 'hr:b', playerId: 900002, retiredFor: { nhlPlayerId: 8449887, basis: 'x' } },
+  ] };
+  assert.deepEqual(validateIdMap([{ playerId: 900001 }, { playerId: 8449887 }], ids), []);
+  const errs = validateIdMap([{ playerId: 900001 }, { playerId: 900002 }], ids);
+  assert.equal(errs.length, 2, errs.join('\n'));
+  assert.match(errs[0], /reserved id 900002 .*retired.*still used/);
+  assert.match(errs[1], /8449887, which is not in players.json/);
 });
 
 test('notes and needsReview types', () => {
@@ -211,7 +238,7 @@ test('notes and needsReview types', () => {
   expectOne(errorsFor({ needsReview: [] }), /needsReview must be a non-empty array/);
   expectOne(errorsFor({ needsReview: ['birthDate', 'birthDate'] }), /needsReview has duplicates/);
   expectOne(errorsFor({ needsReview: ['wha'] }), /needsReview names "wha", which is not a field/);
-  assert.deepEqual(errorsFor({ wha: whaBlock(), needsReview: ['wha'] }), []);
+  assert.deepEqual(errorsFor({ rookieSeason: '1970-71', wha: whaBlock(), needsReview: ['wha'] }), []);
 });
 
 test('top-level source stays required for WHA-only players', () => {

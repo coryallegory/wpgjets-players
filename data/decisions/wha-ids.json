@@ -1,0 +1,449 @@
+{
+  "description": "Reserved playerIds (900001+) for WHA-only players. Append-only: never renumber or reuse. Written by scripts/reconcile-wha.mjs.",
+  "assignments": [
+    {
+      "key": "hr:andrera01",
+      "playerId": 900001,
+      "name": "Andreachuk, Randy",
+      "birthDate": "1954-07-19"
+    },
+    {
+      "key": "hr:ashbo01",
+      "playerId": 900002,
+      "name": "Ash, Bob",
+      "birthDate": "1943-09-29"
+    },
+    {
+      "key": "hr:ashtoro01",
+      "playerId": 900003,
+      "name": "Ashton, Ron",
+      "birthDate": "1954-05-08"
+    },
+    {
+      "key": "hr:asmunfr01",
+      "playerId": 900004,
+      "name": "Asmundson, Freeman",
+      "birthDate": "1943-08-17"
+    },
+    {
+      "key": "hr:bairdke01",
+      "playerId": 900005,
+      "name": "Baird, Ken",
+      "birthDate": "1951-02-01"
+    },
+    {
+      "key": "hr:beaudno01",
+      "playerId": 900006,
+      "name": "Beaudin, Norm",
+      "birthDate": "1941-11-28"
+    },
+    {
+      "key": "hr:beaulal01",
+      "playerId": 900007,
+      "name": "Beaule, Alain",
+      "birthDate": "1946-04-07"
+    },
+    {
+      "key": "hr:bergmth01",
+      "playerId": 900008,
+      "name": "Bergman, Thommie",
+      "birthDate": "1947-12-10"
+    },
+    {
+      "key": "hr:blackmi01",
+      "playerId": 900009,
+      "name": "Black, Milt",
+      "birthDate": "1949-06-20"
+    },
+    {
+      "key": "hr:blumfr01",
+      "playerId": 900010,
+      "name": "Blum, Frank",
+      "birthDate": "1952-06-29"
+    },
+    {
+      "key": "hr:bordech01",
+      "playerId": 900011,
+      "name": "Bordeleau, Christian",
+      "birthDate": "1947-09-23"
+    },
+    {
+      "key": "hr:boyerwa01",
+      "playerId": 900012,
+      "name": "Boyer, Wally",
+      "birthDate": "1937-09-27"
+    },
+    {
+      "key": "hr:bromlga01",
+      "playerId": 900013,
+      "name": "Bromley, Gary",
+      "birthDate": "1950-01-19"
+    },
+    {
+      "key": "hr:cadlebr01",
+      "playerId": 900014,
+      "name": "Cadle, Brian",
+      "birthDate": "1948-09-13"
+    },
+    {
+      "key": "hr:clackki01",
+      "playerId": 900015,
+      "name": "Clackson, Kim",
+      "birthDate": "1955-02-13"
+    },
+    {
+      "key": "hr:coleji01",
+      "playerId": 900016,
+      "name": "Cole, Jim",
+      "birthDate": "1951-08-13"
+    },
+    {
+      "key": "hr:cuddist01",
+      "playerId": 900017,
+      "name": "Cuddie, Steve",
+      "birthDate": "1950-06-18"
+    },
+    {
+      "key": "hr:daleyjo01",
+      "playerId": 900018,
+      "name": "Daley, Joe",
+      "birthDate": "1943-02-20"
+    },
+    {
+      "key": "hr:davisbi01",
+      "playerId": 900019,
+      "name": "Davis, Bill",
+      "birthDate": "1954-08-22"
+    },
+    {
+      "key": "hr:dunnda01",
+      "playerId": 900020,
+      "name": "Dunn, Dave",
+      "birthDate": "1948-08-19"
+    },
+    {
+      "key": "hr:eriksro01",
+      "playerId": 900021,
+      "name": "Eriksson, Roland",
+      "birthDate": "1954-03-01"
+    },
+    {
+      "key": "hr:fordmi01",
+      "playerId": 900022,
+      "name": "Ford, Mike",
+      "birthDate": "1952-07-26"
+    },
+    {
+      "key": "hr:gosseri01",
+      "playerId": 900023,
+      "name": "Gosselin, Rich",
+      "birthDate": "1956-04-25"
+    },
+    {
+      "key": "hr:grattje01",
+      "playerId": 900024,
+      "name": "Gratton, Jean-Guy",
+      "birthDate": "1947-03-08"
+    },
+    {
+      "key": "hr:grayjo01",
+      "playerId": 900025,
+      "name": "Gray, John",
+      "birthDate": "1949-08-13"
+    },
+    {
+      "key": "hr:greente01",
+      "playerId": 900026,
+      "name": "Green, Ted",
+      "birthDate": "1940-03-23"
+    },
+    {
+      "key": "hr:gruenda01",
+      "playerId": 900027,
+      "name": "Gruen, Danny",
+      "birthDate": "1952-06-26"
+    },
+    {
+      "key": "hr:hargrji01",
+      "playerId": 900028,
+      "name": "Hargreaves, Jim",
+      "birthDate": "1950-05-02"
+    },
+    {
+      "key": "hr:hargrte01",
+      "playerId": 900029,
+      "name": "Hargreaves, Ted",
+      "birthDate": "1943-11-04"
+    },
+    {
+      "key": "hr:hedbean01",
+      "playerId": 900030,
+      "name": "Hedberg, Anders",
+      "birthDate": "1951-02-25"
+    },
+    {
+      "key": "hr:hicksgl01",
+      "playerId": 900031,
+      "name": "Hicks, Glenn",
+      "birthDate": "1958-08-28"
+    },
+    {
+      "key": "hr:hillmla01",
+      "playerId": 900032,
+      "name": "Hillman, Larry",
+      "birthDate": "1937-02-05"
+    },
+    {
+      "key": "hr:holdebi01",
+      "playerId": 900033,
+      "name": "Holden, Bill",
+      "birthDate": "1949-07-23"
+    },
+    {
+      "key": "hr:hornula01",
+      "playerId": 900034,
+      "name": "Hornung, Larry",
+      "birthDate": "1945-11-10"
+    },
+    {
+      "key": "hr:huckfr01",
+      "playerId": 900035,
+      "name": "Huck, Fran",
+      "birthDate": "1945-12-04"
+    },
+    {
+      "key": "hr:johnsda01",
+      "playerId": 900036,
+      "name": "Johnson, Danny",
+      "birthDate": "1944-10-01"
+    },
+    {
+      "key": "hr:ketolve01",
+      "playerId": 900037,
+      "name": "Ketola, Veli-Pekka",
+      "birthDate": "1948-03-28"
+    },
+    {
+      "key": "hr:kryskda01",
+      "playerId": 900038,
+      "name": "Kryskow, Dave",
+      "birthDate": "1951-12-25"
+    },
+    {
+      "key": "hr:labrada01",
+      "playerId": 900039,
+      "name": "Labraaten, Dan",
+      "birthDate": "1951-06-09"
+    },
+    {
+      "key": "hr:larsscu01",
+      "playerId": 900040,
+      "name": "Larsson, Curt",
+      "birthDate": "1944-12-11"
+    },
+    {
+      "key": "hr:lawsoda01",
+      "playerId": 900041,
+      "name": "Lawson, Danny",
+      "birthDate": "1947-10-30"
+    },
+    {
+      "key": "hr:leggera01",
+      "playerId": 900042,
+      "name": "Legge, Randy",
+      "birthDate": "1945-12-16"
+    },
+    {
+      "key": "hr:lindhma01",
+      "playerId": 900043,
+      "name": "Lindh, Mats",
+      "birthDate": "1947-09-12"
+    },
+    {
+      "key": "hr:mackipa01",
+      "playerId": 900044,
+      "name": "MacKinnon, Paul",
+      "birthDate": "1958-11-06"
+    },
+    {
+      "key": "hr:mcdonab01",
+      "playerId": 900045,
+      "name": "McDonald, Ab",
+      "birthDate": "1936-02-18"
+    },
+    {
+      "key": "hr:millepe01",
+      "playerId": 900046,
+      "name": "Miller, Perry",
+      "birthDate": "1952-06-24"
+    },
+    {
+      "key": "hr:mottmo01",
+      "playerId": 900047,
+      "name": "Mott, Morris",
+      "birthDate": "1946-05-25"
+    },
+    {
+      "key": "hr:nealero01",
+      "playerId": 900048,
+      "name": "Neale, Robbie",
+      "birthDate": "1953-04-17"
+    },
+    {
+      "key": "hr:nilsske01",
+      "playerId": 900049,
+      "name": "Nilsson, Kent",
+      "birthDate": "1956-08-31"
+    },
+    {
+      "key": "hr:nilssul01",
+      "playerId": 900050,
+      "name": "Nilsson, Ulf",
+      "birthDate": "1950-05-11"
+    },
+    {
+      "key": "hr:odrowge01",
+      "playerId": 900051,
+      "name": "Odrowski, Gerry",
+      "birthDate": "1938-10-04"
+    },
+    {
+      "key": "hr:powisly01",
+      "playerId": 900052,
+      "name": "Powis, Lynn",
+      "birthDate": "1949-07-07"
+    },
+    {
+      "key": "hr:prattke01",
+      "playerId": 900053,
+      "name": "Pratt, Kelly",
+      "birthDate": "1953-02-08"
+    },
+    {
+      "key": "hr:prestri01",
+      "playerId": 900054,
+      "name": "Preston, Rich",
+      "birthDate": "1952-05-22"
+    },
+    {
+      "key": "hr:riihihe01",
+      "playerId": 900055,
+      "name": "Riihiranta, Heikki",
+      "birthDate": "1948-10-04"
+    },
+    {
+      "key": "hr:rizzuga01",
+      "playerId": 900056,
+      "name": "Rizzuto, Garth",
+      "birthDate": "1947-09-11"
+    },
+    {
+      "key": "hr:roussdu01",
+      "playerId": 900057,
+      "name": "Rousseau, Dunc",
+      "birthDate": "1945-02-10"
+    },
+    {
+      "key": "hr:ruhnkke01",
+      "playerId": 900058,
+      "name": "Ruhnke, Kent",
+      "birthDate": "1952-09-18"
+    },
+    {
+      "key": "hr:ruskote01",
+      "playerId": 900059,
+      "name": "Ruskowski, Terry",
+      "birthDate": "1954-12-31"
+    },
+    {
+      "key": "hr:shmyrjo01",
+      "playerId": 900060,
+      "name": "Shmyr, John",
+      "birthDate": "1945-01-02"
+    },
+    {
+      "key": "hr:snellro01",
+      "playerId": 900061,
+      "name": "Snell, Ron",
+      "birthDate": "1948-08-11"
+    },
+    {
+      "key": "hr:sprinda01",
+      "playerId": 900062,
+      "name": "Spring, Dan",
+      "birthDate": "1951-10-31"
+    },
+    {
+      "key": "hr:stephke01",
+      "playerId": 900063,
+      "name": "Stephanson, Ken",
+      "birthDate": "1941-11-13"
+    },
+    {
+      "key": "hr:suthebi01",
+      "playerId": 900064,
+      "name": "Sutherland, Bill",
+      "birthDate": "1934-11-10"
+    },
+    {
+      "key": "hr:swensca01",
+      "playerId": 900065,
+      "name": "Swenson, Cal",
+      "birthDate": "1948-04-16"
+    },
+    {
+      "key": "hr:terbepa01",
+      "playerId": 900066,
+      "name": "Terbenche, Paul",
+      "birthDate": "1945-09-16"
+    },
+    {
+      "key": "hr:tumilgo01",
+      "playerId": 900067,
+      "name": "Tumilson, Gordon",
+      "birthDate": "1951-07-17"
+    },
+    {
+      "key": "hr:wakeler01",
+      "playerId": 900068,
+      "name": "Wakely, Ernie",
+      "birthDate": "1940-11-27"
+    },
+    {
+      "key": "hr:wardro01",
+      "playerId": 900069,
+      "name": "Ward, Ron",
+      "birthDate": "1944-09-12"
+    },
+    {
+      "key": "hr:westst01",
+      "playerId": 900070,
+      "name": "West, Steve",
+      "birthDate": "1952-03-20"
+    },
+    {
+      "key": "hr:woytobo01",
+      "playerId": 900071,
+      "name": "Woytowich, Bob",
+      "birthDate": "1941-08-18"
+    },
+    {
+      "key": "hr:yakiwda01",
+      "playerId": 900072,
+      "name": "Yakiwchuk, Dale",
+      "birthDate": "1958-10-17"
+    },
+    {
+      "key": "hr:youngho01",
+      "playerId": 900073,
+      "name": "Young, Howie",
+      "birthDate": "1937-08-02"
+    },
+    {
+      "key": "hr:zanusjo01",
+      "playerId": 900074,
+      "name": "Zanussi, Joe",
+      "birthDate": "1947-09-25"
+    }
+  ]
+}

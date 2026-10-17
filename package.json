@@ -9,7 +9,8 @@
     "get:nhl": "node scripts/get-nhldata-jets.mjs",
     "get:hockeydb-wha": "node scripts/get-hockeydb-wha.mjs",
     "get:hr-wha": "node scripts/get-hockeyreference-wha.mjs",
-    "init:players": "node scripts/init-curated-players.mjs"
+    "init:players": "node scripts/init-curated-players.mjs",
+    "reconcile:wha": "node scripts/reconcile-wha.mjs"
   },
   "engines": {
     "node": ">=22"

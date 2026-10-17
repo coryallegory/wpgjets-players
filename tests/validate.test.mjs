@@ -1,10 +1,12 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { validatePlayers } from '../scripts/validate.mjs';
+import { validatePlayers, sortableName } from '../scripts/validate.mjs';
 
 const player = (overrides = {}) => ({
   playerId: 1,
-  name: 'Test Player',
+  firstName: 'Test',
+  lastName: 'Player',
+  name: 'Player, Test',
   country: 'CAN',
   positions: ['C'],
   rookieSeason: '1990-91',
@@ -41,8 +43,17 @@ test('non-array input is reported', () => {
 });
 
 test('duplicate and non-numeric playerId are reported', () => {
-  expectOne(validatePlayers([player(), player({ name: 'Other' })]), /duplicate playerId 1/);
+  expectOne(validatePlayers([player(), player()]), /duplicate playerId 1/);
   expectOne(errorsFor({ playerId: '1' }), /playerId must be a number/);
+});
+
+test('names: firstName/lastName strings and derived name', () => {
+  assert.equal(sortableName('Dale', 'Hawerchuk'), 'Hawerchuk, Dale');
+  assert.equal(sortableName('', 'Selanne'), 'Selanne');
+  assert.deepEqual(errorsFor({ firstName: '', name: 'Player' }), []);
+  assert.match(errorsFor({ lastName: '', name: ', Test' }).join(' '), /lastName must be a non-empty string/);
+  expectOne(errorsFor({ firstName: undefined }), /firstName must be a string/);
+  expectOne(errorsFor({ name: 'Test Player' }), /name "Test Player" must equal "Player, Test"/);
 });
 
 test('empty name and bad positions are reported', () => {

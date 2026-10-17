@@ -4,9 +4,25 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Winnipeg Jets Rookie Card Tracker</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <script type="module" src="js/main.js"></script>
   </head>
   <body>
-    <h1>Winnipeg Jets Rookie Card Tracker</h1>
-    <p>Under construction.</p>
+    <main class="page">
+      <h1>Winnipeg Jets Rookie Card Tracker</h1>
+      <p class="subtitle">Every player who has played for, or been drafted by, a Winnipeg Jets franchise.</p>
+      <div class="controls">
+        <input id="search" type="search" placeholder="Search names" aria-label="Search players by name" autocomplete="off" />
+        <button id="filter-played" class="toggle" type="button" aria-pressed="true">Played</button>
+        <button id="filter-drafted" class="toggle" type="button" aria-pressed="true">Drafted</button>
+        <span id="count" class="count" role="status" aria-live="polite"></span>
+      </div>
+      <div class="table-wrap">
+        <table>
+          <thead id="head"></thead>
+          <tbody id="rows"></tbody>
+        </table>
+      </div>
+    </main>
   </body>
 </html>

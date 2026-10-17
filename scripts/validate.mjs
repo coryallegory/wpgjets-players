@@ -20,6 +20,9 @@ function isPlainObject(value) {
   return typeof value === 'object' && value !== null && !Array.isArray(value);
 }
 
+/** Derived sortable display name: "Last, First" (just the last name when there is no first name). */
+export const sortableName = (firstName, lastName) => (firstName ? `${lastName}, ${firstName}` : lastName);
+
 const isNonEmptyString = (v) => typeof v === 'string' && v.trim() !== '';
 const isCount = (v) => Number.isInteger(v) && v >= 0;
 
@@ -119,7 +122,14 @@ export function validatePlayers(players) {
     const itemLabel = Number.isInteger(id) ? `${label} (playerId ${id})` : label;
     const add = (msg) => errors.push(`${itemLabel}: ${msg}`);
 
-    if (!isNonEmptyString(player.name)) add('name must be a non-empty string');
+    if (typeof player.firstName !== 'string') add('firstName must be a string');
+    if (!isNonEmptyString(player.lastName)) add('lastName must be a non-empty string');
+    if (!isNonEmptyString(player.name)) {
+      add('name must be a non-empty string');
+    } else if (typeof player.firstName === 'string' && typeof player.lastName === 'string') {
+      const expected = sortableName(player.firstName, player.lastName);
+      if (player.name !== expected) add(`name ${JSON.stringify(player.name)} must equal ${JSON.stringify(expected)}`);
+    }
     if (!Array.isArray(player.positions) || !player.positions.every(isNonEmptyString)) {
       add('positions must be an array of non-empty strings');
     }

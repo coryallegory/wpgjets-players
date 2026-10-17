@@ -161,6 +161,8 @@ function buildPlayer(id, landing, seasons, pick, qualifiedBy, used) {
   return {
     playerId: id,
     name: fullName(landing),
+    firstName: landing.firstName.default,
+    lastName: landing.lastName.default,
     country: landing.birthCountry ?? null,
     positions: [...new Set(seasons.map((s) => s.position))],
     rookieSeason: rookieSeason(landing),
@@ -210,7 +212,7 @@ async function main() {
   }
 
   const players = [...byId].map(([id, e]) => buildPlayer(id, e.landing, e.seasons, e.pick, e.qualifiedBy, used));
-  players.sort((a, b) => a.name.localeCompare(b.name) || a.playerId - b.playerId);
+  players.sort((a, b) => a.lastName.localeCompare(b.lastName) || a.firstName.localeCompare(b.firstName) || a.playerId - b.playerId);
 
   const output = {
     generatedAt: new Date().toISOString(),

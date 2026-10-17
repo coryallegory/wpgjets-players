@@ -81,11 +81,30 @@ Only a **single rookie card per player** is in scope.
 - **Local preview**: the site uses JavaScript, so provide a tiny dependency-free Node static server
   (e.g. `npm run serve`) to test it locally.
 
+## Current state and commands
+
+Phase 1 (player list) is done for NHL data; the site is a sortable table of `players.json`.
+
+- `npm run get:nhl` – `scripts/get-nhldata-jets.mjs` -> `temp/reference/nhl-jets.json`
+- `npm run init:players` – one-time seed of `site/data/curated/players.json` from the reference
+  file; refuses to overwrite (`--force` only for deliberate regeneration)
+- `npm run validate` – schema/integrity checks on curated data (`scripts/validate.mjs`)
+- `npm test` – node:test suites in `tests/` (validator and the pure site logic in `site/js/lib/`)
+- `npm run serve` – local preview at http://localhost:8000
+
+Curated player fields: `playerId`, `firstName`, `lastName`, `name` ("Last, First", derived from
+NHL's separate fields, never parsed), `country`, `positions`, `rookieSeason` (first NHL season on
+any team), `jets` (regular/playoff GP totals as a Jets player plus per-season rows), `draft`
+(any team's pick, with `amateur` = team (league)), `qualifiedBy`, `source`.
+
+Site code: pure logic in `site/js/lib/` (no DOM, unit tested), DOM code in `site/js/`. Build DOM
+with `textContent`/`createElement`, never `innerHTML` with data.
+
 ## Not yet decided
 
-Directory layout, data file schemas, how hand-curated fields are kept separate from generated
-ones, and the price-collection method. Discuss with
-the owner before building these.
+WHA player source and reconciliation, `cards.json` / `collection.json` / `prices.json` schemas, and
+the price-collection method. Known gap: drafted-only players have no position (NHL club stats
+only carry positions for players who played).
 
 ## Legacy reference
 

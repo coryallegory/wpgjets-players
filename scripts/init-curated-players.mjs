@@ -5,6 +5,7 @@
 import { mkdir, readFile, writeFile, access } from 'node:fs/promises';
 import { dirname, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { sortableName } from './validate.mjs';
 
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const REFERENCE = resolve(ROOT, 'temp', 'reference', 'nhl-jets.json');
@@ -26,7 +27,9 @@ function curatedPlayer(p, retrieved) {
   const seasons = p.seasons.map(({ season, team, regularGP, playoffGP }) => ({ season, team, regularGP, playoffGP }));
   return {
     playerId: p.playerId,
-    name: p.name,
+    firstName: p.firstName,
+    lastName: p.lastName,
+    name: sortableName(p.firstName, p.lastName),
     country: p.country,
     positions: [...new Set(p.positions)],
     rookieSeason: p.rookieSeason ?? null,
@@ -55,7 +58,10 @@ async function main() {
   const reference = JSON.parse(await readFile(REFERENCE, 'utf8'));
   const retrieved = reference.generatedAt.slice(0, 10);
   const players = reference.players.map((p) => curatedPlayer(p, retrieved));
-  players.sort((a, b) => a.name.localeCompare(b.name) || a.playerId - b.playerId);
+  const collator = new Intl.Collator('en', { sensitivity: 'base' });
+  players.sort(
+    (a, b) => collator.compare(a.lastName, b.lastName) || collator.compare(a.firstName, b.firstName) || a.playerId - b.playerId,
+  );
   await mkdir(dirname(OUT), { recursive: true });
   await writeFile(OUT, JSON.stringify(players, null, 2) + '\n');
   console.log(`Wrote ${players.length} players to ${OUT}`);

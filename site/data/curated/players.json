@@ -9787,7 +9787,7 @@
     "lastName": "Gratton",
     "name": "Gratton, Jean-Guy",
     "country": "CAN",
-    "birthDate": "1947-03-08",
+    "birthDate": "1949-03-08",
     "positions": [
       "R"
     ],
@@ -9839,10 +9839,7 @@
       "retrieved": "2026-10-17"
     },
     "notes": [
-      "birthDate provisional (birthdate:hr:grattje01): Hockey-Reference 1947-03-08, hockeydb 1949-03-08; 1947-03-08 used until the owner decides"
-    ],
-    "needsReview": [
-      "birthDate"
+      "birthDate 1949-03-08 by owner decision birthdate:hr:grattje01: 1949-03-08, born Sainte-Anne-des-Plaines, Quebec. Wikipedia (en.wikipedia.org/wiki/Jean-Guy_Gratton) and WHA Hall of Fame (wha-hof.com/playerdetail.php?id=105) agree with hockeydb; Hockey-Reference 1947-03-08 is wrong."
     ]
   },
   {
@@ -11545,10 +11542,7 @@
       "retrieved": "2026-10-17"
     },
     "notes": [
-      "birthDate provisional (birthdate:hr:hicksgl01): Hockey-Reference 1958-08-28, hockeydb 1958-08-29; 1958-08-28 used until the owner decides"
-    ],
-    "needsReview": [
-      "birthDate"
+      "birthDate 1958-08-28 by owner decision birthdate:hr:hicksgl01: 1958-08-28. Wikipedia (en.wikipedia.org/wiki/Glenn_Hicks) agrees with Hockey-Reference; hockeydb 1958-08-29 is off by a day."
     ]
   },
   {

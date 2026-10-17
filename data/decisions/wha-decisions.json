@@ -9,6 +9,16 @@
       "id": "nhl:hr:longba01:8448876",
       "resolution": "same-person",
       "note": "Same Barry Long (WHA Jets 1976-79, NHL Jets 1980-82). Born 1949-01-03 in Red Deer, Alberta per Wikipedia (en.wikipedia.org/wiki/Barry_Long_(ice_hockey)), Hockey-Reference and hockeydb; career context UPI Archives 1981-11-10 (upi.com). The NHL layer's 1949-01-31 is a digit transposition. Hockey-Reference's Brantford, Ontario birthplace is probably wrong (hockeydb and Wikipedia say Red Deer)."
+    },
+    {
+      "id": "birthdate:hr:grattje01",
+      "resolution": "use-db",
+      "note": "1949-03-08, born Sainte-Anne-des-Plaines, Quebec. Wikipedia (en.wikipedia.org/wiki/Jean-Guy_Gratton) and WHA Hall of Fame (wha-hof.com/playerdetail.php?id=105) agree with hockeydb; Hockey-Reference 1947-03-08 is wrong."
+    },
+    {
+      "id": "birthdate:hr:hicksgl01",
+      "resolution": "use-hr",
+      "note": "1958-08-28. Wikipedia (en.wikipedia.org/wiki/Glenn_Hicks) agrees with Hockey-Reference; hockeydb 1958-08-29 is off by a day."
     }
   ]
 }

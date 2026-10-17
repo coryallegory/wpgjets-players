@@ -1,4 +1,3 @@
-import { COLUMNS } from './lib/columns.js';
 import { display } from './lib/format.js';
 
 const ARIA_SORT = { asc: 'ascending', desc: 'descending' };
@@ -11,48 +10,42 @@ function el(tag, className, text) {
   return node;
 }
 
-/** Builds the header row once; returns a function that refreshes sort indicators. */
+/** Returns a function that (re)builds the header for the given columns and sort indicators. */
 export function createHeader(thead, onSort) {
-  const tr = el('tr');
-  const cells = COLUMNS.map((column) => {
-    const th = el('th');
-    th.scope = 'col';
-    if (column.numeric) th.classList.add('num');
-    const indicator = el('span', 'sort-indicator');
-    indicator.setAttribute('aria-hidden', 'true');
-    const button = el('button', 'sort-button');
-    button.type = 'button';
-    button.append(el('span', null, column.label), indicator);
-    button.addEventListener('click', () => onSort(column.id));
-    th.append(button);
-    tr.append(th);
-    return { column, th, indicator };
-  });
-  thead.replaceChildren(tr);
-
-  return (sort) => {
-    for (const { column, th, indicator } of cells) {
+  return (columns, sort) => {
+    const tr = el('tr');
+    for (const column of columns) {
+      const th = el('th');
+      th.scope = 'col';
+      if (column.numeric) th.classList.add('num');
       const active = column.id === sort.columnId;
       if (active) th.setAttribute('aria-sort', ARIA_SORT[sort.direction]);
-      else th.removeAttribute('aria-sort');
-      indicator.textContent = active ? ARROW[sort.direction] : '';
+      const indicator = el('span', 'sort-indicator', active ? ARROW[sort.direction] : '');
+      indicator.setAttribute('aria-hidden', 'true');
+      const button = el('button', 'sort-button');
+      button.type = 'button';
+      button.append(el('span', null, column.label), indicator);
+      button.addEventListener('click', () => onSort(column.id));
+      th.append(button);
+      tr.append(th);
     }
+    thead.replaceChildren(tr);
   };
 }
 
-export function renderMessage(tbody, text, className) {
+export function renderMessage(tbody, text, className, colSpan) {
   const tr = el('tr', className);
   const td = el('td', null, text);
-  td.colSpan = COLUMNS.length;
+  td.colSpan = colSpan;
   tr.append(td);
   tbody.replaceChildren(tr);
 }
 
-export function renderRows(tbody, rows) {
+export function renderRows(tbody, rows, columns) {
   const fragment = document.createDocumentFragment();
   for (const row of rows) {
     const tr = el('tr');
-    for (const column of COLUMNS) {
+    for (const column of columns) {
       const isName = column.id === 'name';
       const value = row[column.field];
       const cell = el(isName ? 'th' : 'td', null, display(value));

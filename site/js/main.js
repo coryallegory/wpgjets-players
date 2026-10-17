@@ -1,10 +1,27 @@
-import { COLUMNS, DEFAULT_SORT } from './lib/columns.js';
+import { COLUMNS, DEFAULT_SORT, parseHidden, visibleColumns } from './lib/columns.js';
 import { filterRows } from './lib/filter.js';
 import { toRow } from './lib/format.js';
 import { nextSort, sortRows } from './lib/sort.js';
 import { createHeader, renderMessage, renderRows } from './table.js';
 
 const DATA_URL = 'data/curated/players.json';
+const HIDDEN_KEY = 'wpgjets.hiddenColumns';
+
+// Browser storage can be unavailable or throw (private windows, blocked site data).
+const loadHidden = () => {
+  try {
+    return parseHidden(localStorage.getItem(HIDDEN_KEY), COLUMNS);
+  } catch {
+    return new Set();
+  }
+};
+const saveHidden = (hidden) => {
+  try {
+    localStorage.setItem(HIDDEN_KEY, JSON.stringify([...hidden]));
+  } catch {
+    // not persisted; the choice still applies for this visit
+  }
+};
 
 const $ = (id) => document.getElementById(id);
 const tbody = $('rows');
@@ -19,6 +36,7 @@ const state = {
   gp: true,
   eras: { wha: true, jets1: true, jets2: true },
   query: '',
+  hidden: loadHidden(),
 };
 
 const updateHeader = createHeader($('head'), (columnId) => {
@@ -27,7 +45,8 @@ const updateHeader = createHeader($('head'), (columnId) => {
 });
 
 function render() {
-  updateHeader(state.sort);
+  const columns = visibleColumns(COLUMNS, state.hidden);
+  updateHeader(columns, state.sort);
   const column = COLUMNS.find((c) => c.id === state.sort.columnId);
   const visible = sortRows(filterRows(state.rows, state), column, state.sort.direction);
   countEl.textContent = `Showing ${visible.length} of ${state.rows.length}`;
@@ -36,9 +55,9 @@ function render() {
     const text = noEras
       ? 'No eras are active. Turn on Jets WHA, Jets 1.0 or Jets 2.0 to see players.'
       : 'No players match.';
-    renderMessage(tbody, text, 'empty');
+    renderMessage(tbody, text, 'empty', columns.length);
   } else {
-    renderRows(tbody, visible);
+    renderRows(tbody, visible, columns);
   }
 }
 
@@ -58,14 +77,40 @@ for (const [id, button] of Object.entries(eraToggles)) {
   });
 }
 
+const columnsList = $('columns-list');
+const columnBoxes = new Map();
+for (const column of COLUMNS.filter((c) => !c.locked)) {
+  const label = document.createElement('label');
+  const box = document.createElement('input');
+  box.type = 'checkbox';
+  box.checked = !state.hidden.has(column.id);
+  box.addEventListener('change', () => {
+    if (box.checked) state.hidden.delete(column.id);
+    else state.hidden.add(column.id);
+    // Sorting by a column that is no longer shown would be confusing.
+    if (state.hidden.has(state.sort.columnId)) state.sort = { ...DEFAULT_SORT };
+    saveHidden(state.hidden);
+    render();
+  });
+  label.append(box, column.label);
+  columnsList.append(label);
+  columnBoxes.set(column.id, box);
+}
+$('columns-reset').addEventListener('click', () => {
+  state.hidden.clear();
+  for (const box of columnBoxes.values()) box.checked = true;
+  saveHidden(state.hidden);
+  render();
+});
+
 searchInput.addEventListener('input', () => {
   state.query = searchInput.value;
   render();
 });
 
 async function load() {
-  updateHeader(state.sort);
-  renderMessage(tbody, 'Loading players…', 'empty');
+  updateHeader(visibleColumns(COLUMNS, state.hidden), state.sort);
+  renderMessage(tbody, 'Loading players…', 'empty', visibleColumns(COLUMNS, state.hidden).length);
   try {
     const response = await fetch(DATA_URL);
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
@@ -73,7 +118,7 @@ async function load() {
     render();
   } catch (error) {
     countEl.textContent = '';
-    renderMessage(tbody, `Could not load players (${error.message}).`, 'error');
+    renderMessage(tbody, `Could not load players (${error.message}).`, 'error', visibleColumns(COLUMNS, state.hidden).length);
   }
 }
 

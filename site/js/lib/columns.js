@@ -1,7 +1,7 @@
 // Column order is the table order. `sortKey` is the row field compared when sorting;
 // `type` decides numeric vs text comparison; `numeric` right-aligns the cell.
 export const COLUMNS = [
-  { id: 'name', label: 'Name', field: 'name', sortKey: 'name', type: 'text' },
+  { id: 'name', label: 'Name', field: 'name', sortKey: 'name', type: 'text', locked: true },
   { id: 'rookieSeason', label: 'Rookie Season', field: 'rookieSeason', sortKey: 'rookieSeason', type: 'text' },
   { id: 'position', label: 'Pos', field: 'position', sortKey: 'position', type: 'text' },
   { id: 'country', label: 'Country', field: 'country', sortKey: 'country', type: 'text' },
@@ -23,5 +23,23 @@ export const COLUMNS = [
   { id: 'overall', label: 'NHL Draft Pick', field: 'overall', sortKey: 'overall', type: 'number' },
   { id: 'amateur', label: 'Amateur Team', field: 'amateur', sortKey: 'amateur', type: 'text' },
 ].map((c) => ({ ...c, numeric: c.type === 'number' }));
+
+/** Columns to show, in table order. `hidden` is a Set of column ids; locked columns are always shown. */
+export function visibleColumns(columns, hidden) {
+  return columns.filter((c) => c.locked || !hidden.has(c.id));
+}
+
+/** Parses a saved list of hidden column ids, keeping only known, hideable ones. Never throws. */
+export function parseHidden(raw, columns) {
+  let ids = [];
+  try {
+    const parsed = JSON.parse(raw);
+    if (Array.isArray(parsed)) ids = parsed;
+  } catch {
+    // missing or corrupt saved value: show every column
+  }
+  const hideable = new Set(columns.filter((c) => !c.locked).map((c) => c.id));
+  return new Set(ids.filter((id) => hideable.has(id)));
+}
 
 export const DEFAULT_SORT = { columnId: 'name', direction: 'asc' };

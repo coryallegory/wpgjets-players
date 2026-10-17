@@ -1,6 +1,6 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { COLUMNS } from '../site/js/lib/columns.js';
+import { COLUMNS, parseHidden, visibleColumns } from '../site/js/lib/columns.js';
 import { filterRows } from '../site/js/lib/filter.js';
 import { MISSING, display, toRow, yearsLabel } from '../site/js/lib/format.js';
 import { nextSort, sortRows } from '../site/js/lib/sort.js';
@@ -286,4 +286,16 @@ test('WHA-only players pass the GP filter', () => {
   const rows = [toRow(curated({ nhl: nothing, draft: null, qualifiedBy: ['played'], wha: wha([['1972-73', 1, 0]]) }))];
   assert.deepEqual(ids(filterRows(rows, { gp: true })), [1]);
   assert.deepEqual(ids(filterRows(rows, { gp: false })), []);
+});
+
+test('visibleColumns hides chosen columns but never the locked Name column', () => {
+  const labels = (hidden) => visibleColumns(COLUMNS, new Set(hidden)).map((c) => c.id);
+  assert.deepEqual(labels([]), COLUMNS.map((c) => c.id));
+  assert.deepEqual(labels(['country', 'birthDate']), COLUMNS.map((c) => c.id).filter((id) => id !== 'country' && id !== 'birthDate'));
+  assert.ok(labels(['name']).includes('name'));
+});
+
+test('parseHidden keeps only known hideable ids and survives bad input', () => {
+  assert.deepEqual([...parseHidden('["country","name","nope"]', COLUMNS)], ['country']);
+  for (const bad of [null, undefined, '', 'not json', '{"a":1}', '42']) assert.equal(parseHidden(bad, COLUMNS).size, 0);
 });

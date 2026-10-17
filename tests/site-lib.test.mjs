@@ -142,17 +142,14 @@ test('nextSort toggles direction on the same column and resets on a new one', ()
   assert.deepEqual(nextSort({ columnId: 'name', direction: 'desc' }, 'round'), { columnId: 'round', direction: 'asc' });
 });
 
-test('filter toggles: played / drafted combinations', () => {
+test('GP toggle: on shows players with games, off shows never-played draft picks', () => {
   const rows = [
-    row(1, 'P', { qualifiedBy: ['played'] }),
-    row(2, 'D', { qualifiedBy: ['drafted'] }),
-    row(3, 'B', { qualifiedBy: ['played', 'drafted'] }),
+    row(1, 'P', { playedEras: ['jets1'], draftedEras: [] }),
+    row(2, 'D', { playedEras: [], draftedEras: ['jets1'] }),
+    row(3, 'B', { playedEras: ['jets2'], draftedEras: ['jets1'] }),
   ];
-  const run = (played, drafted) => ids(filterRows(rows, { played, drafted }));
-  assert.deepEqual(run(true, true), [1, 2, 3]);
-  assert.deepEqual(run(true, false), [1, 3]);
-  assert.deepEqual(run(false, true), [2, 3]);
-  assert.deepEqual(run(false, false), []);
+  assert.deepEqual(ids(filterRows(rows, { gp: true })), [1, 3]);
+  assert.deepEqual(ids(filterRows(rows, { gp: false })), [2]);
 });
 
 test('toRow derives played and drafted eras', () => {
@@ -166,28 +163,29 @@ test('toRow derives played and drafted eras', () => {
   assert.deepEqual(toRow(curated({ draft: { year: 2012, team: 'WPG' } })).draftedEras, ['jets2']);
 });
 
-test('era filters pair with Played / Drafted', () => {
+test('era filters apply to the played era (GP on) or the draft era (GP off)', () => {
   const rows = [
     row(1, 'WhaOnly', { playedEras: ['wha'], draftedEras: [] }),
-    row(2, 'One', { playedEras: ['jets1'], draftedEras: ['jets1'], qualifiedBy: ['played', 'drafted'] }),
-    row(3, 'TwoDraftedOne', { playedEras: ['jets2'], draftedEras: ['jets1'], qualifiedBy: ['played', 'drafted'] }),
-    row(4, 'DraftOnly', { playedEras: [], draftedEras: ['jets2'], qualifiedBy: ['drafted'] }),
+    row(2, 'One', { playedEras: ['jets1'], draftedEras: ['jets1'] }),
+    row(3, 'TwoDraftedOne', { playedEras: ['jets2'], draftedEras: ['jets1'] }),
+    row(4, 'DraftOnly2', { playedEras: [], draftedEras: ['jets2'] }),
+    row(5, 'DraftOnly1', { playedEras: [], draftedEras: ['jets1'] }),
   ];
-  const run = (played, drafted, ...on) =>
-    ids(filterRows(rows, { played, drafted, eras: { wha: on.includes('wha'), jets1: on.includes('jets1'), jets2: on.includes('jets2') } }));
-  assert.deepEqual(run(true, true, 'wha', 'jets1', 'jets2'), [1, 2, 3, 4]);
-  assert.deepEqual(run(true, true, 'wha'), [1]);
-  assert.deepEqual(run(true, true, 'jets1'), [2, 3]);
-  assert.deepEqual(run(true, false, 'jets1'), [2]);
-  assert.deepEqual(run(false, true, 'jets1'), [2, 3]);
-  assert.deepEqual(run(true, true, 'jets2'), [3, 4]);
-  assert.deepEqual(run(true, true), []);
-  assert.deepEqual(run(false, false, 'jets1'), []);
+  const run = (gp, ...on) =>
+    ids(filterRows(rows, { gp, eras: { wha: on.includes('wha'), jets1: on.includes('jets1'), jets2: on.includes('jets2') } }));
+  assert.deepEqual(run(true, 'wha', 'jets1', 'jets2'), [1, 2, 3]);
+  assert.deepEqual(run(true, 'wha'), [1]);
+  assert.deepEqual(run(true, 'jets1'), [2]);
+  assert.deepEqual(run(true, 'jets2'), [3]);
+  assert.deepEqual(run(false, 'wha', 'jets1', 'jets2'), [4, 5]);
+  assert.deepEqual(run(false, 'jets1'), [5]);
+  assert.deepEqual(run(false, 'wha'), []);
+  assert.deepEqual(run(true), []);
 });
 
 test('search matches either name order, ignoring case and accents', () => {
   const rows = [toRow(curated()), toRow(curated({ playerId: 2, firstName: 'Viggo', lastName: 'Björck', name: 'Björck, Viggo' }))];
-  const search = (query) => ids(filterRows(rows, { played: true, drafted: true, query }));
+  const search = (query) => ids(filterRows(rows, { gp: true, query }));
   assert.deepEqual(search('bjorck'), [2]);
   assert.deepEqual(search('BJÖRCK'), [2]);
   assert.deepEqual(search('dale haw'), [1]);
@@ -198,13 +196,14 @@ test('search matches either name order, ignoring case and accents', () => {
 
 test('search does not match birth dates', () => {
   const rows = [toRow(curated({ birthDate: '1960-02-07' }))];
-  assert.deepEqual(ids(filterRows(rows, { played: true, drafted: true, query: '1960' })), []);
-  assert.deepEqual(ids(filterRows(rows, { played: true, drafted: true, query: '02-07' })), []);
+  assert.deepEqual(ids(filterRows(rows, { gp: true, query: '1960' })), []);
+  assert.deepEqual(ids(filterRows(rows, { gp: true, query: '02-07' })), []);
 });
 
 test('search combines with toggles', () => {
-  const rows = [row(1, 'Smith, A', { qualifiedBy: ['drafted'] }), row(2, 'Smith, B', { qualifiedBy: ['played'] })];
-  assert.deepEqual(ids(filterRows(rows, { played: true, drafted: false, query: 'smith' })), [2]);
+  const rows = [row(1, 'Smith, A', { playedEras: [], draftedEras: ['jets1'] }), row(2, 'Smith, B', { playedEras: ['jets1'] })];
+  assert.deepEqual(ids(filterRows(rows, { gp: true, query: 'smith' })), [2]);
+  assert.deepEqual(ids(filterRows(rows, { gp: false, query: 'smith' })), [1]);
 });
 
 const wha = (seasons) => ({
@@ -283,8 +282,8 @@ test('WHA columns sort by value with nulls last in both directions', () => {
   assert.deepEqual(ids(sortRows(rows, column('whaSeasons'), 'desc')), [2, 3, 1]);
 });
 
-test('WHA-only players pass the Played filter', () => {
+test('WHA-only players pass the GP filter', () => {
   const rows = [toRow(curated({ nhl: nothing, draft: null, qualifiedBy: ['played'], wha: wha([['1972-73', 1, 0]]) }))];
-  assert.deepEqual(ids(filterRows(rows, { played: true, drafted: false })), [1]);
-  assert.deepEqual(ids(filterRows(rows, { played: false, drafted: true })), []);
+  assert.deepEqual(ids(filterRows(rows, { gp: true })), [1]);
+  assert.deepEqual(ids(filterRows(rows, { gp: false })), []);
 });

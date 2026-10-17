@@ -10,14 +10,13 @@ const $ = (id) => document.getElementById(id);
 const tbody = $('rows');
 const countEl = $('count');
 const searchInput = $('search');
-const toggles = { played: $('filter-played'), drafted: $('filter-drafted') };
+const gpToggle = $('filter-gp');
 const eraToggles = { wha: $('filter-wha'), jets1: $('filter-jets1'), jets2: $('filter-jets2') };
 
 const state = {
   rows: [],
   sort: { ...DEFAULT_SORT },
-  played: true,
-  drafted: true,
+  gp: true,
   eras: { wha: true, jets1: true, jets2: true },
   query: '',
 };
@@ -33,28 +32,22 @@ function render() {
   const visible = sortRows(filterRows(state.rows, state), column, state.sort.direction);
   countEl.textContent = `Showing ${visible.length} of ${state.rows.length}`;
   if (visible.length === 0) {
-    const noBasis = !state.played && !state.drafted;
     const noEras = !Object.values(state.eras).some(Boolean);
-    const text = noBasis
-      ? 'No filters are active. Turn on Played or Drafted to see players.'
-      : noEras
-        ? 'No eras are active. Turn on Jets WHA, Jets 1.0 or Jets 2.0 to see players.'
-        : 'No players match.';
+    const text = noEras
+      ? 'No eras are active. Turn on Jets WHA, Jets 1.0 or Jets 2.0 to see players.'
+      : 'No players match.';
     renderMessage(tbody, text, 'empty');
   } else {
     renderRows(tbody, visible);
   }
 }
 
-for (const key of ['played', 'drafted']) {
-  const button = toggles[key];
-  button.setAttribute('aria-pressed', String(state[key]));
-  button.addEventListener('click', () => {
-    state[key] = !state[key];
-    button.setAttribute('aria-pressed', String(state[key]));
-    render();
-  });
-}
+gpToggle.setAttribute('aria-pressed', String(state.gp));
+gpToggle.addEventListener('click', () => {
+  state.gp = !state.gp;
+  gpToggle.setAttribute('aria-pressed', String(state.gp));
+  render();
+});
 
 for (const [id, button] of Object.entries(eraToggles)) {
   button.setAttribute('aria-pressed', String(state.eras[id]));

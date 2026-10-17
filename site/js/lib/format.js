@@ -21,11 +21,13 @@ export const ERAS = [
 
 const NHL_TEAM_ERA = { WIN: 'jets1', WPG: 'jets2' };
 
-/** Eras (in ERAS order) in which the player has Jets season rows. */
+const hasGames = (s) => s.regularGP + s.playoffGP > 0;
+
+/** Eras (in ERAS order) in which the player has a regular-season or playoff game for the Jets. */
 function playedEras(player) {
   const found = new Set();
-  if ((player.wha?.seasons ?? []).length) found.add('wha');
-  for (const s of player.nhl?.seasons ?? []) if (NHL_TEAM_ERA[s.team]) found.add(NHL_TEAM_ERA[s.team]);
+  if ((player.wha?.seasons ?? []).some(hasGames)) found.add('wha');
+  for (const s of player.nhl?.seasons ?? []) if (hasGames(s) && NHL_TEAM_ERA[s.team]) found.add(NHL_TEAM_ERA[s.team]);
   return ERAS.map((e) => e.id).filter((id) => found.has(id));
 }
 

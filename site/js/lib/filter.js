@@ -3,21 +3,18 @@ import { normalizeText } from './text.js';
 const ALL_ERAS = { wha: true, jets1: true, jets2: true };
 
 /**
- * Keeps rows matching the search text (accent/case-insensitive substring of the name)
- * and qualified by at least one active filter. `played` / `drafted` choose how a player
- * qualifies; `eras` ({ wha, jets1, jets2 }) choose the franchise eras that count. A player
- * matches when some active basis holds in some active era (e.g. Drafted + Jets 1.0 means
- * "drafted by the Jets 1.0 franchise"). With every era active the era check is skipped, so
- * nothing is hidden; with no basis or no era active nothing matches.
+ * Keeps rows matching the search text (accent/case-insensitive substring of the name),
+ * the GP toggle and the era toggles. `gp` on keeps players with at least one regular-season
+ * or playoff game for a Jets franchise, who must have played in an active era; `gp` off keeps
+ * players with no games (drafted, never played), who must have been drafted in an active era.
+ * `eras` is { wha, jets1, jets2 }.
  */
-export function filterRows(rows, { played, drafted, eras = ALL_ERAS, query = '' }) {
+export function filterRows(rows, { gp, eras = ALL_ERAS, query = '' }) {
   const needle = normalizeText(query);
-  const active = Object.keys(eras).filter((id) => eras[id]);
-  const allEras = Object.keys(ALL_ERAS).every((id) => eras[id]);
-  const inEra = (list) => (list ?? []).some((id) => active.includes(id));
+  const inEra = (list) => (list ?? []).some((id) => eras[id]);
   return rows.filter((row) => {
-    const basis = (played && row.qualifiedBy.includes('played') && (allEras || inEra(row.playedEras))) ||
-      (drafted && row.qualifiedBy.includes('drafted') && (allEras || inEra(row.draftedEras)));
-    return basis && active.length > 0 && (needle === '' || normalizeText(row.searchText ?? row.name).includes(needle));
+    const hasPlayed = (row.playedEras ?? []).length > 0;
+    const matchesGp = gp ? hasPlayed && inEra(row.playedEras) : !hasPlayed && inEra(row.draftedEras);
+    return matchesGp && (needle === '' || normalizeText(row.searchText ?? row.name).includes(needle));
   });
 }

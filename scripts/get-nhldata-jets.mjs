@@ -164,6 +164,7 @@ function buildPlayer(id, landing, seasons, pick, qualifiedBy, used) {
     firstName: landing.firstName.default,
     lastName: landing.lastName.default,
     country: landing.birthCountry ?? null,
+    birthDate: landing.birthDate ?? null,
     positions: [...new Set(seasons.map((s) => s.position))],
     rookieSeason: rookieSeason(landing),
     seasons,

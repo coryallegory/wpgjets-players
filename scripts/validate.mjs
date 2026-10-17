@@ -16,6 +16,16 @@ function isValidSeason(season) {
   return (Number(match[1]) + 1) % 100 === Number(match[2]);
 }
 
+/** True for a real calendar date string "YYYY-MM-DD" (rejects e.g. 1980-02-30). */
+export function isValidIsoDate(value) {
+  if (typeof value !== 'string') return false;
+  const match = /^(\d{4})-(\d{2})-(\d{2})$/.exec(value);
+  if (!match) return false;
+  const [y, m, d] = match.slice(1).map(Number);
+  const date = new Date(Date.UTC(y, m - 1, d));
+  return date.getUTCFullYear() === y && date.getUTCMonth() === m - 1 && date.getUTCDate() === d;
+}
+
 function isPlainObject(value) {
   return typeof value === 'object' && value !== null && !Array.isArray(value);
 }
@@ -102,6 +112,7 @@ export function validatePlayers(players) {
 
   const errors = [];
   const seenIds = new Set();
+  const seenIdentities = new Map();
 
   players.forEach((player, index) => {
     const label = `players[${index}]`;
@@ -129,6 +140,18 @@ export function validatePlayers(players) {
     } else if (typeof player.firstName === 'string' && typeof player.lastName === 'string') {
       const expected = sortableName(player.firstName, player.lastName);
       if (player.name !== expected) add(`name ${JSON.stringify(player.name)} must equal ${JSON.stringify(expected)}`);
+    }
+    if (player.birthDate !== null && !isValidIsoDate(player.birthDate)) {
+      add(`invalid birthDate ${JSON.stringify(player.birthDate)} (expected null or a real date "YYYY-MM-DD")`);
+    }
+    if (typeof player.birthDate === 'string' && isValidIsoDate(player.birthDate)
+        && typeof player.firstName === 'string' && typeof player.lastName === 'string') {
+      const key = JSON.stringify([player.lastName, player.firstName, player.birthDate]);
+      if (seenIdentities.has(key)) {
+        add(`same lastName/firstName/birthDate as playerId ${seenIdentities.get(key)} (${player.name}, ${player.birthDate})`);
+      } else {
+        seenIdentities.set(key, id);
+      }
     }
     if (!Array.isArray(player.positions) || !player.positions.every(isNonEmptyString)) {
       add('positions must be an array of non-empty strings');

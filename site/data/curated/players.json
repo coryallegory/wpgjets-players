@@ -5,6 +5,7 @@
     "lastName": "Akerblom",
     "name": "Akerblom, Markus",
     "country": "SWE",
+    "birthDate": "1969-11-22",
     "positions": [],
     "rookieSeason": null,
     "jets": {
@@ -34,6 +35,7 @@
     "lastName": "Alatalo",
     "name": "Alatalo, Mika",
     "country": "FIN",
+    "birthDate": "1971-06-11",
     "positions": [],
     "rookieSeason": "1999-00",
     "jets": {
@@ -63,6 +65,7 @@
     "lastName": "Albert",
     "name": "Albert, John",
     "country": "USA",
+    "birthDate": "1989-01-19",
     "positions": [
       "C"
     ],
@@ -101,6 +104,7 @@
     "lastName": "Alexeev",
     "name": "Alexeev, Alexander",
     "country": "RUS",
+    "birthDate": "1974-03-21",
     "positions": [],
     "rookieSeason": null,
     "jets": {
@@ -130,6 +134,7 @@
     "lastName": "Amodeo",
     "name": "Amodeo, Mike",
     "country": "CAN",
+    "birthDate": "1952-06-22",
     "positions": [
       "D"
     ],
@@ -168,6 +173,7 @@
     "lastName": "Amundson",
     "name": "Amundson, Darrin",
     "country": "USA",
+    "birthDate": "1968-11-09",
     "positions": [],
     "rookieSeason": null,
     "jets": {
@@ -197,6 +203,7 @@
     "lastName": "Anderson-Dolan",
     "name": "Anderson-Dolan, Jaret",
     "country": "CAN",
+    "birthDate": "1999-09-12",
     "positions": [
       "C"
     ],
@@ -235,6 +242,7 @@
     "lastName": "Andersson",
     "name": "Andersson, Henrik",
     "country": "SWE",
+    "birthDate": "1970-01-19",
     "positions": [],
     "rookieSeason": null,
     "jets": {
@@ -264,6 +272,7 @@
     "lastName": "Anneck",
     "name": "Anneck, Dorian",
     "country": "CAN",
+    "birthDate": "1976-04-24",
     "positions": [],
     "rookieSeason": null,
     "jets": {
@@ -293,6 +302,7 @@
     "lastName": "Antropov",
     "name": "Antropov, Nik",
     "country": "KAZ",
+    "birthDate": "1980-02-18",
     "positions": [
       "C"
     ],
@@ -337,6 +347,7 @@
     "lastName": "Appleton",
     "name": "Appleton, Mason",
     "country": "USA",
+    "birthDate": "1996-01-15",
     "positions": [
       "C"
     ],
@@ -412,6 +423,7 @@
     "lastName": "Armia",
     "name": "Armia, Joel",
     "country": "FIN",
+    "birthDate": "1993-05-31",
     "positions": [
       "R"
     ],
@@ -462,6 +474,7 @@
     "lastName": "Armstrong",
     "name": "Armstrong, Harry",
     "country": "USA",
+    "birthDate": "1965-01-30",
     "positions": [],
     "rookieSeason": null,
     "jets": {
@@ -491,6 +504,7 @@
     "lastName": "Arniel",
     "name": "Arniel, Scott",
     "country": "CAN",
+    "birthDate": "1962-09-17",
     "positions": [
       "L"
     ],
@@ -560,6 +574,7 @@
     "lastName": "Ashton",
     "name": "Ashton, Brent",
     "country": "CAN",
+    "birthDate": "1960-05-18",
     "positions": [
       "L"
     ],
@@ -616,6 +631,7 @@
     "lastName": "Babych",
     "name": "Babych, Dave",
     "country": "CAN",
+    "birthDate": "1961-05-23",
     "positions": [
       "D"
     ],
@@ -685,6 +701,7 @@
     "lastName": "Baillargeon",
     "name": "Baillargeon, Joel",
     "country": "CAN",
+    "birthDate": "1964-10-06",
     "positions": [
       "L"
     ],
@@ -730,6 +747,7 @@
     "lastName": "Barber",
     "name": "Barber, Don",
     "country": "CAN",
+    "birthDate": "1964-12-02",
     "positions": [
       "L"
     ],
@@ -774,6 +792,7 @@
     "lastName": "Barlow",
     "name": "Barlow, Colby",
     "country": "CAN",
+    "birthDate": "2005-02-14",
     "positions": [],
     "rookieSeason": null,
     "jets": {
@@ -803,6 +822,7 @@
     "lastName": "Barnes",
     "name": "Barnes, Stu",
     "country": "CAN",
+    "birthDate": "1970-12-25",
     "positions": [
       "C"
     ],
@@ -854,6 +874,7 @@
     "lastName": "Barron",
     "name": "Barron, Morgan",
     "country": "CAN",
+    "birthDate": "1998-12-02",
     "positions": [
       "C"
     ],
@@ -922,6 +943,7 @@
     "lastName": "Bateman",
     "name": "Bateman, John",
     "country": "CAN",
+    "birthDate": "1968-02-24",
     "positions": [],
     "rookieSeason": null,
     "jets": {
@@ -951,6 +973,7 @@
     "lastName": "Batyrshin",
     "name": "Batyrshin, Ruslam",
     "country": "RUS",
+    "birthDate": "1975-02-19",
     "positions": [],
     "rookieSeason": "1995-96",
     "jets": {
@@ -980,6 +1003,7 @@
     "lastName": "Bauer",
     "name": "Bauer, Tyrel",
     "country": "CAN",
+    "birthDate": "2002-03-23",
     "positions": [
       "D"
     ],
@@ -1019,6 +1043,7 @@
     "lastName": "Bautin",
     "name": "Bautin, Sergei",
     "country": "RUS",
+    "birthDate": "1967-03-11",
     "positions": [
       "D"
     ],
@@ -1064,6 +1089,7 @@
     "lastName": "Beadle",
     "name": "Beadle, Sandy",
     "country": "CAN",
+    "birthDate": "1960-07-12",
     "positions": [
       "L"
     ],
@@ -1103,6 +1129,7 @@
     "lastName": "Beaulieu",
     "name": "Beaulieu, Nathan",
     "country": "CAN",
+    "birthDate": "1992-12-05",
     "positions": [
       "D"
     ],
@@ -1159,6 +1186,7 @@
     "lastName": "Beauregard",
     "name": "Beauregard, Stephane",
     "country": "CAN",
+    "birthDate": "1968-01-10",
     "positions": [
       "G"
     ],
@@ -1216,6 +1244,7 @@
     "lastName": "Behrend",
     "name": "Behrend, Marc",
     "country": "USA",
+    "birthDate": "1961-01-11",
     "positions": [
       "G"
     ],
@@ -1267,6 +1296,7 @@
     "lastName": "Benn",
     "name": "Benn, Jordie",
     "country": "CAN",
+    "birthDate": "1987-07-26",
     "positions": [
       "D"
     ],
@@ -1299,6 +1329,7 @@
     "lastName": "Berdin",
     "name": "Berdin, Mikhail",
     "country": "RUS",
+    "birthDate": "1998-03-01",
     "positions": [],
     "rookieSeason": null,
     "jets": {
@@ -1328,6 +1359,7 @@
     "lastName": "Berry",
     "name": "Berry, Brad",
     "country": "CAN",
+    "birthDate": "1965-04-01",
     "positions": [
       "D"
     ],
@@ -1391,6 +1423,7 @@
     "lastName": "Berthiaume",
     "name": "Berthiaume, Daniel",
     "country": "CAN",
+    "birthDate": "1966-01-26",
     "positions": [
       "G"
     ],
@@ -1454,6 +1487,7 @@
     "lastName": "Bethel",
     "name": "Bethel, John",
     "country": "CAN",
+    "birthDate": "1957-01-15",
     "positions": [
       "L"
     ],
@@ -1492,6 +1526,7 @@
     "lastName": "Bitetto",
     "name": "Bitetto, Anthony",
     "country": "USA",
+    "birthDate": "1990-07-15",
     "positions": [
       "D"
     ],
@@ -1530,6 +1565,7 @@
     "lastName": "Björck",
     "name": "Björck, Viggo",
     "country": "SWE",
+    "birthDate": "2008-03-12",
     "positions": [
       "C"
     ],
@@ -1569,6 +1605,7 @@
     "lastName": "Bladon",
     "name": "Bladon, Tom",
     "country": "CAN",
+    "birthDate": "1952-12-29",
     "positions": [
       "D"
     ],
@@ -1607,6 +1644,7 @@
     "lastName": "Blaisdell",
     "name": "Blaisdell, Harrison",
     "country": "GBR",
+    "birthDate": "2001-03-18",
     "positions": [],
     "rookieSeason": null,
     "jets": {
@@ -1636,6 +1674,7 @@
     "lastName": "Block",
     "name": "Block, Matthew",
     "country": "USA",
+    "birthDate": "1966-05-16",
     "positions": [
       "D"
     ],
@@ -1668,6 +1707,7 @@
     "lastName": "Blomsten",
     "name": "Blomsten, Arto",
     "country": "FIN",
+    "birthDate": "1965-03-16",
     "positions": [
       "D"
     ],
@@ -1713,6 +1753,7 @@
     "lastName": "Blue",
     "name": "Blue, John",
     "country": "USA",
+    "birthDate": "1966-02-19",
     "positions": [],
     "rookieSeason": "1992-93",
     "jets": {
@@ -1742,6 +1783,7 @@
     "lastName": "Bogosian",
     "name": "Bogosian, Zach",
     "country": "USA",
+    "birthDate": "1990-07-15",
     "positions": [
       "D"
     ],
@@ -1798,6 +1840,7 @@
     "lastName": "Borrell",
     "name": "Borrell, John",
     "country": "USA",
+    "birthDate": "1967-03-23",
     "positions": [],
     "rookieSeason": null,
     "jets": {
@@ -1827,6 +1870,7 @@
     "lastName": "Borsato",
     "name": "Borsato, Luciano",
     "country": "CAN",
+    "birthDate": "1966-01-07",
     "positions": [
       "C"
     ],
@@ -1890,6 +1934,7 @@
     "lastName": "Boschman",
     "name": "Boschman, Laurie",
     "country": "CAN",
+    "birthDate": "1960-06-04",
     "positions": [
       "C"
     ],
@@ -1970,6 +2015,7 @@
     "lastName": "Bouchard",
     "name": "Bouchard, Dan",
     "country": "CAN",
+    "birthDate": "1950-12-12",
     "positions": [
       "G"
     ],
@@ -2008,6 +2054,7 @@
     "lastName": "Boumedienne",
     "name": "Boumedienne, Sascha",
     "country": "FIN",
+    "birthDate": "2007-01-17",
     "positions": [],
     "rookieSeason": null,
     "jets": {
@@ -2037,6 +2084,7 @@
     "lastName": "Bourque",
     "name": "Bourque, Gabriel",
     "country": "CAN",
+    "birthDate": "1990-09-23",
     "positions": [
       "L"
     ],
@@ -2075,6 +2123,7 @@
     "lastName": "Boutilier",
     "name": "Boutilier, Paul",
     "country": "CAN",
+    "birthDate": "1963-05-03",
     "positions": [
       "D"
     ],
@@ -2119,6 +2168,7 @@
     "lastName": "Bowness",
     "name": "Bowness, Rick",
     "country": "CAN",
+    "birthDate": "1955-01-25",
     "positions": [
       "R"
     ],
@@ -2163,6 +2213,7 @@
     "lastName": "Boyko",
     "name": "Boyko, Darren",
     "country": "CAN",
+    "birthDate": "1964-01-16",
     "positions": [
       "C"
     ],
@@ -2195,6 +2246,7 @@
     "lastName": "Brassard",
     "name": "Brassard, Austen",
     "country": "CAN",
+    "birthDate": "1993-01-14",
     "positions": [],
     "rookieSeason": null,
     "jets": {
@@ -2224,6 +2276,7 @@
     "lastName": "Brickley",
     "name": "Brickley, Andy",
     "country": "USA",
+    "birthDate": "1961-08-09",
     "positions": [
       "L"
     ],
@@ -2268,6 +2321,7 @@
     "lastName": "Brooks",
     "name": "Brooks, Adam",
     "country": "CAN",
+    "birthDate": "1996-05-06",
     "positions": [
       "C"
     ],
@@ -2306,6 +2360,7 @@
     "lastName": "Brossoit",
     "name": "Brossoit, Laurent",
     "country": "CAN",
+    "birthDate": "1993-03-23",
     "positions": [
       "G"
     ],
@@ -2362,6 +2417,7 @@
     "lastName": "Broten",
     "name": "Broten, Aaron",
     "country": "USA",
+    "birthDate": "1960-11-14",
     "positions": [
       "C"
     ],
@@ -2400,6 +2456,7 @@
     "lastName": "Brouillette",
     "name": "Brouillette, Julien",
     "country": "CAN",
+    "birthDate": "1986-12-05",
     "positions": [
       "D"
     ],
@@ -2432,6 +2489,7 @@
     "lastName": "Brown",
     "name": "Brown, Garrett",
     "country": "USA",
+    "birthDate": "2004-04-04",
     "positions": [],
     "rookieSeason": null,
     "jets": {
@@ -2461,6 +2519,7 @@
     "lastName": "Brown",
     "name": "Brown, Greg",
     "country": "USA",
+    "birthDate": "1968-03-07",
     "positions": [
       "D"
     ],
@@ -2499,6 +2558,7 @@
     "lastName": "Brownschidle",
     "name": "Brownschidle, Mark",
     "country": "USA",
+    "birthDate": "1970-10-26",
     "positions": [],
     "rookieSeason": null,
     "jets": {
@@ -2528,6 +2588,7 @@
     "lastName": "Bryson",
     "name": "Bryson, Jacob",
     "country": "CAN",
+    "birthDate": "1997-11-18",
     "positions": [
       "D"
     ],
@@ -2566,6 +2627,7 @@
     "lastName": "Budayev",
     "name": "Budayev, Alexei",
     "country": "RUS",
+    "birthDate": "1975-04-24",
     "positions": [],
     "rookieSeason": null,
     "jets": {
@@ -2595,6 +2657,7 @@
     "lastName": "Burmistrov",
     "name": "Burmistrov, Alexander",
     "country": "RUS",
+    "birthDate": "1991-10-21",
     "positions": [
       "C"
     ],
@@ -2651,6 +2714,7 @@
     "lastName": "Butler",
     "name": "Butler, Jerry",
     "country": "CAN",
+    "birthDate": "1951-02-27",
     "positions": [
       "R"
     ],
@@ -2689,6 +2753,7 @@
     "lastName": "Byfuglien",
     "name": "Byfuglien, Dustin",
     "country": "USA",
+    "birthDate": "1985-03-27",
     "positions": [
       "D"
     ],
@@ -2769,6 +2834,7 @@
     "lastName": "Bylsma",
     "name": "Bylsma, Dan",
     "country": "USA",
+    "birthDate": "1970-09-19",
     "positions": [],
     "rookieSeason": "1995-96",
     "jets": {
@@ -2798,6 +2864,7 @@
     "lastName": "Cameron",
     "name": "Cameron, Al",
     "country": "CAN",
+    "birthDate": "1955-10-21",
     "positions": [
       "D"
     ],
@@ -2842,6 +2909,7 @@
     "lastName": "Campbell",
     "name": "Campbell, Scott",
     "country": "CAN",
+    "birthDate": "1957-06-22",
     "positions": [
       "D"
     ],
@@ -2886,6 +2954,7 @@
     "lastName": "Campbell",
     "name": "Campbell, Wade",
     "country": "CAN",
+    "birthDate": "1961-01-02",
     "positions": [
       "D"
     ],
@@ -2936,6 +3005,7 @@
     "lastName": "Capobianco",
     "name": "Capobianco, Kyle",
     "country": "CAN",
+    "birthDate": "1997-08-13",
     "positions": [
       "D"
     ],
@@ -2974,6 +3044,7 @@
     "lastName": "Carlyle",
     "name": "Carlyle, Randy",
     "country": "CAN",
+    "birthDate": "1956-04-19",
     "positions": [
       "D"
     ],
@@ -3066,6 +3137,7 @@
     "lastName": "Cederholm",
     "name": "Cederholm, Jacob",
     "country": "SWE",
+    "birthDate": "1998-01-30",
     "positions": [],
     "rookieSeason": null,
     "jets": {
@@ -3095,6 +3167,7 @@
     "lastName": "Chartier",
     "name": "Chartier, Dave",
     "country": "CAN",
+    "birthDate": "1961-02-15",
     "positions": [
       "C"
     ],
@@ -3134,6 +3207,7 @@
     "lastName": "Chasse",
     "name": "Chasse, Denis",
     "country": "CAN",
+    "birthDate": "1970-02-07",
     "positions": [
       "R"
     ],
@@ -3166,6 +3240,7 @@
     "lastName": "Cheredaryk",
     "name": "Cheredaryk, Steve",
     "country": "CAN",
+    "birthDate": "1975-11-20",
     "positions": [],
     "rookieSeason": null,
     "jets": {
@@ -3195,6 +3270,7 @@
     "lastName": "Cheveldae",
     "name": "Cheveldae, Tim",
     "country": "CAN",
+    "birthDate": "1968-02-15",
     "positions": [
       "G"
     ],
@@ -3245,6 +3321,7 @@
     "lastName": "Chevrier",
     "name": "Chevrier, Alain",
     "country": "CAN",
+    "birthDate": "1961-04-23",
     "positions": [
       "G"
     ],
@@ -3277,6 +3354,7 @@
     "lastName": "Chiarot",
     "name": "Chiarot, Ben",
     "country": "CAN",
+    "birthDate": "1991-05-09",
     "positions": [
       "D"
     ],
@@ -3345,6 +3423,7 @@
     "lastName": "Chibisov",
     "name": "Chibisov, Andrei",
     "country": "RUS",
+    "birthDate": "1993-02-26",
     "positions": [
       "R"
     ],
@@ -3377,6 +3456,7 @@
     "lastName": "Chibrikov",
     "name": "Chibrikov, Nikita",
     "country": "RUS",
+    "birthDate": "2003-02-16",
     "positions": [
       "R"
     ],
@@ -3428,6 +3508,7 @@
     "lastName": "Chisholm",
     "name": "Chisholm, Declan",
     "country": "CAN",
+    "birthDate": "2000-01-12",
     "positions": [
       "D"
     ],
@@ -3473,6 +3554,7 @@
     "lastName": "Chouinard",
     "name": "Chouinard, Marc",
     "country": "CAN",
+    "birthDate": "1977-05-06",
     "positions": [],
     "rookieSeason": "2000-01",
     "jets": {
@@ -3502,6 +3584,7 @@
     "lastName": "Christian",
     "name": "Christian, Dave",
     "country": "USA",
+    "birthDate": "1959-05-12",
     "positions": [
       "R"
     ],
@@ -3559,6 +3642,7 @@
     "lastName": "Christian",
     "name": "Christian, Edward",
     "country": "CAN",
+    "birthDate": "1962-01-14",
     "positions": [],
     "rookieSeason": null,
     "jets": {
@@ -3588,6 +3672,7 @@
     "lastName": "Cirone",
     "name": "Cirone, Jason",
     "country": "CAN",
+    "birthDate": "1971-02-21",
     "positions": [
       "C"
     ],
@@ -3627,6 +3712,7 @@
     "lastName": "Clement",
     "name": "Clement, Sean",
     "country": "CAN",
+    "birthDate": "1966-02-26",
     "positions": [],
     "rookieSeason": null,
     "jets": {
@@ -3656,6 +3742,7 @@
     "lastName": "Clitsome",
     "name": "Clitsome, Grant",
     "country": "CAN",
+    "birthDate": "1985-04-14",
     "positions": [
       "D"
     ],
@@ -3712,6 +3799,7 @@
     "lastName": "Cloutier",
     "name": "Cloutier, Jacob",
     "country": "CAN",
+    "birthDate": "2007-03-22",
     "positions": [],
     "rookieSeason": null,
     "jets": {
@@ -3741,6 +3829,7 @@
     "lastName": "Coghlan",
     "name": "Coghlan, Dylan",
     "country": "CAN",
+    "birthDate": "1998-02-19",
     "positions": [
       "D"
     ],
@@ -3773,6 +3862,7 @@
     "lastName": "Cole",
     "name": "Cole, Danton",
     "country": "USA",
+    "birthDate": "1967-01-10",
     "positions": [
       "R"
     ],
@@ -3824,6 +3914,7 @@
     "lastName": "Comrie",
     "name": "Comrie, Eric",
     "country": "CAN",
+    "birthDate": "1995-07-06",
     "positions": [
       "G"
     ],
@@ -3893,6 +3984,7 @@
     "lastName": "Connor",
     "name": "Connor, Kyle",
     "country": "USA",
+    "birthDate": "1996-12-09",
     "positions": [
       "L"
     ],
@@ -3992,6 +4084,7 @@
     "lastName": "Copp",
     "name": "Copp, Andrew",
     "country": "USA",
+    "birthDate": "1994-07-08",
     "positions": [
       "C"
     ],
@@ -4073,6 +4166,7 @@
     "lastName": "Cormier",
     "name": "Cormier, Eric",
     "country": "CAN",
+    "birthDate": "1964-06-10",
     "positions": [],
     "rookieSeason": null,
     "jets": {
@@ -4102,6 +4196,7 @@
     "lastName": "Cormier",
     "name": "Cormier, Patrice",
     "country": "CAN",
+    "birthDate": "1990-06-14",
     "positions": [
       "C"
     ],
@@ -4164,6 +4259,7 @@
     "lastName": "Cory",
     "name": "Cory, Ross",
     "country": "CAN",
+    "birthDate": "1957-02-04",
     "positions": [
       "D"
     ],
@@ -4202,6 +4298,7 @@
     "lastName": "Cote",
     "name": "Cote, Matt",
     "country": "CAN",
+    "birthDate": "1966-01-19",
     "positions": [],
     "rookieSeason": null,
     "jets": {
@@ -4231,6 +4328,7 @@
     "lastName": "Cronin",
     "name": "Cronin, Shawn",
     "country": "USA",
+    "birthDate": "1963-08-20",
     "positions": [
       "D"
     ],
@@ -4275,6 +4373,7 @@
     "lastName": "Cunneyworth",
     "name": "Cunneyworth, Randy",
     "country": "CAN",
+    "birthDate": "1961-05-10",
     "positions": [
       "L"
     ],
@@ -4313,6 +4412,7 @@
     "lastName": "Dahlstrom",
     "name": "Dahlstrom, Carl",
     "country": "SWE",
+    "birthDate": "1995-01-28",
     "positions": [
       "D"
     ],
@@ -4351,6 +4451,7 @@
     "lastName": "Daigle",
     "name": "Daigle, Sylvain",
     "country": "CAN",
+    "birthDate": "1976-10-20",
     "positions": [],
     "rookieSeason": null,
     "jets": {
@@ -4380,6 +4481,7 @@
     "lastName": "Daley",
     "name": "Daley, Pat",
     "country": "FRA",
+    "birthDate": "1959-03-27",
     "positions": [
       "L"
     ],
@@ -4425,6 +4527,7 @@
     "lastName": "Dano",
     "name": "Dano, Marko",
     "country": "AUT",
+    "birthDate": "1994-11-30",
     "positions": [
       "C"
     ],
@@ -4475,6 +4578,7 @@
     "lastName": "Davydov",
     "name": "Davydov, Evgeny",
     "country": "RUS",
+    "birthDate": "1967-05-27",
     "positions": [
       "R"
     ],
@@ -4520,6 +4624,7 @@
     "lastName": "De Leo",
     "name": "De Leo, Chase",
     "country": "USA",
+    "birthDate": "1995-10-25",
     "positions": [
       "L"
     ],
@@ -4559,6 +4664,7 @@
     "lastName": "DeBlois",
     "name": "DeBlois, Lucien",
     "country": "CAN",
+    "birthDate": "1957-06-21",
     "positions": [
       "C"
     ],
@@ -4615,6 +4721,7 @@
     "lastName": "Deciantis",
     "name": "Deciantis, Rob",
     "country": "CAN",
+    "birthDate": "1977-06-11",
     "positions": [],
     "rookieSeason": null,
     "jets": {
@@ -4644,6 +4751,7 @@
     "lastName": "DeMelo",
     "name": "DeMelo, Dylan",
     "country": "CAN",
+    "birthDate": "1993-05-01",
     "positions": [
       "D"
     ],
@@ -4724,6 +4832,7 @@
     "lastName": "Derlago",
     "name": "Derlago, Bill",
     "country": "CAN",
+    "birthDate": "1958-08-25",
     "positions": [
       "C"
     ],
@@ -4768,6 +4877,7 @@
     "lastName": "Dick",
     "name": "Dick, Greg",
     "country": "USA",
+    "birthDate": "1962-03-08",
     "positions": [],
     "rookieSeason": null,
     "jets": {
@@ -4797,6 +4907,7 @@
     "lastName": "Dillon",
     "name": "Dillon, Brenden",
     "country": "CAN",
+    "birthDate": "1990-11-13",
     "positions": [
       "D"
     ],
@@ -4841,6 +4952,7 @@
     "lastName": "Dillon",
     "name": "Dillon, Wayne",
     "country": "CAN",
+    "birthDate": "1955-05-25",
     "positions": [
       "C"
     ],
@@ -4879,6 +4991,7 @@
     "lastName": "Dion",
     "name": "Dion, Michel",
     "country": "CAN",
+    "birthDate": "1954-02-11",
     "positions": [
       "G"
     ],
@@ -4911,6 +5024,7 @@
     "lastName": "DiVincentiis",
     "name": "DiVincentiis, Domenic",
     "country": "CAN",
+    "birthDate": "2004-03-04",
     "positions": [],
     "rookieSeason": null,
     "jets": {
@@ -4940,6 +5054,7 @@
     "lastName": "Doan",
     "name": "Doan, Shane",
     "country": "CAN",
+    "birthDate": "1976-10-10",
     "positions": [
       "R"
     ],
@@ -4979,6 +5094,7 @@
     "lastName": "Doig",
     "name": "Doig, Jason",
     "country": "CAN",
+    "birthDate": "1977-01-29",
     "positions": [
       "D"
     ],
@@ -5018,6 +5134,7 @@
     "lastName": "Dollas",
     "name": "Dollas, Bobby",
     "country": "CAN",
+    "birthDate": "1965-01-31",
     "positions": [
       "D"
     ],
@@ -5069,6 +5186,7 @@
     "lastName": "Domi",
     "name": "Domi, Tie",
     "country": "CAN",
+    "birthDate": "1969-11-01",
     "positions": [
       "R"
     ],
@@ -5119,6 +5237,7 @@
     "lastName": "Donnelly",
     "name": "Donnelly, Gord",
     "country": "CAN",
+    "birthDate": "1962-04-05",
     "positions": [
       "D"
     ],
@@ -5175,6 +5294,7 @@
     "lastName": "Douglas",
     "name": "Douglas, Jordy",
     "country": "CAN",
+    "birthDate": "1958-01-20",
     "positions": [
       "L"
     ],
@@ -5219,6 +5339,7 @@
     "lastName": "Douris",
     "name": "Douris, Peter",
     "country": "CAN",
+    "birthDate": "1966-02-19",
     "positions": [
       "R"
     ],
@@ -5270,6 +5391,7 @@
     "lastName": "Drake",
     "name": "Drake, Dallas",
     "country": "CAN",
+    "birthDate": "1969-02-04",
     "positions": [
       "R"
     ],
@@ -5320,6 +5442,7 @@
     "lastName": "Draper",
     "name": "Draper, Kris",
     "country": "CAN",
+    "birthDate": "1971-05-24",
     "positions": [
       "C"
     ],
@@ -5371,6 +5494,7 @@
     "lastName": "Draper",
     "name": "Draper, Tom",
     "country": "CAN",
+    "birthDate": "1966-11-20",
     "positions": [
       "G"
     ],
@@ -5422,6 +5546,7 @@
     "lastName": "Drouin",
     "name": "Drouin, Jude",
     "country": "CAN",
+    "birthDate": "1948-10-28",
     "positions": [
       "C"
     ],
@@ -5466,6 +5591,7 @@
     "lastName": "Druce",
     "name": "Druce, John",
     "country": "CAN",
+    "birthDate": "1966-02-23",
     "positions": [
       "R"
     ],
@@ -5504,6 +5630,7 @@
     "lastName": "Dubois",
     "name": "Dubois, Pierre-Luc",
     "country": "CAN",
+    "birthDate": "1998-06-24",
     "positions": [
       "C"
     ],
@@ -5554,6 +5681,7 @@
     "lastName": "Dudley",
     "name": "Dudley, Rick",
     "country": "CAN",
+    "birthDate": "1949-01-31",
     "positions": [
       "L"
     ],
@@ -5586,6 +5714,7 @@
     "lastName": "Duehr",
     "name": "Duehr, Walker",
     "country": "USA",
+    "birthDate": "1997-11-23",
     "positions": [
       "R"
     ],
@@ -5618,6 +5747,7 @@
     "lastName": "Duncan",
     "name": "Duncan, Iain",
     "country": "CAN",
+    "birthDate": "1963-08-04",
     "positions": [
       "L"
     ],
@@ -5675,6 +5805,7 @@
     "lastName": "Duncanson",
     "name": "Duncanson, Craig",
     "country": "CAN",
+    "birthDate": "1967-03-17",
     "positions": [
       "R"
     ],
@@ -5713,6 +5844,7 @@
     "lastName": "Dupont",
     "name": "Dupont, Norm",
     "country": "CAN",
+    "birthDate": "1957-02-05",
     "positions": [
       "L"
     ],
@@ -5763,6 +5895,7 @@
     "lastName": "Eagles",
     "name": "Eagles, Mike",
     "country": "CAN",
+    "birthDate": "1963-03-07",
     "positions": [
       "L"
     ],
@@ -5825,6 +5958,7 @@
     "lastName": "Eakin",
     "name": "Eakin, Cody",
     "country": "CAN",
+    "birthDate": "1991-05-24",
     "positions": [
       "C"
     ],
@@ -5863,6 +5997,7 @@
     "lastName": "Eakins",
     "name": "Eakins, Dallas",
     "country": "USA",
+    "birthDate": "1967-01-20",
     "positions": [
       "D"
     ],
@@ -5907,6 +6042,7 @@
     "lastName": "Eastwood",
     "name": "Eastwood, Mike",
     "country": "CAN",
+    "birthDate": "1967-07-01",
     "positions": [
       "C"
     ],
@@ -5951,6 +6087,7 @@
     "lastName": "Eaves",
     "name": "Eaves, Murray",
     "country": "CAN",
+    "birthDate": "1960-05-10",
     "positions": [
       "C"
     ],
@@ -6020,6 +6157,7 @@
     "lastName": "Edmonds",
     "name": "Edmonds, Jim",
     "country": "CAN",
+    "birthDate": "1965-07-08",
     "positions": [],
     "rookieSeason": null,
     "jets": {
@@ -6049,6 +6187,7 @@
     "lastName": "Ehlers",
     "name": "Ehlers, Nikolaj",
     "country": "DNK",
+    "birthDate": "1996-02-14",
     "positions": [
       "L"
     ],
@@ -6142,6 +6281,7 @@
     "lastName": "Elder",
     "name": "Elder, Brian",
     "country": "USA",
+    "birthDate": "1976-06-08",
     "positions": [],
     "rookieSeason": null,
     "jets": {
@@ -6171,6 +6311,7 @@
     "lastName": "Ellerby",
     "name": "Ellerby, Keaton",
     "country": "CAN",
+    "birthDate": "1988-11-05",
     "positions": [
       "D"
     ],
@@ -6215,6 +6356,7 @@
     "lastName": "Ellett",
     "name": "Ellett, Dave",
     "country": "USA",
+    "birthDate": "1964-03-30",
     "positions": [
       "D"
     ],
@@ -6290,6 +6432,7 @@
     "lastName": "Elynuik",
     "name": "Elynuik, Pat",
     "country": "CAN",
+    "birthDate": "1967-10-30",
     "positions": [
       "R"
     ],
@@ -6353,6 +6496,7 @@
     "lastName": "Emerson",
     "name": "Emerson, Nelson",
     "country": "CAN",
+    "birthDate": "1967-08-17",
     "positions": [
       "R"
     ],
@@ -6397,6 +6541,7 @@
     "lastName": "Endean",
     "name": "Endean, Craig",
     "country": "CAN",
+    "birthDate": "1968-04-13",
     "positions": [
       "L"
     ],
@@ -6436,6 +6581,7 @@
     "lastName": "Engle",
     "name": "Engle, Edison",
     "country": "USA",
+    "birthDate": "2007-02-15",
     "positions": [],
     "rookieSeason": null,
     "jets": {
@@ -6465,6 +6611,7 @@
     "lastName": "Enstrom",
     "name": "Enstrom, Toby",
     "country": "SWE",
+    "birthDate": "1984-11-05",
     "positions": [
       "D"
     ],
@@ -6539,6 +6686,7 @@
     "lastName": "Erickson",
     "name": "Erickson, Bryan",
     "country": "USA",
+    "birthDate": "1960-03-07",
     "positions": [
       "C"
     ],
@@ -6589,6 +6737,7 @@
     "lastName": "Ericson",
     "name": "Ericson, Jan",
     "country": "SWE",
+    "birthDate": "1962-09-02",
     "positions": [],
     "rookieSeason": null,
     "jets": {
@@ -6618,6 +6767,7 @@
     "lastName": "Eriksson",
     "name": "Eriksson, Patrik",
     "country": "SWE",
+    "birthDate": "1969-03-13",
     "positions": [],
     "rookieSeason": null,
     "jets": {
@@ -6647,6 +6797,7 @@
     "lastName": "Essensa",
     "name": "Essensa, Bob",
     "country": "CAN",
+    "birthDate": "1965-01-14",
     "positions": [
       "G"
     ],
@@ -6716,6 +6867,7 @@
     "lastName": "Evans",
     "name": "Evans, Doug",
     "country": "CAN",
+    "birthDate": "1963-06-02",
     "positions": [
       "L"
     ],
@@ -6760,6 +6912,7 @@
     "lastName": "Evans",
     "name": "Evans, Douglas",
     "country": "USA",
+    "birthDate": "1971-07-12",
     "positions": [],
     "rookieSeason": null,
     "jets": {
@@ -6789,6 +6942,7 @@
     "lastName": "Evingson",
     "name": "Evingson, Croix",
     "country": "USA",
+    "birthDate": "1997-08-28",
     "positions": [],
     "rookieSeason": null,
     "jets": {
@@ -6818,6 +6972,7 @@
     "lastName": "Eyssimont",
     "name": "Eyssimont, Michael",
     "country": "USA",
+    "birthDate": "1996-09-09",
     "positions": [
       "C"
     ],
@@ -6862,6 +7017,7 @@
     "lastName": "Fedotov",
     "name": "Fedotov, Anatoli",
     "country": "RUS",
+    "birthDate": "1966-05-11",
     "positions": [
       "D"
     ],
@@ -6900,6 +7056,7 @@
     "lastName": "Fehr",
     "name": "Fehr, Eric",
     "country": "CAN",
+    "birthDate": "1985-09-07",
     "positions": [
       "C"
     ],
@@ -6938,6 +7095,7 @@
     "lastName": "Fenton",
     "name": "Fenton, Paul",
     "country": "USA",
+    "birthDate": "1959-12-22",
     "positions": [
       "L"
     ],
@@ -6982,6 +7140,7 @@
     "lastName": "Fernholz",
     "name": "Fernholz, James",
     "country": "CAN",
+    "birthDate": "1969-03-16",
     "positions": [],
     "rookieSeason": null,
     "jets": {
@@ -7011,6 +7170,7 @@
     "lastName": "Ferraro",
     "name": "Ferraro, Mario",
     "country": "CAN",
+    "birthDate": "1998-09-17",
     "positions": [
       "D"
     ],
@@ -7049,6 +7209,7 @@
     "lastName": "Festerling",
     "name": "Festerling, Brett",
     "country": "CAN",
+    "birthDate": "1986-03-03",
     "positions": [
       "D"
     ],
@@ -7081,6 +7242,7 @@
     "lastName": "Filimonov",
     "name": "Filimonov, Dmitri",
     "country": "RUS",
+    "birthDate": "1971-10-14",
     "positions": [],
     "rookieSeason": "1993-94",
     "jets": {
@@ -7110,6 +7272,7 @@
     "lastName": "Finley",
     "name": "Finley, Jeff",
     "country": "CAN",
+    "birthDate": "1967-04-14",
     "positions": [
       "D"
     ],
@@ -7148,6 +7311,7 @@
     "lastName": "Fisher",
     "name": "Fisher, Craig",
     "country": "CAN",
+    "birthDate": "1970-06-30",
     "positions": [
       "C"
     ],
@@ -7186,6 +7350,7 @@
     "lastName": "Fletcher",
     "name": "Fletcher, Steven",
     "country": "CAN",
+    "birthDate": "1962-03-31",
     "positions": [
       "D"
     ],
@@ -7224,6 +7389,7 @@
     "lastName": "Fleury",
     "name": "Fleury, Haydn",
     "country": "CAN",
+    "birthDate": "1996-07-08",
     "positions": [
       "D"
     ],
@@ -7274,6 +7440,7 @@
     "lastName": "Flichel",
     "name": "Flichel, Todd",
     "country": "CAN",
+    "birthDate": "1964-09-14",
     "positions": [
       "D"
     ],
@@ -7325,6 +7492,7 @@
     "lastName": "Flood",
     "name": "Flood, Mark",
     "country": "CAN",
+    "birthDate": "1984-09-29",
     "positions": [
       "D"
     ],
@@ -7363,6 +7531,7 @@
     "lastName": "Foley",
     "name": "Foley, Erik",
     "country": "USA",
+    "birthDate": "1997-06-30",
     "positions": [],
     "rookieSeason": null,
     "jets": {
@@ -7392,6 +7561,7 @@
     "lastName": "Forbort",
     "name": "Forbort, Derek",
     "country": "USA",
+    "birthDate": "1992-03-04",
     "positions": [
       "D"
     ],
@@ -7430,6 +7600,7 @@
     "lastName": "Ford",
     "name": "Ford, Parker",
     "country": "USA",
+    "birthDate": "2000-07-20",
     "positions": [
       "C"
     ],
@@ -7468,6 +7639,7 @@
     "lastName": "Forst",
     "name": "Forst, Rick",
     "country": "CAN",
+    "birthDate": "1965-06-05",
     "positions": [],
     "rookieSeason": null,
     "jets": {
@@ -7497,6 +7669,7 @@
     "lastName": "Fournier",
     "name": "Fournier, Guy",
     "country": "CAN",
+    "birthDate": "1962-01-30",
     "positions": [],
     "rookieSeason": null,
     "jets": {
@@ -7526,6 +7699,7 @@
     "lastName": "Fraser",
     "name": "Fraser, Iain",
     "country": "CAN",
+    "birthDate": "1969-08-10",
     "positions": [
       "C"
     ],
@@ -7564,6 +7738,7 @@
     "lastName": "Freij",
     "name": "Freij, Alfons",
     "country": "SWE",
+    "birthDate": "2006-02-12",
     "positions": [],
     "rookieSeason": null,
     "jets": {
@@ -7593,6 +7768,7 @@
     "lastName": "Frolik",
     "name": "Frolik, Michael",
     "country": "CZE",
+    "birthDate": "1988-02-17",
     "positions": [
       "R"
     ],
@@ -7637,6 +7813,7 @@
     "lastName": "Furlan",
     "name": "Furlan, Frank",
     "country": "CAN",
+    "birthDate": "1968-03-08",
     "positions": [],
     "rookieSeason": null,
     "jets": {
@@ -7666,6 +7843,7 @@
     "lastName": "Gagner",
     "name": "Gagner, Sam",
     "country": "CAN",
+    "birthDate": "1989-08-10",
     "positions": [
       "C"
     ],
@@ -7704,6 +7882,7 @@
     "lastName": "Gagnon",
     "name": "Gagnon, Aaron",
     "country": "CAN",
+    "birthDate": "1986-04-24",
     "positions": [
       "C"
     ],
@@ -7748,6 +7927,7 @@
     "lastName": "Galiardi",
     "name": "Galiardi, TJ",
     "country": "CAN",
+    "birthDate": "1988-04-22",
     "positions": [
       "L"
     ],
@@ -7786,6 +7966,7 @@
     "lastName": "Galloway",
     "name": "Galloway, Kyle",
     "country": "CAN",
+    "birthDate": "1969-11-10",
     "positions": [],
     "rookieSeason": null,
     "jets": {
@@ -7815,6 +7996,7 @@
     "lastName": "Garanin",
     "name": "Garanin, Yevgeny",
     "country": "RUS",
+    "birthDate": "1973-08-03",
     "positions": [],
     "rookieSeason": null,
     "jets": {
@@ -7844,6 +8026,7 @@
     "lastName": "Gauthier",
     "name": "Gauthier, Sean",
     "country": "CAN",
+    "birthDate": "1971-03-28",
     "positions": [],
     "rookieSeason": "1998-99",
     "jets": {
@@ -7873,6 +8056,7 @@
     "lastName": "Gauvin",
     "name": "Gauvin, Stephane",
     "country": "CAN",
+    "birthDate": "1970-04-16",
     "positions": [],
     "rookieSeason": null,
     "jets": {
@@ -7902,6 +8086,7 @@
     "lastName": "Gawanke",
     "name": "Gawanke, Leon",
     "country": "DEU",
+    "birthDate": "1999-05-31",
     "positions": [],
     "rookieSeason": null,
     "jets": {
@@ -7931,6 +8116,7 @@
     "lastName": "Gennaro",
     "name": "Gennaro, Matteo",
     "country": "CAN",
+    "birthDate": "1997-03-30",
     "positions": [],
     "rookieSeason": null,
     "jets": {
@@ -7960,6 +8146,7 @@
     "lastName": "Geoffrion",
     "name": "Geoffrion, Danny",
     "country": "CAN",
+    "birthDate": "1958-01-24",
     "positions": [
       "R"
     ],
@@ -8004,6 +8191,7 @@
     "lastName": "Gernander",
     "name": "Gernander, Ken",
     "country": "USA",
+    "birthDate": "1969-06-30",
     "positions": [],
     "rookieSeason": "1995-96",
     "jets": {
@@ -8033,6 +8221,7 @@
     "lastName": "Gibson",
     "name": "Gibson, John",
     "country": "CAN",
+    "birthDate": "1959-07-02",
     "positions": [
       "C"
     ],
@@ -8071,6 +8260,7 @@
     "lastName": "Gilhen",
     "name": "Gilhen, Randy",
     "country": "DEU",
+    "birthDate": "1963-06-13",
     "positions": [
       "C"
     ],
@@ -8139,6 +8329,7 @@
     "lastName": "Glass",
     "name": "Glass, Tanner",
     "country": "CAN",
+    "birthDate": "1983-11-29",
     "positions": [
       "L"
     ],
@@ -8177,6 +8368,7 @@
     "lastName": "Glover",
     "name": "Glover, Jack",
     "country": "USA",
+    "birthDate": "1996-05-17",
     "positions": [],
     "rookieSeason": null,
     "jets": {
@@ -8206,6 +8398,7 @@
     "lastName": "Goran Elo",
     "name": "Goran Elo, Hans",
     "country": "SWE",
+    "birthDate": "1966-06-27",
     "positions": [],
     "rookieSeason": null,
     "jets": {
@@ -8235,6 +8428,7 @@
     "lastName": "Gosselin",
     "name": "Gosselin, Guy",
     "country": "USA",
+    "birthDate": "1964-06-06",
     "positions": [
       "D"
     ],
@@ -8274,6 +8468,7 @@
     "lastName": "Graves",
     "name": "Graves, Hilliard",
     "country": "CAN",
+    "birthDate": "1950-10-18",
     "positions": [
       "R"
     ],
@@ -8306,6 +8501,7 @@
     "lastName": "Green",
     "name": "Green, Luke",
     "country": "CAN",
+    "birthDate": "1998-01-12",
     "positions": [],
     "rookieSeason": null,
     "jets": {
@@ -8335,6 +8531,7 @@
     "lastName": "Green",
     "name": "Green, Mark",
     "country": "USA",
+    "birthDate": "1967-12-26",
     "positions": [],
     "rookieSeason": null,
     "jets": {
@@ -8364,6 +8561,7 @@
     "lastName": "Grosek",
     "name": "Grosek, Michal",
     "country": "CZE",
+    "birthDate": "1975-06-01",
     "positions": [
       "L"
     ],
@@ -8415,6 +8613,7 @@
     "lastName": "Guindon",
     "name": "Guindon, Bobby",
     "country": "CAN",
+    "birthDate": "1950-11-19",
     "positions": [
       "C"
     ],
@@ -8453,6 +8652,7 @@
     "lastName": "Gusmanov",
     "name": "Gusmanov, Ravil",
     "country": "RUS",
+    "birthDate": "1972-06-25",
     "positions": [
       "R"
     ],
@@ -8492,6 +8692,7 @@
     "lastName": "Gustafsson",
     "name": "Gustafsson, David",
     "country": "SWE",
+    "birthDate": "2000-04-11",
     "positions": [
       "C"
     ],
@@ -8561,6 +8762,7 @@
     "lastName": "Hafele",
     "name": "Hafele, Landon",
     "country": "USA",
+    "birthDate": "2007-09-18",
     "positions": [],
     "rookieSeason": null,
     "jets": {
@@ -8590,6 +8792,7 @@
     "lastName": "Hainsey",
     "name": "Hainsey, Ron",
     "country": "USA",
+    "birthDate": "1981-03-24",
     "positions": [
       "D"
     ],
@@ -8634,6 +8837,7 @@
     "lastName": "Halischuk",
     "name": "Halischuk, Matt",
     "country": "CAN",
+    "birthDate": "1988-06-01",
     "positions": [
       "R"
     ],
@@ -8684,6 +8888,7 @@
     "lastName": "Hamel",
     "name": "Hamel, Gilles",
     "country": "CAN",
+    "birthDate": "1960-03-18",
     "positions": [
       "L"
     ],
@@ -8734,6 +8939,7 @@
     "lastName": "Hamel",
     "name": "Hamel, Pierre",
     "country": "CAN",
+    "birthDate": "1952-09-16",
     "positions": [
       "G"
     ],
@@ -8772,6 +8978,7 @@
     "lastName": "Hansen",
     "name": "Hansen, Tavis",
     "country": "CAN",
+    "birthDate": "1975-06-17",
     "positions": [
       "R"
     ],
@@ -8811,6 +9018,7 @@
     "lastName": "Harkins",
     "name": "Harkins, Jansen",
     "country": "USA",
+    "birthDate": "1997-05-23",
     "positions": [
       "C"
     ],
@@ -8868,6 +9076,7 @@
     "lastName": "Harrison",
     "name": "Harrison, Jay",
     "country": "CAN",
+    "birthDate": "1982-11-03",
     "positions": [
       "D"
     ],
@@ -8906,6 +9115,7 @@
     "lastName": "Harstad",
     "name": "Harstad, Aaron",
     "country": "USA",
+    "birthDate": "1992-04-27",
     "positions": [],
     "rookieSeason": null,
     "jets": {
@@ -8935,6 +9145,7 @@
     "lastName": "Hartje",
     "name": "Hartje, Tod",
     "country": "USA",
+    "birthDate": "1968-02-27",
     "positions": [],
     "rookieSeason": null,
     "jets": {
@@ -8964,6 +9175,7 @@
     "lastName": "Hartman",
     "name": "Hartman, Mike",
     "country": "USA",
+    "birthDate": "1967-02-07",
     "positions": [
       "L"
     ],
@@ -9002,6 +9214,7 @@
     "lastName": "Harwell",
     "name": "Harwell, Joseph",
     "country": "USA",
+    "birthDate": "1968-11-21",
     "positions": [],
     "rookieSeason": null,
     "jets": {
@@ -9031,6 +9244,7 @@
     "lastName": "Hawerchuk",
     "name": "Hawerchuk, Dale",
     "country": "CAN",
+    "birthDate": "1963-04-04",
     "positions": [
       "C"
     ],
@@ -9118,6 +9332,7 @@
     "lastName": "Hayes",
     "name": "Hayes, Kevin",
     "country": "USA",
+    "birthDate": "1992-05-08",
     "positions": [
       "R"
     ],
@@ -9156,6 +9371,7 @@
     "lastName": "Hayward",
     "name": "Hayward, Brian",
     "country": "CAN",
+    "birthDate": "1960-06-25",
     "positions": [
       "G"
     ],
@@ -9206,6 +9422,7 @@
     "lastName": "He",
     "name": "He, Kevin",
     "country": "CHN",
+    "birthDate": "2006-04-30",
     "positions": [],
     "rookieSeason": null,
     "jets": {
@@ -9235,6 +9452,7 @@
     "lastName": "Heinola",
     "name": "Heinola, Ville",
     "country": "FIN",
+    "birthDate": "2001-03-02",
     "positions": [
       "D"
     ],
@@ -9304,6 +9522,7 @@
     "lastName": "Heise",
     "name": "Heise, Kevin",
     "country": "CAN",
+    "birthDate": "1968-09-09",
     "positions": [],
     "rookieSeason": null,
     "jets": {
@@ -9333,6 +9552,7 @@
     "lastName": "Helber",
     "name": "Helber, Michael",
     "country": "USA",
+    "birthDate": "1970-06-23",
     "positions": [],
     "rookieSeason": null,
     "jets": {
@@ -9362,6 +9582,7 @@
     "lastName": "Hellebuyck",
     "name": "Hellebuyck, Connor",
     "country": "USA",
+    "birthDate": "1993-05-19",
     "positions": [
       "G"
     ],
@@ -9461,6 +9682,7 @@
     "lastName": "Hendricks",
     "name": "Hendricks, Matt",
     "country": "USA",
+    "birthDate": "1981-06-17",
     "positions": [
       "C"
     ],
@@ -9505,6 +9727,7 @@
     "lastName": "Hewson",
     "name": "Hewson, Russell",
     "country": "CAN",
+    "birthDate": "1975-01-12",
     "positions": [],
     "rookieSeason": null,
     "jets": {
@@ -9534,6 +9757,7 @@
     "lastName": "Holden",
     "name": "Holden, Mark",
     "country": "USA",
+    "birthDate": "1957-06-12",
     "positions": [
       "G"
     ],
@@ -9572,6 +9796,7 @@
     "lastName": "Holm",
     "name": "Holm, Arvid",
     "country": "SWE",
+    "birthDate": "1998-11-03",
     "positions": [],
     "rookieSeason": null,
     "jets": {
@@ -9601,6 +9826,7 @@
     "lastName": "Hopkins",
     "name": "Hopkins, Larry",
     "country": "CAN",
+    "birthDate": "1954-03-17",
     "positions": [
       "L"
     ],
@@ -9651,6 +9877,7 @@
     "lastName": "Housley",
     "name": "Housley, Phil",
     "country": "USA",
+    "birthDate": "1964-03-09",
     "positions": [
       "D"
     ],
@@ -9701,6 +9928,7 @@
     "lastName": "Howden",
     "name": "Howden, Quinton",
     "country": "CAN",
+    "birthDate": "1992-01-21",
     "positions": [
       "C"
     ],
@@ -9739,6 +9967,7 @@
     "lastName": "Hoyda",
     "name": "Hoyda, Dave",
     "country": "CAN",
+    "birthDate": "1957-05-20",
     "positions": [
       "L"
     ],
@@ -9783,6 +10012,7 @@
     "lastName": "Hrenak",
     "name": "Hrenak, Samuel",
     "country": "SVK",
+    "birthDate": "2008-03-19",
     "positions": [],
     "rookieSeason": null,
     "jets": {
@@ -9812,6 +10042,7 @@
     "lastName": "Hrivnak",
     "name": "Hrivnak, Jim",
     "country": "CAN",
+    "birthDate": "1968-05-28",
     "positions": [
       "G"
     ],
@@ -9850,6 +10081,7 @@
     "lastName": "Hughes",
     "name": "Hughes, Brent",
     "country": "CAN",
+    "birthDate": "1966-04-05",
     "positions": [
       "L"
     ],
@@ -9888,6 +10120,7 @@
     "lastName": "Hull",
     "name": "Hull, Bobby",
     "country": "CAN",
+    "birthDate": "1939-01-03",
     "positions": [
       "L"
     ],
@@ -9920,6 +10153,7 @@
     "lastName": "Hunt",
     "name": "Hunt, Brian",
     "country": "CAN",
+    "birthDate": "1969-02-12",
     "positions": [],
     "rookieSeason": null,
     "jets": {
@@ -9949,6 +10183,7 @@
     "lastName": "Hunter",
     "name": "Hunter, Dave",
     "country": "CAN",
+    "birthDate": "1958-01-01",
     "positions": [
       "L"
     ],
@@ -9987,6 +10222,7 @@
     "lastName": "Husgen",
     "name": "Husgen, Jamie",
     "country": "USA",
+    "birthDate": "1964-10-13",
     "positions": [],
     "rookieSeason": null,
     "jets": {
@@ -10016,6 +10252,7 @@
     "lastName": "Hutchinson",
     "name": "Hutchinson, Michael",
     "country": "CAN",
+    "birthDate": "1990-03-02",
     "positions": [
       "G"
     ],
@@ -10078,6 +10315,7 @@
     "lastName": "Iafallo",
     "name": "Iafallo, Alex",
     "country": "USA",
+    "birthDate": "1993-12-21",
     "positions": [
       "L"
     ],
@@ -10128,6 +10366,7 @@
     "lastName": "Isbister",
     "name": "Isbister, Brad",
     "country": "CAN",
+    "birthDate": "1977-05-07",
     "positions": [],
     "rookieSeason": "1997-98",
     "jets": {
@@ -10157,6 +10396,7 @@
     "lastName": "Issel",
     "name": "Issel, Jason",
     "country": "CAN",
+    "birthDate": "1976-03-01",
     "positions": [],
     "rookieSeason": null,
     "jets": {
@@ -10186,6 +10426,7 @@
     "lastName": "Jaffray",
     "name": "Jaffray, Jason",
     "country": "CAN",
+    "birthDate": "1981-06-30",
     "positions": [
       "L"
     ],
@@ -10218,6 +10459,7 @@
     "lastName": "Janney",
     "name": "Janney, Craig",
     "country": "USA",
+    "birthDate": "1967-09-26",
     "positions": [
       "C"
     ],
@@ -10256,6 +10498,7 @@
     "lastName": "Jardemyr",
     "name": "Jardemyr, Daniel",
     "country": "SWE",
+    "birthDate": "1971-05-28",
     "positions": [],
     "rookieSeason": null,
     "jets": {
@@ -10285,6 +10528,7 @@
     "lastName": "Jarvenpaa",
     "name": "Jarvenpaa, Hannu",
     "country": "FIN",
+    "birthDate": "1963-05-19",
     "positions": [
       "R"
     ],
@@ -10336,6 +10580,7 @@
     "lastName": "Jennings",
     "name": "Jennings, Jason",
     "country": "CAN",
+    "birthDate": "1971-03-16",
     "positions": [],
     "rookieSeason": null,
     "jets": {
@@ -10365,6 +10610,7 @@
     "lastName": "Johannesson",
     "name": "Johannesson, Anton",
     "country": "SWE",
+    "birthDate": "2002-03-26",
     "positions": [],
     "rookieSeason": null,
     "jets": {
@@ -10394,6 +10640,7 @@
     "lastName": "Jokinen",
     "name": "Jokinen, Olli",
     "country": "FIN",
+    "birthDate": "1978-12-05",
     "positions": [
       "C"
     ],
@@ -10438,6 +10685,7 @@
     "lastName": "Jones",
     "name": "Jones, Brad",
     "country": "USA",
+    "birthDate": "1965-06-26",
     "positions": [
       "L"
     ],
@@ -10495,6 +10743,7 @@
     "lastName": "Jones",
     "name": "Jones, Randy",
     "country": "CAN",
+    "birthDate": "1981-07-23",
     "positions": [
       "D"
     ],
@@ -10527,6 +10776,7 @@
     "lastName": "Jones",
     "name": "Jones, Ronald",
     "country": "USA",
+    "birthDate": "1969-02-07",
     "positions": [],
     "rookieSeason": null,
     "jets": {
@@ -10556,6 +10806,7 @@
     "lastName": "Jonsson-Fjallby",
     "name": "Jonsson-Fjallby, Axel",
     "country": "SWE",
+    "birthDate": "1998-02-10",
     "positions": [
       "L"
     ],
@@ -10600,6 +10851,7 @@
     "lastName": "Joseph",
     "name": "Joseph, Anthony",
     "country": "CAN",
+    "birthDate": "1969-03-01",
     "positions": [
       "R"
     ],
@@ -10639,6 +10891,7 @@
     "lastName": "Joyce",
     "name": "Joyce, Bob",
     "country": "CAN",
+    "birthDate": "1966-07-11",
     "positions": [
       "L"
     ],
@@ -10683,6 +10936,7 @@
     "lastName": "Julien",
     "name": "Julien, Jacob",
     "country": "CAN",
+    "birthDate": "2004-09-12",
     "positions": [],
     "rookieSeason": null,
     "jets": {
@@ -10712,6 +10966,7 @@
     "lastName": "Kadlec",
     "name": "Kadlec, Vladimir",
     "country": "CZE",
+    "birthDate": "1962-01-03",
     "positions": [],
     "rookieSeason": null,
     "jets": {
@@ -10741,6 +10996,7 @@
     "lastName": "Kaminsky",
     "name": "Kaminsky, Yan",
     "country": "RUS",
+    "birthDate": "1971-07-28",
     "positions": [
       "L"
     ],
@@ -10780,6 +11036,7 @@
     "lastName": "Kane",
     "name": "Kane, Evander",
     "country": "CAN",
+    "birthDate": "1991-08-02",
     "positions": [
       "L"
     ],
@@ -10836,6 +11093,7 @@
     "lastName": "Kardum",
     "name": "Kardum, Nevin",
     "country": "CAN",
+    "birthDate": "1967-03-30",
     "positions": [],
     "rookieSeason": null,
     "jets": {
@@ -10865,6 +11123,7 @@
     "lastName": "Karlstrom",
     "name": "Karlstrom, Marcus",
     "country": "SWE",
+    "birthDate": "1995-01-06",
     "positions": [],
     "rookieSeason": null,
     "jets": {
@@ -10894,6 +11153,7 @@
     "lastName": "Karpotsev",
     "name": "Karpotsev, Andrei",
     "country": "RUS",
+    "birthDate": "1974-02-25",
     "positions": [],
     "rookieSeason": null,
     "jets": {
@@ -10923,6 +11183,7 @@
     "lastName": "Kasdorf",
     "name": "Kasdorf, Jason",
     "country": "CAN",
+    "birthDate": "1992-05-18",
     "positions": [],
     "rookieSeason": "2015-16",
     "jets": {
@@ -10952,6 +11213,7 @@
     "lastName": "Kennedy",
     "name": "Kennedy, Dean",
     "country": "CAN",
+    "birthDate": "1963-01-18",
     "positions": [
       "D"
     ],
@@ -11002,6 +11264,7 @@
     "lastName": "Kerr",
     "name": "Kerr, Alan",
     "country": "CAN",
+    "birthDate": "1964-03-28",
     "positions": [
       "R"
     ],
@@ -11040,6 +11303,7 @@
     "lastName": "Khabibulin",
     "name": "Khabibulin, Nikolai",
     "country": "RUS",
+    "birthDate": "1973-01-13",
     "positions": [
       "G"
     ],
@@ -11085,6 +11349,7 @@
     "lastName": "Kharin",
     "name": "Kharin, Sergei",
     "country": "RUS",
+    "birthDate": "1963-02-20",
     "positions": [
       "R"
     ],
@@ -11124,6 +11389,7 @@
     "lastName": "Kibermanis",
     "name": "Kibermanis, Chris",
     "country": "CAN",
+    "birthDate": "1976-03-24",
     "positions": [],
     "rookieSeason": null,
     "jets": {
@@ -11153,6 +11419,7 @@
     "lastName": "Kichton",
     "name": "Kichton, Brenden",
     "country": "CAN",
+    "birthDate": "1992-06-18",
     "positions": [],
     "rookieSeason": null,
     "jets": {
@@ -11182,6 +11449,7 @@
     "lastName": "Kilger",
     "name": "Kilger, Chad",
     "country": "CAN",
+    "birthDate": "1976-11-27",
     "positions": [
       "L"
     ],
@@ -11220,6 +11488,7 @@
     "lastName": "King",
     "name": "King, Kris",
     "country": "CAN",
+    "birthDate": "1966-02-18",
     "positions": [
       "L"
     ],
@@ -11276,6 +11545,7 @@
     "lastName": "Kirwin",
     "name": "Kirwin, David",
     "country": "USA",
+    "birthDate": "1963-05-10",
     "positions": [],
     "rookieSeason": null,
     "jets": {
@@ -11305,6 +11575,7 @@
     "lastName": "Klingberg",
     "name": "Klingberg, Carl",
     "country": "SWE",
+    "birthDate": "1991-01-28",
     "positions": [
       "L"
     ],
@@ -11355,6 +11626,7 @@
     "lastName": "Klingsell",
     "name": "Klingsell, Viktor",
     "country": "SWE",
+    "birthDate": "2007-02-10",
     "positions": [],
     "rookieSeason": null,
     "jets": {
@@ -11384,6 +11656,7 @@
     "lastName": "Koepke",
     "name": "Koepke, Cole",
     "country": "USA",
+    "birthDate": "1998-05-17",
     "positions": [
       "L"
     ],
@@ -11428,6 +11701,7 @@
     "lastName": "Korolev",
     "name": "Korolev, Igor",
     "country": "RUS",
+    "birthDate": "1970-09-06",
     "positions": [
       "C"
     ],
@@ -11472,6 +11746,7 @@
     "lastName": "Kosmachuk",
     "name": "Kosmachuk, Scott",
     "country": "CAN",
+    "birthDate": "1994-01-24",
     "positions": [
       "R"
     ],
@@ -11511,6 +11786,7 @@
     "lastName": "Kostalek",
     "name": "Kostalek, Jan",
     "country": "CZE",
+    "birthDate": "1995-02-17",
     "positions": [],
     "rookieSeason": null,
     "jets": {
@@ -11540,6 +11816,7 @@
     "lastName": "Kostichkin",
     "name": "Kostichkin, Pavel",
     "country": "RUS",
+    "birthDate": "1968-11-09",
     "positions": [],
     "rookieSeason": null,
     "jets": {
@@ -11569,6 +11846,7 @@
     "lastName": "Kovacevic",
     "name": "Kovacevic, Johnathan",
     "country": "CAN",
+    "birthDate": "1997-07-12",
     "positions": [
       "D"
     ],
@@ -11608,6 +11886,7 @@
     "lastName": "Kraskovsky",
     "name": "Kraskovsky, Pavel",
     "country": "RUS",
+    "birthDate": "1996-09-11",
     "positions": [],
     "rookieSeason": null,
     "jets": {
@@ -11637,6 +11916,7 @@
     "lastName": "Kuhlman",
     "name": "Kuhlman, Karson",
     "country": "USA",
+    "birthDate": "1995-09-26",
     "positions": [
       "C"
     ],
@@ -11669,6 +11949,7 @@
     "lastName": "Kulak",
     "name": "Kulak, Stu",
     "country": "CAN",
+    "birthDate": "1963-03-10",
     "positions": [
       "R"
     ],
@@ -11707,6 +11988,7 @@
     "lastName": "Kulda",
     "name": "Kulda, Arturs",
     "country": "LVA",
+    "birthDate": "1988-07-25",
     "positions": [
       "D"
     ],
@@ -11745,6 +12027,7 @@
     "lastName": "Kulikov",
     "name": "Kulikov, Dmitry",
     "country": "RUS",
+    "birthDate": "1990-10-29",
     "positions": [
       "D"
     ],
@@ -11795,6 +12078,7 @@
     "lastName": "Kumpel",
     "name": "Kumpel, Mark",
     "country": "USA",
+    "birthDate": "1961-03-07",
     "positions": [
       "R"
     ],
@@ -11845,6 +12129,7 @@
     "lastName": "Kupari",
     "name": "Kupari, Rasmus",
     "country": "FIN",
+    "birthDate": "2000-03-15",
     "positions": [
       "C"
     ],
@@ -11889,6 +12174,7 @@
     "lastName": "Kurtz",
     "name": "Kurtz, Justin",
     "country": "CAN",
+    "birthDate": "1977-01-14",
     "positions": [],
     "rookieSeason": "2001-02",
     "jets": {
@@ -11918,6 +12204,7 @@
     "lastName": "Kuzmin",
     "name": "Kuzmin, Dmitry",
     "country": "BLR",
+    "birthDate": "2003-04-23",
     "positions": [],
     "rookieSeason": null,
     "jets": {
@@ -11947,6 +12234,7 @@
     "lastName": "Kyllonen",
     "name": "Kyllonen, Markku",
     "country": "FIN",
+    "birthDate": "1962-02-02",
     "positions": [
       "R"
     ],
@@ -11986,6 +12274,7 @@
     "lastName": "Kyte",
     "name": "Kyte, Jim",
     "country": "CAN",
+    "birthDate": "1964-03-21",
     "positions": [
       "D"
     ],
@@ -12061,6 +12350,7 @@
     "lastName": "Ladd",
     "name": "Ladd, Andrew",
     "country": "CAN",
+    "birthDate": "1985-12-12",
     "positions": [
       "L"
     ],
@@ -12123,6 +12413,7 @@
     "lastName": "Laine",
     "name": "Laine, Patrik",
     "country": "FIN",
+    "birthDate": "1998-04-19",
     "positions": [
       "L"
     ],
@@ -12186,6 +12477,7 @@
     "lastName": "Lalor",
     "name": "Lalor, Mike",
     "country": "USA",
+    "birthDate": "1963-03-08",
     "positions": [
       "D"
     ],
@@ -12224,6 +12516,7 @@
     "lastName": "Lambert",
     "name": "Lambert, Brad",
     "country": "FIN",
+    "birthDate": "2003-12-19",
     "positions": [
       "C"
     ],
@@ -12281,6 +12574,7 @@
     "lastName": "Langkow",
     "name": "Langkow, Scott",
     "country": "CAN",
+    "birthDate": "1975-04-21",
     "positions": [
       "G"
     ],
@@ -12320,6 +12614,7 @@
     "lastName": "Larose",
     "name": "Larose, Guy",
     "country": "CAN",
+    "birthDate": "1967-07-31",
     "positions": [
       "C"
     ],
@@ -12364,6 +12659,7 @@
     "lastName": "Larson",
     "name": "Larson, Joseph",
     "country": "USA",
+    "birthDate": "1970-08-17",
     "positions": [],
     "rookieSeason": null,
     "jets": {
@@ -12393,6 +12689,7 @@
     "lastName": "Lauen",
     "name": "Lauen, Mike",
     "country": "USA",
+    "birthDate": "1961-02-09",
     "positions": [
       "R"
     ],
@@ -12432,6 +12729,7 @@
     "lastName": "Lebeau",
     "name": "Lebeau, Benoit",
     "country": "CAN",
+    "birthDate": "1968-06-04",
     "positions": [],
     "rookieSeason": null,
     "jets": {
@@ -12461,6 +12759,7 @@
     "lastName": "Leblanc",
     "name": "Leblanc, John",
     "country": "CAN",
+    "birthDate": "1964-01-21",
     "positions": [
       "R"
     ],
@@ -12511,6 +12810,7 @@
     "lastName": "Lecuyer",
     "name": "Lecuyer, Doug",
     "country": "CAN",
+    "birthDate": "1958-03-10",
     "positions": [
       "L"
     ],
@@ -12549,6 +12849,7 @@
     "lastName": "Legge",
     "name": "Legge, Barry",
     "country": "CAN",
+    "birthDate": "1954-10-22",
     "positions": [
       "D"
     ],
@@ -12593,6 +12894,7 @@
     "lastName": "Lemay",
     "name": "Lemay, Moe",
     "country": "CAN",
+    "birthDate": "1962-02-18",
     "positions": [
       "L"
     ],
@@ -12631,6 +12933,7 @@
     "lastName": "Lemieux",
     "name": "Lemieux, Brendan",
     "country": "USA",
+    "birthDate": "1996-03-15",
     "positions": [
       "L"
     ],
@@ -12675,6 +12978,7 @@
     "lastName": "Lesuk",
     "name": "Lesuk, Bill",
     "country": "CAN",
+    "birthDate": "1946-11-01",
     "positions": [
       "R"
     ],
@@ -12707,6 +13011,7 @@
     "lastName": "Letestu",
     "name": "Letestu, Mark",
     "country": "CAN",
+    "birthDate": "1985-02-04",
     "positions": [
       "C"
     ],
@@ -12739,6 +13044,7 @@
     "lastName": "Levie",
     "name": "Levie, Craig",
     "country": "CAN",
+    "birthDate": "1959-08-17",
     "positions": [
       "D"
     ],
@@ -12783,6 +13089,7 @@
     "lastName": "Levins",
     "name": "Levins, Scott",
     "country": "USA",
+    "birthDate": "1970-01-30",
     "positions": [
       "R"
     ],
@@ -12822,6 +13129,7 @@
     "lastName": "Levis",
     "name": "Levis, Connor",
     "country": "CAN",
+    "birthDate": "2004-10-05",
     "positions": [],
     "rookieSeason": null,
     "jets": {
@@ -12851,6 +13159,7 @@
     "lastName": "Lewis",
     "name": "Lewis, Trevor",
     "country": "USA",
+    "birthDate": "1987-01-08",
     "positions": [
       "C"
     ],
@@ -12889,6 +13198,7 @@
     "lastName": "Lilley",
     "name": "Lilley, John",
     "country": "USA",
+    "birthDate": "1972-08-03",
     "positions": [],
     "rookieSeason": "1993-94",
     "jets": {
@@ -12918,6 +13228,7 @@
     "lastName": "Lindgren",
     "name": "Lindgren, Mats",
     "country": "SWE",
+    "birthDate": "1974-10-01",
     "positions": [],
     "rookieSeason": "1996-97",
     "jets": {
@@ -12947,6 +13258,7 @@
     "lastName": "Lindholm",
     "name": "Lindholm, Par",
     "country": "SWE",
+    "birthDate": "1991-10-05",
     "positions": [
       "C"
     ],
@@ -12979,6 +13291,7 @@
     "lastName": "Lindstrom",
     "name": "Lindstrom, Willy",
     "country": "SWE",
+    "birthDate": "1951-05-05",
     "positions": [
       "R"
     ],
@@ -13029,6 +13342,7 @@
     "lastName": "Lipon",
     "name": "Lipon, JC",
     "country": "CAN",
+    "birthDate": "1993-07-10",
     "positions": [
       "R"
     ],
@@ -13068,6 +13382,7 @@
     "lastName": "Little",
     "name": "Little, Bryan",
     "country": "CAN",
+    "birthDate": "1987-11-12",
     "positions": [
       "C"
     ],
@@ -13154,6 +13469,7 @@
     "lastName": "Lodge",
     "name": "Lodge, Jimmy",
     "country": "USA",
+    "birthDate": "1995-03-05",
     "positions": [],
     "rookieSeason": null,
     "jets": {
@@ -13183,6 +13499,7 @@
     "lastName": "Long",
     "name": "Long, Barry",
     "country": "CAN",
+    "birthDate": "1949-01-31",
     "positions": [
       "D"
     ],
@@ -13221,6 +13538,7 @@
     "lastName": "Loponen",
     "name": "Loponen, Markus",
     "country": "FIN",
+    "birthDate": "2006-06-17",
     "positions": [],
     "rookieSeason": null,
     "jets": {
@@ -13250,6 +13568,7 @@
     "lastName": "Lorden",
     "name": "Lorden, Gary",
     "country": "USA",
+    "birthDate": "1966-01-17",
     "positions": [],
     "rookieSeason": null,
     "jets": {
@@ -13279,6 +13598,7 @@
     "lastName": "Loustel",
     "name": "Loustel, Ronald",
     "country": "CAN",
+    "birthDate": "1962-03-07",
     "positions": [
       "G"
     ],
@@ -13318,6 +13638,7 @@
     "lastName": "Loven",
     "name": "Loven, Fredrik",
     "country": "SWE",
+    "birthDate": "1977-03-14",
     "positions": [],
     "rookieSeason": null,
     "jets": {
@@ -13347,6 +13668,7 @@
     "lastName": "Lowry",
     "name": "Lowry, Adam",
     "country": "USA",
+    "birthDate": "1993-03-29",
     "positions": [
       "C"
     ],
@@ -13458,6 +13780,7 @@
     "lastName": "Lucius",
     "name": "Lucius, Chaz",
     "country": "USA",
+    "birthDate": "2003-05-02",
     "positions": [],
     "rookieSeason": null,
     "jets": {
@@ -13487,6 +13810,7 @@
     "lastName": "Lukowich",
     "name": "Lukowich, Morris",
     "country": "CAN",
+    "birthDate": "1956-06-01",
     "positions": [
       "L"
     ],
@@ -13555,6 +13879,7 @@
     "lastName": "Lundholm",
     "name": "Lundholm, Bengt",
     "country": "SWE",
+    "birthDate": "1955-08-04",
     "positions": [
       "L"
     ],
@@ -13611,6 +13936,7 @@
     "lastName": "Lundmark",
     "name": "Lundmark, Simon",
     "country": "SWE",
+    "birthDate": "2000-10-08",
     "positions": [],
     "rookieSeason": "2025-26",
     "jets": {
@@ -13640,6 +13966,7 @@
     "lastName": "Luoto",
     "name": "Luoto, Joona",
     "country": "FIN",
+    "birthDate": "1997-09-26",
     "positions": [
       "L"
     ],
@@ -13672,6 +13999,7 @@
     "lastName": "Macdermid",
     "name": "Macdermid, Paul",
     "country": "CAN",
+    "birthDate": "1963-04-14",
     "positions": [
       "R"
     ],
@@ -13722,6 +14050,7 @@
     "lastName": "Machacek",
     "name": "Machacek, Spencer",
     "country": "CAN",
+    "birthDate": "1988-10-14",
     "positions": [
       "R"
     ],
@@ -13760,6 +14089,7 @@
     "lastName": "MacIver",
     "name": "MacIver, Donald",
     "country": "CAN",
+    "birthDate": "1955-05-03",
     "positions": [
       "D"
     ],
@@ -13792,6 +14122,7 @@
     "lastName": "MacIver",
     "name": "MacIver, Norm",
     "country": "CAN",
+    "birthDate": "1964-09-01",
     "positions": [
       "D"
     ],
@@ -13824,6 +14155,7 @@
     "lastName": "MacLean",
     "name": "MacLean, Brett",
     "country": "CAN",
+    "birthDate": "1988-12-24",
     "positions": [
       "L"
     ],
@@ -13862,6 +14194,7 @@
     "lastName": "MacLean",
     "name": "MacLean, Paul",
     "country": "FRA",
+    "birthDate": "1958-03-09",
     "positions": [
       "R"
     ],
@@ -13936,6 +14269,7 @@
     "lastName": "Mader",
     "name": "Mader, Mike",
     "country": "USA",
+    "birthDate": "1975-11-07",
     "positions": [],
     "rookieSeason": null,
     "jets": {
@@ -13965,6 +14299,7 @@
     "lastName": "Maenalanen",
     "name": "Maenalanen, Saku",
     "country": "FIN",
+    "birthDate": "1994-05-29",
     "positions": [
       "R"
     ],
@@ -14003,6 +14338,7 @@
     "lastName": "Malgunas",
     "name": "Malgunas, Stewart",
     "country": "CAN",
+    "birthDate": "1970-04-21",
     "positions": [
       "D"
     ],
@@ -14041,6 +14377,7 @@
     "lastName": "Malott",
     "name": "Malott, Jeff",
     "country": "CAN",
+    "birthDate": "1996-08-07",
     "positions": [
       "L"
     ],
@@ -14073,6 +14410,7 @@
     "lastName": "Manery",
     "name": "Manery, Kris",
     "country": "CAN",
+    "birthDate": "1954-09-24",
     "positions": [
       "R"
     ],
@@ -14111,6 +14449,7 @@
     "lastName": "Mann",
     "name": "Mann, Jimmy",
     "country": "CAN",
+    "birthDate": "1959-04-17",
     "positions": [
       "R"
     ],
@@ -14174,6 +14513,7 @@
     "lastName": "Mannino",
     "name": "Mannino, Peter",
     "country": "USA",
+    "birthDate": "1984-02-17",
     "positions": [
       "G"
     ],
@@ -14206,6 +14546,7 @@
     "lastName": "Manson",
     "name": "Manson, Dave",
     "country": "CAN",
+    "birthDate": "1967-01-27",
     "positions": [
       "D"
     ],
@@ -14256,6 +14597,7 @@
     "lastName": "Mantha",
     "name": "Mantha, Moe",
     "country": "USA",
+    "birthDate": "1961-01-21",
     "positions": [
       "D"
     ],
@@ -14331,6 +14673,7 @@
     "lastName": "Marchment",
     "name": "Marchment, Bryan",
     "country": "CAN",
+    "birthDate": "1969-05-01",
     "positions": [
       "D"
     ],
@@ -14382,6 +14725,7 @@
     "lastName": "Markell",
     "name": "Markell, John",
     "country": "CAN",
+    "birthDate": "1956-03-10",
     "positions": [
       "L"
     ],
@@ -14420,6 +14764,7 @@
     "lastName": "Marois",
     "name": "Marois, Mario",
     "country": "CAN",
+    "birthDate": "1957-12-15",
     "positions": [
       "D"
     ],
@@ -14482,6 +14827,7 @@
     "lastName": "Marsh",
     "name": "Marsh, Peter",
     "country": "CAN",
+    "birthDate": "1956-12-21",
     "positions": [
       "R"
     ],
@@ -14526,6 +14872,7 @@
     "lastName": "Martin",
     "name": "Martin, Craig",
     "country": "CAN",
+    "birthDate": "1971-01-21",
     "positions": [
       "R"
     ],
@@ -14565,6 +14912,7 @@
     "lastName": "Martin",
     "name": "Martin, Owen",
     "country": "CAN",
+    "birthDate": "2007-05-11",
     "positions": [],
     "rookieSeason": null,
     "jets": {
@@ -14594,6 +14942,7 @@
     "lastName": "Martin",
     "name": "Martin, Tom",
     "country": "CAN",
+    "birthDate": "1964-05-11",
     "positions": [
       "L"
     ],
@@ -14645,6 +14994,7 @@
     "lastName": "Marttila",
     "name": "Marttila, Jukka",
     "country": "FIN",
+    "birthDate": "1968-04-15",
     "positions": [],
     "rookieSeason": null,
     "jets": {
@@ -14674,6 +15024,7 @@
     "lastName": "Mason",
     "name": "Mason, Chris",
     "country": "CAN",
+    "birthDate": "1976-04-20",
     "positions": [
       "G"
     ],
@@ -14712,6 +15063,7 @@
     "lastName": "Mason",
     "name": "Mason, Steve",
     "country": "CAN",
+    "birthDate": "1988-05-29",
     "positions": [
       "G"
     ],
@@ -14750,6 +15102,7 @@
     "lastName": "Matthias",
     "name": "Matthias, Shawn",
     "country": "CAN",
+    "birthDate": "1988-02-19",
     "positions": [
       "L"
     ],
@@ -14794,6 +15147,7 @@
     "lastName": "Mattsson",
     "name": "Mattsson, Markus",
     "country": "FIN",
+    "birthDate": "1957-07-30",
     "positions": [
       "G"
     ],
@@ -14838,6 +15192,7 @@
     "lastName": "Maxwell",
     "name": "Maxwell, Ben",
     "country": "CAN",
+    "birthDate": "1988-03-30",
     "positions": [
       "C"
     ],
@@ -14876,6 +15231,7 @@
     "lastName": "Maxwell",
     "name": "Maxwell, Bryan",
     "country": "CAN",
+    "birthDate": "1955-09-07",
     "positions": [
       "D"
     ],
@@ -14926,6 +15282,7 @@
     "lastName": "McArdle",
     "name": "McArdle, Kenndal",
     "country": "CAN",
+    "birthDate": "1987-01-04",
     "positions": [
       "L"
     ],
@@ -14964,6 +15321,7 @@
     "lastName": "Mcbain",
     "name": "Mcbain, Andrew",
     "country": "CAN",
+    "birthDate": "1965-02-18",
     "positions": [
       "R"
     ],
@@ -15033,6 +15391,7 @@
     "lastName": "Mcbean",
     "name": "Mcbean, Wayne",
     "country": "CAN",
+    "birthDate": "1969-02-21",
     "positions": [
       "D"
     ],
@@ -15071,6 +15430,7 @@
     "lastName": "McCaskill",
     "name": "McCaskill, Kirk",
     "country": "CAN",
+    "birthDate": "1961-04-09",
     "positions": [],
     "rookieSeason": null,
     "jets": {
@@ -15100,6 +15460,7 @@
     "lastName": "McClelland",
     "name": "McClelland, Kevin",
     "country": "CAN",
+    "birthDate": "1962-07-04",
     "positions": [
       "R"
     ],
@@ -15138,6 +15499,7 @@
     "lastName": "Mcfall",
     "name": "Mcfall, Dan",
     "country": "USA",
+    "birthDate": "1963-04-08",
     "positions": [
       "D"
     ],
@@ -15183,6 +15545,7 @@
     "lastName": "McGroarty",
     "name": "McGroarty, Rutger",
     "country": "USA",
+    "birthDate": "2004-03-30",
     "positions": [],
     "rookieSeason": "2024-25",
     "jets": {
@@ -15212,6 +15575,7 @@
     "lastName": "McKenzie",
     "name": "McKenzie, Jim",
     "country": "CAN",
+    "birthDate": "1969-11-03",
     "positions": [
       "L"
     ],
@@ -15250,6 +15614,7 @@
     "lastName": "McKenzie",
     "name": "McKenzie, Skyler",
     "country": "CAN",
+    "birthDate": "1998-01-20",
     "positions": [],
     "rookieSeason": null,
     "jets": {
@@ -15279,6 +15644,7 @@
     "lastName": "McLennan",
     "name": "McLennan, Donald",
     "country": "CAN",
+    "birthDate": "1968-10-04",
     "positions": [],
     "rookieSeason": null,
     "jets": {
@@ -15308,6 +15674,7 @@
     "lastName": "Mcllwain",
     "name": "Mcllwain, Dave",
     "country": "CAN",
+    "birthDate": "1967-06-09",
     "positions": [
       "C"
     ],
@@ -15358,6 +15725,7 @@
     "lastName": "McReynolds",
     "name": "McReynolds, Brian",
     "country": "CAN",
+    "birthDate": "1965-01-05",
     "positions": [
       "C"
     ],
@@ -15396,6 +15764,7 @@
     "lastName": "McTavish",
     "name": "McTavish, Gord",
     "country": "CAN",
+    "birthDate": "1954-06-03",
     "positions": [
       "C"
     ],
@@ -15434,6 +15803,7 @@
     "lastName": "Meech",
     "name": "Meech, Derek",
     "country": "CAN",
+    "birthDate": "1984-04-21",
     "positions": [
       "D"
     ],
@@ -15478,6 +15848,7 @@
     "lastName": "Melametsa",
     "name": "Melametsa, Anssi",
     "country": "FIN",
+    "birthDate": "1961-06-21",
     "positions": [
       "R"
     ],
@@ -15517,6 +15888,7 @@
     "lastName": "Melchiori",
     "name": "Melchiori, Julian",
     "country": "CAN",
+    "birthDate": "1991-12-06",
     "positions": [
       "D"
     ],
@@ -15567,6 +15939,7 @@
     "lastName": "Melrose",
     "name": "Melrose, Barry",
     "country": "CAN",
+    "birthDate": "1956-07-15",
     "positions": [
       "D"
     ],
@@ -15611,6 +15984,7 @@
     "lastName": "Meluzin",
     "name": "Meluzin, Roman",
     "country": "CZE",
+    "birthDate": "1972-06-17",
     "positions": [],
     "rookieSeason": null,
     "jets": {
@@ -15640,6 +16014,7 @@
     "lastName": "Middlebrook",
     "name": "Middlebrook, Lindsay",
     "country": "CAN",
+    "birthDate": "1955-09-07",
     "positions": [
       "G"
     ],
@@ -15678,6 +16053,7 @@
     "lastName": "Miettinen",
     "name": "Miettinen, Antti",
     "country": "FIN",
+    "birthDate": "1980-07-03",
     "positions": [
       "R"
     ],
@@ -15722,6 +16098,7 @@
     "lastName": "Mikulchik",
     "name": "Mikulchik, Oleg",
     "country": "RUS",
+    "birthDate": "1964-06-27",
     "positions": [
       "D"
     ],
@@ -15760,6 +16137,7 @@
     "lastName": "Milic",
     "name": "Milic, Thomas",
     "country": "CAN",
+    "birthDate": "2003-04-14",
     "positions": [
       "G"
     ],
@@ -15799,6 +16177,7 @@
     "lastName": "Miller",
     "name": "Miller, Colin",
     "country": "CAN",
+    "birthDate": "1992-10-29",
     "positions": [
       "D"
     ],
@@ -15849,6 +16228,7 @@
     "lastName": "Mills",
     "name": "Mills, Chris",
     "country": "CAN",
+    "birthDate": "1966-05-30",
     "positions": [],
     "rookieSeason": null,
     "jets": {
@@ -15878,6 +16258,7 @@
     "lastName": "Mills",
     "name": "Mills, Craig",
     "country": "CAN",
+    "birthDate": "1976-08-27",
     "positions": [
       "R"
     ],
@@ -15917,6 +16298,7 @@
     "lastName": "Mironov",
     "name": "Mironov, Boris",
     "country": "RUS",
+    "birthDate": "1972-03-21",
     "positions": [
       "D"
     ],
@@ -15956,6 +16338,7 @@
     "lastName": "Mishler",
     "name": "Mishler, Tim",
     "country": "USA",
+    "birthDate": "1963-10-03",
     "positions": [],
     "rookieSeason": null,
     "jets": {
@@ -15985,6 +16368,7 @@
     "lastName": "Moe",
     "name": "Moe, Jared",
     "country": "USA",
+    "birthDate": "1999-07-22",
     "positions": [],
     "rookieSeason": null,
     "jets": {
@@ -16014,6 +16398,7 @@
     "lastName": "Moffat",
     "name": "Moffat, Lyle",
     "country": "CAN",
+    "birthDate": "1948-03-19",
     "positions": [
       "L"
     ],
@@ -16046,6 +16431,7 @@
     "lastName": "Monahan",
     "name": "Monahan, Sean",
     "country": "CAN",
+    "birthDate": "1994-10-12",
     "positions": [
       "C"
     ],
@@ -16084,6 +16470,7 @@
     "lastName": "Montoya",
     "name": "Montoya, Al",
     "country": "USA",
+    "birthDate": "1985-02-13",
     "positions": [
       "G"
     ],
@@ -16128,6 +16515,7 @@
     "lastName": "Morris",
     "name": "Morris, Keith",
     "country": "CAN",
+    "birthDate": "1971-04-24",
     "positions": [],
     "rookieSeason": null,
     "jets": {
@@ -16157,6 +16545,7 @@
     "lastName": "Morrissey",
     "name": "Morrissey, Josh",
     "country": "CAN",
+    "birthDate": "1995-03-28",
     "positions": [
       "D"
     ],
@@ -16262,6 +16651,7 @@
     "lastName": "Morrow",
     "name": "Morrow, Joe",
     "country": "CAN",
+    "birthDate": "1992-12-09",
     "positions": [
       "D"
     ],
@@ -16306,6 +16696,7 @@
     "lastName": "Mowery",
     "name": "Mowery, Brent",
     "country": "CAN",
+    "birthDate": "1966-10-03",
     "positions": [],
     "rookieSeason": null,
     "jets": {
@@ -16335,6 +16726,7 @@
     "lastName": "Mulhern",
     "name": "Mulhern, Richard",
     "country": "CAN",
+    "birthDate": "1955-03-01",
     "positions": [
       "D"
     ],
@@ -16373,6 +16765,7 @@
     "lastName": "Mullen",
     "name": "Mullen, Brian",
     "country": "USA",
+    "birthDate": "1962-03-16",
     "positions": [
       "R"
     ],
@@ -16436,6 +16829,7 @@
     "lastName": "Muller",
     "name": "Muller, Mike",
     "country": "USA",
+    "birthDate": "1971-09-18",
     "positions": [],
     "rookieSeason": null,
     "jets": {
@@ -16465,6 +16859,7 @@
     "lastName": "Muni",
     "name": "Muni, Craig",
     "country": "CAN",
+    "birthDate": "1962-07-19",
     "positions": [
       "D"
     ],
@@ -16503,6 +16898,7 @@
     "lastName": "Murray",
     "name": "Murray, Adrian",
     "country": "CAN",
+    "birthDate": "1975-09-04",
     "positions": [],
     "rookieSeason": null,
     "jets": {
@@ -16532,6 +16928,7 @@
     "lastName": "Murray",
     "name": "Murray, Rob",
     "country": "CAN",
+    "birthDate": "1967-04-04",
     "positions": [
       "C"
     ],
@@ -16594,6 +16991,7 @@
     "lastName": "Murray",
     "name": "Murray, Troy",
     "country": "CAN",
+    "birthDate": "1962-07-31",
     "positions": [
       "C"
     ],
@@ -16638,6 +17036,7 @@
     "lastName": "Myers",
     "name": "Myers, Tyler",
     "country": "USA",
+    "birthDate": "1990-02-01",
     "positions": [
       "D"
     ],
@@ -16700,6 +17099,7 @@
     "lastName": "Namestnikov",
     "name": "Namestnikov, Vladislav",
     "country": "RUS",
+    "birthDate": "1992-11-22",
     "positions": [
       "C"
     ],
@@ -16762,6 +17162,7 @@
     "lastName": "Nash",
     "name": "Nash, Riley",
     "country": "CAN",
+    "birthDate": "1989-05-09",
     "positions": [
       "C"
     ],
@@ -16800,6 +17201,7 @@
     "lastName": "Neaton",
     "name": "Neaton, Logan",
     "country": "USA",
+    "birthDate": "1999-04-07",
     "positions": [],
     "rookieSeason": null,
     "jets": {
@@ -16829,6 +17231,7 @@
     "lastName": "Nehring",
     "name": "Nehring, Zach",
     "country": "USA",
+    "birthDate": "2005-03-07",
     "positions": [],
     "rookieSeason": null,
     "jets": {
@@ -16858,6 +17261,7 @@
     "lastName": "Neufeld",
     "name": "Neufeld, Ray",
     "country": "CAN",
+    "birthDate": "1959-04-15",
     "positions": [
       "R"
     ],
@@ -16914,6 +17318,7 @@
     "lastName": "Niederreiter",
     "name": "Niederreiter, Nino",
     "country": "CHE",
+    "birthDate": "1992-09-08",
     "positions": [
       "R"
     ],
@@ -16976,6 +17381,7 @@
     "lastName": "Nikkanen",
     "name": "Nikkanen, Henri",
     "country": "FIN",
+    "birthDate": "2001-04-28",
     "positions": [],
     "rookieSeason": null,
     "jets": {
@@ -17005,6 +17411,7 @@
     "lastName": "Niku",
     "name": "Niku, Sami",
     "country": "FIN",
+    "birthDate": "1996-10-10",
     "positions": [
       "D"
     ],
@@ -17062,6 +17469,7 @@
     "lastName": "Nill",
     "name": "Nill, Jim",
     "country": "CAN",
+    "birthDate": "1958-04-11",
     "positions": [
       "R"
     ],
@@ -17118,6 +17526,7 @@
     "lastName": "Nilsson",
     "name": "Nilsson, Peter",
     "country": "SWE",
+    "birthDate": "1962-06-10",
     "positions": [],
     "rookieSeason": null,
     "jets": {
@@ -17147,6 +17556,7 @@
     "lastName": "Nogier",
     "name": "Nogier, Nelson",
     "country": "CAN",
+    "birthDate": "1996-05-27",
     "positions": [
       "D"
     ],
@@ -17192,6 +17602,7 @@
     "lastName": "Norton",
     "name": "Norton, Chris",
     "country": "CAN",
+    "birthDate": "1965-04-11",
     "positions": [],
     "rookieSeason": null,
     "jets": {
@@ -17221,6 +17632,7 @@
     "lastName": "Norwich",
     "name": "Norwich, Craig",
     "country": "USA",
+    "birthDate": "1955-12-15",
     "positions": [
       "D"
     ],
@@ -17259,6 +17671,7 @@
     "lastName": "Numminen",
     "name": "Numminen, Teemu",
     "country": "FIN",
+    "birthDate": "1973-12-23",
     "positions": [],
     "rookieSeason": null,
     "jets": {
@@ -17288,6 +17701,7 @@
     "lastName": "Numminen",
     "name": "Numminen, Teppo",
     "country": "FIN",
+    "birthDate": "1968-07-03",
     "positions": [
       "D"
     ],
@@ -17369,6 +17783,7 @@
     "lastName": "Nyquist",
     "name": "Nyquist, Gustav",
     "country": "SWE",
+    "birthDate": "1989-09-01",
     "positions": [
       "R"
     ],
@@ -17407,6 +17822,7 @@
     "lastName": "O'Connor",
     "name": "O'Connor, Robert",
     "country": "USA",
+    "birthDate": "1961-04-02",
     "positions": [],
     "rookieSeason": null,
     "jets": {
@@ -17436,6 +17852,7 @@
     "lastName": "O'Dell",
     "name": "O'Dell, Eric",
     "country": "CAN",
+    "birthDate": "1990-06-21",
     "positions": [
       "C"
     ],
@@ -17480,6 +17897,7 @@
     "lastName": "O'Neill",
     "name": "O'Neill, Michael",
     "country": "CAN",
+    "birthDate": "1967-11-03",
     "positions": [
       "G"
     ],
@@ -17524,6 +17942,7 @@
     "lastName": "Obsut",
     "name": "Obsut, Jaroslav",
     "country": "SVK",
+    "birthDate": "1976-09-03",
     "positions": [],
     "rookieSeason": "2000-01",
     "jets": {
@@ -17553,6 +17972,7 @@
     "lastName": "Oduya",
     "name": "Oduya, Johnny",
     "country": "SWE",
+    "birthDate": "1981-10-01",
     "positions": [
       "D"
     ],
@@ -17591,6 +18011,7 @@
     "lastName": "Ohman",
     "name": "Ohman, Roger",
     "country": "SWE",
+    "birthDate": "1967-06-05",
     "positions": [],
     "rookieSeason": null,
     "jets": {
@@ -17620,6 +18041,7 @@
     "lastName": "Oktyabrev",
     "name": "Oktyabrev, Artur",
     "country": "RUS",
+    "birthDate": "1973-11-26",
     "positions": [],
     "rookieSeason": null,
     "jets": {
@@ -17649,6 +18071,7 @@
     "lastName": "Olausson",
     "name": "Olausson, Fredrik",
     "country": "SWE",
+    "birthDate": "1966-10-05",
     "positions": [
       "D"
     ],
@@ -17730,6 +18153,7 @@
     "lastName": "Olczyk",
     "name": "Olczyk, Eddie",
     "country": "USA",
+    "birthDate": "1966-08-16",
     "positions": [
       "R"
     ],
@@ -17792,6 +18216,7 @@
     "lastName": "Olsen",
     "name": "Olsen, Ryan",
     "country": "CAN",
+    "birthDate": "1994-03-25",
     "positions": [],
     "rookieSeason": null,
     "jets": {
@@ -17821,6 +18246,7 @@
     "lastName": "Osborne",
     "name": "Osborne, Mark",
     "country": "CAN",
+    "birthDate": "1961-08-13",
     "positions": [
       "L"
     ],
@@ -17865,6 +18291,7 @@
     "lastName": "Osiecki",
     "name": "Osiecki, Mark",
     "country": "USA",
+    "birthDate": "1968-07-23",
     "positions": [
       "D"
     ],
@@ -17903,6 +18330,7 @@
     "lastName": "Ostir",
     "name": "Ostir, Glen",
     "country": "CAN",
+    "birthDate": "1961-01-14",
     "positions": [],
     "rookieSeason": null,
     "jets": {
@@ -17932,6 +18360,7 @@
     "lastName": "Palosaari",
     "name": "Palosaari, Esa",
     "country": "FIN",
+    "birthDate": "1968-01-16",
     "positions": [],
     "rookieSeason": null,
     "jets": {
@@ -17961,6 +18390,7 @@
     "lastName": "Pardy",
     "name": "Pardy, Adam",
     "country": "CAN",
+    "birthDate": "1984-03-29",
     "positions": [
       "D"
     ],
@@ -18011,6 +18441,7 @@
     "lastName": "Parsons",
     "name": "Parsons, John",
     "country": "USA",
+    "birthDate": "2006-01-15",
     "positions": [],
     "rookieSeason": null,
     "jets": {
@@ -18040,6 +18471,7 @@
     "lastName": "Paslawski",
     "name": "Paslawski, Greg",
     "country": "CAN",
+    "birthDate": "1961-08-25",
     "positions": [
       "R"
     ],
@@ -18078,6 +18510,7 @@
     "lastName": "Pavelec",
     "name": "Pavelec, Ondrej",
     "country": "CZE",
+    "birthDate": "1987-08-31",
     "positions": [
       "G"
     ],
@@ -18146,6 +18579,7 @@
     "lastName": "Paynter",
     "name": "Paynter, Kent",
     "country": "CAN",
+    "birthDate": "1965-04-27",
     "positions": [
       "D"
     ],
@@ -18184,6 +18618,7 @@
     "lastName": "Pearson",
     "name": "Pearson, Tanner",
     "country": "CAN",
+    "birthDate": "1992-08-10",
     "positions": [
       "L"
     ],
@@ -18222,6 +18657,7 @@
     "lastName": "Peltola",
     "name": "Peltola, Pekka",
     "country": "FIN",
+    "birthDate": "1965-06-24",
     "positions": [],
     "rookieSeason": null,
     "jets": {
@@ -18251,6 +18687,7 @@
     "lastName": "Peluso",
     "name": "Peluso, Anthony",
     "country": "CAN",
+    "birthDate": "1989-04-18",
     "positions": [
       "R"
     ],
@@ -18307,6 +18744,7 @@
     "lastName": "Penney",
     "name": "Penney, Steve",
     "country": "CAN",
+    "birthDate": "1961-02-02",
     "positions": [
       "G"
     ],
@@ -18351,6 +18789,7 @@
     "lastName": "Perfetti",
     "name": "Perfetti, Cole",
     "country": "CAN",
+    "birthDate": "2002-01-01",
     "positions": [
       "C"
     ],
@@ -18420,6 +18859,7 @@
     "lastName": "Perreault",
     "name": "Perreault, Mathieu",
     "country": "CAN",
+    "birthDate": "1988-01-05",
     "positions": [
       "C"
     ],
@@ -18494,6 +18934,7 @@
     "lastName": "Pesetti",
     "name": "Pesetti, Ron",
     "country": "CAN",
+    "birthDate": "1963-05-03",
     "positions": [],
     "rookieSeason": null,
     "jets": {
@@ -18523,6 +18964,7 @@
     "lastName": "Petan",
     "name": "Petan, Nic",
     "country": "CAN",
+    "birthDate": "1995-03-22",
     "positions": [
       "C"
     ],
@@ -18580,6 +19022,7 @@
     "lastName": "Phillips",
     "name": "Phillips, Isaak",
     "country": "CAN",
+    "birthDate": "2001-09-28",
     "positions": [
       "D"
     ],
@@ -18618,6 +19061,7 @@
     "lastName": "Phillips",
     "name": "Phillips, Jamie",
     "country": "CAN",
+    "birthDate": "1993-03-24",
     "positions": [],
     "rookieSeason": null,
     "jets": {
@@ -18647,6 +19091,7 @@
     "lastName": "Picard",
     "name": "Picard, Robert",
     "country": "CAN",
+    "birthDate": "1957-05-25",
     "positions": [
       "D"
     ],
@@ -18697,6 +19142,7 @@
     "lastName": "Pionk",
     "name": "Pionk, Neal",
     "country": "USA",
+    "birthDate": "1995-07-29",
     "positions": [
       "D"
     ],
@@ -18771,6 +19217,7 @@
     "lastName": "Plantery",
     "name": "Plantery, Mark",
     "country": "CAN",
+    "birthDate": "1959-05-14",
     "positions": [
       "D"
     ],
@@ -18803,6 +19250,7 @@
     "lastName": "Podiak",
     "name": "Podiak, Bradley",
     "country": "USA",
+    "birthDate": "1971-03-26",
     "positions": [],
     "rookieSeason": null,
     "jets": {
@@ -18832,6 +19280,7 @@
     "lastName": "Poeschek",
     "name": "Poeschek, Rudy",
     "country": "CAN",
+    "birthDate": "1966-09-29",
     "positions": [
       "D"
     ],
@@ -18876,6 +19325,7 @@
     "lastName": "Poganski",
     "name": "Poganski, Austin",
     "country": "USA",
+    "birthDate": "1996-02-16",
     "positions": [
       "R"
     ],
@@ -18914,6 +19364,7 @@
     "lastName": "Ponikarovsky",
     "name": "Ponikarovsky, Alexei",
     "country": "UKR",
+    "birthDate": "1980-04-09",
     "positions": [
       "L"
     ],
@@ -18952,6 +19403,7 @@
     "lastName": "Pooley",
     "name": "Pooley, Paul",
     "country": "CAN",
+    "birthDate": "1960-08-02",
     "positions": [
       "C"
     ],
@@ -18990,6 +19442,7 @@
     "lastName": "Poolman",
     "name": "Poolman, Tucker",
     "country": "USA",
+    "birthDate": "1993-06-08",
     "positions": [
       "D"
     ],
@@ -19041,6 +19494,7 @@
     "lastName": "Postma",
     "name": "Postma, Paul",
     "country": "CAN",
+    "birthDate": "1989-02-22",
     "positions": [
       "D"
     ],
@@ -19109,6 +19563,7 @@
     "lastName": "Potapov",
     "name": "Potapov, Vladimir",
     "country": "RUS",
+    "birthDate": "1975-06-21",
     "positions": [],
     "rookieSeason": null,
     "jets": {
@@ -19138,6 +19593,7 @@
     "lastName": "Quigley",
     "name": "Quigley, Dave",
     "country": "CAN",
+    "birthDate": "1965-01-17",
     "positions": [],
     "rookieSeason": null,
     "jets": {
@@ -19167,6 +19623,7 @@
     "lastName": "Quint",
     "name": "Quint, Deron",
     "country": "USA",
+    "birthDate": "1976-03-12",
     "positions": [
       "D"
     ],
@@ -19206,6 +19663,7 @@
     "lastName": "Quintal",
     "name": "Quintal, Stephane",
     "country": "CAN",
+    "birthDate": "1968-10-22",
     "positions": [
       "D"
     ],
@@ -19250,6 +19708,7 @@
     "lastName": "Raisky",
     "name": "Raisky, Andrei",
     "country": "RUS",
+    "birthDate": "1970-03-30",
     "positions": [],
     "rookieSeason": null,
     "jets": {
@@ -19279,6 +19738,7 @@
     "lastName": "Raitanen",
     "name": "Raitanen, Rauli",
     "country": "FIN",
+    "birthDate": "1970-01-14",
     "positions": [],
     "rookieSeason": null,
     "jets": {
@@ -19308,6 +19768,7 @@
     "lastName": "Rashevsky",
     "name": "Rashevsky, Dmitri",
     "country": "RUS",
+    "birthDate": "2000-10-09",
     "positions": [],
     "rookieSeason": null,
     "jets": {
@@ -19337,6 +19798,7 @@
     "lastName": "Ratushny",
     "name": "Ratushny, Dan",
     "country": "CAN",
+    "birthDate": "1970-10-29",
     "positions": [],
     "rookieSeason": "1992-93",
     "jets": {
@@ -19366,6 +19828,7 @@
     "lastName": "Ray",
     "name": "Ray, Derek",
     "country": "USA",
+    "birthDate": "1963-10-30",
     "positions": [],
     "rookieSeason": null,
     "jets": {
@@ -19395,6 +19858,7 @@
     "lastName": "Reddick",
     "name": "Reddick, Eldon",
     "country": "CAN",
+    "birthDate": "1964-10-06",
     "positions": [
       "G"
     ],
@@ -19439,6 +19903,7 @@
     "lastName": "Redmond",
     "name": "Redmond, Zach",
     "country": "USA",
+    "birthDate": "1988-07-26",
     "positions": [
       "D"
     ],
@@ -19483,6 +19948,7 @@
     "lastName": "Reichel",
     "name": "Reichel, Kristian",
     "country": "CZE",
+    "birthDate": "1998-06-11",
     "positions": [
       "C"
     ],
@@ -19521,6 +19987,7 @@
     "lastName": "Ricciardi",
     "name": "Ricciardi, Jeff",
     "country": "CAN",
+    "birthDate": "1971-06-22",
     "positions": [],
     "rookieSeason": null,
     "jets": {
@@ -19550,6 +20017,7 @@
     "lastName": "Riley",
     "name": "Riley, Bill",
     "country": "CAN",
+    "birthDate": "1950-09-20",
     "positions": [
       "R"
     ],
@@ -19582,6 +20050,7 @@
     "lastName": "Rioux",
     "name": "Rioux, Gerry",
     "country": "CAN",
+    "birthDate": "1959-02-17",
     "positions": [
       "R"
     ],
@@ -19614,6 +20083,7 @@
     "lastName": "Rittich",
     "name": "Rittich, David",
     "country": "CZE",
+    "birthDate": "1992-08-19",
     "positions": [
       "G"
     ],
@@ -19646,6 +20116,7 @@
     "lastName": "Romaniuk",
     "name": "Romaniuk, Russ",
     "country": "CAN",
+    "birthDate": "1970-06-09",
     "positions": [
       "L"
     ],
@@ -19703,6 +20174,7 @@
     "lastName": "Ronan",
     "name": "Ronan, Ed",
     "country": "USA",
+    "birthDate": "1968-03-21",
     "positions": [
       "R"
     ],
@@ -19741,6 +20213,7 @@
     "lastName": "Rooney",
     "name": "Rooney, Steve",
     "country": "USA",
+    "birthDate": "1962-06-28",
     "positions": [
       "C"
     ],
@@ -19785,6 +20258,7 @@
     "lastName": "Rosen",
     "name": "Rosen, Isak",
     "country": "SWE",
+    "birthDate": "2003-03-15",
     "positions": [
       "R"
     ],
@@ -19829,6 +20303,7 @@
     "lastName": "Roslovic",
     "name": "Roslovic, Jack",
     "country": "USA",
+    "birthDate": "1997-01-29",
     "positions": [
       "C"
     ],
@@ -19886,6 +20361,7 @@
     "lastName": "Rougelot",
     "name": "Rougelot, Roger",
     "country": "USA",
+    "birthDate": "1968-07-31",
     "positions": [],
     "rookieSeason": null,
     "jets": {
@@ -19915,6 +20391,7 @@
     "lastName": "Roussel",
     "name": "Roussel, Dominic",
     "country": "CAN",
+    "birthDate": "1970-02-22",
     "positions": [
       "G"
     ],
@@ -19953,6 +20430,7 @@
     "lastName": "Roy",
     "name": "Roy, Allain",
     "country": "CAN",
+    "birthDate": "1970-02-06",
     "positions": [],
     "rookieSeason": null,
     "jets": {
@@ -19982,6 +20460,7 @@
     "lastName": "Saifullin",
     "name": "Saifullin, Ramil",
     "country": "RUS",
+    "birthDate": "1976-04-08",
     "positions": [],
     "rookieSeason": null,
     "jets": {
@@ -20011,6 +20490,7 @@
     "lastName": "Salomonsson",
     "name": "Salomonsson, Elias",
     "country": "SWE",
+    "birthDate": "2004-08-31",
     "positions": [
       "D"
     ],
@@ -20050,6 +20530,7 @@
     "lastName": "Samberg",
     "name": "Samberg, Dylan",
     "country": "USA",
+    "birthDate": "1999-01-24",
     "positions": [
       "D"
     ],
@@ -20119,6 +20600,7 @@
     "lastName": "Sanford",
     "name": "Sanford, Zachary",
     "country": "USA",
+    "birthDate": "1994-11-09",
     "positions": [
       "L"
     ],
@@ -20157,6 +20639,7 @@
     "lastName": "Santorelli",
     "name": "Santorelli, Mike",
     "country": "CAN",
+    "birthDate": "1985-12-14",
     "positions": [
       "C"
     ],
@@ -20195,6 +20678,7 @@
     "lastName": "Savage",
     "name": "Savage, Michael",
     "country": "CAN",
+    "birthDate": "1964-04-08",
     "positions": [],
     "rookieSeason": null,
     "jets": {
@@ -20224,6 +20708,7 @@
     "lastName": "Savard",
     "name": "Savard, Serge",
     "country": "CAN",
+    "birthDate": "1946-01-22",
     "positions": [
       "D"
     ],
@@ -20262,6 +20747,7 @@
     "lastName": "Sbisa",
     "name": "Sbisa, Luca",
     "country": "ITA",
+    "birthDate": "1990-01-30",
     "positions": [
       "D"
     ],
@@ -20300,6 +20786,7 @@
     "lastName": "Scheifele",
     "name": "Scheifele, Mark",
     "country": "CAN",
+    "birthDate": "1993-03-15",
     "positions": [
       "C"
     ],
@@ -20429,6 +20916,7 @@
     "lastName": "Schenn",
     "name": "Schenn, Luke",
     "country": "CAN",
+    "birthDate": "1989-11-02",
     "positions": [
       "D"
     ],
@@ -20473,6 +20961,7 @@
     "lastName": "Schilling",
     "name": "Schilling, Cameron",
     "country": "USA",
+    "birthDate": "1988-10-07",
     "positions": [
       "D"
     ],
@@ -20505,6 +20994,7 @@
     "lastName": "Schmidt",
     "name": "Schmidt, Nate",
     "country": "USA",
+    "birthDate": "1991-07-16",
     "positions": [
       "D"
     ],
@@ -20549,6 +21039,7 @@
     "lastName": "Schneider",
     "name": "Schneider, Scott",
     "country": "USA",
+    "birthDate": "1965-05-18",
     "positions": [],
     "rookieSeason": null,
     "jets": {
@@ -20578,6 +21069,7 @@
     "lastName": "Schofield",
     "name": "Schofield, Dwight",
     "country": "USA",
+    "birthDate": "1956-03-25",
     "positions": [
       "D"
     ],
@@ -20616,6 +21108,7 @@
     "lastName": "Sebastian",
     "name": "Sebastian, Jeff",
     "country": "CAN",
+    "birthDate": "1971-11-21",
     "positions": [],
     "rookieSeason": null,
     "jets": {
@@ -20645,6 +21138,7 @@
     "lastName": "Selanne",
     "name": "Selanne, Teemu",
     "country": "FIN",
+    "birthDate": "1970-07-03",
     "positions": [
       "R"
     ],
@@ -20702,6 +21196,7 @@
     "lastName": "Selyanin",
     "name": "Selyanin, Sergei",
     "country": "RUS",
+    "birthDate": "1966-09-20",
     "positions": [],
     "rookieSeason": null,
     "jets": {
@@ -20731,6 +21226,7 @@
     "lastName": "Seppa",
     "name": "Seppa, Jyrki",
     "country": "FIN",
+    "birthDate": "1961-11-14",
     "positions": [
       "D"
     ],
@@ -20770,6 +21266,7 @@
     "lastName": "Serville",
     "name": "Serville, Brennan",
     "country": "CAN",
+    "birthDate": "1993-06-02",
     "positions": [],
     "rookieSeason": null,
     "jets": {
@@ -20799,6 +21296,7 @@
     "lastName": "Setoguchi",
     "name": "Setoguchi, Devin",
     "country": "CAN",
+    "birthDate": "1987-01-01",
     "positions": [
       "R"
     ],
@@ -20837,6 +21335,7 @@
     "lastName": "Severyn",
     "name": "Severyn, Brent",
     "country": "CAN",
+    "birthDate": "1966-02-22",
     "positions": [],
     "rookieSeason": "1989-90",
     "jets": {
@@ -20866,6 +21365,7 @@
     "lastName": "Shannon",
     "name": "Shannon, Darrin",
     "country": "CAN",
+    "birthDate": "1969-12-08",
     "positions": [
       "L"
     ],
@@ -20928,6 +21428,7 @@
     "lastName": "Shannon",
     "name": "Shannon, Darryl",
     "country": "CAN",
+    "birthDate": "1968-06-21",
     "positions": [
       "D"
     ],
@@ -20978,6 +21479,7 @@
     "lastName": "Shaw",
     "name": "Shaw, Logan",
     "country": "CAN",
+    "birthDate": "1992-10-05",
     "positions": [
       "R"
     ],
@@ -21016,6 +21518,7 @@
     "lastName": "Shaw",
     "name": "Shaw, Robert",
     "country": "CAN",
+    "birthDate": "1964-02-06",
     "positions": [],
     "rookieSeason": null,
     "jets": {
@@ -21045,6 +21548,7 @@
     "lastName": "Shore",
     "name": "Shore, Nicholas",
     "country": "USA",
+    "birthDate": "1992-09-26",
     "positions": [
       "C"
     ],
@@ -21083,6 +21587,7 @@
     "lastName": "Silk",
     "name": "Silk, Dave",
     "country": "USA",
+    "birthDate": "1958-01-01",
     "positions": [
       "R"
     ],
@@ -21121,6 +21626,7 @@
     "lastName": "Sjoberg",
     "name": "Sjoberg, Lars",
     "country": "SWE",
+    "birthDate": "1944-04-05",
     "positions": [
       "D"
     ],
@@ -21153,6 +21659,7 @@
     "lastName": "Skinner",
     "name": "Skinner, Stuart",
     "country": "CAN",
+    "birthDate": "1998-11-01",
     "positions": [
       "G"
     ],
@@ -21191,6 +21698,7 @@
     "lastName": "Skriko",
     "name": "Skriko, Petri",
     "country": "FIN",
+    "birthDate": "1962-03-13",
     "positions": [
       "L"
     ],
@@ -21229,6 +21737,7 @@
     "lastName": "Slater",
     "name": "Slater, Jim",
     "country": "USA",
+    "birthDate": "1982-12-09",
     "positions": [
       "C"
     ],
@@ -21285,6 +21794,7 @@
     "lastName": "Smail",
     "name": "Smail, Doug",
     "country": "CAN",
+    "birthDate": "1957-09-02",
     "positions": [
       "L"
     ],
@@ -21377,6 +21887,7 @@
     "lastName": "Smangs",
     "name": "Smangs, Henrik",
     "country": "SWE",
+    "birthDate": "1976-01-19",
     "positions": [],
     "rookieSeason": null,
     "jets": {
@@ -21406,6 +21917,7 @@
     "lastName": "Smith",
     "name": "Smith, Gary",
     "country": "CAN",
+    "birthDate": "1944-02-04",
     "positions": [
       "G"
     ],
@@ -21438,6 +21950,7 @@
     "lastName": "Smith",
     "name": "Smith, Gord",
     "country": "CAN",
+    "birthDate": "1949-11-17",
     "positions": [
       "D"
     ],
@@ -21476,6 +21989,7 @@
     "lastName": "Smith",
     "name": "Smith, Mark",
     "country": "USA",
+    "birthDate": "1969-10-13",
     "positions": [],
     "rookieSeason": null,
     "jets": {
@@ -21505,6 +22019,7 @@
     "lastName": "Smith",
     "name": "Smith, Nate",
     "country": "USA",
+    "birthDate": "1998-10-19",
     "positions": [],
     "rookieSeason": "2021-22",
     "jets": {
@@ -21534,6 +22049,7 @@
     "lastName": "Soetaert",
     "name": "Soetaert, Doug",
     "country": "CAN",
+    "birthDate": "1955-04-21",
     "positions": [
       "G"
     ],
@@ -21584,6 +22100,7 @@
     "lastName": "Solly",
     "name": "Solly, Jim",
     "country": "CAN",
+    "birthDate": "1970-03-19",
     "positions": [],
     "rookieSeason": null,
     "jets": {
@@ -21613,6 +22130,7 @@
     "lastName": "Sorokin",
     "name": "Sorokin, Sergei",
     "country": "RUS",
+    "birthDate": "1969-10-02",
     "positions": [],
     "rookieSeason": null,
     "jets": {
@@ -21642,6 +22160,7 @@
     "lastName": "Spacek",
     "name": "Spacek, Michael",
     "country": "CZE",
+    "birthDate": "1997-04-09",
     "positions": [],
     "rookieSeason": null,
     "jets": {
@@ -21671,6 +22190,7 @@
     "lastName": "Spring",
     "name": "Spring, Don",
     "country": "VEN",
+    "birthDate": "1959-06-16",
     "positions": [
       "D"
     ],
@@ -21721,6 +22241,7 @@
     "lastName": "St. Ivany",
     "name": "St. Ivany, Jack",
     "country": "USA",
+    "birthDate": "1999-07-22",
     "positions": [
       "D"
     ],
@@ -21759,6 +22280,7 @@
     "lastName": "Stafford",
     "name": "Stafford, Drew",
     "country": "USA",
+    "birthDate": "1985-10-30",
     "positions": [
       "R"
     ],
@@ -21809,6 +22331,7 @@
     "lastName": "Stallard",
     "name": "Stallard, Jordy",
     "country": "CAN",
+    "birthDate": "1997-09-18",
     "positions": [],
     "rookieSeason": null,
     "jets": {
@@ -21838,6 +22361,7 @@
     "lastName": "Stamler",
     "name": "Stamler, Lorne",
     "country": "CAN",
+    "birthDate": "1951-08-09",
     "positions": [
       "L"
     ],
@@ -21876,6 +22400,7 @@
     "lastName": "Staniowski",
     "name": "Staniowski, Ed",
     "country": "CAN",
+    "birthDate": "1955-07-07",
     "positions": [
       "G"
     ],
@@ -21926,6 +22451,7 @@
     "lastName": "Stanley",
     "name": "Stanley, Logan",
     "country": "CAN",
+    "birthDate": "1998-05-26",
     "positions": [
       "D"
     ],
@@ -21995,6 +22521,7 @@
     "lastName": "Stapleton",
     "name": "Stapleton, Mike",
     "country": "CAN",
+    "birthDate": "1966-05-05",
     "positions": [
       "C"
     ],
@@ -22033,6 +22560,7 @@
     "lastName": "Stapleton",
     "name": "Stapleton, Tim",
     "country": "USA",
+    "birthDate": "1982-07-19",
     "positions": [
       "C"
     ],
@@ -22065,6 +22593,7 @@
     "lastName": "Stashenkov",
     "name": "Stashenkov, Ilja",
     "country": "RUS",
+    "birthDate": "1974-08-26",
     "positions": [],
     "rookieSeason": null,
     "jets": {
@@ -22094,6 +22623,7 @@
     "lastName": "Stastny",
     "name": "Stastny, Paul",
     "country": "CAN",
+    "birthDate": "1985-12-27",
     "positions": [
       "C"
     ],
@@ -22144,6 +22674,7 @@
     "lastName": "Steen",
     "name": "Steen, Anders",
     "country": "SWE",
+    "birthDate": "1955-04-28",
     "positions": [
       "C"
     ],
@@ -22176,6 +22707,7 @@
     "lastName": "Steen",
     "name": "Steen, Thomas",
     "country": "SWE",
+    "birthDate": "1960-06-08",
     "positions": [
       "C"
     ],
@@ -22293,6 +22825,7 @@
     "lastName": "Stempniak",
     "name": "Stempniak, Lee",
     "country": "USA",
+    "birthDate": "1983-02-04",
     "positions": [
       "R"
     ],
@@ -22331,6 +22864,7 @@
     "lastName": "Stenlund",
     "name": "Stenlund, Kevin",
     "country": "SWE",
+    "birthDate": "1996-09-20",
     "positions": [
       "C"
     ],
@@ -22369,6 +22903,7 @@
     "lastName": "Stevenson",
     "name": "Stevenson, Clay",
     "country": "CAN",
+    "birthDate": "1999-03-03",
     "positions": [
       "G"
     ],
@@ -22401,6 +22936,7 @@
     "lastName": "Stewart",
     "name": "Stewart, Ryan",
     "country": "CAN",
+    "birthDate": "1967-06-01",
     "positions": [
       "C"
     ],
@@ -22440,6 +22976,7 @@
     "lastName": "Strait",
     "name": "Strait, Brian",
     "country": "USA",
+    "birthDate": "1988-01-04",
     "positions": [
       "D"
     ],
@@ -22478,6 +23015,7 @@
     "lastName": "Stuart",
     "name": "Stuart, Mark",
     "country": "USA",
+    "birthDate": "1984-04-27",
     "positions": [
       "D"
     ],
@@ -22546,6 +23084,7 @@
     "lastName": "Suess",
     "name": "Suess, CJ",
     "country": "USA",
+    "birthDate": "1994-03-17",
     "positions": [
       "L"
     ],
@@ -22591,6 +23130,7 @@
     "lastName": "Sullivan",
     "name": "Sullivan, Peter",
     "country": "CAN",
+    "birthDate": "1951-07-25",
     "positions": [
       "C"
     ],
@@ -22635,6 +23175,7 @@
     "lastName": "Svechnikov",
     "name": "Svechnikov, Evgeny",
     "country": "RUS",
+    "birthDate": "1996-10-31",
     "positions": [
       "L"
     ],
@@ -22673,6 +23214,7 @@
     "lastName": "Sykes",
     "name": "Sykes, Phil",
     "country": "CAN",
+    "birthDate": "1959-03-18",
     "positions": [
       "L"
     ],
@@ -22717,6 +23259,7 @@
     "lastName": "Ta'amu",
     "name": "Ta'amu, Alofa Tunoa",
     "country": "USA",
+    "birthDate": "2008-05-28",
     "positions": [],
     "rookieSeason": null,
     "jets": {
@@ -22746,6 +23289,7 @@
     "lastName": "Tabaracci",
     "name": "Tabaracci, Rick",
     "country": "CAN",
+    "birthDate": "1969-01-02",
     "positions": [
       "G"
     ],
@@ -22796,6 +23340,7 @@
     "lastName": "Taglianetti",
     "name": "Taglianetti, Peter",
     "country": "USA",
+    "birthDate": "1963-08-15",
     "positions": [
       "D"
     ],
@@ -22865,6 +23410,7 @@
     "lastName": "Taillefer",
     "name": "Taillefer, Alexandre",
     "country": "CAN",
+    "birthDate": "2008-01-01",
     "positions": [],
     "rookieSeason": null,
     "jets": {
@@ -22894,6 +23440,7 @@
     "lastName": "Tanev",
     "name": "Tanev, Brandon",
     "country": "CAN",
+    "birthDate": "1991-12-31",
     "positions": [
       "L"
     ],
@@ -22950,6 +23497,7 @@
     "lastName": "Tangradi",
     "name": "Tangradi, Eric",
     "country": "USA",
+    "birthDate": "1989-02-10",
     "positions": [
       "L"
     ],
@@ -22994,6 +23542,7 @@
     "lastName": "Thompson",
     "name": "Thompson, Brent",
     "country": "CAN",
+    "birthDate": "1971-01-09",
     "positions": [
       "D"
     ],
@@ -23038,6 +23587,7 @@
     "lastName": "Thompson",
     "name": "Thompson, Nate",
     "country": "USA",
+    "birthDate": "1984-10-05",
     "positions": [
       "C"
     ],
@@ -23076,6 +23626,7 @@
     "lastName": "Thorburn",
     "name": "Thorburn, Chris",
     "country": "CAN",
+    "birthDate": "1983-06-03",
     "positions": [
       "R"
     ],
@@ -23144,6 +23695,7 @@
     "lastName": "Tkachuk",
     "name": "Tkachuk, Keith",
     "country": "USA",
+    "birthDate": "1972-03-28",
     "positions": [
       "L"
     ],
@@ -23207,6 +23759,7 @@
     "lastName": "Tlusty",
     "name": "Tlusty, Jiri",
     "country": "CZE",
+    "birthDate": "1988-03-16",
     "positions": [
       "L"
     ],
@@ -23245,6 +23798,7 @@
     "lastName": "Toews",
     "name": "Toews, Jonathan",
     "country": "CAN",
+    "birthDate": "1988-04-29",
     "positions": [
       "C"
     ],
@@ -23283,6 +23837,7 @@
     "lastName": "Toffoli",
     "name": "Toffoli, Tyler",
     "country": "CAN",
+    "birthDate": "1992-04-24",
     "positions": [
       "C"
     ],
@@ -23321,6 +23876,7 @@
     "lastName": "Tomalty",
     "name": "Tomalty, Glenn",
     "country": "CAN",
+    "birthDate": "1954-07-23",
     "positions": [
       "C"
     ],
@@ -23353,6 +23909,7 @@
     "lastName": "Tomlinson",
     "name": "Tomlinson, David",
     "country": "CAN",
+    "birthDate": "1968-05-08",
     "positions": [
       "C"
     ],
@@ -23385,6 +23942,7 @@
     "lastName": "Toninato",
     "name": "Toninato, Dominic",
     "country": "USA",
+    "birthDate": "1994-03-09",
     "positions": [
       "C"
     ],
@@ -23447,6 +24005,7 @@
     "lastName": "Torgersson",
     "name": "Torgersson, Daniel",
     "country": "SWE",
+    "birthDate": "2002-01-26",
     "positions": [],
     "rookieSeason": null,
     "jets": {
@@ -23476,6 +24035,7 @@
     "lastName": "Traynor",
     "name": "Traynor, Paul",
     "country": "CAN",
+    "birthDate": "1977-09-14",
     "positions": [],
     "rookieSeason": null,
     "jets": {
@@ -23505,6 +24065,7 @@
     "lastName": "Trimper",
     "name": "Trimper, Tim",
     "country": "CAN",
+    "birthDate": "1959-09-28",
     "positions": [
       "L"
     ],
@@ -23561,6 +24122,7 @@
     "lastName": "Trouba",
     "name": "Trouba, Jacob",
     "country": "USA",
+    "birthDate": "1994-02-26",
     "positions": [
       "D"
     ],
@@ -23630,6 +24192,7 @@
     "lastName": "Turcotte",
     "name": "Turcotte, Alfie",
     "country": "USA",
+    "birthDate": "1965-01-05",
     "positions": [
       "C"
     ],
@@ -23674,6 +24237,7 @@
     "lastName": "Turcotte",
     "name": "Turcotte, Darren",
     "country": "USA",
+    "birthDate": "1968-03-02",
     "positions": [
       "C"
     ],
@@ -23712,6 +24276,7 @@
     "lastName": "Turnbull",
     "name": "Turnbull, Perry",
     "country": "CAN",
+    "birthDate": "1959-03-09",
     "positions": [
       "C"
     ],
@@ -23762,6 +24327,7 @@
     "lastName": "Tverdovsky",
     "name": "Tverdovsky, Oleg",
     "country": "UKR",
+    "birthDate": "1976-05-18",
     "positions": [
       "D"
     ],
@@ -23800,6 +24366,7 @@
     "lastName": "Ulanov",
     "name": "Ulanov, Igor",
     "country": "RUS",
+    "birthDate": "1969-10-01",
     "positions": [
       "D"
     ],
@@ -23857,6 +24424,7 @@
     "lastName": "Ustaski",
     "name": "Ustaski, Matt",
     "country": "USA",
+    "birthDate": "1994-05-27",
     "positions": [],
     "rookieSeason": null,
     "jets": {
@@ -23886,6 +24454,7 @@
     "lastName": "Vallati",
     "name": "Vallati, Giovanni",
     "country": "CAN",
+    "birthDate": "2000-02-21",
     "positions": [],
     "rookieSeason": null,
     "jets": {
@@ -23915,6 +24484,7 @@
     "lastName": "Veisor",
     "name": "Veisor, Mike",
     "country": "CAN",
+    "birthDate": "1952-08-25",
     "positions": [
       "G"
     ],
@@ -23953,6 +24523,7 @@
     "lastName": "Vesalainen",
     "name": "Vesalainen, Kristian",
     "country": "FIN",
+    "birthDate": "1999-06-01",
     "positions": [
       "L"
     ],
@@ -24004,6 +24575,7 @@
     "lastName": "Vezina",
     "name": "Vezina, Steve",
     "country": "CAN",
+    "birthDate": "1975-10-25",
     "positions": [],
     "rookieSeason": null,
     "jets": {
@@ -24033,6 +24605,7 @@
     "lastName": "Vilardi",
     "name": "Vilardi, Gabriel",
     "country": "CAN",
+    "birthDate": "1999-08-16",
     "positions": [
       "C"
     ],
@@ -24089,6 +24662,7 @@
     "lastName": "Virtanen",
     "name": "Virtanen, Santeri",
     "country": "FIN",
+    "birthDate": "1999-05-11",
     "positions": [],
     "rookieSeason": null,
     "jets": {
@@ -24118,6 +24692,7 @@
     "lastName": "Visheau",
     "name": "Visheau, Mark",
     "country": "CAN",
+    "birthDate": "1973-06-27",
     "positions": [
       "D"
     ],
@@ -24157,6 +24732,7 @@
     "lastName": "Vitolinish",
     "name": "Vitolinish, Harije",
     "country": "LVA",
+    "birthDate": "1968-04-30",
     "positions": [
       "C"
     ],
@@ -24196,6 +24772,7 @@
     "lastName": "Vologzaninov",
     "name": "Vologzaninov, Ivan",
     "country": "UKR",
+    "birthDate": "1974-04-07",
     "positions": [],
     "rookieSeason": null,
     "jets": {
@@ -24225,6 +24802,7 @@
     "lastName": "Wagner",
     "name": "Wagner, Fabian",
     "country": "SWE",
+    "birthDate": "2004-05-07",
     "positions": [],
     "rookieSeason": null,
     "jets": {
@@ -24254,6 +24832,7 @@
     "lastName": "Walton",
     "name": "Walton, Kieron",
     "country": "CAN",
+    "birthDate": "2006-04-22",
     "positions": [],
     "rookieSeason": null,
     "jets": {
@@ -24283,6 +24862,7 @@
     "lastName": "Ward",
     "name": "Ward, Aaron",
     "country": "CAN",
+    "birthDate": "1973-01-17",
     "positions": [],
     "rookieSeason": "1993-94",
     "jets": {
@@ -24312,6 +24892,7 @@
     "lastName": "Ward",
     "name": "Ward, Tom",
     "country": "USA",
+    "birthDate": "1964-01-16",
     "positions": [],
     "rookieSeason": null,
     "jets": {
@@ -24341,6 +24922,7 @@
     "lastName": "Warus",
     "name": "Warus, Mike",
     "country": "CAN",
+    "birthDate": "1964-11-16",
     "positions": [],
     "rookieSeason": null,
     "jets": {
@@ -24370,6 +24952,7 @@
     "lastName": "Watters",
     "name": "Watters, Tim",
     "country": "CAN",
+    "birthDate": "1959-07-25",
     "positions": [
       "D"
     ],
@@ -24445,6 +25028,7 @@
     "lastName": "Wellwood",
     "name": "Wellwood, Kyle",
     "country": "CAN",
+    "birthDate": "1983-05-16",
     "positions": [
       "C"
     ],
@@ -24489,6 +25073,7 @@
     "lastName": "Wheeldon",
     "name": "Wheeldon, Simon",
     "country": "CAN",
+    "birthDate": "1966-08-30",
     "positions": [
       "C"
     ],
@@ -24527,6 +25112,7 @@
     "lastName": "Wheeler",
     "name": "Wheeler, Blake",
     "country": "USA",
+    "birthDate": "1986-08-31",
     "positions": [
       "R"
     ],
@@ -24631,6 +25217,7 @@
     "lastName": "Whelton",
     "name": "Whelton, William",
     "country": "USA",
+    "birthDate": "1959-08-28",
     "positions": [
       "D"
     ],
@@ -24670,6 +25257,7 @@
     "lastName": "Whitaker",
     "name": "Whitaker, Gord",
     "country": "CAN",
+    "birthDate": "1966-01-24",
     "positions": [],
     "rookieSeason": null,
     "jets": {
@@ -24699,6 +25287,7 @@
     "lastName": "Wilkinson",
     "name": "Wilkinson, Neil",
     "country": "CAN",
+    "birthDate": "1967-08-15",
     "positions": [
       "D"
     ],
@@ -24743,6 +25332,7 @@
     "lastName": "Wilson",
     "name": "Wilson, Ron",
     "country": "CAN",
+    "birthDate": "1956-05-13",
     "positions": [
       "C"
     ],
@@ -24829,6 +25419,7 @@
     "lastName": "Wong",
     "name": "Wong, Austin",
     "country": "CAN",
+    "birthDate": "2000-08-26",
     "positions": [],
     "rookieSeason": null,
     "jets": {
@@ -24858,6 +25449,7 @@
     "lastName": "Woods",
     "name": "Woods, Martin",
     "country": "CAN",
+    "birthDate": "1975-05-14",
     "positions": [],
     "rookieSeason": null,
     "jets": {
@@ -24887,6 +25479,7 @@
     "lastName": "Wooten",
     "name": "Wooten, Zach",
     "country": "USA",
+    "birthDate": "2006-02-21",
     "positions": [],
     "rookieSeason": null,
     "jets": {
@@ -24916,6 +25509,7 @@
     "lastName": "Wright",
     "name": "Wright, James",
     "country": "CAN",
+    "birthDate": "1990-03-24",
     "positions": [
       "C"
     ],
@@ -24960,6 +25554,7 @@
     "lastName": "Wright",
     "name": "Wright, Kory",
     "country": "USA",
+    "birthDate": "1965-06-10",
     "positions": [],
     "rookieSeason": null,
     "jets": {
@@ -24989,6 +25584,7 @@
     "lastName": "Yager",
     "name": "Yager, Brayden",
     "country": "CAN",
+    "birthDate": "2005-01-03",
     "positions": [
       "C"
     ],
@@ -25027,6 +25623,7 @@
     "lastName": "Ylonen",
     "name": "Ylonen, Juha",
     "country": "FIN",
+    "birthDate": "1972-02-13",
     "positions": [],
     "rookieSeason": "1996-97",
     "jets": {
@@ -25056,6 +25653,7 @@
     "lastName": "Young",
     "name": "Young, Tim",
     "country": "CAN",
+    "birthDate": "1955-02-22",
     "positions": [
       "C"
     ],
@@ -25094,6 +25692,7 @@
     "lastName": "Ysebaert",
     "name": "Ysebaert, Paul",
     "country": "CAN",
+    "birthDate": "1966-05-15",
     "positions": [
       "L"
     ],
@@ -25132,6 +25731,7 @@
     "lastName": "Yuen",
     "name": "Yuen, Zachary",
     "country": "CAN",
+    "birthDate": "1993-03-03",
     "positions": [],
     "rookieSeason": null,
     "jets": {
@@ -25161,6 +25761,7 @@
     "lastName": "Zhamnov",
     "name": "Zhamnov, Alexei",
     "country": "RUS",
+    "birthDate": "1970-10-01",
     "positions": [
       "C"
     ],
@@ -25218,6 +25819,7 @@
     "lastName": "Zhilkin",
     "name": "Zhilkin, Danil",
     "country": "RUS",
+    "birthDate": "2003-12-19",
     "positions": [
       "C"
     ],

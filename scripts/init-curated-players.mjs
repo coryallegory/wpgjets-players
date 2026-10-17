@@ -31,6 +31,7 @@ function curatedPlayer(p, retrieved) {
     lastName: p.lastName,
     name: sortableName(p.firstName, p.lastName),
     country: p.country,
+    birthDate: p.birthDate ?? null,
     positions: [...new Set(p.positions)],
     rookieSeason: p.rookieSeason ?? null,
     jets: { regularGP: sum(seasons, 'regularGP'), playoffGP: sum(seasons, 'playoffGP'), seasons },

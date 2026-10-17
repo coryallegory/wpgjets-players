@@ -8,6 +8,7 @@ const player = (overrides = {}) => ({
   lastName: 'Player',
   name: 'Player, Test',
   country: 'CAN',
+  birthDate: '1970-01-01',
   positions: ['C'],
   rookieSeason: '1990-91',
   jets: {
@@ -34,8 +35,8 @@ const expectOne = (errors, pattern) => {
 };
 
 test('valid players produce no errors', () => {
-  const noDraft = player({ playerId: 3, draft: null, qualifiedBy: ['played'], rookieSeason: null });
-  assert.deepEqual(validatePlayers([player(), draftedOnly({ playerId: 2 }), noDraft]), []);
+  const noDraft = player({ playerId: 3, birthDate: null, draft: null, qualifiedBy: ['played'], rookieSeason: null });
+  assert.deepEqual(validatePlayers([player(), draftedOnly({ playerId: 2, birthDate: '1971-02-02' }), noDraft]), []);
 });
 
 test('non-array input is reported', () => {
@@ -43,7 +44,7 @@ test('non-array input is reported', () => {
 });
 
 test('duplicate and non-numeric playerId are reported', () => {
-  expectOne(validatePlayers([player(), player()]), /duplicate playerId 1/);
+  expectOne(validatePlayers([player(), player({ birthDate: '1971-01-01' })]), /duplicate playerId 1/);
   expectOne(errorsFor({ playerId: '1' }), /playerId must be a number/);
 });
 
@@ -106,4 +107,20 @@ test('source requires site and boolean definitive', () => {
   expectOne(validatePlayers([withoutSource]), /source must be an object/);
   expectOne(errorsFor({ source: { site: '', definitive: true } }), /source.site/);
   expectOne(errorsFor({ source: { site: 'nhl.com', definitive: 'yes' } }), /source.definitive must be a boolean/);
+});
+
+test('birthDate must be null or a real YYYY-MM-DD date', () => {
+  assert.deepEqual(errorsFor({ birthDate: null }), []);
+  assert.deepEqual(errorsFor({ birthDate: '1980-02-29' }), []);
+  for (const bad of ['1980-02-30', '1981-02-29', '1980-13-01', '1980-00-10', '1980-1-1', '1980/01/01', '19800101', '1980-01-01T00:00', '', 19800101, undefined]) {
+    expectOne(errorsFor({ birthDate: bad }), /invalid birthDate/);
+  }
+});
+
+test('same lastName, firstName and birthDate is reported as a duplicate', () => {
+  const dup = validatePlayers([player(), player({ playerId: 2 })]);
+  expectOne(dup, /playerId 2\): same lastName.firstName.birthDate as playerId 1/);
+  assert.deepEqual(validatePlayers([player(), player({ playerId: 2, birthDate: '1971-01-01' })]), []);
+  assert.deepEqual(validatePlayers([player(), player({ playerId: 2, firstName: 'Other', name: 'Player, Other' })]), []);
+  assert.deepEqual(validatePlayers([player({ birthDate: null }), player({ playerId: 2, birthDate: null })]), []);
 });

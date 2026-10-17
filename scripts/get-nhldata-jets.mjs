@@ -113,6 +113,7 @@ function draftRecord(pick) {
     round: pick.round ?? null,
     overall: pick.overallPick,
     amateurTeam: pick.amateurClubName || null,
+    amateurLeague: pick.amateurLeague || null,
   };
 }
 
@@ -147,6 +148,13 @@ async function resolveDraftedId(pick, used) {
   return null;
 }
 
+// First NHL regular season (any team), as a label like "1981-82"; null if never played.
+function rookieSeason(landing) {
+  const nhl = (landing.seasonTotals ?? []).filter((t) => t.leagueAbbrev === 'NHL' && t.gameTypeId === 2);
+  if (!nhl.length) return null;
+  return seasonLabel(Math.min(...nhl.map((t) => t.season)));
+}
+
 // --- Assembly ---------------------------------------------------------------
 
 function buildPlayer(id, landing, seasons, pick, qualifiedBy, used) {
@@ -155,6 +163,7 @@ function buildPlayer(id, landing, seasons, pick, qualifiedBy, used) {
     name: fullName(landing),
     country: landing.birthCountry ?? null,
     positions: [...new Set(seasons.map((s) => s.position))],
+    rookieSeason: rookieSeason(landing),
     seasons,
     draft: pick ? draftRecord(pick) : null,
     source: { site: 'nhl.com', endpoints: [...used].sort() },

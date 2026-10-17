@@ -1,0 +1,23 @@
+{
+  "description": "Owner decisions for `npm run sync:nhl` (scripts/sync-nhl-players.mjs): differences between site/data/curated/players.json and a fresh NHL pull that need approval. id: field:<playerId>:<field> (firstName, lastName, country, birthDate, positions, rookieSeason, draft, qualifiedBy.drafted), season:<playerId>:<season>:<team> (nhl.seasons rows older than the two most recent seasons), add:<playerId> (new player that matches an existing one by lastName + birthDate). resolution: accept = take the nhl.com value; keep-curated = permanent override, the curated value is deliberately different. value (optional) = the nhl.com value the decision was made against; if nhl.com later reports something else, the item is reopened for review.",
+  "decisions": [
+    {
+      "id": "field:8447161:birthDate",
+      "resolution": "keep-curated",
+      "value": "1959-07-02",
+      "note": "John Gibson was born 1959-06-02 per Wikipedia, obituary, Hockey-Reference and hockeydb; the nhl.com 1959-07-02 is the error (wha-decisions.json nhl:hr:gibsojo01:8447161)."
+    },
+    {
+      "id": "field:8448876:birthDate",
+      "resolution": "keep-curated",
+      "value": "1949-01-31",
+      "note": "Barry Long was born 1949-01-03 per Wikipedia, Hockey-Reference and hockeydb; the nhl.com 1949-01-31 is a digit transposition (wha-decisions.json nhl:hr:longba01:8448876)."
+    },
+    {
+      "id": "field:8448599:birthDate",
+      "resolution": "keep-curated",
+      "value": "1951-09-05",
+      "note": "Owner chose 1951-06-09 for Dan Labraaten (printed on his OPC/Topps cards, matches Hockey-Reference); nhl.com, Wikipedia and hockeydb have 1951-09-05 (wha-decisions.json birthdate:hr:labrada01). Dormant: he is not in the NHL Jets pull (never played for or was drafted by the NHL Jets)."
+    }
+  ]
+}

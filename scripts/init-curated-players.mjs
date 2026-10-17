@@ -6,7 +6,7 @@
 // Usage: npm run init:players [-- --force]
 import { mkdir, readFile, writeFile, access } from 'node:fs/promises';
 import { dirname, resolve } from 'node:path';
-import { fileURLToPath } from 'node:url';
+import { fileURLToPath, pathToFileURL } from 'node:url';
 import { sortableName } from './validate.mjs';
 
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), '..');
@@ -25,7 +25,8 @@ function curatedDraft(draft) {
   return { year: draft.year, team: draft.team, round: draft.round, overall: draft.overall, amateur: amateur(draft) };
 }
 
-function curatedPlayer(p, retrieved) {
+/** One curated schema-v2 record from a temp/reference/nhl-jets.json player (also used by sync-nhl-players.mjs). */
+export function curatedPlayer(p, retrieved) {
   const seasons = p.seasons.map(({ season, team, regularGP, playoffGP }) => ({ season, team, regularGP, playoffGP }));
   return {
     playerId: p.playerId,
@@ -71,4 +72,6 @@ async function main() {
   return 0;
 }
 
-process.exitCode = await main();
+if (process.argv[1] && import.meta.url === pathToFileURL(resolve(process.argv[1])).href) {
+  process.exitCode = await main();
+}

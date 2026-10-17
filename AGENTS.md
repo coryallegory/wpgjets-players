@@ -137,13 +137,28 @@ reviewed decisions (e.g. Gibson and Long birth dates).
 Site code: pure logic in `site/js/lib/` (no DOM, unit tested), DOM code in `site/js/`. Build DOM
 with `textContent`/`createElement`, never `innerHTML` with data.
 
-## Keeping NHL data current (planned: `npm run sync:nhl`)
+## Keeping NHL data current (`npm run sync:nhl`)
 
-- New players (call-ups, first-game debuts, new draft picks) are added from a fresh NHL pull.
-- Game totals for the two most recent seasons in the pull are refreshed automatically (owner
-  decision); changes to older seasons, and to identity fields (name, birth date, country, draft,
-  rookie season), are shown as a diff and need owner approval. Approved corrections (e.g. Gibson and
-  Long birth dates) are kept in a permanent overrides file so a re-pull never undoes them.
+Workflow: `npm run get:nhl` -> `npm run sync:nhl` (dry run, review the report) -> `npm run sync:nhl -- --apply`.
+`scripts/sync-nhl-players.mjs` is network-free; it refuses if `temp/reference/nhl-jets.json` is missing
+or older than 24h (`--allow-stale` to override).
+
+- ADDED: players in the pull but not in `players.json` get the init:players record (source nhl.com).
+  A new id matching an existing player by normalised lastName + birthDate is a CONFLICT and is not
+  added (usually an existing record should move to that NHL id; or decide `add:<id>`).
+- AUTO-UPDATED (owner decision, no approval): `nhl.seasons` rows of the two most recent seasons in
+  the pull plus recomputed totals; "played" added to `qualifiedBy` on a first game (a null
+  rookieSeason is then filled from nhl.com).
+- NEEDS REVIEW (diff only): older season rows, firstName/lastName (name re-derived), country,
+  birthDate, positions (never changed from other sources without approval), rookieSeason, draft,
+  the "drafted" flag. Decide in `data/decisions/nhl-sync-decisions.json`:
+  `{ id, resolution: "accept" | "keep-curated", note, value }` with ids `field:<playerId>:<field>`,
+  `season:<playerId>:<season>:<team>`, `add:<playerId>`. keep-curated = permanent override (Gibson,
+  Long; Labraaten dormant); `value` = the nhl.com value decided against (a new nhl.com value reopens it).
+  Stale decisions warn.
+- Never deletes players (missing ones are reported) and never touches wha, notes, needsReview or
+  source. `--apply` refuses while review items/conflicts are open; `--apply --allow-open` writes only
+  the safe parts. The result must pass validation or nothing is written. Idempotent.
 
 ## Not yet decided
 

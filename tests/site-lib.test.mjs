@@ -155,6 +155,36 @@ test('filter toggles: played / drafted combinations', () => {
   assert.deepEqual(run(false, false), []);
 });
 
+test('toRow derives played and drafted eras', () => {
+  const r = toRow(curated({
+    nhl: { regularGP: 90, playoffGP: 0, seasons: [{ season: '1981-82', team: 'WIN', regularGP: 80, playoffGP: 0 }, { season: '2013-14', team: 'WPG', regularGP: 10, playoffGP: 0 }] },
+    wha: wha([['1975-76', 5, 0]]),
+  }));
+  assert.deepEqual(r.playedEras, ['wha', 'jets1', 'jets2']);
+  assert.deepEqual(r.draftedEras, ['jets1']);
+  assert.deepEqual(toRow(curated({ draft: { year: 2007, team: 'ATL' }, nhl: nothing })).draftedEras, []);
+  assert.deepEqual(toRow(curated({ draft: { year: 2012, team: 'WPG' } })).draftedEras, ['jets2']);
+});
+
+test('era filters pair with Played / Drafted', () => {
+  const rows = [
+    row(1, 'WhaOnly', { playedEras: ['wha'], draftedEras: [] }),
+    row(2, 'One', { playedEras: ['jets1'], draftedEras: ['jets1'], qualifiedBy: ['played', 'drafted'] }),
+    row(3, 'TwoDraftedOne', { playedEras: ['jets2'], draftedEras: ['jets1'], qualifiedBy: ['played', 'drafted'] }),
+    row(4, 'DraftOnly', { playedEras: [], draftedEras: ['jets2'], qualifiedBy: ['drafted'] }),
+  ];
+  const run = (played, drafted, ...on) =>
+    ids(filterRows(rows, { played, drafted, eras: { wha: on.includes('wha'), jets1: on.includes('jets1'), jets2: on.includes('jets2') } }));
+  assert.deepEqual(run(true, true, 'wha', 'jets1', 'jets2'), [1, 2, 3, 4]);
+  assert.deepEqual(run(true, true, 'wha'), [1]);
+  assert.deepEqual(run(true, true, 'jets1'), [2, 3]);
+  assert.deepEqual(run(true, false, 'jets1'), [2]);
+  assert.deepEqual(run(false, true, 'jets1'), [2, 3]);
+  assert.deepEqual(run(true, true, 'jets2'), [3, 4]);
+  assert.deepEqual(run(true, true), []);
+  assert.deepEqual(run(false, false, 'jets1'), []);
+});
+
 test('search matches either name order, ignoring case and accents', () => {
   const rows = [toRow(curated()), toRow(curated({ playerId: 2, firstName: 'Viggo', lastName: 'Björck', name: 'Björck, Viggo' }))];
   const search = (query) => ids(filterRows(rows, { played: true, drafted: true, query }));

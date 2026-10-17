@@ -52,6 +52,7 @@ h1 { margin: 0; font-size: 1.6rem; }
 .toggle::before { content: "\2610\00a0"; }
 .toggle[aria-pressed="true"] { background: var(--accent); color: var(--accent-text); border-color: var(--accent); }
 .toggle[aria-pressed="true"]::before { content: "\2611\00a0"; }
+.controls-divider { align-self: stretch; width: 1px; background: var(--border); }
 .count { margin-left: auto; color: var(--muted); }
 
 :focus-visible { outline: 3px solid var(--focus); outline-offset: 2px; }

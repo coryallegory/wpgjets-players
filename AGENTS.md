@@ -41,6 +41,7 @@ Only a **single rookie card per player** is in scope.
 
 ## Technical decisions
 
+- **Published site lives in `site/`** and is deployed to GitHub Pages by `.github/workflows/deploy-pages.yml` (Pages source: GitHub Actions). Nothing outside `site/` is published.
 - **Static website**: plain HTML/CSS/JS, no build step, no server required. It must work when
   hosted statically (GitHub Pages) and ideally opened locally.
 - **Data is produced by local scripts** and committed to git alongside the site assets. The site

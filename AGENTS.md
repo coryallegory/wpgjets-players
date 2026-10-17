@@ -17,6 +17,15 @@ Qualifying players (a player needs only one):
 - **Drafted:** selected by a Winnipeg Jets franchise (the team that held the pick) in an NHL draft,
   even if they never played for the Jets. WHA drafts are out of scope.
 
+## Owner priorities
+
+- Phase 2 is an ongoing review process: agents produce a baseline first pass, owner and agent tune it
+  over time (mostly players without a Young Guns card). Pilot first to settle the approach and how
+  edge cases are recorded.
+- WHA-era draft details are not a priority. Recent NHL draft picks (past few years) matter: they
+  help anticipate who reaches the Jets roster and when to watch for their rookie cards.
+- Add tooling only when it meaningfully improves efficiency, accuracy or organization.
+
 ## Phases
 
 1. **Player list** – assemble qualifying players. Primary source: official NHL stats

@@ -10,7 +10,8 @@
     "get:hockeydb-wha": "node scripts/get-hockeydb-wha.mjs",
     "get:hr-wha": "node scripts/get-hockeyreference-wha.mjs",
     "init:players": "node scripts/init-curated-players.mjs",
-    "reconcile:wha": "node scripts/reconcile-wha.mjs"
+    "reconcile:wha": "node scripts/reconcile-wha.mjs",
+    "merge:wha": "node scripts/merge-wha-into-players.mjs"
   },
   "engines": {
     "node": ">=22"

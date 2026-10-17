@@ -1,6 +1,8 @@
 #!/usr/bin/env node
 // One-time seeding of site/data/curated/players.json from temp/reference/nhl-jets.json.
 // Refuses to overwrite an existing file unless --force is given.
+// Writes schema v2 records (NHL Jets games in `nhl`; see scripts/validate.mjs). WHA Jets players and
+// `wha` blocks are added afterwards by scripts/merge-wha-into-players.mjs (npm run merge:wha).
 // Usage: npm run init:players [-- --force]
 import { mkdir, readFile, writeFile, access } from 'node:fs/promises';
 import { dirname, resolve } from 'node:path';
@@ -34,7 +36,7 @@ function curatedPlayer(p, retrieved) {
     birthDate: p.birthDate ?? null,
     positions: [...new Set(p.positions)],
     rookieSeason: p.rookieSeason ?? null,
-    jets: { regularGP: sum(seasons, 'regularGP'), playoffGP: sum(seasons, 'playoffGP'), seasons },
+    nhl: { regularGP: sum(seasons, 'regularGP'), playoffGP: sum(seasons, 'playoffGP'), seasons },
     draft: curatedDraft(p.draft),
     qualifiedBy: p.qualifiedBy,
     source: { site: 'nhl.com', definitive: true, retrieved },

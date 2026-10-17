@@ -3,7 +3,7 @@ import assert from 'node:assert/strict';
 import {
   normName, firstNamesCompatible, namesCompatible, compareBirthDates, gpKey, proposeBirthDate,
   nhlTier, matchSources, pairDisagreements, assignWhaIds, indexDecisions, resolveItem,
-  staleDecisionWarnings, reconcile, renderReview, WHA_ID_START,
+  staleDecisionWarnings, reconcile, renderReview, WHA_ID_START, nhlLayer, isWhaReservedId,
 } from '../scripts/reconcile-wha.mjs';
 
 // ---------------------------------------------------------------- fixtures
@@ -266,4 +266,68 @@ test('reconcile fails loudly on malformed inputs', () => {
   assert.throws(() => reconcile({ hr: HR, db: DB, nhl: {}, decisions: { decisions: [] }, ids: emptyIds() }), /array/);
   assert.throws(() => reconcile({ hr: HR, db: DB, nhl: NHL, decisions: { decisions: [] }, ids: { assignments: [{ key: 'a', playerId: 5 }] } }), /playerId/);
   assert.throws(() => run([{ id: 'nhl:hr:longba01:8448876', resolution: 'use-hr' }]), /not valid here/);
+});
+
+// ---------------------------------------------------------------- schema v2 / merged players.json
+
+test('nhlLayer drops WHA-only records, reads v1 jets or v2 nhl, and prefers nhl.com birth dates', () => {
+  const v2 = { ...nhlP(8448876, 'Barry', 'Long', '1949-01-03'), nhl: { regularGP: 10, playoffGP: 0, seasons: [] } };
+  delete v2.jets;
+  const whaOnly = { ...nhlP(900001, 'Bob', 'Ash', '1943-09-29'), playerId: 900001 };
+  const layer = nhlLayer([v2, whaOnly, nhlP(1, 'Bill', 'Lesuk', '1946-11-01')], new Map([[8448876, '1949-01-31']]));
+  assert.deepEqual(layer.map((p) => p.playerId), [8448876, 1]);
+  assert.equal(layer[0].birthDate, '1949-01-31');
+  assert.equal(layer[0].curatedBirthDate, '1949-01-03');
+  assert.equal(layer[1].nhl.regularGP, 10); // v1 jets exposed as nhl
+  assert.ok(isWhaReservedId(900000) && isWhaReservedId(900074) && !isWhaReservedId(8448876));
+});
+
+test('merge preview uses schema v2 records, notes and needsReview', () => {
+  const first = run();
+  const { report } = run([{ id: 'nhl:hr:longba01:8448876', resolution: 'same-person', note: 'Wikipedia: born 1949-01-03' }], first.idsFile);
+  const m = Object.fromEntries(report.merge.map((x) => [x.key, x]));
+  const holden = m['hr:holdebi01'].record;
+  assert.deepEqual(holden.nhl, { regularGP: 0, playoffGP: 0, seasons: [] });
+  assert.equal(holden.jets, undefined);
+  assert.equal(holden.wha.position, undefined);
+  assert.deepEqual(holden.wha.source.sites, ['hockey-reference.com', 'hockeydb.com']);
+  assert.equal(holden.wha.source.definitive, false);
+  assert.equal(holden.source.site, 'hockey-reference.com');
+  assert.equal(holden.source.crossCheck, 'hockeydb.com');
+  assert.deepEqual(holden.positions, ['G']);
+  assert.deepEqual(holden.notes, ['birthDate 1949-07-23 per Hockey-Reference only; hockeydb has none', 'position per Hockey-Reference G; hockeydb has D']);
+  // Open birth-date item -> provisional note + needsReview
+  assert.deepEqual(m['hr:grattje01'].record.needsReview, ['birthDate']);
+  assert.match(m['hr:grattje01'].record.notes[0], /^birthDate provisional \(birthdate:hr:grattje01\): Hockey-Reference 1947-03-08, hockeydb 1949-03-08/);
+  // Open GP item -> needsReview wha
+  assert.deepEqual(m['hr:ashbo01'].record.needsReview, ['wha']);
+  // Matched by decision with an NHL birth date typo: correction + decision notes
+  const long = m['hr:longba01'];
+  assert.equal(long.differsFromNhlCom, true);
+  assert.deepEqual(long.needsReview, []);
+  assert.ok(long.notes.includes('birthDate corrected 1949-01-31 -> 1949-01-03 (nhl.com value replaced): Hockey-Reference and hockeydb agree'));
+  assert.ok(long.notes.some((n) => /owner decision nhl:hr:longba01:8448876: Wikipedia/.test(n)));
+  // WHA position differing from NHL goes to notes (positions untouched)
+  assert.deepEqual(m['hr:lesukbi01'].notes, ['WHA position per Hockey-Reference L (LW), hockeydb D; NHL positions R kept']);
+});
+
+test('reconcile on a merged players.json keeps matches and decisions stable (nhl.com birth dates)', () => {
+  const first = run();
+  const decisions = [{ id: 'nhl:hr:longba01:8448876', resolution: 'same-person', note: '' }];
+  const before = run(decisions, first.idsFile).report;
+  // players.json after a merge: corrected birth date, v2 block, plus a WHA-only record.
+  const merged = structuredClone(NHL).map((p) => {
+    const { jets, ...rest } = p;
+    return { ...rest, nhl: jets, ...(p.playerId === 8448876 ? { birthDate: '1949-01-03' } : {}) };
+  });
+  merged.push({ ...nhlP(900003, 'Bill', 'Holden', '1949-07-23'), playerId: 900003 });
+  const after = reconcile({
+    hr: structuredClone(HR), db: structuredClone(DB), nhl: merged, decisions: { decisions }, ids: first.idsFile,
+    nhlBirthDates: new Map(NHL.map((p) => [p.playerId, p.birthDate])),
+  });
+  assert.deepEqual(after.report.warnings, before.warnings); // decision not stale
+  assert.ok(!after.report.warnings.some((w) => /stale/.test(w)));
+  assert.deepEqual(after.report.resolvedItems.map((r) => r.id), before.resolvedItems.map((r) => r.id));
+  assert.equal(after.report.merge.find((x) => x.key === 'hr:longba01').notes.join('|'), before.merge.find((x) => x.key === 'hr:longba01').notes.join('|'));
+  assert.equal(after.report.merge.find((x) => x.key === 'hr:longba01').changesCuratedBirthDate, false);
 });

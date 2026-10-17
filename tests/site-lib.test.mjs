@@ -17,7 +17,7 @@ const curated = (overrides = {}) => ({
   country: 'CAN',
   positions: ['C'],
   rookieSeason: '1981-82',
-  jets: {
+  nhl: {
     regularGP: 713,
     playoffGP: 33,
     seasons: [
@@ -49,9 +49,9 @@ test('display and yearsLabel', () => {
 test('toRow builds the view model', () => {
   const r = toRow(curated());
   assert.equal(r.name, 'Hawerchuk, Dale');
-  assert.equal(r.seasonCount, 2);
-  assert.equal(r.firstSeason, '1981-82');
-  assert.equal(r.yearsLabel, '1981-82 – 1982-83');
+  assert.equal(r.nhlSeasonCount, 2);
+  assert.equal(r.nhlFirstSeason, '1981-82');
+  assert.equal(r.nhlYearsLabel, '1981-82 – 1982-83');
   assert.equal(r.position, 'C');
   assert.equal(r.overall, 1);
   assert.equal(r.amateur, 'Cornwall (QMJHL)');
@@ -83,10 +83,10 @@ test('Birth Date sorts chronologically ascending and descending, missing last', 
 });
 
 test('toRow handles drafted-only and undrafted players', () => {
-  const drafted = toRow(curated({ rookieSeason: null, jets: { regularGP: 0, playoffGP: 0, seasons: [] } }));
-  assert.equal(drafted.seasonCount, 0);
-  assert.equal(drafted.yearsLabel, null);
-  assert.equal(drafted.firstSeason, null);
+  const drafted = toRow(curated({ rookieSeason: null, nhl: { regularGP: 0, playoffGP: 0, seasons: [] } }));
+  assert.equal(drafted.nhlSeasonCount, 0);
+  assert.equal(drafted.nhlYearsLabel, null);
+  assert.equal(drafted.nhlFirstSeason, null);
   const undrafted = toRow(curated({ draft: null }));
   assert.equal(undrafted.draftYear, null);
   assert.equal(undrafted.overall, null);
@@ -119,8 +119,8 @@ test('missing values sort last in both directions', () => {
 });
 
 test('zero is a value, not missing', () => {
-  const rows = [row(1, 'A', { seasonCount: null }), row(2, 'B', { seasonCount: 0 })];
-  assert.deepEqual(ids(sortRows(rows, column('seasonCount'), 'asc')), [2, 1]);
+  const rows = [row(1, 'A', { nhlSeasonCount: null }), row(2, 'B', { nhlSeasonCount: 0 })];
+  assert.deepEqual(ids(sortRows(rows, column('nhlSeasons'), 'asc')), [2, 1]);
 });
 
 test('ties fall back to name then playerId, and input is not mutated', () => {
@@ -131,9 +131,9 @@ test('ties fall back to name then playerId, and input is not mutated', () => {
   assert.deepEqual(rows, copy);
 });
 
-test('Jets Years sorts by first season', () => {
-  const rows = [row(1, 'A', { firstSeason: '1990-91' }), row(2, 'B', { firstSeason: '1981-82' }), row(3, 'C', { firstSeason: null })];
-  assert.deepEqual(ids(sortRows(rows, column('years'), 'asc')), [2, 1, 3]);
+test('NHL Years sorts by first season', () => {
+  const rows = [row(1, 'A', { nhlFirstSeason: '1990-91' }), row(2, 'B', { nhlFirstSeason: '1981-82' }), row(3, 'C', { nhlFirstSeason: null })];
+  assert.deepEqual(ids(sortRows(rows, column('nhlYears'), 'asc')), [2, 1, 3]);
 });
 
 test('nextSort toggles direction on the same column and resets on a new one', () => {
@@ -175,4 +175,86 @@ test('search does not match birth dates', () => {
 test('search combines with toggles', () => {
   const rows = [row(1, 'Smith, A', { qualifiedBy: ['drafted'] }), row(2, 'Smith, B', { qualifiedBy: ['played'] })];
   assert.deepEqual(ids(filterRows(rows, { played: true, drafted: false, query: 'smith' })), [2]);
+});
+
+const wha = (seasons) => ({
+  regularGP: seasons.reduce((n, x) => n + x[1], 0),
+  playoffGP: seasons.reduce((n, x) => n + x[2], 0),
+  seasons: seasons.map(([season, regularGP, playoffGP]) => ({ season, regularGP, playoffGP })),
+  source: { sites: ['hockey-reference.com'], definitive: false },
+});
+const nothing = { regularGP: 0, playoffGP: 0, seasons: [] };
+
+test('column order: profile, NHL group, WHA group, then draft', () => {
+  assert.deepEqual(
+    COLUMNS.map((c) => c.label),
+    ['Name', 'Rookie Season', 'Pos', 'Country', 'Birth Date',
+      'NHL Seasons', 'NHL Years', 'NHL Reg GP', 'NHL Playoff GP',
+      'WHA Seasons', 'WHA Years', 'WHA Reg GP', 'WHA Playoff GP',
+      'Draft Year', 'Draft Team', 'Round', 'Pick', 'Amateur Team'],
+  );
+});
+
+test('toRow: player with a WHA block', () => {
+  const r = toRow(curated({ wha: wha([['1973-74', 70, 4], ['1972-73', 60, 2], ['1976-77', 10, 0]]) }));
+  assert.equal(r.whaSeasonCount, 3);
+  assert.equal(r.whaFirstSeason, '1972-73');
+  assert.equal(r.whaYearsLabel, '1972-73 – 1976-77');
+  assert.equal(r.whaRegularGP, 140);
+  assert.equal(r.whaPlayoffGP, 6);
+  assert.equal(r.nhlRegularGP, 713);
+});
+
+test('toRow: no WHA block gives null (missing marker), never zero', () => {
+  const r = toRow(curated());
+  for (const k of ['whaSeasonCount', 'whaFirstSeason', 'whaYearsLabel', 'whaRegularGP', 'whaPlayoffGP']) {
+    assert.equal(r[k], null, k);
+    assert.equal(display(r[k]), MISSING);
+  }
+});
+
+test('toRow: WHA-only player shows 0 NHL values and WHA values', () => {
+  const r = toRow(curated({ nhl: nothing, rookieSeason: null, draft: null, wha: wha([['1972-73', 71, 12]]) }));
+  assert.equal(r.nhlSeasonCount, 0);
+  assert.equal(r.nhlRegularGP, 0);
+  assert.equal(r.nhlPlayoffGP, 0);
+  assert.equal(r.nhlYearsLabel, null);
+  assert.equal(r.whaYearsLabel, '1972-73');
+  assert.equal(r.whaRegularGP, 71);
+});
+
+test('toRow: a missing nhl block is treated as zeros and does not throw', () => {
+  const { nhl, ...noNhl } = curated();
+  const r = toRow(noNhl);
+  assert.equal(r.nhlSeasonCount, 0);
+  assert.equal(r.nhlRegularGP, 0);
+  assert.equal(r.nhlYearsLabel, null);
+});
+
+test('toRow: needsReview becomes a flag with notes or a generic title', () => {
+  const withNotes = toRow(curated({ needsReview: ['birthDate'], notes: ['HR says 1947', 'hockeydb says 1949'] }));
+  assert.equal(withNotes.flags.birthDate, 'Needs review: HR says 1947 hockeydb says 1949');
+  const generic = toRow(curated({ needsReview: ['birthDate'] }));
+  assert.match(generic.flags.birthDate, /^Needs review: \S/);
+  assert.deepEqual(toRow(curated()).flags, {});
+  assert.ok(COLUMNS.some((c) => c.field === 'birthDate'));
+});
+
+test('WHA columns sort by value with nulls last in both directions', () => {
+  const rows = [
+    row(1, 'A', { whaRegularGP: null, whaFirstSeason: null, whaSeasonCount: null }),
+    row(2, 'B', { whaRegularGP: 300, whaFirstSeason: '1974-75', whaSeasonCount: 2 }),
+    row(3, 'C', { whaRegularGP: 20, whaFirstSeason: '1972-73', whaSeasonCount: 1 }),
+  ];
+  assert.deepEqual(ids(sortRows(rows, column('whaRegularGP'), 'asc')), [3, 2, 1]);
+  assert.deepEqual(ids(sortRows(rows, column('whaRegularGP'), 'desc')), [2, 3, 1]);
+  assert.deepEqual(ids(sortRows(rows, column('whaYears'), 'asc')), [3, 2, 1]);
+  assert.deepEqual(ids(sortRows(rows, column('whaYears'), 'desc')), [2, 3, 1]);
+  assert.deepEqual(ids(sortRows(rows, column('whaSeasons'), 'desc')), [2, 3, 1]);
+});
+
+test('WHA-only players pass the Played filter', () => {
+  const rows = [toRow(curated({ nhl: nothing, draft: null, qualifiedBy: ['played'], wha: wha([['1972-73', 1, 0]]) }))];
+  assert.deepEqual(ids(filterRows(rows, { played: true, drafted: false })), [1]);
+  assert.deepEqual(ids(filterRows(rows, { played: false, drafted: true })), []);
 });

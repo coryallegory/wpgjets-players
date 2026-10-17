@@ -100,26 +100,37 @@ Only a **single rookie card per player** is in scope.
 
 ## Current state and commands
 
-Phase 1 (player list) is done for NHL data; the site is a sortable table of `players.json`.
+Phase 1 (player list) is done: 676 players (602 from NHL data, 74 WHA-only). The site is a sortable
+table of `players.json`. Four WHA birth dates are provisional (`needsReview`) pending owner review.
 
 - `npm run get:nhl` – `scripts/get-nhldata-jets.mjs` -> `temp/reference/nhl-jets.json`
-- `npm run init:players` – one-time seed of `site/data/curated/players.json` from the reference
-  file; refuses to overwrite (`--force` only for deliberate regeneration)
-- `npm run validate` – schema/integrity checks on curated data (`scripts/validate.mjs`)
-- `npm test` – node:test suites in `tests/` (validator and the pure site logic in `site/js/lib/`)
+- `npm run get:hr-wha`, `npm run get:hockeydb-wha` – WHA pulls (cached in `temp/cache/`)
+- `npm run reconcile:wha` – matches WHA data against the NHL layer; writes
+  `temp/reference/wha-reconcile.json` and `wha-review.md`. Owner resolutions live in
+  `data/decisions/wha-decisions.json`; reserved WHA ids in `data/decisions/wha-ids.json`
+- `npm run merge:wha` – merges WHA data into `players.json` (idempotent; refuses while review
+  items are open unless `--allow-open`; `--dry-run` available)
+- `npm run init:players` – one-time NHL seed of `players.json`; refuses to overwrite (`--force`
+  only for deliberate regeneration; it would drop WHA data, so re-run merge afterwards)
+- `npm run validate` – schema/integrity checks (`scripts/validate.mjs`)
+- `npm test` – node:test suites in `tests/`
 - `npm run serve` – local preview at http://localhost:8000
 
-Curated player fields: `playerId`, `firstName`, `lastName`, `name` ("Last, First", derived from
-NHL's separate fields, never parsed), `country`, `positions`, `rookieSeason` (first NHL season on
-any team), `jets` (regular/playoff GP totals as a Jets player plus per-season rows), `draft`
-(any team's pick, with `amateur` = team (league)), `qualifiedBy`, `source`.
+Curated player fields (schema v2): `playerId`, `firstName`, `lastName`, `name` ("Last, First",
+derived from separate fields, never parsed), `country`, `birthDate`, `positions`, `rookieSeason`
+(first NHL season on any team; null if never in the NHL), `nhl` (Jets 1.0/2.0 GP totals plus
+per-season rows, always present), optional `wha` (WHA Jets totals, per-season rows, own non-definitive
+`source`), `draft` (any team's pick; `amateur` = team (league)), `qualifiedBy`, `source`, optional
+`notes` (provenance/corrections) and `needsReview` (provisional fields). WHA-only players have ids
+900001+. Where sources disagree, notes record it; the NHL layer's own errors can be corrected by
+reviewed decisions (e.g. Gibson and Long birth dates).
 
 Site code: pure logic in `site/js/lib/` (no DOM, unit tested), DOM code in `site/js/`. Build DOM
 with `textContent`/`createElement`, never `innerHTML` with data.
 
 ## Not yet decided
 
-WHA player source and reconciliation, `cards.json` / `collection.json` / `prices.json` schemas, and
+Resolving the four provisional WHA birth dates (Gratton, Hicks, Labraaten, Powis), `cards.json` / `collection.json` / `prices.json` schemas, and
 the price-collection method. Known gap: drafted-only players have no position (NHL club stats
 only carry positions for players who played).
 

@@ -59,6 +59,14 @@ export function renderRows(tbody, rows) {
       if (isName) cell.scope = 'row';
       if (column.numeric) cell.classList.add('num');
       if (value === null || value === undefined) cell.classList.add('missing');
+      const flag = row.flags?.[column.field];
+      if (flag) {
+        const mark = el('span', 'review-flag', '⚑');
+        mark.title = flag;
+        mark.setAttribute('role', 'img');
+        mark.setAttribute('aria-label', flag);
+        cell.append(' ', mark);
+      }
       tr.append(cell);
     }
     fragment.append(tr);

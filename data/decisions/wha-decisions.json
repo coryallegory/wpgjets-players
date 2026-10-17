@@ -1,3 +1,14 @@
 {
-  "decisions": []
+  "decisions": [
+    {
+      "id": "nhl:hr:gibsojo01:8447161",
+      "resolution": "same-person",
+      "note": "Same John Gibson (WHA Jets 1978-79, NHL Jets 1983-84). Birth date 1959-06-02 is correct per Wikipedia (en.wikipedia.org/wiki/John_Gibson_(ice_hockey,_born_1959)), obituary (tributearchive.com/obituaries/10660450/john-gibson), Hockey-Reference and hockeydb; the NHL layer's 1959-07-02 is the error."
+    },
+    {
+      "id": "nhl:hr:longba01:8448876",
+      "resolution": "same-person",
+      "note": "Same Barry Long (WHA Jets 1976-79, NHL Jets 1980-82). Born 1949-01-03 in Red Deer, Alberta per Wikipedia (en.wikipedia.org/wiki/Barry_Long_(ice_hockey)), Hockey-Reference and hockeydb; career context UPI Archives 1981-11-10 (upi.com). The NHL layer's 1949-01-31 is a digit transposition. Hockey-Reference's Brantford, Ontario birthplace is probably wrong (hockeydb and Wikipedia say Red Deer)."
+    }
+  ]
 }

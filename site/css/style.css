@@ -83,3 +83,4 @@ tbody tr:hover > * { background: var(--row-hover); }
 tr.empty td, tr.error td { padding: 2rem 1rem; text-align: center; white-space: normal; color: var(--muted); }
 tr.error td { color: var(--error); font-weight: 600; }
 tr.empty:hover > *, tr.error:hover > * { background: none; }
+.review-flag { color: var(--error); cursor: help; font-size: 0.85em; }

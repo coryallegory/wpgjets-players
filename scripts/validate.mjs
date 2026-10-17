@@ -1,5 +1,14 @@
-// Validates site/data/curated/players.json if present. No dependencies.
+// Validates site/data/curated/players.json (schema v2) if present. No dependencies.
 // Usage: npm run validate
+//
+// Schema v2 player: playerId, firstName, lastName, name ("Last, First"), country, birthDate,
+// positions, rookieSeason (first NHL season on any team; null without an NHL career),
+// nhl { regularGP, playoffGP, seasons[{ season, team WIN|WPG, regularGP, playoffGP }] } (NHL Jets,
+// always present), wha? { regularGP, playoffGP, seasons[{ season, regularGP, playoffGP }],
+// source { sites[], definitive, retrieved } } (WHA Jets 1972-73..1978-79, only if played), draft,
+// qualifiedBy ("played" = NHL or WHA Jets GP >= 1; "drafted" = NHL draft by a Jets franchise),
+// source { site, definitive, ... }, notes? [string], needsReview? [field name].
+// WHA-only players use playerIds 900001+.
 
 import { readFile } from 'node:fs/promises';
 import path from 'node:path';
@@ -36,30 +45,44 @@ export const sortableName = (firstName, lastName) => (firstName ? `${lastName}, 
 const isNonEmptyString = (v) => typeof v === 'string' && v.trim() !== '';
 const isCount = (v) => Number.isInteger(v) && v >= 0;
 
-function checkJets(jets, add) {
-  if (!isPlainObject(jets)) return add('jets must be an object');
-  if (!isCount(jets.regularGP)) add('jets.regularGP must be a non-negative integer');
-  if (!isCount(jets.playoffGP)) add('jets.playoffGP must be a non-negative integer');
-  if (!Array.isArray(jets.seasons)) return add('jets.seasons must be an array');
+/** Schema version of site/data/curated/players.json described by this validator. */
+export const SCHEMA_VERSION = 2;
+/** playerIds 900000-999999 are reserved for WHA-only players (issued from 900001). */
+export const WHA_ID_MIN = 900001;
+export const isWhaReservedId = (id) => Number.isInteger(id) && id >= WHA_ID_MIN - 1 && id < 1000000;
+const WHA_FIRST_SEASON = '1972-73';
+const WHA_LAST_SEASON = '1978-79';
+
+/**
+ * Shared checks for a GP block ({ regularGP, playoffGP, seasons[] }): counts, season labels,
+ * duplicate rows, totals equal to the season sums. `rowCheck(row)` adds block-specific checks.
+ */
+function checkGpBlock(block, name, add, rowCheck) {
+  if (!isPlainObject(block)) return add(`${name} must be an object`);
+  if (!isCount(block.regularGP)) add(`${name}.regularGP must be a non-negative integer`);
+  if (!isCount(block.playoffGP)) add(`${name}.playoffGP must be a non-negative integer`);
+  if (!Array.isArray(block.seasons)) return add(`${name}.seasons must be an array`);
 
   let regular = 0;
   let playoff = 0;
   let countsOk = true;
-  for (const row of jets.seasons) {
+  const seen = new Set();
+  for (const row of block.seasons) {
     if (!isPlainObject(row)) {
-      add('jets.seasons entries must be objects');
+      add(`${name}.seasons entries must be objects`);
       countsOk = false;
       continue;
     }
     if (typeof row.season !== 'string' || !isValidSeason(row.season)) {
-      add(`invalid season ${JSON.stringify(row.season)} (expected like "1990-91")`);
+      add(`${name}: invalid season ${JSON.stringify(row.season)} (expected like "1990-91")`);
     }
-    if (row.team !== 'WIN' && row.team !== 'WPG') {
-      add(`invalid jets team ${JSON.stringify(row.team)} (expected WIN or WPG)`);
-    }
+    rowCheck(row);
+    const rowKey = `${row.season}|${row.team ?? ''}`;
+    if (seen.has(rowKey)) add(`${name}: duplicate season row ${row.season}${row.team ? ` ${row.team}` : ''}`);
+    seen.add(rowKey);
     for (const key of ['regularGP', 'playoffGP']) {
       if (isCount(row[key])) continue;
-      add(`season ${row.season}: ${key} must be a non-negative integer`);
+      add(`${name} season ${row.season}: ${key} must be a non-negative integer`);
       countsOk = false;
     }
     if (countsOk) {
@@ -68,11 +91,64 @@ function checkJets(jets, add) {
     }
   }
   if (!countsOk) return;
-  if (isCount(jets.regularGP) && jets.regularGP !== regular) {
-    add(`jets.regularGP ${jets.regularGP} does not equal season sum ${regular}`);
+  if (isCount(block.regularGP) && block.regularGP !== regular) {
+    add(`${name}.regularGP ${block.regularGP} does not equal season sum ${regular}`);
   }
-  if (isCount(jets.playoffGP) && jets.playoffGP !== playoff) {
-    add(`jets.playoffGP ${jets.playoffGP} does not equal season sum ${playoff}`);
+  if (isCount(block.playoffGP) && block.playoffGP !== playoff) {
+    add(`${name}.playoffGP ${block.playoffGP} does not equal season sum ${playoff}`);
+  }
+}
+
+/** NHL Jets (1.0 WIN, 2.0 WPG) games. Always present; zeros/empty seasons without NHL Jets games. */
+function checkNhl(nhl, add) {
+  checkGpBlock(nhl, 'nhl', add, (row) => {
+    if (row.team !== 'WIN' && row.team !== 'WPG') add(`nhl: invalid team ${JSON.stringify(row.team)} (expected WIN or WPG)`);
+  });
+}
+
+/** WHA Winnipeg Jets games (1972-73 to 1978-79). Optional; present only for players who played. */
+function checkWha(wha, add) {
+  checkGpBlock(wha, 'wha', add, (row) => {
+    if (typeof row.season === 'string' && isValidSeason(row.season) && (row.season < WHA_FIRST_SEASON || row.season > WHA_LAST_SEASON)) {
+      add(`wha: season ${row.season} is outside ${WHA_FIRST_SEASON}..${WHA_LAST_SEASON}`);
+    }
+    if (row.team !== undefined) add('wha: season rows have no team field');
+  });
+  if (!isPlainObject(wha)) return;
+  if (Array.isArray(wha.seasons) && wha.seasons.length === 0) add('wha.seasons must not be empty (omit wha for players without WHA Jets games)');
+  const s = wha.source;
+  if (!isPlainObject(s)) return add('wha.source must be an object');
+  if (!Array.isArray(s.sites) || s.sites.length === 0 || !s.sites.every(isNonEmptyString)) add('wha.source.sites must be a non-empty array of strings');
+  if (typeof s.definitive !== 'boolean') add('wha.source.definitive must be a boolean');
+  if (!isValidIsoDate(s.retrieved)) add(`wha.source.retrieved must be a real date "YYYY-MM-DD" (got ${JSON.stringify(s.retrieved)})`);
+}
+
+const gpTotal = (block) => (isPlainObject(block) && isCount(block.regularGP) && isCount(block.playoffGP) ? block.regularGP + block.playoffGP : null);
+
+function checkNotes(player, add) {
+  if (player.notes !== undefined && (!Array.isArray(player.notes) || !player.notes.every(isNonEmptyString))) {
+    add('notes must be an array of non-empty strings');
+  }
+  const r = player.needsReview;
+  if (r === undefined) return;
+  if (!Array.isArray(r) || r.length === 0 || !r.every(isNonEmptyString)) return add('needsReview must be a non-empty array of field names');
+  if (new Set(r).size !== r.length) add('needsReview has duplicates');
+  for (const f of r) if (!(f in player) || f === 'needsReview') add(`needsReview names ${JSON.stringify(f)}, which is not a field of this player`);
+}
+
+/** WHA-only players: reserved id range, no NHL Jets games; and every reserved id is WHA-only. */
+function checkWhaOnly(player, add) {
+  const id = player.playerId;
+  const reserved = isWhaReservedId(id);
+  const nhlEmpty = isPlainObject(player.nhl) && Array.isArray(player.nhl.seasons) && player.nhl.seasons.length === 0;
+  const looksWhaOnly = player.wha !== undefined && nhlEmpty && player.draft === null && player.rookieSeason === null;
+  if (reserved) {
+    if (id < WHA_ID_MIN) add(`playerId ${id} is reserved and never issued (WHA-only ids start at ${WHA_ID_MIN})`);
+    if (player.wha === undefined) add('WHA-only playerId (900001+) requires a wha block');
+    if (!nhlEmpty) add('WHA-only playerId (900001+) must have empty nhl.seasons');
+    if (player.rookieSeason !== null) add('WHA-only playerId (900001+) must have rookieSeason null (no NHL career)');
+  } else if (looksWhaOnly) {
+    add('WHA-only player (wha block, no NHL Jets games, no draft, no NHL career) must have a playerId in the 900001+ range');
   }
 }
 
@@ -94,11 +170,12 @@ function checkQualifiedBy(player, add) {
     return add('qualifiedBy must be a non-empty array of "played"/"drafted"');
   }
   if (new Set(q).size !== q.length) add('qualifiedBy has duplicates');
-  const jets = player.jets;
-  if (isPlainObject(jets) && isCount(jets.regularGP) && isCount(jets.playoffGP)) {
-    const played = jets.regularGP + jets.playoffGP >= 1;
+  const nhlGp = gpTotal(player.nhl);
+  const whaGp = player.wha === undefined ? 0 : gpTotal(player.wha);
+  if (nhlGp !== null && whaGp !== null) {
+    const played = nhlGp + whaGp >= 1;
     if (q.includes('played') !== played) {
-      add(played ? 'has Jets GP but qualifiedBy lacks "played"' : 'qualifiedBy has "played" but Jets GP is 0');
+      add(played ? 'has Jets GP (NHL or WHA) but qualifiedBy lacks "played"' : 'qualifiedBy has "played" but Jets GP (NHL + WHA) is 0');
     }
   }
   if (q.includes('drafted') && !player.draft) add('qualifiedBy has "drafted" but draft is null');
@@ -159,9 +236,13 @@ export function validatePlayers(players) {
     if (player.rookieSeason !== null && (typeof player.rookieSeason !== 'string' || !isValidSeason(player.rookieSeason))) {
       add(`invalid rookieSeason ${JSON.stringify(player.rookieSeason)} (expected null or like "1990-91")`);
     }
-    checkJets(player.jets, add);
+    if (player.jets !== undefined) add('jets was renamed to nhl in schema v2 (run npm run merge:wha to migrate)');
+    checkNhl(player.nhl, add);
+    if (player.wha !== undefined) checkWha(player.wha, add);
     checkDraft(player.draft === undefined ? 'missing' : player.draft, add);
     checkQualifiedBy(player, add);
+    checkWhaOnly(player, add);
+    checkNotes(player, add);
 
     if (!isPlainObject(player.source)) {
       add('source must be an object');

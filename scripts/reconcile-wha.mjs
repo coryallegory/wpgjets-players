@@ -5,7 +5,9 @@
 // Inputs (read-only):
 //   temp/reference/hockeyreference-wha-jets.json  (HR, primary)
 //   temp/reference/hockeydb-wha-jets.json         (DB, cross-check)
-//   site/data/curated/players.json                (NHL layer)
+//   site/data/curated/players.json                (NHL layer; WHA-only records 900000+ are ignored)
+//   temp/reference/nhl-jets.json                  (optional: nhl.com birth dates for the NHL layer, so
+//                                                  corrections merged into players.json do not alter matching)
 //   data/decisions/wha-decisions.json             (owner resolutions of review items)
 //   temp/cache/hockeyreference/team_WNJ_*.html    (optional: per-season HR positions)
 // Outputs:
@@ -23,6 +25,7 @@ const PATHS = {
   hr: resolve(ROOT, 'temp', 'reference', 'hockeyreference-wha-jets.json'),
   db: resolve(ROOT, 'temp', 'reference', 'hockeydb-wha-jets.json'),
   nhl: resolve(ROOT, 'site', 'data', 'curated', 'players.json'),
+  nhlRef: resolve(ROOT, 'temp', 'reference', 'nhl-jets.json'),
   decisions: resolve(ROOT, 'data', 'decisions', 'wha-decisions.json'),
   ids: resolve(ROOT, 'data', 'decisions', 'wha-ids.json'),
   hrCache: resolve(ROOT, 'temp', 'cache', 'hockeyreference'),
@@ -224,6 +227,29 @@ export function validateSourceFile(json, label) {
   return json;
 }
 
+/** True for ids in the reserved WHA-only range (900000-999999; issued from 900001). */
+export const isWhaReservedId = (id) => Number.isInteger(id) && id >= WHA_ID_START - 1 && id < 1000000;
+
+/**
+ * The NHL layer as reconcile sees it, from curated players.json (schema v1 `jets` or v2 `nhl`):
+ * WHA-only records (reserved ids, written by the merge) are dropped, and when the nhl.com reference
+ * birth dates are supplied they replace the curated values, so a correction already merged into
+ * players.json (e.g. Gibson 1959-07-02 -> 1959-06-02) does not change the matching or make the
+ * owner's decisions stale. `curatedBirthDate` keeps the value currently in players.json.
+ * @param {object[]} players curated players.json array
+ * @param {Map<number,string|null>|null} nhlBirthDates playerId -> nhl.com birth date
+ */
+export function nhlLayer(players, nhlBirthDates = null) {
+  if (!Array.isArray(players)) fail('players.json: expected an array');
+  return players
+    .filter((p) => !isWhaReservedId(p?.playerId))
+    .map((p) => {
+      const nhlBlock = p.nhl ?? p.jets ?? null;
+      const ref = nhlBirthDates?.has(p.playerId) ? nhlBirthDates.get(p.playerId) : p.birthDate;
+      return { ...p, nhl: nhlBlock, birthDate: ref ?? null, curatedBirthDate: p.birthDate ?? null };
+    });
+}
+
 export function validateNhlPlayers(json) {
   if (!Array.isArray(json)) fail('players.json: expected an array');
   const ids = new Set();
@@ -321,6 +347,7 @@ export function assignWhaIds(existing, candidates, start = WHA_ID_START) {
 
 // ---------------------------------------------------------------- evidence helpers
 
+const nhlBlockOf = (p) => p.nhl ?? p.jets ?? null;
 const seasonsText = (seasons) => seasons.map((s) => `${s.season} ${s.regularGP}/${s.playoffGP}`).join('; ');
 
 function sideSummary(kind, p) {
@@ -329,8 +356,8 @@ function sideSummary(kind, p) {
     return {
       id: String(p.playerId), name: `${p.firstName} ${p.lastName}`, fullName: null, birthDate: p.birthDate,
       birthplace: null, country: p.country ?? null, position: (p.positions ?? []).join('/') || null,
-      seasons: `${seasonsText(p.jets?.seasons ?? []) || '(no Jets GP)'}${p.rookieSeason ? `; NHL rookie ${p.rookieSeason}` : ''}`,
-      totals: p.jets ? `${p.jets.regularGP}/${p.jets.playoffGP}` : null,
+      seasons: `${seasonsText(nhlBlockOf(p)?.seasons ?? []) || '(no Jets GP)'}${p.rookieSeason ? `; NHL rookie ${p.rookieSeason}` : ''}`,
+      totals: nhlBlockOf(p) ? `${nhlBlockOf(p).regularGP}/${nhlBlockOf(p).playoffGP}` : null,
     };
   }
   return {
@@ -480,15 +507,17 @@ export function matchNhl(entities, nhlPlayers) {
 // ---------------------------------------------------------------- full reconcile (pure)
 
 /**
- * @param {object} input { hr, db, nhl, decisions, ids, hrSeasonPositions? }
- *   hr/db: source files, nhl: players.json array, decisions: decisions file JSON,
- *   ids: wha-ids.json JSON, hrSeasonPositions: Map sourceId -> [{season, pos}] (optional).
+ * @param {object} input { hr, db, nhl, decisions, ids, hrSeasonPositions?, nhlBirthDates? }
+ *   hr/db: source files, nhl: curated players.json array (v1 or v2; WHA-only records are ignored),
+ *   decisions: decisions file JSON, ids: wha-ids.json JSON,
+ *   hrSeasonPositions: Map sourceId -> [{season, pos}] (optional),
+ *   nhlBirthDates: Map playerId -> nhl.com birth date (optional; see nhlLayer).
  * @returns {{ report, idsFile, idsChanged, warnings }}
  */
-export function reconcile({ hr, db, nhl, decisions: decisionsJson, ids: idsJson, hrSeasonPositions = null }) {
+export function reconcile({ hr, db, nhl: curated, decisions: decisionsJson, ids: idsJson, hrSeasonPositions = null, nhlBirthDates = null }) {
   validateSourceFile(hr, 'hockeyreference');
   validateSourceFile(db, 'hockeydb');
-  validateNhlPlayers(nhl);
+  const nhl = validateNhlPlayers(nhlLayer(curated, nhlBirthDates));
   validateIdsFile(idsJson);
   const decisions = indexDecisions(decisionsJson);
   const used = new Set();
@@ -547,7 +576,7 @@ export function reconcile({ hr, db, nhl, decisions: decisionsJson, ids: idsJson,
   const pendingKeys = new Set();
   for (const item of nm.review) {
     const d = handle(item);
-    if (d?.resolution === 'same-person') accepted.push({ ...item.pair, via: 'decision' });
+    if (d?.resolution === 'same-person') accepted.push({ ...item.pair, via: 'decision', decision: d });
     else if (!d) pendingKeys.add(item.refs.entityKey);
   }
   const nhlFor = new Map();
@@ -570,6 +599,7 @@ export function reconcile({ hr, db, nhl, decisions: decisionsJson, ids: idsJson,
     const prop = proposeBirthDate({ hr: e.hr?.birthDate ?? null, db: e.db?.birthDate ?? null, nhl: match?.nhl.birthDate ?? null });
     let value = prop.value;
     let basis = prop.basis;
+    let decisionFor = null;
     if (prop.conflict) {
       const resolutions = [...['hr', 'db', 'nhl'].filter((s) => prop.sources[s]).map((s) => `use-${s}`), 'custom'];
       const item = {
@@ -586,13 +616,14 @@ export function reconcile({ hr, db, nhl, decisions: decisionsJson, ids: idsJson,
       if (d) {
         value = d.resolution === 'custom' ? d.value : prop.sources[d.resolution.slice(4)];
         basis = `decision:${d.resolution}`;
+        decisionFor = { id: d.id, note: d.note ?? '' };
       } else {
         basis = `${prop.basis} (pending review)`;
       }
     } else if (prop.basis === 'majority') {
       majorityResolved.push({ entityKey: e.key, name: e.displayName, value: prop.value, agreeing: prop.agreeing, dissenting: prop.dissenting, sources: prop.sources });
     }
-    birth.set(e.key, { value, basis, sources: prop.sources });
+    birth.set(e.key, { value, basis, sources: prop.sources, agreeing: prop.agreeing ?? null, dissenting: prop.dissenting ?? null, decision: decisionFor });
 
     // Seasons: HR is primary; per-season HR/DB disagreements become review items.
     const primary = (e.hr ?? e.db).seasons.map((s) => ({ season: s.season, regularGP: s.regularGP, playoffGP: s.playoffGP }));
@@ -626,43 +657,52 @@ export function reconcile({ hr, db, nhl, decisions: decisionsJson, ids: idsJson,
   const missingKeys = idsJson.assignments.filter((a) => !entities.some((e) => e.key === a.key));
   for (const a of missingKeys) warnings.push(`wha-ids.json key ${a.key} (${a.playerId}) no longer appears in the sources; kept, never reused`);
 
-  const sourceBlock = (e) => ({
-    site: 'hockey-reference.com', definitive: false, crossCheck: e.db ? 'hockeydb.com' : null,
+  // Records use curated players.json schema v2 (see scripts/validate.mjs).
+  const retrieved = [hr.generatedAt, db.generatedAt].map(isoDay).filter(Boolean).sort().at(-1) ?? null;
+  const whaSourceBlock = (e) => ({
+    sites: [e.hr && 'hockey-reference.com', e.db && 'hockeydb.com'].filter(Boolean), definitive: false, retrieved,
     hockeyreferenceId: e.hr?.sourceId ?? null, hockeydbId: e.db?.sourceId ?? null,
+  });
+  const topSourceBlock = (e) => ({
+    site: e.hr ? 'hockey-reference.com' : 'hockeydb.com', definitive: false, crossCheck: e.hr && e.db ? 'hockeydb.com' : null, retrieved,
   });
   const merge = entities.map((e) => {
     const seasons = seasonsFor.get(e.key);
-    const wha = { regularGP: sum(seasons, 'regularGP'), playoffGP: sum(seasons, 'playoffGP'), seasons, position: e.hr?.positionNhlStyle ?? e.db?.positionNhlStyle ?? null };
+    const wha = { regularGP: sum(seasons, 'regularGP'), playoffGP: sum(seasons, 'playoffGP'), seasons, source: whaSourceBlock(e) };
+    const whaPosition = e.hr?.positionNhlStyle ?? e.db?.positionNhlStyle ?? null;
     const b = birth.get(e.key);
     const birthDate = { value: b.value, basis: b.basis, sources: b.sources };
-    const openForEntity = openItems.filter((i) => i.refs.entityKey === e.key).map((i) => i.id);
+    const open = openItems.filter((i) => i.refs.entityKey === e.key);
+    const openForEntity = open.map((i) => i.id);
     const m = nhlFor.get(e.key);
+    const generated = entityNotes({ e, b, match: m ?? null, whaPosition, open });
+    const needsReview = [...new Set(open.map((i) => NEEDS_REVIEW_FIELD[i.kind]).filter(Boolean))];
     if (m) {
       return {
         key: e.key, action: 'extend-nhl', playerId: m.nhl.playerId, name: m.nhl.name, matchTier: m.tier, matchedVia: m.via,
-        birthDate, changesCuratedBirthDate: b.value !== m.nhl.birthDate, wha, whaSource: sourceBlock(e), openReviewItems: openForEntity,
+        birthDate, changesCuratedBirthDate: b.value !== m.nhl.curatedBirthDate, differsFromNhlCom: !!m.nhl.birthDate && b.value !== m.nhl.birthDate,
+        wha, whaPosition, notes: generated, needsReview, openReviewItems: openForEntity,
       };
     }
     if (pendingKeys.has(e.key)) {
-      return { key: e.key, action: 'pending-review', playerId: null, name: `${e.lastName}, ${e.firstName}`, birthDate, wha, whaSource: sourceBlock(e), openReviewItems: openForEntity };
+      return { key: e.key, action: 'pending-review', playerId: null, name: `${e.lastName}, ${e.firstName}`, birthDate, wha, whaPosition, openReviewItems: openForEntity };
     }
-    return {
-      key: e.key, action: 'new-wha-only', playerId: idRes.idFor(e.key),
-      record: {
-        playerId: idRes.idFor(e.key),
-        firstName: e.firstName, lastName: e.lastName, name: `${e.lastName}, ${e.firstName}`,
-        country: e.hr?.country ?? e.db?.country ?? null,
-        birthDate: b.value,
-        positions: wha.position ? [wha.position] : [],
-        rookieSeason: null,
-        jets: { regularGP: 0, playoffGP: 0, seasons: [] },
-        wha,
-        draft: null,
-        qualifiedBy: ['played'],
-        source: sourceBlock(e),
-      },
-      openReviewItems: openForEntity,
+    const record = {
+      playerId: idRes.idFor(e.key),
+      firstName: e.firstName, lastName: e.lastName, name: `${e.lastName}, ${e.firstName}`,
+      country: e.hr?.country ?? e.db?.country ?? null,
+      birthDate: b.value,
+      positions: whaPosition ? [whaPosition] : [],
+      rookieSeason: null,
+      nhl: { regularGP: 0, playoffGP: 0, seasons: [] },
+      wha,
+      draft: null,
+      qualifiedBy: ['played'],
+      source: topSourceBlock(e),
     };
+    if (generated.length) record.notes = generated;
+    if (needsReview.length) record.needsReview = needsReview;
+    return { key: e.key, action: 'new-wha-only', playerId: record.playerId, birthDate, wha, record, whaPosition, notes: generated, needsReview, openReviewItems: openForEntity };
   }).sort((a, b) => cmp(a.key, b.key));
 
   // Informational lists
@@ -751,6 +791,50 @@ export function reconcile({ hr, db, nhl, decisions: decisionsJson, ids: idsJson,
 }
 
 const fmtGp = (g) => (g ? `${g.regularGP}/${g.playoffGP}` : 'absent');
+const isoDay = (s) => (typeof s === 'string' && ISO_DATE.test(s.slice(0, 10)) ? s.slice(0, 10) : null);
+
+/** Curated field a still-open review item makes provisional (merge --allow-open -> needsReview). */
+export const NEEDS_REVIEW_FIELD = { birthdate: 'birthDate', gp: 'wha' };
+/** Generated notes that describe a provisional state; the merge removes them once it no longer applies. */
+export const PROVISIONAL_NOTE_PREFIXES = ['birthDate provisional', 'WHA GP provisional'];
+const NOTE_LABEL = { hr: 'Hockey-Reference', db: 'hockeydb', nhl: 'nhl.com' };
+const listText = (keys) => keys.map((k) => NOTE_LABEL[k]).join(' and ');
+
+/** Provenance/correction notes for one WHA entity, as stored in curated `notes`. Deterministic. */
+export function entityNotes({ e, b, match, whaPosition, open }) {
+  const notes = [];
+  if (match?.via === 'decision' && match.decision) {
+    notes.push(`WHA Jets record matched to this NHL player by owner decision ${match.decision.id}${match.decision.note ? `: ${match.decision.note}` : ''}`);
+  }
+  const openBirth = open.find((i) => i.kind === 'birthdate');
+  const nhlDate = match?.nhl.birthDate ?? null;
+  if (openBirth) {
+    const srcs = Object.entries(b.sources).map(([k, v]) => `${NOTE_LABEL[k]} ${v}`).join(', ');
+    notes.push(`birthDate provisional (${openBirth.id}): ${srcs || 'no source has a date'}; ${b.value ?? 'null'} used until the owner decides`);
+  } else if (nhlDate && b.value !== nhlDate) {
+    const why = b.decision ? `owner decision ${b.decision.id}${b.decision.note ? `: ${b.decision.note}` : ''}` : `${listText(b.agreeing ?? [])} agree`;
+    notes.push(`birthDate corrected ${nhlDate} -> ${b.value} (nhl.com value replaced): ${why}`);
+  } else if (b.decision) {
+    notes.push(`birthDate ${b.value} by owner decision ${b.decision.id}${b.decision.note ? `: ${b.decision.note}` : ''}`);
+  } else if (b.dissenting?.length) {
+    notes.push(`birthDate ${b.value} per ${listText(b.agreeing)}; ${b.dissenting.map((k) => `${NOTE_LABEL[k]} has ${b.sources[k]}`).join(', ')}`);
+  } else if (b.basis === 'single-source' && e.hr && e.db) {
+    const [k] = Object.keys(b.sources);
+    notes.push(`birthDate ${b.value} per ${NOTE_LABEL[k]} only; ${k === 'hr' ? 'hockeydb' : 'Hockey-Reference'} has none`);
+  }
+  for (const item of open.filter((i) => i.kind === 'gp')) notes.push(`WHA GP provisional for ${item.refs.season} (${item.id}): ${item.reason}`);
+  const dbPos = e.hr && e.db ? pairDisagreements(e.hr, e.db).disagreements.position?.db ?? null : null;
+  const hrPos = e.hr ? `Hockey-Reference ${whaPosition}${e.hr.position && e.hr.position !== whaPosition ? ` (${e.hr.position})` : ''}` : `hockeydb ${whaPosition}`;
+  if (match) {
+    const nhlPos = match.nhl.positions ?? [];
+    if (whaPosition && !nhlPos.includes(whaPosition)) {
+      notes.push(`WHA position per ${hrPos}${dbPos ? `, hockeydb ${dbPos}` : ''}; NHL positions ${nhlPos.join('/') || '(none)'} kept`);
+    }
+  } else if (dbPos) {
+    notes.push(`position per ${hrPos}; hockeydb has ${dbPos}`);
+  }
+  return notes;
+}
 function stripInternal({ proposal, pair, ...rest }) { return rest; }
 
 function groupBy(list, fn) {
@@ -882,19 +966,33 @@ async function loadHrSeasonPositions() {
   return out;
 }
 
-async function main() {
+/**
+ * Reads every reconcile input from disk (shared with scripts/merge-wha-into-players.mjs).
+ * nhl.com birth dates come from temp/reference/nhl-jets.json when present (see nhlLayer).
+ * @param {{ players?: object[] }} [opts] pass an already-loaded players.json array to reuse it
+ */
+export async function loadReconcileInputs({ players } = {}) {
   const hr = await readJson(PATHS.hr, 'hockeyreference-wha-jets.json');
   const db = await readJson(PATHS.db, 'hockeydb-wha-jets.json');
-  const nhl = await readJson(PATHS.nhl, 'players.json');
+  const nhl = players ?? await readJson(PATHS.nhl, 'players.json');
   const decisions = await readJson(PATHS.decisions, 'wha-decisions.json', { optional: true, fallback: { decisions: [] } });
   const ids = await readJson(PATHS.ids, 'wha-ids.json', { optional: true, fallback: null });
   const idsJson = ids ?? {
     description: 'Reserved playerIds (900001+) for WHA-only players. Append-only: never renumber or reuse. Written by scripts/reconcile-wha.mjs.',
     assignments: [],
   };
+  const nhlRef = await readJson(PATHS.nhlRef, 'nhl-jets.json', { optional: true, fallback: null });
+  const nhlBirthDates = nhlRef ? new Map(nhlRef.players.map((p) => [p.playerId, p.birthDate ?? null])) : null;
   const hrSeasonPositions = await loadHrSeasonPositions();
+  return { hr, db, nhl, decisions, ids: idsJson, idsFileExisted: !!ids, hrSeasonPositions, nhlBirthDates };
+}
 
-  const { report, idsFile, idsChanged, warnings } = reconcile({ hr, db, nhl, decisions, ids: idsJson, hrSeasonPositions });
+async function main() {
+  const { idsFileExisted, ...input } = await loadReconcileInputs();
+  const ids = idsFileExisted;
+  if (!input.nhlBirthDates) console.warn('WARNING: temp/reference/nhl-jets.json not found; using curated birth dates as the NHL layer (merged corrections then look like tier A matches)');
+
+  const { report, idsFile, idsChanged, warnings } = reconcile(input);
 
   await mkdir(dirname(PATHS.report), { recursive: true });
   await writeFile(PATHS.report, JSON.stringify(report, null, 2) + '\n');

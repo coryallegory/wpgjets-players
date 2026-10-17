@@ -131,8 +131,7 @@ with `textContent`/`createElement`, never `innerHTML` with data.
 ## Not yet decided
 
 Resolving the four provisional WHA birth dates (Gratton, Hicks, Labraaten, Powis), `cards.json` / `collection.json` / `prices.json` schemas, and
-the price-collection method. Known gap: drafted-only players have no position (NHL club stats
-only carry positions for players who played).
+the price-collection method. Accepted (not a gap): players who never played have no position; the owner is fine with that.
 
 ## Legacy reference
 

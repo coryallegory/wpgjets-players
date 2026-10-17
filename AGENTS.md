@@ -93,8 +93,14 @@ Only a **single rookie card per player** is in scope.
   offline use). Eliteprospects blocks scripts. Both write 88 players to `temp/reference/`.
 - `birthDate` (ISO) is a required profile field and the key for matching people across sources;
   never match on names alone (shared surnames, Rob/Robert, Doug/Douglas).
-- WHA-only players get IDs from a reserved range (900000+). Players also in the NHL data keep
-  their NHL `playerId`.
+- `playerId` is the real NHL id whenever the player has an NHL record/career (including WHA
+  players who played in the NHL elsewhere). Ids 900000-999999 are reserved for WHA Jets players
+  who never played in the NHL. `data/decisions/wha-ids.json` is append-only; an id retired in
+  favour of a real NHL id records `retiredFor` and is never reused.
+- `rookieSeason` = first MAJOR-LEAGUE regular season: the earliest NHL or WHA regular season on any
+  team (the owner counts a WHA rookie year as the true big-league rookie season). Null only for
+  players who never played in either league. With no NHL career it comes from Hockey-Reference's
+  career table (or the first WHA Jets season), with a note saying which.
 - Ambiguous matches or source disagreements go to a review list for the owner; they are never
   resolved silently.
 
@@ -105,6 +111,9 @@ table of `players.json`. All WHA review items are resolved (alternate birth date
 
 - `npm run get:nhl` – `scripts/get-nhldata-jets.mjs` -> `temp/reference/nhl-jets.json`
 - `npm run get:hr-wha`, `npm run get:hockeydb-wha` – WHA pulls (cached in `temp/cache/`)
+- `npm run get:nhl-wha` – looks WHA-only players up in NHL data by name + birth date
+  (`temp/reference/nhl-wha-lookup.json`, cached in `temp/cache/nhl/`). Workflow:
+  get:nhl-wha -> reconcile:wha -> merge:wha
 - `npm run reconcile:wha` – matches WHA data against the NHL layer; writes
   `temp/reference/wha-reconcile.json` and `wha-review.md`. Owner resolutions live in
   `data/decisions/wha-decisions.json`; reserved WHA ids in `data/decisions/wha-ids.json`
@@ -118,15 +127,23 @@ table of `players.json`. All WHA review items are resolved (alternate birth date
 
 Curated player fields (schema v2): `playerId`, `firstName`, `lastName`, `name` ("Last, First",
 derived from separate fields, never parsed), `country`, `birthDate`, `positions`, `rookieSeason`
-(first NHL season on any team; null if never in the NHL), `nhl` (Jets 1.0/2.0 GP totals plus
+(first NHL or WHA regular season on any team), `nhl` (Jets 1.0/2.0 GP totals plus
 per-season rows, always present), optional `wha` (WHA Jets totals, per-season rows, own non-definitive
 `source`), `draft` (any team's pick; `amateur` = team (league)), `qualifiedBy`, `source`, optional
 `notes` (provenance/corrections) and `needsReview` (provisional fields). WHA-only players have ids
-900001+. Where sources disagree, notes record it; the NHL layer's own errors can be corrected by
+900001+ if they never played in the NHL. Where sources disagree, notes record it; the NHL layer's own errors can be corrected by
 reviewed decisions (e.g. Gibson and Long birth dates).
 
 Site code: pure logic in `site/js/lib/` (no DOM, unit tested), DOM code in `site/js/`. Build DOM
 with `textContent`/`createElement`, never `innerHTML` with data.
+
+## Keeping NHL data current (planned: `npm run sync:nhl`)
+
+- New players (call-ups, first-game debuts, new draft picks) are added from a fresh NHL pull.
+- Game totals for the two most recent seasons in the pull are refreshed automatically (owner
+  decision); changes to older seasons, and to identity fields (name, birth date, country, draft,
+  rookie season), are shown as a diff and need owner approval. Approved corrections (e.g. Gibson and
+  Long birth dates) are kept in a permanent overrides file so a re-pull never undoes them.
 
 ## Not yet decided
 

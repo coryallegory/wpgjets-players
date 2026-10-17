@@ -101,7 +101,7 @@ Only a **single rookie card per player** is in scope.
 ## Current state and commands
 
 Phase 1 (player list) is done: 676 players (602 from NHL data, 74 WHA-only). The site is a sortable
-table of `players.json`. Two WHA birth dates (Labraaten, Powis) are provisional (`needsReview`) pending owner review.
+table of `players.json`. All WHA review items are resolved (alternate birth dates are kept in `notes`).
 
 - `npm run get:nhl` – `scripts/get-nhldata-jets.mjs` -> `temp/reference/nhl-jets.json`
 - `npm run get:hr-wha`, `npm run get:hockeydb-wha` – WHA pulls (cached in `temp/cache/`)
@@ -130,7 +130,7 @@ with `textContent`/`createElement`, never `innerHTML` with data.
 
 ## Not yet decided
 
-Resolving the two provisional WHA birth dates (Labraaten, Powis), `cards.json` / `collection.json` / `prices.json` schemas, and
+The `cards.json` / `collection.json` / `prices.json` schemas, and
 the price-collection method. Accepted (not a gap): players who never played have no position; the owner is fine with that.
 
 ## Legacy reference

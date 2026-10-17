@@ -19,6 +19,16 @@
       "id": "birthdate:hr:hicksgl01",
       "resolution": "use-hr",
       "note": "1958-08-28. Wikipedia (en.wikipedia.org/wiki/Glenn_Hicks) agrees with Hockey-Reference; hockeydb 1958-08-29 is off by a day."
+    },
+    {
+      "id": "birthdate:hr:labrada01",
+      "resolution": "use-hr",
+      "note": "Owner chose 1951-06-09: printed on his 1977-78 OPC #57, 1979-80 Topps #92, 1980-81 OPC #217 and 1981-82 OPC #42 cards, and matches Hockey-Reference. ALTERNATE 1951-09-05 (NHL.com bio, Wikipedia, hockeydb) kept here in case it matters; birth year 1951 agrees everywhere."
+    },
+    {
+      "id": "birthdate:hr:powisly01",
+      "resolution": "use-hr",
+      "note": "Owner chose 1949-07-07 (matches NHL.com, Wikipedia, Hockey-Reference, and 1973-74 OPC #209 and 1974-75 OPC #227 cards) with low confidence. ALTERNATE 1949-04-19 (hockeydb, WHA Hall of Fame site, 1976-77 OPC #86 card) kept here in case it matters. WHA Hall of Fame lists his full name as Trevor Lynn Powis; Hockey-Reference has Lynn Trevor Powis."
     }
   ]
 }

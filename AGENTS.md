@@ -51,10 +51,19 @@ Only a **single rookie card per player** is in scope.
 - **Collection status is edited as JSON and committed** (by hand or by a local script).
 - Default branch is **`main`**.
 
+## Decisions on sources and scope
+
+- **WHA and other gaps**: no single source is authoritative. Consult several (NHL stats,
+  Hockey-Reference, hockeydb, Eliteprospects) and reconcile on a best-effort basis; record the
+  source(s) for each hand-curated or reconciled record.
+- **Fresh start for data**: build all data from scratch. Do not import card entries from
+  `legacy/data/`; the owner will compare the datasets later.
+- **First version of the site**: a sortable table.
+
 ## Not yet decided
 
 Directory layout, data file schemas, how hand-curated fields are kept separate from generated
-ones, WHA data source (NHL stats may not cover it), and the price-collection method. Discuss with
+ones, and the price-collection method. Discuss with
 the owner before building these.
 
 ## Legacy reference

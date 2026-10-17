@@ -2,7 +2,8 @@
 
 ## Phase 2: target rookie card
 
-One per player: the de facto flagship rookie card, not the rarest. Precedence:
+One per player **who played for a Jets franchise** (Jets GP on the site). Drafted-never-played
+players are tracked but are not collection targets until they play a Jets game. The de facto flagship rookie card, not the rarest. Precedence:
 
 1. Modern era: base-set Upper Deck Young Guns.
 2. Otherwise the set/brand generally regarded as the standard for that era: O-Pee-Chee in the 1990s
@@ -42,9 +43,9 @@ Status: not started. Phase 1 is complete (tag `phase-1-complete`). Agreed order 
    which era and what the card record should look like.
 2. **Pilot** on a small, varied set (about 10 players, proposed by the agent and confirmed by the
    owner): a current Jets player or two, some modern Young Guns, a 1990s player, a vintage player, a
-   WHA-only player, and a recent draft pick with no card yet. Purpose: settle the approach and how
+   WHA-only player, and a recent draft pick (tracked only, to settle how non-targets are shown). Purpose: settle the approach and how
    edge cases and problems are recorded.
-3. **Baseline first pass for all players** by agents, then ongoing review and tuning with the owner.
+3. **Baseline first pass for all players who played** by agents, then ongoing review and tuning with the owner.
    Long-term most review effort is for players without a Young Guns card.
 
 Intentions to keep in mind:

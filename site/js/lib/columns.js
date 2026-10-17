@@ -17,10 +17,10 @@ export const COLUMNS = [
   { id: 'whaYears', label: 'WHA Years', field: 'whaYearsLabel', sortKey: 'whaFirstSeason', type: 'text' },
   { id: 'whaRegularGP', label: 'WHA Reg GP', field: 'whaRegularGP', sortKey: 'whaRegularGP', type: 'number' },
   { id: 'whaPlayoffGP', label: 'WHA Playoff GP', field: 'whaPlayoffGP', sortKey: 'whaPlayoffGP', type: 'number' },
-  { id: 'draftYear', label: 'Draft Year', field: 'draftYear', sortKey: 'draftYear', type: 'number' },
-  { id: 'draftTeam', label: 'Draft Team', field: 'draftTeam', sortKey: 'draftTeam', type: 'text' },
-  { id: 'round', label: 'Round', field: 'round', sortKey: 'round', type: 'number' },
-  { id: 'overall', label: 'Pick', field: 'overall', sortKey: 'overall', type: 'number' },
+  { id: 'draftYear', label: 'NHL Draft Year', field: 'draftYear', sortKey: 'draftYear', type: 'number' },
+  { id: 'draftTeam', label: 'NHL Draft Team', field: 'draftTeam', sortKey: 'draftTeam', type: 'text' },
+  { id: 'round', label: 'NHL Draft Round', field: 'round', sortKey: 'round', type: 'number' },
+  { id: 'overall', label: 'NHL Draft Pick', field: 'overall', sortKey: 'overall', type: 'number' },
   { id: 'amateur', label: 'Amateur Team', field: 'amateur', sortKey: 'amateur', type: 'text' },
 ].map((c) => ({ ...c, numeric: c.type === 'number' }));
 

@@ -9,8 +9,8 @@ open questions are in [docs/cards.md](docs/cards.md); start there.
 ## Goal
 
 A **personal Winnipeg Jets rookie card collection tracker** (sole audience: the repo owner). It
-tracks every player tied to a Winnipeg Jets franchise and the single rookie card the owner wants
-for each, whether it is collected, and its market price.
+tracks every player tied to a Winnipeg Jets franchise and, for those who played, the single rookie
+card the owner wants, whether it is collected, and its market price.
 
 Qualifying players (a player needs only one):
 
@@ -19,6 +19,11 @@ Qualifying players (a player needs only one):
   API code `WPG`). Preseason games never count.
 - **Drafted:** selected by a Winnipeg Jets franchise (the team that held the pick) in an NHL draft,
   even if they never played for the Jets. WHA drafts are out of scope.
+
+**Tracked vs collected:** both groups stay in the list, but only players who **played** for a Jets
+franchise (the "Jets GP" filter on the site, 495 as of 2026-10-17) are collection targets that
+need a rookie card. Drafted-never-played players are tracked for interest and to anticipate who
+reaches the roster; they only become targets once they play a Jets game.
 
 ## Owner priorities
 

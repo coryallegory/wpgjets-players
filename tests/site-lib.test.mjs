@@ -220,7 +220,7 @@ test('column order: profile, NHL group, WHA group, then draft', () => {
     ['Name', 'Rookie Season', 'Pos', 'Country', 'Birth Date',
       'NHL Seasons', 'NHL Years', 'NHL Reg GP', 'NHL Playoff GP',
       'WHA Seasons', 'WHA Years', 'WHA Reg GP', 'WHA Playoff GP',
-      'Draft Year', 'Draft Team', 'Round', 'Pick', 'Amateur Team'],
+      'NHL Draft Year', 'NHL Draft Team', 'NHL Draft Round', 'NHL Draft Pick', 'Amateur Team'],
   );
 });
 

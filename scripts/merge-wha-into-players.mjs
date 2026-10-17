@@ -13,6 +13,8 @@
 //   - fields owned here: birthDate, wha, qualifiedBy ("played"), needsReview entries "birthDate"/"wha",
 //     generated notes. Everything else is left as is; generated notes are only appended, except
 //     "provisional" notes, which are removed once the review item is resolved.
+//   - one generated note `Name variants: a; b; ...` (see nameVariants; extras from data/decisions/name-variants.json),
+//     replaced in place on every run
 //   - final array sorted by lastName, firstName, playerId; output must pass scripts/validate.mjs
 //
 // Refuses while review items are open. With --allow-open, open birth-date/GP items use the proposed
@@ -61,6 +63,45 @@ function renameKey(obj, from, to) {
   for (const [k, v] of entries) obj[k === from ? to : k] = v;
 }
 
+export const NAME_VARIANTS_PREFIX = 'Name variants: ';
+const NAME_VARIANTS_FILE = resolve(ROOT, 'data', 'decisions', 'name-variants.json');
+const clean = (s) => (typeof s === 'string' ? s.trim().replace(/\s+/g, ' ') : '');
+const key = (s) => clean(s).toLowerCase();
+const codeCmp = (a, b) => (a < b ? -1 : a > b ? 1 : 0);
+
+/**
+ * Every other name form seen for one person, as sorted display strings. Sources: Hockey-Reference
+ * (name, fullName, nickname) and hockeydb (name, aliases, nickname) records, plus curated extras.
+ * Nicknames render as "Nickname" (comma-separated nicknames are split). The player's current
+ * primary name is excluded when it matches exactly (ignoring case/spacing); accent-only
+ * differences (Sjöberg vs Sjoberg) are kept because they are separate search forms.
+ */
+export function nameVariants(player, { hr = null, db = null, extra = [] } = {}) {
+  const primary = key(`${player.firstName} ${player.lastName}`);
+  const seen = new Map();
+  const add = (v) => { const c = clean(v); if (c && key(c) !== primary && !seen.has(key(c))) seen.set(key(c), c); };
+  for (const r of [hr, db]) {
+    if (!r) continue;
+    add(r.name);
+    add(r.fullName);
+    for (const a of r.aliases ?? []) add(a);
+    for (const n of String(r.nickname ?? '').split(',')) if (clean(n)) add(`"${clean(n)}"`);
+  }
+  for (const v of extra) add(v);
+  return [...seen.values()].sort(codeCmp);
+}
+
+/** Replaces the generated 'Name variants:' note in place (or appends it); other notes untouched. */
+function applyNameVariants(p, variants) {
+  const notes = p.notes ?? [];
+  const i = notes.findIndex((n) => n.startsWith(NAME_VARIANTS_PREFIX));
+  const next = variants.length ? `${NAME_VARIANTS_PREFIX}${variants.join('; ')}` : null;
+  let out;
+  if (i >= 0) out = next ? notes.map((n, j) => (j === i ? next : n)).filter((n, j) => j === i || !n.startsWith(NAME_VARIANTS_PREFIX)) : notes.filter((n) => !n.startsWith(NAME_VARIANTS_PREFIX));
+  else out = next ? [...notes, next] : notes;
+  if (out.length) { if (!same(p.notes, out)) p.notes = out; } else delete p.notes;
+}
+
 const isProvisionalNote = (n) => PROVISIONAL_NOTE_PREFIXES.some((p) => n.startsWith(p));
 
 /** Applies one reconcile merge entry to an existing curated record (mutates it). */
@@ -82,9 +123,12 @@ function applyWha(p, m) {
  * Pure merge. `players` is not modified.
  * @param {object[]} players curated players.json (v1 or v2)
  * @param {{ report: object, idsChanged: boolean }} reconciled output of reconcile()
+ * @param {{ allowOpen?: boolean, sources?: { hr: object[], db: object[] }, curatedVariants?: object }} [opts]
+ *   `sources` (the HR and hockeydb player lists) enables the generated 'Name variants:' notes;
+ *   `curatedVariants` is data/decisions/name-variants.json.
  * @returns {{ players: object[], migrated: number, warnings: string[] }}
  */
-export function mergeWha(players, { report, idsChanged }, { allowOpen = false } = {}) {
+export function mergeWha(players, { report, idsChanged }, { allowOpen = false, sources = null, curatedVariants = null } = {}) {
   if (!Array.isArray(players)) throw new Error('merge-wha: players.json must be an array');
   if (idsChanged) {
     throw new Error(`merge-wha: reconcile would issue ${report.ids.added.length} new reserved id(s) (${report.ids.added.map((a) => a.name).join('; ')}); run \`npm run reconcile:wha\` first so they are recorded in data/decisions/wha-ids.json`);
@@ -132,6 +176,25 @@ export function mergeWha(players, { report, idsChanged }, { allowOpen = false } 
     } else {
       throw new Error(`merge-wha: unknown merge action ${m.action}`);
     }
+  }
+  if (sources) {
+    const hrById = new Map(sources.hr.map((r) => [r.sourceId, r]));
+    const dbById = new Map(sources.db.map((r) => [r.sourceId, r]));
+    const pairDb = new Map(report.sourceMatching.pairs.map((x) => [x.entityKey, x.dbId]));
+    const extras = new Map();
+    for (const e of curatedVariants?.variants ?? []) {
+      if (!byId.has(e.playerId)) throw new Error(`merge-wha: name-variants.json playerId ${e.playerId} is not in players.json`);
+      extras.set(e.playerId, [...(extras.get(e.playerId) ?? []), ...e.variants]);
+    }
+    for (const m of report.merge) {
+      if (m.action === 'pending-review') continue;
+      const p = byId.get(m.playerId);
+      const [kind, id] = [m.key.slice(0, 2), m.key.slice(3)];
+      const hr = kind === 'hr' ? hrById.get(id) : null;
+      const db = kind === 'db' ? dbById.get(id) : dbById.get(pairDb.get(m.key));
+      applyNameVariants(p, nameVariants(p, { hr, db, extra: extras.get(p.playerId) }));
+    }
+    for (const id of extras.keys()) if (!byId.get(id).wha) warnings.push(`name-variants.json playerId ${id} has no wha block; its variants were not applied`);
   }
   for (const p of out) {
     if (p.wha !== undefined && !touched.has(p.playerId)) warnings.push(`playerId ${p.playerId} (${p.name}) has a wha block but no current WHA source record; left unchanged`);
@@ -192,7 +255,8 @@ async function main() {
   if (!idsFileExisted) throw new Error('merge-wha: data/decisions/wha-ids.json missing; run `npm run reconcile:wha` first');
   if (!input.nhlBirthDates) console.warn('WARNING: temp/reference/nhl-jets.json not found; nhl.com birth dates taken from players.json');
   const reconciled = reconcile(input);
-  const { players, migrated, warnings } = mergeWha(before, reconciled, { allowOpen });
+  const curatedVariants = JSON.parse(await readFile(NAME_VARIANTS_FILE, 'utf8').catch(() => '{"variants":[]}'));
+  const { players, migrated, warnings } = mergeWha(before, reconciled, { allowOpen, sources: { hr: input.hr.players, db: input.db.players }, curatedVariants });
 
   const errors = validatePlayers(players);
   if (errors.length) {

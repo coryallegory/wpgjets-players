@@ -146,3 +146,31 @@ test('summarize reports added and updated players but not the jets -> nhl rename
   assert.equal(s.updated, 2); // Lesuk (wha, notes), Long (birthDate, wha, notes); Akerblom only migrated
   assert.ok(s.lines.some((l) => /birthDate: "1949-01-31" -> "1949-01-03"/.test(l)));
 });
+
+// ---------------------------------------------------------------- name variants
+
+test('Name variants note: sorted, de-duplicated, idempotent, keeps other notes, never touches names', () => {
+  Object.assign(HR.players[0], { fullName: 'Barry Kenneth Long', nickname: 'Marathon Man, Bear' });
+  Object.assign(DB.players[1], { aliases: ['Billy Lesuk', 'Bill Lesuk'] });
+  const run = (players) => {
+    const r = rec(players);
+    return mergeWha(players, r, { allowOpen: true, sources: { hr: HR.players, db: DB.players }, curatedVariants: { variants: [{ playerId: 8448876, variants: ['Barry Lõng', 'Barry Kenneth Long'], source: 'test' }] } }).players;
+  };
+  try {
+    const once = run(structuredClone(PLAYERS_V1));
+    const long = byName(once, 'Long');
+    assert.ok(long.notes.includes('Name variants: "Bear"; "Marathon Man"; Barry Kenneth Long; Barry Lõng'));
+    assert.deepEqual([long.firstName, long.lastName, long.name], ['Barry', 'Long', 'Long, Barry']);
+    assert.ok(byName(once, 'Lesuk').notes.includes('Name variants: Billy Lesuk'));
+    assert.equal(byName(once, 'Akerblom').notes, undefined);
+    const edited = structuredClone(once);
+    byName(edited, 'Long').notes.push('owner note');
+    const twice = run(edited);
+    const notes = byName(twice, 'Long').notes;
+    assert.equal(notes.filter((n) => n.startsWith('Name variants:')).length, 1);
+    assert.ok(notes.includes('owner note'));
+    assert.equal(JSON.stringify(run(structuredClone(once))), JSON.stringify(once));
+  } finally {
+    delete HR.players[0].fullName; HR.players[0].nickname = null; delete DB.players[1].aliases;
+  }
+});

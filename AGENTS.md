@@ -3,7 +3,8 @@
 Guidance for AI coding agents working in this repository.
 
 **State of play:** phase 1 (player list) is complete and tagged `phase-1-complete`. Next: phase 2
-(target rookie cards), starting with a source survey and a pilot. See [docs/cards.md](docs/cards.md).
+(target rookie cards): source survey, then a pilot, then a baseline for all players. The plan and
+open questions are in [docs/cards.md](docs/cards.md); start there.
 
 ## Goal
 

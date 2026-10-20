@@ -1,4 +1,4 @@
-import { display } from './lib/format.js';
+import { NO_CARD, display } from './lib/format.js';
 
 const ARIA_SORT = { asc: 'ascending', desc: 'descending' };
 const ARROW = { asc: '▲', desc: '▼' };
@@ -48,10 +48,29 @@ export function renderRows(tbody, rows, columns) {
     for (const column of columns) {
       const isName = column.id === 'name';
       const value = row[column.field];
-      const cell = el(isName ? 'th' : 'td', null, display(value));
+      const cell = el(isName ? 'th' : 'td', null, column.blank ? '' : display(value));
+      if (column.blank && value) {
+        if (row.rookieCardUrl) {
+          const link = el('a', null, value);
+          link.href = row.rookieCardUrl;
+          link.target = '_blank';
+          link.rel = 'noopener noreferrer';
+          if (row.rookieCardReview) {
+            link.className = 'review-link';
+            link.title = 'Review rookie card options';
+            link.setAttribute('aria-label', `Review rookie card options for ${row.name}`);
+          } else {
+            link.title = 'Reference card page';
+          }
+          cell.append(link);
+        } else {
+          cell.textContent = value;
+        }
+        if (value === NO_CARD) cell.classList.add('no-card');
+      }
       if (isName) cell.scope = 'row';
       if (column.numeric) cell.classList.add('num');
-      if (value === null || value === undefined) cell.classList.add('missing');
+      if (!column.blank && (value === null || value === undefined)) cell.classList.add('missing');
       const flag = row.flags?.[column.field];
       if (flag) {
         const mark = el('span', 'review-flag', '⚑');

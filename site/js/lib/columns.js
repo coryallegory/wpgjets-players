@@ -3,6 +3,8 @@
 export const COLUMNS = [
   { id: 'name', label: 'Name', field: 'name', sortKey: 'name', type: 'text', locked: true },
   { id: 'rookieSeason', label: 'Rookie Season', field: 'rookieSeason', sortKey: 'rookieSeason', type: 'text' },
+  // Never the missing marker: '?' (review link) when undecided, blank for never-played players.
+  { id: 'rookieCard', label: 'Rookie Card', field: 'rookieCard', sortKey: 'rookieCardSort', type: 'text', blank: true },
   { id: 'position', label: 'Pos', field: 'position', sortKey: 'position', type: 'text' },
   { id: 'country', label: 'Country', field: 'country', sortKey: 'country', type: 'text' },
   // ISO "YYYY-MM-DD" is zero-padded, so it sorts chronologically as text.

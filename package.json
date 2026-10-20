@@ -14,6 +14,7 @@
     "reconcile:wha": "node scripts/wha/reconcile-wha.mjs",
     "merge:wha": "node scripts/wha/merge-wha-into-players.mjs",
     "sync:nhl": "node scripts/sync-nhl-players.mjs",
+    "import:cards": "node scripts/import-cards.mjs",
     "setup:hooks": "git config core.hooksPath .githooks"
   },
   "engines": {

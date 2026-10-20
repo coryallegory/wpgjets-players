@@ -54,3 +54,22 @@ first WHA Jets season), with a note saying which.
 A WHA player qualifies with >= 1 regular-season or playoff game for the WHA Winnipeg Jets (1972-73
 to 1978-79). Playoff-only players count. Preseason games are never counted. All eras share a single
 `players.json`.
+
+## cards.json (decided rookie cards only)
+
+`site/data/curated/cards.json`: an object keyed by `playerId`. **Only decided players have a record**
+(undecided = no key; players who never played a major-league game never get one). Written by
+`npm run import:cards`, checked by `scripts/validate.mjs`.
+
+- `status`: `chosen` or `no-card` (owner decided no rookie card exists).
+- `chosen`: the card, or `null` for `no-card`. Fields: `set` (with year, e.g. "2011 Upper Deck"), `year`,
+  `season` (e.g. "2011-12"), `brand`, optional `subset` ("Young Guns"), `cardNumber` (string),
+  optional `serialNumbered` (e.g. "/999"), `variant`, `sourceIds` ({ scp, comc }), `urls` ({ scp, comc };
+  reference links only, never images or prices; optional, a few verified cards have no page).
+- `rule`, `confidence` (high/medium/low, at decision time), `source`, `checkedOn` (date the baseline
+  checked): required for `chosen`, optional for `no-card`. `reason` and `note` (owner's note) optional.
+- `decidedOn` (date), `decidedBy` (`owner`), `basis`: `owner-verified-young-guns`
+  (data/decisions/young-guns-verified.json; the card must match its season and number),
+  `owner-confirmed` (Hull, Selanne) or `page-approval` (review page).
+- Ranked candidates are not stored here (they stay in `temp/reference/cards-baseline.json` and the
+  review page).

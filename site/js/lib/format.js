@@ -12,6 +12,27 @@ export function yearsLabel(first, last) {
   return first === last ? first : `${first}${RANGE_SEPARATOR}${last}`;
 }
 
+export const NO_CARD = 'No card';
+export const UNDECIDED = '?';
+/** Private review page (artifact); opened on a player with #<playerId>. Keep the artifact unshared. */
+export const REVIEW_URL = 'https://claude.ai/artifact/6g5d3cabDjNxQmxiH7KXy8';
+
+/** "2011-12 Upper Deck Young Guns #248" from a chosen card (the set's leading year is dropped). */
+export function cardLabel(card) {
+  if (!card) return null;
+  const set = String(card.set ?? '').replace(/^\d{4}\s+/, '');
+  const parts = [card.season, set];
+  if (card.subset && !set.includes(card.subset)) parts.push(card.subset);
+  const label = parts.filter(Boolean).join(' ');
+  return card.cardNumber ? `${label} #${card.cardNumber}` : label;
+}
+
+/** Reference link of a chosen card: SportsCardsPro first, else COMC; null if none or not https. */
+export function cardUrl(card) {
+  const url = card?.urls?.scp ?? card?.urls?.comc ?? null;
+  return typeof url === 'string' && url.startsWith('https://') ? url : null;
+}
+
 /** Franchise eras, in table order. `id` is the key used by rows and filters. */
 export const ERAS = [
   { id: 'wha', label: 'Jets WHA' },
@@ -49,14 +70,18 @@ export function reviewTitle(player) {
  * Flattens a curated player into the plain values the table shows and sorts on.
  * Missing values are null. NHL values are 0 when there are no NHL Jets games (a missing
  * `nhl` block is treated the same; the validator is what reports it). WHA values are null
- * when the player has no `wha` block. `flags` maps a needsReview field name to its tooltip.
+ * when the player has no `wha` block. `rookieCard` is the card label, 'No card' for an explicit
+ * no-card decision, '?' (links to the review page) when undecided but the player has Jets games,
+ * and null (blank) for never-played players. `rookieCardSort` is null whenever undecided. `flags` maps a needsReview field name to its tooltip.
  */
-export function toRow(player) {
+export function toRow(player, cardRecord = null) {
   const nhlSeasons = seasonList(player.nhl);
   const wha = player.wha ?? null;
   const whaSeasons = seasonList(wha);
   const draft = player.draft;
   const flags = {};
+  const decided = cardRecord?.status === 'chosen' || cardRecord?.status === 'no-card';
+  const played = playedEras(player).length > 0;
   for (const field of player.needsReview ?? []) flags[field] = reviewTitle(player);
   return {
     playerId: player.playerId,
@@ -64,6 +89,10 @@ export function toRow(player) {
     // Both orders, so "dale haw" and "hawerchuk, d" both match.
     searchText: `${player.firstName} ${player.lastName} ${player.name}`,
     rookieSeason: player.rookieSeason ?? null,
+    rookieCardSort: decided ? (cardRecord.status === 'chosen' ? cardLabel(cardRecord.chosen) : NO_CARD) : null,
+    rookieCard: decided ? (cardRecord.status === 'chosen' ? cardLabel(cardRecord.chosen) : NO_CARD) : played ? UNDECIDED : null,
+    rookieCardUrl: decided ? (cardRecord.status === 'chosen' ? cardUrl(cardRecord.chosen) : null) : played ? `${REVIEW_URL}#${player.playerId}` : null,
+    rookieCardReview: !decided && played,
     position: player.positions?.length ? player.positions.join('/') : null,
     country: player.country ?? null,
     birthDate: player.birthDate ?? null,

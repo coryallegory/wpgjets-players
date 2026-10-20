@@ -1,0 +1,2923 @@
+{
+  "8448108": {
+    "status": "chosen",
+    "chosen": {
+      "set": "1958 Topps",
+      "year": 1958,
+      "season": "1958-59",
+      "brand": "Topps",
+      "cardNumber": "66",
+      "sourceIds": {
+        "scp": "2332307"
+      },
+      "urls": {
+        "scp": "https://www.sportscardspro.com/game/hockey-cards-1958-topps/bobby-hull-66"
+      }
+    },
+    "rule": "era-flagship-topps",
+    "confidence": "high",
+    "source": "sportscardspro.com",
+    "checkedOn": "2026-10-17",
+    "decidedOn": "2026-10-18",
+    "decidedBy": "owner",
+    "basis": "owner-confirmed",
+    "note": "Owner confirmed 2026-10-18: 1958-59 Topps #66 is the rookie card (no 1957 Parkhurst exists). rookieSeason is 1957-58, first card 1958-59."
+  },
+  "8457981": {
+    "status": "chosen",
+    "chosen": {
+      "set": "1991 Upper Deck",
+      "year": 1991,
+      "season": "1991-92",
+      "brand": "Upper Deck",
+      "cardNumber": "21",
+      "sourceIds": {
+        "scp": "2357660"
+      },
+      "urls": {
+        "scp": "https://www.sportscardspro.com/game/hockey-cards-1991-upper-deck/teemu-selanne-21"
+      }
+    },
+    "rule": "early-ud-first-card",
+    "confidence": "high",
+    "source": "sportscardspro.com",
+    "checkedOn": "2026-10-17",
+    "decidedOn": "2026-10-18",
+    "decidedBy": "owner",
+    "basis": "owner-confirmed",
+    "note": "Owner confirmed 2026-10-18: 1991-92 Upper Deck #21 is the rookie card even though the Young Guns (1992-93 #574) came a year later. Young Guns first applies only once Young Guns were an established benchmark."
+  },
+  "8467353": {
+    "status": "chosen",
+    "chosen": {
+      "set": "1999 O-Pee-Chee Chrome",
+      "year": 1999,
+      "season": "1999-00",
+      "brand": "O-Pee-Chee",
+      "cardNumber": "297",
+      "sourceIds": {
+        "comc": "comc-357848"
+      },
+      "urls": {
+        "comc": "https://www.comc.com/Cards/Hockey/1999-00/O-Pee-Chee_Chrome_-_Base/297/Nik_Antropov/357848"
+      }
+    },
+    "rule": "modern-base-rookie-fallback",
+    "confidence": "medium",
+    "source": "sportscardspro.com + comc.com",
+    "checkedOn": "2026-10-19",
+    "decidedOn": "2026-10-19",
+    "decidedBy": "owner",
+    "basis": "page-approval"
+  },
+  "8468493": {
+    "status": "chosen",
+    "chosen": {
+      "set": "2002 Upper Deck",
+      "year": 2002,
+      "season": "2002-03",
+      "brand": "Upper Deck",
+      "subset": "Young Guns",
+      "cardNumber": "240",
+      "sourceIds": {
+        "scp": "2375507"
+      },
+      "urls": {
+        "scp": "https://www.sportscardspro.com/game/hockey-cards-2002-upper-deck/ron-hainsey-240"
+      }
+    },
+    "rule": "verified-young-guns",
+    "confidence": "high",
+    "source": "owner collection records",
+    "checkedOn": "2026-10-19",
+    "decidedOn": "2026-10-19",
+    "decidedBy": "owner",
+    "basis": "owner-verified-young-guns"
+  },
+  "8468611": {
+    "status": "chosen",
+    "chosen": {
+      "set": "2009 Upper Deck",
+      "year": 2009,
+      "season": "2009-10",
+      "brand": "Upper Deck",
+      "subset": "Young Guns",
+      "cardNumber": "247",
+      "sourceIds": {
+        "scp": "2380381"
+      },
+      "urls": {
+        "scp": "https://www.sportscardspro.com/game/hockey-cards-2009-upper-deck/matt-hendricks-247"
+      }
+    },
+    "rule": "verified-young-guns",
+    "confidence": "high",
+    "source": "owner collection records",
+    "checkedOn": "2026-10-19",
+    "decidedOn": "2026-10-19",
+    "decidedBy": "owner",
+    "basis": "owner-verified-young-guns"
+  },
+  "8468704": {
+    "status": "chosen",
+    "chosen": {
+      "set": "2003 Upper Deck",
+      "year": 2003,
+      "season": "2003-04",
+      "brand": "Upper Deck",
+      "subset": "Young Guns",
+      "cardNumber": "215",
+      "sourceIds": {
+        "scp": "2375964"
+      },
+      "urls": {
+        "scp": "https://www.sportscardspro.com/game/hockey-cards-2003-upper-deck/antti-miettinen-215"
+      }
+    },
+    "rule": "verified-young-guns",
+    "confidence": "high",
+    "source": "owner collection records",
+    "checkedOn": "2026-10-19",
+    "decidedOn": "2026-10-19",
+    "decidedBy": "owner",
+    "basis": "owner-verified-young-guns"
+  },
+  "8469665": {
+    "status": "chosen",
+    "chosen": {
+      "set": "2006 Upper Deck",
+      "year": 2006,
+      "season": "2006-07",
+      "brand": "Upper Deck",
+      "subset": "Young Guns",
+      "cardNumber": "226",
+      "sourceIds": {
+        "scp": "2378735"
+      },
+      "urls": {
+        "scp": "https://www.sportscardspro.com/game/hockey-cards-2006-upper-deck/john-oduya-226"
+      }
+    },
+    "rule": "verified-young-guns",
+    "confidence": "high",
+    "source": "owner collection records",
+    "checkedOn": "2026-10-19",
+    "decidedOn": "2026-10-19",
+    "decidedBy": "owner",
+    "basis": "owner-verified-young-guns"
+  },
+  "8470289": {
+    "status": "chosen",
+    "chosen": {
+      "set": "2005 Upper Deck",
+      "year": 2005,
+      "season": "2005-06",
+      "brand": "Upper Deck",
+      "subset": "Young Guns",
+      "cardNumber": "222",
+      "sourceIds": {
+        "scp": "2376983"
+      },
+      "urls": {
+        "scp": "https://www.sportscardspro.com/game/hockey-cards-2005-upper-deck/jim-slater-222"
+      }
+    },
+    "rule": "verified-young-guns",
+    "confidence": "high",
+    "source": "owner collection records",
+    "checkedOn": "2026-10-19",
+    "decidedOn": "2026-10-19",
+    "decidedBy": "owner",
+    "basis": "owner-verified-young-guns"
+  },
+  "8470611": {
+    "status": "chosen",
+    "chosen": {
+      "set": "2006 Upper Deck",
+      "year": 2006,
+      "season": "2006-07",
+      "brand": "Upper Deck",
+      "subset": "Young Guns",
+      "cardNumber": "249",
+      "sourceIds": {
+        "scp": "2378760"
+      },
+      "urls": {
+        "scp": "https://www.sportscardspro.com/game/hockey-cards-2006-upper-deck/eric-fehr-249"
+      }
+    },
+    "rule": "verified-young-guns",
+    "confidence": "high",
+    "source": "owner collection records",
+    "checkedOn": "2026-10-19",
+    "decidedOn": "2026-10-19",
+    "decidedBy": "owner",
+    "basis": "owner-verified-young-guns"
+  },
+  "8470614": {
+    "status": "chosen",
+    "chosen": {
+      "set": "2006 Upper Deck",
+      "year": 2006,
+      "season": "2006-07",
+      "brand": "Upper Deck",
+      "subset": "Young Guns",
+      "cardNumber": "452",
+      "sourceIds": {
+        "scp": "2378805"
+      },
+      "urls": {
+        "scp": "https://www.sportscardspro.com/game/hockey-cards-2006-upper-deck/mark-stuart-452"
+      }
+    },
+    "rule": "verified-young-guns",
+    "confidence": "high",
+    "source": "owner collection records",
+    "checkedOn": "2026-10-19",
+    "decidedOn": "2026-10-19",
+    "decidedBy": "owner",
+    "basis": "owner-verified-young-guns"
+  },
+  "8470775": {
+    "status": "chosen",
+    "chosen": {
+      "set": "2006 Upper Deck",
+      "year": 2006,
+      "season": "2006-07",
+      "brand": "Upper Deck",
+      "subset": "Young Guns",
+      "cardNumber": "455",
+      "sourceIds": {
+        "scp": "2378808"
+      },
+      "urls": {
+        "scp": "https://www.sportscardspro.com/game/hockey-cards-2006-upper-deck/nate-thompson-455"
+      }
+    },
+    "rule": "verified-young-guns",
+    "confidence": "high",
+    "source": "owner collection records",
+    "checkedOn": "2026-10-19",
+    "decidedOn": "2026-10-19",
+    "decidedBy": "owner",
+    "basis": "owner-verified-young-guns"
+  },
+  "8470828": {
+    "status": "chosen",
+    "chosen": {
+      "set": "2007 Upper Deck",
+      "year": 2007,
+      "season": "2007-08",
+      "brand": "Upper Deck",
+      "subset": "Young Guns",
+      "cardNumber": "206",
+      "sourceIds": {
+        "scp": "2379300"
+      },
+      "urls": {
+        "scp": "https://www.sportscardspro.com/game/hockey-cards-2007-upper-deck/tobias-enstrom-206"
+      }
+    },
+    "rule": "verified-young-guns",
+    "confidence": "high",
+    "source": "owner collection records",
+    "checkedOn": "2026-10-19",
+    "decidedOn": "2026-10-19",
+    "decidedBy": "owner",
+    "basis": "owner-verified-young-guns"
+  },
+  "8470834": {
+    "status": "chosen",
+    "chosen": {
+      "set": "2006 Upper Deck",
+      "year": 2006,
+      "season": "2006-07",
+      "brand": "Upper Deck",
+      "subset": "Young Guns",
+      "cardNumber": "206",
+      "sourceIds": {
+        "scp": "2378712"
+      },
+      "urls": {
+        "scp": "https://www.sportscardspro.com/game/hockey-cards-2006-upper-deck/dustin-byfuglien-206"
+      }
+    },
+    "rule": "verified-young-guns",
+    "confidence": "high",
+    "source": "owner collection records",
+    "checkedOn": "2026-10-19",
+    "decidedOn": "2026-10-19",
+    "decidedBy": "owner",
+    "basis": "owner-verified-young-guns"
+  },
+  "8470854": {
+    "status": "chosen",
+    "chosen": {
+      "set": "2007 Upper Deck",
+      "year": 2007,
+      "season": "2007-08",
+      "brand": "Upper Deck",
+      "subset": "Young Guns",
+      "cardNumber": "475",
+      "sourceIds": {
+        "scp": "2379382"
+      },
+      "urls": {
+        "scp": "https://www.sportscardspro.com/game/hockey-cards-2007-upper-deck/tanner-glass-475"
+      }
+    },
+    "rule": "verified-young-guns",
+    "confidence": "high",
+    "source": "owner collection records",
+    "checkedOn": "2026-10-19",
+    "decidedOn": "2026-10-19",
+    "decidedBy": "owner",
+    "basis": "owner-verified-young-guns"
+  },
+  "8471218": {
+    "status": "chosen",
+    "chosen": {
+      "set": "2008 Upper Deck",
+      "year": 2008,
+      "season": "2008-09",
+      "brand": "Upper Deck",
+      "subset": "Young Guns",
+      "cardNumber": "202",
+      "sourceIds": {
+        "scp": "2380041"
+      },
+      "urls": {
+        "scp": "https://www.sportscardspro.com/game/hockey-cards-2008-upper-deck/blake-wheeler-202"
+      }
+    },
+    "rule": "verified-young-guns",
+    "confidence": "high",
+    "source": "owner collection records",
+    "checkedOn": "2026-10-19",
+    "decidedOn": "2026-10-19",
+    "decidedBy": "owner",
+    "basis": "owner-verified-young-guns"
+  },
+  "8471219": {
+    "status": "chosen",
+    "chosen": {
+      "set": "2005 Upper Deck",
+      "year": 2005,
+      "season": "2005-06",
+      "brand": "Upper Deck",
+      "subset": "Young Guns",
+      "cardNumber": "455",
+      "sourceIds": {
+        "scp": "2377045"
+      },
+      "urls": {
+        "scp": "https://www.sportscardspro.com/game/hockey-cards-2005-upper-deck/al-montoya-455"
+      }
+    },
+    "rule": "verified-young-guns",
+    "confidence": "high",
+    "source": "owner collection records",
+    "checkedOn": "2026-10-19",
+    "decidedOn": "2026-10-19",
+    "decidedBy": "owner",
+    "basis": "owner-verified-young-guns"
+  },
+  "8471226": {
+    "status": "chosen",
+    "chosen": {
+      "set": "2006 Upper Deck",
+      "year": 2006,
+      "season": "2006-07",
+      "brand": "Upper Deck",
+      "subset": "Young Guns",
+      "cardNumber": "456",
+      "sourceIds": {
+        "scp": "2378809"
+      },
+      "urls": {
+        "scp": "https://www.sportscardspro.com/game/hockey-cards-2006-upper-deck/drew-stafford-456"
+      }
+    },
+    "rule": "verified-young-guns",
+    "confidence": "high",
+    "source": "owner collection records",
+    "checkedOn": "2026-10-19",
+    "decidedOn": "2026-10-19",
+    "decidedBy": "owner",
+    "basis": "owner-verified-young-guns"
+  },
+  "8471385": {
+    "status": "chosen",
+    "chosen": {
+      "set": "2008 Upper Deck",
+      "year": 2008,
+      "season": "2008-09",
+      "brand": "Upper Deck",
+      "subset": "Young Guns",
+      "cardNumber": "203",
+      "sourceIds": {
+        "scp": "2380042"
+      },
+      "urls": {
+        "scp": "https://www.sportscardspro.com/game/hockey-cards-2008-upper-deck/adam-pardy-203"
+      }
+    },
+    "rule": "verified-young-guns",
+    "confidence": "high",
+    "source": "owner collection records",
+    "checkedOn": "2026-10-19",
+    "decidedOn": "2026-10-19",
+    "decidedBy": "owner",
+    "basis": "owner-verified-young-guns"
+  },
+  "8471390": {
+    "status": "chosen",
+    "chosen": {
+      "set": "2009 Upper Deck",
+      "year": 2009,
+      "season": "2009-10",
+      "brand": "Upper Deck",
+      "subset": "Young Guns",
+      "cardNumber": "248",
+      "sourceIds": {
+        "scp": "2380382"
+      },
+      "urls": {
+        "scp": "https://www.sportscardspro.com/game/hockey-cards-2009-upper-deck/mike-santorelli-248"
+      }
+    },
+    "rule": "verified-young-guns",
+    "confidence": "high",
+    "source": "owner collection records",
+    "checkedOn": "2026-10-19",
+    "decidedOn": "2026-10-19",
+    "decidedBy": "owner",
+    "basis": "owner-verified-young-guns"
+  },
+  "8471451": {
+    "status": "chosen",
+    "chosen": {
+      "set": "2009 Upper Deck",
+      "year": 2009,
+      "season": "2009-10",
+      "brand": "Upper Deck",
+      "subset": "Young Guns",
+      "cardNumber": "459",
+      "sourceIds": {
+        "scp": "2380406"
+      },
+      "urls": {
+        "scp": "https://www.sportscardspro.com/game/hockey-cards-2009-upper-deck/aaron-gagnon-459"
+      }
+    },
+    "rule": "verified-young-guns",
+    "confidence": "high",
+    "source": "owner collection records",
+    "checkedOn": "2026-10-19",
+    "decidedOn": "2026-10-19",
+    "decidedBy": "owner",
+    "basis": "owner-verified-young-guns"
+  },
+  "8471669": {
+    "status": "chosen",
+    "chosen": {
+      "set": "2006 Upper Deck",
+      "year": 2006,
+      "season": "2006-07",
+      "brand": "Upper Deck",
+      "subset": "Young Guns",
+      "cardNumber": "207",
+      "sourceIds": {
+        "scp": "2378713"
+      },
+      "urls": {
+        "scp": "https://www.sportscardspro.com/game/hockey-cards-2006-upper-deck/paul-stastny-207"
+      }
+    },
+    "rule": "verified-young-guns",
+    "confidence": "high",
+    "source": "owner collection records",
+    "checkedOn": "2026-10-19",
+    "decidedOn": "2026-10-19",
+    "decidedBy": "owner",
+    "basis": "owner-verified-young-guns"
+  },
+  "8471682": {
+    "status": "chosen",
+    "chosen": {
+      "set": "2007 Upper Deck",
+      "year": 2007,
+      "season": "2007-08",
+      "brand": "Upper Deck",
+      "subset": "Young Guns",
+      "cardNumber": "493",
+      "sourceIds": {
+        "scp": "2379396"
+      },
+      "urls": {
+        "scp": "https://www.sportscardspro.com/game/hockey-cards-2007-upper-deck/devin-setoguchi-493"
+      }
+    },
+    "rule": "verified-young-guns",
+    "confidence": "high",
+    "source": "owner collection records",
+    "checkedOn": "2026-10-19",
+    "decidedOn": "2026-10-19",
+    "decidedBy": "owner",
+    "basis": "owner-verified-young-guns"
+  },
+  "8471694": {
+    "status": "chosen",
+    "chosen": {
+      "set": "2008 Upper Deck",
+      "year": 2008,
+      "season": "2008-09",
+      "brand": "Upper Deck",
+      "subset": "Young Guns",
+      "cardNumber": "484",
+      "sourceIds": {
+        "scp": "8425326"
+      },
+      "urls": {
+        "scp": "https://www.sportscardspro.com/game/hockey-cards-2008-upper-deck/kenndal-mcardle-484"
+      }
+    },
+    "rule": "verified-young-guns",
+    "confidence": "high",
+    "source": "owner collection records",
+    "checkedOn": "2026-10-19",
+    "decidedOn": "2026-10-19",
+    "decidedBy": "owner",
+    "basis": "owner-verified-young-guns"
+  },
+  "8471715": {
+    "status": "chosen",
+    "chosen": {
+      "set": "2007 Upper Deck",
+      "year": 2007,
+      "season": "2007-08",
+      "brand": "Upper Deck",
+      "subset": "Young Guns",
+      "cardNumber": "453",
+      "sourceIds": {
+        "scp": "2379368"
+      },
+      "urls": {
+        "scp": "https://www.sportscardspro.com/game/hockey-cards-2007-upper-deck/ondrej-pavelec-453"
+      }
+    },
+    "rule": "verified-young-guns",
+    "confidence": "high",
+    "source": "owner collection records",
+    "checkedOn": "2026-10-19",
+    "decidedOn": "2026-10-19",
+    "decidedBy": "owner",
+    "basis": "owner-verified-young-guns"
+  },
+  "8471978": {
+    "status": "chosen",
+    "chosen": {
+      "set": "2008 Upper Deck",
+      "year": 2008,
+      "season": "2008-09",
+      "brand": "Upper Deck",
+      "subset": "Young Guns",
+      "cardNumber": "452",
+      "sourceIds": {
+        "scp": "2380121"
+      },
+      "urls": {
+        "scp": "https://www.sportscardspro.com/game/hockey-cards-2008-upper-deck/brett-festerling-452"
+      }
+    },
+    "rule": "verified-young-guns",
+    "confidence": "high",
+    "source": "owner collection records",
+    "checkedOn": "2026-10-19",
+    "decidedOn": "2026-10-19",
+    "decidedBy": "owner",
+    "basis": "owner-verified-young-guns"
+  },
+  "8473412": {
+    "status": "chosen",
+    "chosen": {
+      "set": "2007 Upper Deck",
+      "year": 2007,
+      "season": "2007-08",
+      "brand": "Upper Deck",
+      "subset": "Young Guns",
+      "cardNumber": "205",
+      "sourceIds": {
+        "scp": "2379299"
+      },
+      "urls": {
+        "scp": "https://www.sportscardspro.com/game/hockey-cards-2007-upper-deck/bryan-little-205"
+      }
+    },
+    "rule": "verified-young-guns",
+    "confidence": "high",
+    "source": "owner collection records",
+    "checkedOn": "2026-10-19",
+    "decidedOn": "2026-10-19",
+    "decidedBy": "owner",
+    "basis": "owner-verified-young-guns"
+  },
+  "8473459": {
+    "status": "chosen",
+    "chosen": {
+      "set": "2010 Upper Deck",
+      "year": 2010,
+      "season": "2010-11",
+      "brand": "Upper Deck",
+      "subset": "Young Guns",
+      "cardNumber": "204",
+      "sourceIds": {
+        "scp": "2380545"
+      },
+      "urls": {
+        "scp": "https://www.sportscardspro.com/game/hockey-cards-2010-upper-deck/arturs-kulda-204"
+      }
+    },
+    "rule": "verified-young-guns",
+    "confidence": "high",
+    "source": "owner collection records",
+    "checkedOn": "2026-10-19",
+    "decidedOn": "2026-10-19",
+    "decidedBy": "owner",
+    "basis": "owner-verified-young-guns"
+  },
+  "8473461": {
+    "status": "chosen",
+    "chosen": {
+      "set": "2008 Upper Deck",
+      "year": 2008,
+      "season": "2008-09",
+      "brand": "Upper Deck",
+      "subset": "Young Guns",
+      "cardNumber": "208",
+      "sourceIds": {
+        "scp": "2380049"
+      },
+      "urls": {
+        "scp": "https://www.sportscardspro.com/game/hockey-cards-2008-upper-deck/steve-mason-208"
+      }
+    },
+    "rule": "verified-young-guns",
+    "confidence": "high",
+    "source": "owner collection records",
+    "checkedOn": "2026-10-19",
+    "decidedOn": "2026-10-19",
+    "decidedBy": "owner",
+    "basis": "owner-verified-young-guns"
+  },
+  "8473482": {
+    "status": "chosen",
+    "chosen": {
+      "set": "2007 Upper Deck",
+      "year": 2007,
+      "season": "2007-08",
+      "brand": "Upper Deck",
+      "subset": "Young Guns",
+      "cardNumber": "497",
+      "sourceIds": {
+        "scp": "2379402"
+      },
+      "urls": {
+        "scp": "https://www.sportscardspro.com/game/hockey-cards-2007-upper-deck/jiri-tlusty-497"
+      }
+    },
+    "rule": "verified-young-guns",
+    "confidence": "high",
+    "source": "owner collection records",
+    "checkedOn": "2026-10-19",
+    "decidedOn": "2026-10-19",
+    "decidedBy": "owner",
+    "basis": "owner-verified-young-guns"
+  },
+  "8473564": {
+    "status": "chosen",
+    "chosen": {
+      "set": "2008 Upper Deck",
+      "year": 2008,
+      "season": "2008-09",
+      "brand": "Upper Deck",
+      "subset": "Young Guns",
+      "cardNumber": "217",
+      "sourceIds": {
+        "scp": "2380060"
+      },
+      "urls": {
+        "scp": "https://www.sportscardspro.com/game/hockey-cards-2008-upper-deck/michael-frolik-217"
+      }
+    },
+    "rule": "verified-young-guns",
+    "confidence": "high",
+    "source": "owner collection records",
+    "checkedOn": "2026-10-19",
+    "decidedOn": "2026-10-19",
+    "decidedBy": "owner",
+    "basis": "owner-verified-young-guns"
+  },
+  "8473574": {
+    "status": "chosen",
+    "chosen": {
+      "set": "2008 Upper Deck",
+      "year": 2008,
+      "season": "2008-09",
+      "brand": "Upper Deck",
+      "subset": "Young Guns",
+      "cardNumber": "219",
+      "sourceIds": {
+        "scp": "2380063"
+      },
+      "urls": {
+        "scp": "https://www.sportscardspro.com/game/hockey-cards-2008-upper-deck/shawn-matthias-219"
+      }
+    },
+    "rule": "verified-young-guns",
+    "confidence": "high",
+    "source": "owner collection records",
+    "checkedOn": "2026-10-19",
+    "decidedOn": "2026-10-19",
+    "decidedBy": "owner",
+    "basis": "owner-verified-young-guns"
+  },
+  "8473604": {
+    "status": "chosen",
+    "chosen": {
+      "set": "2007 Upper Deck",
+      "year": 2007,
+      "season": "2007-08",
+      "brand": "Upper Deck",
+      "subset": "Young Guns",
+      "cardNumber": "462",
+      "sourceIds": {
+        "scp": "2379373"
+      },
+      "urls": {
+        "scp": "https://www.sportscardspro.com/game/hockey-cards-2007-upper-deck/jonathan-toews-462"
+      }
+    },
+    "rule": "verified-young-guns",
+    "confidence": "high",
+    "source": "owner collection records",
+    "checkedOn": "2026-10-19",
+    "decidedOn": "2026-10-19",
+    "decidedBy": "owner",
+    "basis": "owner-verified-young-guns"
+  },
+  "8473618": {
+    "status": "chosen",
+    "chosen": {
+      "set": "2009 Upper Deck",
+      "year": 2009,
+      "season": "2009-10",
+      "brand": "Upper Deck",
+      "subset": "Young Guns",
+      "cardNumber": "498",
+      "sourceIds": {
+        "scp": "2380452"
+      },
+      "urls": {
+        "scp": "https://www.sportscardspro.com/game/hockey-cards-2009-upper-deck/mathieu-perreault-498"
+      }
+    },
+    "rule": "verified-young-guns",
+    "confidence": "high",
+    "source": "owner collection records",
+    "checkedOn": "2026-10-19",
+    "decidedOn": "2026-10-19",
+    "decidedBy": "owner",
+    "basis": "owner-verified-young-guns"
+  },
+  "8473914": {
+    "status": "chosen",
+    "chosen": {
+      "set": "2009 Upper Deck",
+      "year": 2009,
+      "season": "2009-10",
+      "brand": "Upper Deck",
+      "subset": "Young Guns",
+      "cardNumber": "486",
+      "sourceIds": {
+        "scp": "2380436"
+      },
+      "urls": {
+        "scp": "https://www.sportscardspro.com/game/hockey-cards-2009-upper-deck/mark-letestu-486"
+      }
+    },
+    "rule": "verified-young-guns",
+    "confidence": "high",
+    "source": "owner collection records",
+    "checkedOn": "2026-10-19",
+    "decidedOn": "2026-10-19",
+    "decidedBy": "owner",
+    "basis": "owner-verified-young-guns"
+  },
+  "8474001": {
+    "status": "chosen",
+    "chosen": {
+      "set": "2009 Upper Deck",
+      "year": 2009,
+      "season": "2009-10",
+      "brand": "Upper Deck",
+      "subset": "Young Guns",
+      "cardNumber": "241",
+      "sourceIds": {
+        "scp": "8872901"
+      },
+      "urls": {
+        "scp": "https://www.sportscardspro.com/game/hockey-cards-2009-upper-deck/tj-galiardi-241"
+      }
+    },
+    "rule": "verified-young-guns",
+    "confidence": "high",
+    "source": "owner collection records",
+    "checkedOn": "2026-10-19",
+    "decidedOn": "2026-10-19",
+    "decidedBy": "owner",
+    "basis": "owner-verified-young-guns"
+  },
+  "8474025": {
+    "status": "chosen",
+    "chosen": {
+      "set": "2010 Upper Deck",
+      "year": 2010,
+      "season": "2010-11",
+      "brand": "Upper Deck",
+      "subset": "Young Guns",
+      "cardNumber": "241",
+      "sourceIds": {
+        "scp": "2380625"
+      },
+      "urls": {
+        "scp": "https://www.sportscardspro.com/game/hockey-cards-2010-upper-deck/eric-tangradi-241"
+      }
+    },
+    "rule": "verified-young-guns",
+    "confidence": "high",
+    "source": "owner collection records",
+    "checkedOn": "2026-10-19",
+    "decidedOn": "2026-10-19",
+    "decidedBy": "owner",
+    "basis": "owner-verified-young-guns"
+  },
+  "8474040": {
+    "status": "chosen",
+    "chosen": {
+      "set": "2007 Upper Deck",
+      "year": 2007,
+      "season": "2007-08",
+      "brand": "Upper Deck",
+      "subset": "Young Guns",
+      "cardNumber": "218",
+      "sourceIds": {
+        "scp": "2379313"
+      },
+      "urls": {
+        "scp": "https://www.sportscardspro.com/game/hockey-cards-2007-upper-deck/sam-gagner-218"
+      }
+    },
+    "rule": "verified-young-guns",
+    "confidence": "high",
+    "source": "owner collection records",
+    "checkedOn": "2026-10-19",
+    "decidedOn": "2026-10-19",
+    "decidedBy": "owner",
+    "basis": "owner-verified-young-guns"
+  },
+  "8474062": {
+    "status": "chosen",
+    "chosen": {
+      "set": "2011 Upper Deck",
+      "year": 2011,
+      "season": "2011-12",
+      "brand": "Upper Deck",
+      "subset": "Young Guns",
+      "cardNumber": "460",
+      "sourceIds": {
+        "scp": "2381693"
+      },
+      "urls": {
+        "scp": "https://www.sportscardspro.com/game/hockey-cards-2011-upper-deck/riley-nash-460"
+      }
+    },
+    "rule": "verified-young-guns",
+    "confidence": "high",
+    "source": "owner collection records",
+    "checkedOn": "2026-10-19",
+    "decidedOn": "2026-10-19",
+    "decidedBy": "owner",
+    "basis": "owner-verified-young-guns"
+  },
+  "8474074": {
+    "status": "chosen",
+    "chosen": {
+      "set": "2011 Upper Deck",
+      "year": 2011,
+      "season": "2011-12",
+      "brand": "Upper Deck",
+      "subset": "Young Guns",
+      "cardNumber": "249",
+      "sourceIds": {
+        "scp": "2381670"
+      },
+      "urls": {
+        "scp": "https://www.sportscardspro.com/game/hockey-cards-2011-upper-deck/paul-postma-249"
+      }
+    },
+    "rule": "verified-young-guns",
+    "confidence": "high",
+    "source": "owner collection records",
+    "checkedOn": "2026-10-19",
+    "decidedOn": "2026-10-19",
+    "decidedBy": "owner",
+    "basis": "owner-verified-young-guns"
+  },
+  "8474094": {
+    "status": "chosen",
+    "chosen": {
+      "set": "2008 Upper Deck",
+      "year": 2008,
+      "season": "2008-09",
+      "brand": "Upper Deck",
+      "subset": "Young Guns",
+      "cardNumber": "475",
+      "sourceIds": {
+        "scp": "8425295"
+      },
+      "urls": {
+        "scp": "https://www.sportscardspro.com/game/hockey-cards-2008-upper-deck/matt-halischuk-475"
+      }
+    },
+    "rule": "verified-young-guns",
+    "confidence": "high",
+    "source": "owner collection records",
+    "checkedOn": "2026-10-19",
+    "decidedOn": "2026-10-19",
+    "decidedBy": "owner",
+    "basis": "owner-verified-young-guns"
+  },
+  "8474146": {
+    "status": "chosen",
+    "chosen": {
+      "set": "2009 Upper Deck",
+      "year": 2009,
+      "season": "2009-10",
+      "brand": "Upper Deck",
+      "subset": "Young Guns",
+      "cardNumber": "219",
+      "sourceIds": {
+        "scp": "2380343"
+      },
+      "urls": {
+        "scp": "https://www.sportscardspro.com/game/hockey-cards-2009-upper-deck/spencer-machacek-219"
+      }
+    },
+    "rule": "verified-young-guns",
+    "confidence": "high",
+    "source": "owner collection records",
+    "checkedOn": "2026-10-19",
+    "decidedOn": "2026-10-19",
+    "decidedBy": "owner",
+    "basis": "owner-verified-young-guns"
+  },
+  "8474567": {
+    "status": "chosen",
+    "chosen": {
+      "set": "2008 Upper Deck",
+      "year": 2008,
+      "season": "2008-09",
+      "brand": "Upper Deck",
+      "subset": "Young Guns",
+      "cardNumber": "201",
+      "sourceIds": {
+        "scp": "2380040"
+      },
+      "urls": {
+        "scp": "https://www.sportscardspro.com/game/hockey-cards-2008-upper-deck/zach-bogosian-201"
+      }
+    },
+    "rule": "verified-young-guns",
+    "confidence": "high",
+    "source": "owner collection records",
+    "checkedOn": "2026-10-19",
+    "decidedOn": "2026-10-19",
+    "decidedBy": "owner",
+    "basis": "owner-verified-young-guns"
+  },
+  "8474568": {
+    "status": "chosen",
+    "chosen": {
+      "set": "2008 Upper Deck",
+      "year": 2008,
+      "season": "2008-09",
+      "brand": "Upper Deck",
+      "subset": "Young Guns",
+      "cardNumber": "248",
+      "sourceIds": {
+        "scp": "2380106"
+      },
+      "urls": {
+        "scp": "https://www.sportscardspro.com/game/hockey-cards-2008-upper-deck/luke-schenn-248"
+      }
+    },
+    "rule": "verified-young-guns",
+    "confidence": "high",
+    "source": "owner collection records",
+    "checkedOn": "2026-10-19",
+    "decidedOn": "2026-10-19",
+    "decidedBy": "owner",
+    "basis": "owner-verified-young-guns"
+  },
+  "8474574": {
+    "status": "chosen",
+    "chosen": {
+      "set": "2009 Upper Deck",
+      "year": 2009,
+      "season": "2009-10",
+      "brand": "Upper Deck",
+      "subset": "Young Guns",
+      "cardNumber": "214",
+      "sourceIds": {
+        "scp": "2380337"
+      },
+      "urls": {
+        "scp": "https://www.sportscardspro.com/game/hockey-cards-2009-upper-deck/tyler-myers-214"
+      }
+    },
+    "rule": "verified-young-guns",
+    "confidence": "high",
+    "source": "owner collection records",
+    "checkedOn": "2026-10-19",
+    "decidedOn": "2026-10-19",
+    "decidedBy": "owner",
+    "basis": "owner-verified-young-guns"
+  },
+  "8474579": {
+    "status": "chosen",
+    "chosen": {
+      "set": "2008 Upper Deck",
+      "year": 2008,
+      "season": "2008-09",
+      "brand": "Upper Deck",
+      "subset": "Young Guns",
+      "cardNumber": "234",
+      "sourceIds": {
+        "scp": "2380085"
+      },
+      "urls": {
+        "scp": "https://www.sportscardspro.com/game/hockey-cards-2008-upper-deck/luca-sbisa-234"
+      }
+    },
+    "rule": "verified-young-guns",
+    "confidence": "high",
+    "source": "owner collection records",
+    "checkedOn": "2026-10-19",
+    "decidedOn": "2026-10-19",
+    "decidedBy": "owner",
+    "basis": "owner-verified-young-guns"
+  },
+  "8474636": {
+    "status": "chosen",
+    "chosen": {
+      "set": "2012 Upper Deck",
+      "year": 2012,
+      "season": "2012-13",
+      "brand": "Upper Deck",
+      "subset": "Young Guns",
+      "cardNumber": "206",
+      "sourceIds": {
+        "scp": "2381818"
+      },
+      "urls": {
+        "scp": "https://www.sportscardspro.com/game/hockey-cards-2012-upper-deck/michael-hutchinson-206"
+      }
+    },
+    "rule": "verified-young-guns",
+    "confidence": "high",
+    "source": "owner collection records",
+    "checkedOn": "2026-10-19",
+    "decidedOn": "2026-10-19",
+    "decidedBy": "owner",
+    "basis": "owner-verified-young-guns"
+  },
+  "8474674": {
+    "status": "chosen",
+    "chosen": {
+      "set": "2009 Upper Deck",
+      "year": 2009,
+      "season": "2009-10",
+      "brand": "Upper Deck",
+      "subset": "Young Guns",
+      "cardNumber": "243",
+      "sourceIds": {
+        "scp": "2380376"
+      },
+      "urls": {
+        "scp": "https://www.sportscardspro.com/game/hockey-cards-2009-upper-deck/james-wright-243"
+      }
+    },
+    "rule": "verified-young-guns",
+    "confidence": "high",
+    "source": "owner collection records",
+    "checkedOn": "2026-10-19",
+    "decidedOn": "2026-10-19",
+    "decidedBy": "owner",
+    "basis": "owner-verified-young-guns"
+  },
+  "8474679": {
+    "status": "chosen",
+    "chosen": {
+      "set": "2011 Upper Deck",
+      "year": 2011,
+      "season": "2011-12",
+      "brand": "Upper Deck",
+      "subset": "Young Guns",
+      "cardNumber": "468",
+      "sourceIds": {
+        "scp": "2381703"
+      },
+      "urls": {
+        "scp": "https://www.sportscardspro.com/game/hockey-cards-2011-upper-deck/gustav-nyquist-468"
+      }
+    },
+    "rule": "verified-young-guns",
+    "confidence": "high",
+    "source": "owner collection records",
+    "checkedOn": "2026-10-19",
+    "decidedOn": "2026-10-19",
+    "decidedBy": "owner",
+    "basis": "owner-verified-young-guns"
+  },
+  "8474818": {
+    "status": "chosen",
+    "chosen": {
+      "set": "2011 Upper Deck",
+      "year": 2011,
+      "season": "2011-12",
+      "brand": "Upper Deck",
+      "subset": "Young Guns",
+      "cardNumber": "466",
+      "sourceIds": {
+        "scp": "2381701"
+      },
+      "urls": {
+        "scp": "https://www.sportscardspro.com/game/hockey-cards-2011-upper-deck/jordie-benn-466"
+      }
+    },
+    "rule": "verified-young-guns",
+    "confidence": "high",
+    "source": "owner collection records",
+    "checkedOn": "2026-10-19",
+    "decidedOn": "2026-10-19",
+    "decidedBy": "owner",
+    "basis": "owner-verified-young-guns"
+  },
+  "8475159": {
+    "status": "chosen",
+    "chosen": {
+      "set": "2011 Upper Deck",
+      "year": 2011,
+      "season": "2011-12",
+      "brand": "Upper Deck",
+      "subset": "Young Guns",
+      "cardNumber": "247",
+      "sourceIds": {
+        "scp": "2381667"
+      },
+      "urls": {
+        "scp": "https://www.sportscardspro.com/game/hockey-cards-2011-upper-deck/carl-klingberg-247"
+      }
+    },
+    "rule": "verified-young-guns",
+    "confidence": "high",
+    "source": "owner collection records",
+    "checkedOn": "2026-10-19",
+    "decidedOn": "2026-10-19",
+    "decidedBy": "owner",
+    "basis": "owner-verified-young-guns"
+  },
+  "8475169": {
+    "status": "chosen",
+    "chosen": {
+      "set": "2009 Upper Deck",
+      "year": 2009,
+      "season": "2009-10",
+      "brand": "Upper Deck",
+      "subset": "Young Guns",
+      "cardNumber": "205",
+      "sourceIds": {
+        "scp": "2380321"
+      },
+      "urls": {
+        "scp": "https://www.sportscardspro.com/game/hockey-cards-2009-upper-deck/evander-kane-205"
+      }
+    },
+    "rule": "verified-young-guns",
+    "confidence": "high",
+    "source": "owner collection records",
+    "checkedOn": "2026-10-19",
+    "decidedOn": "2026-10-19",
+    "decidedBy": "owner",
+    "basis": "owner-verified-young-guns"
+  },
+  "8475179": {
+    "status": "chosen",
+    "chosen": {
+      "set": "2009 Upper Deck",
+      "year": 2009,
+      "season": "2009-10",
+      "brand": "Upper Deck",
+      "subset": "Young Guns",
+      "cardNumber": "211",
+      "sourceIds": {
+        "scp": "2380332"
+      },
+      "urls": {
+        "scp": "https://www.sportscardspro.com/game/hockey-cards-2009-upper-deck/dmitry-kulikov-211"
+      }
+    },
+    "rule": "verified-young-guns",
+    "confidence": "high",
+    "source": "owner collection records",
+    "checkedOn": "2026-10-19",
+    "decidedOn": "2026-10-19",
+    "decidedBy": "owner",
+    "basis": "owner-verified-young-guns"
+  },
+  "8475236": {
+    "status": "chosen",
+    "chosen": {
+      "set": "2011 Upper Deck",
+      "year": 2011,
+      "season": "2011-12",
+      "brand": "Upper Deck",
+      "subset": "Young Guns",
+      "cardNumber": "499",
+      "sourceIds": {
+        "scp": "2381735"
+      },
+      "urls": {
+        "scp": "https://www.sportscardspro.com/game/hockey-cards-2011-upper-deck/cody-eakin-499"
+      }
+    },
+    "rule": "verified-young-guns",
+    "confidence": "high",
+    "source": "owner collection records",
+    "checkedOn": "2026-10-19",
+    "decidedOn": "2026-10-19",
+    "decidedBy": "owner",
+    "basis": "owner-verified-young-guns"
+  },
+  "8475268": {
+    "status": "chosen",
+    "chosen": {
+      "set": "2011 Upper Deck",
+      "year": 2011,
+      "season": "2011-12",
+      "brand": "Upper Deck",
+      "subset": "Young Guns",
+      "cardNumber": "477",
+      "sourceIds": {
+        "scp": "2381712"
+      },
+      "urls": {
+        "scp": "https://www.sportscardspro.com/game/hockey-cards-2011-upper-deck/gabriel-bourque-477"
+      }
+    },
+    "rule": "verified-young-guns",
+    "confidence": "high",
+    "source": "owner collection records",
+    "checkedOn": "2026-10-19",
+    "decidedOn": "2026-10-19",
+    "decidedBy": "owner",
+    "basis": "owner-verified-young-guns"
+  },
+  "8475455": {
+    "status": "chosen",
+    "chosen": {
+      "set": "2012 Upper Deck",
+      "year": 2012,
+      "season": "2012-13",
+      "brand": "Upper Deck",
+      "subset": "Young Guns",
+      "cardNumber": "220",
+      "sourceIds": {
+        "scp": "2381836"
+      },
+      "urls": {
+        "scp": "https://www.sportscardspro.com/game/hockey-cards-2012-upper-deck/brenden-dillon-220"
+      }
+    },
+    "rule": "verified-young-guns",
+    "confidence": "high",
+    "source": "owner collection records",
+    "checkedOn": "2026-10-19",
+    "decidedOn": "2026-10-19",
+    "decidedBy": "owner",
+    "basis": "owner-verified-young-guns"
+  },
+  "8475726": {
+    "status": "chosen",
+    "chosen": {
+      "set": "2013 Upper Deck",
+      "year": 2013,
+      "season": "2013-14",
+      "brand": "Upper Deck",
+      "subset": "Young Guns",
+      "cardNumber": "246",
+      "sourceIds": {
+        "scp": "2382952"
+      },
+      "urls": {
+        "scp": "https://www.sportscardspro.com/game/hockey-cards-2013-upper-deck/tyler-toffoli-246"
+      }
+    },
+    "rule": "verified-young-guns",
+    "confidence": "high",
+    "source": "owner collection records",
+    "checkedOn": "2026-10-19",
+    "decidedOn": "2026-10-19",
+    "decidedBy": "owner",
+    "basis": "owner-verified-young-guns"
+  },
+  "8475762": {
+    "status": "chosen",
+    "chosen": {
+      "set": "2015 Upper Deck",
+      "year": 2015,
+      "season": "2015-16",
+      "brand": "Upper Deck",
+      "subset": "Young Guns",
+      "cardNumber": "473",
+      "sourceIds": {
+        "scp": "2384902"
+      },
+      "urls": {
+        "scp": "https://www.sportscardspro.com/game/hockey-cards-2015-upper-deck/derek-forbort-473"
+      }
+    },
+    "rule": "verified-young-guns",
+    "confidence": "high",
+    "source": "owner collection records",
+    "checkedOn": "2026-10-19",
+    "decidedOn": "2026-10-19",
+    "decidedBy": "owner",
+    "basis": "owner-verified-young-guns"
+  },
+  "8475763": {
+    "status": "chosen",
+    "chosen": {
+      "set": "2014 Upper Deck",
+      "year": 2014,
+      "season": "2014-15",
+      "brand": "Upper Deck",
+      "subset": "Young Guns",
+      "cardNumber": "490",
+      "sourceIds": {
+        "scp": "2383824"
+      },
+      "urls": {
+        "scp": "https://www.sportscardspro.com/game/hockey-cards-2014-upper-deck/kevin-hayes-490"
+      }
+    },
+    "rule": "verified-young-guns",
+    "confidence": "high",
+    "source": "owner collection records",
+    "checkedOn": "2026-10-19",
+    "decidedOn": "2026-10-19",
+    "decidedBy": "owner",
+    "basis": "owner-verified-young-guns"
+  },
+  "8475788": {
+    "status": "chosen",
+    "chosen": {
+      "set": "2010 Upper Deck",
+      "year": 2010,
+      "season": "2010-11",
+      "brand": "Upper Deck",
+      "subset": "Young Guns",
+      "cardNumber": "203",
+      "sourceIds": {
+        "scp": "2380543"
+      },
+      "urls": {
+        "scp": "https://www.sportscardspro.com/game/hockey-cards-2010-upper-deck/alexander-burmistrov-203"
+      }
+    },
+    "rule": "verified-young-guns",
+    "confidence": "high",
+    "source": "owner collection records",
+    "checkedOn": "2026-10-19",
+    "decidedOn": "2026-10-19",
+    "decidedBy": "owner",
+    "basis": "owner-verified-young-guns"
+  },
+  "8475799": {
+    "status": "chosen",
+    "chosen": {
+      "set": "2010 Upper Deck",
+      "year": 2010,
+      "season": "2010-11",
+      "brand": "Upper Deck",
+      "subset": "Young Guns",
+      "cardNumber": "482",
+      "sourceIds": {
+        "scp": "2380695"
+      },
+      "urls": {
+        "scp": "https://www.sportscardspro.com/game/hockey-cards-2010-upper-deck/nino-niederreiter-482"
+      }
+    },
+    "rule": "verified-young-guns",
+    "confidence": "high",
+    "source": "owner collection records",
+    "checkedOn": "2026-10-19",
+    "decidedOn": "2026-10-19",
+    "decidedBy": "owner",
+    "basis": "owner-verified-young-guns"
+  },
+  "8476316": {
+    "status": "chosen",
+    "chosen": {
+      "set": "2014 Upper Deck",
+      "year": 2014,
+      "season": "2014-15",
+      "brand": "Upper Deck",
+      "subset": "Young Guns",
+      "cardNumber": "458",
+      "sourceIds": {
+        "scp": "2383773"
+      },
+      "urls": {
+        "scp": "https://www.sportscardspro.com/game/hockey-cards-2014-upper-deck/laurent-brossoit-458"
+      }
+    },
+    "rule": "verified-young-guns",
+    "confidence": "high",
+    "source": "owner collection records",
+    "checkedOn": "2026-10-19",
+    "decidedOn": "2026-10-19",
+    "decidedBy": "owner",
+    "basis": "owner-verified-young-guns"
+  },
+  "8476331": {
+    "status": "chosen",
+    "chosen": {
+      "set": "2015 Upper Deck",
+      "year": 2015,
+      "season": "2015-16",
+      "brand": "Upper Deck",
+      "subset": "Young Guns",
+      "cardNumber": "467",
+      "sourceIds": {
+        "scp": "2384889"
+      },
+      "urls": {
+        "scp": "https://www.sportscardspro.com/game/hockey-cards-2015-upper-deck/dylan-demelo-467"
+      }
+    },
+    "rule": "verified-young-guns",
+    "confidence": "high",
+    "source": "owner collection records",
+    "checkedOn": "2026-10-19",
+    "decidedOn": "2026-10-19",
+    "decidedBy": "owner",
+    "basis": "owner-verified-young-guns"
+  },
+  "8476392": {
+    "status": "chosen",
+    "chosen": {
+      "set": "2014 Upper Deck",
+      "year": 2014,
+      "season": "2014-15",
+      "brand": "Upper Deck",
+      "subset": "Young Guns",
+      "cardNumber": "249",
+      "sourceIds": {
+        "scp": "2383745"
+      },
+      "urls": {
+        "scp": "https://www.sportscardspro.com/game/hockey-cards-2014-upper-deck/adam-lowry-249"
+      }
+    },
+    "rule": "verified-young-guns",
+    "confidence": "high",
+    "source": "owner collection records",
+    "checkedOn": "2026-10-19",
+    "decidedOn": "2026-10-19",
+    "decidedBy": "owner",
+    "basis": "owner-verified-young-guns"
+  },
+  "8476400": {
+    "status": "chosen",
+    "chosen": {
+      "set": "2015 Upper Deck",
+      "year": 2015,
+      "season": "2015-16",
+      "brand": "Upper Deck",
+      "subset": "Young Guns",
+      "cardNumber": "454",
+      "sourceIds": {
+        "scp": "2384864"
+      },
+      "urls": {
+        "scp": "https://www.sportscardspro.com/game/hockey-cards-2015-upper-deck/logan-shaw-454"
+      }
+    },
+    "rule": "verified-young-guns",
+    "confidence": "high",
+    "source": "owner collection records",
+    "checkedOn": "2026-10-19",
+    "decidedOn": "2026-10-19",
+    "decidedBy": "owner",
+    "basis": "owner-verified-young-guns"
+  },
+  "8476406": {
+    "status": "chosen",
+    "chosen": {
+      "set": "2015 Upper Deck",
+      "year": 2015,
+      "season": "2015-16",
+      "brand": "Upper Deck",
+      "subset": "Young Guns",
+      "cardNumber": "216",
+      "sourceIds": {
+        "scp": "2384737"
+      },
+      "urls": {
+        "scp": "https://www.sportscardspro.com/game/hockey-cards-2015-upper-deck/nick-shore-216"
+      }
+    },
+    "rule": "verified-young-guns",
+    "confidence": "high",
+    "source": "owner collection records",
+    "checkedOn": "2026-10-19",
+    "decidedOn": "2026-10-19",
+    "decidedBy": "owner",
+    "basis": "owner-verified-young-guns"
+  },
+  "8476460": {
+    "status": "chosen",
+    "chosen": {
+      "set": "2011 Upper Deck",
+      "year": 2011,
+      "season": "2011-12",
+      "brand": "Upper Deck",
+      "subset": "Young Guns",
+      "cardNumber": "248",
+      "sourceIds": {
+        "scp": "2381668"
+      },
+      "urls": {
+        "scp": "https://www.sportscardspro.com/game/hockey-cards-2011-upper-deck/mark-scheifele-248"
+      }
+    },
+    "rule": "verified-young-guns",
+    "confidence": "high",
+    "source": "owner collection records",
+    "checkedOn": "2026-10-19",
+    "decidedOn": "2026-10-19",
+    "decidedBy": "owner",
+    "basis": "owner-verified-young-guns"
+  },
+  "8476469": {
+    "status": "chosen",
+    "chosen": {
+      "set": "2014 Upper Deck",
+      "year": 2014,
+      "season": "2014-15",
+      "brand": "Upper Deck",
+      "subset": "Young Guns",
+      "cardNumber": "460",
+      "sourceIds": {
+        "scp": "2383776"
+      },
+      "urls": {
+        "scp": "https://www.sportscardspro.com/game/hockey-cards-2014-upper-deck/joel-armia-460"
+      }
+    },
+    "rule": "verified-young-guns",
+    "confidence": "high",
+    "source": "owner collection records",
+    "checkedOn": "2026-10-19",
+    "decidedOn": "2026-10-19",
+    "decidedBy": "owner",
+    "basis": "owner-verified-young-guns"
+  },
+  "8476470": {
+    "status": "chosen",
+    "chosen": {
+      "set": "2013 Upper Deck",
+      "year": 2013,
+      "season": "2013-14",
+      "brand": "Upper Deck",
+      "subset": "Young Guns",
+      "cardNumber": "207",
+      "sourceIds": {
+        "scp": "2382868"
+      },
+      "urls": {
+        "scp": "https://www.sportscardspro.com/game/hockey-cards-2013-upper-deck/nathan-beaulieu-207"
+      }
+    },
+    "rule": "verified-young-guns",
+    "confidence": "high",
+    "source": "owner collection records",
+    "checkedOn": "2026-10-19",
+    "decidedOn": "2026-10-19",
+    "decidedBy": "owner",
+    "basis": "owner-verified-young-guns"
+  },
+  "8476476": {
+    "status": "chosen",
+    "chosen": {
+      "set": "2014 Upper Deck",
+      "year": 2014,
+      "season": "2014-15",
+      "brand": "Upper Deck",
+      "subset": "Young Guns",
+      "cardNumber": "451",
+      "sourceIds": {
+        "scp": "2383762"
+      },
+      "urls": {
+        "scp": "https://www.sportscardspro.com/game/hockey-cards-2014-upper-deck/joe-morrow-451"
+      }
+    },
+    "rule": "verified-young-guns",
+    "confidence": "high",
+    "source": "owner collection records",
+    "checkedOn": "2026-10-19",
+    "decidedOn": "2026-10-19",
+    "decidedBy": "owner",
+    "basis": "owner-verified-young-guns"
+  },
+  "8476480": {
+    "status": "chosen",
+    "chosen": {
+      "set": "2014 Upper Deck",
+      "year": 2014,
+      "season": "2014-15",
+      "brand": "Upper Deck",
+      "subset": "Young Guns",
+      "cardNumber": "243",
+      "sourceIds": {
+        "scp": "2383736"
+      },
+      "urls": {
+        "scp": "https://www.sportscardspro.com/game/hockey-cards-2014-upper-deck/vladislav-namestnikov-243"
+      }
+    },
+    "rule": "verified-young-guns",
+    "confidence": "high",
+    "source": "owner collection records",
+    "checkedOn": "2026-10-19",
+    "decidedOn": "2026-10-19",
+    "decidedBy": "owner",
+    "basis": "owner-verified-young-guns"
+  },
+  "8476525": {
+    "status": "chosen",
+    "chosen": {
+      "set": "2015 Upper Deck",
+      "year": 2015,
+      "season": "2015-16",
+      "brand": "Upper Deck",
+      "subset": "Young Guns",
+      "cardNumber": "247",
+      "sourceIds": {
+        "scp": "2384826"
+      },
+      "urls": {
+        "scp": "https://www.sportscardspro.com/game/hockey-cards-2015-upper-deck/colin-miller-247"
+      }
+    },
+    "rule": "verified-young-guns",
+    "confidence": "high",
+    "source": "owner collection records",
+    "checkedOn": "2026-10-19",
+    "decidedOn": "2026-10-19",
+    "decidedBy": "owner",
+    "basis": "owner-verified-young-guns"
+  },
+  "8476871": {
+    "status": "chosen",
+    "chosen": {
+      "set": "2013 Upper Deck",
+      "year": 2013,
+      "season": "2013-14",
+      "brand": "Upper Deck",
+      "subset": "Young Guns",
+      "cardNumber": "498",
+      "sourceIds": {
+        "scp": "2383063"
+      },
+      "urls": {
+        "scp": "https://www.sportscardspro.com/game/hockey-cards-2013-upper-deck/tanner-pearson-498"
+      }
+    },
+    "rule": "verified-young-guns",
+    "confidence": "high",
+    "source": "owner collection records",
+    "checkedOn": "2026-10-19",
+    "decidedOn": "2026-10-19",
+    "decidedBy": "owner",
+    "basis": "owner-verified-young-guns"
+  },
+  "8476885": {
+    "status": "chosen",
+    "chosen": {
+      "set": "2013 Upper Deck",
+      "year": 2013,
+      "season": "2013-14",
+      "brand": "Upper Deck",
+      "subset": "Young Guns",
+      "cardNumber": "237",
+      "sourceIds": {
+        "scp": "2382927"
+      },
+      "urls": {
+        "scp": "https://www.sportscardspro.com/game/hockey-cards-2013-upper-deck/jacob-trouba-237"
+      }
+    },
+    "rule": "verified-young-guns",
+    "confidence": "high",
+    "source": "owner collection records",
+    "checkedOn": "2026-10-19",
+    "decidedOn": "2026-10-19",
+    "decidedBy": "owner",
+    "basis": "owner-verified-young-guns"
+  },
+  "8476945": {
+    "status": "chosen",
+    "chosen": {
+      "set": "2015 Upper Deck",
+      "year": 2015,
+      "season": "2015-16",
+      "brand": "Upper Deck",
+      "subset": "Young Guns",
+      "cardNumber": "214",
+      "sourceIds": {
+        "scp": "2384730"
+      },
+      "urls": {
+        "scp": "https://www.sportscardspro.com/game/hockey-cards-2015-upper-deck/connor-hellebuyck-214"
+      }
+    },
+    "rule": "verified-young-guns",
+    "confidence": "high",
+    "source": "owner collection records",
+    "checkedOn": "2026-10-19",
+    "decidedOn": "2026-10-19",
+    "decidedBy": "owner",
+    "basis": "owner-verified-young-guns"
+  },
+  "8476952": {
+    "status": "chosen",
+    "chosen": {
+      "set": "2017 Upper Deck",
+      "year": 2017,
+      "season": "2017-18",
+      "brand": "Upper Deck",
+      "subset": "Young Guns",
+      "cardNumber": "511"
+    },
+    "rule": "verified-young-guns",
+    "confidence": "high",
+    "source": "owner collection records",
+    "checkedOn": "2026-10-19",
+    "decidedOn": "2026-10-19",
+    "decidedBy": "owner",
+    "basis": "owner-verified-young-guns"
+  },
+  "8477429": {
+    "status": "chosen",
+    "chosen": {
+      "set": "2015 Upper Deck",
+      "year": 2015,
+      "season": "2015-16",
+      "brand": "Upper Deck",
+      "subset": "Young Guns",
+      "cardNumber": "205",
+      "sourceIds": {
+        "scp": "2384701"
+      },
+      "urls": {
+        "scp": "https://www.sportscardspro.com/game/hockey-cards-2015-upper-deck/andrew-copp-205"
+      }
+    },
+    "rule": "verified-young-guns",
+    "confidence": "high",
+    "source": "owner collection records",
+    "checkedOn": "2026-10-19",
+    "decidedOn": "2026-10-19",
+    "decidedBy": "owner",
+    "basis": "owner-verified-young-guns"
+  },
+  "8477448": {
+    "status": "chosen",
+    "chosen": {
+      "set": "2014 Upper Deck",
+      "year": 2014,
+      "season": "2014-15",
+      "brand": "Upper Deck",
+      "subset": "Young Guns",
+      "cardNumber": "452",
+      "sourceIds": {
+        "scp": "2383764"
+      },
+      "urls": {
+        "scp": "https://www.sportscardspro.com/game/hockey-cards-2014-upper-deck/marko-dano-452"
+      }
+    },
+    "rule": "verified-young-guns",
+    "confidence": "high",
+    "source": "owner collection records",
+    "checkedOn": "2026-10-19",
+    "decidedOn": "2026-10-19",
+    "decidedBy": "owner",
+    "basis": "owner-verified-young-guns"
+  },
+  "8477464": {
+    "status": "chosen",
+    "chosen": {
+      "set": "2015 Upper Deck",
+      "year": 2015,
+      "season": "2015-16",
+      "brand": "Upper Deck",
+      "subset": "Young Guns",
+      "cardNumber": "227",
+      "sourceIds": {
+        "scp": "2384773"
+      },
+      "urls": {
+        "scp": "https://www.sportscardspro.com/game/hockey-cards-2015-upper-deck/nicolas-petan-227"
+      }
+    },
+    "rule": "verified-young-guns",
+    "confidence": "high",
+    "source": "owner collection records",
+    "checkedOn": "2026-10-19",
+    "decidedOn": "2026-10-19",
+    "decidedBy": "owner",
+    "basis": "owner-verified-young-guns"
+  },
+  "8477480": {
+    "status": "chosen",
+    "chosen": {
+      "set": "2017 Upper Deck",
+      "year": 2017,
+      "season": "2017-18",
+      "brand": "Upper Deck",
+      "subset": "Young Guns",
+      "cardNumber": "476",
+      "sourceIds": {
+        "scp": "2302205"
+      },
+      "urls": {
+        "scp": "https://www.sportscardspro.com/game/hockey-cards-2017-upper-deck/eric-comrie-476"
+      }
+    },
+    "rule": "verified-young-guns",
+    "confidence": "high",
+    "source": "owner collection records",
+    "checkedOn": "2026-10-19",
+    "decidedOn": "2026-10-19",
+    "decidedBy": "owner",
+    "basis": "owner-verified-young-guns"
+  },
+  "8477482": {
+    "status": "chosen",
+    "chosen": {
+      "set": "2016 Upper Deck",
+      "year": 2016,
+      "season": "2016-17",
+      "brand": "Upper Deck",
+      "subset": "Young Guns",
+      "cardNumber": "215",
+      "sourceIds": {
+        "scp": "2296478"
+      },
+      "urls": {
+        "scp": "https://www.sportscardspro.com/game/hockey-cards-2016-upper-deck/zach-sanford-215"
+      }
+    },
+    "rule": "verified-young-guns",
+    "confidence": "high",
+    "source": "owner collection records",
+    "checkedOn": "2026-10-19",
+    "decidedOn": "2026-10-19",
+    "decidedBy": "owner",
+    "basis": "owner-verified-young-guns"
+  },
+  "8477497": {
+    "status": "chosen",
+    "chosen": {
+      "set": "2013 Upper Deck",
+      "year": 2013,
+      "season": "2013-14",
+      "brand": "Upper Deck",
+      "subset": "Young Guns",
+      "cardNumber": "242",
+      "sourceIds": {
+        "scp": "2382945"
+      },
+      "urls": {
+        "scp": "https://www.sportscardspro.com/game/hockey-cards-2013-upper-deck/sean-monahan-242"
+      }
+    },
+    "rule": "verified-young-guns",
+    "confidence": "high",
+    "source": "owner collection records",
+    "checkedOn": "2026-10-19",
+    "decidedOn": "2026-10-19",
+    "decidedBy": "owner",
+    "basis": "owner-verified-young-guns"
+  },
+  "8477504": {
+    "status": "chosen",
+    "chosen": {
+      "set": "2016 Upper Deck",
+      "year": 2016,
+      "season": "2016-17",
+      "brand": "Upper Deck",
+      "subset": "Young Guns",
+      "cardNumber": "226",
+      "sourceIds": {
+        "scp": "2296488"
+      },
+      "urls": {
+        "scp": "https://www.sportscardspro.com/game/hockey-cards-2016-upper-deck/josh-morrissey-226"
+      }
+    },
+    "rule": "verified-young-guns",
+    "confidence": "high",
+    "source": "owner collection records",
+    "checkedOn": "2026-10-19",
+    "decidedOn": "2026-10-19",
+    "decidedBy": "owner",
+    "basis": "owner-verified-young-guns"
+  },
+  "8477938": {
+    "status": "chosen",
+    "chosen": {
+      "set": "2017 Upper Deck",
+      "year": 2017,
+      "season": "2017-18",
+      "brand": "Upper Deck",
+      "subset": "Young Guns",
+      "cardNumber": "236",
+      "sourceIds": {
+        "scp": "2301969"
+      },
+      "urls": {
+        "scp": "https://www.sportscardspro.com/game/hockey-cards-2017-upper-deck/haydn-fleury-236"
+      }
+    },
+    "rule": "verified-young-guns",
+    "confidence": "high",
+    "source": "owner collection records",
+    "checkedOn": "2026-10-19",
+    "decidedOn": "2026-10-19",
+    "decidedBy": "owner",
+    "basis": "owner-verified-young-guns"
+  },
+  "8477940": {
+    "status": "chosen",
+    "chosen": {
+      "set": "2015 Upper Deck",
+      "year": 2015,
+      "season": "2015-16",
+      "brand": "Upper Deck",
+      "subset": "Young Guns",
+      "cardNumber": "223",
+      "sourceIds": {
+        "scp": "2384760"
+      },
+      "urls": {
+        "scp": "https://www.sportscardspro.com/game/hockey-cards-2015-upper-deck/nikolaj-ehlers-223"
+      }
+    },
+    "rule": "verified-young-guns",
+    "confidence": "high",
+    "source": "owner collection records",
+    "checkedOn": "2026-10-19",
+    "decidedOn": "2026-10-19",
+    "decidedBy": "owner",
+    "basis": "owner-verified-young-guns"
+  },
+  "8477962": {
+    "status": "chosen",
+    "chosen": {
+      "set": "2017 Upper Deck",
+      "year": 2017,
+      "season": "2017-18",
+      "brand": "Upper Deck",
+      "subset": "Young Guns",
+      "cardNumber": "487",
+      "sourceIds": {
+        "scp": "2302216"
+      },
+      "urls": {
+        "scp": "https://www.sportscardspro.com/game/hockey-cards-2017-upper-deck/brendan-lemieux-487"
+      }
+    },
+    "rule": "verified-young-guns",
+    "confidence": "high",
+    "source": "owner collection records",
+    "checkedOn": "2026-10-19",
+    "decidedOn": "2026-10-19",
+    "decidedBy": "owner",
+    "basis": "owner-verified-young-guns"
+  },
+  "8478029": {
+    "status": "chosen",
+    "chosen": {
+      "set": "2016 Upper Deck",
+      "year": 2016,
+      "season": "2016-17",
+      "brand": "Upper Deck",
+      "subset": "Young Guns",
+      "cardNumber": "485",
+      "sourceIds": {
+        "scp": "2296746"
+      },
+      "urls": {
+        "scp": "https://www.sportscardspro.com/game/hockey-cards-2016-upper-deck/chase-de-leo-485"
+      }
+    },
+    "rule": "verified-young-guns",
+    "confidence": "high",
+    "source": "owner collection records",
+    "checkedOn": "2026-10-19",
+    "decidedOn": "2026-10-19",
+    "decidedBy": "owner",
+    "basis": "owner-verified-young-guns"
+  },
+  "8478040": {
+    "status": "chosen",
+    "chosen": {
+      "set": "2020 Upper Deck",
+      "year": 2020,
+      "season": "2020-21",
+      "brand": "Upper Deck",
+      "subset": "Young Guns",
+      "cardNumber": "460",
+      "sourceIds": {
+        "scp": "2325536"
+      },
+      "urls": {
+        "scp": "https://www.sportscardspro.com/game/hockey-cards-2020-upper-deck/austin-poganski-460"
+      }
+    },
+    "rule": "verified-young-guns",
+    "confidence": "high",
+    "source": "owner collection records",
+    "checkedOn": "2026-10-19",
+    "decidedOn": "2026-10-19",
+    "decidedBy": "owner",
+    "basis": "owner-verified-young-guns"
+  },
+  "8478398": {
+    "status": "chosen",
+    "chosen": {
+      "set": "2016 Upper Deck",
+      "year": 2016,
+      "season": "2016-17",
+      "brand": "Upper Deck",
+      "subset": "Young Guns",
+      "cardNumber": "212",
+      "sourceIds": {
+        "scp": "2296475"
+      },
+      "urls": {
+        "scp": "https://www.sportscardspro.com/game/hockey-cards-2016-upper-deck/kyle-connor-212"
+      }
+    },
+    "rule": "verified-young-guns",
+    "confidence": "high",
+    "source": "owner collection records",
+    "checkedOn": "2026-10-19",
+    "decidedOn": "2026-10-19",
+    "decidedBy": "owner",
+    "basis": "owner-verified-young-guns"
+  },
+  "8478424": {
+    "status": "chosen",
+    "chosen": {
+      "set": "2020 Upper Deck",
+      "year": 2020,
+      "season": "2020-21",
+      "brand": "Upper Deck",
+      "subset": "Young Guns",
+      "cardNumber": "229",
+      "sourceIds": {
+        "scp": "2325305"
+      },
+      "urls": {
+        "scp": "https://www.sportscardspro.com/game/hockey-cards-2020-upper-deck/jansen-harkins-229"
+      }
+    },
+    "rule": "verified-young-guns",
+    "confidence": "high",
+    "source": "owner collection records",
+    "checkedOn": "2026-10-19",
+    "decidedOn": "2026-10-19",
+    "decidedBy": "owner",
+    "basis": "owner-verified-young-guns"
+  },
+  "8478431": {
+    "status": "chosen",
+    "chosen": {
+      "set": "2017 Upper Deck",
+      "year": 2017,
+      "season": "2017-18",
+      "brand": "Upper Deck",
+      "subset": "Young Guns",
+      "cardNumber": "224",
+      "sourceIds": {
+        "scp": "2301956"
+      },
+      "urls": {
+        "scp": "https://www.sportscardspro.com/game/hockey-cards-2017-upper-deck/evgeny-svechnikov-224"
+      }
+    },
+    "rule": "verified-young-guns",
+    "confidence": "high",
+    "source": "owner collection records",
+    "checkedOn": "2026-10-19",
+    "decidedOn": "2026-10-19",
+    "decidedBy": "owner",
+    "basis": "owner-verified-young-guns"
+  },
+  "8478458": {
+    "status": "chosen",
+    "chosen": {
+      "set": "2017 Upper Deck",
+      "year": 2017,
+      "season": "2017-18",
+      "brand": "Upper Deck",
+      "subset": "Young Guns",
+      "cardNumber": "240",
+      "sourceIds": {
+        "scp": "2301972"
+      },
+      "urls": {
+        "scp": "https://www.sportscardspro.com/game/hockey-cards-2017-upper-deck/jack-roslovic-240"
+      }
+    },
+    "rule": "verified-young-guns",
+    "confidence": "high",
+    "source": "owner collection records",
+    "checkedOn": "2026-10-19",
+    "decidedOn": "2026-10-19",
+    "decidedBy": "owner",
+    "basis": "owner-verified-young-guns"
+  },
+  "8478476": {
+    "status": "chosen",
+    "chosen": {
+      "set": "2017 Upper Deck",
+      "year": 2017,
+      "season": "2017-18",
+      "brand": "Upper Deck",
+      "subset": "Young Guns",
+      "cardNumber": "495",
+      "sourceIds": {
+        "scp": "2302224"
+      },
+      "urls": {
+        "scp": "https://www.sportscardspro.com/game/hockey-cards-2017-upper-deck/kyle-capobianco-495"
+      }
+    },
+    "rule": "verified-young-guns",
+    "confidence": "high",
+    "source": "owner collection records",
+    "checkedOn": "2026-10-19",
+    "decidedOn": "2026-10-19",
+    "decidedBy": "owner",
+    "basis": "owner-verified-young-guns"
+  },
+  "8478831": {
+    "status": "chosen",
+    "chosen": {
+      "set": "2019 Upper Deck",
+      "year": 2019,
+      "season": "2019-20",
+      "brand": "Upper Deck",
+      "subset": "Young Guns",
+      "cardNumber": "211",
+      "sourceIds": {
+        "scp": "2319149"
+      },
+      "urls": {
+        "scp": "https://www.sportscardspro.com/game/hockey-cards-2019-upper-deck/kevin-stenlund-211"
+      }
+    },
+    "rule": "verified-young-guns",
+    "confidence": "high",
+    "source": "owner collection records",
+    "checkedOn": "2026-10-19",
+    "decidedOn": "2026-10-19",
+    "decidedBy": "owner",
+    "basis": "owner-verified-young-guns"
+  },
+  "8478891": {
+    "status": "chosen",
+    "chosen": {
+      "set": "2018 Upper Deck",
+      "year": 2018,
+      "season": "2018-19",
+      "brand": "Upper Deck",
+      "subset": "Young Guns",
+      "cardNumber": "516"
+    },
+    "rule": "verified-young-guns",
+    "confidence": "high",
+    "source": "owner collection records",
+    "checkedOn": "2026-10-19",
+    "decidedOn": "2026-10-19",
+    "decidedBy": "owner",
+    "basis": "owner-verified-young-guns"
+  },
+  "8478915": {
+    "status": "chosen",
+    "chosen": {
+      "set": "2018 Upper Deck",
+      "year": 2018,
+      "season": "2018-19",
+      "brand": "Upper Deck",
+      "subset": "Young Guns",
+      "cardNumber": "474",
+      "sourceIds": {
+        "scp": "2306529"
+      },
+      "urls": {
+        "scp": "https://www.sportscardspro.com/game/hockey-cards-2018-upper-deck/sami-niku-474"
+      }
+    },
+    "rule": "verified-young-guns",
+    "confidence": "high",
+    "source": "owner collection records",
+    "checkedOn": "2026-10-19",
+    "decidedOn": "2026-10-19",
+    "decidedBy": "owner",
+    "basis": "owner-verified-young-guns"
+  },
+  "8478996": {
+    "status": "chosen",
+    "chosen": {
+      "set": "2019 Upper Deck",
+      "year": 2019,
+      "season": "2019-20",
+      "brand": "Upper Deck",
+      "subset": "Young Guns",
+      "cardNumber": "526"
+    },
+    "rule": "verified-young-guns",
+    "confidence": "high",
+    "source": "owner collection records",
+    "checkedOn": "2026-10-19",
+    "decidedOn": "2026-10-19",
+    "decidedBy": "owner",
+    "basis": "owner-verified-young-guns"
+  },
+  "8479293": {
+    "status": "chosen",
+    "chosen": {
+      "set": "2016 Upper Deck",
+      "year": 2016,
+      "season": "2016-17",
+      "brand": "Upper Deck",
+      "subset": "Young Guns",
+      "cardNumber": "467",
+      "sourceIds": {
+        "scp": "2296728"
+      },
+      "urls": {
+        "scp": "https://www.sportscardspro.com/game/hockey-cards-2016-upper-deck/brandon-tanev-467"
+      }
+    },
+    "rule": "verified-young-guns",
+    "confidence": "high",
+    "source": "owner collection records",
+    "checkedOn": "2026-10-19",
+    "decidedOn": "2026-10-19",
+    "decidedBy": "owner",
+    "basis": "owner-verified-young-guns"
+  },
+  "8479339": {
+    "status": "chosen",
+    "chosen": {
+      "set": "2016 Upper Deck",
+      "year": 2016,
+      "season": "2016-17",
+      "brand": "Upper Deck",
+      "subset": "Young Guns",
+      "cardNumber": "451",
+      "sourceIds": {
+        "scp": "2296712"
+      },
+      "urls": {
+        "scp": "https://www.sportscardspro.com/game/hockey-cards-2016-upper-deck/patrik-laine-451"
+      }
+    },
+    "rule": "verified-young-guns",
+    "confidence": "high",
+    "source": "owner collection records",
+    "checkedOn": "2026-10-19",
+    "decidedOn": "2026-10-19",
+    "decidedBy": "owner",
+    "basis": "owner-verified-young-guns"
+  },
+  "8479378": {
+    "status": "chosen",
+    "chosen": {
+      "set": "2020 Upper Deck",
+      "year": 2020,
+      "season": "2020-21",
+      "brand": "Upper Deck",
+      "subset": "Young Guns",
+      "cardNumber": "703",
+      "sourceIds": {
+        "scp": "3134280"
+      },
+      "urls": {
+        "scp": "https://www.sportscardspro.com/game/hockey-cards-2020-upper-deck/logan-stanley-703"
+      }
+    },
+    "rule": "verified-young-guns",
+    "confidence": "high",
+    "source": "owner collection records",
+    "checkedOn": "2026-10-19",
+    "decidedOn": "2026-10-19",
+    "decidedBy": "owner",
+    "basis": "owner-verified-young-guns"
+  },
+  "8479400": {
+    "status": "chosen",
+    "chosen": {
+      "set": "2017 Upper Deck",
+      "year": 2017,
+      "season": "2017-18",
+      "brand": "Upper Deck",
+      "subset": "Young Guns",
+      "cardNumber": "204"
+    },
+    "rule": "verified-young-guns",
+    "confidence": "high",
+    "source": "owner collection records",
+    "checkedOn": "2026-10-19",
+    "decidedOn": "2026-10-19",
+    "decidedBy": "owner",
+    "basis": "owner-verified-young-guns"
+  },
+  "8479536": {
+    "status": "chosen",
+    "chosen": {
+      "set": "2021 Upper Deck",
+      "year": 2021,
+      "season": "2021-22",
+      "brand": "Upper Deck",
+      "subset": "Young Guns",
+      "cardNumber": "734",
+      "sourceIds": {
+        "scp": "4011123"
+      },
+      "urls": {
+        "scp": "https://www.sportscardspro.com/game/hockey-cards-2021-upper-deck/axel-jonsson-fjallby-734"
+      }
+    },
+    "rule": "verified-young-guns",
+    "confidence": "high",
+    "source": "owner collection records",
+    "checkedOn": "2026-10-19",
+    "decidedOn": "2026-10-19",
+    "decidedBy": "owner",
+    "basis": "owner-verified-young-guns"
+  },
+  "8479591": {
+    "status": "chosen",
+    "chosen": {
+      "set": "2022 Upper Deck",
+      "year": 2022,
+      "season": "2022-23",
+      "brand": "Upper Deck",
+      "subset": "Young Guns",
+      "cardNumber": "457",
+      "sourceIds": {
+        "scp": "5059562"
+      },
+      "urls": {
+        "scp": "https://www.sportscardspro.com/game/hockey-cards-2022-upper-deck/michael-eyssimont-457"
+      }
+    },
+    "rule": "verified-young-guns",
+    "confidence": "high",
+    "source": "owner collection records",
+    "checkedOn": "2026-10-19",
+    "decidedOn": "2026-10-19",
+    "decidedBy": "owner",
+    "basis": "owner-verified-young-guns"
+  },
+  "8479639": {
+    "status": "chosen",
+    "chosen": {
+      "set": "2020 Upper Deck",
+      "year": 2020,
+      "season": "2020-21",
+      "brand": "Upper Deck",
+      "subset": "Young Guns",
+      "cardNumber": "214",
+      "sourceIds": {
+        "scp": "2325290"
+      },
+      "urls": {
+        "scp": "https://www.sportscardspro.com/game/hockey-cards-2020-upper-deck/dylan-coghlan-214"
+      }
+    },
+    "rule": "verified-young-guns",
+    "confidence": "high",
+    "source": "owner collection records",
+    "checkedOn": "2026-10-19",
+    "decidedOn": "2026-10-19",
+    "decidedBy": "owner",
+    "basis": "owner-verified-young-guns"
+  },
+  "8479994": {
+    "status": "chosen",
+    "chosen": {
+      "set": "2018 Upper Deck",
+      "year": 2018,
+      "season": "2018-19",
+      "brand": "Upper Deck",
+      "subset": "Young Guns",
+      "cardNumber": "454",
+      "sourceIds": {
+        "scp": "2306509"
+      },
+      "urls": {
+        "scp": "https://www.sportscardspro.com/game/hockey-cards-2018-upper-deck/jaret-anderson-dolan-454"
+      }
+    },
+    "rule": "verified-young-guns",
+    "confidence": "high",
+    "source": "owner collection records",
+    "checkedOn": "2026-10-19",
+    "decidedOn": "2026-10-19",
+    "decidedBy": "owner",
+    "basis": "owner-verified-young-guns"
+  },
+  "8480005": {
+    "status": "chosen",
+    "chosen": {
+      "set": "2018 Upper Deck",
+      "year": 2018,
+      "season": "2018-19",
+      "brand": "Upper Deck",
+      "subset": "Young Guns",
+      "cardNumber": "244",
+      "sourceIds": {
+        "scp": "2306301"
+      },
+      "urls": {
+        "scp": "https://www.sportscardspro.com/game/hockey-cards-2018-upper-deck/kristian-vesalainen-244"
+      }
+    },
+    "rule": "verified-young-guns",
+    "confidence": "high",
+    "source": "owner collection records",
+    "checkedOn": "2026-10-19",
+    "decidedOn": "2026-10-19",
+    "decidedBy": "owner",
+    "basis": "owner-verified-young-guns"
+  },
+  "8480014": {
+    "status": "chosen",
+    "chosen": {
+      "set": "2020 Upper Deck",
+      "year": 2020,
+      "season": "2020-21",
+      "brand": "Upper Deck",
+      "subset": "Young Guns",
+      "cardNumber": "215",
+      "sourceIds": {
+        "scp": "2325291"
+      },
+      "urls": {
+        "scp": "https://www.sportscardspro.com/game/hockey-cards-2020-upper-deck/gabe-vilardi-215"
+      }
+    },
+    "rule": "verified-young-guns",
+    "confidence": "high",
+    "source": "owner collection records",
+    "checkedOn": "2026-10-19",
+    "decidedOn": "2026-10-19",
+    "decidedBy": "owner",
+    "basis": "owner-verified-young-guns"
+  },
+  "8480049": {
+    "status": "chosen",
+    "chosen": {
+      "set": "2022 Upper Deck",
+      "year": 2022,
+      "season": "2022-23",
+      "brand": "Upper Deck",
+      "subset": "Young Guns",
+      "cardNumber": "233",
+      "sourceIds": {
+        "scp": "4335782"
+      },
+      "urls": {
+        "scp": "https://www.sportscardspro.com/game/hockey-cards-2022-upper-deck/dylan-samberg-233"
+      }
+    },
+    "rule": "verified-young-guns",
+    "confidence": "high",
+    "source": "owner collection records",
+    "checkedOn": "2026-10-19",
+    "decidedOn": "2026-10-19",
+    "decidedBy": "owner",
+    "basis": "owner-verified-young-guns"
+  },
+  "8480113": {
+    "status": "chosen",
+    "chosen": {
+      "set": "2017 Upper Deck",
+      "year": 2017,
+      "season": "2017-18",
+      "brand": "Upper Deck",
+      "subset": "Young Guns",
+      "cardNumber": "458",
+      "sourceIds": {
+        "scp": "2302187"
+      },
+      "urls": {
+        "scp": "https://www.sportscardspro.com/game/hockey-cards-2017-upper-deck/alex-iafallo-458"
+      }
+    },
+    "rule": "verified-young-guns",
+    "confidence": "high",
+    "source": "owner collection records",
+    "checkedOn": "2026-10-19",
+    "decidedOn": "2026-10-19",
+    "decidedBy": "owner",
+    "basis": "owner-verified-young-guns"
+  },
+  "8480145": {
+    "status": "chosen",
+    "chosen": {
+      "set": "2018 Upper Deck",
+      "year": 2018,
+      "season": "2018-19",
+      "brand": "Upper Deck",
+      "subset": "Young Guns",
+      "cardNumber": "212",
+      "sourceIds": {
+        "scp": "2306269"
+      },
+      "urls": {
+        "scp": "https://www.sportscardspro.com/game/hockey-cards-2018-upper-deck/neal-pionk-212"
+      }
+    },
+    "rule": "verified-young-guns",
+    "confidence": "high",
+    "source": "owner collection records",
+    "checkedOn": "2026-10-19",
+    "decidedOn": "2026-10-19",
+    "decidedBy": "owner",
+    "basis": "owner-verified-young-guns"
+  },
+  "8480192": {
+    "status": "chosen",
+    "chosen": {
+      "set": "2022 Upper Deck",
+      "year": 2022,
+      "season": "2022-23",
+      "brand": "Upper Deck",
+      "subset": "Young Guns",
+      "cardNumber": "223"
+    },
+    "rule": "verified-young-guns",
+    "confidence": "high",
+    "source": "owner collection records",
+    "checkedOn": "2026-10-19",
+    "decidedOn": "2026-10-19",
+    "decidedBy": "owner",
+    "basis": "owner-verified-young-guns"
+  },
+  "8480289": {
+    "status": "chosen",
+    "chosen": {
+      "set": "2021 Upper Deck",
+      "year": 2021,
+      "season": "2021-22",
+      "brand": "Upper Deck",
+      "subset": "Young Guns",
+      "cardNumber": "215",
+      "sourceIds": {
+        "scp": "3241024"
+      },
+      "urls": {
+        "scp": "https://www.sportscardspro.com/game/hockey-cards-2021-upper-deck/morgan-barron-215"
+      }
+    },
+    "rule": "verified-young-guns",
+    "confidence": "high",
+    "source": "owner collection records",
+    "checkedOn": "2026-10-19",
+    "decidedOn": "2026-10-19",
+    "decidedBy": "owner",
+    "basis": "owner-verified-young-guns"
+  },
+  "8480845": {
+    "status": "chosen",
+    "chosen": {
+      "set": "2021 Upper Deck",
+      "year": 2021,
+      "season": "2021-22",
+      "brand": "Upper Deck",
+      "subset": "Young Guns",
+      "cardNumber": "242",
+      "sourceIds": {
+        "scp": "3241051"
+      },
+      "urls": {
+        "scp": "https://www.sportscardspro.com/game/hockey-cards-2021-upper-deck/rasmus-kupari-242"
+      }
+    },
+    "rule": "verified-young-guns",
+    "confidence": "high",
+    "source": "owner collection records",
+    "checkedOn": "2026-10-19",
+    "decidedOn": "2026-10-19",
+    "decidedBy": "owner",
+    "basis": "owner-verified-young-guns"
+  },
+  "8480901": {
+    "status": "chosen",
+    "chosen": {
+      "set": "2019 Upper Deck",
+      "year": 2019,
+      "season": "2019-20",
+      "brand": "Upper Deck",
+      "subset": "Young Guns",
+      "cardNumber": "248",
+      "sourceIds": {
+        "scp": "2319186"
+      },
+      "urls": {
+        "scp": "https://www.sportscardspro.com/game/hockey-cards-2019-upper-deck/karson-kuhlman-248"
+      }
+    },
+    "rule": "verified-young-guns",
+    "confidence": "high",
+    "source": "owner collection records",
+    "checkedOn": "2026-10-19",
+    "decidedOn": "2026-10-19",
+    "decidedBy": "owner",
+    "basis": "owner-verified-young-guns"
+  },
+  "8480944": {
+    "status": "chosen",
+    "chosen": {
+      "set": "2018 Upper Deck",
+      "year": 2018,
+      "season": "2018-19",
+      "brand": "Upper Deck",
+      "subset": "Young Guns",
+      "cardNumber": "243",
+      "sourceIds": {
+        "scp": "2306300"
+      },
+      "urls": {
+        "scp": "https://www.sportscardspro.com/game/hockey-cards-2018-upper-deck/par-lindholm-243"
+      }
+    },
+    "rule": "verified-young-guns",
+    "confidence": "high",
+    "source": "owner collection records",
+    "checkedOn": "2026-10-19",
+    "decidedOn": "2026-10-19",
+    "decidedBy": "owner",
+    "basis": "owner-verified-young-guns"
+  },
+  "8480990": {
+    "status": "chosen",
+    "chosen": {
+      "set": "2022 Upper Deck",
+      "year": 2022,
+      "season": "2022-23",
+      "brand": "Upper Deck",
+      "subset": "Young Guns",
+      "cardNumber": "486",
+      "sourceIds": {
+        "scp": "5059591"
+      },
+      "urls": {
+        "scp": "https://www.sportscardspro.com/game/hockey-cards-2022-upper-deck/declan-chisholm-486"
+      }
+    },
+    "rule": "verified-young-guns",
+    "confidence": "high",
+    "source": "owner collection records",
+    "checkedOn": "2026-10-19",
+    "decidedOn": "2026-10-19",
+    "decidedBy": "owner",
+    "basis": "owner-verified-young-guns"
+  },
+  "8481019": {
+    "status": "chosen",
+    "chosen": {
+      "set": "2019 Upper Deck",
+      "year": 2019,
+      "season": "2019-20",
+      "brand": "Upper Deck",
+      "subset": "Young Guns",
+      "cardNumber": "461",
+      "sourceIds": {
+        "scp": "2319398"
+      },
+      "urls": {
+        "scp": "https://www.sportscardspro.com/game/hockey-cards-2019-upper-deck/david-gustafsson-461"
+      }
+    },
+    "rule": "verified-young-guns",
+    "confidence": "high",
+    "source": "owner collection records",
+    "checkedOn": "2026-10-19",
+    "decidedOn": "2026-10-19",
+    "decidedBy": "owner",
+    "basis": "owner-verified-young-guns"
+  },
+  "8481043": {
+    "status": "chosen",
+    "chosen": {
+      "set": "2022 Upper Deck",
+      "year": 2022,
+      "season": "2022-23",
+      "brand": "Upper Deck",
+      "subset": "Young Guns",
+      "cardNumber": "484",
+      "sourceIds": {
+        "scp": "5059589"
+      },
+      "urls": {
+        "scp": "https://www.sportscardspro.com/game/hockey-cards-2022-upper-deck/cole-koepke-484"
+      }
+    },
+    "rule": "verified-young-guns",
+    "confidence": "high",
+    "source": "owner collection records",
+    "checkedOn": "2026-10-19",
+    "decidedOn": "2026-10-19",
+    "decidedBy": "owner",
+    "basis": "owner-verified-young-guns"
+  },
+  "8481572": {
+    "status": "chosen",
+    "chosen": {
+      "set": "2019 Upper Deck",
+      "year": 2019,
+      "season": "2019-20",
+      "brand": "Upper Deck",
+      "subset": "Young Guns",
+      "cardNumber": "204",
+      "sourceIds": {
+        "scp": "2319142"
+      },
+      "urls": {
+        "scp": "https://www.sportscardspro.com/game/hockey-cards-2019-upper-deck/ville-heinola-204"
+      }
+    },
+    "rule": "verified-young-guns",
+    "confidence": "high",
+    "source": "owner collection records",
+    "checkedOn": "2026-10-19",
+    "decidedOn": "2026-10-19",
+    "decidedBy": "owner",
+    "basis": "owner-verified-young-guns"
+  },
+  "8481649": {
+    "status": "chosen",
+    "chosen": {
+      "set": "2019 Upper Deck",
+      "year": 2019,
+      "season": "2019-20",
+      "brand": "Upper Deck",
+      "subset": "Young Guns",
+      "cardNumber": "487",
+      "sourceIds": {
+        "scp": "2319424"
+      },
+      "urls": {
+        "scp": "https://www.sportscardspro.com/game/hockey-cards-2019-upper-deck/joona-luoto-487"
+      }
+    },
+    "rule": "verified-young-guns",
+    "confidence": "high",
+    "source": "owner collection records",
+    "checkedOn": "2026-10-19",
+    "decidedOn": "2026-10-19",
+    "decidedBy": "owner",
+    "basis": "owner-verified-young-guns"
+  },
+  "8482149": {
+    "status": "chosen",
+    "chosen": {
+      "set": "2021 Upper Deck",
+      "year": 2021,
+      "season": "2021-22",
+      "brand": "Upper Deck",
+      "subset": "Young Guns",
+      "cardNumber": "466",
+      "sourceIds": {
+        "scp": "3613196"
+      },
+      "urls": {
+        "scp": "https://www.sportscardspro.com/game/hockey-cards-2021-upper-deck/cole-perfetti-466"
+      }
+    },
+    "rule": "verified-young-guns",
+    "confidence": "high",
+    "source": "owner collection records",
+    "checkedOn": "2026-10-19",
+    "decidedOn": "2026-10-19",
+    "decidedBy": "owner",
+    "basis": "owner-verified-young-guns"
+  },
+  "8482408": {
+    "status": "chosen",
+    "chosen": {
+      "set": "2022 Upper Deck",
+      "year": 2022,
+      "season": "2022-23",
+      "brand": "Upper Deck",
+      "subset": "Young Guns",
+      "cardNumber": "247",
+      "sourceIds": {
+        "scp": "4335796"
+      },
+      "urls": {
+        "scp": "https://www.sportscardspro.com/game/hockey-cards-2022-upper-deck/jeff-malott-247"
+      }
+    },
+    "rule": "verified-young-guns",
+    "confidence": "high",
+    "source": "owner collection records",
+    "checkedOn": "2026-10-19",
+    "decidedOn": "2026-10-19",
+    "decidedBy": "owner",
+    "basis": "owner-verified-young-guns"
+  },
+  "8482787": {
+    "status": "chosen",
+    "chosen": {
+      "set": "2024 Upper Deck",
+      "year": 2024,
+      "season": "2024-25",
+      "brand": "Upper Deck",
+      "subset": "Young Guns",
+      "cardNumber": "245",
+      "sourceIds": {
+        "scp": "7592637"
+      },
+      "urls": {
+        "scp": "https://www.sportscardspro.com/game/hockey-cards-2024-upper-deck/nikita-chibrikov-245"
+      }
+    },
+    "rule": "verified-young-guns",
+    "confidence": "high",
+    "source": "owner collection records",
+    "checkedOn": "2026-10-19",
+    "decidedOn": "2026-10-19",
+    "decidedBy": "owner",
+    "basis": "owner-verified-young-guns"
+  },
+  "8483471": {
+    "status": "chosen",
+    "chosen": {
+      "set": "2024 Upper Deck",
+      "year": 2024,
+      "season": "2024-25",
+      "brand": "Upper Deck",
+      "subset": "Young Guns",
+      "cardNumber": "228",
+      "sourceIds": {
+        "scp": "7592503"
+      },
+      "urls": {
+        "scp": "https://www.sportscardspro.com/game/hockey-cards-2024-upper-deck/brad-lambert-228"
+      }
+    },
+    "rule": "verified-young-guns",
+    "confidence": "high",
+    "source": "owner collection records",
+    "checkedOn": "2026-10-19",
+    "decidedOn": "2026-10-19",
+    "decidedBy": "owner",
+    "basis": "owner-verified-young-guns"
+  }
+}

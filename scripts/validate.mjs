@@ -1,4 +1,4 @@
-// Validates site/data/curated/players.json (schema v2) if present. No dependencies.
+// Validates site/data/curated/players.json (schema v2) and cards.json if present. No dependencies.
 // Usage: npm run validate
 //
 // Schema v2 player: playerId, firstName, lastName, name ("Last, First"), country, birthDate,
@@ -292,6 +292,67 @@ export function validatePlayers(players) {
   return errors;
 }
 
+const CARD_BASES = ['owner-verified-young-guns', 'owner-confirmed', 'page-approval'];
+const CARD_CONFIDENCE = ['high', 'medium', 'low'];
+const isHttpsUrl = (v) => {
+  try { return new URL(v).protocol === 'https:'; } catch { return false; }
+};
+
+/**
+ * Validates site/data/curated/cards.json (object keyed by playerId, decided cards only; see
+ * docs/data-model.md). `verified` is the data/decisions/young-guns-verified.json decisions array.
+ */
+export function validateCards(cards, players, verified = []) {
+  if (!isPlainObject(cards)) return ['cards must be an object keyed by playerId'];
+  const errors = [];
+  const byId = new Map((Array.isArray(players) ? players : []).map((p) => [p.playerId, p]));
+  const yg = new Map(verified.map((d) => [d.playerId, d]));
+  for (const [key, rec] of Object.entries(cards)) {
+    const add = (msg) => errors.push(`cards[${key}]: ${msg}`);
+    const id = Number(key);
+    const player = byId.get(id);
+    if (!Number.isInteger(id) || String(id) !== key) { add('key must be an integer playerId'); continue; }
+    if (!player) add('playerId is not in players.json');
+    else if (gpTotal(player.nhl) + (player.wha ? gpTotal(player.wha) : 0) < 1) add(`${player.name} never played a major-league game: no card record allowed`);
+    if (!isPlainObject(rec)) { add('record must be an object'); continue; }
+    if (rec.status !== 'chosen' && rec.status !== 'no-card') add('status must be "chosen" or "no-card"');
+    if (!CARD_BASES.includes(rec.basis)) add(`basis must be one of ${CARD_BASES.join(', ')}`);
+    if (rec.decidedBy !== 'owner') add('decidedBy must be "owner"');
+    if (!isValidIsoDate(rec.decidedOn)) add('decidedOn must be a real date "YYYY-MM-DD"');
+    if (!isNonEmptyString(rec.source)) add('source must be a non-empty string');
+    if (rec.checkedOn !== undefined && !isValidIsoDate(rec.checkedOn)) add('checkedOn must be a real date "YYYY-MM-DD"');
+    if (rec.rule !== undefined && !isNonEmptyString(rec.rule)) add('rule must be a non-empty string');
+    if (rec.confidence !== undefined && !CARD_CONFIDENCE.includes(rec.confidence)) add('confidence must be high, medium or low');
+    for (const f of ['note', 'reason']) if (rec[f] !== undefined && !isNonEmptyString(rec[f])) add(`${f} must be a non-empty string`);
+    if (rec.status === 'no-card') {
+      if (rec.chosen !== null) add('no-card records must have chosen: null');
+      if (rec.basis === 'owner-verified-young-guns') add('owner-verified-young-guns records must be chosen');
+      continue;
+    }
+    if (rec.status !== 'chosen') continue;
+    for (const f of ['rule', 'confidence', 'checkedOn']) if (rec[f] === undefined) add(`${f} is required for chosen records`);
+    const c = rec.chosen;
+    if (!isPlainObject(c)) { add('chosen must be an object for status "chosen"'); continue; }
+    for (const f of ['set', 'brand', 'cardNumber']) if (!isNonEmptyString(c[f])) add(`chosen.${f} must be a non-empty string`);
+    if (typeof c.season !== 'string' || !isValidSeason(c.season)) add('chosen.season must look like "2011-12"');
+    if (!Number.isInteger(c.year)) add('chosen.year must be an integer');
+    for (const f of ['subset', 'serialNumbered', 'variant']) if (c[f] !== undefined && !isNonEmptyString(c[f])) add(`chosen.${f} must be omitted or a non-empty string`);
+    if (c.sourceIds !== undefined && (!isPlainObject(c.sourceIds) || !Object.values(c.sourceIds).every(isNonEmptyString))) add('chosen.sourceIds must be an object of non-empty strings');
+    // urls is optional: a few verified Young Guns have no SportsCardsPro/COMC page (no link shown then).
+    if (c.urls !== undefined && (!isPlainObject(c.urls) || Object.keys(c.urls).length === 0)) add('chosen.urls must be omitted or an object with a scp and/or comc url');
+    else if (c.urls !== undefined) for (const [k, u] of Object.entries(c.urls)) if (!['scp', 'comc'].includes(k) || !isHttpsUrl(u)) add(`chosen.urls.${k} must be scp/comc with a well-formed https URL`);
+    const v = yg.get(id);
+    if (rec.basis === 'owner-verified-young-guns') {
+      if (!v) add('basis owner-verified-young-guns but the player is not in young-guns-verified.json');
+    }
+    if (v && rec.status === 'chosen' && rec.basis === 'owner-verified-young-guns'
+        && (String(c.cardNumber) !== String(v.cardNumber) || c.season !== v.season)) {
+      add(`chosen ${c.season} #${c.cardNumber} does not match the owner-verified Young Guns ${v.season} #${v.cardNumber}`);
+    }
+  }
+  return errors;
+}
+
 async function main() {
   const displayPath = path.relative(ROOT, PLAYERS_FILE);
 
@@ -321,9 +382,22 @@ async function main() {
   } catch (err) {
     if (err.code !== 'ENOENT') errors.push(`data/decisions/wha-ids.json: ${err.message}`);
   }
+  const cardsFile = path.join(ROOT, 'site', 'data', 'curated', 'cards.json');
+  try {
+    const cards = JSON.parse(await readFile(cardsFile, 'utf8'));
+    let verified = [];
+    try {
+      verified = JSON.parse(await readFile(path.join(ROOT, 'data', 'decisions', 'young-guns-verified.json'), 'utf8')).decisions ?? [];
+    } catch (err) {
+      if (err.code !== 'ENOENT') errors.push(`data/decisions/young-guns-verified.json: ${err.message}`);
+    }
+    errors.push(...validateCards(cards, players, verified));
+  } catch (err) {
+    if (err.code !== 'ENOENT') errors.push(`site/data/curated/cards.json: ${err.message}`);
+  }
   if (errors.length > 0) {
     for (const error of errors) console.error(error);
-    console.error(`${errors.length} problem(s) found in ${displayPath}.`);
+    console.error(`${errors.length} problem(s) found in curated data.`);
     return 1;
   }
 

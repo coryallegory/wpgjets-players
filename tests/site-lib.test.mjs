@@ -2,7 +2,7 @@ import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { COLUMNS, parseHidden, visibleColumns } from '../site/js/lib/columns.js';
 import { filterRows } from '../site/js/lib/filter.js';
-import { MISSING, display, toRow, yearsLabel } from '../site/js/lib/format.js';
+import { MISSING, NO_CARD, cardLabel, cardUrl, display, toRow, yearsLabel } from '../site/js/lib/format.js';
 import { nextSort, sortRows } from '../site/js/lib/sort.js';
 import { normalizeText } from '../site/js/lib/text.js';
 
@@ -217,7 +217,7 @@ const nothing = { regularGP: 0, playoffGP: 0, seasons: [] };
 test('column order: profile, NHL group, WHA group, then draft', () => {
   assert.deepEqual(
     COLUMNS.map((c) => c.label),
-    ['Name', 'Rookie Season', 'Pos', 'Country', 'Birth Date',
+    ['Name', 'Rookie Season', 'Rookie Card', 'Pos', 'Country', 'Birth Date',
       'NHL Seasons', 'NHL Years', 'NHL Reg GP', 'NHL Playoff GP',
       'WHA Seasons', 'WHA Years', 'WHA Reg GP', 'WHA Playoff GP',
       'NHL Draft Year', 'NHL Draft Team', 'NHL Draft Round', 'NHL Draft Pick', 'Amateur Team'],
@@ -298,4 +298,31 @@ test('visibleColumns hides chosen columns but never the locked Name column', () 
 test('parseHidden keeps only known hideable ids and survives bad input', () => {
   assert.deepEqual([...parseHidden('["country","name","nope"]', COLUMNS)], ['country']);
   for (const bad of [null, undefined, '', 'not json', '{"a":1}', '42']) assert.equal(parseHidden(bad, COLUMNS).size, 0);
+});
+
+test('cardLabel is concise and cardUrl prefers SportsCardsPro over COMC', () => {
+  const yg = { set: '2011 Upper Deck', season: '2011-12', subset: 'Young Guns', cardNumber: '248', urls: { comc: 'https://www.comc.com/x', scp: 'https://www.sportscardspro.com/y' } };
+  assert.equal(cardLabel(yg), '2011-12 Upper Deck Young Guns #248');
+  assert.equal(cardLabel({ set: '1958 Topps', season: '1958-59', cardNumber: '66' }), '1958-59 Topps #66');
+  assert.equal(cardUrl(yg), 'https://www.sportscardspro.com/y');
+  assert.equal(cardUrl({ urls: { comc: 'https://www.comc.com/x' } }), 'https://www.comc.com/x');
+  assert.equal(cardUrl({ urls: { scp: 'javascript:alert(1)' } }), null);
+  assert.equal(cardUrl({}), null);
+});
+
+test('Rookie Card: blank when undecided, label when chosen, No card when decided so; sorts with blanks last', () => {
+  const chosen = { status: 'chosen', chosen: { set: '1958 Topps', season: '1958-59', cardNumber: '66' } };
+  const undecided = toRow(curated());
+  assert.equal(undecided.rookieCard, '?');
+  assert.equal(undecided.rookieCardUrl, 'https://claude.ai/artifact/6g5d3cabDjNxQmxiH7KXy8#1');
+  assert.equal(undecided.rookieCardSort, null);
+  const neverPlayed = toRow(curated({ rookieSeason: null, nhl: nothing }));
+  assert.equal(neverPlayed.rookieCard, null);
+  assert.equal(neverPlayed.rookieCardUrl, null);
+  assert.equal(toRow(curated(), chosen).rookieCard, '1958-59 Topps #66');
+  assert.equal(toRow(curated(), { status: 'no-card', chosen: null }).rookieCard, NO_CARD);
+  assert.equal(column('rookieCard').blank, true);
+  const rows = [row(1, 'A', { rookieCardSort: null }), row(2, 'B', { rookieCardSort: '2011-12 Upper Deck Young Guns #248' }), row(3, 'C', { rookieCardSort: NO_CARD }), row(4, 'D', { rookieCardSort: '1958-59 Topps #66' })];
+  assert.deepEqual(ids(sortRows(rows, column('rookieCard'), 'asc')), [4, 2, 3, 1]);
+  assert.deepEqual(ids(sortRows(rows, column('rookieCard'), 'desc')), [3, 2, 4, 1]);
 });

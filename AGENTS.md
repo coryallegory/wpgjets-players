@@ -2,9 +2,9 @@
 
 Guidance for AI coding agents working in this repository.
 
-**State of play:** phase 1 (player list) is complete and tagged `phase-1-complete`. Next: phase 2
-(target rookie cards): source survey, then a pilot, then a baseline for all players. The plan and
-open questions are in [docs/cards.md](docs/cards.md); start there.
+**State of play:** phase 1 (player list) is complete and tagged `phase-1-complete`. Phase 2
+(target rookie cards) is under way: baseline done, owner review ongoing on a private page; decided cards
+are imported into `cards.json` and shown in the table (undecided = "?"). See [docs/cards.md](docs/cards.md).
 
 ## Goal
 
@@ -74,6 +74,7 @@ Details live in `package.json`; behaviour and rules in [docs/pipeline.md](docs/p
 | Command | Purpose |
 |---|---|
 | `npm run get:nhl` then `npm run sync:nhl` | Refresh NHL data (dry run; `-- --apply` to write) |
+| `npm run import:cards` | Import decided rookie cards into `cards.json` (dry run; `-- --apply` to write) |
 | `npm run validate` / `npm test` | Data checks / tests |
 | `npm run serve` | Local preview at http://localhost:8000 |
 | `npm run setup:hooks` | Enable the pre-commit validation hook |
@@ -81,7 +82,7 @@ Details live in `package.json`; behaviour and rules in [docs/pipeline.md](docs/p
 
 ## Docs
 
-- [docs/data-model.md](docs/data-model.md) - curated schema, ids, rookieSeason, layering
+- [docs/data-model.md](docs/data-model.md) - curated schema (players, cards), ids, rookieSeason, layering
 - [docs/pipeline.md](docs/pipeline.md) - sources, scripts, NHL refresh routine, decision files
 - [docs/cards.md](docs/cards.md) - phase 2-4 rules and open decisions
 

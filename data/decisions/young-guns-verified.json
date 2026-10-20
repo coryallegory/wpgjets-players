@@ -1,0 +1,1094 @@
+{
+  "description": "Owner-verified base-set Upper Deck Young Guns cards (from the owner's own collection records). Treated as verified by scripts/get-cards-baseline-build.mjs: the card for that season and number is the high-confidence verified candidate; from rookieSeason 2005-06 on it is the chosen card and counts as reviewed. season is the Young Guns season label of the Upper Deck base set; cardNumber is the card number in that set.",
+  "decisions": [
+    {
+      "playerId": 8468493,
+      "name": "Hainsey, Ron",
+      "season": "2002-03",
+      "cardNumber": "240",
+      "set": "Upper Deck",
+      "source": "owner collection records",
+      "date": "2026-10-19"
+    },
+    {
+      "playerId": 8468704,
+      "name": "Miettinen, Antti",
+      "season": "2003-04",
+      "cardNumber": "215",
+      "set": "Upper Deck",
+      "source": "owner collection records",
+      "date": "2026-10-19"
+    },
+    {
+      "playerId": 8470289,
+      "name": "Slater, Jim",
+      "season": "2005-06",
+      "cardNumber": "222",
+      "set": "Upper Deck",
+      "source": "owner collection records",
+      "date": "2026-10-19"
+    },
+    {
+      "playerId": 8470834,
+      "name": "Byfuglien, Dustin",
+      "season": "2006-07",
+      "cardNumber": "206",
+      "set": "Upper Deck",
+      "source": "owner collection records",
+      "date": "2026-10-19"
+    },
+    {
+      "playerId": 8471669,
+      "name": "Stastny, Paul",
+      "season": "2006-07",
+      "cardNumber": "207",
+      "set": "Upper Deck",
+      "source": "owner collection records",
+      "date": "2026-10-19"
+    },
+    {
+      "playerId": 8469665,
+      "name": "Oduya, Johnny",
+      "season": "2006-07",
+      "cardNumber": "226",
+      "set": "Upper Deck",
+      "source": "owner collection records",
+      "date": "2026-10-19"
+    },
+    {
+      "playerId": 8470611,
+      "name": "Fehr, Eric",
+      "season": "2006-07",
+      "cardNumber": "249",
+      "set": "Upper Deck",
+      "source": "owner collection records",
+      "date": "2026-10-19"
+    },
+    {
+      "playerId": 8470614,
+      "name": "Stuart, Mark",
+      "season": "2006-07",
+      "cardNumber": "452",
+      "set": "Upper Deck",
+      "source": "owner collection records",
+      "date": "2026-10-19"
+    },
+    {
+      "playerId": 8470775,
+      "name": "Thompson, Nate",
+      "season": "2006-07",
+      "cardNumber": "455",
+      "set": "Upper Deck",
+      "source": "owner collection records",
+      "date": "2026-10-19"
+    },
+    {
+      "playerId": 8471226,
+      "name": "Stafford, Drew",
+      "season": "2006-07",
+      "cardNumber": "456",
+      "set": "Upper Deck",
+      "source": "owner collection records",
+      "date": "2026-10-19"
+    },
+    {
+      "playerId": 8473412,
+      "name": "Little, Bryan",
+      "season": "2007-08",
+      "cardNumber": "205",
+      "set": "Upper Deck",
+      "source": "owner collection records",
+      "date": "2026-10-19"
+    },
+    {
+      "playerId": 8470828,
+      "name": "Enstrom, Toby",
+      "season": "2007-08",
+      "cardNumber": "206",
+      "set": "Upper Deck",
+      "source": "owner collection records",
+      "date": "2026-10-19"
+    },
+    {
+      "playerId": 8474040,
+      "name": "Gagner, Sam",
+      "season": "2007-08",
+      "cardNumber": "218",
+      "set": "Upper Deck",
+      "source": "owner collection records",
+      "date": "2026-10-19"
+    },
+    {
+      "playerId": 8473604,
+      "name": "Toews, Jonathan",
+      "season": "2007-08",
+      "cardNumber": "462",
+      "set": "Upper Deck",
+      "source": "owner collection records",
+      "date": "2026-10-19"
+    },
+    {
+      "playerId": 8470854,
+      "name": "Glass, Tanner",
+      "season": "2007-08",
+      "cardNumber": "475",
+      "set": "Upper Deck",
+      "source": "owner collection records",
+      "date": "2026-10-19"
+    },
+    {
+      "playerId": 8471682,
+      "name": "Setoguchi, Devin",
+      "season": "2007-08",
+      "cardNumber": "493",
+      "set": "Upper Deck",
+      "source": "owner collection records",
+      "date": "2026-10-19"
+    },
+    {
+      "playerId": 8473482,
+      "name": "Tlusty, Jiri",
+      "season": "2007-08",
+      "cardNumber": "497",
+      "set": "Upper Deck",
+      "source": "owner collection records",
+      "date": "2026-10-19"
+    },
+    {
+      "playerId": 8474567,
+      "name": "Bogosian, Zach",
+      "season": "2008-09",
+      "cardNumber": "201",
+      "set": "Upper Deck",
+      "source": "owner collection records",
+      "date": "2026-10-19"
+    },
+    {
+      "playerId": 8471218,
+      "name": "Wheeler, Blake",
+      "season": "2008-09",
+      "cardNumber": "202",
+      "set": "Upper Deck",
+      "source": "owner collection records",
+      "date": "2026-10-19"
+    },
+    {
+      "playerId": 8471385,
+      "name": "Pardy, Adam",
+      "season": "2008-09",
+      "cardNumber": "203",
+      "set": "Upper Deck",
+      "source": "owner collection records",
+      "date": "2026-10-19"
+    },
+    {
+      "playerId": 8473564,
+      "name": "Frolik, Michael",
+      "season": "2008-09",
+      "cardNumber": "217",
+      "set": "Upper Deck",
+      "source": "owner collection records",
+      "date": "2026-10-19"
+    },
+    {
+      "playerId": 8473574,
+      "name": "Matthias, Shawn",
+      "season": "2008-09",
+      "cardNumber": "219",
+      "set": "Upper Deck",
+      "source": "owner collection records",
+      "date": "2026-10-19"
+    },
+    {
+      "playerId": 8474579,
+      "name": "Sbisa, Luca",
+      "season": "2008-09",
+      "cardNumber": "234",
+      "set": "Upper Deck",
+      "source": "owner collection records",
+      "date": "2026-10-19"
+    },
+    {
+      "playerId": 8474568,
+      "name": "Schenn, Luke",
+      "season": "2008-09",
+      "cardNumber": "248",
+      "set": "Upper Deck",
+      "source": "owner collection records",
+      "date": "2026-10-19"
+    },
+    {
+      "playerId": 8471978,
+      "name": "Festerling, Brett",
+      "season": "2008-09",
+      "cardNumber": "452",
+      "set": "Upper Deck",
+      "source": "owner collection records",
+      "date": "2026-10-19"
+    },
+    {
+      "playerId": 8474094,
+      "name": "Halischuk, Matt",
+      "season": "2008-09",
+      "cardNumber": "475",
+      "set": "Upper Deck",
+      "source": "owner collection records",
+      "date": "2026-10-19"
+    },
+    {
+      "playerId": 8471694,
+      "name": "McArdle, Kenndal",
+      "season": "2008-09",
+      "cardNumber": "484",
+      "set": "Upper Deck",
+      "source": "owner collection records",
+      "date": "2026-10-19"
+    },
+    {
+      "playerId": 8475169,
+      "name": "Kane, Evander",
+      "season": "2009-10",
+      "cardNumber": "205",
+      "set": "Upper Deck",
+      "source": "owner collection records",
+      "date": "2026-10-19"
+    },
+    {
+      "playerId": 8475179,
+      "name": "Kulikov, Dmitry",
+      "season": "2009-10",
+      "cardNumber": "211",
+      "set": "Upper Deck",
+      "source": "owner collection records",
+      "date": "2026-10-19"
+    },
+    {
+      "playerId": 8474574,
+      "name": "Myers, Tyler",
+      "season": "2009-10",
+      "cardNumber": "214",
+      "set": "Upper Deck",
+      "source": "owner collection records",
+      "date": "2026-10-19"
+    },
+    {
+      "playerId": 8474146,
+      "name": "Machacek, Spencer",
+      "season": "2009-10",
+      "cardNumber": "219",
+      "set": "Upper Deck",
+      "source": "owner collection records",
+      "date": "2026-10-19"
+    },
+    {
+      "playerId": 8474001,
+      "name": "Galiardi, TJ",
+      "season": "2009-10",
+      "cardNumber": "241",
+      "set": "Upper Deck",
+      "source": "owner collection records",
+      "date": "2026-10-19"
+    },
+    {
+      "playerId": 8474674,
+      "name": "Wright, James",
+      "season": "2009-10",
+      "cardNumber": "243",
+      "set": "Upper Deck",
+      "source": "owner collection records",
+      "date": "2026-10-19"
+    },
+    {
+      "playerId": 8468611,
+      "name": "Hendricks, Matt",
+      "season": "2009-10",
+      "cardNumber": "247",
+      "set": "Upper Deck",
+      "source": "owner collection records",
+      "date": "2026-10-19"
+    },
+    {
+      "playerId": 8471390,
+      "name": "Santorelli, Mike",
+      "season": "2009-10",
+      "cardNumber": "248",
+      "set": "Upper Deck",
+      "source": "owner collection records",
+      "date": "2026-10-19"
+    },
+    {
+      "playerId": 8471451,
+      "name": "Gagnon, Aaron",
+      "season": "2009-10",
+      "cardNumber": "459",
+      "set": "Upper Deck",
+      "source": "owner collection records",
+      "date": "2026-10-19"
+    },
+    {
+      "playerId": 8473914,
+      "name": "Letestu, Mark",
+      "season": "2009-10",
+      "cardNumber": "486",
+      "set": "Upper Deck",
+      "source": "owner collection records",
+      "date": "2026-10-19"
+    },
+    {
+      "playerId": 8473618,
+      "name": "Perreault, Mathieu",
+      "season": "2009-10",
+      "cardNumber": "498",
+      "set": "Upper Deck",
+      "source": "owner collection records",
+      "date": "2026-10-19"
+    },
+    {
+      "playerId": 8475788,
+      "name": "Burmistrov, Alexander",
+      "season": "2010-11",
+      "cardNumber": "203",
+      "set": "Upper Deck",
+      "source": "owner collection records",
+      "date": "2026-10-19"
+    },
+    {
+      "playerId": 8473459,
+      "name": "Kulda, Arturs",
+      "season": "2010-11",
+      "cardNumber": "204",
+      "set": "Upper Deck",
+      "source": "owner collection records",
+      "date": "2026-10-19"
+    },
+    {
+      "playerId": 8474025,
+      "name": "Tangradi, Eric",
+      "season": "2010-11",
+      "cardNumber": "241",
+      "set": "Upper Deck",
+      "source": "owner collection records",
+      "date": "2026-10-19"
+    },
+    {
+      "playerId": 8475799,
+      "name": "Niederreiter, Nino",
+      "season": "2010-11",
+      "cardNumber": "482",
+      "set": "Upper Deck",
+      "source": "owner collection records",
+      "date": "2026-10-19"
+    },
+    {
+      "playerId": 8475159,
+      "name": "Klingberg, Carl",
+      "season": "2011-12",
+      "cardNumber": "247",
+      "set": "Upper Deck",
+      "source": "owner collection records",
+      "date": "2026-10-19"
+    },
+    {
+      "playerId": 8476460,
+      "name": "Scheifele, Mark",
+      "season": "2011-12",
+      "cardNumber": "248",
+      "set": "Upper Deck",
+      "source": "owner collection records",
+      "date": "2026-10-19"
+    },
+    {
+      "playerId": 8474074,
+      "name": "Postma, Paul",
+      "season": "2011-12",
+      "cardNumber": "249",
+      "set": "Upper Deck",
+      "source": "owner collection records",
+      "date": "2026-10-19"
+    },
+    {
+      "playerId": 8474062,
+      "name": "Nash, Riley",
+      "season": "2011-12",
+      "cardNumber": "460",
+      "set": "Upper Deck",
+      "source": "owner collection records",
+      "date": "2026-10-19"
+    },
+    {
+      "playerId": 8474818,
+      "name": "Benn, Jordie",
+      "season": "2011-12",
+      "cardNumber": "466",
+      "set": "Upper Deck",
+      "source": "owner collection records",
+      "date": "2026-10-19"
+    },
+    {
+      "playerId": 8474679,
+      "name": "Nyquist, Gustav",
+      "season": "2011-12",
+      "cardNumber": "468",
+      "set": "Upper Deck",
+      "source": "owner collection records",
+      "date": "2026-10-19"
+    },
+    {
+      "playerId": 8475268,
+      "name": "Bourque, Gabriel",
+      "season": "2011-12",
+      "cardNumber": "477",
+      "set": "Upper Deck",
+      "source": "owner collection records",
+      "date": "2026-10-19"
+    },
+    {
+      "playerId": 8475236,
+      "name": "Eakin, Cody",
+      "season": "2011-12",
+      "cardNumber": "499",
+      "set": "Upper Deck",
+      "source": "owner collection records",
+      "date": "2026-10-19"
+    },
+    {
+      "playerId": 8475455,
+      "name": "Dillon, Brenden",
+      "season": "2012-13",
+      "cardNumber": "220",
+      "set": "Upper Deck",
+      "source": "owner collection records",
+      "date": "2026-10-19"
+    },
+    {
+      "playerId": 8476470,
+      "name": "Beaulieu, Nathan",
+      "season": "2013-14",
+      "cardNumber": "207",
+      "set": "Upper Deck",
+      "source": "owner collection records",
+      "date": "2026-10-19"
+    },
+    {
+      "playerId": 8476885,
+      "name": "Trouba, Jacob",
+      "season": "2013-14",
+      "cardNumber": "237",
+      "set": "Upper Deck",
+      "source": "owner collection records",
+      "date": "2026-10-19"
+    },
+    {
+      "playerId": 8477497,
+      "name": "Monahan, Sean",
+      "season": "2013-14",
+      "cardNumber": "242",
+      "set": "Upper Deck",
+      "source": "owner collection records",
+      "date": "2026-10-19"
+    },
+    {
+      "playerId": 8475726,
+      "name": "Toffoli, Tyler",
+      "season": "2013-14",
+      "cardNumber": "246",
+      "set": "Upper Deck",
+      "source": "owner collection records",
+      "date": "2026-10-19"
+    },
+    {
+      "playerId": 8476871,
+      "name": "Pearson, Tanner",
+      "season": "2013-14",
+      "cardNumber": "498",
+      "set": "Upper Deck",
+      "source": "owner collection records",
+      "date": "2026-10-19"
+    },
+    {
+      "playerId": 8476480,
+      "name": "Namestnikov, Vladislav",
+      "season": "2014-15",
+      "cardNumber": "243",
+      "set": "Upper Deck",
+      "source": "owner collection records",
+      "date": "2026-10-19"
+    },
+    {
+      "playerId": 8476392,
+      "name": "Lowry, Adam",
+      "season": "2014-15",
+      "cardNumber": "249",
+      "set": "Upper Deck",
+      "source": "owner collection records",
+      "date": "2026-10-19"
+    },
+    {
+      "playerId": 8476476,
+      "name": "Morrow, Joe",
+      "season": "2014-15",
+      "cardNumber": "451",
+      "set": "Upper Deck",
+      "source": "owner collection records",
+      "date": "2026-10-19"
+    },
+    {
+      "playerId": 8477448,
+      "name": "Dano, Marko",
+      "season": "2014-15",
+      "cardNumber": "452",
+      "set": "Upper Deck",
+      "source": "owner collection records",
+      "date": "2026-10-19"
+    },
+    {
+      "playerId": 8476469,
+      "name": "Armia, Joel",
+      "season": "2014-15",
+      "cardNumber": "460",
+      "set": "Upper Deck",
+      "source": "owner collection records",
+      "date": "2026-10-19"
+    },
+    {
+      "playerId": 8475763,
+      "name": "Hayes, Kevin",
+      "season": "2014-15",
+      "cardNumber": "490",
+      "set": "Upper Deck",
+      "source": "owner collection records",
+      "date": "2026-10-19"
+    },
+    {
+      "playerId": 8477429,
+      "name": "Copp, Andrew",
+      "season": "2015-16",
+      "cardNumber": "205",
+      "set": "Upper Deck",
+      "source": "owner collection records",
+      "date": "2026-10-19"
+    },
+    {
+      "playerId": 8476406,
+      "name": "Shore, Nicholas",
+      "season": "2015-16",
+      "cardNumber": "216",
+      "set": "Upper Deck",
+      "source": "owner collection records",
+      "date": "2026-10-19"
+    },
+    {
+      "playerId": 8477940,
+      "name": "Ehlers, Nikolaj",
+      "season": "2015-16",
+      "cardNumber": "223",
+      "set": "Upper Deck",
+      "source": "owner collection records",
+      "date": "2026-10-19"
+    },
+    {
+      "playerId": 8477464,
+      "name": "Petan, Nic",
+      "season": "2015-16",
+      "cardNumber": "227",
+      "set": "Upper Deck",
+      "source": "owner collection records",
+      "date": "2026-10-19"
+    },
+    {
+      "playerId": 8476525,
+      "name": "Miller, Colin",
+      "season": "2015-16",
+      "cardNumber": "247",
+      "set": "Upper Deck",
+      "source": "owner collection records",
+      "date": "2026-10-19"
+    },
+    {
+      "playerId": 8476400,
+      "name": "Shaw, Logan",
+      "season": "2015-16",
+      "cardNumber": "454",
+      "set": "Upper Deck",
+      "source": "owner collection records",
+      "date": "2026-10-19"
+    },
+    {
+      "playerId": 8476331,
+      "name": "DeMelo, Dylan",
+      "season": "2015-16",
+      "cardNumber": "467",
+      "set": "Upper Deck",
+      "source": "owner collection records",
+      "date": "2026-10-19"
+    },
+    {
+      "playerId": 8475762,
+      "name": "Forbort, Derek",
+      "season": "2015-16",
+      "cardNumber": "473",
+      "set": "Upper Deck",
+      "source": "owner collection records",
+      "date": "2026-10-19"
+    },
+    {
+      "playerId": 8478398,
+      "name": "Connor, Kyle",
+      "season": "2016-17",
+      "cardNumber": "212",
+      "set": "Upper Deck",
+      "source": "owner collection records",
+      "date": "2026-10-19"
+    },
+    {
+      "playerId": 8477482,
+      "name": "Sanford, Zachary",
+      "season": "2016-17",
+      "cardNumber": "215",
+      "set": "Upper Deck",
+      "source": "owner collection records",
+      "date": "2026-10-19"
+    },
+    {
+      "playerId": 8477504,
+      "name": "Morrissey, Josh",
+      "season": "2016-17",
+      "cardNumber": "226",
+      "set": "Upper Deck",
+      "source": "owner collection records",
+      "date": "2026-10-19"
+    },
+    {
+      "playerId": 8479339,
+      "name": "Laine, Patrik",
+      "season": "2016-17",
+      "cardNumber": "451",
+      "set": "Upper Deck",
+      "source": "owner collection records",
+      "date": "2026-10-19"
+    },
+    {
+      "playerId": 8479293,
+      "name": "Tanev, Brandon",
+      "season": "2016-17",
+      "cardNumber": "467",
+      "set": "Upper Deck",
+      "source": "owner collection records",
+      "date": "2026-10-19"
+    },
+    {
+      "playerId": 8478029,
+      "name": "De Leo, Chase",
+      "season": "2016-17",
+      "cardNumber": "485",
+      "set": "Upper Deck",
+      "source": "owner collection records",
+      "date": "2026-10-19"
+    },
+    {
+      "playerId": 8479400,
+      "name": "Dubois, Pierre-Luc",
+      "season": "2017-18",
+      "cardNumber": "204",
+      "set": "Upper Deck",
+      "source": "owner collection records",
+      "date": "2026-10-19"
+    },
+    {
+      "playerId": 8478431,
+      "name": "Svechnikov, Evgeny",
+      "season": "2017-18",
+      "cardNumber": "224",
+      "set": "Upper Deck",
+      "source": "owner collection records",
+      "date": "2026-10-19"
+    },
+    {
+      "playerId": 8477938,
+      "name": "Fleury, Haydn",
+      "season": "2017-18",
+      "cardNumber": "236",
+      "set": "Upper Deck",
+      "source": "owner collection records",
+      "date": "2026-10-19"
+    },
+    {
+      "playerId": 8478458,
+      "name": "Roslovic, Jack",
+      "season": "2017-18",
+      "cardNumber": "240",
+      "set": "Upper Deck",
+      "source": "owner collection records",
+      "date": "2026-10-19"
+    },
+    {
+      "playerId": 8480113,
+      "name": "Iafallo, Alex",
+      "season": "2017-18",
+      "cardNumber": "458",
+      "set": "Upper Deck",
+      "source": "owner collection records",
+      "date": "2026-10-19"
+    },
+    {
+      "playerId": 8477962,
+      "name": "Lemieux, Brendan",
+      "season": "2017-18",
+      "cardNumber": "487",
+      "set": "Upper Deck",
+      "source": "owner collection records",
+      "date": "2026-10-19"
+    },
+    {
+      "playerId": 8478476,
+      "name": "Capobianco, Kyle",
+      "season": "2017-18",
+      "cardNumber": "495",
+      "set": "Upper Deck",
+      "source": "owner collection records",
+      "date": "2026-10-19"
+    },
+    {
+      "playerId": 8476952,
+      "name": "Toninato, Dominic",
+      "season": "2017-18",
+      "cardNumber": "511",
+      "set": "Upper Deck",
+      "source": "owner collection records",
+      "date": "2026-10-19"
+    },
+    {
+      "playerId": 8480145,
+      "name": "Pionk, Neal",
+      "season": "2018-19",
+      "cardNumber": "212",
+      "set": "Upper Deck",
+      "source": "owner collection records",
+      "date": "2026-10-19"
+    },
+    {
+      "playerId": 8480944,
+      "name": "Lindholm, Par",
+      "season": "2018-19",
+      "cardNumber": "243",
+      "set": "Upper Deck",
+      "source": "owner collection records",
+      "date": "2026-10-19"
+    },
+    {
+      "playerId": 8480005,
+      "name": "Vesalainen, Kristian",
+      "season": "2018-19",
+      "cardNumber": "244",
+      "set": "Upper Deck",
+      "source": "owner collection records",
+      "date": "2026-10-19"
+    },
+    {
+      "playerId": 8479994,
+      "name": "Anderson-Dolan, Jaret",
+      "season": "2018-19",
+      "cardNumber": "454",
+      "set": "Upper Deck",
+      "source": "owner collection records",
+      "date": "2026-10-19"
+    },
+    {
+      "playerId": 8478915,
+      "name": "Niku, Sami",
+      "season": "2018-19",
+      "cardNumber": "474",
+      "set": "Upper Deck",
+      "source": "owner collection records",
+      "date": "2026-10-19"
+    },
+    {
+      "playerId": 8478891,
+      "name": "Appleton, Mason",
+      "season": "2018-19",
+      "cardNumber": "516",
+      "set": "Upper Deck",
+      "source": "owner collection records",
+      "date": "2026-10-19"
+    },
+    {
+      "playerId": 8481572,
+      "name": "Heinola, Ville",
+      "season": "2019-20",
+      "cardNumber": "204",
+      "set": "Upper Deck",
+      "source": "owner collection records",
+      "date": "2026-10-19"
+    },
+    {
+      "playerId": 8478831,
+      "name": "Stenlund, Kevin",
+      "season": "2019-20",
+      "cardNumber": "211",
+      "set": "Upper Deck",
+      "source": "owner collection records",
+      "date": "2026-10-19"
+    },
+    {
+      "playerId": 8480901,
+      "name": "Kuhlman, Karson",
+      "season": "2019-20",
+      "cardNumber": "248",
+      "set": "Upper Deck",
+      "source": "owner collection records",
+      "date": "2026-10-19"
+    },
+    {
+      "playerId": 8481019,
+      "name": "Gustafsson, David",
+      "season": "2019-20",
+      "cardNumber": "461",
+      "set": "Upper Deck",
+      "source": "owner collection records",
+      "date": "2026-10-19"
+    },
+    {
+      "playerId": 8481649,
+      "name": "Luoto, Joona",
+      "season": "2019-20",
+      "cardNumber": "487",
+      "set": "Upper Deck",
+      "source": "owner collection records",
+      "date": "2026-10-19"
+    },
+    {
+      "playerId": 8478996,
+      "name": "Brooks, Adam",
+      "season": "2019-20",
+      "cardNumber": "526",
+      "set": "Upper Deck",
+      "source": "owner collection records",
+      "date": "2026-10-19"
+    },
+    {
+      "playerId": 8479639,
+      "name": "Coghlan, Dylan",
+      "season": "2020-21",
+      "cardNumber": "214",
+      "set": "Upper Deck",
+      "source": "owner collection records",
+      "date": "2026-10-19"
+    },
+    {
+      "playerId": 8480014,
+      "name": "Vilardi, Gabriel",
+      "season": "2020-21",
+      "cardNumber": "215",
+      "set": "Upper Deck",
+      "source": "owner collection records",
+      "date": "2026-10-19"
+    },
+    {
+      "playerId": 8478424,
+      "name": "Harkins, Jansen",
+      "season": "2020-21",
+      "cardNumber": "229",
+      "set": "Upper Deck",
+      "source": "owner collection records",
+      "date": "2026-10-19"
+    },
+    {
+      "playerId": 8478040,
+      "name": "Poganski, Austin",
+      "season": "2020-21",
+      "cardNumber": "460",
+      "set": "Upper Deck",
+      "source": "owner collection records",
+      "date": "2026-10-19"
+    },
+    {
+      "playerId": 8479378,
+      "name": "Stanley, Logan",
+      "season": "2020-21",
+      "cardNumber": "703",
+      "set": "Upper Deck",
+      "source": "owner collection records",
+      "date": "2026-10-19"
+    },
+    {
+      "playerId": 8480289,
+      "name": "Barron, Morgan",
+      "season": "2021-22",
+      "cardNumber": "215",
+      "set": "Upper Deck",
+      "source": "owner collection records",
+      "date": "2026-10-19"
+    },
+    {
+      "playerId": 8480845,
+      "name": "Kupari, Rasmus",
+      "season": "2021-22",
+      "cardNumber": "242",
+      "set": "Upper Deck",
+      "source": "owner collection records",
+      "date": "2026-10-19"
+    },
+    {
+      "playerId": 8482149,
+      "name": "Perfetti, Cole",
+      "season": "2021-22",
+      "cardNumber": "466",
+      "set": "Upper Deck",
+      "source": "owner collection records",
+      "date": "2026-10-19"
+    },
+    {
+      "playerId": 8479536,
+      "name": "Jonsson-Fjallby, Axel",
+      "season": "2021-22",
+      "cardNumber": "734",
+      "set": "Upper Deck",
+      "source": "owner collection records",
+      "date": "2026-10-19"
+    },
+    {
+      "playerId": 8480192,
+      "name": "Kovacevic, Johnathan",
+      "season": "2022-23",
+      "cardNumber": "223",
+      "set": "Upper Deck",
+      "source": "owner collection records",
+      "date": "2026-10-19"
+    },
+    {
+      "playerId": 8480049,
+      "name": "Samberg, Dylan",
+      "season": "2022-23",
+      "cardNumber": "233",
+      "set": "Upper Deck",
+      "source": "owner collection records",
+      "date": "2026-10-19"
+    },
+    {
+      "playerId": 8482408,
+      "name": "Malott, Jeff",
+      "season": "2022-23",
+      "cardNumber": "247",
+      "set": "Upper Deck",
+      "source": "owner collection records",
+      "date": "2026-10-19"
+    },
+    {
+      "playerId": 8479591,
+      "name": "Eyssimont, Michael",
+      "season": "2022-23",
+      "cardNumber": "457",
+      "set": "Upper Deck",
+      "source": "owner collection records",
+      "date": "2026-10-19"
+    },
+    {
+      "playerId": 8481043,
+      "name": "Koepke, Cole",
+      "season": "2022-23",
+      "cardNumber": "484",
+      "set": "Upper Deck",
+      "source": "owner collection records",
+      "date": "2026-10-19"
+    },
+    {
+      "playerId": 8480990,
+      "name": "Chisholm, Declan",
+      "season": "2022-23",
+      "cardNumber": "486",
+      "set": "Upper Deck",
+      "source": "owner collection records",
+      "date": "2026-10-19"
+    },
+    {
+      "playerId": 8483471,
+      "name": "Lambert, Brad",
+      "season": "2024-25",
+      "cardNumber": "228",
+      "set": "Upper Deck",
+      "source": "owner collection records",
+      "date": "2026-10-19"
+    },
+    {
+      "playerId": 8482787,
+      "name": "Chibrikov, Nikita",
+      "season": "2024-25",
+      "cardNumber": "245",
+      "set": "Upper Deck",
+      "source": "owner collection records",
+      "date": "2026-10-19"
+    },
+    {
+      "playerId": 8483487,
+      "name": "McGroarty, Rutger",
+      "season": "2024-25",
+      "cardNumber": "474",
+      "set": "Upper Deck",
+      "source": "owner collection records",
+      "date": "2026-10-19"
+    },
+    {
+      "playerId": 8471219,
+      "name": "Montoya, Al",
+      "season": "2005-06",
+      "cardNumber": "455",
+      "set": "Upper Deck",
+      "source": "owner collection records",
+      "date": "2026-10-19"
+    },
+    {
+      "playerId": 8471715,
+      "name": "Pavelec, Ondrej",
+      "season": "2007-08",
+      "cardNumber": "453",
+      "set": "Upper Deck",
+      "source": "owner collection records",
+      "date": "2026-10-19"
+    },
+    {
+      "playerId": 8473461,
+      "name": "Mason, Steve",
+      "season": "2008-09",
+      "cardNumber": "208",
+      "set": "Upper Deck",
+      "source": "owner collection records",
+      "date": "2026-10-19"
+    },
+    {
+      "playerId": 8474636,
+      "name": "Hutchinson, Michael",
+      "season": "2012-13",
+      "cardNumber": "206",
+      "set": "Upper Deck",
+      "source": "owner collection records",
+      "date": "2026-10-19"
+    },
+    {
+      "playerId": 8476316,
+      "name": "Brossoit, Laurent",
+      "season": "2014-15",
+      "cardNumber": "458",
+      "set": "Upper Deck",
+      "source": "owner collection records",
+      "date": "2026-10-19"
+    },
+    {
+      "playerId": 8476945,
+      "name": "Hellebuyck, Connor",
+      "season": "2015-16",
+      "cardNumber": "214",
+      "set": "Upper Deck",
+      "source": "owner collection records",
+      "date": "2026-10-19"
+    },
+    {
+      "playerId": 8477480,
+      "name": "Comrie, Eric",
+      "season": "2017-18",
+      "cardNumber": "476",
+      "set": "Upper Deck",
+      "source": "owner collection records",
+      "date": "2026-10-19"
+    }
+  ]
+}

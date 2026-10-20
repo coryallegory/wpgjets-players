@@ -51,6 +51,18 @@ Routine: `npm run get:nhl` -> `npm run sync:nhl` (dry run, review the report) ->
   source. `--apply` refuses while review items/conflicts are open; `--apply --allow-open` writes only
   the safe parts. The result must pass validation or nothing is written. Idempotent.
 
+## Rookie cards: importing decisions
+
+Routine: refresh the page decisions with the ArtifactData tool (`list` collection `decisions` of the
+review artifact, `out_dir` `temp/review/decisions/`), then `npm run import:cards` (dry run: added /
+changed records, warnings, conflicts) and `npm run import:cards -- --apply`. Sources:
+`data/decisions/young-guns-verified.json`, the owner-confirmed Hull and Selanne records, and
+review-page approvals (`approve` / `no-card`; `none` = note only, ignored), joined to the candidates
+in `temp/reference/cards-baseline.json` by scpId / comcUrl. Existing records are never silently
+changed: changes are listed and only written with `--apply`; conflicts between sources are never
+written; records no source produces are left alone. Then `npm run validate`. Needs the baseline
+(`temp/`, rebuildable with `get-cards-baseline-build.mjs`).
+
 ## Decision files (`data/decisions/`)
 
 - `nhl-sync-decisions.json`: `{ id, resolution: "accept" | "keep-curated", note, value }` with ids

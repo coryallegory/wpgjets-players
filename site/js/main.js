@@ -5,6 +5,7 @@ import { nextSort, sortRows } from './lib/sort.js';
 import { createHeader, renderMessage, renderRows } from './table.js';
 
 const DATA_URL = 'data/curated/players.json';
+const CARDS_URL = 'data/curated/cards.json';
 const HIDDEN_KEY = 'wpgjets.hiddenColumns';
 
 // Browser storage can be unavailable or throw (private windows, blocked site data).
@@ -114,7 +115,16 @@ async function load() {
   try {
     const response = await fetch(DATA_URL);
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
-    state.rows = (await response.json()).map(toRow);
+    const players = await response.json();
+    // Cards are optional: without them every Rookie Card cell is simply blank.
+    let cards = {};
+    try {
+      const cardsResponse = await fetch(CARDS_URL);
+      if (cardsResponse.ok) cards = await cardsResponse.json();
+    } catch {
+      // keep the table usable without card data
+    }
+    state.rows = players.map((p) => toRow(p, cards[p.playerId] ?? null));
     render();
   } catch (error) {
     countEl.textContent = '';
